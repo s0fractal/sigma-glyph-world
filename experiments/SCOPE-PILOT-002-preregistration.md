@@ -54,6 +54,12 @@ Deduplicate by canonical issue URL. Sort candidates by
 subject only to the strata constraints below. The query receipts and complete
 ordered candidate list are retained.
 
+Each repository/term query requests at most 100 issues, sorted by issue creation
+time ascending. GitHub's reported `total_count`, `incomplete_results`, retrieval
+time, and SHA-256 of the raw API response are retained. Results beyond the first
+100 for a repository/term pair are outside this pilot's operational frame. This
+cap is a sampling convention, not a claim that the search universe is complete.
+
 Search stops at 12 admitted packets or 60 screened candidates, whichever comes
 first. No repository contributes more than 2 admitted incidents. The admitted
 set must contain at least 3 control kinds and at least 2 cases each expected to

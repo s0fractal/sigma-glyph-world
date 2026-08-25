@@ -43,6 +43,8 @@ def main() -> int:
         "minimum_control_kinds": 3,
     }:
         errors.append("sampling stop rule changed")
+    if frame.get("per_query") != {"maximum_results": 100, "sort": "created", "order": "asc"}:
+        errors.append("per-query result boundary changed")
 
     old_candidates = load(REPO / "experiments" / "scope-pilot-001" / "candidates.json")["candidates"]
     old_repositories = {candidate["repository"].lower() for candidate in old_candidates}

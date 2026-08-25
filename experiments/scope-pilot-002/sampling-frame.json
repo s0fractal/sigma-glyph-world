@@ -4,6 +4,11 @@
   "created_from": "2020-01-01",
   "created_to": "2025-12-31",
   "candidate_state": "closed",
+  "per_query": {
+    "maximum_results": 100,
+    "sort": "created",
+    "order": "asc"
+  },
   "stop": {
     "admitted": 12,
     "screened": 60,
