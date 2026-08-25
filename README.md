@@ -27,8 +27,9 @@ verification system.
   — a retired-corpus calibration that separates observed behavior from the
   independently evidenced meaning of success;
 - [`experiments/SCOPE-PILOT-002-preregistration.md`](experiments/SCOPE-PILOT-002-preregistration.md)
-  — the fresh-corpus protocol with a machine-checked sampling frame, contract
-  admission gate, component topology, and frozen authored controls.
+  and [`experiments/scope-pilot-002/PILOT-RESULT.md`](experiments/scope-pilot-002/PILOT-RESULT.md)
+  — a fresh-corpus protocol retired when a repository alias made its supposedly
+  unique sampling frame invalid before any candidate was frozen.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
