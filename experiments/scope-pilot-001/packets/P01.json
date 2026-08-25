@@ -1,0 +1,73 @@
+{
+  "packet_version": 1,
+  "packet_id": "P01",
+  "repository": "laravel/pao",
+  "incident_date": "2026-05-17..2026-05-31",
+  "control_kind": "tests",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/laravel/pao/issues/28",
+      "kind": "issue",
+      "evidence_excerpt": "Pest exited 1 for no matches while PAO emitted result passed and tests zero."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/laravel/pao/commit/a6eb1a69c3a041f0b0ca05806a01471e38d26e15",
+      "kind": "commit",
+      "evidence_excerpt": "The merged fix treats zero Pest tests as failure and adds a no-match regression test."
+    }
+  ],
+  "intended_control": "Run a named Pest test selection and report its verification result to an agent.",
+  "false_acceptance": "The agent-facing JSON said passed even though no test matched and Pest returned a failure status.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The supplied filter selected zero tests and Pest exited non-zero.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "PAO represented that run as result passed with zero tests.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The false success was introduced by the reporting wrapper, because the underlying runner already failed closed.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Set AI_AGENT=codex in a PAO-enabled Laravel project.",
+      "Run php artisan test with a filter that cannot match any test.",
+      "Compare PAO JSON, process status, and the PAO_DISABLE=1 diagnostic."
+    ],
+    "observed": "Process status 1; PAO JSON reported passed with tests=0.",
+    "expected": "A failed result retaining the no-tests diagnostic."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue contains commands, status, and observed JSON.",
+      "The fix commit is merged and includes regression coverage."
+    ],
+    "derivations": [
+      "No-test vacuity exists in the reported result, but exit-status propagation is necessary for the false success."
+    ],
+    "unknowns": [
+      "The packet does not establish how many downstream agents treated the JSON as a governing gate."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["VACUOUS_ACCEPTANCE", "HARNESS_ORCHESTRATION_DEFECT"],
+    "primary": "HARNESS_ORCHESTRATION_DEFECT",
+    "scope_controlled_by_audited_artifact": "no",
+    "counterclassification": {
+      "label": "VACUOUS_ACCEPTANCE",
+      "would_be_primary_if": "The underlying runner itself returned success for zero selected tests rather than the wrapper reversing a failure."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "VERIFIED"
+}

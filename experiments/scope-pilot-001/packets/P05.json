@@ -1,0 +1,66 @@
+{
+  "packet_version": 1,
+  "packet_id": "P05",
+  "repository": "actions/upload-artifact",
+  "incident_date": "2023-11-28",
+  "control_kind": "artifact/conformance validation",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/actions/upload-artifact/issues/457",
+      "kind": "issue",
+      "evidence_excerpt": "With error configured, one existing and one absent path completed without an error."
+    }
+  ],
+  "intended_control": "Upload two declared artifact paths and fail the workflow when a declared output is absent.",
+  "false_acceptance": "The action succeeded because at least one path matched, leaving the second declared artifact absent without failing the gate.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The workflow declares first_dir and second_dir under one upload step with if-no-files-found set to error.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "The reproducer creates only first_dir and reports that no error is emitted for missing second_dir.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The option guards emptiness of the combined match set rather than completeness of each declared path.",
+      "evidence": ["E1"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Create first_dir/file1.txt in a GitHub Actions job and do not create second_dir.",
+      "Invoke actions/upload-artifact@v3.1.3 with both paths and if-no-files-found:error.",
+      "Observe whether the action fails."
+    ],
+    "observed": "The upload step emitted no error although second_dir did not exist.",
+    "expected": "The missing declared path should fail the step."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue provides a complete minimal workflow and observed behavior."
+    ],
+    "derivations": [
+      "The success contract is ambiguous between any-match and every-declared-path semantics."
+    ],
+    "unknowns": [
+      "The open issue contains no maintainer ruling that every path was part of the action's promised contract."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["STATEMENT_WEAKENED", "TOOL_BLIND_SPOT"],
+    "primary": "CONTESTED",
+    "scope_controlled_by_audited_artifact": "yes",
+    "counterclassification": {
+      "label": "OUT_OF_SCOPE",
+      "would_be_primary_if": "The documented contract defines error only when the union of all patterns is empty, making per-path completeness an unsupported expectation."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "SUPPORTED"
+}

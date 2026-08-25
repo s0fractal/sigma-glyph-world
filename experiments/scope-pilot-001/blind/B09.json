@@ -1,0 +1,67 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B09",
+  "incident_date": "2022-06-24",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "The group runner selected zero of 74 suites and zero tests, then exited zero."
+    },
+    {
+      "id": "E2",
+      "kind": "issue",
+      "evidence_excerpt": "The linked incident exposed a broken group selection that the empty successful run did not reveal."
+    }
+  ],
+  "intended_control": "Use a the underlying runner group name to execute the corresponding subset and retain the underlying runner's fail-closed behavior when nothing matches.",
+  "false_acceptance": "The group runner selected no suites or tests and returned zero, masking a broken group-selection path.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The command used the grouping extension 2.2.0 with an explicit group selection.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "the underlying runner displayed zero of 74 suites and zero tests, followed by process status zero.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The custom group layer weakened the underlying runner's ordinary no-tests failure behavior.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Install the grouping extension 2.2.0 under Node.js 14.18.2 in the linked configuration.",
+      "Invoke the underlying runner with the group runner and a group whose broken mapping selects nothing.",
+      "Observe suite count, test count, and process status."
+    ],
+    "observed": "Zero of 74 suites and zero tests ran; process status was zero.",
+    "expected": "The process should fail as ordinary the underlying runner does when no tests are found."
+  },
+  "epistemic": {
+    "facts": [
+      "The report pins component and runtime versions and includes command output.",
+      "The issue explicitly links the empty run to a separate group-selection failure."
+    ],
+    "derivations": [
+      "The false success occurs at the custom runner boundary rather than in the underlying runner's stated default."
+    ],
+    "unknowns": [
+      "No fixing commit or maintainer diagnosis is linked."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

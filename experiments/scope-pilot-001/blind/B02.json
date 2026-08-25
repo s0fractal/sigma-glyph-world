@@ -1,0 +1,66 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B02",
+  "incident_date": "2019-12-04..2020-11-03",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "Selecting a nonexistent test method discovered one test, matched none, and exited zero."
+    },
+    {
+      "id": "E2",
+      "kind": "commit",
+      "evidence_excerpt": "The merged change introduced TreatNoTestsAsError for non-zero status when no tests are available."
+    }
+  ],
+  "intended_control": "Execute an explicitly selected the language runtime test and expose success or failure through process status.",
+  "false_acceptance": "A selection matching no test returned process status zero, indistinguishable to a status-only CI gate from a passing run.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The issue reproduces the behavior with a nonexistent test method.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The runner reported that no test matched and returned zero.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The merged remedy added an explicit option to make no tests an error.",
+      "evidence": [
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "documented",
+    "steps": [
+      "Build the issue's one-test the language runtime Framework project.",
+      "Invoke the test runner with /tests naming TestMethod2, which does not exist.",
+      "Observe the selection diagnostic and process status."
+    ],
+    "observed": "No test matched the selection criteria; process status was zero.",
+    "expected": "A non-zero status when the explicit selection executes no tests."
+  },
+  "epistemic": {
+    "facts": [
+      "The report supplies two reproduction routes and full console output.",
+      "The linked implementation was merged."
+    ],
+    "derivations": [
+      "A status-only external gate cannot distinguish this empty run from a successful non-empty run without the new option."
+    ],
+    "unknowns": [
+      "The report does not identify a particular production merge accepted because of this behavior."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

@@ -1,0 +1,66 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B07",
+  "incident_date": "2026-04-04..2026-07-18",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "the test runner with an empty first argument collected zero, exited zero, and masked a the caller repository test change."
+    },
+    {
+      "id": "E2",
+      "kind": "commit",
+      "evidence_excerpt": "The merged change makes empty suites exit one and adds explicit empty-file and empty-directory tests."
+    }
+  ],
+  "intended_control": "Execute the the test runner suite named by a caller-supplied path and fail if no requested tests are present.",
+  "false_acceptance": "An empty expanded path collected zero tests and returned success, so the surrounding the caller repository tests appeared to pass.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "Invoking the test runner with an empty string collected zero tests and exited zero in version 1.12.0.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The reporter encountered this after a the caller repository variable began expanding to an empty string while tests remained green.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The merged fix changes empty-suite status to one unless explicitly allowed.",
+      "evidence": [
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Install the test runner 1.12.0.",
+      "Invoke the test runner with one empty-string argument.",
+      "Observe test count and process status."
+    ],
+    "observed": "Zero tests were collected and the process exited zero.",
+    "expected": "An empty suite should exit non-zero unless the caller opts into allowing it."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue gives a one-command reproducer and a concrete masked upstream change.",
+      "The fix is merged with tests for empty files and directories."
+    ],
+    "derivations": [
+      "The governing false success is produced inside the runner's empty-suite semantics."
+    ],
+    "unknowns": [
+      "The upstream the caller repository revision affected by the masked variable change is not linked."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

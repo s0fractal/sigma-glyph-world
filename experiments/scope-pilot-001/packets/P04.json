@@ -1,0 +1,73 @@
+{
+  "packet_version": 1,
+  "packet_id": "P04",
+  "repository": "istanbuljs/nyc",
+  "incident_date": "2021-06-30",
+  "control_kind": "static analysis",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/istanbuljs/nyc/issues/1415",
+      "kind": "issue",
+      "evidence_excerpt": "With --all enabled, one tested component yielded 100% while an untouched component was absent."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/toaditoad/code-coverage-mwe/tree/205a8fe2532b0d129c2fea126d5efc17d061499d",
+      "kind": "reproducer",
+      "evidence_excerpt": "The pinned demonstration repository adds every source file as an extra webpack entry to recover coverage scope."
+    }
+  ],
+  "intended_control": "With nyc --all, report tested and untouched application source so uncovered code reduces the coverage result.",
+  "false_acceptance": "The report showed 100% while an untouched source component was omitted rather than counted uncovered.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The demonstration has a tested FooPage component and an untouched BarPage component.",
+      "evidence": ["E1", "E2"]
+    },
+    {
+      "status": "FACT",
+      "claim": "The reported result was 100% and did not list the untouched component despite --all.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The effective coverage universe followed bundler entries rather than an externally checked inventory of source files.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Check out the linked reproducer at commit 205a8fe2532b0d129c2fea126d5efc17d061499d.",
+      "Run its documented coverage command with the original single-entry configuration.",
+      "Compare the report before and after adding all source files as webpack entries."
+    ],
+    "observed": "The untouched component was omitted and the report read 100%.",
+    "expected": "The untouched component should appear uncovered and reduce total coverage."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue links a public reproducer and records the observed 100% result.",
+      "The pinned reproducer commit changes webpack entries to include every source file."
+    ],
+    "derivations": [
+      "The repository's build graph served as an unchecked proxy for the source universe."
+    ],
+    "unknowns": [
+      "The open issue does not identify whether nyc, webpack instrumentation, or their integration owns the intended --all contract."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["SCOPE_SELF_SELECTED"],
+    "primary": "SCOPE_SELF_SELECTED",
+    "scope_controlled_by_audited_artifact": "yes",
+    "counterclassification": {
+      "label": "TOOL_BLIND_SPOT",
+      "would_be_primary_if": "An external complete source inventory reached nyc and nyc still omitted an explicitly supplied untouched file."
+    },
+    "expected_multilabel": false
+  },
+  "evidence_confidence": "VERIFIED"
+}

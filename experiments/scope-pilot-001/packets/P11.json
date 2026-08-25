@@ -1,0 +1,78 @@
+{
+  "packet_version": 1,
+  "packet_id": "P11",
+  "repository": "NationalSecurityAgency/ghidra",
+  "incident_date": "2026-08-06..2026-08-16",
+  "control_kind": "tests",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/issues/9467",
+      "kind": "issue",
+      "evidence_excerpt": "One pinned aggregate run contained 47 failures but printed BUILD SUCCESSFUL and exited zero."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/pull/9506",
+      "kind": "pull_request",
+      "evidence_excerpt": "The proposed fix counts failed suites and throws only after the aggregate report is generated."
+    }
+  ],
+  "intended_control": "Run the complete unit-test report task, retain all test results, and expose any aggregate failure through process status.",
+  "false_acceptance": "The aggregate contained 47 failures while Gradle printed BUILD SUCCESSFUL and returned zero.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The pinned invocation aggregated 9,803 tests including 47 failures.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "Project test tasks used ignoreFailures so the full report could finish.",
+      "evidence": ["E1", "E2"]
+    },
+    {
+      "status": "FACT",
+      "claim": "No final aggregate assertion restored failure status; the task exited zero.",
+      "evidence": ["E1", "E2"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "Failure-tolerant execution leaked into the governing status because result collection and final adjudication were not separated.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "documented",
+    "steps": [
+      "Use repository commit ae024e2f20703161b8ca1f0415c25665b9aeb325 with at least one reproducibly failing unit test.",
+      "Run xvfb-run -a ./gradlew unitTestReport --no-daemon --max-workers=1.",
+      "Compare aggregate JUnit failures, final Gradle text, and process status."
+    ],
+    "observed": "The aggregate had 47 failures; Gradle printed BUILD SUCCESSFUL and exited zero.",
+    "expected": "Generate the complete report, then return non-zero if its failure count is non-zero."
+  },
+  "epistemic": {
+    "facts": [
+      "The report pins revision, platform, tool versions, command, aggregate counts, and exit status.",
+      "The open patch implements the causal explanation but reports that the full suite was not rerun."
+    ],
+    "derivations": [
+      "The false success arises after test execution, in propagation of aggregate results to the governing task."
+    ],
+    "unknowns": [
+      "The proposed fix is unmerged and lacks an upstream full-suite validation receipt."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["HARNESS_ORCHESTRATION_DEFECT"],
+    "primary": "HARNESS_ORCHESTRATION_DEFECT",
+    "scope_controlled_by_audited_artifact": "no",
+    "counterclassification": {
+      "label": "STATEMENT_WEAKENED",
+      "would_be_primary_if": "unitTestReport is documented as report generation only and a separate strict statement is the actual intended gate."
+    },
+    "expected_multilabel": false
+  },
+  "evidence_confidence": "VERIFIED"
+}

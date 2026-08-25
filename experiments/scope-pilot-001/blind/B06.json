@@ -1,0 +1,67 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B06",
+  "incident_date": "2023-12-01",
+  "control_kind": "static analysis",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "the upstream linter emitted nine issues with filePath '-', and the downstream analyzer imported zero for an unknown file."
+    }
+  ],
+  "intended_control": "Run the upstream linter on a Dockerfile and import every reported external issue into the the downstream analyzer analysis.",
+  "false_acceptance": "The linter found issues, but the integration attached them to '-' and the downstream analyzer imported zero issues, allowing a clean downstream view.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "the upstream linter received the Dockerfile on standard input and emitted nine the downstream analyzer-format issues.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "Each issue used filePath '-' and the downstream analyzer classified that as an unknown file.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "the downstream analyzer reported that it imported zero issues in zero files.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The interoperability seam lost target identity even though the linter observed the relevant defects.",
+      "evidence": [
+        "E1"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "documented",
+    "steps": [
+      "Pipe a Dockerfile to the the upstream linter container on standard input and request the downstream analyzer format.",
+      "Configure the downstream analyzer's external-report setting to the resulting JSON.",
+      "Run the scanner and compare the JSON issue count with imported issues."
+    ],
+    "observed": "Nine JSON issues referred to '-', while the downstream analyzer imported zero issues for an unknown file.",
+    "expected": "The downstream analysis should attach and import the reported Dockerfile issues."
+  },
+  "epistemic": {
+    "facts": [
+      "The report includes the producing command, complete issue JSON, and the downstream analyzer import log."
+    ],
+    "derivations": [
+      "The relevant defects were detected; the false clean view arose while attaching results to a governed artifact."
+    ],
+    "unknowns": [
+      "No fixing change or maintainer allocation of responsibility between the upstream linter and the downstream analyzer is linked."
+    ]
+  },
+  "evidence_confidence": "SUPPORTED"
+}

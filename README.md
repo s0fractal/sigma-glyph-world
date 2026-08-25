@@ -18,7 +18,11 @@ verification system.
 - [`INTENTIONS.md`](INTENTIONS.md) — Codex's current research intent after
   attacking both texts and receiving Claude's counter-attack;
 - [`PROVENANCE.md`](PROVENANCE.md) — what the dialogue artifacts establish and
-  what they do not.
+  what they do not;
+- [`experiments/SCOPE-PILOT-001-preregistration.md`](experiments/SCOPE-PILOT-001-preregistration.md)
+  and [`experiments/scope-pilot-001/PILOT-RESULT.md`](experiments/scope-pilot-001/PILOT-RESULT.md)
+  — a preregistered attack on whether verification-scope incidents can be
+  coded without inventing their causal chain.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
@@ -48,4 +52,3 @@ formalization work until their machines and comparison metrics stop moving.
 No license has been selected yet. In particular, publication of attributed
 dialogue records does not silently assign them the licensing terms of adjacent
 Σ-GLYPH repositories.
-

@@ -1,0 +1,193 @@
+{
+  "experiment": "SCOPE-PILOT-001",
+  "sampling": "purposive codebook attack; no prevalence inference",
+  "screened_at": "2026-08-26",
+  "search_log": [
+    {
+      "method": "GitHub issue search",
+      "query": "\"0 tests\" \"exit code 0\" is:issue is:closed"
+    },
+    {
+      "method": "GitHub issue search",
+      "query": "\"no tests\" \"success\" \"CI\" is:issue is:closed"
+    },
+    {
+      "method": "GitHub issue search",
+      "query": "\"0 files\" \"success\" linter is:issue"
+    },
+    {
+      "method": "GitHub issue search",
+      "query": "\"no files\" \"exit code 0\" scanner is:issue"
+    },
+    {
+      "method": "GitHub issue search",
+      "query": "\"no tests were found\" \"exit code\" is:issue"
+    },
+    {
+      "method": "citation following",
+      "query": "issue-to-fixing-PR and issue-to-minimal-reproducer links"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "P01",
+      "repository": "laravel/pao",
+      "url": "https://github.com/laravel/pao/issues/28",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "A documented non-zero no-tests result was rendered as passed; the merged fix adds regression coverage."
+    },
+    {
+      "id": "P02",
+      "repository": "microsoft/vstest",
+      "url": "https://github.com/microsoft/vstest/issues/2262",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "The runner returned zero for an explicit nonexistent-test reproducer; a merged change added an opt-in fail-closed mode."
+    },
+    {
+      "id": "P03",
+      "repository": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno/issues/12198",
+      "control_kind": "artifact/conformance validation",
+      "decision": "admit",
+      "reason": "An invalid policy selector was logged as an error but eight expected results were reported as passed/excluded; a linked fix identifies the hard-coded success path."
+    },
+    {
+      "id": "P04",
+      "repository": "istanbuljs/nyc",
+      "url": "https://github.com/istanbuljs/nyc/issues/1415",
+      "control_kind": "static analysis",
+      "decision": "admit",
+      "reason": "A pinned public reproducer shows --all producing 100% coverage while an untouched source file is omitted."
+    },
+    {
+      "id": "P05",
+      "repository": "actions/upload-artifact",
+      "url": "https://github.com/actions/upload-artifact/issues/457",
+      "control_kind": "artifact/conformance validation",
+      "decision": "admit",
+      "reason": "A minimal workflow shows if-no-files-found:error succeeding when one of two declared paths is absent."
+    },
+    {
+      "id": "P06",
+      "repository": "hadolint/hadolint",
+      "url": "https://github.com/hadolint/hadolint/issues/990",
+      "control_kind": "static analysis",
+      "decision": "admit",
+      "reason": "Primary output shows nine Hadolint findings encoded with filePath '-' and Sonar importing zero issues for the unknown path."
+    },
+    {
+      "id": "P07",
+      "repository": "bats-core/bats-core",
+      "url": "https://github.com/bats-core/bats-core/issues/1199",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "The issue gives a one-command empty-argument reproducer and the merged regression tests change empty-suite status from zero to one."
+    },
+    {
+      "id": "P08",
+      "repository": "lfn-cnti/testsuite",
+      "url": "https://github.com/lfn-cnti/testsuite/issues/2411",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "A failing run returned zero because exit status depended on an unused required flag; the merged fix and tests derive status from actual outcomes."
+    },
+    {
+      "id": "P09",
+      "repository": "eugene-manuilov/jest-runner-groups",
+      "url": "https://github.com/eugene-manuilov/jest-runner-groups/issues/48",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "A version-pinned command shows the group runner selecting zero of 74 suites and returning zero where the underlying Jest default fails."
+    },
+    {
+      "id": "P10",
+      "repository": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter/issues/66045",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "A browser-only failing test is silently omitted by the default platform run, which reports success; maintainer comments confirm the platform-selection boundary."
+    },
+    {
+      "id": "P11",
+      "repository": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/issues/9467",
+      "control_kind": "tests",
+      "decision": "admit",
+      "reason": "One pinned full-suite invocation recorded 47 failed tests while Gradle printed BUILD SUCCESSFUL and exited zero; a linked patch identifies ignoreFailures propagation."
+    },
+    {
+      "id": "P12",
+      "repository": "redpanda-data/benthos",
+      "url": "https://github.com/redpanda-data/benthos/issues/150",
+      "control_kind": "lint/type checks",
+      "decision": "admit",
+      "reason": "Versioned container commands demonstrate lint and template-lint succeeding with no input files while the sibling test command fails closed."
+    },
+    {
+      "id": "R01",
+      "repository": "pytest-dev/pytest",
+      "url": "https://github.com/pytest-dev/pytest/issues/2239",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "Fail-closed control: no tests collected already exits 5; no false acceptance is evidenced."
+    },
+    {
+      "id": "R02",
+      "repository": "xunit/xunit",
+      "url": "https://github.com/xunit/xunit/issues/3077",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "Feature discussion about treating zero tests as an error, without a bounded observed false acceptance packet."
+    },
+    {
+      "id": "R03",
+      "repository": "leanprover/lean-action",
+      "url": "https://github.com/leanprover/lean-action/pull/129",
+      "control_kind": "proofs",
+      "decision": "reject",
+      "reason": "Preventive completeness feature; the PR does not evidence an incident in which a defect was falsely accepted."
+    },
+    {
+      "id": "R04",
+      "repository": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno/issues/12456",
+      "control_kind": "artifact/conformance validation",
+      "decision": "reject",
+      "reason": "The selector bug runs extra resources; the issue does not demonstrate a false success caused by the widened scope."
+    },
+    {
+      "id": "R05",
+      "repository": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter/issues/133046",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "An empty target falls back to a broader suite, but the report shows a failing unrelated test rather than a false acceptance."
+    },
+    {
+      "id": "R06",
+      "repository": "gradle/gradle",
+      "url": "https://github.com/gradle/gradle/issues/12366",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "The issue combines expected filter semantics and discovery behavior; the public evidence does not isolate one causal false-acceptance chain."
+    },
+    {
+      "id": "R07",
+      "repository": "microsoft/vscode-cmake-tools",
+      "url": "https://github.com/microsoft/vscode-cmake-tools/issues/5043",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "The UI text says exit code 0, but the test is still marked failed and CTest exits 8; misleading detail is not a success signal."
+    },
+    {
+      "id": "R08",
+      "repository": "netresearch/typo3-ci-workflows",
+      "url": "https://github.com/netresearch/typo3-ci-workflows/issues/188",
+      "control_kind": "tests",
+      "decision": "reject",
+      "reason": "The issue establishes a green fallback branch but describes the concrete migration failure counterfactually; no observed false acceptance is pinned."
+    }
+  ]
+}

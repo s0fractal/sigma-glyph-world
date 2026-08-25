@@ -1,0 +1,78 @@
+{
+  "packet_version": 1,
+  "packet_id": "P10",
+  "repository": "flutter/flutter",
+  "incident_date": "2020-09-17..2023-07-05",
+  "control_kind": "tests",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/flutter/flutter/issues/66045",
+      "kind": "issue",
+      "evidence_excerpt": "A deliberately failing browser-only test was omitted by the default run, which exited zero."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/flutter/flutter/issues/66045#issuecomment-1621556187",
+      "kind": "issue",
+      "evidence_excerpt": "A later maintainer reproduction got no tests by default and the expected failure with platform chrome."
+    }
+  ],
+  "intended_control": "Run a package's test files and make platform-specific exclusions visible when the requested invocation executes none of them.",
+  "false_acceptance": "The default invocation omitted a browser-only failing test and reported a successful run rather than failing on the empty applicable set.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The test file declares a browser platform and contains an assertion that must fail.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "The default invocation omitted that test and returned a successful or no-tests result.",
+      "evidence": ["E1", "E2"]
+    },
+    {
+      "status": "FACT",
+      "claim": "Selecting the Chrome platform executes the test and exposes the assertion failure.",
+      "evidence": ["E2"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "Platform metadata inside the test controls discovery, while the default invocation lacks an external completeness assertion.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Create the issue's test with a browser TestOn annotation and expect(1, 2).",
+      "Run flutter test and record the result.",
+      "Run flutter test --platform chrome and compare the result."
+    ],
+    "observed": "The default run omitted the test; the Chrome run executed it and failed.",
+    "expected": "The default run should not provide a success signal when every supplied test is platform-excluded."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue provides a minimal failing test and an exit-zero log.",
+      "Maintainer reproduction confirms the platform-dependent discovery boundary."
+    ],
+    "derivations": [
+      "The annotation makes the audited test participate in choosing whether it is included."
+    ],
+    "unknowns": [
+      "The thread treats explicit platform selection as intended usage and does not settle whether default no-tests success violates a documented contract."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["SCOPE_SELF_SELECTED", "VACUOUS_ACCEPTANCE"],
+    "primary": "SCOPE_SELF_SELECTED",
+    "scope_controlled_by_audited_artifact": "yes",
+    "counterclassification": {
+      "label": "VACUOUS_ACCEPTANCE",
+      "would_be_primary_if": "Platform selection is treated as a complete external scope decision and only empty-set status semantics are considered causal."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "VERIFIED"
+}

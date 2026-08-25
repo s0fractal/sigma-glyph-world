@@ -1,0 +1,78 @@
+{
+  "packet_version": 1,
+  "packet_id": "P03",
+  "repository": "kyverno/kyverno",
+  "incident_date": "2025-02-18..2026-03-23",
+  "control_kind": "artifact/conformance validation",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/kyverno/kyverno/issues/12198",
+      "kind": "issue",
+      "evidence_excerpt": "An invalid selector logged errors, excluded every rule evaluation, and reported eight passes."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/kyverno/kyverno/pull/15708",
+      "kind": "pull_request",
+      "evidence_excerpt": "The proposed fix identifies hard-coded successful exclusions that ignored each expected test result."
+    }
+  ],
+  "intended_control": "Validate a Kyverno policy against resources whose expected pass and fail outcomes are declared in a test manifest.",
+  "false_acceptance": "A policy syntax error prevented matching, yet expected failures were displayed as passed exclusions and the summary reported eight passes.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The policy used an invalid label-selector operator and the engine logged selector-construction errors.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "All rule evaluations were excluded while the declared expected results included failures.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "The CLI reported every exclusion as Pass and summarized eight passed, zero failed.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The audited policy affected match scope while result rendering independently converted the omitted evaluations into success.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Use Kyverno CLI 1.13.2 with the policy, resources, and test manifest embedded in the issue.",
+      "Run kyverno test with detailed results.",
+      "Compare selector errors, expected fail rows, and the final summary."
+    ],
+    "observed": "Selector errors followed by eight Pass/Excluded rows and zero failures.",
+    "expected": "The syntax error or mismatch between excluded and expected fail should fail the test command."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue contains complete policy, resource, test manifest, and observed output.",
+      "The linked pull request names the unconditional exclusion-success path but is unmerged."
+    ],
+    "derivations": [
+      "Two causal links are independently visible: scope removal during matching and false success during result comparison."
+    ],
+    "unknowns": [
+      "No merged regression test establishes the final repair boundary as of packet construction."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["SCOPE_SELF_SELECTED", "TOOL_BLIND_SPOT"],
+    "primary": "CONTESTED",
+    "scope_controlled_by_audited_artifact": "yes",
+    "counterclassification": {
+      "label": "HARNESS_ORCHESTRATION_DEFECT",
+      "would_be_primary_if": "The CLI result-comparison layer is treated as orchestration around an otherwise complete policy engine rather than part of the tool."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "VERIFIED"
+}

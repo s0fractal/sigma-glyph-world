@@ -1,0 +1,76 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B11",
+  "incident_date": "2026-08-06..2026-08-16",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "One pinned aggregate run contained 47 failures but printed BUILD SUCCESSFUL and exited zero."
+    },
+    {
+      "id": "E2",
+      "kind": "pull_request",
+      "evidence_excerpt": "The proposed fix counts failed suites and throws only after the aggregate report is generated."
+    }
+  ],
+  "intended_control": "Run the complete unit-test report task, retain all test results, and expose any aggregate failure through process status.",
+  "false_acceptance": "The aggregate contained 47 failures while the build tool printed BUILD SUCCESSFUL and returned zero.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The pinned invocation aggregated 9,803 tests including 47 failures.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "Project test tasks used ignoreFailures so the full report could finish.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "No final aggregate assertion restored failure status; the task exited zero.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "Failure-tolerant execution leaked into the governing status because result collection and final adjudication were not separated.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "documented",
+    "steps": [
+      "Use repository commit ae024e2f20703161b8ca1f0415c25665b9aeb325 with at least one reproducibly failing unit test.",
+      "Run xvfb-run -a ./gradlew unitTestReport --no-daemon --max-workers=1.",
+      "Compare aggregate the test-report format failures, final the build tool text, and process status."
+    ],
+    "observed": "The aggregate had 47 failures; the build tool printed BUILD SUCCESSFUL and exited zero.",
+    "expected": "Generate the complete report, then return non-zero if its failure count is non-zero."
+  },
+  "epistemic": {
+    "facts": [
+      "The report pins revision, platform, tool versions, command, aggregate counts, and exit status.",
+      "The open patch implements the causal explanation but reports that the full suite was not rerun."
+    ],
+    "derivations": [
+      "The false success arises after test execution, in propagation of aggregate results to the governing task."
+    ],
+    "unknowns": [
+      "The proposed fix is unmerged and lacks an upstream full-suite validation receipt."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

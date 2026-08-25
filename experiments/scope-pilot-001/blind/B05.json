@@ -1,0 +1,60 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B05",
+  "incident_date": "2023-11-28",
+  "control_kind": "artifact/conformance validation",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "With error configured, one existing and one absent path completed without an error."
+    }
+  ],
+  "intended_control": "Upload two declared artifact paths and fail the workflow when a declared output is absent.",
+  "false_acceptance": "The action succeeded because at least one path matched, leaving the second declared artifact absent without failing the gate.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The workflow declares first_dir and second_dir under one upload step with if-no-files-found set to error.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The reproducer creates only first_dir and reports that no error is emitted for missing second_dir.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The option guards emptiness of the combined match set rather than completeness of each declared path.",
+      "evidence": [
+        "E1"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Create first_dir/file1.txt in a the CI service job and do not create second_dir.",
+      "Invoke the artifact action at the reported version with both paths and if-no-files-found:error.",
+      "Observe whether the action fails."
+    ],
+    "observed": "The upload step emitted no error although second_dir did not exist.",
+    "expected": "The missing declared path should fail the step."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue provides a complete minimal workflow and observed behavior."
+    ],
+    "derivations": [
+      "The success contract is ambiguous between any-match and every-declared-path semantics."
+    ],
+    "unknowns": [
+      "The open issue contains no maintainer ruling that every path was part of the action's promised contract."
+    ]
+  },
+  "evidence_confidence": "SUPPORTED"
+}

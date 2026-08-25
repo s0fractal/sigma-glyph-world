@@ -1,0 +1,75 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B10",
+  "incident_date": "2020-09-17..2023-07-05",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "A deliberately failing browser-only test was omitted by the default run, which exited zero."
+    },
+    {
+      "id": "E2",
+      "kind": "issue",
+      "evidence_excerpt": "A later maintainer reproduction got no tests by default and the expected failure with platform chrome."
+    }
+  ],
+  "intended_control": "Run a package's test files and make platform-specific exclusions visible when the requested invocation executes none of them.",
+  "false_acceptance": "The default invocation omitted a browser-only failing test and reported a successful run rather than failing on the empty applicable set.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The test file declares a browser platform and contains an assertion that must fail.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The default invocation omitted that test and returned a successful or no-tests result.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "Selecting the Chrome platform executes the test and exposes the assertion failure.",
+      "evidence": [
+        "E2"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "Platform metadata inside the test controls discovery, while the default invocation lacks an external completeness assertion.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Create the issue's test with a browser TestOn annotation and expect(1, 2).",
+      "Run the framework test and record the result.",
+      "Run the framework test --platform chrome and compare the result."
+    ],
+    "observed": "The default run omitted the test; the Chrome run executed it and failed.",
+    "expected": "The default run should not provide a success signal when every supplied test is platform-excluded."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue provides a minimal failing test and an exit-zero log.",
+      "Maintainer reproduction confirms the platform-dependent discovery boundary."
+    ],
+    "derivations": [
+      "The annotation makes the audited test participate in choosing whether it is included."
+    ],
+    "unknowns": [
+      "The thread treats explicit platform selection as intended usage and does not settle whether default no-tests success violates a documented contract."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

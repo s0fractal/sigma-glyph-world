@@ -1,0 +1,71 @@
+{
+  "packet_version": 1,
+  "packet_id": "P06",
+  "repository": "hadolint/hadolint",
+  "incident_date": "2023-12-01",
+  "control_kind": "static analysis",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/hadolint/hadolint/issues/990",
+      "kind": "issue",
+      "evidence_excerpt": "Hadolint emitted nine issues with filePath '-', and Sonar imported zero for an unknown file."
+    }
+  ],
+  "intended_control": "Run Hadolint on a Dockerfile and import every reported external issue into the Sonar analysis.",
+  "false_acceptance": "The linter found issues, but the integration attached them to '-' and Sonar imported zero issues, allowing a clean downstream view.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "Hadolint received the Dockerfile on standard input and emitted nine Sonar-format issues.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "Each issue used filePath '-' and Sonar classified that as an unknown file.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "Sonar reported that it imported zero issues in zero files.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The interoperability seam lost target identity even though the linter observed the relevant defects.",
+      "evidence": ["E1"]
+    }
+  ],
+  "reproducer": {
+    "availability": "documented",
+    "steps": [
+      "Pipe a Dockerfile to the Hadolint container on standard input and request SonarQube format.",
+      "Configure sonar.externalIssuesReportPaths to the resulting JSON.",
+      "Run the scanner and compare the JSON issue count with imported issues."
+    ],
+    "observed": "Nine JSON issues referred to '-', while Sonar imported zero issues for an unknown file.",
+    "expected": "The downstream analysis should attach and import the reported Dockerfile issues."
+  },
+  "epistemic": {
+    "facts": [
+      "The report includes the producing command, complete issue JSON, and Sonar import log."
+    ],
+    "derivations": [
+      "The relevant defects were detected; the false clean view arose while attaching results to a governed artifact."
+    ],
+    "unknowns": [
+      "No fixing change or maintainer allocation of responsibility between Hadolint and Sonar is linked."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["HARNESS_ORCHESTRATION_DEFECT", "TOOL_BLIND_SPOT"],
+    "primary": "CONTESTED",
+    "scope_controlled_by_audited_artifact": "no",
+    "counterclassification": {
+      "label": "TOOL_BLIND_SPOT",
+      "would_be_primary_if": "The Sonar-format emitter itself promises to resolve standard-input content to the caller's real file path."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "SUPPORTED"
+}

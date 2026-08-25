@@ -1,0 +1,73 @@
+{
+  "packet_version": 1,
+  "packet_id": "P09",
+  "repository": "eugene-manuilov/jest-runner-groups",
+  "incident_date": "2022-06-24",
+  "control_kind": "tests",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://github.com/eugene-manuilov/jest-runner-groups/issues/48",
+      "kind": "issue",
+      "evidence_excerpt": "The group runner selected zero of 74 suites and zero tests, then exited zero."
+    },
+    {
+      "id": "E2",
+      "url": "https://github.com/eugene-manuilov/jest-runner-groups/issues/42",
+      "kind": "issue",
+      "evidence_excerpt": "The linked incident exposed a broken group selection that the empty successful run did not reveal."
+    }
+  ],
+  "intended_control": "Use a Jest group name to execute the corresponding subset and retain Jest's fail-closed behavior when nothing matches.",
+  "false_acceptance": "The group runner selected no suites or tests and returned zero, masking a broken group-selection path.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The command used jest-runner-groups 2.2.0 with an explicit group selection.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "FACT",
+      "claim": "Jest displayed zero of 74 suites and zero tests, followed by process status zero.",
+      "evidence": ["E1"]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The custom group layer weakened the underlying runner's ordinary no-tests failure behavior.",
+      "evidence": ["E1", "E2"]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Install jest-runner-groups 2.2.0 under Node.js 14.18.2 in the linked configuration.",
+      "Invoke Jest with the group runner and a group whose broken mapping selects nothing.",
+      "Observe suite count, test count, and process status."
+    ],
+    "observed": "Zero of 74 suites and zero tests ran; process status was zero.",
+    "expected": "The process should fail as ordinary Jest does when no tests are found."
+  },
+  "epistemic": {
+    "facts": [
+      "The report pins component and runtime versions and includes command output.",
+      "The issue explicitly links the empty run to a separate group-selection failure."
+    ],
+    "derivations": [
+      "The false success occurs at the custom runner boundary rather than in Jest's stated default."
+    ],
+    "unknowns": [
+      "No fixing commit or maintainer diagnosis is linked."
+    ]
+  },
+  "researcher_assessment": {
+    "mechanisms": ["VACUOUS_ACCEPTANCE", "HARNESS_ORCHESTRATION_DEFECT"],
+    "primary": "CONTESTED",
+    "scope_controlled_by_audited_artifact": "unknown",
+    "counterclassification": {
+      "label": "SCOPE_SELF_SELECTED",
+      "would_be_primary_if": "The in-repository group definition, rather than runner logic, is shown to remove the relevant suites without a completeness fence."
+    },
+    "expected_multilabel": true
+  },
+  "evidence_confidence": "VERIFIED"
+}

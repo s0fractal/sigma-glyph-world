@@ -1,0 +1,67 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B01",
+  "incident_date": "2026-05-17..2026-05-31",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "the underlying runner exited 1 for no matches while the wrapper emitted result passed and tests zero."
+    },
+    {
+      "id": "E2",
+      "kind": "commit",
+      "evidence_excerpt": "The merged fix treats zero the underlying runner tests as failure and adds a no-match regression test."
+    }
+  ],
+  "intended_control": "Run a named the underlying runner test selection and report its verification result to an agent.",
+  "false_acceptance": "The agent-facing JSON said passed even though no test matched and the underlying runner returned a failure status.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The supplied filter selected zero tests and the underlying runner exited non-zero.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "the wrapper represented that run as result passed with zero tests.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The false success was introduced by the reporting wrapper, because the underlying runner already failed closed.",
+      "evidence": [
+        "E1",
+        "E2"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Set AI_AGENT=codex in a the wrapper-enabled the host framework project.",
+      "Run php artisan test with a filter that cannot match any test.",
+      "Compare the wrapper JSON, process status, and the the wrapper_DISABLE=1 diagnostic."
+    ],
+    "observed": "Process status 1; the wrapper JSON reported passed with tests=0.",
+    "expected": "A failed result retaining the no-tests diagnostic."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue contains commands, status, and observed JSON.",
+      "The fix commit is merged and includes regression coverage."
+    ],
+    "derivations": [
+      "No-test vacuity exists in the reported result, but exit-status propagation is necessary for the false success."
+    ],
+    "unknowns": [
+      "The packet does not establish how many downstream agents treated the JSON as a governing gate."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}

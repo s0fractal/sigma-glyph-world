@@ -1,0 +1,67 @@
+{
+  "blind_packet_version": 1,
+  "blind_id": "B12",
+  "incident_date": "2024-12-03",
+  "control_kind": "lint/type checks",
+  "evidence": [
+    {
+      "id": "E1",
+      "kind": "issue",
+      "evidence_excerpt": "Version 4.42 lint commands with no input returned zero; the sibling test command failed closed."
+    }
+  ],
+  "intended_control": "Lint configuration or template files and fail when the invocation names no files to inspect.",
+  "false_acceptance": "Both lint entry points returned success with no inputs, allowing a mistyped invocation to certify an empty set.",
+  "causal_chain": [
+    {
+      "status": "FACT",
+      "claim": "The help text presents linting as a file-checking command whose status reports detected errors.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "Calling lint or template lint with no file arguments returned zero.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "FACT",
+      "claim": "The sibling test command reported no tests and returned one, demonstrating an available fail-closed convention.",
+      "evidence": [
+        "E1"
+      ]
+    },
+    {
+      "status": "DERIVATION",
+      "claim": "The lint success signal does not distinguish an empty invocation from a non-empty clean run.",
+      "evidence": [
+        "E1"
+      ]
+    }
+  ],
+  "reproducer": {
+    "availability": "executable",
+    "steps": [
+      "Run the the version-pinned tool container container with template lint and no file argument.",
+      "Repeat with lint and no file argument.",
+      "Compare both statuses with the test command when no tests are found."
+    ],
+    "observed": "Both lint commands returned zero without inspecting a file; the no-tests command returned one.",
+    "expected": "A lint invocation with no files should diagnose the empty scope and return non-zero."
+  },
+  "epistemic": {
+    "facts": [
+      "The issue includes versioned container commands, help text, and exit statuses."
+    ],
+    "derivations": [
+      "The examples make a missing positional argument easy to confuse with a legitimate empty invocation."
+    ],
+    "unknowns": [
+      "No maintainer response or fixing change defines whether zero-input lint was intentionally supported."
+    ]
+  },
+  "evidence_confidence": "VERIFIED"
+}
