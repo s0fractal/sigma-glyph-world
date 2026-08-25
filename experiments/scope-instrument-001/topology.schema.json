@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCOPE-INSTRUMENT-001 calibration topology",
+  "type": "object",
+  "required": [
+    "case_id",
+    "source_packet",
+    "audited_object",
+    "scope_authority_object",
+    "authority_relation",
+    "selected_scope",
+    "completeness_fence",
+    "success_contract",
+    "components",
+    "mechanisms",
+    "primary",
+    "scope_self_selection"
+  ],
+  "properties": {
+    "case_id": {"pattern": "^C[0-9]{2}$"},
+    "source_packet": {"pattern": "^P[0-9]{2}$"},
+    "audited_object": {"type": "string", "minLength": 1},
+    "scope_authority_object": {"type": "string", "minLength": 1},
+    "authority_relation": {"enum": ["same", "independent", "shared", "unknown"]},
+    "selected_scope": {"enum": ["empty", "incomplete", "complete", "unknown"]},
+    "completeness_fence": {"enum": ["independent", "self_owned", "none", "unknown"]},
+    "success_contract": {
+      "type": "object",
+      "required": ["governing_signal", "claim", "tier", "status", "evidence"],
+      "properties": {
+        "governing_signal": {"type": "string", "minLength": 1},
+        "claim": {"type": "string", "minLength": 1},
+        "tier": {"enum": ["T1_NORMATIVE", "T2_EXECUTABLE", "T3_ADJUDICATED", "T4_REPORTED", "NONE"]},
+        "status": {"enum": ["ESTABLISHED", "SUPPORTED", "DISPUTED", "UNKNOWN"]},
+        "evidence": {"type": "array", "items": {"pattern": "^E[0-9]+$"}}
+      }
+    },
+    "components": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["role", "authority", "input", "output", "breach", "evidence", "repair_changes_gate"],
+        "properties": {
+          "role": {"enum": ["selector", "checker", "adapter", "gate"]},
+          "authority": {"enum": ["audited", "independent", "shared", "unknown"]},
+          "input": {"type": "string", "minLength": 1},
+          "output": {"type": "string", "minLength": 1},
+          "breach": {"enum": ["yes", "no", "unknown"]},
+          "evidence": {"type": "array", "items": {"pattern": "^E[0-9]+$"}},
+          "repair_changes_gate": {"enum": ["yes", "no", "unknown"]}
+        }
+      }
+    },
+    "mechanisms": {"type": "array", "items": {"type": "string"}},
+    "primary": {"type": "string"},
+    "scope_self_selection": {"enum": ["yes", "no", "unknown"]}
+  }
+}

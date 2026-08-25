@@ -1,0 +1,523 @@
+{
+  "instrument": "SCOPE-INSTRUMENT-001",
+  "purpose": "author calibration against retired SCOPE-PILOT-001 packets; no agreement or prevalence inference",
+  "cases": [
+    {
+      "case_id": "C01",
+      "source_packet": "P01",
+      "audited_object": "the outcome of the explicitly selected test run",
+      "scope_authority_object": "the caller-supplied test path and filter",
+      "authority_relation": "independent",
+      "selected_scope": "empty",
+      "completeness_fence": "independent",
+      "success_contract": {
+        "governing_signal": "agent-facing JSON result field",
+        "claim": "a non-zero underlying test result must not be represented as passed",
+        "tier": "T2_EXECUTABLE",
+        "status": "ESTABLISHED",
+        "evidence": ["E2"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "independent",
+          "input": "external path and filter",
+          "output": "zero selected tests",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "empty selection",
+          "output": "non-zero no-tests result",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "non-zero runner result",
+          "output": "passed with tests zero",
+          "breach": "yes",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "yes"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "adapted JSON",
+          "output": "accept",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        }
+      ],
+      "mechanisms": ["EMPTY_SCOPE_SUCCESS", "ADAPTER_MISREPRESENTED_RESULT"],
+      "primary": "ADAPTER_MISREPRESENTED_RESULT",
+      "scope_self_selection": "no"
+    },
+    {
+      "case_id": "C02",
+      "source_packet": "P03",
+      "audited_object": "the policy's declared behavior on four resources",
+      "scope_authority_object": "the policy selector and test manifest",
+      "authority_relation": "same",
+      "selected_scope": "empty",
+      "completeness_fence": "none",
+      "success_contract": {
+        "governing_signal": "test summary with pass and fail counts",
+        "claim": "declared expected failures must not be rendered as passed exclusions",
+        "tier": "T2_EXECUTABLE",
+        "status": "ESTABLISHED",
+        "evidence": ["E1"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "audited",
+          "input": "policy selector and four resources",
+          "output": "all evaluations excluded after selector errors",
+          "breach": "yes",
+          "evidence": ["E1"],
+          "repair_changes_gate": "yes"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "no matched rule evaluations",
+          "output": "excluded outcomes plus selector errors",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "excluded outcomes and declared expected failures",
+          "output": "Pass for every excluded outcome",
+          "breach": "yes",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "yes"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "eight adapted Pass rows",
+          "output": "accept with zero failures",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        }
+      ],
+      "mechanisms": [
+        "UNFENCED_SCOPE_SELF_SELECTION",
+        "EMPTY_SCOPE_SUCCESS",
+        "ADAPTER_MISREPRESENTED_RESULT"
+      ],
+      "primary": "MULTICAUSAL",
+      "scope_self_selection": "yes"
+    },
+    {
+      "case_id": "C03",
+      "source_packet": "P04",
+      "audited_object": "coverage of the application's complete source tree",
+      "scope_authority_object": "the repository's bundler entry graph",
+      "authority_relation": "same",
+      "selected_scope": "incomplete",
+      "completeness_fence": "none",
+      "success_contract": {
+        "governing_signal": "reported total coverage percentage",
+        "claim": "the all option includes every application source file, including untouched files",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "audited",
+          "input": "source tree and bundler entries",
+          "output": "only bundled source presented for instrumentation",
+          "breach": "yes",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "yes"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "incomplete instrumented source set",
+          "output": "coverage for the received files",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "per-file coverage",
+          "output": "aggregate 100 percent",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "gate",
+          "authority": "unknown",
+          "input": "coverage report",
+          "output": "accept",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": ["UNFENCED_SCOPE_SELF_SELECTION"],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "yes"
+    },
+    {
+      "case_id": "C04",
+      "source_packet": "P05",
+      "audited_object": "completeness of the workflow's declared build outputs",
+      "scope_authority_object": "the repository-owned workflow path list",
+      "authority_relation": "same",
+      "selected_scope": "incomplete",
+      "completeness_fence": "none",
+      "success_contract": {
+        "governing_signal": "artifact action step status",
+        "claim": "error on no files applies to every declared path rather than their union",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "shared",
+          "input": "two declared paths",
+          "output": "files from only the existing path",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "combined non-empty file set",
+          "output": "upload succeeds",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "successful partial upload",
+          "output": "successful step result",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "successful step result",
+          "output": "accept",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": ["UNFENCED_SCOPE_SELF_SELECTION"],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "yes"
+    },
+    {
+      "case_id": "C05",
+      "source_packet": "P06",
+      "audited_object": "the Dockerfile findings shown in downstream analysis",
+      "scope_authority_object": "the caller's standard-input invocation and report-path configuration",
+      "authority_relation": "unknown",
+      "selected_scope": "complete",
+      "completeness_fence": "unknown",
+      "success_contract": {
+        "governing_signal": "downstream imported-issue count",
+        "claim": "standard-input findings must be mapped to the caller's real file path",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "unknown",
+          "input": "one Dockerfile on standard input",
+          "output": "that complete content",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "complete Dockerfile content",
+          "output": "nine findings",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "shared",
+          "input": "findings without a filesystem path",
+          "output": "findings attached to dash",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "findings for an unknown file",
+          "output": "zero imported issues",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": [],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "unknown"
+    },
+    {
+      "case_id": "C06",
+      "source_packet": "P09",
+      "audited_object": "the tests belonging to the requested named group",
+      "scope_authority_object": "the group mapping and caller's group name",
+      "authority_relation": "unknown",
+      "selected_scope": "empty",
+      "completeness_fence": "none",
+      "success_contract": {
+        "governing_signal": "test process exit status",
+        "claim": "the grouping extension preserves the underlying runner's no-tests failure",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1", "E2"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "unknown",
+          "input": "group mapping and group name",
+          "output": "zero of 74 suites",
+          "breach": "unknown",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "empty selected suite set",
+          "output": "zero test results",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "zero results",
+          "output": "status zero",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "status zero",
+          "output": "accept",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": [],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "unknown"
+    },
+    {
+      "case_id": "C07",
+      "source_packet": "P10",
+      "audited_object": "the package test suite",
+      "scope_authority_object": "test platform annotation plus caller platform selection",
+      "authority_relation": "shared",
+      "selected_scope": "empty",
+      "completeness_fence": "none",
+      "success_contract": {
+        "governing_signal": "default test-command process status",
+        "claim": "a default run must fail when every supplied test is platform-excluded",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1", "E2"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "shared",
+          "input": "browser annotation and default platform",
+          "output": "no applicable tests",
+          "breach": "no",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "empty applicable set",
+          "output": "no test outcomes",
+          "breach": "unknown",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "no outcomes",
+          "output": "successful default result",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "successful default result",
+          "output": "accept",
+          "breach": "unknown",
+          "evidence": ["E1"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": ["UNFENCED_SCOPE_SELF_SELECTION"],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "yes"
+    },
+    {
+      "case_id": "C08",
+      "source_packet": "P08",
+      "audited_object": "the conformance suite's recorded test outcomes",
+      "scope_authority_object": "the externally selected task group",
+      "authority_relation": "independent",
+      "selected_scope": "complete",
+      "completeness_fence": "independent",
+      "success_contract": {
+        "governing_signal": "suite process exit status",
+        "claim": "a completed non-strict run with failed tests exits non-zero",
+        "tier": "T2_EXECUTABLE",
+        "status": "ESTABLISHED",
+        "evidence": ["E2"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "independent",
+          "input": "task-group request",
+          "output": "complete requested task group",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "selected checks",
+          "output": "recorded failed outcomes",
+          "breach": "no",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "recorded outcomes",
+          "output": "summary containing failures",
+          "breach": "no",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "summary containing failures",
+          "output": "status zero through an unreachable failure path",
+          "breach": "yes",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "yes"
+        }
+      ],
+      "mechanisms": ["GATE_OMITTED_OR_IGNORED_RESULT"],
+      "primary": "GATE_OMITTED_OR_IGNORED_RESULT",
+      "scope_self_selection": "no"
+    },
+    {
+      "case_id": "C09",
+      "source_packet": "P11",
+      "audited_object": "the aggregate full-suite test result",
+      "scope_authority_object": "the externally invoked aggregate task graph",
+      "authority_relation": "independent",
+      "selected_scope": "complete",
+      "completeness_fence": "independent",
+      "success_contract": {
+        "governing_signal": "aggregate task process status",
+        "claim": "the report task exits non-zero after generating a report containing failures",
+        "tier": "T4_REPORTED",
+        "status": "DISPUTED",
+        "evidence": ["E1", "E2"]
+      },
+      "components": [
+        {
+          "role": "selector",
+          "authority": "independent",
+          "input": "aggregate unit-test task",
+          "output": "complete project test task set",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "checker",
+          "authority": "independent",
+          "input": "selected project tests",
+          "output": "47 recorded failures",
+          "breach": "no",
+          "evidence": ["E1"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "adapter",
+          "authority": "independent",
+          "input": "project outcomes",
+          "output": "aggregate report retaining failures",
+          "breach": "no",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "no"
+        },
+        {
+          "role": "gate",
+          "authority": "independent",
+          "input": "aggregate report with failures",
+          "output": "BUILD SUCCESSFUL and status zero",
+          "breach": "unknown",
+          "evidence": ["E1", "E2"],
+          "repair_changes_gate": "unknown"
+        }
+      ],
+      "mechanisms": [],
+      "primary": "CONTRACT_DISPUTED",
+      "scope_self_selection": "no"
+    }
+  ]
+}
