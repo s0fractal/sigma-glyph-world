@@ -1,0 +1,63 @@
+{
+  "pilot": "SCOPE-PILOT-003",
+  "seed": "SCOPE-PILOT-003",
+  "created_from": "2020-01-01",
+  "created_to": "2025-12-31",
+  "candidate_state": "closed",
+  "per_query": {
+    "maximum_results": 100,
+    "sort": "created",
+    "order": "asc"
+  },
+  "stop": {
+    "admitted": 12,
+    "screened": 60,
+    "minimum_to_code": 8,
+    "maximum_per_repository": 2,
+    "minimum_control_kinds": 3
+  },
+  "query_terms": [
+    "exit code",
+    "no tests",
+    "false positive",
+    "not run",
+    "ignored",
+    "reports success",
+    "zero issues"
+  ],
+  "repositories": {
+    "tests": [
+      "mochajs/mocha",
+      "vitest-dev/vitest",
+      "jestjs/jest",
+      "microsoft/playwright",
+      "cypress-io/cypress",
+      "nextest-rs/nextest"
+    ],
+    "lint_static_analysis": [
+      "astral-sh/ruff",
+      "golangci/golangci-lint",
+      "koalaman/shellcheck",
+      "python/mypy",
+      "semgrep/semgrep",
+      "eslint/eslint"
+    ],
+    "artifact_conformance": [
+      "codecov/codecov-action",
+      "actions/runner",
+      "docker/build-push-action",
+      "sigstore/cosign",
+      "ossf/scorecard",
+      "SonarSource/sonarqube"
+    ],
+    "proofs_build_completeness": [
+      "leanprover/lean4",
+      "leanprover-community/mathlib4",
+      "rocq-prover/rocq",
+      "agda/agda",
+      "seL4/l4v",
+      "NixOS/nixpkgs"
+    ]
+  },
+  "ordering": "sha256(seed + newline + canonical_issue_url), ascending"
+}

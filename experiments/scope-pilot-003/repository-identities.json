@@ -1,0 +1,30 @@
+{
+  "retrieved_at": "2026-08-26",
+  "provider": "GitHub repositories API",
+  "repositories": [
+    {"requested": "mochajs/mocha", "canonical": "mochajs/mocha", "id": 1451352, "archived": false, "url": "https://github.com/mochajs/mocha"},
+    {"requested": "vitest-dev/vitest", "canonical": "vitest-dev/vitest", "id": 434708679, "archived": false, "url": "https://github.com/vitest-dev/vitest"},
+    {"requested": "jestjs/jest", "canonical": "jestjs/jest", "id": 15062869, "archived": false, "url": "https://github.com/jestjs/jest"},
+    {"requested": "microsoft/playwright", "canonical": "microsoft/playwright", "id": 221981891, "archived": false, "url": "https://github.com/microsoft/playwright"},
+    {"requested": "cypress-io/cypress", "canonical": "cypress-io/cypress", "id": 31629751, "archived": false, "url": "https://github.com/cypress-io/cypress"},
+    {"requested": "nextest-rs/nextest", "canonical": "nextest-rs/nextest", "id": 456728202, "archived": false, "url": "https://github.com/nextest-rs/nextest"},
+    {"requested": "astral-sh/ruff", "canonical": "astral-sh/ruff", "id": 523043277, "archived": false, "url": "https://github.com/astral-sh/ruff"},
+    {"requested": "golangci/golangci-lint", "canonical": "golangci/golangci-lint", "id": 132145189, "archived": false, "url": "https://github.com/golangci/golangci-lint"},
+    {"requested": "koalaman/shellcheck", "canonical": "koalaman/shellcheck", "id": 6731432, "archived": false, "url": "https://github.com/koalaman/shellcheck"},
+    {"requested": "python/mypy", "canonical": "python/mypy", "id": 7053637, "archived": false, "url": "https://github.com/python/mypy"},
+    {"requested": "semgrep/semgrep", "canonical": "semgrep/semgrep", "id": 227803815, "archived": false, "url": "https://github.com/semgrep/semgrep"},
+    {"requested": "eslint/eslint", "canonical": "eslint/eslint", "id": 11061773, "archived": false, "url": "https://github.com/eslint/eslint"},
+    {"requested": "codecov/codecov-action", "canonical": "codecov/codecov-action", "id": 200299178, "archived": false, "url": "https://github.com/codecov/codecov-action"},
+    {"requested": "actions/runner", "canonical": "actions/runner", "id": 184286875, "archived": false, "url": "https://github.com/actions/runner"},
+    {"requested": "docker/build-push-action", "canonical": "docker/build-push-action", "id": 241092383, "archived": false, "url": "https://github.com/docker/build-push-action"},
+    {"requested": "sigstore/cosign", "canonical": "sigstore/cosign", "id": 335952417, "archived": false, "url": "https://github.com/sigstore/cosign"},
+    {"requested": "ossf/scorecard", "canonical": "ossf/scorecard", "id": 302670797, "archived": false, "url": "https://github.com/ossf/scorecard"},
+    {"requested": "SonarSource/sonarqube", "canonical": "SonarSource/sonarqube", "id": 1222504, "archived": false, "url": "https://github.com/SonarSource/sonarqube"},
+    {"requested": "leanprover/lean4", "canonical": "leanprover/lean4", "id": 129571436, "archived": false, "url": "https://github.com/leanprover/lean4"},
+    {"requested": "leanprover-community/mathlib4", "canonical": "leanprover-community/mathlib4", "id": 365697493, "archived": false, "url": "https://github.com/leanprover-community/mathlib4"},
+    {"requested": "rocq-prover/rocq", "canonical": "rocq-prover/rocq", "id": 1377159, "archived": false, "url": "https://github.com/rocq-prover/rocq"},
+    {"requested": "agda/agda", "canonical": "agda/agda", "id": 40411471, "archived": false, "url": "https://github.com/agda/agda"},
+    {"requested": "seL4/l4v", "canonical": "seL4/l4v", "id": 21950486, "archived": false, "url": "https://github.com/seL4/l4v"},
+    {"requested": "NixOS/nixpkgs", "canonical": "NixOS/nixpkgs", "id": 4542716, "archived": false, "url": "https://github.com/NixOS/nixpkgs"}
+  ]
+}

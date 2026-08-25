@@ -29,7 +29,9 @@ verification system.
 - [`experiments/SCOPE-PILOT-002-preregistration.md`](experiments/SCOPE-PILOT-002-preregistration.md)
   and [`experiments/scope-pilot-002/PILOT-RESULT.md`](experiments/scope-pilot-002/PILOT-RESULT.md)
   — a fresh-corpus protocol retired when a repository alias made its supposedly
-  unique sampling frame invalid before any candidate was frozen.
+  unique sampling frame invalid before any candidate was frozen;
+- [`experiments/SCOPE-PILOT-003-preregistration.md`](experiments/SCOPE-PILOT-003-preregistration.md)
+  — the canonical-repository-ID retry with append-only query checkpoints.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
