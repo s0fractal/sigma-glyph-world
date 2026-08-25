@@ -1,0 +1,21 @@
+{
+  "blind_packet_version": 2,
+  "blind_id": "CTRL01",
+  "incident_date": "authored-control",
+  "control_kind": "artifact/conformance validation",
+  "evidence": [
+    {
+      "id": "E1",
+      "tier": "T4_REPORTED",
+      "text": "A reporter expected every declared path to exist; one of two paths was absent while the combined file set was non-empty."
+    },
+    {
+      "id": "E2",
+      "tier": "T4_REPORTED",
+      "text": "No official documentation, merged regression, or maintainer decision states whether completeness is per path or over the union."
+    }
+  ],
+  "claimed_success": "The step's zero status means every declared path produced an artifact.",
+  "observed_behavior": "The step returned zero when one path matched and one did not.",
+  "reproducer": "Declare two paths, create content under only one, and observe the step status."
+}

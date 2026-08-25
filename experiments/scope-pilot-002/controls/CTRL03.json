@@ -1,0 +1,26 @@
+{
+  "blind_packet_version": 2,
+  "blind_id": "CTRL03",
+  "incident_date": "authored-control",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "tier": "T2_EXECUTABLE",
+      "text": "The checker receives the intended target, runs it, and emits raw status 1 with one failed assertion."
+    },
+    {
+      "id": "E2",
+      "tier": "T2_EXECUTABLE",
+      "text": "The result adapter consumes that raw record and emits result passed; the status-only governing gate accepts."
+    },
+    {
+      "id": "E3",
+      "tier": "T2_EXECUTABLE",
+      "text": "A regression assertion requires every non-zero checker result to normalize to failed."
+    }
+  ],
+  "claimed_success": "The normalized result passed means the executed target satisfied its assertion.",
+  "observed_behavior": "An executed failing target is normalized to passed and accepted.",
+  "reproducer": "Feed a raw failed checker record to the adapter and inspect its normalized result."
+}

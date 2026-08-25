@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCOPE-PILOT-002 blinded coding answer",
+  "type": "object",
+  "required": [
+    "blind_id",
+    "admission",
+    "success_contract",
+    "components",
+    "scope",
+    "mechanisms",
+    "primary",
+    "counterclassification",
+    "confidence",
+    "rationale",
+    "receipt"
+  ],
+  "properties": {
+    "blind_id": {"type": "string"},
+    "admission": {"enum": ["ADMIT", "CONTRACT_DISPUTED", "INSUFFICIENT_EVIDENCE", "OUT_OF_SCOPE"]},
+    "success_contract": {
+      "type": "object",
+      "required": ["governing_signal", "tier", "status", "evidence"],
+      "properties": {
+        "governing_signal": {"type": "string"},
+        "tier": {"enum": ["T1_NORMATIVE", "T2_EXECUTABLE", "T3_ADJUDICATED", "T4_REPORTED", "NONE"]},
+        "status": {"enum": ["ESTABLISHED", "SUPPORTED", "DISPUTED", "UNKNOWN"]},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "components": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["role", "breach", "repair_changes_gate", "evidence"],
+        "properties": {
+          "role": {"enum": ["selector", "checker", "adapter", "gate"]},
+          "breach": {"enum": ["yes", "no", "unknown"]},
+          "repair_changes_gate": {"enum": ["yes", "no", "unknown"]},
+          "evidence": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": ["audited_object", "scope_authority_object", "authority_relation", "selected_scope", "completeness_fence", "self_selection", "evidence"],
+      "properties": {
+        "audited_object": {"type": "string"},
+        "scope_authority_object": {"type": "string"},
+        "authority_relation": {"enum": ["same", "independent", "shared", "unknown"]},
+        "selected_scope": {"enum": ["empty", "incomplete", "complete", "unknown"]},
+        "completeness_fence": {"enum": ["independent", "self_owned", "none", "unknown"]},
+        "self_selection": {"enum": ["yes", "no", "unknown"]},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "mechanisms": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "UNFENCED_SCOPE_SELF_SELECTION",
+          "EMPTY_SCOPE_SUCCESS",
+          "CHECKER_MISSED_CONDITION",
+          "ADAPTER_MISREPRESENTED_RESULT",
+          "GATE_OMITTED_OR_IGNORED_RESULT",
+          "CLAIM_WEAKENED",
+          "PROVENANCE_IDENTITY_MISMATCH",
+          "TRUSTED_CORE_INVALID_ACCEPTANCE"
+        ]
+      }
+    },
+    "primary": {
+      "enum": [
+        "UNFENCED_SCOPE_SELF_SELECTION",
+        "EMPTY_SCOPE_SUCCESS",
+        "CHECKER_MISSED_CONDITION",
+        "ADAPTER_MISREPRESENTED_RESULT",
+        "GATE_OMITTED_OR_IGNORED_RESULT",
+        "CLAIM_WEAKENED",
+        "PROVENANCE_IDENTITY_MISMATCH",
+        "TRUSTED_CORE_INVALID_ACCEPTANCE",
+        "MULTICAUSAL",
+        "CONTRACT_DISPUTED",
+        "INSUFFICIENT_EVIDENCE",
+        "OUT_OF_SCOPE"
+      ]
+    },
+    "counterclassification": {
+      "type": "object",
+      "required": ["alternative", "changing_fact"],
+      "properties": {
+        "alternative": {"type": "string"},
+        "changing_fact": {"type": "string", "minLength": 1}
+      }
+    },
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "rationale": {"type": "string", "minLength": 1},
+    "receipt": {
+      "type": "object",
+      "required": ["model", "version", "prompt_sha256", "packet_sha256", "web_access", "tool_access"],
+      "properties": {
+        "model": {"type": "string"},
+        "version": {"type": "string"},
+        "prompt_sha256": {"pattern": "^[0-9a-f]{64}$"},
+        "packet_sha256": {"pattern": "^[0-9a-f]{64}$"},
+        "web_access": {"const": false},
+        "tool_access": {"type": "boolean"}
+      }
+    }
+  }
+}

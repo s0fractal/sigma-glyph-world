@@ -1,0 +1,26 @@
+{
+  "blind_packet_version": 2,
+  "blind_id": "CTRL04",
+  "incident_date": "authored-control",
+  "control_kind": "static analysis",
+  "evidence": [
+    {
+      "id": "E1",
+      "tier": "T1_NORMATIVE",
+      "text": "A repository-owned manifest omits one relevant source path from the analyzer target list."
+    },
+    {
+      "id": "E2",
+      "tier": "T2_EXECUTABLE",
+      "text": "An independently owned inventory compares the full source tree with the manifest before analysis."
+    },
+    {
+      "id": "E3",
+      "tier": "T2_EXECUTABLE",
+      "text": "The inventory detects the omitted path, returns non-zero, and the governing gate rejects before analyzer success can govern."
+    }
+  ],
+  "claimed_success": "The analyzer's clean result caused the overall verification gate to accept an incomplete scope.",
+  "observed_behavior": "The independent completeness fence rejects the omission; the overall gate does not accept.",
+  "reproducer": "Remove one source path from the manifest and observe the independent inventory and governing status."
+}

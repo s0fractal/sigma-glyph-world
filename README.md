@@ -25,7 +25,10 @@ verification system.
   coded without inventing their causal chain;
 - [`experiments/scope-instrument-001/RESULT.md`](experiments/scope-instrument-001/RESULT.md)
   — a retired-corpus calibration that separates observed behavior from the
-  independently evidenced meaning of success.
+  independently evidenced meaning of success;
+- [`experiments/SCOPE-PILOT-002-preregistration.md`](experiments/SCOPE-PILOT-002-preregistration.md)
+  — the fresh-corpus protocol with a machine-checked sampling frame, contract
+  admission gate, component topology, and frozen authored controls.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.

@@ -1,0 +1,35 @@
+{
+  "pilot": "SCOPE-PILOT-002",
+  "note": "Private scoring key; coders receive one control packet, not this file.",
+  "controls": [
+    {
+      "blind_id": "CTRL01",
+      "admission": "CONTRACT_DISPUTED",
+      "contract_status": "DISPUTED",
+      "mechanisms": [],
+      "primary": "CONTRACT_DISPUTED"
+    },
+    {
+      "blind_id": "CTRL02",
+      "admission": "OUT_OF_SCOPE",
+      "contract_status": "ESTABLISHED",
+      "mechanisms": [],
+      "primary": "OUT_OF_SCOPE"
+    },
+    {
+      "blind_id": "CTRL03",
+      "admission": "ADMIT",
+      "contract_status": "ESTABLISHED",
+      "mechanisms": ["ADAPTER_MISREPRESENTED_RESULT"],
+      "primary": "ADAPTER_MISREPRESENTED_RESULT"
+    },
+    {
+      "blind_id": "CTRL04",
+      "admission": "OUT_OF_SCOPE",
+      "contract_status": "ESTABLISHED",
+      "scope_self_selection": "no",
+      "mechanisms": [],
+      "primary": "OUT_OF_SCOPE"
+    }
+  ]
+}

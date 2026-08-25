@@ -1,0 +1,21 @@
+{
+  "blind_packet_version": 2,
+  "blind_id": "CTRL02",
+  "incident_date": "authored-control",
+  "control_kind": "tests",
+  "evidence": [
+    {
+      "id": "E1",
+      "tier": "T2_EXECUTABLE",
+      "text": "A test process terminated by a signal is shown in the governing UI as Failed."
+    },
+    {
+      "id": "E2",
+      "tier": "T2_EXECUTABLE",
+      "text": "The failure detail misleadingly says exit code 0, while the underlying runner returns non-zero and the required gate rejects."
+    }
+  ],
+  "claimed_success": "The displayed zero inside the failure detail caused the verification gate to accept.",
+  "observed_behavior": "The governing UI and required gate both reject despite misleading diagnostic text.",
+  "reproducer": "Run a signal-crashing test and compare diagnostic text with the governing gate state."
+}
