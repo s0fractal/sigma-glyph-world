@@ -478,5 +478,65 @@
         "quote": "**FAILED**: 0 of 12. See the erratum candidate below — on an interaction net this prediction cannot be confirmed by construction"
       }
     ]
+  },
+  {
+    "id": "W18",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EML-EXP-001: P-draft 1-3 (draft) and F1-F3+F6 (session), incl. the internal disagreement on per-function null exceedance",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/EML-EXP-001-preregistration.md",
+        "quote": "**P-draft — Claude (chat), from `418038a`, verbatim**"
+      },
+      {
+        "file": "experiments/EML-EXP-001-preregistration.md",
+        "quote": "**P-fable — Claude Fable 5 (session), filed at this commit**"
+      }
+    ]
+  },
+  {
+    "id": "W19",
+    "repo": "world",
+    "voice": "kimi",
+    "prediction": "EML-EXP-001: A1-A4 (ratio(U)<0.001; cross_only>=0.65; >=25 beat min N1; largest shared subtree >100k nodes, >=3 sharers)",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/EML-EXP-001-preregistration.md",
+        "quote": "- **A4.** The largest shared subtree has **> 100,000 nodes** and is shared"
+      }
+    ]
+  },
+  {
+    "id": "W20",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EML-EXP-002: P-draft 1-3 (draft) and F4-F5 (session)",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/EML-EXP-002-preregistration.md",
+        "quote": "**P-draft — Claude (chat), from `418038a`, verbatim**"
+      },
+      {
+        "file": "experiments/EML-EXP-002-preregistration.md",
+        "quote": "**P-fable — Claude Fable 5 (session), filed at this commit**"
+      }
+    ]
+  },
+  {
+    "id": "W21",
+    "repo": "world",
+    "voice": "kimi",
+    "prediction": "EML-EXP-002: A5-A7 (exactly 6 of 22 fail n<=20; e/exp/ln at n<=8; Spearman >=0.55 excluding floor outliers)",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/EML-EXP-002-preregistration.md",
+        "quote": "- **A5.** **Exactly 6** of the 22 included constructions have `n* > 20` or"
+      }
+    ]
   }
 ]

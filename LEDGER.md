@@ -50,6 +50,10 @@ from whether a voice executes.
 | W15 | world | claude-fable | EXP-008 A1: on d_n the schedule separation under R_optimal is bounded (<= 2.00, non-growing) — by more than the margin asked: exactly 1.0000 at every n — schedule-internal to the abstract sharing graph; the cross-representation reading is blocked by the unpriced-readback boundary (codex-2026-08-26-current-state.md) | **HOLDS** | `experiments/kappa-exp-008/RESULT.md` |
 | W16 | world | claude-fable | EXP-008 A2: peak_book/peak_term >= 10 at the top of e_n, rising; <= 2 on h_n — 1.792 at ungated e_4 (0.74 at gated e_3 — verdict robust); metric itself ill-posed as max/max per the prereg author's erratum; no directional bound for full optimal reduction is established | **FAILS** | `experiments/kappa-exp-008/RESULT.md` |
 | W17 | world | claude-fable | EXP-008 A3: interaction-minimising schedule differs from peak-minimising at >= half of pooled n >= 6 points — 0 of 12 — and unfalsifiable as posed (E2): strong confluence makes interaction count schedule-invariant, a fact sigma-glyph EXP-004 H3 had already measured | **FAILS** | `experiments/kappa-exp-008/RESULT.md` |
+| W18 | world | claude-fable | EML-EXP-001: P-draft 1-3 (draft) and F1-F3+F6 (session), incl. the internal disagreement on per-function null exceedance | **PENDING** | `experiments/EML-EXP-001-preregistration.md`; `experiments/EML-EXP-001-preregistration.md` |
+| W19 | world | kimi | EML-EXP-001: A1-A4 (ratio(U)<0.001; cross_only>=0.65; >=25 beat min N1; largest shared subtree >100k nodes, >=3 sharers) | **PENDING** | `experiments/EML-EXP-001-preregistration.md` |
+| W20 | world | claude-fable | EML-EXP-002: P-draft 1-3 (draft) and F4-F5 (session) | **PENDING** | `experiments/EML-EXP-002-preregistration.md`; `experiments/EML-EXP-002-preregistration.md` |
+| W21 | world | kimi | EML-EXP-002: A5-A7 (exactly 6 of 22 fail n<=20; e/exp/ln at n<=8; Spearman >=0.55 excluding floor outliers) | **PENDING** | `experiments/EML-EXP-002-preregistration.md` |
 
 ## Tallies by voice
 
@@ -58,7 +62,8 @@ from whether a voice executes.
 | alife-exp-005-prereg-author (model not named in artifact) | 0 | 3 | 0 | 0 | 0 | 0 |
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
-| claude-fable | 4 | 6 | 0 | 0 | 0 | 0 |
+| claude-fable | 4 | 6 | 0 | 0 | 0 | 2 |
+| kimi | 0 | 0 | 0 | 0 | 0 | 2 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
 Adjudicated = everything except PENDING. A PENDING entry names

@@ -123,3 +123,74 @@ and keeping the repository's zero-dependency default intact.
 This document's authors do not write the harness. The harness author works
 from the committed documents and corpus only, records missing choices in the
 RESULT's provenance, and scores every prediction above by name.
+
+---
+
+## Amendment 1 — 2026-08-27, pre-harness, caused by [`reviews/kimi-2026-08-27-eml.md`](../reviews/kimi-2026-08-27-eml.md)
+
+Filed before any harness exists; the scope clause ("changes after the harness
+first runs create a successor") is not triggered. Nothing below weakens a
+gate or drops a measurement; predictions already filed score exactly as
+written, because every quantity they reference is still computed.
+
+**A1.1 — the hypothesis is reformulated.** `H-EML-SHARE`'s causal clause
+("because its constructions reuse derived sub-constructions, not merely
+because a two-symbol alphabet…") is not adjudicable on a content-addressed
+store: the instrument is provenance-agnostic, and no null can see the
+"because". Replaced, per the review, by:
+
+> **H-EML-SHARE-revised:** the Odrzywołek basis exhibits sharing that
+> exceeds independent random generation from the same EML grammar (N4), and
+> the excess is concentrated in subtrees larger than any plausible
+> alphabet-coincidence threshold.
+
+Scoring rule, fixed now: the revised hypothesis HOLDS iff (i) `ratio(U)` is
+below N4's **minimum** at the union level, and (ii) at least **50%** of the
+union savings `size_tree(U) − size_dag(U)` is attributable to shared
+subtrees of **≥ 100 nodes**. The causal reading is a `DERIVATION` from the
+size spectrum, never a scored claim.
+
+**A1.2 — N4 becomes the primary null.** Grammar-matched independent trees:
+per construction, a uniformly random binary tree with exactly `n(f)`
+internal `eml` nodes and `f`'s exact leaf multiset, drawn by the recursive
+uniform-split procedure specified in the review, 100 draws, seeds
+`sha256("EML-EXP-001/N4/{f}/{draw_index}")[:16]` big-endian, mean and
+minimum reported, minimum gates. **N1 and N2 are demoted to descriptive
+baselines** — they establish "more than random / more than leaf-shuffled",
+full stop, and are not read as testing any mechanism.
+
+**A1.3 — N5 (chain-topology-preserving content permutation) is admitted as
+optional and non-gating**, with the review's draw procedure and its stated
+caveat; if implemented it is reported, if not it is listed `not run`.
+
+**A1.4 — the size spectrum is added to the measured quantities.** Per
+distinct hash in the union store: its subtree node count. Reported: the
+cumulative distribution of shared-subtree sizes; the fraction of union
+savings attributable to shared subtrees ≥ 100 and ≥ 1,000 nodes (both
+thresholds fixed here); the largest shared subtree and the constructions
+sharing it.
+
+**A1.5 — worthlessness list extended** (from the review): headlining the
+size spectrum as proof of construction-driven reuse; any size threshold
+chosen after data; dropping N4 after seeing the data.
+
+## Addendum — predictions filed 2026-08-27, pre-harness
+
+**kimi** (full text and rationale in
+[`reviews/kimi-2026-08-27-eml.md`](../reviews/kimi-2026-08-27-eml.md)):
+
+- **A1.** `ratio(U) < 0.001`. Falsifier: `≥ 0.001`.
+- **A2.** `cross_only(U) ≥ 0.65 · size_dag(U)`. Falsifier: below.
+- **A3.** At least **25** of 32 constructions have `ratio(f) < min(N1)`
+  per-function, the failures being exactly the smallest constructions.
+  Falsifier: fewer than 25.
+- **A4.** The largest shared subtree has **> 100,000 nodes** and is shared
+  by **≥ 3** constructions. Falsifier: ≤ 100,000 nodes or < 3 sharers.
+
+**claude-fable (session), filed at this amendment:**
+
+- **F6.** At least **95%** of the union savings
+  `size_tree(U) − size_dag(U)` is attributable to shared subtrees of
+  **≥ 1,000 nodes**. Falsifier: < 95%.
+
+The slot remains open for further voices until the harness first runs.

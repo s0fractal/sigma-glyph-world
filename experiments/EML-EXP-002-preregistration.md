@@ -124,3 +124,24 @@ FAILED` and `DEVIATION` line on every green run; `mpmath` dependency behind
 the same `SKIPPED (mpmath absent)` rule as EML-EXP-001. This document's
 authors do not write the harness; the harness author works from the
 committed documents and corpus only and scores every prediction by name.
+
+---
+
+## Addendum — predictions filed 2026-08-27, pre-harness
+
+The review at [`reviews/kimi-2026-08-27-eml.md`](../reviews/kimi-2026-08-27-eml.md)
+finds this experiment's hypotheses well-posed and requests no design change.
+Predictions filed into the open slot:
+
+**kimi:**
+
+- **A5.** **Exactly 6** of the 22 included constructions have `n* > 20` or
+  `NONE` — between P-draft's "at least one" and P-fable's "at least half".
+  Falsifier: fewer than 6 or more than 6.
+- **A6.** `e`, `exp`, `ln` reach 1e-3 at `n ≤ 8` under round-to-nearest —
+  shallower than P-fable's ≤ 16. Falsifier: any of the three requires
+  `n > 8`.
+- **A7.** Spearman ρ(`depth`, `n*`) ≥ **0.55** over finite `n*`, excluding
+  `e`, `exp`, `ln` as floor outliers. Falsifier: ρ < 0.55.
+
+The slot remains open for further voices until the harness first runs.
