@@ -2,10 +2,15 @@
 
 **Status: `H-KAPPA` refuted. κ is not an invariant of the calculus.**
 
-> **See the [erratum](#erratum-2026-08-26) before reading §"The positive
-> replacement" and §"Consequence for Track A".** The refutation stands
-> unchanged; those two sections overclaimed and their successor question was
-> trivial. Raised by [`talks/claude-fable-002.md`](../../talks/claude-fable-002.md).
+> **Two errata. Read both before this document.**
+> [Erratum 1](#erratum-2026-08-26) — the positive replacement and the successor
+> question, raised by [`talks/claude-fable-002.md`](../../talks/claude-fable-002.md).
+> [Erratum 2](#erratum-2-2026-08-26--representation-and-signature) — the machine
+> does not have the representation this experiment pinned, and the word
+> "materialized" is not supported by it. Raised by
+> [Codex's review](../../reviews/codex-2026-08-26.md), findings 1 and 4.
+> The algebra over the declared metric survives both; the physical reading does
+> not.
 
 The claim under attack, from [`talks/claude-fable-001.md`](../../talks/claude-fable-001.md)
 «Наукові» §1, is that the minimal overcharge factor κ — how far the charged cost
@@ -254,3 +259,95 @@ is the mechanism KAPPA-EXP-002 tests.
 
 `UNKNOWN`: whether the reference implementation conforms to §3.4 on this family.
 Nothing here executed Book I's oracle. Reading a specification is not running it.
+
+---
+
+## Erratum 2, 2026-08-26 — representation and signature
+
+From [`reviews/codex-2026-08-26.md`](../../reviews/codex-2026-08-26.md),
+findings 1 and 4. Both reproduced here before acting.
+
+### Finding 1 — the "no sharing" machine shares objects
+
+`FACT`: the preregistration pins "explicit syntax tree" with "no sharing". The
+implementation does not satisfy that.
+[`substitute`](lambda_machine.py) returns the *same* `value` object at every
+substituted occurrence, and returns `term` itself whenever the bound name is
+absent from its free variables. The executable object graph is therefore a
+persistent DAG.
+
+Reproduced:
+
+```python
+nf = normalize(family(1), "S_in", 100)["normal_form"]
+assert nf.fun.arg is nf.arg      # holds
+```
+
+`FACT`, distinct reachable Python objects against the reported `size`:
+
+| strategy | n | reported `size` | distinct objects |
+|---|---:|---:|---:|
+| `S_in` | 4 | 61 | 10 |
+| `S_in` | 8 | 1021 | **18** |
+| `S_out` | 4 | 61 | 32 |
+| `S_out` | 8 | 1021 | 512 |
+
+`DERIVATION`: `Term.size` is an **occurrence-weighted tree size** — a correct and
+standard measure of a λ-term as a term — computed over an object graph that is
+strictly more compact. Every number in this experiment is a correct measurement
+of that metric. No number is a measurement of what the harness allocated.
+
+**What is retracted:** every sentence in this document, in its preregistration,
+and in KAPPA-EXP-003 and KAPPA-EXP-005, that reads `peak` as *materialized
+state*, or describes `C_size` as charging for copies the harness makes. The
+harness does not make them. The correct name for the machine is **a persistent
+DAG with an occurrence-weighted tree metric**, and that is what the results are
+about.
+
+**What survives:** the algebra. Size explosion is a real property of λ-terms:
+`S_in` reaches a term of tree size `4·2^n − 3` in `n` β-steps while `S_out`
+spends `2^n − 1`. `H-KAPPA` is refuted **over this metric**, and that refutation
+does not depend on how any implementation stores the term.
+
+**What this makes sharper rather than weaker:** representation was already a
+component of the pinned machine tuple, and this is a demonstration of that axis
+rather than an escape from it. Under a DAG metric — distinct nodes rather than
+occurrences — `S_in`'s peak at `n = 8` is 18, not 1021, and its κ would be
+bounded. The counterexample is a counterexample for the tree metric and
+dissolves under the DAG metric. KAPPA-EXP-002 is the same statement from the
+other side, and its claims *are* about physical materialization: the Book I
+oracle was checked at object level and produces 1021 distinct Python objects for
+`size_tree = 1021` at `n = 8`, so it genuinely materializes once per occurrence.
+
+`UNKNOWN`: what happens when logical occurrence size, distinct reachable
+objects, distinct content hashes, cumulative allocations, peak live objects,
+steps, and charged cost are seven separately measured quantities instead of one
+cached field. That is KAPPA-EXP-006, and this experiment's numbers must not be
+reused as measurements of physical materialization.
+
+### Finding 4 — the target quantity slipped between two signatures
+
+`FACT`: the preregistration defines `κ_M(t)` and then "`κ_M` over the family" as
+`sup_n κ_M(h_n)`, while the headline says κ is not an invariant of *the
+calculus*. Those are different statements, and the second does not follow from
+the first.
+
+`DERIVATION`: the correct signature is `κ(M, T) = sup_{t ∈ T} (peak_M(t) − 1) /
+cost_M(t)`, and `T` must never be erased. Three readings of the claim under
+attack are distinguishable:
+
+1. equality of global suprema over all λ-terms;
+2. a uniform pointwise comparison across strategies on the same term;
+3. an ordering of machines on a declared workload distribution.
+
+This experiment refutes **reading 2**, which is the natural reading of "κ is an
+invariant of the calculus, not of the strategy": if κ were strategy-independent,
+two strategies would agree up to a bounded factor on each term, and on `h_n`
+they diverge as `Θ(2^n/n)`.
+
+Reading 1 is **untouched**. Both global suprema may well be infinite, in which
+case they are trivially equal and the h_n family says nothing about them.
+Reading 3 requires a declared workload and was never attempted.
+
+`FACT`: the headline of this document should be read as *"κ is not uniform
+across strategies pointwise"*, not as *"the calculus has no κ constant"*.

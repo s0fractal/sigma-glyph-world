@@ -43,7 +43,10 @@ verification system.
   and [`experiments/kappa-exp-001/RESULT.md`](experiments/kappa-exp-001/RESULT.md)
   — a preregistered refutation of the claim that the overcharge factor κ is an
   invariant of a calculus. One λ family, two strategies, same normal form: κ
-  diverges under one and converges to 4 under the other.
+  diverges under one and converges to 4 under the other. Two errata: the
+  successor question was trivial, and the machine's object graph is a persistent
+  DAG while its metric is occurrence-weighted, so `peak` is a tree size and not
+  materialized state;
 - [`experiments/KAPPA-EXP-002-preregistration.md`](experiments/KAPPA-EXP-002-preregistration.md)
   and [`experiments/kappa-exp-002/RESULT.md`](experiments/kappa-exp-002/RESULT.md)
   — the same family run through the Σ-GLYPH Book I reference oracle at a pinned
@@ -58,9 +61,14 @@ verification system.
 - [`experiments/KAPPA-EXP-005-preregistration.md`](experiments/KAPPA-EXP-005-preregistration.md)
   and [`experiments/kappa-exp-005/RESULT.md`](experiments/kappa-exp-005/RESULT.md)
   — the extended grid that settles it. The spread saturates in `n` and is driven
-  by `k`, converging to `k + 9/4`: λ has no strategy-insensitivity constant under
-  either materialization-charging cost model. The preregistered prediction was
-  wrong in both directions and says so on every green run.
+  by `k`, converging to `k + 9/4`. The preregistered prediction was wrong in both
+  directions and says so on every green run; an erratum supplies the peak
+  recurrences the asymptotic claim was missing and retracts the Track A
+  over-generalisation;
+- [`reviews/codex-2026-08-26.md`](reviews/codex-2026-08-26.md) — an adversarial
+  review of `main` at `d61e6da`, verdict `CHANGES REQUESTED`, whose findings are
+  answered in errata and successor experiments rather than by editing the
+  reviewed documents.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
@@ -109,10 +117,12 @@ real reason it does not transfer to Σ-GLYPH: the strategy is pinned normatively
 so there is no second strategy to diverge. KAPPA-EXP-003 and KAPPA-EXP-005 ask the
 spread question of λ, where the strategy is free, and answer it: unbounded under
 both materialization-charging cost models, for different reasons, only the
-second of which is real. The invariant the track set out to find does not exist
-for λ. What survives is a derived requirement — a machine that wants a
-single-integer budget must pin both its cost model and its strategy, which is
-what Book I does.
+second of which is real. Over the occurrence-weighted tree metric, the
+invariant the track set out to find does not exist for λ. What survives is
+narrower than first claimed: on the measured family and under the two measured
+cost models, no strategy-independent constant-competitive charge exists. Hard-cap
+safety is unaffected and needs no pinned strategy; the earlier "derived
+requirement" is retracted.
 
 The distributed-prepayment track (Track B) remains formalization work until its
 fault model and comparison metric stop moving.

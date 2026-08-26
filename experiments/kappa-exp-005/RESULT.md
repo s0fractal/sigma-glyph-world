@@ -1,8 +1,14 @@
 # KAPPA-EXP-005 — result
 
-**Status: `H-SPREAD-DUP` refuted. λ has no strategy-insensitivity constant under
-either materialization-charging cost model. The preregistered prediction was
-wrong in both directions.**
+**Status: `H-SPREAD-DUP` refuted over the occurrence-weighted metric. The
+preregistered prediction was wrong in both directions.**
+
+> **See the [erratum](#erratum-2026-08-26) before reading §"Consequence for
+> Track A".** [Codex's review](../../reviews/codex-2026-08-26.md) found the
+> asymptotic claim rested on three tail observations rather than a derivation,
+> and the Track A conclusion over-generalised. The first is now supplied as a
+> derivation in [`theorem.py`](theorem.py); the second is retracted and
+> replaced.
 
 ## The prediction failed first
 
@@ -140,3 +146,96 @@ the preregistered grid takes about seven minutes and is not run by the suite.
 `validate.py` re-derives both cost closed forms against all 40 rows and prints
 the failed predictions. Green execution is reproducibility of a bounded
 computation. It is not review, adoption, or external validity.
+
+---
+
+## Erratum, 2026-08-26
+
+From [`reviews/codex-2026-08-26.md`](../../reviews/codex-2026-08-26.md),
+findings 2 and 3. One is answered by supplying what was missing; one is a
+retraction.
+
+### Finding 2 — the peak asymptotics were inferred, not derived. Now derived.
+
+`FACT`: the review is right about what the validator did. It proved the two
+cost formulae on 40 rows, then checked that the peak excess was *equal on the
+last three `n` per `k`* and printed `refuted`. Three equal tail observations do
+not establish an all-`n`, all-`k` limit, and `spread` contains both strategies'
+peaks, so exact cost recurrences alone are insufficient.
+
+`DERIVATION`, now supplied in [`theorem.py`](theorem.py), from the structure of
+the two trajectories rather than from the tail:
+
+```text
+peak_out(n,k) = 3 + peak_out(n-1,k) + max(|g_{n-1}|, |T_{n-1}|),  peak_out(0,k) = |c_k|
+peak_in (n,k) = max(|g_n|, |T_n|)
+cost_out(n,k) = (4k + 9)·2^n − (3k + 7n + 9)
+cost_in (n,k) = 4·2^n + k − 2n − 4
+```
+
+After the outer contraction the term is `APPLY(APPLY(p, g_{n−1}), g_{n−1})`,
+contributing 3 nodes. Leftmost-outermost then has two phases — the left copy
+reduces while the right is still `g_{n−1}`, then the right reduces while the
+left is fixed at `T_{n−1}` — so each phase's maximum is `3 + peak(n−1)` plus the
+other side's fixed size, and the trajectory maximum takes the larger fixed side.
+Leftmost-innermost shrinks the chain before growing the tree, so it never
+exceeds its endpoints.
+
+`FACT`: all four forms are exact on **all 58** frozen rows of KAPPA-EXP-003 and
+KAPPA-EXP-005 together. `theorem.py --check` also runs the mutation the review
+asked for: perturbing the *earliest* row of each `k` while leaving the last
+three untouched is caught, so the check cannot be satisfied by a doctored tail.
+
+`DERIVATION`: past the crossover where `|T_{n−1}|` overtakes `|g_{n−1}|`, the
+recurrence becomes `peak_out(n) = peak_out(n−1) + 4·2^{n−1}`, hence
+`peak_out = 4·2^n + C(k)`. With `κ_S_in → 1` and `κ_S_out → 4/(4k+9)`,
+`spread → k + 9/4` for every `k`, and `k` is a free parameter of the family.
+
+`FACT`: these are hand derivations machine-checked on 58 points, not mechanised
+proofs. A Lean or Coq statement would be a further step this repository has not
+taken.
+
+**Status after the erratum:**
+
+```text
+FACT       — the preregistered prediction failed on the frozen grid.
+DERIVATION — spread(g_{n,k}) → k + 9/4, from four closed forms exact on 58 rows.
+DERIVATION — H-SPREAD-DUP is false over the occurrence-weighted tree metric.
+UNKNOWN    — whether it is false over physically materialized state; see the
+             KAPPA-EXP-001 erratum on finding 1 and KAPPA-EXP-006.
+```
+
+### Finding 3 — "a single-integer budget must pin strategy" is retracted
+
+`FACT`: this document claimed *"no choice of materialization-charging cost model
+removes it"* while only two models were studied, and turned strategy pinning
+into a *derived requirement* for a single-integer budget.
+
+Both are retracted. The review is correct that the experiments show a difference
+in **tightness**, not a failure of **safety**, and that the universal
+quantification over cost models is unearned.
+
+`DERIVATION`: the erratum inequality `size ≤ 1 + cost` holds strategy by
+strategy under any materialization-charging model. A hard cap is therefore safe
+under *either* strategy without pinning anything; a conservative
+strategy-agnostic price stays safe while wasting capacity. Unbounded spread does
+not distinguish these.
+
+Separating the properties the earlier text conflated:
+
+| property | what these experiments say |
+|---|---|
+| hard-cap safety | unaffected; follows from `Δsize ≤ cost − 1` alone |
+| tightness — paid cost as a constant-factor proxy for materialized state | fails without a pinned strategy, on this family, under both measured models |
+| work conservation / utilization | not measured |
+| strategy-independent comparability | fails, same evidence as tightness |
+
+**Replacement claim, correctly quantified:** *on the family `g_{n,k}`, under
+`C_size` and `C_dup`, no strategy-independent constant-competitive charge
+exists.* Whether that extends to a defined class of local cost models is
+`UNKNOWN` and would need the class defined and a lower bound proved.
+
+`DERIVATION`: Book I pinning both its cost model and its strategy remains a
+coherent design, and KAPPA-EXP-002 observed it doing so. But this repository no
+longer claims that as *derived from* these measurements. It is a design choice
+that these measurements are consistent with.

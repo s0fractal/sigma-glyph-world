@@ -45,6 +45,22 @@ of the normal form from `4·2^n − 3` to `2n + 2`; it does not collapse the
 *materialization*, and `size` in §3.4 is a tree recursion over what is
 materialized.
 
+## Checked at object level
+
+`FACT`, added 2026-08-26 in response to
+[Codex's review](../../reviews/codex-2026-08-26.md) finding 1, which showed the
+KAPPA-EXP-001 λ machine reports an occurrence-weighted tree size over an object
+graph that is a DAG: the oracle does **not** do this. Its normal form contains
+1021 distinct Python objects at `n = 8` for `size_tree = 1021`, 253 for 253 at
+`n = 6`, 61 for 61 at `n = 4`.
+
+`DERIVATION`: `R-S` aliases `z` into both branches at the moment of duplication,
+but each copy is a separate thunk and is forced independently afterwards, so the
+materialized objects diverge. This experiment's claims about materialization are
+therefore about materialization, and its `size_tree` versus `size_dag` gap is a
+real gap between what is allocated and what the store holds — not an artifact of
+a metric.
+
 ## This is not a defect claim against Book I
 
 `FACT`: `size(t) − 1 ≤ spent` held at **every step** of all twelve evaluations.
