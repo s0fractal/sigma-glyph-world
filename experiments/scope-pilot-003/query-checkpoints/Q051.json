@@ -1,0 +1,107 @@
+{
+  "index": 51,
+  "stratum": "lint_static_analysis",
+  "repository": "golangci/golangci-lint",
+  "repository_id": 132145189,
+  "term": "no tests",
+  "query": "repo:golangci/golangci-lint is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:42.610589+00:00",
+  "total_count": 13,
+  "incomplete_results": false,
+  "returned": 13,
+  "raw_response_sha256": "966ad039b157357dbd5b7a6965e5665f0d0965630b2d21f3c85e66de3825af7b",
+  "items": [
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/995",
+      "number": 995,
+      "title": "Can't run linter goanalysis_metalinter 1.24.x: failed prerequisites",
+      "created_at": "2020-03-16T06:36:21Z",
+      "closed_at": "2020-04-23T20:42:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1351",
+      "number": 1351,
+      "title": "gci does not take effect when used with `...` style",
+      "created_at": "2020-09-01T21:56:35Z",
+      "closed_at": "2021-03-07T05:21:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1496",
+      "number": 1496,
+      "title": "Could not find nil pointer",
+      "created_at": "2020-11-06T09:39:06Z",
+      "closed_at": "2022-04-28T19:37:24Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1517",
+      "number": 1517,
+      "title": "False positive for structcheck linter",
+      "created_at": "2020-11-19T10:36:14Z",
+      "closed_at": "2022-08-21T19:37:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2374",
+      "number": 2374,
+      "title": "Panic since update to v1.43.0 (load embedded ruleguard rules: rules/rules.go:13: can't load fmt)",
+      "created_at": "2021-11-23T07:04:40Z",
+      "closed_at": "2022-08-17T17:30:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2527",
+      "number": 2527,
+      "title": "Allow to disable tests checking only for particular linters",
+      "created_at": "2022-01-27T19:54:26Z",
+      "closed_at": "2022-01-28T07:30:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3456",
+      "number": 3456,
+      "title": "Panic: unparam: package \"test\" (isInitialPkg: true, needAnalyzeSource: true): ...go1.19.4/src/go/types/sizes.go:181:",
+      "created_at": "2023-01-04T09:03:44Z",
+      "closed_at": "2023-01-04T10:58:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3515",
+      "number": 3515,
+      "title": "Add `nocorpus` linter",
+      "created_at": "2023-01-28T14:25:22Z",
+      "closed_at": "2024-01-29T07:20:15Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3682",
+      "number": 3682,
+      "title": "FAIL: TestSourcesFromTestdata/go-header_bad.go",
+      "created_at": "2023-03-12T20:27:46Z",
+      "closed_at": "2024-03-02T15:52:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3952",
+      "number": 3952,
+      "title": "Override linters settings by conditions",
+      "created_at": "2023-07-12T10:39:44Z",
+      "closed_at": "2023-07-12T11:37:44Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4012",
+      "number": 4012,
+      "title": "Incorrect default for gosec -tests flag with no way to override",
+      "created_at": "2023-08-16T05:33:44Z",
+      "closed_at": "2023-08-16T08:32:11Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4237",
+      "number": 4237,
+      "title": "make test failed",
+      "created_at": "2023-12-05T06:08:42Z",
+      "closed_at": "2023-12-05T10:44:28Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4254",
+      "number": 4254,
+      "title": "Add deadcode linter",
+      "created_at": "2023-12-13T12:01:28Z",
+      "closed_at": "2023-12-13T12:35:39Z"
+    }
+  ]
+}

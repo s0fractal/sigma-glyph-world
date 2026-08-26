@@ -1,0 +1,177 @@
+{
+  "index": 36,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "exit code",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:55.670139+00:00",
+  "total_count": 23,
+  "incomplete_results": false,
+  "returned": 23,
+  "raw_response_sha256": "374ff9767d78d77d04a997f3d9a1b561e2a9b877bf0655e3682d84c67b3d1126",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/82",
+      "number": 82,
+      "title": "loading shared libraries error",
+      "created_at": "2022-02-25T14:18:14Z",
+      "closed_at": "2022-03-22T02:31:03Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/96",
+      "number": 96,
+      "title": "Support for running criterion benches as tests?",
+      "created_at": "2022-03-04T21:48:18Z",
+      "closed_at": "2023-05-30T17:42:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/122",
+      "number": 122,
+      "title": "Unexpected behavior when custom test harnesses don't parse arguments",
+      "created_at": "2022-03-19T17:24:20Z",
+      "closed_at": "2022-04-07T23:39:30Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/267",
+      "number": 267,
+      "title": "macos: dyld: Library not loaded: @rpath/libtest-77ee8c29c330e4a3.dylib",
+      "created_at": "2022-06-09T20:28:55Z",
+      "closed_at": "2024-05-23T21:14:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/281",
+      "number": 281,
+      "title": "Report test failures due to signals",
+      "created_at": "2022-06-15T11:34:11Z",
+      "closed_at": "2022-06-17T06:25:41Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/362",
+      "number": 362,
+      "title": "Figure out mysterious flaky cdylib-link failure on Windows",
+      "created_at": "2022-07-17T19:12:20Z",
+      "closed_at": "2022-07-18T18:32:18Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/380",
+      "number": 380,
+      "title": "command terminated with exit code 137",
+      "created_at": "2022-07-21T11:49:55Z",
+      "closed_at": "2022-07-22T06:42:24Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/441",
+      "number": 441,
+      "title": "No detailed error message when `cargo test --no-run --message-format json-render-diagnostics` failed",
+      "created_at": "2022-08-03T04:53:54Z",
+      "closed_at": "2022-08-03T05:15:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/499",
+      "number": 499,
+      "title": "Support more `cfg()` in `Cargo.toml`",
+      "created_at": "2022-08-30T09:25:55Z",
+      "closed_at": "2022-08-31T02:58:32Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/633",
+      "number": 633,
+      "title": "failed to construct package graph: for package 'windows-sys 0.42.0'",
+      "created_at": "2022-11-08T12:55:45Z",
+      "closed_at": "2022-11-08T15:50:42Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/871",
+      "number": 871,
+      "title": "Incorrect arguments passed to benchmarks",
+      "created_at": "2023-05-10T14:52:33Z",
+      "closed_at": "2023-05-10T17:21:53Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1107",
+      "number": 1107,
+      "title": "An option to fail if no test has been actually run",
+      "created_at": "2023-11-14T04:43:09Z",
+      "closed_at": "2024-08-25T20:32:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1172",
+      "number": 1172,
+      "title": "Feature idea: Condition for retrying tests",
+      "created_at": "2023-12-19T23:11:44Z",
+      "closed_at": "2024-10-04T07:07:11Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1204",
+      "number": 1204,
+      "title": "Unable to disable self-update feature",
+      "created_at": "2024-01-04T15:59:10Z",
+      "closed_at": "2024-01-08T00:50:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1205",
+      "number": 1205,
+      "title": "Tests integration-tests::integration fail with error for setup of scripts/my-script.sh",
+      "created_at": "2024-01-04T18:05:41Z",
+      "closed_at": "2024-01-08T01:00:06Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1329",
+      "number": 1329,
+      "title": "Unsupported arguments (--list --format terse) passed to rust cumcumber test",
+      "created_at": "2024-02-23T09:30:01Z",
+      "closed_at": "2024-02-23T20:24:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1466",
+      "number": 1466,
+      "title": "v0.9.70 using significantly more stack",
+      "created_at": "2024-04-26T03:02:58Z",
+      "closed_at": "2024-04-27T03:25:46Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1493",
+      "number": 1493,
+      "title": "`cargo nextest run --workspace` fails with DLL missing if a macro lib exists ",
+      "created_at": "2024-05-09T20:46:02Z",
+      "closed_at": "2024-05-22T23:11:41Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1532",
+      "number": 1532,
+      "title": "Feature Request: Conditional skipping test based on setup scripts",
+      "created_at": "2024-05-31T11:34:23Z",
+      "closed_at": "2024-10-04T07:03:58Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1639",
+      "number": 1639,
+      "title": "Behavior change: produce a non-zero exit code (4) if no tests were run",
+      "created_at": "2024-08-18T02:34:45Z",
+      "closed_at": "2024-08-18T22:56:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2246",
+      "number": 2246,
+      "title": "Why I got error 102 in makefile when running nextest. ",
+      "created_at": "2025-03-21T11:30:05Z",
+      "closed_at": "2025-03-27T18:49:12Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2372",
+      "number": 2372,
+      "title": "Bug: WebAssembly Target Runner Support",
+      "created_at": "2025-05-30T16:15:45Z",
+      "closed_at": "2025-06-02T14:04:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2463",
+      "number": 2463,
+      "title": "nextest test suite hanging in some configurations (Cargo 1.88 bug)",
+      "created_at": "2025-07-12T00:03:43Z",
+      "closed_at": "2025-08-07T21:08:16Z"
+    }
+  ]
+}

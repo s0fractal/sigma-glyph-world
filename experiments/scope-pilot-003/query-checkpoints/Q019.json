@@ -1,0 +1,716 @@
+{
+  "index": 19,
+  "stratum": "tests",
+  "repository": "jestjs/jest",
+  "repository_id": 15062869,
+  "term": "ignored",
+  "query": "repo:jestjs/jest is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:58.882417+00:00",
+  "total_count": 117,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "a37a5eb285ccb165165f2634491ddab570a4dbfba9131ca2187bc9a75987a5dd",
+  "items": [
+    {
+      "url": "https://github.com/jestjs/jest/issues/9395",
+      "number": 9395,
+      "title": "SyntaxError: Cannot use import statement outside a module",
+      "created_at": "2020-01-11T00:49:47Z",
+      "closed_at": "2020-01-14T08:36:48Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9464",
+      "number": 9464,
+      "title": "Jest 25's change in behaviour of collectCoverageFrom option",
+      "created_at": "2020-01-24T18:05:29Z",
+      "closed_at": "2021-04-25T06:14:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9500",
+      "number": 9500,
+      "title": "prettierPath not working",
+      "created_at": "2020-02-02T18:29:27Z",
+      "closed_at": "2023-02-18T23:03:52Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9628",
+      "number": 9628,
+      "title": "projects and collectCoverageFrom do not work together",
+      "created_at": "2020-03-02T09:28:47Z",
+      "closed_at": "2024-04-27T12:06:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9751",
+      "number": 9751,
+      "title": "Feature Proposal: Exclude certein tests from coverage recording",
+      "created_at": "2020-04-02T11:32:52Z",
+      "closed_at": "2022-03-27T13:00:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9761",
+      "number": 9761,
+      "title": "testSequencer config silently ignored in projects",
+      "created_at": "2020-04-03T12:11:50Z",
+      "closed_at": "2022-11-07T17:15:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9814",
+      "number": 9814,
+      "title": "transformIgnorePatterns not working",
+      "created_at": "2020-04-15T03:20:46Z",
+      "closed_at": "2020-04-15T09:12:49Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10002",
+      "number": 10002,
+      "title": "Multiple issues with having stack traces from console.error warn and log",
+      "created_at": "2020-05-08T00:26:07Z",
+      "closed_at": "2023-03-19T16:42:09Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10012",
+      "number": 10012,
+      "title": "TypeError: _gracefulFs(...).realpathSync.native is not a function",
+      "created_at": "2020-05-10T08:38:03Z",
+      "closed_at": "2020-05-10T08:51:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10123",
+      "number": 10123,
+      "title": "setupFilesAfterEnv is empty with --showConfig, despite being set in package.json",
+      "created_at": "2020-06-04T08:56:29Z",
+      "closed_at": "2020-06-04T09:07:29Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10124",
+      "number": 10124,
+      "title": "Warn when multiple configs are found",
+      "created_at": "2020-06-04T11:42:23Z",
+      "closed_at": "2021-10-06T11:08:53Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10133",
+      "number": 10133,
+      "title": "Change to watched file outside of <rootDir> is ignored",
+      "created_at": "2020-06-05T17:58:48Z",
+      "closed_at": "2023-03-19T16:41:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10185",
+      "number": 10185,
+      "title": "Enable ES Modules for JSX files",
+      "created_at": "2020-06-22T19:13:42Z",
+      "closed_at": "2022-09-28T10:27:54Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10374",
+      "number": 10374,
+      "title": "Can't test signal handling",
+      "created_at": "2020-08-06T15:47:25Z",
+      "closed_at": "2023-03-19T16:46:11Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10394",
+      "number": 10394,
+      "title": "`test.each` should perform string interpolation with object properties",
+      "created_at": "2020-08-11T21:12:05Z",
+      "closed_at": "2021-05-08T08:46:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10422",
+      "number": 10422,
+      "title": "jest-resolve can't handle \"exports\"",
+      "created_at": "2020-08-18T07:28:27Z",
+      "closed_at": "2020-08-20T00:28:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10637",
+      "number": 10637,
+      "title": ".toMatchSnapshot propertyMatchers with expect.arrayContaining should not ",
+      "created_at": "2020-10-15T08:36:02Z",
+      "closed_at": "2022-03-27T12:59:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10647",
+      "number": 10647,
+      "title": "Transform not working when nested package.json exists",
+      "created_at": "2020-10-19T07:42:47Z",
+      "closed_at": "2020-12-18T00:38:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10690",
+      "number": 10690,
+      "title": "Invalid variable access _jsxFileName ",
+      "created_at": "2020-10-23T21:56:27Z",
+      "closed_at": "2020-11-01T23:27:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10833",
+      "number": 10833,
+      "title": "Slow startup time in monorepos (single test/project)",
+      "created_at": "2020-11-16T07:42:39Z",
+      "closed_at": "2026-06-17T05:43:52Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10883",
+      "number": 10883,
+      "title": "ESM support: allow package self-reference imports",
+      "created_at": "2020-11-28T16:43:46Z",
+      "closed_at": "2022-04-17T11:40:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10908",
+      "number": 10908,
+      "title": "Default to React Native Jest Preprocessor",
+      "created_at": "2020-12-03T15:16:34Z",
+      "closed_at": "2020-12-03T15:40:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10953",
+      "number": 10953,
+      "title": "`jest-circus` equivalent of jest/jasmine's `fail()` global?",
+      "created_at": "2020-12-15T22:27:29Z",
+      "closed_at": "2021-01-08T21:55:13Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11056",
+      "number": 11056,
+      "title": "Integer keys ranging outside of [0, 4294967294] are ignored when comparing arrays together",
+      "created_at": "2021-02-05T08:17:24Z",
+      "closed_at": "2021-02-05T22:45:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11119",
+      "number": 11119,
+      "title": "code coverage ignored for specs in for-loops",
+      "created_at": "2021-02-25T23:22:08Z",
+      "closed_at": "2023-03-19T16:39:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11188",
+      "number": 11188,
+      "title": "Document some of the tradeoffs of V8 coverage (vs Babel/Istanbul coverage)",
+      "created_at": "2021-03-13T03:52:44Z",
+      "closed_at": "2022-04-12T15:06:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11204",
+      "number": 11204,
+      "title": "Proposal: Sandbox setImmediate() in jsdom environment",
+      "created_at": "2021-03-16T16:43:14Z",
+      "closed_at": "2021-03-25T18:50:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11234",
+      "number": 11234,
+      "title": "Slow start times due to use of barrel files",
+      "created_at": "2021-03-23T19:46:56Z",
+      "closed_at": "2026-07-07T17:40:22Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11411",
+      "number": 11411,
+      "title": "top level `transform` is not available in `projects`",
+      "created_at": "2021-05-14T16:14:19Z",
+      "closed_at": "2026-03-21T02:57:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11446",
+      "number": 11446,
+      "title": "After upgrading to jest 27: SyntaxError: Cannot use import statement outside a module",
+      "created_at": "2021-05-26T04:47:21Z",
+      "closed_at": "2021-05-27T09:14:45Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11584",
+      "number": 11584,
+      "title": "CLI flag for enableSymlinks",
+      "created_at": "2021-06-17T16:28:47Z",
+      "closed_at": "2022-05-20T14:22:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11591",
+      "number": 11591,
+      "title": "Jest encountered an unexpected token",
+      "created_at": "2021-06-18T21:50:02Z",
+      "closed_at": "2021-08-16T13:24:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11648",
+      "number": 11648,
+      "title": "Timeout config is being ignored when the whole file exceeds allowed time to execute",
+      "created_at": "2021-07-07T14:12:53Z",
+      "closed_at": "2023-03-19T16:38:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11665",
+      "number": 11665,
+      "title": "TLSWRAP open handle wrongly detected with MongoDB connections",
+      "created_at": "2021-07-15T14:56:43Z",
+      "closed_at": "2022-10-09T15:27:58Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11689",
+      "number": 11689,
+      "title": "Configure jest for monorepo",
+      "created_at": "2021-07-23T06:31:47Z",
+      "closed_at": "2022-08-22T10:28:42Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11774",
+      "number": 11774,
+      "title": "--changedSince does not run anything if a file is changed that is referenced by setupFilesAfterEnv",
+      "created_at": "2021-08-23T07:20:21Z",
+      "closed_at": "2024-01-01T12:05:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11781",
+      "number": 11781,
+      "title": "[Bug]: Unable to run a test from whitelisted \"node_modules\"",
+      "created_at": "2021-08-24T11:41:19Z",
+      "closed_at": "2022-02-22T12:54:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11783",
+      "number": 11783,
+      "title": "[Bug]: Cannot use with lit-element due to ESM errors, even with transformIgnorePatterns",
+      "created_at": "2021-08-24T19:26:06Z",
+      "closed_at": "2022-04-24T15:50:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11803",
+      "number": 11803,
+      "title": "[Bug]: SyntaxError: Unexpected token 'export' of @ckeditor/ckeditor5-*",
+      "created_at": "2021-08-31T13:23:52Z",
+      "closed_at": "2021-09-27T13:13:12Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11809",
+      "number": 11809,
+      "title": "[Bug]: .esm.js is ignored in extensionsToTreatAsEsm",
+      "created_at": "2021-09-02T10:14:49Z",
+      "closed_at": "2023-03-25T12:15:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11870",
+      "number": 11870,
+      "title": "[Bug]: custom preset is ignored ",
+      "created_at": "2021-09-13T12:44:08Z",
+      "closed_at": "2021-09-14T07:39:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11894",
+      "number": 11894,
+      "title": "[Bug]: 27.x `requireOutside` broke `vscode-jest`",
+      "created_at": "2021-09-25T19:18:53Z",
+      "closed_at": "2022-11-14T10:48:36Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11958",
+      "number": 11958,
+      "title": "[Bug]: jest-circus runner ignores `toJSON` serialization, causing `Converting circular structure to JSON` warnings",
+      "created_at": "2021-10-13T22:58:42Z",
+      "closed_at": "2025-09-15T13:57:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12011",
+      "number": 12011,
+      "title": "[Bug]: yarn test fails on main branch: unable to resolve path to module",
+      "created_at": "2021-10-29T02:04:30Z",
+      "closed_at": "2024-05-16T18:04:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12024",
+      "number": 12024,
+      "title": "[Bug]: toThrow discards non-Error objects when used with promises, while accepting them in synchronuous code",
+      "created_at": "2021-11-02T22:51:14Z",
+      "closed_at": "2026-02-24T17:25:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12057",
+      "number": 12057,
+      "title": "[Bug]: Determining test suites to run... (forever)",
+      "created_at": "2021-11-09T16:43:17Z",
+      "closed_at": "2022-04-27T12:38:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12117",
+      "number": 12117,
+      "title": "[Bug]: \"Jest encountered an unexpected token\" from stale jest-transform cache",
+      "created_at": "2021-12-03T17:31:41Z",
+      "closed_at": "2021-12-05T10:06:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12703",
+      "number": 12703,
+      "title": "[Bug]: Path coverage thresholds include unexpected files with similar paths",
+      "created_at": "2022-04-20T22:29:03Z",
+      "closed_at": "2022-04-27T13:21:40Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12790",
+      "number": 12790,
+      "title": "[Bug]: Jest encountered an unexpected token 'export' with \"uuid\" module",
+      "created_at": "2022-05-02T09:46:06Z",
+      "closed_at": "2022-05-02T09:51:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12806",
+      "number": 12806,
+      "title": "[Bug]: TypeORM decorator ignored after update to version 28",
+      "created_at": "2022-05-04T06:44:32Z",
+      "closed_at": "2022-08-21T06:40:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12818",
+      "number": 12818,
+      "title": "[Bug]: Jest encountered an unexpected token -- SyntaxError: Cannot use import statement outside a module",
+      "created_at": "2022-05-06T15:36:09Z",
+      "closed_at": "2022-05-09T11:02:18Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12824",
+      "number": 12824,
+      "title": "[Bug]: [React Native + Typescipt + React Native Responsive Screen] Jest encountered an unexpected token",
+      "created_at": "2022-05-08T10:01:28Z",
+      "closed_at": "2022-05-08T17:59:53Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12835",
+      "number": 12835,
+      "title": "[Bug]: Document `v8` code coverage options",
+      "created_at": "2022-05-11T14:53:14Z",
+      "closed_at": "2022-05-13T07:26:35Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12959",
+      "number": 12959,
+      "title": "[Bug]: preset cannot set rootDir configuration property",
+      "created_at": "2022-06-22T15:40:18Z",
+      "closed_at": "2022-10-21T14:51:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12984",
+      "number": 12984,
+      "title": "[Bug]: Jest transformIgnorePatterns can't transpile vee-validate with pnpm",
+      "created_at": "2022-07-04T08:25:58Z",
+      "closed_at": "2022-08-26T12:02:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12987",
+      "number": 12987,
+      "title": "[Bug]: Arrays with extra properties are handled inconsistently",
+      "created_at": "2022-07-05T04:20:51Z",
+      "closed_at": "2023-11-06T00:15:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12994",
+      "number": 12994,
+      "title": "[Bug]: The imports field in package.json is ignored",
+      "created_at": "2022-07-06T15:55:24Z",
+      "closed_at": "2022-07-09T03:06:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13065",
+      "number": 13065,
+      "title": "[Bug]: package `exports` is not supported for extension-less directory mappings",
+      "created_at": "2022-07-26T13:34:13Z",
+      "closed_at": "2022-08-01T16:17:12Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13140",
+      "number": 13140,
+      "title": "[Bug]: Mocking of getters/setters on automatically mocked classes does not work",
+      "created_at": "2022-08-15T20:28:31Z",
+      "closed_at": "2022-09-28T07:27:59Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13173",
+      "number": 13173,
+      "title": "[Bug]: jest-runner  Class private methods are not enabled with version 29.0.0",
+      "created_at": "2022-08-25T16:37:53Z",
+      "closed_at": "2022-08-26T16:58:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13183",
+      "number": 13183,
+      "title": "[Bug]: Worker exits but jest process never finishes",
+      "created_at": "2022-08-26T16:44:50Z",
+      "closed_at": "2022-11-07T12:21:45Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13186",
+      "number": 13186,
+      "title": "[Bug]: Jest --coverage doesn’t support native import assertions",
+      "created_at": "2022-08-28T18:21:15Z",
+      "closed_at": "2022-10-28T15:15:13Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13206",
+      "number": 13206,
+      "title": "[Bug]: \"mockImplementation\" is behaving different than the syntacical-sugar version\"mockResolvedValue\"",
+      "created_at": "2022-09-02T09:36:24Z",
+      "closed_at": "2023-11-26T13:19:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13232",
+      "number": 13232,
+      "title": "[Bug]: Properties of Error subclasses other than `message` are ignored when using `toEqual`.",
+      "created_at": "2022-09-09T11:27:53Z",
+      "closed_at": "2022-12-16T03:02:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13233",
+      "number": 13233,
+      "title": "[Bug]: Generating a coverage report with --runInBand, collectCoverageFrom, and a transformer can mask a failing exit code",
+      "created_at": "2022-09-09T16:38:11Z",
+      "closed_at": "2023-11-22T20:04:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13251",
+      "number": 13251,
+      "title": "[Bug]: Loaded ESM module can't refer to mapped imports from `package.json:{imports...}`",
+      "created_at": "2022-09-12T20:27:00Z",
+      "closed_at": "2022-09-12T20:50:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13359",
+      "number": 13359,
+      "title": "[Bug]: Jest doesnt transform file from node_modules even with empty ignore settings",
+      "created_at": "2022-10-02T13:56:45Z",
+      "closed_at": "2023-03-13T21:23:17Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13397",
+      "number": 13397,
+      "title": "[Bug]: toMatchObject output does not show class getter value",
+      "created_at": "2022-10-06T23:23:52Z",
+      "closed_at": "2022-12-12T17:24:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13576",
+      "number": 13576,
+      "title": "[Bug]: Validation warnings for options like preset or coverage directory",
+      "created_at": "2022-11-08T14:36:22Z",
+      "closed_at": "2026-08-08T09:13:56Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13600",
+      "number": 13600,
+      "title": "[Bug]: useFakeTimers doNotFake \"nextTick\" is not ignored, error Exceeded timeout of 30000 ms for a test",
+      "created_at": "2022-11-10T12:56:28Z",
+      "closed_at": "2022-11-14T15:16:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13621",
+      "number": 13621,
+      "title": "[Bug]: useFakeTimers doNotFake \"nextTick\" is not ignored when using mongoDB with mongoose, error Exceeded timeout of 30000 ms for a test",
+      "created_at": "2022-11-17T18:36:40Z",
+      "closed_at": "2023-01-16T18:42:17Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13722",
+      "number": 13722,
+      "title": "[Bug]: Problem with Web Components (Clarity) in Angular Unit Tests",
+      "created_at": "2023-01-03T08:21:50Z",
+      "closed_at": "2023-01-03T08:58:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13739",
+      "number": 13739,
+      "title": "[Bug]: Unable to use ESM-only modules with TypeScript and babel-jest",
+      "created_at": "2023-01-07T01:31:06Z",
+      "closed_at": "2023-10-03T07:45:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13764",
+      "number": 13764,
+      "title": "[Bug]: useFakeTimers doNotFake \"nextTick\" is not ignored when using mongoDB with mongoose, error Exceeded timeout of 30000 ms for a test",
+      "created_at": "2023-01-13T12:38:11Z",
+      "closed_at": "2023-04-02T15:41:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13819",
+      "number": 13819,
+      "title": "[Bug]: Coverage report doesn't include entirely uncovered files outside of project roots",
+      "created_at": "2023-01-25T21:40:57Z",
+      "closed_at": "2023-05-05T22:10:24Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13869",
+      "number": 13869,
+      "title": "[Bug]: watch mode fails when git maintenance runs",
+      "created_at": "2023-02-07T15:51:29Z",
+      "closed_at": "2026-08-08T19:12:11Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13876",
+      "number": 13876,
+      "title": "[Feature]: Isolated coverage reports",
+      "created_at": "2023-02-08T21:48:01Z",
+      "closed_at": "2025-07-18T17:07:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13930",
+      "number": 13930,
+      "title": "[Bug]: when both `--watch` and `--watchAll=false` is passed, suite failures are ignored",
+      "created_at": "2023-02-16T19:17:13Z",
+      "closed_at": "2023-02-23T08:42:45Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13936",
+      "number": 13936,
+      "title": "[Bug]: toEqual() doesn't work for iterable objects if objects have symbol property",
+      "created_at": "2023-02-20T03:11:31Z",
+      "closed_at": "2023-11-16T08:14:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13980",
+      "number": 13980,
+      "title": "[Bug]: import JSON fails when coverage is enabled",
+      "created_at": "2023-03-03T09:55:32Z",
+      "closed_at": "2023-04-08T08:39:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14143",
+      "number": 14143,
+      "title": "[Bug]: `jest --bail` doesn't call `globalTeardown` function if test fails.",
+      "created_at": "2023-05-15T21:14:58Z",
+      "closed_at": "2025-12-29T15:08:45Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14169",
+      "number": 14169,
+      "title": "Jest encountered an unexpected token      Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.[Bug]: ",
+      "created_at": "2023-05-29T11:16:04Z",
+      "closed_at": "2023-07-10T05:14:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14173",
+      "number": 14173,
+      "title": "[Bug]: tslib 2.5.2 package.json exports change breaks Jest when using ESM modules",
+      "created_at": "2023-05-31T11:04:12Z",
+      "closed_at": "2023-06-02T22:11:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14277",
+      "number": 14277,
+      "title": "[Bug]: Worker are getting terminated by SIGBUS signal in CI and slowness in CI",
+      "created_at": "2023-06-27T08:32:51Z",
+      "closed_at": "2023-10-04T07:04:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14306",
+      "number": 14306,
+      "title": " Jest encountered an unexpected token",
+      "created_at": "2023-07-07T01:59:33Z",
+      "closed_at": "2023-07-07T01:59:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14330",
+      "number": 14330,
+      "title": "[Bug]: SyntaxError: Cannot use import statement outside a module",
+      "created_at": "2023-07-14T15:54:08Z",
+      "closed_at": "2023-07-14T16:00:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14406",
+      "number": 14406,
+      "title": "[Bug]: SyntaxError: Cannot use import statement outside a module on NextJS  \"^13.4.13\" uncompile package library",
+      "created_at": "2023-08-12T18:28:51Z",
+      "closed_at": "2023-08-13T04:00:20Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14518",
+      "number": 14518,
+      "title": "[Bug]: coveragePathIgnorePatterns does not seem to ignore files",
+      "created_at": "2023-09-13T19:16:43Z",
+      "closed_at": "2023-11-12T20:04:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14558",
+      "number": 14558,
+      "title": "[Bug]: copying of jest root config to projects is broken/unintuitive",
+      "created_at": "2023-09-21T18:33:46Z",
+      "closed_at": "2024-04-22T14:04:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14561",
+      "number": 14561,
+      "title": "[Bug]: Coverage calculation is off when a React.lazy line spans multiple lines",
+      "created_at": "2023-09-22T18:48:44Z",
+      "closed_at": "2023-11-25T00:14:48Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14586",
+      "number": 14586,
+      "title": "[Bug]: Multiple `--projects` specified causes `--config` to not be used",
+      "created_at": "2023-10-01T18:05:22Z",
+      "closed_at": "2026-08-10T14:04:40Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14665",
+      "number": 14665,
+      "title": "[Bug]: Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.",
+      "created_at": "2023-10-31T11:20:14Z",
+      "closed_at": "2023-10-31T12:29:10Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14788",
+      "number": 14788,
+      "title": "[Bug]: Regression in detectOpenHandles for DNSCHANNEL",
+      "created_at": "2023-12-27T19:19:05Z",
+      "closed_at": "2024-01-01T22:17:08Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14805",
+      "number": 14805,
+      "title": "[Bug]: jest transform ignore patterns not working for msal react library",
+      "created_at": "2023-12-29T14:24:52Z",
+      "closed_at": "2024-07-06T18:04:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14864",
+      "number": 14864,
+      "title": "[Question] next.js jest test support commonjs",
+      "created_at": "2024-01-23T08:02:29Z",
+      "closed_at": "2024-01-23T08:02:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14886",
+      "number": 14886,
+      "title": "[Bug]:  Jest failed to parse a file.",
+      "created_at": "2024-02-08T06:13:13Z",
+      "closed_at": "2024-03-03T04:33:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14889",
+      "number": 14889,
+      "title": "[Bug]: `transform` regex doesn't match files in folders on Windows ",
+      "created_at": "2024-02-09T15:34:07Z",
+      "closed_at": "2024-04-11T10:04:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14911",
+      "number": 14911,
+      "title": "[Bug]: Unexpected token 'export' when Jest test imports d3-array (3.2.4)",
+      "created_at": "2024-02-20T20:00:37Z",
+      "closed_at": "2024-05-20T23:04:12Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14961",
+      "number": 14961,
+      "title": "[Bug]: Can't configure Jest to find tests under a `node_modules` directory",
+      "created_at": "2024-03-14T23:21:01Z",
+      "closed_at": "2024-05-14T19:04:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15000",
+      "number": 15000,
+      "title": "[Feature]: Support tc39 \"import attributes\"",
+      "created_at": "2024-04-03T10:03:22Z",
+      "closed_at": "2026-05-05T16:47:56Z"
+    }
+  ]
+}

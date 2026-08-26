@@ -1,0 +1,562 @@
+{
+  "index": 73,
+  "stratum": "lint_static_analysis",
+  "repository": "semgrep/semgrep",
+  "repository_id": 227803815,
+  "term": "false positive",
+  "query": "repo:semgrep/semgrep is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:52.176759+00:00",
+  "total_count": 78,
+  "incomplete_results": false,
+  "returned": 78,
+  "raw_response_sha256": "9cf0edcb21675165231c5253fd93f547732a1fb9b51c58d5ac69e61cea37dd36",
+  "items": [
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/22",
+      "number": 22,
+      "title": "bug with identifier equality (seen in eqeq check)",
+      "created_at": "2020-01-29T19:38:24Z",
+      "closed_at": "2020-02-21T14:38:32Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/65",
+      "number": 65,
+      "title": "should match functions at any level",
+      "created_at": "2020-02-02T15:01:34Z",
+      "closed_at": "2020-02-05T21:57:48Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/223",
+      "number": 223,
+      "title": "Support detection of unbroken infinite loops",
+      "created_at": "2020-02-28T23:30:02Z",
+      "closed_at": "2020-03-27T17:02:10Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/320",
+      "number": 320,
+      "title": "Add granular testing capabilities",
+      "created_at": "2020-03-19T20:39:06Z",
+      "closed_at": "2020-12-07T17:50:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/324",
+      "number": 324,
+      "title": "[JavaScript] Support `const` literal constant propagation",
+      "created_at": "2020-03-24T17:37:10Z",
+      "closed_at": "2020-03-26T18:10:19Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/326",
+      "number": 326,
+      "title": "[Python] Support matching of f-strings",
+      "created_at": "2020-03-24T23:08:26Z",
+      "closed_at": "2020-04-01T04:07:44Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/554",
+      "number": 554,
+      "title": "Match variables inside JS Template literals",
+      "created_at": "2020-04-23T02:01:10Z",
+      "closed_at": "2021-05-04T13:02:45Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/768",
+      "number": 768,
+      "title": "javascript pattern-not with null not working as expected",
+      "created_at": "2020-05-16T00:38:42Z",
+      "closed_at": "2020-06-02T17:00:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/883",
+      "number": 883,
+      "title": "Ability to support sanitize function ",
+      "created_at": "2020-06-01T17:45:39Z",
+      "closed_at": "2020-06-17T16:36:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1053",
+      "number": 1053,
+      "title": "Consider requiring comment symbol in 'nosem' functionality",
+      "created_at": "2020-06-17T20:10:17Z",
+      "closed_at": "2020-08-31T15:59:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1096",
+      "number": 1096,
+      "title": "Python false positive not when considering imported module",
+      "created_at": "2020-06-22T19:29:51Z",
+      "closed_at": "2021-08-31T00:26:06Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1274",
+      "number": 1274,
+      "title": "Support string wildcards in various javascript imports",
+      "created_at": "2020-07-14T21:01:56Z",
+      "closed_at": "2020-07-23T16:01:45Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1544",
+      "number": 1544,
+      "title": "Python f-string detected as implicit string concatenation",
+      "created_at": "2020-08-19T21:50:22Z",
+      "closed_at": "2020-08-19T21:55:16Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1562",
+      "number": 1562,
+      "title": "Report basic statistics when run with no flags",
+      "created_at": "2020-08-21T12:52:05Z",
+      "closed_at": "2020-10-06T16:55:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1645",
+      "number": 1645,
+      "title": "Expand support for compile-time constants",
+      "created_at": "2020-09-04T20:32:14Z",
+      "closed_at": "2021-05-03T15:21:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1781",
+      "number": 1781,
+      "title": "PHP - Basic XSS not matching",
+      "created_at": "2020-10-05T12:57:55Z",
+      "closed_at": "2020-10-05T14:38:16Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1828",
+      "number": 1828,
+      "title": "Catching classes with multiple interfaces in Java",
+      "created_at": "2020-10-14T07:24:03Z",
+      "closed_at": "2020-10-15T07:01:47Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1834",
+      "number": 1834,
+      "title": "Support more expressive paths syntax",
+      "created_at": "2020-10-14T17:51:54Z",
+      "closed_at": "2021-07-04T21:14:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1991",
+      "number": 1991,
+      "title": "Feature - #nosem should be case-insensitive",
+      "created_at": "2020-11-09T22:32:46Z",
+      "closed_at": "2020-11-10T16:50:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2409",
+      "number": 2409,
+      "title": "JS browser security concat bypass not detected",
+      "created_at": "2021-01-18T10:24:30Z",
+      "closed_at": "2021-01-18T11:26:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2424",
+      "number": 2424,
+      "title": "go - equivalent naming import does not work",
+      "created_at": "2021-01-20T18:12:17Z",
+      "closed_at": "2021-06-14T20:19:12Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2451",
+      "number": 2451,
+      "title": "Using the inheritance tree, semantic on-the-fly analysis",
+      "created_at": "2021-01-24T10:32:12Z",
+      "closed_at": "2022-06-01T10:44:01Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2453",
+      "number": 2453,
+      "title": "PHP - Inconsistent behaviour of wildcard matches in nested statement",
+      "created_at": "2021-01-25T11:16:47Z",
+      "closed_at": "2021-02-12T09:48:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2616",
+      "number": 2616,
+      "title": "[Python] Constant tracking do not follow assignment operators",
+      "created_at": "2021-02-24T10:26:20Z",
+      "closed_at": "2021-02-24T20:34:11Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2664",
+      "number": 2664,
+      "title": "Statically detect unused metavariable-regex (or metavariable-regexp with wrong scope)",
+      "created_at": "2021-03-01T02:51:05Z",
+      "closed_at": "2022-03-09T19:35:07Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2911",
+      "number": 2911,
+      "title": "Generic pattern matching on function calls (understanding parenthesis)",
+      "created_at": "2021-04-09T17:00:10Z",
+      "closed_at": "2021-05-13T18:11:37Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3019",
+      "number": 3019,
+      "title": "Multiple output options simultaneously",
+      "created_at": "2021-04-28T23:23:57Z",
+      "closed_at": "2024-08-21T17:30:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3063",
+      "number": 3063,
+      "title": "\"Match everything\" inside PHP arrays",
+      "created_at": "2021-05-08T15:53:38Z",
+      "closed_at": "2021-05-11T13:25:53Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3065",
+      "number": 3065,
+      "title": "A false negative of SQL injection which seems can be simply fixed",
+      "created_at": "2021-05-10T12:38:59Z",
+      "closed_at": "2021-05-10T14:17:19Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3077",
+      "number": 3077,
+      "title": "Enspeeden Gitlab eslint.direct-object-detection",
+      "created_at": "2021-05-11T16:27:39Z",
+      "closed_at": "2021-05-17T14:16:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3085",
+      "number": 3085,
+      "title": "[RFC] special metavariable syntax for dataflow",
+      "created_at": "2021-05-12T18:34:22Z",
+      "closed_at": "2022-01-28T02:29:30Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3096",
+      "number": 3096,
+      "title": "False positive errors reported for some files",
+      "created_at": "2021-05-13T14:52:05Z",
+      "closed_at": "2021-08-18T19:53:05Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3122",
+      "number": 3122,
+      "title": "Use constant propagation with typed metavariables",
+      "created_at": "2021-05-17T14:24:41Z",
+      "closed_at": "2021-05-21T12:58:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3155",
+      "number": 3155,
+      "title": "Constant Propagation leads to False Positives in java.lang.correctness.eqeq.eqeq in 0.52.0",
+      "created_at": "2021-05-19T23:29:23Z",
+      "closed_at": "2021-06-04T10:36:38Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3316",
+      "number": 3316,
+      "title": "[ruby] Constant propagation ignores side-effects on string object",
+      "created_at": "2021-06-09T08:56:43Z",
+      "closed_at": "2021-09-17T11:34:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3357",
+      "number": 3357,
+      "title": "Inconsistent findings between playground and cli/docker when using metavariable to represent import alias",
+      "created_at": "2021-06-14T19:46:34Z",
+      "closed_at": "2021-06-28T22:39:03Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3502",
+      "number": 3502,
+      "title": "(x) => `${x}` yields unexpected match for raw-html-concat rule",
+      "created_at": "2021-07-09T21:58:18Z",
+      "closed_at": "2021-08-02T05:46:04Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3521",
+      "number": 3521,
+      "title": "Can't suppress with // nosemgrep because of autoformatter",
+      "created_at": "2021-07-14T18:28:29Z",
+      "closed_at": "2022-01-19T23:53:59Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3748",
+      "number": 3748,
+      "title": "Incorrect pattern matching - When return object is a class with an import - Results are not correct",
+      "created_at": "2021-08-24T13:17:46Z",
+      "closed_at": "2021-10-13T13:04:42Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3763",
+      "number": 3763,
+      "title": "allow bug reports from semgrep.dev playground for false positives",
+      "created_at": "2021-08-26T17:43:52Z",
+      "closed_at": "2021-12-02T16:22:04Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3770",
+      "number": 3770,
+      "title": "PHP - Taint - Array flagged as tainted when key is tainted",
+      "created_at": "2021-08-27T13:25:51Z",
+      "closed_at": "2021-12-07T08:52:53Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3805",
+      "number": 3805,
+      "title": "[PHP] Generic with metavariable-pattern: FN & FP",
+      "created_at": "2021-09-02T08:50:36Z",
+      "closed_at": "2022-06-21T13:24:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3850",
+      "number": 3850,
+      "title": "CLI: Early abort of testing on some rule constellations",
+      "created_at": "2021-09-13T06:34:25Z",
+      "closed_at": "2021-12-21T07:06:32Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3881",
+      "number": 3881,
+      "title": "Python constant propagation does not resolve \"raw\" strings",
+      "created_at": "2021-09-15T03:42:56Z",
+      "closed_at": "2021-11-18T18:40:06Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4078",
+      "number": 4078,
+      "title": "HTML Support",
+      "created_at": "2021-10-15T17:08:50Z",
+      "closed_at": "2022-03-11T13:25:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4204",
+      "number": 4204,
+      "title": "testing: Ignore matches or the lack of matches on \"todook:\" and \"todoruleid:\" locations",
+      "created_at": "2021-11-03T07:39:44Z",
+      "closed_at": "2021-11-16T21:02:15Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4265",
+      "number": 4265,
+      "title": "Java control flow analysis false positive",
+      "created_at": "2021-11-11T22:11:38Z",
+      "closed_at": "2021-11-19T14:47:37Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4327",
+      "number": 4327,
+      "title": "Support for Dockerfile",
+      "created_at": "2021-11-23T22:10:40Z",
+      "closed_at": "2022-05-17T02:21:40Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4336",
+      "number": 4336,
+      "title": "Python: Can't match unicode snowman literals in strings",
+      "created_at": "2021-11-26T01:26:01Z",
+      "closed_at": "2021-12-11T09:42:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4365",
+      "number": 4365,
+      "title": "Do not early exit when encountering a false positive while running rules tests.",
+      "created_at": "2021-12-02T18:03:38Z",
+      "closed_at": "2021-12-06T22:43:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4508",
+      "number": 4508,
+      "title": "Semgrep trying to scan not supported languages file with ruby rule [regression]",
+      "created_at": "2022-01-11T21:05:02Z",
+      "closed_at": "2022-06-15T20:42:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4552",
+      "number": 4552,
+      "title": "GitHub Action broken",
+      "created_at": "2022-01-21T17:45:26Z",
+      "closed_at": "2022-01-26T18:41:09Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4554",
+      "number": 4554,
+      "title": "GitHub Actions re-run reports lots of false positives from own semgrep agent log!",
+      "created_at": "2022-01-21T18:08:02Z",
+      "closed_at": "2022-01-21T22:18:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4642",
+      "number": 4642,
+      "title": "multiple-cmd-instructions / multiple-entrypoint-instructions  / alias-must-be-unique and duplication warnings when one of the two occurrences are commented out and should have been ignored",
+      "created_at": "2022-02-09T11:05:54Z",
+      "closed_at": "2022-02-09T18:13:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4667",
+      "number": 4667,
+      "title": "javascript.lang.correctness.useless-eqeq.eqeq-is-bad  false positive",
+      "created_at": "2022-02-14T17:02:44Z",
+      "closed_at": "2022-03-23T16:00:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4730",
+      "number": 4730,
+      "title": "Disable certain JSX equivalences (to be able to match JSX elements without children and attributes)",
+      "created_at": "2022-02-25T03:45:38Z",
+      "closed_at": "2022-03-10T08:35:06Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4816",
+      "number": 4816,
+      "title": "Support constant propagation of Terraform variables",
+      "created_at": "2022-03-15T21:41:50Z",
+      "closed_at": "2022-03-19T14:32:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5058",
+      "number": 5058,
+      "title": "Semgrep runs rules against files specified in .semgrepignore when passed explicitly",
+      "created_at": "2022-04-20T10:32:36Z",
+      "closed_at": "2022-04-20T18:00:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5060",
+      "number": 5060,
+      "title": "Allow metavariable-pattern to inherit the variable environment from the parent",
+      "created_at": "2022-04-20T17:14:36Z",
+      "closed_at": "2022-07-11T20:00:08Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5166",
+      "number": 5166,
+      "title": "Support Ignoring a given rule on a given line using a comment annotation ",
+      "created_at": "2022-05-08T09:47:42Z",
+      "closed_at": "2022-05-26T09:18:52Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5235",
+      "number": 5235,
+      "title": "[HTML, JSX] Unable to match empty HTML element",
+      "created_at": "2022-05-17T08:26:48Z",
+      "closed_at": "2022-05-17T08:58:53Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5380",
+      "number": 5380,
+      "title": "inconsistent regex",
+      "created_at": "2022-06-01T14:37:14Z",
+      "closed_at": "2022-06-01T21:40:39Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5445",
+      "number": 5445,
+      "title": "False positive matching in generic-mode with too many lines",
+      "created_at": "2022-06-07T07:25:17Z",
+      "closed_at": "2022-08-10T02:46:59Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5600",
+      "number": 5600,
+      "title": "Output missed/incorrectly detected line in test rather than whole arrays",
+      "created_at": "2022-06-22T11:29:53Z",
+      "closed_at": "2022-07-12T20:25:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5638",
+      "number": 5638,
+      "title": "TS/JS - Issue with object deconstruction capturing incorrect values",
+      "created_at": "2022-06-27T21:58:04Z",
+      "closed_at": "2022-07-06T04:07:23Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5728",
+      "number": 5728,
+      "title": "Package-lock.json false positives (integrity hashes)",
+      "created_at": "2022-07-14T05:42:41Z",
+      "closed_at": "2022-08-10T02:46:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5923",
+      "number": 5923,
+      "title": "False positive matching in generic-mode with too many lines",
+      "created_at": "2022-08-16T14:16:24Z",
+      "closed_at": "2022-09-20T19:39:01Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5952",
+      "number": 5952,
+      "title": "alternative apostraphe character: ’ can not be ignored and will show up in single character findings",
+      "created_at": "2022-08-22T16:13:44Z",
+      "closed_at": "2022-08-30T03:25:34Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6059",
+      "number": 6059,
+      "title": "semgrep `v0.112` Go regression - false positives reported",
+      "created_at": "2022-09-07T20:52:28Z",
+      "closed_at": "2022-09-08T01:29:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6538",
+      "number": 6538,
+      "title": "[python] `import $X` does not match relative imports",
+      "created_at": "2022-11-16T18:56:23Z",
+      "closed_at": "2025-05-27T10:12:17Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7771",
+      "number": 7771,
+      "title": "metavariable-regex for variable in pattern-not-include leads to no match in Go",
+      "created_at": "2023-05-09T16:28:05Z",
+      "closed_at": "2023-06-18T00:01:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/9409",
+      "number": 9409,
+      "title": "Filter Semgrep Result by Confidence Level",
+      "created_at": "2023-12-08T04:05:10Z",
+      "closed_at": "2024-07-10T21:39:43Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/9906",
+      "number": 9906,
+      "title": "Golang semgrep rule not matching every method invocation inside method body",
+      "created_at": "2024-03-08T19:00:18Z",
+      "closed_at": "2024-03-09T00:02:33Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10251",
+      "number": 10251,
+      "title": "`match` matching ignores the branches enum variant names",
+      "created_at": "2024-05-15T11:45:45Z",
+      "closed_at": "2024-06-12T20:04:53Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10822",
+      "number": 10822,
+      "title": "Parsing issues in Yaml file",
+      "created_at": "2025-02-04T01:42:01Z",
+      "closed_at": "2025-02-04T03:47:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10984",
+      "number": 10984,
+      "title": "[Python] A false positive in Semgrep taint mode",
+      "created_at": "2025-04-30T12:32:28Z",
+      "closed_at": "2025-07-01T09:30:28Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11025",
+      "number": 11025,
+      "title": "Trying to understand pattern-not-regex's exclusion behavior",
+      "created_at": "2025-05-21T13:39:51Z",
+      "closed_at": "2025-05-21T17:10:24Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11191",
+      "number": 11191,
+      "title": "[Rust] A false positve caused by Semgrep's incorrect package recognition",
+      "created_at": "2025-09-02T10:24:39Z",
+      "closed_at": "2025-09-04T22:46:52Z"
+    }
+  ]
+}

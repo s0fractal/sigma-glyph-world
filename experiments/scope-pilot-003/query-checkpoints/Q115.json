@@ -1,0 +1,310 @@
+{
+  "index": 115,
+  "stratum": "artifact_conformance",
+  "repository": "ossf/scorecard",
+  "repository_id": 302670797,
+  "term": "false positive",
+  "query": "repo:ossf/scorecard is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:03.489825+00:00",
+  "total_count": 42,
+  "incomplete_results": false,
+  "returned": 42,
+  "raw_response_sha256": "bcdc798cbad58e22c7d4b3b3291c1a1a56d148de89713d266d529ac9b7b18625",
+  "items": [
+    {
+      "url": "https://github.com/ossf/scorecard/issues/403",
+      "number": 403,
+      "title": "Frozen Deps does not check frozen dockerfile image use, CI/CD tools",
+      "created_at": "2021-05-05T14:51:11Z",
+      "closed_at": "2023-11-09T18:48:27Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/412",
+      "number": 412,
+      "title": "Frozen deps does not check for workflow pinning",
+      "created_at": "2021-05-07T19:20:28Z",
+      "closed_at": "2021-06-01T20:55:11Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/414",
+      "number": 414,
+      "title": "New check: reduce scope of git token permission",
+      "created_at": "2021-05-07T21:59:14Z",
+      "closed_at": "2024-01-26T23:18:43Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/426",
+      "number": 426,
+      "title": "New check: Check for dangerous code practices in github workflows",
+      "created_at": "2021-05-10T18:10:21Z",
+      "closed_at": "2024-01-30T22:55:19Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/432",
+      "number": 432,
+      "title": "BUG: restrict github token for scorecard repo",
+      "created_at": "2021-05-11T00:32:35Z",
+      "closed_at": "2021-12-15T22:24:08Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/639",
+      "number": 639,
+      "title": "New feature: detect archived projects",
+      "created_at": "2021-07-01T20:58:34Z",
+      "closed_at": "2021-07-29T21:18:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/710",
+      "number": 710,
+      "title": "BUG - Frozen Deps handle args",
+      "created_at": "2021-07-19T20:17:48Z",
+      "closed_at": "2022-01-06T00:13:53Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/759",
+      "number": 759,
+      "title": "Binary Artifacts: tar gz ?",
+      "created_at": "2021-07-26T22:39:29Z",
+      "closed_at": "2022-01-03T02:19:25Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/962",
+      "number": 962,
+      "title": "Reduce number of `nolint` comments in code ",
+      "created_at": "2021-09-03T14:31:43Z",
+      "closed_at": "2021-12-15T22:18:59Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1128",
+      "number": 1128,
+      "title": "Token-Permissions check clarification",
+      "created_at": "2021-10-12T21:30:10Z",
+      "closed_at": "2021-12-08T01:18:28Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1129",
+      "number": 1129,
+      "title": "Relax token permission check or not",
+      "created_at": "2021-10-13T16:20:33Z",
+      "closed_at": "2021-11-03T21:19:37Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1231",
+      "number": 1231,
+      "title": "The \"Fuzzing\" check doesn't seem to always work correctly",
+      "created_at": "2021-11-09T23:25:10Z",
+      "closed_at": "2021-11-15T21:19:41Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1256",
+      "number": 1256,
+      "title": "Binary-Artifacts false positives",
+      "created_at": "2021-11-13T05:06:18Z",
+      "closed_at": "2021-12-23T07:08:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1257",
+      "number": 1257,
+      "title": "The \"Token-Permissions\" check seems to complain about codeql and labeler",
+      "created_at": "2021-11-13T19:59:58Z",
+      "closed_at": "2021-12-28T22:56:28Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1306",
+      "number": 1306,
+      "title": "pip install shouldn't be banned",
+      "created_at": "2021-11-19T08:39:47Z",
+      "closed_at": "2021-12-23T07:42:22Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1349",
+      "number": 1349,
+      "title": "Feature: make binary-artifacts check use the 0-10 range of scores",
+      "created_at": "2021-12-03T17:35:16Z",
+      "closed_at": "2021-12-21T17:28:31Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1582",
+      "number": 1582,
+      "title": "BUG: maven signatures not detected by Signed-release check",
+      "created_at": "2022-02-01T21:06:54Z",
+      "closed_at": "2022-02-05T02:32:26Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1618",
+      "number": 1618,
+      "title": "Improve scorecard score for scorecard repo",
+      "created_at": "2022-02-09T18:14:31Z",
+      "closed_at": "2023-11-09T18:50:01Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1642",
+      "number": 1642,
+      "title": "Token permission check fails on legitimate release jobs in GitHub Actions workflows",
+      "created_at": "2022-02-15T20:42:28Z",
+      "closed_at": "2022-02-17T23:16:35Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1815",
+      "number": 1815,
+      "title": "Binary Artifacts should allow well-known artifacts, if best practices are followed",
+      "created_at": "2022-04-04T18:34:27Z",
+      "closed_at": "2022-07-18T18:42:32Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1868",
+      "number": 1868,
+      "title": "BUG Binary Artifacts False positive scripts/Makefile.lib",
+      "created_at": "2022-04-26T20:53:14Z",
+      "closed_at": "2022-05-03T20:31:52Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1903",
+      "number": 1903,
+      "title": "Dependabot link in alert is 404, and false positive",
+      "created_at": "2022-05-11T21:00:12Z",
+      "closed_at": "2023-04-13T17:41:00Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2137",
+      "number": 2137,
+      "title": "Feature: Improved Security-Policy checks",
+      "created_at": "2022-08-11T22:49:02Z",
+      "closed_at": "2022-11-04T21:35:46Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2145",
+      "number": 2145,
+      "title": "SLSA provenance available check",
+      "created_at": "2022-08-13T00:09:40Z",
+      "closed_at": "2022-08-17T00:27:04Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2163",
+      "number": 2163,
+      "title": "Improve Score Reporting: Binary-Artifact filetype detection is not reliable",
+      "created_at": "2022-08-17T01:42:25Z",
+      "closed_at": "2024-04-15T01:26:45Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2412",
+      "number": 2412,
+      "title": "Code hotspots",
+      "created_at": "2022-10-31T22:46:01Z",
+      "closed_at": "2022-11-07T20:36:08Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2437",
+      "number": 2437,
+      "title": "Multiple JSON objects within one output file.",
+      "created_at": "2022-11-08T14:22:37Z",
+      "closed_at": "2022-11-08T18:15:06Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2522",
+      "number": 2522,
+      "title": "BUG: Regression in LICENSE check, outputs 22,000 lines for details",
+      "created_at": "2022-12-05T14:38:46Z",
+      "closed_at": "2022-12-09T23:42:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2792",
+      "number": 2792,
+      "title": "Provide some way for smaller Javascript projects to pass the Fuzzing check",
+      "created_at": "2023-03-26T14:20:18Z",
+      "closed_at": "2023-09-19T21:17:13Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2830",
+      "number": 2830,
+      "title": "Use the presence of property-based testing in Haskell to detect fuzzing",
+      "created_at": "2023-04-06T00:00:56Z",
+      "closed_at": "2023-04-12T17:29:31Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2991",
+      "number": 2991,
+      "title": "BUG: Token-Permissions check not reducing score for job-level `contents: write` permission",
+      "created_at": "2023-05-11T17:41:26Z",
+      "closed_at": "2023-05-15T20:16:29Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3156",
+      "number": 3156,
+      "title": "The \"vulnerabilities\" check seems to be flaky",
+      "created_at": "2023-06-12T12:01:47Z",
+      "closed_at": "2023-09-25T07:28:16Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3590",
+      "number": 3590,
+      "title": "Feature: Revisit number of license probes",
+      "created_at": "2023-10-20T08:39:37Z",
+      "closed_at": "2024-03-26T18:27:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3684",
+      "number": 3684,
+      "title": "Pinned dependencies check in Dockerfile does not handle build args",
+      "created_at": "2023-11-18T15:42:57Z",
+      "closed_at": "2025-09-29T21:32:00Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4219",
+      "number": 4219,
+      "title": "Feature: Document whether scorecard should be used as a requirement for organizations consuming OSS",
+      "created_at": "2024-07-05T14:57:35Z",
+      "closed_at": "2024-10-03T18:37:32Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4220",
+      "number": 4220,
+      "title": "BUG - Pinned-Dependencies has false positive on multi-stage Dockerfile",
+      "created_at": "2024-07-05T21:40:33Z",
+      "closed_at": "2024-07-11T17:08:10Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4530",
+      "number": 4530,
+      "title": "osv-scanner.toml not working for vulnerability Suppression in Scorecards",
+      "created_at": "2025-02-18T18:44:29Z",
+      "closed_at": "2025-02-19T12:50:33Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4534",
+      "number": 4534,
+      "title": "BUG Pinned Dependencies: false positive \"`downloadTheRun` not pinned by hash\"",
+      "created_at": "2025-02-21T20:13:42Z",
+      "closed_at": "2025-02-21T20:23:39Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4604",
+      "number": 4604,
+      "title": "BUG dagster false positive of MAL-2024-7846",
+      "created_at": "2025-04-22T15:56:52Z",
+      "closed_at": "2025-11-04T16:07:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4779",
+      "number": 4779,
+      "title": "BUG - pinned dockerfile marked as not pinned",
+      "created_at": "2025-09-05T07:45:23Z",
+      "closed_at": "2025-09-29T21:31:59Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4805",
+      "number": 4805,
+      "title": "Request relase - 5.2.2/5.3.0/(?)",
+      "created_at": "2025-09-30T04:40:26Z",
+      "closed_at": "2025-09-30T16:11:47Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4870",
+      "number": 4870,
+      "title": "BUG: False positive vulnerablity reported  for rust project",
+      "created_at": "2025-12-05T17:51:37Z",
+      "closed_at": "2025-12-17T21:26:24Z"
+    }
+  ]
+}

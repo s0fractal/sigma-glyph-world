@@ -1,0 +1,653 @@
+{
+  "index": 54,
+  "stratum": "lint_static_analysis",
+  "repository": "golangci/golangci-lint",
+  "repository_id": 132145189,
+  "term": "ignored",
+  "query": "repo:golangci/golangci-lint is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:53.207821+00:00",
+  "total_count": 91,
+  "incomplete_results": false,
+  "returned": 91,
+  "raw_response_sha256": "597fc9bea12692ecfec96d0dc7db094b5a1e383eb0bf31170575170a79d25a22",
+  "items": [
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/913",
+      "number": 913,
+      "title": "skip-dirs works with some linters and not with others",
+      "created_at": "2020-01-07T19:25:44Z",
+      "closed_at": "2024-12-21T23:59:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/985",
+      "number": 985,
+      "title": "golangci-lint behavior in generating report is not as expected",
+      "created_at": "2020-03-10T05:39:24Z",
+      "closed_at": "2022-04-29T06:37:31Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/998",
+      "number": 998,
+      "title": "linting is failing on a file that should be ignored",
+      "created_at": "2020-03-19T04:01:27Z",
+      "closed_at": "2020-05-05T15:49:35Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1041",
+      "number": 1041,
+      "title": "update scopelint with looppointer or exportloopref",
+      "created_at": "2020-04-23T06:26:20Z",
+      "closed_at": "2020-05-24T07:31:33Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1046",
+      "number": 1046,
+      "title": "Document FAIL_ON_WARNINGS env var or make this a CLI flag",
+      "created_at": "2020-04-26T19:32:15Z",
+      "closed_at": "2021-07-08T02:29:19Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1245",
+      "number": 1245,
+      "title": "pre-commit hook runs on all files instead of just changed files in the repo",
+      "created_at": "2020-07-15T05:01:29Z",
+      "closed_at": "2023-03-06T02:27:10Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1249",
+      "number": 1249,
+      "title": "golangci-lint (with golint linter enabled) is not reporting issues that golint catches",
+      "created_at": "2020-07-16T13:42:53Z",
+      "closed_at": "2022-04-29T06:37:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1272",
+      "number": 1272,
+      "title": "Let me selectively disable linters from CLI which are enabled in the config",
+      "created_at": "2020-07-26T19:59:09Z",
+      "closed_at": "2021-08-29T23:49:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1382",
+      "number": 1382,
+      "title": "CI is failing (silently) on Windows",
+      "created_at": "2020-09-21T02:08:04Z",
+      "closed_at": "2022-08-24T20:10:53Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1450",
+      "number": 1450,
+      "title": "Treat \"Found unknown linters\" warning as an error",
+      "created_at": "2020-10-13T16:19:15Z",
+      "closed_at": "2020-11-09T08:33:25Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1474",
+      "number": 1474,
+      "title": "DefaultExcludePatterns should only be used for specified linter",
+      "created_at": "2020-10-30T08:42:59Z",
+      "closed_at": "2020-11-12T14:21:20Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1542",
+      "number": 1542,
+      "title": "Different behavior of govet && nolinitlint on Windows and Linux ",
+      "created_at": "2020-12-08T17:57:57Z",
+      "closed_at": "2022-04-16T05:20:58Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1546",
+      "number": 1546,
+      "title": "declared but not used error",
+      "created_at": "2020-12-10T08:59:29Z",
+      "closed_at": "2021-03-23T01:41:00Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1565",
+      "number": 1565,
+      "title": "Syntax errors in gocritic ruleguard file are silently ignored",
+      "created_at": "2020-12-17T19:01:31Z",
+      "closed_at": "2021-02-01T11:50:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1726",
+      "number": 1726,
+      "title": "Using `--fix` option results in panic: runtime error: index out of range [146] with length 146",
+      "created_at": "2021-02-10T08:29:26Z",
+      "closed_at": "2024-12-17T22:22:27Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1748",
+      "number": 1748,
+      "title": "linters-settings.cyclop.max-complexity does not work",
+      "created_at": "2021-02-19T21:45:11Z",
+      "closed_at": "2021-02-19T22:13:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1809",
+      "number": 1809,
+      "title": "Support -all flag for unconvert linter",
+      "created_at": "2021-03-02T21:19:18Z",
+      "closed_at": "2024-03-09T02:38:10Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1873",
+      "number": 1873,
+      "title": "typecheck: possible wrong cut ",
+      "created_at": "2021-03-27T14:12:14Z",
+      "closed_at": "2021-03-27T15:07:48Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1909",
+      "number": 1909,
+      "title": "The --fast flag does not overwrite the configuration file",
+      "created_at": "2021-04-12T08:55:55Z",
+      "closed_at": "2025-03-04T20:04:05Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1937",
+      "number": 1937,
+      "title": "revive: exported rule does not work",
+      "created_at": "2021-04-26T14:42:05Z",
+      "closed_at": "2021-05-01T16:40:57Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1974",
+      "number": 1974,
+      "title": "panic in a linter should lead to a non-zero return code",
+      "created_at": "2021-05-12T14:04:23Z",
+      "closed_at": "2021-05-13T21:49:09Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2038",
+      "number": 2038,
+      "title": "Sample config yaml file fails with \"json: unsupported type: map[interface {}]interface {}\"",
+      "created_at": "2021-06-02T00:30:52Z",
+      "closed_at": "2021-06-02T01:05:52Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2172",
+      "number": 2172,
+      "title": "go-ruleguard doesn't work since release 1.37.0, last working release is 1.36.0",
+      "created_at": "2021-08-15T14:01:34Z",
+      "closed_at": "2021-08-17T17:02:47Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2238",
+      "number": 2238,
+      "title": "wrapcheck conflicts with errorlint",
+      "created_at": "2021-09-17T10:52:57Z",
+      "closed_at": "2021-09-19T17:34:38Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2254",
+      "number": 2254,
+      "title": "Unexpected detection of file as autogenerated skipped all linters",
+      "created_at": "2021-09-24T11:54:49Z",
+      "closed_at": "2024-03-21T22:04:11Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2281",
+      "number": 2281,
+      "title": "Checks configuration fot the `stylecheck` linter is ignored",
+      "created_at": "2021-10-07T13:47:09Z",
+      "closed_at": "2021-10-07T15:28:35Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2375",
+      "number": 2375,
+      "title": "govet printf funcs regression since 1.43.0 update",
+      "created_at": "2021-11-23T10:00:38Z",
+      "closed_at": "2021-11-25T15:38:09Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2464",
+      "number": 2464,
+      "title": "`max-same-issues` set in a config file is ignored",
+      "created_at": "2022-01-06T18:13:30Z",
+      "closed_at": "2022-01-06T21:54:43Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2523",
+      "number": 2523,
+      "title": "Required access since v1.44.0 ist undocumented",
+      "created_at": "2022-01-26T15:42:30Z",
+      "closed_at": "2022-01-26T16:18:32Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2690",
+      "number": 2690,
+      "title": "typecheck: no matching files found when removing non-Go files on CI",
+      "created_at": "2022-03-27T09:50:26Z",
+      "closed_at": "2022-03-27T10:58:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2707",
+      "number": 2707,
+      "title": "decorder: false positive on init() method",
+      "created_at": "2022-03-31T07:30:35Z",
+      "closed_at": "2022-03-31T07:46:27Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2788",
+      "number": 2788,
+      "title": " can't run linter goanalysis_metalinter: *inspect*: failed to load package sugar: could not load export data: no export data for #248 ",
+      "created_at": "2022-04-29T09:20:52Z",
+      "closed_at": "2022-07-30T20:26:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2831",
+      "number": 2831,
+      "title": "Revive `redefines-builtin-id` rule not checked",
+      "created_at": "2022-05-09T07:33:26Z",
+      "closed_at": "2022-05-09T11:22:29Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2864",
+      "number": 2864,
+      "title": "Option to allow the linting of generated files",
+      "created_at": "2022-05-18T11:43:57Z",
+      "closed_at": "2024-05-23T14:17:38Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2879",
+      "number": 2879,
+      "title": "Can't define `global` config for `gosec`",
+      "created_at": "2022-05-26T11:59:08Z",
+      "closed_at": "2022-06-06T11:21:05Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2985",
+      "number": 2985,
+      "title": "gci: Prefixes with capital letters are ignored",
+      "created_at": "2022-07-18T16:14:32Z",
+      "closed_at": "2022-07-19T07:50:14Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2997",
+      "number": 2997,
+      "title": "v1.47.1 much slower",
+      "created_at": "2022-07-19T16:07:49Z",
+      "closed_at": "2022-08-07T11:57:18Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3060",
+      "number": 3060,
+      "title": "Panic with context and golang.org/x/exp/maps",
+      "created_at": "2022-08-04T15:54:36Z",
+      "closed_at": "2022-08-04T16:33:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3069",
+      "number": 3069,
+      "title": "Bug with GitHub action: File is not `gofmt`-ed with `-s` (gofmt) with version 1.48.0",
+      "created_at": "2022-08-05T16:58:07Z",
+      "closed_at": "2022-08-05T19:37:44Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3111",
+      "number": 3111,
+      "title": "revive: rules's severity config has no effect",
+      "created_at": "2022-08-18T13:07:50Z",
+      "closed_at": "2024-03-08T14:13:55Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3201",
+      "number": 3201,
+      "title": "nolint directive ignored",
+      "created_at": "2022-09-09T12:47:01Z",
+      "closed_at": "2022-09-09T12:57:28Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3269",
+      "number": 3269,
+      "title": "golangci-lint run crashed with error «no export data for \"golang.org/x/sys/unix\"» after update library",
+      "created_at": "2022-10-03T13:28:47Z",
+      "closed_at": "2022-10-03T14:15:25Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3273",
+      "number": 3273,
+      "title": "golang-ci iterates over skip-dirs",
+      "created_at": "2022-10-04T03:01:27Z",
+      "closed_at": "2022-10-04T08:04:16Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3402",
+      "number": 3402,
+      "title": "goimports failed because of gofmt diff output on MacOS 13.0 M1Pro",
+      "created_at": "2022-12-07T10:09:11Z",
+      "closed_at": "2022-12-07T10:10:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3441",
+      "number": 3441,
+      "title": "`linter-settings` for `gci` are ignored",
+      "created_at": "2022-12-29T12:15:29Z",
+      "closed_at": "2022-12-29T13:53:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3470",
+      "number": 3470,
+      "title": "consume a lot of memory on go1.20rc3",
+      "created_at": "2023-01-13T02:37:01Z",
+      "closed_at": "2023-01-13T08:12:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3503",
+      "number": 3503,
+      "title": "Docker version finds less bugs",
+      "created_at": "2023-01-25T19:14:10Z",
+      "closed_at": "2023-03-03T12:29:21Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3507",
+      "number": 3507,
+      "title": "nolint directives fail to quash errors in go.mod file",
+      "created_at": "2023-01-26T21:51:17Z",
+      "closed_at": "2023-02-10T07:58:40Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3583",
+      "number": 3583,
+      "title": "internal compiler error: have package \"main\" want package \"...\"",
+      "created_at": "2023-02-10T07:58:45Z",
+      "closed_at": "2024-03-22T00:50:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3623",
+      "number": 3623,
+      "title": "Automatically create output directory for reports",
+      "created_at": "2023-02-21T19:56:47Z",
+      "closed_at": "2024-03-17T22:07:51Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3630",
+      "number": 3630,
+      "title": "`golangci-lint run --uniq-by-line=false` prints duplicated type-checks error message",
+      "created_at": "2023-02-23T14:14:59Z",
+      "closed_at": "2023-03-25T13:41:51Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3644",
+      "number": 3644,
+      "title": "Timeout configuration is ambiguous ",
+      "created_at": "2023-03-01T15:18:29Z",
+      "closed_at": "2023-03-01T15:31:58Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3666",
+      "number": 3666,
+      "title": "errcheck: `os.Remove` is ignored in golangci-lint even if errcheck detects unchecked returned error.",
+      "created_at": "2023-03-09T07:06:35Z",
+      "closed_at": "2023-03-09T08:24:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3715",
+      "number": 3715,
+      "title": "Latest pre-commit hook is broken when used with --all-files or --files flag using multiple packages",
+      "created_at": "2023-03-22T15:13:56Z",
+      "closed_at": "2023-03-23T00:10:58Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3720",
+      "number": 3720,
+      "title": "Panic with Alternative Struct Definition",
+      "created_at": "2023-03-23T16:35:48Z",
+      "closed_at": "2023-03-23T17:42:11Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3788",
+      "number": 3788,
+      "title": "Double-comment `nolint` not recognized",
+      "created_at": "2023-04-19T20:06:45Z",
+      "closed_at": "2023-04-19T21:09:59Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3820",
+      "number": 3820,
+      "title": "unsafeptr analyzer of govet is not reporting errors",
+      "created_at": "2023-05-04T23:15:23Z",
+      "closed_at": "2023-06-18T14:40:35Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3906",
+      "number": 3906,
+      "title": "v1.53.x invisibly breaks configs that were valid in v1.52.x if they used depguard",
+      "created_at": "2023-06-14T19:42:57Z",
+      "closed_at": "2023-11-17T09:49:42Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3938",
+      "number": 3938,
+      "title": "unused: interface conversion: types.Object is nil, not *types.Func",
+      "created_at": "2023-07-03T09:27:17Z",
+      "closed_at": "2023-08-17T17:06:02Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3967",
+      "number": 3967,
+      "title": "whitespace: failed to get line path/parse/yaccpar:329",
+      "created_at": "2023-07-21T21:49:16Z",
+      "closed_at": "2023-11-05T12:38:19Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3976",
+      "number": 3976,
+      "title": "ignores unhandled errors of methods",
+      "created_at": "2023-07-25T12:53:40Z",
+      "closed_at": "2023-07-26T10:57:52Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3987",
+      "number": 3987,
+      "title": "Revive linters \"exported\" and \"package-comments\" do not work",
+      "created_at": "2023-08-05T08:06:10Z",
+      "closed_at": "2023-08-05T08:53:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/3998",
+      "number": 3998,
+      "title": "The `--disable-all` switch appears to be always ignored in favour of the config?",
+      "created_at": "2023-08-09T13:35:08Z",
+      "closed_at": "2023-08-09T15:17:12Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4097",
+      "number": 4097,
+      "title": "--new-from-rev gets confused by merge commits",
+      "created_at": "2023-09-19T14:11:23Z",
+      "closed_at": "2024-04-24T12:54:12Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4156",
+      "number": 4156,
+      "title": "1.55.0 stops ignoring inline nosec",
+      "created_at": "2023-10-24T12:16:46Z",
+      "closed_at": "2023-10-24T12:34:19Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4262",
+      "number": 4262,
+      "title": "errcheck does not work on Close",
+      "created_at": "2023-12-18T09:39:23Z",
+      "closed_at": "2023-12-18T10:26:15Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4360",
+      "number": 4360,
+      "title": "Option to exclude folders from scanning",
+      "created_at": "2024-02-08T14:52:01Z",
+      "closed_at": "2026-04-16T13:40:03Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4476",
+      "number": 4476,
+      "title": "Ignores GOMAXPROCS environment variable",
+      "created_at": "2024-03-10T10:20:15Z",
+      "closed_at": "2024-03-10T13:58:42Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4506",
+      "number": 4506,
+      "title": "Issues in gqlgen resolvers are ignored",
+      "created_at": "2024-03-14T14:04:33Z",
+      "closed_at": "2024-03-15T00:17:24Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4639",
+      "number": 4639,
+      "title": "Improve experience of running linters with auto-fix capabilities on save events in editor",
+      "created_at": "2024-04-13T13:59:44Z",
+      "closed_at": "2024-04-18T19:45:52Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4720",
+      "number": 4720,
+      "title": "Intrange: panic",
+      "created_at": "2024-05-13T10:43:21Z",
+      "closed_at": "2024-05-13T11:28:25Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4767",
+      "number": 4767,
+      "title": "gomnd: Versions 1.58.0+ break backward compatibility and do not work with older configs",
+      "created_at": "2024-05-28T11:35:52Z",
+      "closed_at": "2024-05-28T18:36:01Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4869",
+      "number": 4869,
+      "title": "\"Error return value is not checked\" errors appear on v1.57.0 of golangci-lint but disappear on newer versions",
+      "created_at": "2024-07-10T06:48:19Z",
+      "closed_at": "2024-07-16T16:46:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4904",
+      "number": 4904,
+      "title": "gosec rule G602 always ignored",
+      "created_at": "2024-08-14T06:53:36Z",
+      "closed_at": "2024-08-14T21:54:31Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4914",
+      "number": 4914,
+      "title": "Typecheck errors are reported for ignored directories",
+      "created_at": "2024-08-15T18:07:09Z",
+      "closed_at": "2024-08-15T18:33:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4950",
+      "number": 4950,
+      "title": "v1.60.1+ on Go 1.23 No Longer Excludes Config of `main redeclared in this block`",
+      "created_at": "2024-08-23T18:04:23Z",
+      "closed_at": "2024-08-23T22:26:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4965",
+      "number": 4965,
+      "title": "Autogenerated files from swagger-codegen not ignored ",
+      "created_at": "2024-08-29T14:48:30Z",
+      "closed_at": "2024-09-04T15:01:45Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5005",
+      "number": 5005,
+      "title": "feature request: warn on `//nolint:typecheck`",
+      "created_at": "2024-09-10T19:11:03Z",
+      "closed_at": "2024-09-10T19:32:48Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5010",
+      "number": 5010,
+      "title": "golangci-lint go list seemingly recompiles go-sqlite3 everytime an lsp is connected",
+      "created_at": "2024-09-12T15:41:37Z",
+      "closed_at": "2024-09-12T20:20:44Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5015",
+      "number": 5015,
+      "title": "`exclude-dirs` not working",
+      "created_at": "2024-09-14T09:30:54Z",
+      "closed_at": "2024-09-14T12:25:21Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5223",
+      "number": 5223,
+      "title": "exhaustive check for variables",
+      "created_at": "2024-12-13T16:20:20Z",
+      "closed_at": "2024-12-13T16:28:35Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5298",
+      "number": 5298,
+      "title": "🌟 Let's talk about default exclusions",
+      "created_at": "2025-01-06T11:22:45Z",
+      "closed_at": "2025-02-21T13:08:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5313",
+      "number": 5313,
+      "title": "Invalid config file silently ignored",
+      "created_at": "2025-01-10T21:48:22Z",
+      "closed_at": "2025-01-10T23:30:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5317",
+      "number": 5317,
+      "title": "duplicate `gochecknoinits` entry in .golangci.yml config in this repository",
+      "created_at": "2025-01-11T22:43:50Z",
+      "closed_at": "2025-01-12T19:39:20Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5438",
+      "number": 5438,
+      "title": "issues.exclude-dirs not behaving as expected",
+      "created_at": "2025-02-18T16:24:40Z",
+      "closed_at": "2025-02-18T17:48:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5603",
+      "number": 5603,
+      "title": "golines: settings not obeyed during `run`",
+      "created_at": "2025-03-24T17:02:57Z",
+      "closed_at": "2025-03-24T18:11:02Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5628",
+      "number": 5628,
+      "title": "Exclusion rules break if config is in parent directory",
+      "created_at": "2025-03-25T17:21:21Z",
+      "closed_at": "2025-03-25T20:05:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5701",
+      "number": 5701,
+      "title": "disable single rule from staticcheck",
+      "created_at": "2025-04-06T19:12:25Z",
+      "closed_at": "2025-04-06T19:24:17Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5734",
+      "number": 5734,
+      "title": "Suppress output to stdout in case of 0 issues found",
+      "created_at": "2025-04-15T08:34:43Z",
+      "closed_at": "2025-04-15T10:32:17Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/5863",
+      "number": 5863,
+      "title": "typecheck: Single compiler error results in 200+ identical reports",
+      "created_at": "2025-06-05T15:53:09Z",
+      "closed_at": "2025-06-05T17:14:12Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/6163",
+      "number": 6163,
+      "title": "gocritic panics with \"slice out of bounds\"",
+      "created_at": "2025-10-30T12:22:41Z",
+      "closed_at": "2025-10-30T16:09:51Z"
+    }
+  ]
+}

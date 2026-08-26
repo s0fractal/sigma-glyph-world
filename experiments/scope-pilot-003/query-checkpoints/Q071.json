@@ -1,0 +1,464 @@
+{
+  "index": 71,
+  "stratum": "lint_static_analysis",
+  "repository": "semgrep/semgrep",
+  "repository_id": 227803815,
+  "term": "exit code",
+  "query": "repo:semgrep/semgrep is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:46.005075+00:00",
+  "total_count": 64,
+  "incomplete_results": false,
+  "returned": 64,
+  "raw_response_sha256": "8de4c32f4d722b1578264f25da3b785c3fbbd2ed06124f203fc5fa266c6273d4",
+  "items": [
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/448",
+      "number": 448,
+      "title": "Parse error in remote-curl.c from git",
+      "created_at": "2020-04-13T17:28:51Z",
+      "closed_at": "2020-04-16T07:50:28Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/461",
+      "number": 461,
+      "title": "should exit non-zero if config is invalid",
+      "created_at": "2020-04-14T16:55:18Z",
+      "closed_at": "2020-04-14T19:53:21Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/960",
+      "number": 960,
+      "title": "Semgrep prints \"you forgot to mount the current directory in Docker\" even though it's mounted with docker-compose",
+      "created_at": "2020-06-10T05:50:55Z",
+      "closed_at": "2020-06-25T16:55:04Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1023",
+      "number": 1023,
+      "title": "Regression in parse error exit code in 0.10",
+      "created_at": "2020-06-15T19:37:52Z",
+      "closed_at": "2020-06-16T18:05:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1059",
+      "number": 1059,
+      "title": "Support inline semgrep rules",
+      "created_at": "2020-06-17T23:11:32Z",
+      "closed_at": "2022-10-10T18:31:23Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1086",
+      "number": 1086,
+      "title": "Error span printed with no description",
+      "created_at": "2020-06-19T22:28:28Z",
+      "closed_at": "2021-06-03T04:46:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1126",
+      "number": 1126,
+      "title": "Print number of files that were successfully/unsuccessfully parsed",
+      "created_at": "2020-06-24T18:17:48Z",
+      "closed_at": "2020-10-21T06:36:01Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1184",
+      "number": 1184,
+      "title": "parse error for generics in Java",
+      "created_at": "2020-07-01T19:48:08Z",
+      "closed_at": "2020-07-21T15:52:44Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1210",
+      "number": 1210,
+      "title": "Error with --json flag",
+      "created_at": "2020-07-08T02:02:57Z",
+      "closed_at": "2020-07-10T06:42:09Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1330",
+      "number": 1330,
+      "title": "Add Native (non-WSL) Windows support to semgrep",
+      "created_at": "2020-07-22T20:49:04Z",
+      "closed_at": "2025-08-11T21:48:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1339",
+      "number": 1339,
+      "title": "Parse f-string self documenting expression in Python",
+      "created_at": "2020-07-23T02:28:17Z",
+      "closed_at": "2020-07-29T16:19:38Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1717",
+      "number": 1717,
+      "title": "When where-python patterns are skipped due to security concerns, we should list which rules were skipped",
+      "created_at": "2020-09-22T15:23:12Z",
+      "closed_at": "2021-06-03T04:46:19Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1833",
+      "number": 1833,
+      "title": "Flag to set acceptable rule level for non-zero exit code",
+      "created_at": "2020-10-14T16:24:45Z",
+      "closed_at": "2021-02-18T15:59:40Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1922",
+      "number": 1922,
+      "title": "Parse errors not shown when run with --strict",
+      "created_at": "2020-10-29T13:36:35Z",
+      "closed_at": "2022-03-04T01:24:15Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2085",
+      "number": 2085,
+      "title": "CI failures: \"Check builds for macOS\"",
+      "created_at": "2020-11-18T22:07:15Z",
+      "closed_at": "2020-11-19T00:11:32Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2099",
+      "number": 2099,
+      "title": "Handle spacegrep timeouts cleanly",
+      "created_at": "2020-11-19T18:46:30Z",
+      "closed_at": "2020-11-24T19:02:03Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2252",
+      "number": 2252,
+      "title": "Support ARM architecture",
+      "created_at": "2020-12-14T18:48:43Z",
+      "closed_at": "2023-09-04T21:32:08Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2392",
+      "number": 2392,
+      "title": "Add exit code meaning to documentation",
+      "created_at": "2021-01-14T11:47:06Z",
+      "closed_at": "2021-01-15T07:09:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2544",
+      "number": 2544,
+      "title": "Semgrep should return non-zero exit code when results are found",
+      "created_at": "2021-02-10T22:51:32Z",
+      "closed_at": "2021-06-03T04:46:16Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2748",
+      "number": 2748,
+      "title": "The --sarif switch will swallow rule errors.",
+      "created_at": "2021-03-11T23:14:31Z",
+      "closed_at": "2021-03-22T20:09:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2784",
+      "number": 2784,
+      "title": "Semgrep is exits with error code 2 without further details",
+      "created_at": "2021-03-19T12:20:18Z",
+      "closed_at": "2021-04-05T15:25:33Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3039",
+      "number": 3039,
+      "title": "unknown option -lang while downloading rules",
+      "created_at": "2021-05-05T14:25:45Z",
+      "closed_at": "2021-08-10T22:39:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3043",
+      "number": 3043,
+      "title": "I'm getting an error regarding non json output, but I don't see any output.",
+      "created_at": "2021-05-05T19:56:49Z",
+      "closed_at": "2021-08-11T20:30:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3106",
+      "number": 3106,
+      "title": "semgrep-core AST doesn't handle ppx annotation placed after the field's semicolon",
+      "created_at": "2021-05-14T01:16:09Z",
+      "closed_at": "2021-05-17T10:20:24Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3108",
+      "number": 3108,
+      "title": "[Kotlin] semgrep crashes when parsing some files in my projects",
+      "created_at": "2021-05-14T08:38:46Z",
+      "closed_at": "2022-06-21T12:36:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3369",
+      "number": 3369,
+      "title": "semgrep-core failed: unparseable json output",
+      "created_at": "2021-06-15T17:38:48Z",
+      "closed_at": "2021-08-04T16:29:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3535",
+      "number": 3535,
+      "title": "CLI: Incorrect error code after running successfully and finding issues",
+      "created_at": "2021-07-15T20:21:14Z",
+      "closed_at": "2021-07-16T09:25:38Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3610",
+      "number": 3610,
+      "title": "Unparseable json output",
+      "created_at": "2021-07-27T11:09:29Z",
+      "closed_at": "2021-11-01T12:23:07Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3621",
+      "number": 3621,
+      "title": "Gracefully handle exit code -11",
+      "created_at": "2021-07-28T19:49:34Z",
+      "closed_at": "2021-10-26T21:43:29Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3623",
+      "number": 3623,
+      "title": "[call for ideas] Eliminate stack overflows or troubleshoot them more easily",
+      "created_at": "2021-07-28T21:25:31Z",
+      "closed_at": "2021-10-22T21:36:33Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3680",
+      "number": 3680,
+      "title": "nosemgrep comments in TypeScript seem to be ignored",
+      "created_at": "2021-08-05T21:06:10Z",
+      "closed_at": "2021-08-13T21:21:04Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3730",
+      "number": 3730,
+      "title": "Git merge-base fails",
+      "created_at": "2021-08-18T11:10:46Z",
+      "closed_at": "2021-08-18T19:15:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4063",
+      "number": 4063,
+      "title": "ValueError: invalid width 0 (must be > 0) Exception",
+      "created_at": "2021-10-14T00:06:17Z",
+      "closed_at": "2021-10-21T00:16:57Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4188",
+      "number": 4188,
+      "title": "BlockingIOError: [Errno 11] write could not complete without blocking in py subprocess module",
+      "created_at": "2021-11-01T11:06:13Z",
+      "closed_at": "2022-04-28T00:31:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4199",
+      "number": 4199,
+      "title": "Auto soft stack limit increasing does not correctly handle hard limit of -1/unlimited",
+      "created_at": "2021-11-02T09:37:22Z",
+      "closed_at": "2022-04-05T17:25:46Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4204",
+      "number": 4204,
+      "title": "testing: Ignore matches or the lack of matches on \"todook:\" and \"todoruleid:\" locations",
+      "created_at": "2021-11-03T07:39:44Z",
+      "closed_at": "2021-11-16T21:02:15Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4229",
+      "number": 4229,
+      "title": "Inconsistent error behavior for configs",
+      "created_at": "2021-11-08T18:35:49Z",
+      "closed_at": "2021-11-15T16:22:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4261",
+      "number": 4261,
+      "title": "Autofix for Python exit -> sys.exit doesn't work in 0.72.0",
+      "created_at": "2021-11-11T16:29:57Z",
+      "closed_at": "2022-01-05T14:52:58Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4365",
+      "number": 4365,
+      "title": "Do not early exit when encountering a false positive while running rules tests.",
+      "created_at": "2021-12-02T18:03:38Z",
+      "closed_at": "2021-12-06T22:43:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4552",
+      "number": 4552,
+      "title": "GitHub Action broken",
+      "created_at": "2022-01-21T17:45:26Z",
+      "closed_at": "2022-01-26T18:41:09Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4701",
+      "number": 4701,
+      "title": "pre-commit installs semgrep ELF binary on M1 macs",
+      "created_at": "2022-02-18T09:35:40Z",
+      "closed_at": "2022-06-02T21:22:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4842",
+      "number": 4842,
+      "title": "[internal] flaky CI tests regarding registry",
+      "created_at": "2022-03-19T13:32:24Z",
+      "closed_at": "2022-05-24T18:04:56Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5383",
+      "number": 5383,
+      "title": "Semgrep ci has --scan-unknown-extensions but not --lang",
+      "created_at": "2022-06-01T15:38:44Z",
+      "closed_at": "2022-06-06T19:27:23Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5391",
+      "number": 5391,
+      "title": "Fatal error while trying to scan Dockerfile: invalid argument",
+      "created_at": "2022-06-01T21:31:43Z",
+      "closed_at": "2024-05-23T04:32:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5562",
+      "number": 5562,
+      "title": "Pull requests scans failing as of semgrep version 0.98 on git fetch",
+      "created_at": "2022-06-16T16:06:14Z",
+      "closed_at": "2022-06-23T15:39:43Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5645",
+      "number": 5645,
+      "title": "Pull requests scans failing as of semgrep version 0.101.0 on git checkout",
+      "created_at": "2022-06-28T07:12:18Z",
+      "closed_at": "2022-06-29T05:42:29Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5937",
+      "number": 5937,
+      "title": "tool notification error: SemgrepError Error while matching: Semgrep encountered an internal error",
+      "created_at": "2022-08-18T11:02:36Z",
+      "closed_at": "2022-09-20T19:39:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5965",
+      "number": 5965,
+      "title": "semgrep --test does not scan current directory in docker",
+      "created_at": "2022-08-23T14:30:51Z",
+      "closed_at": "2022-09-25T06:56:35Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6243",
+      "number": 6243,
+      "title": "Permission denied when using semgrep docker image in pre-commit",
+      "created_at": "2022-10-05T08:42:29Z",
+      "closed_at": "2022-10-08T05:48:10Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6247",
+      "number": 6247,
+      "title": "Semgrep tries to parse .elm files even though it doesn't support Elm",
+      "created_at": "2022-10-05T16:53:43Z",
+      "closed_at": "2022-11-02T15:04:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7028",
+      "number": 7028,
+      "title": "[deep semgrep] `semgrep --interfile` fails with wrong, generic error message",
+      "created_at": "2023-02-01T04:33:09Z",
+      "closed_at": "2023-02-28T20:52:05Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7121",
+      "number": 7121,
+      "title": "Semgrep doesn't respect ignores if `--sarif` argument is used",
+      "created_at": "2023-02-10T17:46:45Z",
+      "closed_at": "2023-08-02T01:45:34Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7561",
+      "number": 7561,
+      "title": "Syntax error on COPY--chown in dockerfile",
+      "created_at": "2023-04-18T13:46:42Z",
+      "closed_at": "2024-05-24T01:44:11Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7891",
+      "number": 7891,
+      "title": "semgrep returns 0 exit code when configuration path doesn't exist",
+      "created_at": "2023-05-25T19:46:08Z",
+      "closed_at": "2024-01-08T13:12:22Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/8254",
+      "number": 8254,
+      "title": "Autocomplete on zsh errors on no config given",
+      "created_at": "2023-07-11T22:39:00Z",
+      "closed_at": "2023-07-24T22:44:30Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/9091",
+      "number": 9091,
+      "title": "Semgrep v1.46.0 `--sarif` flag error `Object of type ErrorType is not JSON serializable`",
+      "created_at": "2023-10-25T18:10:30Z",
+      "closed_at": "2023-10-30T12:49:52Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10415",
+      "number": 10415,
+      "title": "When using --json , Other syntax error at line NO FILE INFO YET:-1:\\n Invalid_argument: index out of bounds",
+      "created_at": "2024-07-29T13:32:52Z",
+      "closed_at": "2024-07-30T02:55:48Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10562",
+      "number": 10562,
+      "title": "rich.errors.LiveError: Only one live display may be active at once",
+      "created_at": "2024-09-30T12:37:57Z",
+      "closed_at": "2024-10-11T14:54:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10778",
+      "number": 10778,
+      "title": "Support Python 3.12 Generics",
+      "created_at": "2025-01-14T10:52:02Z",
+      "closed_at": "2025-05-26T19:22:17Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10952",
+      "number": 10952,
+      "title": "Osemgrep core_runner cpu count is not cgroup aware, leading to resource contention in containerised environments.",
+      "created_at": "2025-04-12T13:28:03Z",
+      "closed_at": "2025-04-22T03:34:06Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11087",
+      "number": 11087,
+      "title": "Warn but don't fail?",
+      "created_at": "2025-06-27T20:09:32Z",
+      "closed_at": "2025-07-15T19:26:26Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11100",
+      "number": 11100,
+      "title": "Common.Impossible when parsing Python files (match/case?)",
+      "created_at": "2025-07-04T17:35:52Z",
+      "closed_at": "2025-08-08T21:31:47Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11114",
+      "number": 11114,
+      "title": "Exit code 2 on latest docker image",
+      "created_at": "2025-07-15T10:08:52Z",
+      "closed_at": "2025-08-21T21:06:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11250",
+      "number": 11250,
+      "title": "Does Not Support 3.14.0 Due To Pinned Dependency",
+      "created_at": "2025-10-03T05:40:08Z",
+      "closed_at": "2025-10-18T02:43:50Z"
+    }
+  ]
+}

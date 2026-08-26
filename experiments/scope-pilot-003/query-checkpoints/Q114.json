@@ -1,0 +1,86 @@
+{
+  "index": 114,
+  "stratum": "artifact_conformance",
+  "repository": "ossf/scorecard",
+  "repository_id": 302670797,
+  "term": "no tests",
+  "query": "repo:ossf/scorecard is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:00.737398+00:00",
+  "total_count": 10,
+  "incomplete_results": false,
+  "returned": 10,
+  "raw_response_sha256": "a60418edc102d6514cf78ada3da7673593bbfedec7061b47ee31d622537ed03e",
+  "items": [
+    {
+      "url": "https://github.com/ossf/scorecard/issues/96",
+      "number": 96,
+      "title": "Erroneous inconclusive CI-Tests result",
+      "created_at": "2020-12-20T04:22:59Z",
+      "closed_at": "2020-12-23T05:19:26Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/651",
+      "number": 651,
+      "title": "Feature: managing Scorecard releases",
+      "created_at": "2021-07-03T03:44:01Z",
+      "closed_at": "2021-08-12T21:44:54Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1257",
+      "number": 1257,
+      "title": "The \"Token-Permissions\" check seems to complain about codeql and labeler",
+      "created_at": "2021-11-13T19:59:58Z",
+      "closed_at": "2021-12-28T22:56:28Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1329",
+      "number": 1329,
+      "title": "Feature: integration tests should not require distinct approval",
+      "created_at": "2021-11-22T19:50:37Z",
+      "closed_at": "2021-12-15T21:53:38Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2010",
+      "number": 2010,
+      "title": "BUG running scorecard on a new repo with no commits results in a panic SIGSEGV",
+      "created_at": "2022-06-28T21:11:51Z",
+      "closed_at": "2022-06-29T17:10:15Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2426",
+      "number": 2426,
+      "title": "Project with CI-tests appear to be penalized compared with those with no CI",
+      "created_at": "2022-11-04T11:18:40Z",
+      "closed_at": "2022-11-04T12:00:25Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2830",
+      "number": 2830,
+      "title": "Use the presence of property-based testing in Haskell to detect fuzzing",
+      "created_at": "2023-04-06T00:00:56Z",
+      "closed_at": "2023-04-12T17:29:31Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3464",
+      "number": 3464,
+      "title": "BUG: List GitHub commit crashing for pytorch/pytorch",
+      "created_at": "2023-09-08T14:35:43Z",
+      "closed_at": "2023-11-20T21:12:11Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4185",
+      "number": 4185,
+      "title": "CI-Tests doesn't support Azure Pipelines",
+      "created_at": "2024-06-17T21:42:25Z",
+      "closed_at": "2024-06-18T22:28:27Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4771",
+      "number": 4771,
+      "title": "BUG: in-place edit with perl considered to be a `downloadThenRun`",
+      "created_at": "2025-08-27T13:29:30Z",
+      "closed_at": "2025-09-29T21:47:08Z"
+    }
+  ]
+}

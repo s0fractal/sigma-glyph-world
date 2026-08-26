@@ -1,0 +1,478 @@
+{
+  "index": 99,
+  "stratum": "artifact_conformance",
+  "repository": "docker/build-push-action",
+  "repository_id": 241092383,
+  "term": "exit code",
+  "query": "repo:docker/build-push-action is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:16.426895+00:00",
+  "total_count": 66,
+  "incomplete_results": false,
+  "returned": 66,
+  "raw_response_sha256": "ff5a68a1bff46020f617e967a747fc79f3e15c70f526fcad796fcc55647edc4d",
+  "items": [
+    {
+      "url": "https://github.com/docker/build-push-action/issues/20",
+      "number": 20,
+      "title": "Not worked with ECR actions",
+      "created_at": "2020-03-23T11:31:35Z",
+      "closed_at": "2020-09-07T06:03:55Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/51",
+      "number": 51,
+      "title": "No examples of `path` or `dockerfile` options",
+      "created_at": "2020-05-28T10:37:10Z",
+      "closed_at": "2020-09-09T22:42:27Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/100",
+      "number": 100,
+      "title": "v2: docker driver doesn't support auto-push",
+      "created_at": "2020-09-03T06:43:27Z",
+      "closed_at": "2021-01-15T17:56:18Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/105",
+      "number": 105,
+      "title": "v2: pushing to Github Container Registry fails",
+      "created_at": "2020-09-07T15:46:52Z",
+      "closed_at": "2020-09-07T18:37:35Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/115",
+      "number": 115,
+      "title": "Error when pushing image to github",
+      "created_at": "2020-09-09T21:21:38Z",
+      "closed_at": "2020-09-09T21:47:07Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/127",
+      "number": 127,
+      "title": "Working with Github package registry",
+      "created_at": "2020-09-16T12:27:35Z",
+      "closed_at": "2020-09-21T19:17:15Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/131",
+      "number": 131,
+      "title": "Push with rpc error Unknown desc failed commit on ref: no response",
+      "created_at": "2020-09-18T07:38:23Z",
+      "closed_at": "2020-09-21T07:30:42Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/154",
+      "number": 154,
+      "title": "Push to multiple registries?",
+      "created_at": "2020-10-03T19:55:57Z",
+      "closed_at": "2020-10-05T18:24:08Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/158",
+      "number": 158,
+      "title": "ERROR: failed to fetch remote https://github.com/***/foo.git: exit status 128",
+      "created_at": "2020-10-04T00:51:06Z",
+      "closed_at": "2020-10-04T00:57:03Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/161",
+      "number": 161,
+      "title": "Git issues when run \"docker buildx build\" on \"self-hosted\" runner",
+      "created_at": "2020-10-05T02:13:26Z",
+      "closed_at": "2020-10-05T10:02:16Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/160",
+      "number": 160,
+      "title": "insufficient_scope: authorization failed",
+      "created_at": "2020-10-05T02:30:24Z",
+      "closed_at": "2020-10-05T13:25:01Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/162",
+      "number": 162,
+      "title": "fatal: could not read Username for 'https://github.com': No such device or address",
+      "created_at": "2020-10-05T09:21:03Z",
+      "closed_at": "2020-10-05T18:24:08Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/163",
+      "number": 163,
+      "title": "Examples don't work as expected",
+      "created_at": "2020-10-05T17:36:34Z",
+      "closed_at": "2020-10-08T17:15:26Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/166",
+      "number": 166,
+      "title": "Pushing multiple tags to Amazon ECR",
+      "created_at": "2020-10-06T14:27:26Z",
+      "closed_at": "2020-10-08T18:06:28Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/169",
+      "number": 169,
+      "title": "Build from Dockerfile in subdirectory",
+      "created_at": "2020-10-08T07:21:58Z",
+      "closed_at": "2020-10-08T08:04:23Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/178",
+      "number": 178,
+      "title": "Seems to have failed due to resource issue",
+      "created_at": "2020-10-16T08:10:33Z",
+      "closed_at": "2020-10-16T17:00:54Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/179",
+      "number": 179,
+      "title": "failed to solve: rpc error: code = Unknown desc = failed to solve with frontend dockerfile.v0: failed to read dockerfile:",
+      "created_at": "2020-10-17T06:11:19Z",
+      "closed_at": "2020-10-17T11:28:31Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/268",
+      "number": 268,
+      "title": "Run dpkg --print-architecture in image building",
+      "created_at": "2021-01-06T08:30:37Z",
+      "closed_at": "2021-01-17T12:17:39Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/275",
+      "number": 275,
+      "title": "Run `dpkg --print-architecture` some times get failure.",
+      "created_at": "2021-01-18T14:00:18Z",
+      "closed_at": "2021-02-15T17:50:09Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/279",
+      "number": 279,
+      "title": "Unable to install with apk - executor failed running / failed to solve / rpc error",
+      "created_at": "2021-01-21T04:31:29Z",
+      "closed_at": "2021-01-21T11:16:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/294",
+      "number": 294,
+      "title": "multistage dockerfile fails to load from one stage to another",
+      "created_at": "2021-02-12T10:42:29Z",
+      "closed_at": "2024-03-08T14:03:08Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/316",
+      "number": 316,
+      "title": "rpc error",
+      "created_at": "2021-03-09T17:38:53Z",
+      "closed_at": "2021-03-26T13:11:08Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/378",
+      "number": 378,
+      "title": ".git missing inside container?",
+      "created_at": "2021-06-03T14:43:08Z",
+      "closed_at": "2021-06-11T08:36:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/388",
+      "number": 388,
+      "title": "When `push` is `false`, image is not available to use via tag",
+      "created_at": "2021-06-15T18:34:13Z",
+      "closed_at": "2021-06-15T19:15:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/395",
+      "number": 395,
+      "title": "Golang static binary missing stuff",
+      "created_at": "2021-06-25T15:17:38Z",
+      "closed_at": "2021-06-30T15:58:10Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/472",
+      "number": 472,
+      "title": "Docker build-args not work as expected",
+      "created_at": "2021-09-25T19:05:31Z",
+      "closed_at": "2021-09-27T22:07:33Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/479",
+      "number": 479,
+      "title": "Buildx fails with multiple build-args",
+      "created_at": "2021-10-05T17:43:16Z",
+      "closed_at": "2021-10-05T18:36:13Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/488",
+      "number": 488,
+      "title": "Unable to build dockerfile using build-args ",
+      "created_at": "2021-10-21T16:18:54Z",
+      "closed_at": "2021-10-21T17:20:22Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/489",
+      "number": 489,
+      "title": "Unable to run aws cli command from dockerfile ",
+      "created_at": "2021-10-21T17:42:37Z",
+      "closed_at": "2021-10-21T18:22:40Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/577",
+      "number": 577,
+      "title": "Build should not fail on corrupted cache",
+      "created_at": "2022-03-24T07:58:43Z",
+      "closed_at": "2023-05-11T11:34:49Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/578",
+      "number": 578,
+      "title": "Read-only File System Error",
+      "created_at": "2022-03-24T10:02:20Z",
+      "closed_at": "2022-03-24T10:10:10Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/593",
+      "number": 593,
+      "title": "Action uselessly requires a running Docker daemon with the Kubernetes buildx driver",
+      "created_at": "2022-04-11T17:22:59Z",
+      "closed_at": "2022-05-05T16:11:51Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/605",
+      "number": 605,
+      "title": "docker/build-push-action 403 api rate limit",
+      "created_at": "2022-05-03T08:37:47Z",
+      "closed_at": "2022-05-04T15:25:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/621",
+      "number": 621,
+      "title": "Out of memory when building multi-platform images",
+      "created_at": "2022-05-21T19:26:00Z",
+      "closed_at": "2023-01-16T08:01:00Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/631",
+      "number": 631,
+      "title": "Tests in docker-compose passes only locally, not on github actions",
+      "created_at": "2022-06-11T11:28:48Z",
+      "closed_at": "2022-06-13T14:26:07Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/643",
+      "number": 643,
+      "title": "Error: buildx call failed with: error: tag is needed when pushing to registry",
+      "created_at": "2022-07-01T11:55:43Z",
+      "closed_at": "2022-07-02T19:49:26Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/652",
+      "number": 652,
+      "title": "build-push action failed while building Docker Image ( `npm run build` cannot execute `process.env.MONGO_URI` from repository without .env )",
+      "created_at": "2022-07-17T12:41:51Z",
+      "closed_at": "2022-07-17T15:43:42Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/660",
+      "number": 660,
+      "title": "Can't create a container since the provided tag name is different from the one I provided",
+      "created_at": "2022-08-02T07:19:00Z",
+      "closed_at": "2022-09-02T10:53:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/701",
+      "number": 701,
+      "title": "Secrets not working as expected (mount fails)",
+      "created_at": "2022-10-08T12:40:06Z",
+      "closed_at": "2022-10-08T21:34:12Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/730",
+      "number": 730,
+      "title": "Build fails with github actions - building works on local",
+      "created_at": "2022-11-28T18:32:35Z",
+      "closed_at": "2022-11-28T18:36:36Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/748",
+      "number": 748,
+      "title": "Action fails to build images for ARM-platform",
+      "created_at": "2023-01-05T07:41:02Z",
+      "closed_at": "2023-01-05T08:51:41Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/754",
+      "number": 754,
+      "title": "Not able to read passed secrets in the docker file.",
+      "created_at": "2023-01-10T07:44:08Z",
+      "closed_at": "2023-02-01T16:18:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/824",
+      "number": 824,
+      "title": "Test before push error: buildx failed with: ERROR: failed to solve: failed to read dockerfile: read /tmp/buildkit-mount1790184381: is a directory",
+      "created_at": "2023-03-02T09:20:52Z",
+      "closed_at": "2023-03-02T10:52:13Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/853",
+      "number": 853,
+      "title": "github actions push fails with error: denied: requested access to the resource is denied",
+      "created_at": "2023-04-05T04:49:58Z",
+      "closed_at": "2023-04-07T13:52:27Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/857",
+      "number": 857,
+      "title": "Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?",
+      "created_at": "2023-04-14T12:17:35Z",
+      "closed_at": "2023-05-09T20:18:39Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/933",
+      "number": 933,
+      "title": "buildx failed with: ERROR: failed to solve: process ... did not complete successfully: exit code: 100",
+      "created_at": "2023-08-18T08:33:45Z",
+      "closed_at": "2023-08-21T20:23:34Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/946",
+      "number": 946,
+      "title": "Node 16 no longer available via nodesource",
+      "created_at": "2023-08-30T16:25:02Z",
+      "closed_at": "2023-08-30T16:38:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/984",
+      "number": 984,
+      "title": "go 1.21.1 errors parsing go.mod",
+      "created_at": "2023-10-08T03:12:44Z",
+      "closed_at": "2023-10-08T05:23:00Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1008",
+      "number": 1008,
+      "title": "ERROR: failed to solve: process \"/bin/sh -c ",
+      "created_at": "2023-11-18T03:58:18Z",
+      "closed_at": "2023-11-19T10:13:10Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1028",
+      "number": 1028,
+      "title": "Transitive errors are not catched and retried, like HTTP 504 Gateway Timeout from a container registry",
+      "created_at": "2023-12-21T09:45:48Z",
+      "closed_at": "2024-01-17T10:31:37Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1033",
+      "number": 1033,
+      "title": "Merge Multi-Platform Image w/ Imagetools Create: Pull Access Denied",
+      "created_at": "2024-01-03T19:31:25Z",
+      "closed_at": "2024-01-05T22:10:49Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1112",
+      "number": 1112,
+      "title": "fatal: could not read Username for 'https://github.com': No such device or address ",
+      "created_at": "2024-05-07T11:34:44Z",
+      "closed_at": "2024-05-27T07:52:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1143",
+      "number": 1143,
+      "title": "Build summary generation failing ",
+      "created_at": "2024-06-19T09:52:14Z",
+      "closed_at": "2024-06-19T18:27:30Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1148",
+      "number": 1148,
+      "title": "error: Unavailable: connection error: desc = \"error reading server preface: http2: frame too large\"",
+      "created_at": "2024-06-20T12:04:32Z",
+      "closed_at": "2024-06-20T12:14:38Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1156",
+      "number": 1156,
+      "title": "Workflow hangs with build summary",
+      "created_at": "2024-06-25T14:57:32Z",
+      "closed_at": "2025-05-15T12:56:05Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1177",
+      "number": 1177,
+      "title": "MIssing signature for docker.io/dockereng/export-build on notary.docker.io",
+      "created_at": "2024-07-10T16:08:53Z",
+      "closed_at": "2024-07-22T11:10:05Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1178",
+      "number": 1178,
+      "title": "Cant use ghcr pushed images in following jobs",
+      "created_at": "2024-07-11T02:51:34Z",
+      "closed_at": "2024-07-16T02:15:19Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1185",
+      "number": 1185,
+      "title": "Action uselessly requires a running Docker daemon with the remote buildx driver",
+      "created_at": "2024-07-17T17:30:51Z",
+      "closed_at": "2024-07-22T11:09:32Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1239",
+      "number": 1239,
+      "title": "No builder found",
+      "created_at": "2024-10-09T07:45:32Z",
+      "closed_at": "2025-02-28T15:04:18Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1253",
+      "number": 1253,
+      "title": "Docker build fails with gh cache",
+      "created_at": "2024-11-08T13:54:12Z",
+      "closed_at": "2024-11-19T15:15:51Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1326",
+      "number": 1326,
+      "title": "Secret-files not found in docker/build-push-action@v6, but works with docker buildx build",
+      "created_at": "2025-02-20T14:51:20Z",
+      "closed_at": "2025-02-20T15:00:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1328",
+      "number": 1328,
+      "title": "unable to build nginx image with dynamic modules",
+      "created_at": "2025-02-21T02:58:24Z",
+      "closed_at": "2026-04-24T09:45:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1340",
+      "number": 1340,
+      "title": "Unexpected push attempt when push=false",
+      "created_at": "2025-03-22T16:30:37Z",
+      "closed_at": "2025-03-22T16:43:32Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1430",
+      "number": 1430,
+      "title": "Strange cancelation without non zero exit code",
+      "created_at": "2025-11-18T10:55:15Z",
+      "closed_at": "2026-07-01T13:31:49Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1433",
+      "number": 1433,
+      "title": "Corruption of Build Secret Files",
+      "created_at": "2025-11-20T20:20:54Z",
+      "closed_at": "2026-03-24T12:51:34Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1436",
+      "number": 1436,
+      "title": "Error: buildx failed with: ERROR: failed to build: failed to solve: process /dev/.buildkit_qemu_emulator",
+      "created_at": "2025-12-08T03:16:46Z",
+      "closed_at": "2026-03-10T05:28:02Z"
+    }
+  ]
+}

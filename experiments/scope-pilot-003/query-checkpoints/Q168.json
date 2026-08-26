@@ -1,0 +1,65 @@
+{
+  "index": 168,
+  "stratum": "proofs_build_completeness",
+  "repository": "NixOS/nixpkgs",
+  "repository_id": 4542716,
+  "term": "zero issues",
+  "query": "repo:NixOS/nixpkgs is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:49:35.678243+00:00",
+  "total_count": 7,
+  "incomplete_results": false,
+  "returned": 7,
+  "raw_response_sha256": "4eaed2a898f77c8d54dd1858f9da92386810f722d1a1b2b54075d9ba54a4066a",
+  "items": [
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83805",
+      "number": 83805,
+      "title": "Mark failing to build packages in 20.03 as broken",
+      "created_at": "2020-03-30T19:54:17Z",
+      "closed_at": "2020-05-04T19:07:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/101281",
+      "number": 101281,
+      "title": "Steam doesn't detect Xbox controllers when already running",
+      "created_at": "2020-10-21T20:19:16Z",
+      "closed_at": "2022-09-06T17:22:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/188221",
+      "number": 188221,
+      "title": "Bash not found when running nextflow project in NixOs",
+      "created_at": "2022-08-24T20:58:44Z",
+      "closed_at": "2023-04-02T10:12:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/193585",
+      "number": 193585,
+      "title": "🦝 NixOS 22.11 - Release schedule",
+      "created_at": "2022-09-29T21:34:00Z",
+      "closed_at": "2022-12-10T17:15:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/217443",
+      "number": 217443,
+      "title": "Package request: session manager plugin for awscli2",
+      "created_at": "2023-02-21T06:29:29Z",
+      "closed_at": "2023-02-21T06:38:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/276400",
+      "number": 276400,
+      "title": "libreoffice: offline help doesn't get added.",
+      "created_at": "2023-12-23T23:47:56Z",
+      "closed_at": "2023-12-24T18:08:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/390768",
+      "number": 390768,
+      "title": "NixOS 25.05 – Release schedule",
+      "created_at": "2025-03-17T21:12:56Z",
+      "closed_at": "2025-06-02T08:57:02Z"
+    }
+  ]
+}

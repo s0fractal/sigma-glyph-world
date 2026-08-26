@@ -1,0 +1,716 @@
+{
+  "index": 45,
+  "stratum": "lint_static_analysis",
+  "repository": "astral-sh/ruff",
+  "repository_id": 523043277,
+  "term": "false positive",
+  "query": "repo:astral-sh/ruff is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:22.531872+00:00",
+  "total_count": 702,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "e816908016ef65195ecc3ceb829bbda4293791d1762f9a5bdcb86f3332d98272",
+  "items": [
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/68",
+      "number": 68,
+      "title": "Results that do not meet expectations",
+      "created_at": "2022-09-01T03:29:49Z",
+      "closed_at": "2022-09-01T17:04:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/149",
+      "number": 149,
+      "title": "F821 triggers when referencing a deleted (in an if) variable in an else/elif",
+      "created_at": "2022-09-11T03:20:32Z",
+      "closed_at": "2022-09-11T14:28:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/316",
+      "number": 316,
+      "title": "SPR001 false positives for two-argument super()",
+      "created_at": "2022-10-04T04:42:14Z",
+      "closed_at": "2022-10-04T17:55:33Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/360",
+      "number": 360,
+      "title": "False positive for W292",
+      "created_at": "2022-10-08T03:05:20Z",
+      "closed_at": "2022-10-08T21:25:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/376",
+      "number": 376,
+      "title": "False positive on unused import in type annotation",
+      "created_at": "2022-10-09T21:27:45Z",
+      "closed_at": "2022-10-09T21:37:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/511",
+      "number": 511,
+      "title": "C402 false positive with extra kwargs to dict()",
+      "created_at": "2022-10-29T22:28:29Z",
+      "closed_at": "2022-10-29T22:49:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/565",
+      "number": 565,
+      "title": "feat: Ambiguous character detection",
+      "created_at": "2022-11-03T10:35:18Z",
+      "closed_at": "2022-11-04T16:08:27Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/580",
+      "number": 580,
+      "title": "F821 false positive when assigning to a dict",
+      "created_at": "2022-11-04T11:55:05Z",
+      "closed_at": "2022-11-04T14:51:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/581",
+      "number": 581,
+      "title": "W605 potential false positive with `\\` in multi-line strings",
+      "created_at": "2022-11-04T14:03:38Z",
+      "closed_at": "2022-11-04T18:26:40Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/619",
+      "number": 619,
+      "title": "N803 Argument name `_` should be lowercase - false positive?",
+      "created_at": "2022-11-06T10:45:13Z",
+      "closed_at": "2022-11-06T19:19:03Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/620",
+      "number": 620,
+      "title": "N805 First argument of a method should be named self -- false positive for __new__",
+      "created_at": "2022-11-06T11:01:28Z",
+      "closed_at": "2022-11-06T20:29:50Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/689",
+      "number": 689,
+      "title": "How does ruff compare to pylint?",
+      "created_at": "2022-11-12T00:35:51Z",
+      "closed_at": "2022-11-30T04:53:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/780",
+      "number": 780,
+      "title": "False positive for F821",
+      "created_at": "2022-11-16T22:40:20Z",
+      "closed_at": "2022-11-26T15:12:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/792",
+      "number": 792,
+      "title": "False positive for D417",
+      "created_at": "2022-11-17T17:25:57Z",
+      "closed_at": "2022-11-17T17:55:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/799",
+      "number": 799,
+      "title": "N806 false-positive with a global variable",
+      "created_at": "2022-11-17T21:32:55Z",
+      "closed_at": "2022-11-17T22:19:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/820",
+      "number": 820,
+      "title": "False positive for F841",
+      "created_at": "2022-11-19T23:26:15Z",
+      "closed_at": "2022-11-20T00:21:03Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/893",
+      "number": 893,
+      "title": "FBT003 triggered on dict ",
+      "created_at": "2022-11-23T14:20:58Z",
+      "closed_at": "2022-11-28T21:17:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/923",
+      "number": 923,
+      "title": "D417: false positive with *args/**kwargs in numpy docstrings",
+      "created_at": "2022-11-27T16:29:37Z",
+      "closed_at": "2022-11-28T03:08:28Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/944",
+      "number": 944,
+      "title": "Support for Eradicate",
+      "created_at": "2022-11-28T18:32:31Z",
+      "closed_at": "2022-11-29T01:54:34Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/986",
+      "number": 986,
+      "title": "False-positive for D208 \"Docstring is over-indented\" for code sample at the end of module docstring",
+      "created_at": "2022-12-01T18:37:37Z",
+      "closed_at": "2022-12-02T01:15:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/997",
+      "number": 997,
+      "title": "F821 (Undefined name) triggered when using assingment operator in all",
+      "created_at": "2022-12-02T14:49:20Z",
+      "closed_at": "2022-12-02T16:48:42Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/998",
+      "number": 998,
+      "title": "Implement flake8-simplify",
+      "created_at": "2022-12-02T15:36:49Z",
+      "closed_at": "2023-02-20T20:01:01Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/999",
+      "number": 999,
+      "title": "F401 false positive with future annotations",
+      "created_at": "2022-12-02T18:02:41Z",
+      "closed_at": "2022-12-02T18:22:40Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1026",
+      "number": 1026,
+      "title": "UP015 RedundantOpenModes false positive with gzip.open",
+      "created_at": "2022-12-04T08:21:21Z",
+      "closed_at": "2022-12-04T14:12:04Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1028",
+      "number": 1028,
+      "title": "UP015 can't autofix if coming from pathlib.Path",
+      "created_at": "2022-12-04T09:57:16Z",
+      "closed_at": "2023-01-11T04:27:51Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1035",
+      "number": 1035,
+      "title": "RET508 potential false positive after elif",
+      "created_at": "2022-12-04T15:06:51Z",
+      "closed_at": "2023-02-14T02:51:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1084",
+      "number": 1084,
+      "title": "[bug?] Questionable docstring first line fix (`D205`)",
+      "created_at": "2022-12-05T22:51:49Z",
+      "closed_at": "2022-12-06T00:01:33Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1087",
+      "number": 1087,
+      "title": "[bug] Misreported number of errors fixed for `D207`/`D208`",
+      "created_at": "2022-12-05T23:28:02Z",
+      "closed_at": "2022-12-09T22:31:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1125",
+      "number": 1125,
+      "title": "Autofix F541 (f-string without any placeholders)?",
+      "created_at": "2022-12-07T16:01:19Z",
+      "closed_at": "2023-01-03T03:28:33Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1159",
+      "number": 1159,
+      "title": "False positive for “RET504: Unnecessary variable assignment before `return` statement”",
+      "created_at": "2022-12-09T09:22:01Z",
+      "closed_at": "2022-12-09T17:28:10Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1194",
+      "number": 1194,
+      "title": "F821 UndefinedName false positive on annotated global",
+      "created_at": "2022-12-11T09:24:16Z",
+      "closed_at": "2022-12-11T15:04:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1229",
+      "number": 1229,
+      "title": "False Positive Error",
+      "created_at": "2022-12-13T16:03:06Z",
+      "closed_at": "2022-12-13T17:46:47Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1231",
+      "number": 1231,
+      "title": "ANN101 False Positive",
+      "created_at": "2022-12-13T21:42:58Z",
+      "closed_at": "2022-12-14T00:13:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1284",
+      "number": 1284,
+      "title": "Lots of RUF100 false positive for noqa: E501",
+      "created_at": "2022-12-19T00:34:22Z",
+      "closed_at": "2022-12-19T01:08:31Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1290",
+      "number": 1290,
+      "title": "False-positive RET504 \"Unnecessary variable assignment before `return` statement\"",
+      "created_at": "2022-12-19T12:57:51Z",
+      "closed_at": "2022-12-20T00:48:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1291",
+      "number": 1291,
+      "title": "False positive for D417 (Part 2)",
+      "created_at": "2022-12-19T18:48:04Z",
+      "closed_at": "2022-12-19T21:39:44Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1296",
+      "number": 1296,
+      "title": "DTZ007 False positive",
+      "created_at": "2022-12-20T06:16:01Z",
+      "closed_at": "2022-12-20T18:20:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1303",
+      "number": 1303,
+      "title": "False-positive `F821: Undefined name` with `mypy_extensions.DefaultNamedArg`",
+      "created_at": "2022-12-20T20:44:54Z",
+      "closed_at": "2022-12-20T21:29:34Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1309",
+      "number": 1309,
+      "title": "False positive for PLE0118 when mixing globals and f-strings",
+      "created_at": "2022-12-21T16:49:28Z",
+      "closed_at": "2022-12-21T19:34:10Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1310",
+      "number": 1310,
+      "title": "false positive for RET504 in case of globals",
+      "created_at": "2022-12-21T17:59:53Z",
+      "closed_at": "2022-12-24T17:02:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1336",
+      "number": 1336,
+      "title": "Two more flake8-boolean-trap FBT003 false positives",
+      "created_at": "2022-12-22T15:49:40Z",
+      "closed_at": "2022-12-22T15:56:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1401",
+      "number": 1401,
+      "title": "F401 (unused import) false positive",
+      "created_at": "2022-12-27T11:45:58Z",
+      "closed_at": "2023-05-20T02:54:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1414",
+      "number": 1414,
+      "title": "False positive on match with object's attribute",
+      "created_at": "2022-12-27T23:43:22Z",
+      "closed_at": "2022-12-28T00:42:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1422",
+      "number": 1422,
+      "title": "Allow banning of certain modules and certain module members",
+      "created_at": "2022-12-28T10:22:38Z",
+      "closed_at": "2022-12-30T03:11:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1459",
+      "number": 1459,
+      "title": "Feature Request: Ruff doesn't support expanding star imports",
+      "created_at": "2022-12-30T02:27:38Z",
+      "closed_at": "2023-01-15T07:21:30Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1467",
+      "number": 1467,
+      "title": "More thorough documentation for rules",
+      "created_at": "2022-12-30T08:02:41Z",
+      "closed_at": "2023-02-07T23:19:30Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1468",
+      "number": 1468,
+      "title": "PD011 false positives for other objects and method calls",
+      "created_at": "2022-12-30T08:42:53Z",
+      "closed_at": "2023-01-01T22:05:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1514",
+      "number": 1514,
+      "title": "False positive in F541 (f-string without placeholders) after v0.0.204",
+      "created_at": "2022-12-31T16:10:36Z",
+      "closed_at": "2022-12-31T18:41:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1517",
+      "number": 1517,
+      "title": "RET504 - false positive",
+      "created_at": "2022-12-31T18:59:08Z",
+      "closed_at": "2022-12-31T23:04:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1518",
+      "number": 1518,
+      "title": "D400: false positive and bad autofix",
+      "created_at": "2022-12-31T21:18:26Z",
+      "closed_at": "2022-12-31T23:38:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1552",
+      "number": 1552,
+      "title": "Using variable only in slice leads to false positive for F841: Locale variable is assigned but never used.",
+      "created_at": "2023-01-02T12:05:19Z",
+      "closed_at": "2023-01-02T17:13:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1560",
+      "number": 1560,
+      "title": "Possibly a false positive for UP007",
+      "created_at": "2023-01-02T20:02:00Z",
+      "closed_at": "2023-01-02T21:33:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1561",
+      "number": 1561,
+      "title": "False-positive D214/405/410/411",
+      "created_at": "2023-01-02T20:03:43Z",
+      "closed_at": "2023-01-02T21:26:41Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1568",
+      "number": 1568,
+      "title": "False positive: `UP024` Replace aliased errors with `OSError`",
+      "created_at": "2023-01-02T22:25:27Z",
+      "closed_at": "2023-01-02T22:29:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1606",
+      "number": 1606,
+      "title": "RET504 potential false-positive",
+      "created_at": "2023-01-03T18:04:38Z",
+      "closed_at": "2023-01-03T18:38:15Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1613",
+      "number": 1613,
+      "title": "false positive with `Undefined name Pool F821` in .pyi ",
+      "created_at": "2023-01-04T01:49:26Z",
+      "closed_at": "2023-01-04T02:27:27Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1615",
+      "number": 1615,
+      "title": "Unnecessary call to `bytes`Ruff(UP018) fixing false positive",
+      "created_at": "2023-01-04T02:11:06Z",
+      "closed_at": "2023-01-04T02:45:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1617",
+      "number": 1617,
+      "title": "Possible false positive with UP006 and UP007",
+      "created_at": "2023-01-04T02:40:08Z",
+      "closed_at": "2023-01-04T02:46:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1640",
+      "number": 1640,
+      "title": "Suggest type annotations similar to autotyping",
+      "created_at": "2023-01-04T22:12:50Z",
+      "closed_at": "2023-11-14T04:34:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1646",
+      "number": 1646,
+      "title": "Implement `flake8-bandit`",
+      "created_at": "2023-01-05T00:09:24Z",
+      "closed_at": "2024-08-01T00:16:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1659",
+      "number": 1659,
+      "title": "PD013 UseOfDotStack triggered by np.stack",
+      "created_at": "2023-01-05T10:42:46Z",
+      "closed_at": "2023-01-06T00:30:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1663",
+      "number": 1663,
+      "title": "False positive: `UP028` flags `for-yield` loop that can't be rewritten into a `yield from`",
+      "created_at": "2023-01-05T15:23:55Z",
+      "closed_at": "2023-01-05T17:14:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1672",
+      "number": 1672,
+      "title": "D205 not fixable",
+      "created_at": "2023-01-06T01:19:47Z",
+      "closed_at": "2023-01-06T04:20:15Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1686",
+      "number": 1686,
+      "title": "B023 False positives",
+      "created_at": "2023-01-06T09:24:33Z",
+      "closed_at": "2023-01-11T02:23:49Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1848",
+      "number": 1848,
+      "title": "B024 and B027 false positives when using `@abc.abstractproperty`",
+      "created_at": "2023-01-13T13:23:12Z",
+      "closed_at": "2023-01-13T16:46:18Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1902",
+      "number": 1902,
+      "title": "`SIM117` incorrect believes you can merge `async with` and `with`",
+      "created_at": "2023-01-16T02:16:37Z",
+      "closed_at": "2023-01-16T02:42:37Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1932",
+      "number": 1932,
+      "title": "False-positive PIE796: Enum contains duplicate value: `enum.auto()`",
+      "created_at": "2023-01-17T15:45:44Z",
+      "closed_at": "2023-01-17T16:14:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1949",
+      "number": 1949,
+      "title": "Consider splitting `PLR2004` (`MagicValueComparison`) into different rules",
+      "created_at": "2023-01-18T06:07:20Z",
+      "closed_at": "2023-01-19T01:44:25Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1959",
+      "number": 1959,
+      "title": "D400 / D415 breaks doctest",
+      "created_at": "2023-01-18T15:28:05Z",
+      "closed_at": "2023-01-18T16:41:12Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1989",
+      "number": 1989,
+      "title": "F401 false positives when match statements are in the file ",
+      "created_at": "2023-01-19T04:33:02Z",
+      "closed_at": "2023-01-19T12:40:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1993",
+      "number": 1993,
+      "title": "SIM109—potential false positive",
+      "created_at": "2023-01-19T10:58:51Z",
+      "closed_at": "2023-01-19T15:23:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1997",
+      "number": 1997,
+      "title": "Autofix applicability",
+      "created_at": "2023-01-19T15:07:07Z",
+      "closed_at": "2023-06-14T22:28:44Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2008",
+      "number": 2008,
+      "title": "PT007 raises a false positive for single-item strings",
+      "created_at": "2023-01-20T02:04:44Z",
+      "closed_at": "2023-01-20T03:13:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2020",
+      "number": 2020,
+      "title": "RET505 false positive",
+      "created_at": "2023-01-20T10:22:04Z",
+      "closed_at": "2023-01-20T11:05:36Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2044",
+      "number": 2044,
+      "title": "F401 false positive (imported but unused)",
+      "created_at": "2023-01-20T23:07:12Z",
+      "closed_at": "2023-01-21T17:50:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2054",
+      "number": 2054,
+      "title": "[RUF005] Unexpectedly removes comments",
+      "created_at": "2023-01-21T09:13:44Z",
+      "closed_at": "2023-01-21T12:37:26Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2056",
+      "number": 2056,
+      "title": "Implement `tryceratops`",
+      "created_at": "2023-01-21T11:54:14Z",
+      "closed_at": "2023-02-27T17:45:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2068",
+      "number": 2068,
+      "title": "Eradicate false positive",
+      "created_at": "2023-01-21T19:16:57Z",
+      "closed_at": "2023-01-21T19:17:47Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2089",
+      "number": 2089,
+      "title": "flake8-datetimez (DTZ) should check datetime.combine",
+      "created_at": "2023-01-22T17:26:55Z",
+      "closed_at": "2023-01-24T00:12:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2094",
+      "number": 2094,
+      "title": "[ERROR] Failed to fix nested if: Expected outer if to have indented body and no else",
+      "created_at": "2023-01-22T22:12:41Z",
+      "closed_at": "2023-01-22T22:40:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2119",
+      "number": 2119,
+      "title": "RET503 - broken autofix/false positive",
+      "created_at": "2023-01-24T10:25:27Z",
+      "closed_at": "2023-01-24T13:15:27Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2140",
+      "number": 2140,
+      "title": "PTH123 false positive",
+      "created_at": "2023-01-24T19:20:30Z",
+      "closed_at": "2023-01-25T01:40:39Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2164",
+      "number": 2164,
+      "title": "TRY201 false positive",
+      "created_at": "2023-01-25T18:13:02Z",
+      "closed_at": "2023-01-25T18:20:12Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2171",
+      "number": 2171,
+      "title": "TRY200 false positive for re-raising original/currently handled exception",
+      "created_at": "2023-01-25T20:17:07Z",
+      "closed_at": "2023-01-25T20:51:26Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2247",
+      "number": 2247,
+      "title": "F401 false positive",
+      "created_at": "2023-01-27T10:19:30Z",
+      "closed_at": "2023-01-27T16:25:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2248",
+      "number": 2248,
+      "title": "F401+F811 false positive",
+      "created_at": "2023-01-27T10:36:32Z",
+      "closed_at": "2023-05-20T02:54:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2273",
+      "number": 2273,
+      "title": "flake8-logging-format catches more things than ruff",
+      "created_at": "2023-01-27T18:38:33Z",
+      "closed_at": "2023-01-27T23:41:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2334",
+      "number": 2334,
+      "title": "Another TRY201 false positive",
+      "created_at": "2023-01-30T00:45:32Z",
+      "closed_at": "2023-01-30T02:16:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2356",
+      "number": 2356,
+      "title": "False positive for `G201` and `G202`?",
+      "created_at": "2023-01-30T17:08:42Z",
+      "closed_at": "2023-01-30T21:32:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2399",
+      "number": 2399,
+      "title": "SIM103: false positive",
+      "created_at": "2023-01-31T15:58:04Z",
+      "closed_at": "2023-01-31T17:45:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2442",
+      "number": 2442,
+      "title": "False positive from RUF100 with noqa comment to suppress SIM108",
+      "created_at": "2023-02-01T15:24:51Z",
+      "closed_at": "2023-02-01T17:56:04Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2443",
+      "number": 2443,
+      "title": "[ruff --fix] (v0.0.239) When working with numpy arrays `mask == True` is not the same as `mask is True`",
+      "created_at": "2023-02-01T15:41:19Z",
+      "closed_at": "2023-05-21T16:06:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2480",
+      "number": 2480,
+      "title": "`PD011`: False positive with non-dataframes",
+      "created_at": "2023-02-02T14:43:59Z",
+      "closed_at": "2023-02-03T18:15:01Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2481",
+      "number": 2481,
+      "title": "F841 - False positive",
+      "created_at": "2023-02-02T16:09:55Z",
+      "closed_at": "2023-02-02T17:22:00Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2571",
+      "number": 2571,
+      "title": "Probably false-positive for E999 in Python 3.11.1",
+      "created_at": "2023-02-04T19:57:51Z",
+      "closed_at": "2023-02-21T18:42:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2603",
+      "number": 2603,
+      "title": "False positive F841: typing automatically removed as unused by ``--fix`` when they are not",
+      "created_at": "2023-02-06T10:23:50Z",
+      "closed_at": "2023-02-06T19:40:42Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2620",
+      "number": 2620,
+      "title": "False positive for `ARG001`; unused function argument",
+      "created_at": "2023-02-07T08:42:16Z",
+      "closed_at": "2023-02-07T16:21:51Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2624",
+      "number": 2624,
+      "title": "False positive for N805 when using positional-only args",
+      "created_at": "2023-02-07T14:39:07Z",
+      "closed_at": "2023-02-07T15:50:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2632",
+      "number": 2632,
+      "title": "UP003 false-positive introduces bug",
+      "created_at": "2023-02-07T19:00:36Z",
+      "closed_at": "2023-02-08T17:18:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2679",
+      "number": 2679,
+      "title": "PLE2502: False positive for escaped unicode names ``'\\N{...}'``",
+      "created_at": "2023-02-09T03:21:12Z",
+      "closed_at": "2023-02-10T21:59:30Z"
+    }
+  ]
+}

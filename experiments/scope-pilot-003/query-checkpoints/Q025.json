@@ -1,0 +1,716 @@
+{
+  "index": 25,
+  "stratum": "tests",
+  "repository": "microsoft/playwright",
+  "repository_id": 221981891,
+  "term": "not run",
+  "query": "repo:microsoft/playwright is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:18.522034+00:00",
+  "total_count": 1254,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "b87f0a8e665333864e5f74d901aacaaeb07d61e0a73a8266430b91486ca5cf34",
+  "items": [
+    {
+      "url": "https://github.com/microsoft/playwright/issues/581",
+      "number": 581,
+      "title": "UnhandledPromiseRejectionWarning: Error: Failed to launch browser!",
+      "created_at": "2020-01-23T07:03:17Z",
+      "closed_at": "2020-02-27T22:33:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/598",
+      "number": 598,
+      "title": "WSL - Doesn't appear to Install Chromium",
+      "created_at": "2020-01-23T18:08:03Z",
+      "closed_at": "2020-02-27T22:26:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/634",
+      "number": 634,
+      "title": "Running Playwright in Heroku",
+      "created_at": "2020-01-24T19:42:17Z",
+      "closed_at": "2020-02-27T22:27:34Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/639",
+      "number": 639,
+      "title": "Not a bug, but a question. Can we run tests in parallel?",
+      "created_at": "2020-01-24T22:22:19Z",
+      "closed_at": "2020-01-29T00:29:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/654",
+      "number": 654,
+      "title": "Test Runner",
+      "created_at": "2020-01-26T12:27:28Z",
+      "closed_at": "2020-01-29T10:33:59Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/749",
+      "number": 749,
+      "title": "Window scope is different for webkit",
+      "created_at": "2020-01-29T19:45:39Z",
+      "closed_at": "2020-01-30T04:13:01Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/808",
+      "number": 808,
+      "title": "[BUG] rimraf causes failure with multiple browsers on Windows",
+      "created_at": "2020-02-02T22:18:51Z",
+      "closed_at": "2020-02-10T19:27:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/910",
+      "number": 910,
+      "title": "[BUG] args options ignored when launching firefox",
+      "created_at": "2020-02-09T16:13:24Z",
+      "closed_at": "2020-02-09T17:25:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/926",
+      "number": 926,
+      "title": "[Question]Can I do an automation test with playwright in github actions?",
+      "created_at": "2020-02-11T16:52:46Z",
+      "closed_at": "2020-02-13T18:18:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1085",
+      "number": 1085,
+      "title": "[BUG] Playwright requires manual install of browsers",
+      "created_at": "2020-02-24T02:53:25Z",
+      "closed_at": "2020-02-26T23:13:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1234",
+      "number": 1234,
+      "title": "[BUG] inputElement.type inside childFrame not working on webkit (headless and non-headless)",
+      "created_at": "2020-03-05T04:38:37Z",
+      "closed_at": "2020-04-01T05:09:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1245",
+      "number": 1245,
+      "title": "[BUG]: Failed to launch browser",
+      "created_at": "2020-03-05T19:39:10Z",
+      "closed_at": "2020-06-28T16:53:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1307",
+      "number": 1307,
+      "title": "[BUG] ERROR: method 'Target.enable' is not supported Firefox custom build.",
+      "created_at": "2020-03-10T12:57:51Z",
+      "closed_at": "2020-03-11T20:38:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1374",
+      "number": 1374,
+      "title": "[Feature] Mouse helper (tracking mouse position, clicks, drag & drops, selections)",
+      "created_at": "2020-03-13T09:12:13Z",
+      "closed_at": "2026-07-16T19:32:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1421",
+      "number": 1421,
+      "title": "[BUG] Protocol error (DOM.describeNode): Cannot find context with specified id",
+      "created_at": "2020-03-18T14:54:09Z",
+      "closed_at": "2020-06-28T17:14:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1471",
+      "number": 1471,
+      "title": "[BUG] Firefox screenshot does not show input values",
+      "created_at": "2020-03-22T12:22:02Z",
+      "closed_at": "2020-04-17T22:16:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1607",
+      "number": 1607,
+      "title": "[Question] Removing routes from page._routes",
+      "created_at": "2020-03-31T12:25:54Z",
+      "closed_at": "2020-05-26T19:35:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1622",
+      "number": 1622,
+      "title": "[BUG] Example Dockerfile browser Dependencies",
+      "created_at": "2020-04-01T15:45:35Z",
+      "closed_at": "2020-04-23T15:43:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1751",
+      "number": 1751,
+      "title": "How to use Axios inside page.evaluate - Error: Evaluation failed: ReferenceError: Axios is not defined",
+      "created_at": "2020-04-11T20:10:36Z",
+      "closed_at": "2020-04-14T20:03:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1762",
+      "number": 1762,
+      "title": "[BUG] When clicking on a link navigating away from the website, playwright throws a removeFrameSession failure",
+      "created_at": "2020-04-13T07:35:02Z",
+      "closed_at": "2020-04-15T02:01:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1799",
+      "number": 1799,
+      "title": "[Feature] allow client certificate selection and settings from Javascript",
+      "created_at": "2020-04-15T15:43:30Z",
+      "closed_at": "2024-07-24T09:43:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1960",
+      "number": 1960,
+      "title": "[BUG] Playwright in Storybook",
+      "created_at": "2020-04-24T14:31:15Z",
+      "closed_at": "2020-11-24T17:50:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1991",
+      "number": 1991,
+      "title": "[BUG] - Protocol error (Target.getBrowserContexts): Target closed.",
+      "created_at": "2020-04-27T10:41:55Z",
+      "closed_at": "2020-06-06T00:33:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2159",
+      "number": 2159,
+      "title": "[Feature] hasFocus method on element",
+      "created_at": "2020-05-08T15:26:03Z",
+      "closed_at": "2020-05-14T07:44:34Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2186",
+      "number": 2186,
+      "title": "[BUG] playwright-chromium will not run if Travis caches node_modules",
+      "created_at": "2020-05-11T18:26:17Z",
+      "closed_at": "2020-05-12T05:52:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2191",
+      "number": 2191,
+      "title": "[devops] Travis CI caching improvements",
+      "created_at": "2020-05-12T01:13:08Z",
+      "closed_at": "2020-05-12T23:49:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2343",
+      "number": 2343,
+      "title": "How to use additional flags to a 'jest-playwright --parallel' script?",
+      "created_at": "2020-05-22T15:29:17Z",
+      "closed_at": "2020-05-25T16:36:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2347",
+      "number": 2347,
+      "title": "[Question]re-try command",
+      "created_at": "2020-05-23T01:44:20Z",
+      "closed_at": "2020-05-26T17:33:25Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2386",
+      "number": 2386,
+      "title": "[Question] Run playwright from docker container running express server - sandbox issues",
+      "created_at": "2020-05-28T15:11:25Z",
+      "closed_at": "2020-07-22T23:16:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2409",
+      "number": 2409,
+      "title": "[BUG] UnhandledPromiseRejectionWarning: Error: by Firefox and web kit.",
+      "created_at": "2020-05-29T18:56:42Z",
+      "closed_at": "2020-11-24T18:48:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2429",
+      "number": 2429,
+      "title": "[BUG] run-workers not working with docker container",
+      "created_at": "2020-06-01T15:21:00Z",
+      "closed_at": "2020-06-28T19:03:00Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2437",
+      "number": 2437,
+      "title": "[BUG] The official Docker image doesn't work with non root user",
+      "created_at": "2020-06-02T04:13:06Z",
+      "closed_at": "2020-06-11T18:38:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2515",
+      "number": 2515,
+      "title": "[Feature] networkidle for \"idle after action\"",
+      "created_at": "2020-06-09T19:45:14Z",
+      "closed_at": "2020-11-09T17:36:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2539",
+      "number": 2539,
+      "title": "[BUG] Firefox doesn't install when using a installler made with electron-builder.",
+      "created_at": "2020-06-11T15:24:12Z",
+      "closed_at": "2020-06-14T23:04:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2580",
+      "number": 2580,
+      "title": "[Question] Retry Failed Step(s)",
+      "created_at": "2020-06-15T22:54:08Z",
+      "closed_at": "2020-06-17T17:29:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2609",
+      "number": 2609,
+      "title": "[Question] Is it possible to run playwright for Electron in headless mode ?",
+      "created_at": "2020-06-17T18:49:22Z",
+      "closed_at": "2020-06-23T00:56:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2611",
+      "number": 2611,
+      "title": "Docker - Playwright with Jest Errors on  (Works out of the container locally)",
+      "created_at": "2020-06-17T20:46:13Z",
+      "closed_at": "2020-06-23T09:16:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2616",
+      "number": 2616,
+      "title": "[REGRESSION]: Very slow on v1.1",
+      "created_at": "2020-06-18T03:07:25Z",
+      "closed_at": "2020-08-21T17:35:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2647",
+      "number": 2647,
+      "title": "[BUG] Browser crashing when trying to use mic permission",
+      "created_at": "2020-06-19T16:40:31Z",
+      "closed_at": "2020-06-22T23:50:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2718",
+      "number": 2718,
+      "title": "[Feature] Simulate mouse movements so you can visually see what is being clicked during a test run",
+      "created_at": "2020-06-25T21:38:47Z",
+      "closed_at": "2020-08-21T06:49:23Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2728",
+      "number": 2728,
+      "title": "Is it possible to launch playwright browser \"headless:false\" in a docker container.",
+      "created_at": "2020-06-26T18:25:55Z",
+      "closed_at": "2020-08-21T07:11:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2868",
+      "number": 2868,
+      "title": "[REGRESSION]: Install from GitHub errors on test start",
+      "created_at": "2020-07-08T04:25:39Z",
+      "closed_at": "2020-07-08T05:39:00Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2971",
+      "number": 2971,
+      "title": "[Internal] Jest runner limitations / adoption blockers",
+      "created_at": "2020-07-16T06:17:12Z",
+      "closed_at": "2020-08-21T08:12:23Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2973",
+      "number": 2973,
+      "title": "[Feature] Add support for better testing WebRTC applications with Webkit",
+      "created_at": "2020-07-16T14:46:44Z",
+      "closed_at": "2026-07-17T16:22:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3080",
+      "number": 3080,
+      "title": "[Question] Does `fit` shortcut still work with the jest tests?",
+      "created_at": "2020-07-22T00:17:00Z",
+      "closed_at": "2020-07-23T19:03:58Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3171",
+      "number": 3171,
+      "title": "[BUG] Load stucks with request interception and caching",
+      "created_at": "2020-07-26T23:23:38Z",
+      "closed_at": "2020-07-27T13:34:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3189",
+      "number": 3189,
+      "title": "[BUG] Independent tests impacting one another",
+      "created_at": "2020-07-28T00:41:21Z",
+      "closed_at": "2020-07-28T01:22:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3192",
+      "number": 3192,
+      "title": "[Question] Check if element is stable",
+      "created_at": "2020-07-28T09:12:54Z",
+      "closed_at": "2020-08-17T23:38:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3321",
+      "number": 3321,
+      "title": "[Feature] Set user agent",
+      "created_at": "2020-08-06T06:10:17Z",
+      "closed_at": "2020-10-20T05:31:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3726",
+      "number": 3726,
+      "title": "[BUG] Playwright-core - Timeout while waiting for event \\\"download\\\"\\nNote:",
+      "created_at": "2020-09-02T10:42:10Z",
+      "closed_at": "2020-11-23T22:20:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3786",
+      "number": 3786,
+      "title": "[Feature] Controlling debug mode features on browser launch, separately",
+      "created_at": "2020-09-07T02:23:32Z",
+      "closed_at": "2021-07-12T21:15:56Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4046",
+      "number": 4046,
+      "title": "[Feature] BrowserContext.maximizeWindow()",
+      "created_at": "2020-10-02T18:39:13Z",
+      "closed_at": "2024-12-03T22:28:11Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4225",
+      "number": 4225,
+      "title": "[BUG] Cannot override `.npmrc` env var `PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD` from true to false",
+      "created_at": "2020-10-23T17:22:36Z",
+      "closed_at": "2020-10-23T19:54:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4395",
+      "number": 4395,
+      "title": "[Question]Do I have to connect to localhost?",
+      "created_at": "2020-11-10T19:20:12Z",
+      "closed_at": "2020-11-12T20:29:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4485",
+      "number": 4485,
+      "title": "[QUESTION] `failed to launch chromium` error while running `npx jest` within Dockerfile.bionic",
+      "created_at": "2020-11-19T04:17:06Z",
+      "closed_at": "2021-02-12T02:33:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4486",
+      "number": 4486,
+      "title": "[Question] chromium with head",
+      "created_at": "2020-11-19T05:34:21Z",
+      "closed_at": "2020-11-30T20:53:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4498",
+      "number": 4498,
+      "title": "Logging requests to BrowserServer",
+      "created_at": "2020-11-19T20:00:32Z",
+      "closed_at": "2021-07-12T21:19:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4509",
+      "number": 4509,
+      "title": "How to login to Microsoft Azure AD",
+      "created_at": "2020-11-20T20:09:12Z",
+      "closed_at": "2020-11-23T18:25:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4558",
+      "number": 4558,
+      "title": "[Question] Is there any way to instrument webkit/firefox with address asanitizer and launch it by specifying executablePath?",
+      "created_at": "2020-12-01T07:49:56Z",
+      "closed_at": "2020-12-03T02:40:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4559",
+      "number": 4559,
+      "title": "[Question] I can not launch firefox ",
+      "created_at": "2020-12-01T07:56:12Z",
+      "closed_at": "2020-12-02T18:08:37Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4633",
+      "number": 4633,
+      "title": "[Question] Popup window is not opened in Fullscreen mode",
+      "created_at": "2020-12-08T11:58:41Z",
+      "closed_at": "2020-12-11T11:05:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4740",
+      "number": 4740,
+      "title": "[BUG] [Firefox] TypeError: browser.webProgress is undefined / assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed",
+      "created_at": "2020-12-16T18:29:34Z",
+      "closed_at": "2021-04-06T08:34:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4764",
+      "number": 4764,
+      "title": "[BUG] [PW 1.7.0] [WebKit] page.waitForSelector: Protocol error (Runtime.evaluate): The page has been closed.",
+      "created_at": "2020-12-18T15:58:53Z",
+      "closed_at": "2021-01-16T19:25:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4800",
+      "number": 4800,
+      "title": "[BUG] - FileNotFoundError: [Errno 2] No such file or directory:python3.9/site-packages/playwright/driver/playwright-cli'",
+      "created_at": "2020-12-22T17:54:09Z",
+      "closed_at": "2020-12-29T18:18:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4845",
+      "number": 4845,
+      "title": "[Feature] ElementHandle.getTagName()",
+      "created_at": "2020-12-29T16:14:03Z",
+      "closed_at": "2021-01-22T19:41:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4922",
+      "number": 4922,
+      "title": "[BUG] (Browser.newPage): target is undefined ",
+      "created_at": "2021-01-07T00:26:34Z",
+      "closed_at": "2021-02-22T20:52:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4967",
+      "number": 4967,
+      "title": "[Feature] Expose Trace-Viewer as a static web application available in Playwright documentation page.",
+      "created_at": "2021-01-11T14:13:34Z",
+      "closed_at": "2021-11-09T02:18:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4997",
+      "number": 4997,
+      "title": "[BUG] page.type failed in headless chrome in Docker.",
+      "created_at": "2021-01-13T09:06:26Z",
+      "closed_at": "2021-07-12T21:22:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5110",
+      "number": 5110,
+      "title": "[BUG] Lock not released in case of ECONNRESET when installing",
+      "created_at": "2021-01-22T14:07:14Z",
+      "closed_at": "2021-01-28T08:37:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5136",
+      "number": 5136,
+      "title": "[BUG] Yarn install (yarn 2) does not install chromium from time to time.",
+      "created_at": "2021-01-25T08:52:34Z",
+      "closed_at": "2021-05-14T15:01:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5314",
+      "number": 5314,
+      "title": "[Question] How to get websocket url from running server",
+      "created_at": "2021-02-04T17:01:45Z",
+      "closed_at": "2021-02-06T01:10:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5327",
+      "number": 5327,
+      "title": "[BUG] Playwright can not close the browser when running with Chrome (no-headless mode)",
+      "created_at": "2021-02-05T13:40:12Z",
+      "closed_at": "2026-05-12T18:05:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5332",
+      "number": 5332,
+      "title": "[Question] on leftover files tmp",
+      "created_at": "2021-02-05T15:51:51Z",
+      "closed_at": "2021-10-12T12:34:26Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5443",
+      "number": 5443,
+      "title": "[BUG] Playwright does not support chromium on mac11.2",
+      "created_at": "2021-02-12T14:39:00Z",
+      "closed_at": "2021-02-24T18:29:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5463",
+      "number": 5463,
+      "title": "[Feature] Android: Run as root, do not require \"#enable-command-line-on-non-rooted-devices\" chrome flag",
+      "created_at": "2021-02-14T09:42:30Z",
+      "closed_at": "2021-02-18T22:44:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5470",
+      "number": 5470,
+      "title": "doc: Why use Promise.all when await works?",
+      "created_at": "2021-02-16T10:11:11Z",
+      "closed_at": "2021-02-17T12:07:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5633",
+      "number": 5633,
+      "title": "[Question] How to record video / take screenshot with multiple windows",
+      "created_at": "2021-02-26T14:20:49Z",
+      "closed_at": "2021-03-15T12:39:06Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5733",
+      "number": 5733,
+      "title": "Browser Closed : UnhandledPromiseRejectionWarning (node:1744)",
+      "created_at": "2021-03-05T18:15:52Z",
+      "closed_at": "2021-03-10T01:20:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5759",
+      "number": 5759,
+      "title": "[Question] browserType.launch: Host system is missing dependencies!",
+      "created_at": "2021-03-08T23:07:37Z",
+      "closed_at": "2021-03-08T23:28:10Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5767",
+      "number": 5767,
+      "title": "[BUG] Error: browserType.launch: Failed to launch chromium because executable doesn't exist at /home/jenkins/.cache/ms-playwright/chromium-844399/chrome-linux/chrome",
+      "created_at": "2021-03-09T20:46:23Z",
+      "closed_at": "2021-03-18T06:55:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5792",
+      "number": 5792,
+      "title": "Cant trace \"METHOD: OPTIONS\" XHR request",
+      "created_at": "2021-03-11T06:28:20Z",
+      "closed_at": "2021-03-11T08:37:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5796",
+      "number": 5796,
+      "title": "[BUG] The First Script cannot launch browsers",
+      "created_at": "2021-03-11T11:44:58Z",
+      "closed_at": "2021-03-30T00:04:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5801",
+      "number": 5801,
+      "title": "[BUG]browserType.launch: Failed to launch firefox because executable doesn't exist at /root/.cache/ms-playwright/firefox-1234/firefox/firefox",
+      "created_at": "2021-03-11T17:31:07Z",
+      "closed_at": "2021-03-11T20:43:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5901",
+      "number": 5901,
+      "title": "[BUG] browserType.launch: Host system is missing dependencies! Missing libraries are: libenchant.so.1",
+      "created_at": "2021-03-22T15:18:42Z",
+      "closed_at": "2021-03-29T22:52:06Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5977",
+      "number": 5977,
+      "title": "[BUG] Firefox crash with SVG favicon on Win10",
+      "created_at": "2021-03-28T12:45:14Z",
+      "closed_at": "2021-03-31T00:27:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6028",
+      "number": 6028,
+      "title": "[BUG] Dialog flickering",
+      "created_at": "2021-03-31T23:54:09Z",
+      "closed_at": "2021-04-05T20:56:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6140",
+      "number": 6140,
+      "title": "[BUG] Webkit doesn't work on Linux Red Hat 8",
+      "created_at": "2021-04-08T14:39:16Z",
+      "closed_at": "2021-04-08T16:29:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6193",
+      "number": 6193,
+      "title": "[Question] Some pages not fully loading or displaying in Chromium",
+      "created_at": "2021-04-13T13:31:09Z",
+      "closed_at": "2021-04-22T17:05:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6233",
+      "number": 6233,
+      "title": "[BUG] page.evaluate broken on site",
+      "created_at": "2021-04-19T18:35:32Z",
+      "closed_at": "2021-04-23T01:20:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6244",
+      "number": 6244,
+      "title": "[Question] Element is not attached to the DOM",
+      "created_at": "2021-04-20T12:53:15Z",
+      "closed_at": "2021-04-21T22:38:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6319",
+      "number": 6319,
+      "title": "[BUG] Memory increases when same context is used",
+      "created_at": "2021-04-26T11:15:19Z",
+      "closed_at": "2023-09-26T23:29:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6357",
+      "number": 6357,
+      "title": "[Question]  \"should download large binary.zip\"  not passed when use `npm run test` ?",
+      "created_at": "2021-04-29T02:34:11Z",
+      "closed_at": "2021-04-29T03:52:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6382",
+      "number": 6382,
+      "title": "[Question] How to run tests on docker which points to other than localhost url?",
+      "created_at": "2021-05-02T19:08:11Z",
+      "closed_at": "2021-05-05T10:58:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6383",
+      "number": 6383,
+      "title": "[Question] How to use the docker container",
+      "created_at": "2021-05-03T08:52:11Z",
+      "closed_at": "2021-05-03T10:39:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6460",
+      "number": 6460,
+      "title": "getDisplayMedia in headless",
+      "created_at": "2021-05-07T17:55:11Z",
+      "closed_at": "2021-05-19T21:48:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6505",
+      "number": 6505,
+      "title": "[BUG] Playwright hangs or stops running when JS date is mocked eg. with Sinon.useFakeTimers",
+      "created_at": "2021-05-11T16:34:17Z",
+      "closed_at": "2021-05-12T15:13:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6538",
+      "number": 6538,
+      "title": "[Question] Explicitly launching firefox results in this error: Failed to launch chromium because executable doesn't exist",
+      "created_at": "2021-05-12T14:33:19Z",
+      "closed_at": "2021-05-25T10:28:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6615",
+      "number": 6615,
+      "title": "[Question] Way for capturing screenshot with `:visited` style?",
+      "created_at": "2021-05-17T14:58:48Z",
+      "closed_at": "2022-01-01T23:22:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6679",
+      "number": 6679,
+      "title": "[Feature] Up2date device-descriptor user-agents for Firefox and WebKit",
+      "created_at": "2021-05-20T08:31:34Z",
+      "closed_at": "2021-07-15T15:41:24Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6680",
+      "number": 6680,
+      "title": "[BUG] Concurrency issues - Playwright tests time out randomly when running in parallel or all run fine",
+      "created_at": "2021-05-20T11:59:50Z",
+      "closed_at": "2021-05-28T13:15:03Z"
+    }
+  ]
+}

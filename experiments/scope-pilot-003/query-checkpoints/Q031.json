@@ -1,0 +1,233 @@
+{
+  "index": 31,
+  "stratum": "tests",
+  "repository": "cypress-io/cypress",
+  "repository_id": 31629751,
+  "term": "false positive",
+  "query": "repo:cypress-io/cypress is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:39.470412+00:00",
+  "total_count": 31,
+  "incomplete_results": false,
+  "returned": 31,
+  "raw_response_sha256": "3de8d7311b76f9e2af0cc42da859ab9f61ba54a047b9d9ab67be723f666e5740",
+  "items": [
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6422",
+      "number": 6422,
+      "title": "Safari (WebKit) Support",
+      "created_at": "2020-02-12T00:22:49Z",
+      "closed_at": "2022-09-13T16:46:31Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6597",
+      "number": 6597,
+      "title": "Cypress encounters unrelevant timeouts within the pipeline when upgrade to v3.8-v4",
+      "created_at": "2020-02-28T13:41:47Z",
+      "closed_at": "2020-04-10T09:46:17Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6958",
+      "number": 6958,
+      "title": "Using .should('not.be.checked') Cypress doesn't wait for the input element and returns undefined - gives false positive result",
+      "created_at": "2020-04-07T14:54:48Z",
+      "closed_at": "2020-04-08T04:41:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7651",
+      "number": 7651,
+      "title": "Test if element does not exist at first render",
+      "created_at": "2020-06-10T10:23:21Z",
+      "closed_at": "2020-06-11T06:37:44Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7689",
+      "number": 7689,
+      "title": "Exit Cypress when CPU processes are maxed.",
+      "created_at": "2020-06-12T11:42:35Z",
+      "closed_at": "2023-06-02T02:12:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8456",
+      "number": 8456,
+      "title": "Cypress fails in open mode but not in run mode",
+      "created_at": "2020-09-01T02:33:00Z",
+      "closed_at": "2020-09-04T14:14:47Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8707",
+      "number": 8707,
+      "title": "504 should be treated as a Network Error",
+      "created_at": "2020-09-30T20:25:46Z",
+      "closed_at": "2023-06-03T02:03:08Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9233",
+      "number": 9233,
+      "title": "cy.wait('@route') isn't waiting for the route",
+      "created_at": "2020-11-18T00:22:26Z",
+      "closed_at": "2022-12-15T19:34:20Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/14191",
+      "number": 14191,
+      "title": "This element is not visible because it has CSS property :opacity: 0",
+      "created_at": "2020-12-15T19:21:37Z",
+      "closed_at": "2020-12-16T02:57:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/14886",
+      "number": 14886,
+      "title": "Downloads not being cleared in between tests causes false positives when testing downloads",
+      "created_at": "2021-02-03T09:15:43Z",
+      "closed_at": "2023-05-31T20:23:30Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15050",
+      "number": 15050,
+      "title": "Stubbing requests via cy.intercept doesnt work the same way as cy.route",
+      "created_at": "2021-02-11T13:34:07Z",
+      "closed_at": "2021-05-10T13:54:43Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15947",
+      "number": 15947,
+      "title": "cy.contains shouldn't use content from script/style tags in the body",
+      "created_at": "2021-04-12T19:41:47Z",
+      "closed_at": "2021-07-19T00:56:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16548",
+      "number": 16548,
+      "title": "Cypress adds `should` to every object?",
+      "created_at": "2021-05-17T12:28:14Z",
+      "closed_at": "2021-06-02T18:42:24Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17187",
+      "number": 17187,
+      "title": "Mark script as failed when failOnStatusCode flag is set to true and assertion fails ",
+      "created_at": "2021-07-02T14:47:43Z",
+      "closed_at": "2023-06-02T02:06:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17998",
+      "number": 17998,
+      "title": "Since version 8 up the suite of tests gets broken randomly with Error: ERR_TIMED_OUT (-7) loading   ",
+      "created_at": "2021-09-07T08:02:58Z",
+      "closed_at": "2023-06-03T02:01:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/19299",
+      "number": 19299,
+      "title": "\"Failed to connect to the bus: Address does not contain a colon\" throws a SIGSEGV error",
+      "created_at": "2021-12-07T20:36:40Z",
+      "closed_at": "2022-04-07T17:46:23Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/21198",
+      "number": 21198,
+      "title": ".should(callbackFn) is not retried in an after hook if the previous test function failed",
+      "created_at": "2022-04-26T06:45:53Z",
+      "closed_at": "2022-05-24T05:54:35Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/21709",
+      "number": 21709,
+      "title": "Windows: autobarrel/autogenned files are shown as \"Modified\" in Git",
+      "created_at": "2022-05-30T06:02:05Z",
+      "closed_at": "2023-05-31T20:07:36Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/21755",
+      "number": 21755,
+      "title": "Browser icons and longer names in the dropdown menu don't display correctly",
+      "created_at": "2022-05-30T06:07:38Z",
+      "closed_at": "2025-03-11T13:44:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/25084",
+      "number": 25084,
+      "title": "Auto scrolling is not working",
+      "created_at": "2022-12-09T08:51:35Z",
+      "closed_at": "2024-06-11T18:33:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/25295",
+      "number": 25295,
+      "title": "Div translated out of parent with overflow hidden should not be visible but is",
+      "created_at": "2022-12-28T19:35:27Z",
+      "closed_at": "2023-10-26T01:44:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/25654",
+      "number": 25654,
+      "title": "Page constantly refreshes after logging into external application using cy.origin command",
+      "created_at": "2023-01-31T21:42:55Z",
+      "closed_at": "2023-11-29T01:15:06Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/26451",
+      "number": 26451,
+      "title": "should('have.css',... inserts the styles into the dom instead of checking when passed an object",
+      "created_at": "2023-04-06T20:32:32Z",
+      "closed_at": "2026-08-12T19:50:46Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/26766",
+      "number": 26766,
+      "title": "CORS error bypassed in Chrome even if webSecurity is set to true",
+      "created_at": "2023-05-16T08:35:49Z",
+      "closed_at": "2023-06-01T23:18:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/27731",
+      "number": 27731,
+      "title": "Unable to compile TypeScript with \"moduleResolution\": \"bundler\" option in v5",
+      "created_at": "2023-09-01T16:20:00Z",
+      "closed_at": "2024-01-16T17:09:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/28644",
+      "number": 28644,
+      "title": "ChunkLoadError > Loading chunk cypress-support-file failed",
+      "created_at": "2024-01-05T08:09:17Z",
+      "closed_at": "2025-01-09T20:23:20Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/29324",
+      "number": 29324,
+      "title": "cy.intercept logging option marks route as stubbed when it is not",
+      "created_at": "2024-03-18T10:41:48Z",
+      "closed_at": "2024-10-28T02:01:40Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/29233",
+      "number": 29233,
+      "title": "Palo Alto firewall blocking download of Cypress and thus installation",
+      "created_at": "2024-03-29T19:55:05Z",
+      "closed_at": "2024-04-01T15:54:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/29763",
+      "number": 29763,
+      "title": "While npm i - download from cypress.io was detected as threat",
+      "created_at": "2024-06-27T12:11:38Z",
+      "closed_at": "2024-08-26T19:58:43Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/30967",
+      "number": 30967,
+      "title": "Screenshots in Accessibility are taken before page loads",
+      "created_at": "2025-01-28T20:54:17Z",
+      "closed_at": "2025-01-29T14:27:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/32927",
+      "number": 32927,
+      "title": "cy.screenshot helper pixel check uses out-of-bounds coordinates",
+      "created_at": "2025-11-11T00:13:20Z",
+      "closed_at": "2026-06-09T03:15:56Z"
+    }
+  ]
+}

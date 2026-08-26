@@ -1,0 +1,23 @@
+{
+  "index": 42,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "zero issues",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:13.124379+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "0d67d01363aa7de476b368da5a7ed5d26743a82a62d5f2ea27601b9739b6757d",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1202",
+      "number": 1202,
+      "title": "Feature request: Output test maximum memory usage",
+      "created_at": "2024-01-02T10:11:45Z",
+      "closed_at": "2024-10-04T07:04:24Z"
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "index": 29,
+  "stratum": "tests",
+  "repository": "cypress-io/cypress",
+  "repository_id": 31629751,
+  "term": "exit code",
+  "query": "repo:cypress-io/cypress is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:31.504741+00:00",
+  "total_count": 444,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "ee8f32b523d8b78786e55a00ce5fcd453a070fbb17ab1a758042f1c36712d159",
+  "items": [
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6081",
+      "number": 6081,
+      "title": "possible bug in cy.exec() -  command not found: npm",
+      "created_at": "2020-01-02T11:09:00Z",
+      "closed_at": "2021-06-16T10:56:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6106",
+      "number": 6106,
+      "title": "Exit code 3",
+      "created_at": "2020-01-07T13:39:44Z",
+      "closed_at": "2020-01-08T09:55:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6182",
+      "number": 6182,
+      "title": "Cypress verify command failing with no changes to docker image",
+      "created_at": "2020-01-16T21:35:01Z",
+      "closed_at": "2020-01-16T23:18:57Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6205",
+      "number": 6205,
+      "title": "Failed tests are Succesful in Jenkins log",
+      "created_at": "2020-01-21T10:27:12Z",
+      "closed_at": "2020-01-23T09:46:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6219",
+      "number": 6219,
+      "title": "Crash of cypress-io/github-action@v1 after cache restore",
+      "created_at": "2020-01-22T08:56:37Z",
+      "closed_at": "2020-01-22T22:13:10Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6221",
+      "number": 6221,
+      "title": "cypress verify fails on GitHub Actions CI",
+      "created_at": "2020-01-22T14:58:20Z",
+      "closed_at": "2020-01-22T21:19:32Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6225",
+      "number": 6225,
+      "title": "Cypress fails to run Chrome browser headlessly",
+      "created_at": "2020-01-23T07:55:51Z",
+      "closed_at": "2020-01-28T08:52:02Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6240",
+      "number": 6240,
+      "title": "cypress about to exit with code 39",
+      "created_at": "2020-01-24T14:31:41Z",
+      "closed_at": "2020-01-28T09:17:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6264",
+      "number": 6264,
+      "title": "GitHub actions v2 are not supported - Cypress crashes.",
+      "created_at": "2020-01-28T14:28:21Z",
+      "closed_at": "2020-01-28T20:41:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6279",
+      "number": 6279,
+      "title": "Gitlab build fails with docker image cypress/included:3.8.3",
+      "created_at": "2020-01-30T17:09:37Z",
+      "closed_at": "2020-02-01T03:34:48Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6303",
+      "number": 6303,
+      "title": "Handle better cache list if there are no binaries installed",
+      "created_at": "2020-02-03T14:28:57Z",
+      "closed_at": "2020-10-30T05:13:34Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6315",
+      "number": 6315,
+      "title": "The Cypress App could not be downloaded (Can't install via NPM I on WINDOWS 2012)",
+      "created_at": "2020-02-04T14:24:53Z",
+      "closed_at": "2021-01-22T07:14:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6334",
+      "number": 6334,
+      "title": "Cypress cannot find browser with Chrome 80",
+      "created_at": "2020-02-05T19:30:07Z",
+      "closed_at": "2020-02-05T20:29:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6356",
+      "number": 6356,
+      "title": "Opening Firefox on MacOS results in `Cannot read property 'on' of undefined` error",
+      "created_at": "2020-02-06T22:56:50Z",
+      "closed_at": "2020-02-07T22:27:46Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6377",
+      "number": 6377,
+      "title": "`yarn cypress open` does not open Cypress with yarn v2",
+      "created_at": "2020-02-07T22:34:22Z",
+      "closed_at": "2025-04-18T18:10:56Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6392",
+      "number": 6392,
+      "title": "Cypress could not connect to Firefox. `Error: cannot open socket` displayed at beginning of running spec",
+      "created_at": "2020-02-10T12:13:16Z",
+      "closed_at": "2020-07-15T18:42:26Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6395",
+      "number": 6395,
+      "title": "Cypress on Azure CI for a CRA app",
+      "created_at": "2020-02-10T15:43:53Z",
+      "closed_at": "2020-02-11T08:35:51Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6408",
+      "number": 6408,
+      "title": "'We failed to record the video' error in Firefox when running 2 spec files",
+      "created_at": "2020-02-11T06:01:05Z",
+      "closed_at": "2020-05-06T16:14:25Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6458",
+      "number": 6458,
+      "title": "Error: This socket has been ended by the other party",
+      "created_at": "2020-02-14T09:00:38Z",
+      "closed_at": "2020-04-06T16:37:19Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6478",
+      "number": 6478,
+      "title": "The Test Runner unexpectedly exited via a exit event with signal SIGSEGV (Error: This socket has been ended by the other party)",
+      "created_at": "2020-02-17T05:19:30Z",
+      "closed_at": "2020-02-18T06:18:19Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6504",
+      "number": 6504,
+      "title": "firefox does not open on iMac with cypress 4.0.2",
+      "created_at": "2020-02-19T10:28:29Z",
+      "closed_at": "2020-04-29T06:41:40Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6512",
+      "number": 6512,
+      "title": "Error when installing cypress using Node.js version < 8.12.0",
+      "created_at": "2020-02-20T08:09:06Z",
+      "closed_at": "2020-02-26T15:52:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6527",
+      "number": 6527,
+      "title": "Re-running a build in Codeship does not generate new Dashboard run",
+      "created_at": "2020-02-21T00:35:56Z",
+      "closed_at": "2023-06-02T02:13:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6540",
+      "number": 6540,
+      "title": "Cypress run won’t finish, stuck while making connection to Chrome",
+      "created_at": "2020-02-24T08:26:25Z",
+      "closed_at": "2021-01-19T19:34:14Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6542",
+      "number": 6542,
+      "title": "Cannot yarn install Cypress deps locally",
+      "created_at": "2020-02-24T09:21:40Z",
+      "closed_at": "2020-07-14T07:49:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6600",
+      "number": 6600,
+      "title": "\"Cannot find any observable\" error when upgrading from 3.x to 4.x",
+      "created_at": "2020-02-28T15:46:21Z",
+      "closed_at": "2020-03-02T12:54:12Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6603",
+      "number": 6603,
+      "title": "Unable to run default \"examples\" in Chrome 80 when proxy info is managed by org within Chrome",
+      "created_at": "2020-02-28T23:25:22Z",
+      "closed_at": "2020-03-04T20:24:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6709",
+      "number": 6709,
+      "title": "Travis CI -Download failing - corrupted package - downlaod.cypress.io",
+      "created_at": "2020-03-12T11:33:00Z",
+      "closed_at": "2020-03-12T11:34:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6751",
+      "number": 6751,
+      "title": "npm install -g cypress throw error",
+      "created_at": "2020-03-17T09:50:50Z",
+      "closed_at": "2020-03-17T10:28:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6752",
+      "number": 6752,
+      "title": "Could not install cypress behind firewall - cannot read repository cypress-io/request.git",
+      "created_at": "2020-03-17T11:42:05Z",
+      "closed_at": "2020-03-19T05:18:25Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6766",
+      "number": 6766,
+      "title": "After failed tests new commands are not executing ",
+      "created_at": "2020-03-18T08:16:48Z",
+      "closed_at": "2020-03-19T10:00:25Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6782",
+      "number": 6782,
+      "title": "The Test Runner unexpectedly exited via a exit event with signal SIGABRT (After 4.2.0 update.)",
+      "created_at": "2020-03-19T05:51:33Z",
+      "closed_at": "2020-03-26T10:49:14Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6785",
+      "number": 6785,
+      "title": "[Security] issues with linting yarn-lock after updating cypress to 4.2.0 with lockfile-lint",
+      "created_at": "2020-03-19T08:27:19Z",
+      "closed_at": "2020-03-24T09:49:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6789",
+      "number": 6789,
+      "title": "The Cypress App could not be downloaded. `Error: Corrupted download`",
+      "created_at": "2020-03-19T14:38:32Z",
+      "closed_at": "2020-06-02T08:15:24Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6807",
+      "number": 6807,
+      "title": "Unable to install cypress - error ENOENT during postinstall",
+      "created_at": "2020-03-23T07:06:01Z",
+      "closed_at": "2020-09-25T15:10:01Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6853",
+      "number": 6853,
+      "title": "`Error: The handler for the event `task` must be an object` after upgrade to 4.2.0",
+      "created_at": "2020-03-26T10:48:57Z",
+      "closed_at": "2020-03-26T11:38:35Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6863",
+      "number": 6863,
+      "title": "Cypress stuck when run by Module API `cypress.run()` on Windows.",
+      "created_at": "2020-03-27T07:17:57Z",
+      "closed_at": "2023-06-02T02:12:52Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6877",
+      "number": 6877,
+      "title": "Installing Cypress using a private registry (Artifactory)",
+      "created_at": "2020-03-29T11:31:51Z",
+      "closed_at": "2020-03-30T09:03:00Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6885",
+      "number": 6885,
+      "title": "SyntaxError: Unexpected token * in `var NODE_OPTIONS = '--max-http-header-size=' + 1024 ** 2`",
+      "created_at": "2020-03-31T00:10:13Z",
+      "closed_at": "2020-03-31T00:51:52Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6887",
+      "number": 6887,
+      "title": "The Test Runner unexpectedly exited via a exit event with signal SIGSEGV",
+      "created_at": "2020-03-31T06:15:48Z",
+      "closed_at": "2020-04-01T10:14:36Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6908",
+      "number": 6908,
+      "title": "Could not install cypress behind firewall ",
+      "created_at": "2020-04-01T15:20:36Z",
+      "closed_at": "2020-04-10T09:12:19Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6946",
+      "number": 6946,
+      "title": "Expose event for when Cypress is about to exit",
+      "created_at": "2020-04-06T15:16:38Z",
+      "closed_at": "2021-03-10T14:57:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6953",
+      "number": 6953,
+      "title": "Cypress 4.3.0 \"Error: Corrupted download\" during install on Circle CI",
+      "created_at": "2020-04-07T03:39:50Z",
+      "closed_at": "2020-04-07T06:13:50Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6974",
+      "number": 6974,
+      "title": "Cypress Headless mode does not exit after crashed browser",
+      "created_at": "2020-04-09T09:38:46Z",
+      "closed_at": "2020-04-10T08:08:25Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6996",
+      "number": 6996,
+      "title": "Can't run tests without sudo permissons",
+      "created_at": "2020-04-13T08:27:09Z",
+      "closed_at": "2020-04-14T13:24:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7011",
+      "number": 7011,
+      "title": "plugins.js - async/await causes invalid import errors",
+      "created_at": "2020-04-14T15:09:25Z",
+      "closed_at": "2020-05-04T12:57:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7022",
+      "number": 7022,
+      "title": "Running Cypress is flaky in CI",
+      "created_at": "2020-04-16T04:47:49Z",
+      "closed_at": "2020-04-16T10:23:30Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7048",
+      "number": 7048,
+      "title": "SIGSEGV after passing all tests",
+      "created_at": "2020-04-17T02:12:04Z",
+      "closed_at": "2023-06-23T14:32:54Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7052",
+      "number": 7052,
+      "title": "CircleCI exits as passing when Cypress tests have failed in our development",
+      "created_at": "2020-04-17T08:46:27Z",
+      "closed_at": "2020-04-23T17:00:46Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7069",
+      "number": 7069,
+      "title": "Cypress 4.4.0 does not want to work",
+      "created_at": "2020-04-20T06:38:47Z",
+      "closed_at": "2020-08-28T09:00:02Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7077",
+      "number": 7077,
+      "title": "Cypress performance degradation after several failed tests (one by one). ",
+      "created_at": "2020-04-20T17:41:56Z",
+      "closed_at": "2020-04-21T09:08:50Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7123",
+      "number": 7123,
+      "title": "Error spawn UNKNOWN during `cypress run`",
+      "created_at": "2020-04-23T15:52:50Z",
+      "closed_at": "2020-10-20T10:57:32Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7145",
+      "number": 7145,
+      "title": "Cypress not opening both in browser mode & headless-browser mode in windows system",
+      "created_at": "2020-04-27T05:43:22Z",
+      "closed_at": "2020-05-04T05:19:26Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7177",
+      "number": 7177,
+      "title": "Build failing on Netlify due to Cypress.",
+      "created_at": "2020-04-29T15:44:20Z",
+      "closed_at": "2020-04-29T16:09:08Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7185",
+      "number": 7185,
+      "title": "Libxcomposite error on Ubuntu",
+      "created_at": "2020-04-30T03:30:06Z",
+      "closed_at": "2020-05-02T04:36:55Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7201",
+      "number": 7201,
+      "title": "npm install --only=development crashes due to is-promise in dependency listr",
+      "created_at": "2020-05-01T19:29:09Z",
+      "closed_at": "2024-04-24T21:21:16Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7248",
+      "number": 7248,
+      "title": "Bad Output in AWS CodeBuild running Cypress with docker-compose",
+      "created_at": "2020-05-06T20:19:42Z",
+      "closed_at": "2020-05-21T13:38:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7261",
+      "number": 7261,
+      "title": "Cypress stdout undefined in upzip.js in unziptool during installation",
+      "created_at": "2020-05-07T15:29:24Z",
+      "closed_at": "2023-06-03T02:03:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7308",
+      "number": 7308,
+      "title": "TypeError: Cannot read property 'meta' of undefined",
+      "created_at": "2020-05-12T12:37:48Z",
+      "closed_at": "2020-07-14T10:29:48Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7322",
+      "number": 7322,
+      "title": "Flaky internal test: e2e iframes passes [firefox]",
+      "created_at": "2020-05-13T08:19:43Z",
+      "closed_at": "2020-10-26T11:44:54Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7367",
+      "number": 7367,
+      "title": "Using cypress' module api prevents script from exiting",
+      "created_at": "2020-05-15T14:44:08Z",
+      "closed_at": "2021-02-22T14:35:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7409",
+      "number": 7409,
+      "title": "Flaky internal test: e2e domain passes [firefox]",
+      "created_at": "2020-05-19T07:55:57Z",
+      "closed_at": "2020-05-19T14:35:57Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7450",
+      "number": 7450,
+      "title": "Error: could not find CRI target (Cypress 4.6.0)",
+      "created_at": "2020-05-22T06:57:12Z",
+      "closed_at": "2021-01-19T19:34:14Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7454",
+      "number": 7454,
+      "title": "cypress.run() does not release activeHandles since 3.5.0, wrapping script doesn't exit.",
+      "created_at": "2020-05-22T12:02:08Z",
+      "closed_at": "2020-10-20T11:13:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7536",
+      "number": 7536,
+      "title": "\"Error: Missing JS for source map rewrite\" with experimentalSourceRewriting",
+      "created_at": "2020-05-29T14:54:56Z",
+      "closed_at": "2025-10-24T01:23:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7648",
+      "number": 7648,
+      "title": "Using Bamboo and create a Build",
+      "created_at": "2020-06-10T07:07:27Z",
+      "closed_at": "2020-06-10T08:15:43Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7678",
+      "number": 7678,
+      "title": "VSCode git pre-push hook triggers: bad option: --no-sandbox",
+      "created_at": "2020-06-11T14:41:25Z",
+      "closed_at": "2023-06-02T02:12:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7722",
+      "number": 7722,
+      "title": "Audit usage of `on('exit')` to propagate exits + fix buggy usages",
+      "created_at": "2020-06-16T15:05:30Z",
+      "closed_at": "2020-06-22T18:05:05Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7743",
+      "number": 7743,
+      "title": "empty --project \"\" string crashes Cypress NPM CLI",
+      "created_at": "2020-06-17T16:06:38Z",
+      "closed_at": "2020-06-22T18:34:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7865",
+      "number": 7865,
+      "title": "Cypress on Azure Devops does not work",
+      "created_at": "2020-07-01T13:53:08Z",
+      "closed_at": "2023-06-02T02:12:00Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7937",
+      "number": 7937,
+      "title": "ENAMETOOLONG crash due to infinite nested folders Cypress spec folders",
+      "created_at": "2020-07-09T21:14:40Z",
+      "closed_at": "2020-09-24T08:28:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7951",
+      "number": 7951,
+      "title": "Installation fails when installing two different versions of Cypress during the same yarn install step. ",
+      "created_at": "2020-07-10T18:19:57Z",
+      "closed_at": "2020-07-13T06:14:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8067",
+      "number": 8067,
+      "title": "Cypress failed to make a connection to Firefox: Running Firefox as root in a regular user's session is not supported",
+      "created_at": "2020-07-23T04:48:48Z",
+      "closed_at": "2020-07-27T09:00:00Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8225",
+      "number": 8225,
+      "title": "Error: Failed downloading the Cypress binary. 503, Service unavailable - should be reflected in Cypress status page.",
+      "created_at": "2020-08-07T22:27:27Z",
+      "closed_at": "2021-11-19T21:52:02Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8249",
+      "number": 8249,
+      "title": "Test report in Cypress dashboard does not work (Azure DevOps)",
+      "created_at": "2020-08-11T10:56:16Z",
+      "closed_at": "2020-08-12T08:03:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8251",
+      "number": 8251,
+      "title": "Cannot find unclaimed instance for spec",
+      "created_at": "2020-08-11T13:41:32Z",
+      "closed_at": "2020-08-21T14:38:57Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8278",
+      "number": 8278,
+      "title": "Uploading results on Dashboard: The run started, but never completed.",
+      "created_at": "2020-08-14T09:08:21Z",
+      "closed_at": "2020-08-17T14:24:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8288",
+      "number": 8288,
+      "title": "Cypress server StatusCodeError: 412 on hookId and hookName is required",
+      "created_at": "2020-08-14T20:51:01Z",
+      "closed_at": "2020-09-01T13:32:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8299",
+      "number": 8299,
+      "title": "Mac binary signing is broken again",
+      "created_at": "2020-08-17T13:40:38Z",
+      "closed_at": "2020-08-21T17:42:17Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8391",
+      "number": 8391,
+      "title": "CI: Can't run because no spec files were found.",
+      "created_at": "2020-08-24T10:22:53Z",
+      "closed_at": "2020-08-31T15:26:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8497",
+      "number": 8497,
+      "title": "Some Calls to cy.visit() Fail with a Parse Error when experimentalNetworkStubbing is Turned On",
+      "created_at": "2020-09-03T20:50:43Z",
+      "closed_at": "2020-10-22T17:17:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8510",
+      "number": 8510,
+      "title": "Test performances issues when trying to verify app navigation workflow (testing urls)",
+      "created_at": "2020-09-06T09:04:47Z",
+      "closed_at": "2023-06-02T02:10:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8674",
+      "number": 8674,
+      "title": "Cypress 5.2.0 : Unable to make a connection to chrome browser",
+      "created_at": "2020-09-25T15:28:22Z",
+      "closed_at": "2021-01-19T19:34:14Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8783",
+      "number": 8783,
+      "title": "Developing on windows has a broken workflow (or contributing instructions incorrect)",
+      "created_at": "2020-10-08T06:16:44Z",
+      "closed_at": "2021-03-16T15:25:03Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8865",
+      "number": 8865,
+      "title": "The Test Runner unexpectedly exited via a exit event with signal SIGABRT - Assertion `(env) != nullptr' failed",
+      "created_at": "2020-10-16T13:24:54Z",
+      "closed_at": "2026-06-02T01:05:17Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8879",
+      "number": 8879,
+      "title": "\"Out of memory. size=47701480 - We detected that the Chromium Renderer process just crashed.\" when running through Github Action, but works fine when running the process locally.",
+      "created_at": "2020-10-17T18:13:39Z",
+      "closed_at": "2023-12-16T15:01:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8893",
+      "number": 8893,
+      "title": "Cypress failing on Ubuntu with error \"Syntax error: Unterminated quoted string\"",
+      "created_at": "2020-10-20T11:12:38Z",
+      "closed_at": "2023-06-04T02:12:46Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8912",
+      "number": 8912,
+      "title": "Parallel tests all running on all Docker containers",
+      "created_at": "2020-10-21T16:42:42Z",
+      "closed_at": "2023-06-04T02:12:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9128",
+      "number": 9128,
+      "title": "5.5.0 regression of 'We failed to record the video' error in Firefox when running 2 spec files",
+      "created_at": "2020-11-09T11:44:31Z",
+      "closed_at": "2022-02-15T19:49:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9135",
+      "number": 9135,
+      "title": "Race condition when running multiple Cypress instances in CI",
+      "created_at": "2020-11-09T15:44:35Z",
+      "closed_at": "2020-11-16T07:05:07Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9162",
+      "number": 9162,
+      "title": "4.12.1 Regression: after() block causes errors in before() to be hidden",
+      "created_at": "2020-11-10T19:24:04Z",
+      "closed_at": "2020-12-07T06:10:20Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9164",
+      "number": 9164,
+      "title": "SIGSEGV error when quitting Cypress when Electron browser is open",
+      "created_at": "2020-11-10T20:35:58Z",
+      "closed_at": "2021-04-01T22:57:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9192",
+      "number": 9192,
+      "title": "Can't open cypress",
+      "created_at": "2020-11-13T11:05:06Z",
+      "closed_at": "2020-11-13T11:31:03Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9208",
+      "number": 9208,
+      "title": "Cypress exits with `SIGABRT`/`SIGTERM`/`SIGSEGV` when `experimentalSourceRewriting` is active.",
+      "created_at": "2020-11-16T15:45:31Z",
+      "closed_at": "2021-03-31T18:09:58Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9350",
+      "number": 9350,
+      "title": "Cypress takes forever to complete / hangs during tests",
+      "created_at": "2020-11-26T14:06:39Z",
+      "closed_at": "2023-08-16T12:28:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9388",
+      "number": 9388,
+      "title": "Cypress tests are hanging on CI",
+      "created_at": "2020-12-01T08:08:56Z",
+      "closed_at": "2021-02-27T00:12:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9390",
+      "number": 9390,
+      "title": "Cypress-5.1.0 : Failed to generate the video",
+      "created_at": "2020-12-01T09:23:01Z",
+      "closed_at": "2021-02-27T00:11:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9391",
+      "number": 9391,
+      "title": "Test case fails in open mode but passes in run mode !",
+      "created_at": "2020-12-01T10:48:16Z",
+      "closed_at": "2020-12-02T11:00:16Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9431",
+      "number": 9431,
+      "title": "Cypress fails to open in Ubuntu (Smoke test failed)",
+      "created_at": "2020-12-02T23:42:25Z",
+      "closed_at": "2023-06-02T02:09:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9559",
+      "number": 9559,
+      "title": "Cypress crash with no clear solution",
+      "created_at": "2020-12-08T09:16:36Z",
+      "closed_at": "2021-04-06T19:13:29Z"
+    }
+  ]
+}

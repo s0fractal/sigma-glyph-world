@@ -1,0 +1,23 @@
+{
+  "index": 105,
+  "stratum": "artifact_conformance",
+  "repository": "docker/build-push-action",
+  "repository_id": 241092383,
+  "term": "zero issues",
+  "query": "repo:docker/build-push-action is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:35.123949+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "a3b8d87b46db02b57e206cbc64e837edbd28f38e47c1d5a27a7b8f8e3a765beb",
+  "items": [
+    {
+      "url": "https://github.com/docker/build-push-action/issues/294",
+      "number": 294,
+      "title": "multistage dockerfile fails to load from one stage to another",
+      "created_at": "2021-02-12T10:42:29Z",
+      "closed_at": "2024-03-08T14:03:08Z"
+    }
+  ]
+}

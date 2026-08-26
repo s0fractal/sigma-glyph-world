@@ -1,0 +1,646 @@
+{
+  "index": 85,
+  "stratum": "artifact_conformance",
+  "repository": "codecov/codecov-action",
+  "repository_id": 200299178,
+  "term": "exit code",
+  "query": "repo:codecov/codecov-action is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:34.505772+00:00",
+  "total_count": 90,
+  "incomplete_results": false,
+  "returned": 90,
+  "raw_response_sha256": "470cd4efc07dc01bb9a9a10a7b3f32336040ce05b1f89714f165f5a578cd2d62",
+  "items": [
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/48",
+      "number": 48,
+      "title": "Bash script unable to find the codecov.sh file ",
+      "created_at": "2020-01-21T04:00:30Z",
+      "closed_at": "2020-10-16T17:45:07Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/56",
+      "number": 56,
+      "title": "\"codecov.sh: line 1: undefined: command not found\" on windows-latest",
+      "created_at": "2020-02-21T02:27:36Z",
+      "closed_at": "2020-11-29T19:15:05Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/98",
+      "number": 98,
+      "title": "Failing action and stuck on depending checks",
+      "created_at": "2020-07-19T18:20:57Z",
+      "closed_at": "2020-07-24T16:33:05Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/102",
+      "number": 102,
+      "title": "No CI provider detected. Github actions env var issue.",
+      "created_at": "2020-08-03T21:04:19Z",
+      "closed_at": "2020-08-04T15:08:44Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/103",
+      "number": 103,
+      "title": "Tokenless upload broken",
+      "created_at": "2020-08-04T13:35:07Z",
+      "closed_at": "2020-08-04T13:43:41Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/152",
+      "number": 152,
+      "title": "curl not found ",
+      "created_at": "2020-10-18T16:26:13Z",
+      "closed_at": "2020-11-05T15:45:24Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/198",
+      "number": 198,
+      "title": "Getting error in codecov work",
+      "created_at": "2021-01-08T12:28:29Z",
+      "closed_at": "2021-01-22T20:27:53Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/234",
+      "number": 234,
+      "title": "Inscrutable \"Actions workflow run is stale\" error",
+      "created_at": "2021-02-25T05:10:57Z",
+      "closed_at": "2023-02-28T15:11:15Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/258",
+      "number": 258,
+      "title": "Reporting coverage broke for dependabot",
+      "created_at": "2021-03-24T11:42:12Z",
+      "closed_at": "2021-03-24T14:30:34Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/288",
+      "number": 288,
+      "title": "Failed on windows-latest",
+      "created_at": "2021-04-20T06:10:16Z",
+      "closed_at": "2021-05-06T12:04:42Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/341",
+      "number": 341,
+      "title": "Strange package name in curl uploading url",
+      "created_at": "2021-06-08T22:49:43Z",
+      "closed_at": "2021-06-09T02:05:31Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/352",
+      "number": 352,
+      "title": "index.ts will not exit with an failure status code even if Bash does",
+      "created_at": "2021-06-10T15:38:56Z",
+      "closed_at": "2021-06-11T18:06:54Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/390",
+      "number": 390,
+      "title": "Unable to locate build via Github Actions API",
+      "created_at": "2021-06-23T09:49:50Z",
+      "closed_at": "2021-07-07T07:15:43Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/436",
+      "number": 436,
+      "title": "Failed to properly upload, codecov failed with exit code 255",
+      "created_at": "2021-07-21T13:37:27Z",
+      "closed_at": "2021-07-22T17:43:59Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/439",
+      "number": 439,
+      "title": "codecov-action@v2 fails when encounters an existing file with an unprintable name",
+      "created_at": "2021-07-22T11:17:10Z",
+      "closed_at": "2021-08-12T19:56:10Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/445",
+      "number": 445,
+      "title": "Fails to respect `files`?",
+      "created_at": "2021-07-24T11:10:43Z",
+      "closed_at": "2021-07-27T17:48:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/446",
+      "number": 446,
+      "title": "v2: too many symbolic links encountered",
+      "created_at": "2021-07-25T14:33:18Z",
+      "closed_at": "2021-07-31T18:15:16Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/451",
+      "number": 451,
+      "title": "V2 fails to upload files",
+      "created_at": "2021-07-27T10:29:56Z",
+      "closed_at": "2021-08-13T23:26:52Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/469",
+      "number": 469,
+      "title": "Is it supported to upload coverage from forked repo to pullrequest of upstream repo ",
+      "created_at": "2021-08-11T19:58:20Z",
+      "closed_at": "2023-03-23T02:25:21Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/525",
+      "number": 525,
+      "title": "Action broken",
+      "created_at": "2021-09-16T13:55:44Z",
+      "closed_at": "2021-10-23T13:14:07Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/537",
+      "number": 537,
+      "title": "No coverage files found",
+      "created_at": "2021-09-22T08:28:17Z",
+      "closed_at": "2023-03-01T19:19:12Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/552",
+      "number": 552,
+      "title": "v2 error on Alpine - gnu_get_libc_version: symbol not found",
+      "created_at": "2021-10-07T12:04:32Z",
+      "closed_at": "2023-10-23T16:27:25Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/561",
+      "number": 561,
+      "title": "Error: Upload coverage to Codecov",
+      "created_at": "2021-10-15T07:29:13Z",
+      "closed_at": "2023-03-01T19:22:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/571",
+      "number": 571,
+      "title": "v2 Error: Expected a string but received a Array",
+      "created_at": "2021-10-25T18:02:24Z",
+      "closed_at": "2023-03-10T00:20:05Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/595",
+      "number": 595,
+      "title": "Error: Codecov: Failed to properly upload...",
+      "created_at": "2021-12-06T20:29:38Z",
+      "closed_at": "2021-12-08T16:02:11Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/598",
+      "number": 598,
+      "title": "Error: failed to properly upload",
+      "created_at": "2021-12-09T23:30:38Z",
+      "closed_at": "2023-02-28T15:41:49Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/600",
+      "number": 600,
+      "title": "JavaScript heap out of memory",
+      "created_at": "2021-12-10T05:13:21Z",
+      "closed_at": "2023-03-23T02:27:44Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/627",
+      "number": 627,
+      "title": "Action fails on upload coverage report",
+      "created_at": "2022-01-14T12:59:04Z",
+      "closed_at": "2022-01-15T10:14:14Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/666",
+      "number": 666,
+      "title": "V2 not picking up C++/catch2 outputs",
+      "created_at": "2022-03-05T08:57:01Z",
+      "closed_at": "2023-03-23T02:32:31Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/739",
+      "number": 739,
+      "title": "Github Workflow Permissions",
+      "created_at": "2022-05-19T14:51:41Z",
+      "closed_at": "2023-03-23T02:34:58Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/803",
+      "number": 803,
+      "title": "Failed to upload, got `TypeError: undefined is not a function`",
+      "created_at": "2022-08-11T13:59:57Z",
+      "closed_at": "2023-03-11T03:53:49Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/831",
+      "number": 831,
+      "title": "Error: \"Repository slug or commit sha do not match Github actions build\"",
+      "created_at": "2022-09-23T06:01:56Z",
+      "closed_at": "2023-03-11T03:56:06Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/862",
+      "number": 862,
+      "title": "Coverage file only picked up in repo root",
+      "created_at": "2022-10-27T05:43:31Z",
+      "closed_at": "2023-03-23T02:38:05Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/932",
+      "number": 932,
+      "title": "Error fetching the storage URL",
+      "created_at": "2023-03-03T05:48:06Z",
+      "closed_at": "2023-03-06T14:09:58Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/944",
+      "number": 944,
+      "title": "Why It's not generating the Coverage File!",
+      "created_at": "2023-03-20T13:39:50Z",
+      "closed_at": "2023-03-22T04:13:33Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1035",
+      "number": 1035,
+      "title": "public repo: token needed or not?",
+      "created_at": "2023-07-31T15:47:26Z",
+      "closed_at": "2023-10-20T02:07:25Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1088",
+      "number": 1088,
+      "title": "v4: Action warns on CLI exit code 1 instead of failing ",
+      "created_at": "2023-09-15T00:09:11Z",
+      "closed_at": "2023-09-15T07:01:23Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1089",
+      "number": 1089,
+      "title": "v4: New major version tagged prematurely",
+      "created_at": "2023-09-15T00:21:16Z",
+      "closed_at": "2023-09-15T05:44:58Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1246",
+      "number": 1246,
+      "title": "[v4] Failing upload due to internal CLI error",
+      "created_at": "2024-02-01T09:30:13Z",
+      "closed_at": "2024-02-01T12:33:50Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1248",
+      "number": 1248,
+      "title": "v4 Migration Guide",
+      "created_at": "2024-02-01T11:39:12Z",
+      "closed_at": "2024-05-14T16:57:59Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1255",
+      "number": 1255,
+      "title": "PRs on the main repo require token",
+      "created_at": "2024-02-02T03:28:37Z",
+      "closed_at": "2024-02-02T17:35:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1263",
+      "number": 1263,
+      "title": "Does v4 require token to be set?",
+      "created_at": "2024-02-04T12:48:14Z",
+      "closed_at": "2024-02-05T17:33:28Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1274",
+      "number": 1274,
+      "title": "v4 fails to upload: \"Failed to properly create commit\"",
+      "created_at": "2024-02-06T19:36:12Z",
+      "closed_at": "2024-03-11T22:41:07Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1275",
+      "number": 1275,
+      "title": "After update to v4, forks cannot upload anymore",
+      "created_at": "2024-02-06T23:39:23Z",
+      "closed_at": "2024-02-07T16:10:52Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1292",
+      "number": 1292,
+      "title": "[v4] `Error: Codecov token not found` in a PR from a fork to a pubilc repo",
+      "created_at": "2024-02-13T07:43:40Z",
+      "closed_at": "2024-05-07T17:07:36Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1294",
+      "number": 1294,
+      "title": "Failed to execute script 'main' due to unhandled exception",
+      "created_at": "2024-02-15T10:49:22Z",
+      "closed_at": "2024-02-26T21:49:12Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1335",
+      "number": 1335,
+      "title": "ARM github runner is not working for codecov@v4.1.0",
+      "created_at": "2024-03-21T10:43:21Z",
+      "closed_at": "2024-08-23T19:37:53Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1336",
+      "number": 1336,
+      "title": "[v4] Commit creating failed: {\"error\": \"Server Error (500)\"}",
+      "created_at": "2024-03-21T14:31:43Z",
+      "closed_at": "2024-06-05T16:26:34Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1337",
+      "number": 1337,
+      "title": "Error during upload doesn't fail action",
+      "created_at": "2024-03-21T14:40:12Z",
+      "closed_at": "2025-01-25T01:33:16Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1340",
+      "number": 1340,
+      "title": "Codecov token provided but not found",
+      "created_at": "2024-03-22T05:19:45Z",
+      "closed_at": "2024-03-22T05:53:05Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1358",
+      "number": 1358,
+      "title": "Failed to properly upload report: The process  failed with exit code 1",
+      "created_at": "2024-04-07T13:26:41Z",
+      "closed_at": "2024-04-07T13:31:27Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1359",
+      "number": 1359,
+      "title": "Upload with `v3` action fails because of missing token ",
+      "created_at": "2024-04-07T18:03:53Z",
+      "closed_at": "2024-04-16T18:55:11Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1368",
+      "number": 1368,
+      "title": "Upgrade from 4.2.0 to 4.3.0 breaks CODECOV_TOKEN uploading",
+      "created_at": "2024-04-10T09:52:26Z",
+      "closed_at": "2024-04-22T18:24:58Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1373",
+      "number": 1373,
+      "title": "Issues uploading Codecov reports",
+      "created_at": "2024-04-15T17:15:26Z",
+      "closed_at": "2024-05-15T14:26:08Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1378",
+      "number": 1378,
+      "title": "OIDC doesn't work",
+      "created_at": "2024-04-19T16:02:40Z",
+      "closed_at": "2024-05-15T14:27:47Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1379",
+      "number": 1379,
+      "title": "CLI not respecting .. in coverage file search",
+      "created_at": "2024-04-20T00:09:41Z",
+      "closed_at": "2024-05-07T14:52:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1416",
+      "number": 1416,
+      "title": "osv-scanner: general issues",
+      "created_at": "2024-05-08T04:19:11Z",
+      "closed_at": "2024-08-13T16:00:48Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1461",
+      "number": 1461,
+      "title": "Question: OIDC auth and tokenless",
+      "created_at": "2024-05-29T17:14:51Z",
+      "closed_at": "2024-09-27T17:16:47Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1463",
+      "number": 1463,
+      "title": "Codecov token not found multiple tries",
+      "created_at": "2024-05-30T14:38:35Z",
+      "closed_at": "2024-11-07T20:50:18Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1464",
+      "number": 1464,
+      "title": "Uploads failing with Server Error (500)",
+      "created_at": "2024-05-31T18:18:03Z",
+      "closed_at": "2024-06-11T17:20:15Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1494",
+      "number": 1494,
+      "title": "Upload failing despite same/correct secret",
+      "created_at": "2024-06-25T18:24:50Z",
+      "closed_at": "2024-06-28T15:58:37Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1510",
+      "number": 1510,
+      "title": "Request failed after too many retries",
+      "created_at": "2024-07-15T13:47:17Z",
+      "closed_at": "2024-07-15T16:52:33Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1538",
+      "number": 1538,
+      "title": "Intermittent GHA Failure",
+      "created_at": "2024-08-09T13:27:03Z",
+      "closed_at": "2024-08-24T08:33:15Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1547",
+      "number": 1547,
+      "title": "Exception: Request failed after too many retries",
+      "created_at": "2024-08-16T22:53:24Z",
+      "closed_at": "2025-02-05T14:11:33Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1548",
+      "number": 1548,
+      "title": "Not valid tokenless upload",
+      "created_at": "2024-08-17T10:07:39Z",
+      "closed_at": "2024-12-03T17:28:37Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1550",
+      "number": 1550,
+      "title": "FileNotFoundError for non-ASCII file names",
+      "created_at": "2024-08-18T20:47:33Z",
+      "closed_at": "2025-03-28T08:34:23Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1554",
+      "number": 1554,
+      "title": "Coverage upload failure \"Failed to properly create commit\" on amd64 GHA runners",
+      "created_at": "2024-08-22T14:18:44Z",
+      "closed_at": "2024-12-11T20:17:46Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1561",
+      "number": 1561,
+      "title": "gitlab + monorepo + cli gives commit creating failed",
+      "created_at": "2024-08-31T01:04:48Z",
+      "closed_at": "2025-01-25T20:24:59Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1568",
+      "number": 1568,
+      "title": "Uploads throttled while using token-based upload from public repo",
+      "created_at": "2024-09-13T15:56:16Z",
+      "closed_at": "2024-12-16T15:28:49Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1580",
+      "number": 1580,
+      "title": "Inconsistent - Token required because branch is protected",
+      "created_at": "2024-09-26T18:50:08Z",
+      "closed_at": "2024-11-22T02:52:00Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1592",
+      "number": 1592,
+      "title": "Token ignored on forked repo leading to failed coverage upload",
+      "created_at": "2024-10-02T21:40:03Z",
+      "closed_at": "2024-10-17T16:32:15Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1610",
+      "number": 1610,
+      "title": "Codecov action v4 \"Codecov token not found\" (but it's present)",
+      "created_at": "2024-10-14T11:39:03Z",
+      "closed_at": "2024-10-14T13:37:44Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1616",
+      "number": 1616,
+      "title": "Codecov: Failed to properly create commit",
+      "created_at": "2024-10-18T23:57:09Z",
+      "closed_at": "2024-11-12T07:04:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1623",
+      "number": 1623,
+      "title": "Codecov responds with \"Repository not found\"",
+      "created_at": "2024-10-24T02:38:26Z",
+      "closed_at": "2024-12-16T15:45:25Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1645",
+      "number": 1645,
+      "title": "Migrating from vx -> v5",
+      "created_at": "2024-11-14T16:03:19Z",
+      "closed_at": "2024-12-07T03:03:56Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1662",
+      "number": 1662,
+      "title": "no comment on PRs when using v5",
+      "created_at": "2024-11-16T20:01:33Z",
+      "closed_at": "2025-02-03T17:52:15Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1663",
+      "number": 1663,
+      "title": "Failure with `codecov_yml_path` action parameter with version v5",
+      "created_at": "2024-11-17T11:48:22Z",
+      "closed_at": "2024-11-21T14:46:34Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1664",
+      "number": 1664,
+      "title": "Error: Failed to properly upload report:  The process '/home/runner/work/_actions/codecov/codecov-action/v4/dist/codecov' failed with exit code 1",
+      "created_at": "2024-11-17T16:17:56Z",
+      "closed_at": "2024-11-19T15:29:14Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1671",
+      "number": 1671,
+      "title": "`Token required - not valid tokenless upload` when token is provided",
+      "created_at": "2024-11-19T14:18:50Z",
+      "closed_at": "2024-11-20T21:00:12Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1683",
+      "number": 1683,
+      "title": "`create-commit` is failing since the release of v5.0.4",
+      "created_at": "2024-11-20T13:38:09Z",
+      "closed_at": "2024-11-20T15:19:18Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1699",
+      "number": 1699,
+      "title": "Error: No such option: `--yml-path` with v5",
+      "created_at": "2024-11-24T05:06:23Z",
+      "closed_at": "2024-12-06T08:22:23Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1712",
+      "number": 1712,
+      "title": "Error message: No coverage reports found",
+      "created_at": "2024-12-05T15:24:33Z",
+      "closed_at": "2025-02-04T22:50:32Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1756",
+      "number": 1756,
+      "title": "Struggling to get action to upload coverage.info",
+      "created_at": "2025-02-01T17:27:04Z",
+      "closed_at": "2025-02-02T09:22:48Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1764",
+      "number": 1764,
+      "title": "[BUG] Unable to find token on PR, main branch works fine",
+      "created_at": "2025-02-07T17:57:33Z",
+      "closed_at": "2025-02-07T22:20:58Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1771",
+      "number": 1771,
+      "title": "Permission denied error on macOS with v5",
+      "created_at": "2025-02-19T17:43:34Z",
+      "closed_at": "2025-08-20T19:57:42Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1772",
+      "number": 1772,
+      "title": "[BUG] Upload fails with TypeError: object of type 'NoneType' has no len()",
+      "created_at": "2025-02-20T00:09:13Z",
+      "closed_at": "2025-02-20T21:18:18Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1785",
+      "number": 1785,
+      "title": "[BUG]\"Token required because branch is protected\" in dependentbot PR",
+      "created_at": "2025-03-07T02:09:40Z",
+      "closed_at": "2025-03-10T19:52:20Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1799",
+      "number": 1799,
+      "title": "[BUG] Could not pull latest version information: SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "created_at": "2025-03-24T12:57:14Z",
+      "closed_at": "2025-04-01T03:31:50Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1839",
+      "number": 1839,
+      "title": "[BUG] \"Repository not found\" when using Global Token and repository names including upper case characters.",
+      "created_at": "2025-06-04T01:47:02Z",
+      "closed_at": "2025-07-02T21:03:42Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1870",
+      "number": 1870,
+      "title": "[BUG] codecov/codecov-action@v5 GitHub Actions fails with certificate problems",
+      "created_at": "2025-09-02T18:09:07Z",
+      "closed_at": "2025-09-04T12:35:45Z"
+    }
+  ]
+}

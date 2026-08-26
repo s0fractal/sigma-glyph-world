@@ -1,0 +1,716 @@
+{
+  "index": 66,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "false positive",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:29.030077+00:00",
+  "total_count": 400,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "6f54ac3ad4838f995f5788be5b34896079662e0924824c965e04ae749d550fba",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/8260",
+      "number": 8260,
+      "title": "False positive when combining walrus operator and regex",
+      "created_at": "2020-01-08T15:08:04Z",
+      "closed_at": "2020-01-08T15:52:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8264",
+      "number": 8264,
+      "title": "False positive for Union[Literal[False], ClassName]",
+      "created_at": "2020-01-09T07:13:11Z",
+      "closed_at": "2020-02-10T17:20:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8296",
+      "number": 8296,
+      "title": "Strict equality false positive when strict optional disabled",
+      "created_at": "2020-01-16T17:10:23Z",
+      "closed_at": "2021-04-12T14:51:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8330",
+      "number": 8330,
+      "title": "Respecting return type of __new__ does not extend to derived classes",
+      "created_at": "2020-01-25T05:18:59Z",
+      "closed_at": "2026-05-27T01:13:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8337",
+      "number": 8337,
+      "title": "False positive \"Statement is unreachable\" when variable is untyped",
+      "created_at": "2020-01-27T11:38:29Z",
+      "closed_at": "2020-01-31T16:17:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8393",
+      "number": 8393,
+      "title": "False positive when decorating (e.g. with @final) an overloaded method in a subclass",
+      "created_at": "2020-02-12T11:02:22Z",
+      "closed_at": "2023-08-11T17:27:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8401",
+      "number": 8401,
+      "title": "Incorrect 'Implicit return in function which does not return' when using 'contextlib.contextmanager'",
+      "created_at": "2020-02-14T11:44:42Z",
+      "closed_at": "2020-02-17T10:42:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8497",
+      "number": 8497,
+      "title": "[Bug report] Name '...' is not defined when wildcard importing local module",
+      "created_at": "2020-03-05T20:13:14Z",
+      "closed_at": "2020-03-06T23:35:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8505",
+      "number": 8505,
+      "title": "`bytearray` treated as a subclass of `bytes`",
+      "created_at": "2020-03-07T01:21:45Z",
+      "closed_at": "2024-06-21T10:13:56Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8576",
+      "number": 8576,
+      "title": "Bounded TypeVar with TypedDict doesn't work correctly",
+      "created_at": "2020-03-23T13:26:43Z",
+      "closed_at": "2020-04-03T19:21:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8671",
+      "number": 8671,
+      "title": "False positive on cyclic definition despite using forward reference in NamedTuples",
+      "created_at": "2020-04-14T16:40:28Z",
+      "closed_at": "2020-06-08T15:44:45Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8706",
+      "number": 8706,
+      "title": "\"object\" has no attribute \"__iter__\" false-positive",
+      "created_at": "2020-04-21T20:29:07Z",
+      "closed_at": "2020-04-28T00:36:39Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8721",
+      "number": 8721,
+      "title": "Reachable code in loop marked unreachable",
+      "created_at": "2020-04-25T14:27:18Z",
+      "closed_at": "2025-01-12T22:24:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8733",
+      "number": 8733,
+      "title": "\"Tuple index out of range\" false positive despite \"len() == 1\" check",
+      "created_at": "2020-04-27T12:16:09Z",
+      "closed_at": "2020-08-03T06:57:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8745",
+      "number": 8745,
+      "title": "mypy generates false positive with custom constants defined via the ``signal`` module",
+      "created_at": "2020-04-29T06:37:19Z",
+      "closed_at": "2020-05-01T13:32:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8768",
+      "number": 8768,
+      "title": "None is not considered Hashable",
+      "created_at": "2020-05-03T17:17:27Z",
+      "closed_at": "2020-08-28T17:14:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8772",
+      "number": 8772,
+      "title": "mypy shows type error with json.dump(s) and kwargs",
+      "created_at": "2020-05-04T15:02:28Z",
+      "closed_at": "2020-05-19T00:41:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8778",
+      "number": 8778,
+      "title": "Mypy raises false positive when using an imported class as a bound in a TypeVar",
+      "created_at": "2020-05-05T01:09:22Z",
+      "closed_at": "2023-08-12T07:37:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8850",
+      "number": 8850,
+      "title": " Argument 1 to \"join\" of \"str\" has incompatible type \"Iterable[Optional[str]]\"; expected \"Iterable[str]\"",
+      "created_at": "2020-05-19T15:10:52Z",
+      "closed_at": "2020-05-19T16:20:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8865",
+      "number": 8865,
+      "title": "False positive unreachable with redefined variable in loop",
+      "created_at": "2020-05-20T21:51:15Z",
+      "closed_at": "2025-01-12T22:24:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8871",
+      "number": 8871,
+      "title": "Reachable code marked as unreachable in generic class with None type",
+      "created_at": "2020-05-22T09:05:02Z",
+      "closed_at": "2025-06-27T20:38:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8894",
+      "number": 8894,
+      "title": "Release 0.780 planning",
+      "created_at": "2020-05-26T16:24:43Z",
+      "closed_at": "2020-08-11T17:38:41Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8964",
+      "number": 8964,
+      "title": "False positive \"Missing return statement\" when exception is raised from function in try-except block",
+      "created_at": "2020-06-07T22:50:55Z",
+      "closed_at": "2020-06-08T02:43:05Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8985",
+      "number": 8985,
+      "title": "false unreachable error after pytest.raises block",
+      "created_at": "2020-06-10T20:44:14Z",
+      "closed_at": "2020-07-06T13:27:05Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9011",
+      "number": 9011,
+      "title": "Non-overlapping identity check false-positive starting in 0.780",
+      "created_at": "2020-06-17T07:17:05Z",
+      "closed_at": "2020-06-18T16:02:43Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9023",
+      "number": 9023,
+      "title": "False positive when type checking overloads with generics",
+      "created_at": "2020-06-19T04:11:55Z",
+      "closed_at": "2025-02-05T22:13:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9044",
+      "number": 9044,
+      "title": "getattr on enum considered as Any instead of enum",
+      "created_at": "2020-06-25T09:19:18Z",
+      "closed_at": "2020-06-25T14:24:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9049",
+      "number": 9049,
+      "title": "[bug] False positive assigning built-in function to instance attribute with built-in function type",
+      "created_at": "2020-06-26T00:34:40Z",
+      "closed_at": "2020-07-03T15:01:17Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9053",
+      "number": 9053,
+      "title": "Cannot access custom property of union type",
+      "created_at": "2020-06-26T12:22:10Z",
+      "closed_at": "2025-01-21T23:23:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9057",
+      "number": 9057,
+      "title": "False-positive incompatible type error without casting to defined Literal",
+      "created_at": "2020-06-26T19:41:39Z",
+      "closed_at": "2020-07-03T17:24:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9069",
+      "number": 9069,
+      "title": "False positive 'Too many arguments' error",
+      "created_at": "2020-06-29T16:34:52Z",
+      "closed_at": "2020-06-29T16:38:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9086",
+      "number": 9086,
+      "title": "False positive [arg-type] error when updating a dict with a TypedDict",
+      "created_at": "2020-07-01T22:50:15Z",
+      "closed_at": "2020-07-03T14:36:35Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9087",
+      "number": 9087,
+      "title": "False positive warn_return_any",
+      "created_at": "2020-07-02T17:04:40Z",
+      "closed_at": "2020-07-04T03:52:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9134",
+      "number": 9134,
+      "title": "False-positive error on overriding attribute of base class with rtype-annotated property ",
+      "created_at": "2020-07-12T08:42:21Z",
+      "closed_at": "2025-02-05T22:22:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9160",
+      "number": 9160,
+      "title": "class with __setattr__ reports properties are read-only",
+      "created_at": "2020-07-16T18:05:12Z",
+      "closed_at": "2023-08-24T08:56:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9226",
+      "number": 9226,
+      "title": "False positive example, can't interact with `isinstance`",
+      "created_at": "2020-07-28T14:06:59Z",
+      "closed_at": "2025-02-05T22:29:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9230",
+      "number": 9230,
+      "title": "Looping through literals not typed correctly",
+      "created_at": "2020-07-29T06:48:56Z",
+      "closed_at": "2024-10-23T11:52:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9262",
+      "number": 9262,
+      "title": "union of tuples doesn't work",
+      "created_at": "2020-08-04T11:26:53Z",
+      "closed_at": "2020-08-14T11:29:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9290",
+      "number": 9290,
+      "title": "Release 0.790 planning",
+      "created_at": "2020-08-11T17:41:03Z",
+      "closed_at": "2020-10-09T17:23:31Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9305",
+      "number": 9305,
+      "title": "Calling functions with Protocols that involve operant invoked functions fail",
+      "created_at": "2020-08-14T11:09:09Z",
+      "closed_at": "2022-11-16T13:42:21Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9306",
+      "number": 9306,
+      "title": "Unsupported right operand type for in with __getitem__",
+      "created_at": "2020-08-14T11:17:48Z",
+      "closed_at": "2020-08-14T22:02:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9312",
+      "number": 9312,
+      "title": "Potential false positive error of \"Missing return statement\" with Optional[NoReturn] typehint",
+      "created_at": "2020-08-15T00:10:26Z",
+      "closed_at": "2020-08-15T00:23:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9335",
+      "number": 9335,
+      "title": "Possible false positive calling dict.update() method with TypedDict hierarchy",
+      "created_at": "2020-08-21T20:44:15Z",
+      "closed_at": "2022-05-03T17:55:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9351",
+      "number": 9351,
+      "title": "False-Positive when property getter and setter heve different types",
+      "created_at": "2020-08-25T05:45:11Z",
+      "closed_at": "2020-08-25T06:53:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9392",
+      "number": 9392,
+      "title": "Possible false positive \"Missing return statement\" if return type is Optional[int] etc.",
+      "created_at": "2020-09-01T20:34:37Z",
+      "closed_at": "2020-09-01T20:37:48Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9430",
+      "number": 9430,
+      "title": "Allow passing None to Mapping.get",
+      "created_at": "2020-09-08T16:33:49Z",
+      "closed_at": "2022-08-23T19:34:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9455",
+      "number": 9455,
+      "title": "False positive when using type set as function",
+      "created_at": "2020-09-18T07:05:51Z",
+      "closed_at": "2025-02-05T22:45:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9563",
+      "number": 9563,
+      "title": "false positive: variable with type None not valid as type",
+      "created_at": "2020-10-09T00:31:04Z",
+      "closed_at": "2020-10-09T01:19:18Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9578",
+      "number": 9578,
+      "title": "TypeVar causes name error on class-scoped variable",
+      "created_at": "2020-10-12T04:32:21Z",
+      "closed_at": "2023-08-12T06:50:05Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9582",
+      "number": 9582,
+      "title": "Problem with sorted() and _LT",
+      "created_at": "2020-10-12T14:19:03Z",
+      "closed_at": "2020-10-12T18:30:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9595",
+      "number": 9595,
+      "title": "False positive with unreachable code in operator overload",
+      "created_at": "2020-10-14T07:32:50Z",
+      "closed_at": "2020-10-14T18:32:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9630",
+      "number": 9630,
+      "title": "Mypy 0.790 release postmortem",
+      "created_at": "2020-10-23T15:51:09Z",
+      "closed_at": "2021-03-10T14:56:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9640",
+      "number": 9640,
+      "title": "False-positive \"Incompatible types in assignment\"",
+      "created_at": "2020-10-26T10:01:58Z",
+      "closed_at": "2020-10-26T18:25:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9649",
+      "number": 9649,
+      "title": "false positive for \"Module has no attribute\": gc.freeze",
+      "created_at": "2020-10-27T05:37:22Z",
+      "closed_at": "2020-10-27T05:46:22Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9700",
+      "number": 9700,
+      "title": "False positive: variable re-assigned with different type treated as of previous type",
+      "created_at": "2020-11-05T11:08:22Z",
+      "closed_at": "2020-11-16T20:18:05Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9717",
+      "number": 9717,
+      "title": "The use of `six.raise_from()` causes false positive \"missing return statement\"",
+      "created_at": "2020-11-12T13:50:28Z",
+      "closed_at": "2020-12-07T01:32:34Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9761",
+      "number": 9761,
+      "title": "Supporting Python 3.9",
+      "created_at": "2020-11-26T23:00:18Z",
+      "closed_at": "2021-01-22T20:06:17Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9778",
+      "number": 9778,
+      "title": "`Union` is incorrectly constructed when `callable()` is used, resulting in a false positive",
+      "created_at": "2020-12-04T01:16:40Z",
+      "closed_at": "2025-06-03T18:37:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9815",
+      "number": 9815,
+      "title": "Presence of __init__ in parent class triggering false positive error: Access to generic class variables is ambiguous",
+      "created_at": "2020-12-16T23:47:26Z",
+      "closed_at": "2025-06-18T23:26:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9899",
+      "number": 9899,
+      "title": "Using non-Literals in Literal contexts not working when used as Dict key (false positive error)",
+      "created_at": "2021-01-12T03:03:50Z",
+      "closed_at": "2021-01-12T03:14:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9907",
+      "number": 9907,
+      "title": "unreachable: false positive for isinstance",
+      "created_at": "2021-01-13T06:02:43Z",
+      "closed_at": "2021-08-04T09:23:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9920",
+      "number": 9920,
+      "title": "groupby with generic key function fails",
+      "created_at": "2021-01-17T17:34:49Z",
+      "closed_at": "2021-01-18T05:59:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9954",
+      "number": 9954,
+      "title": "Running mypy against a directory produces different outcome from running against all files in that directory",
+      "created_at": "2021-01-24T05:57:37Z",
+      "closed_at": "2021-01-24T21:34:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9995",
+      "number": 9995,
+      "title": "Literal doesn't work with Type",
+      "created_at": "2021-01-29T22:33:13Z",
+      "closed_at": "2021-01-29T23:25:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9996",
+      "number": 9996,
+      "title": "False positive result in 0.800: \"run_path\" does not return a value",
+      "created_at": "2021-01-30T07:40:34Z",
+      "closed_at": "2021-01-30T07:49:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10013",
+      "number": 10013,
+      "title": "Using reveal_type with no errors should return exit code 0",
+      "created_at": "2021-02-03T11:08:22Z",
+      "closed_at": "2022-10-14T22:45:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10033",
+      "number": 10033,
+      "title": "False positives when following imports to six stubs in daemon",
+      "created_at": "2021-02-05T14:01:20Z",
+      "closed_at": "2021-02-05T15:04:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10059",
+      "number": 10059,
+      "title": "False positive: \"Incompatible return value type\"",
+      "created_at": "2021-02-10T02:39:47Z",
+      "closed_at": "2025-10-18T17:44:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10136",
+      "number": 10136,
+      "title": "False Positive: str not inferred from `isinstance`",
+      "created_at": "2021-02-25T21:49:20Z",
+      "closed_at": "2021-02-25T22:39:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10151",
+      "number": 10151,
+      "title": "invalid knowledge of `self` variables retained after self call, unreachable false positive, invalid operations allowed",
+      "created_at": "2021-02-28T08:02:52Z",
+      "closed_at": "2023-09-02T07:24:37Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10152",
+      "number": 10152,
+      "title": "Argument 2 to pop of MutableMapping has incompatible type",
+      "created_at": "2021-02-28T12:36:43Z",
+      "closed_at": "2024-12-13T18:10:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10166",
+      "number": 10166,
+      "title": "'is' operator type check",
+      "created_at": "2021-03-05T09:20:36Z",
+      "closed_at": "2021-03-05T11:13:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10243",
+      "number": 10243,
+      "title": "Pyright parser uses wrong order of operations for binary operations",
+      "created_at": "2021-03-24T01:14:07Z",
+      "closed_at": "2021-03-24T01:15:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10317",
+      "number": 10317,
+      "title": "False negative: Tuple index out of range",
+      "created_at": "2021-04-13T01:28:16Z",
+      "closed_at": "2021-04-13T01:33:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10356",
+      "number": 10356,
+      "title": "abstractstaticmethod false positive",
+      "created_at": "2021-04-22T09:47:42Z",
+      "closed_at": "2021-09-10T12:17:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10358",
+      "number": 10358,
+      "title": "False-positive \"Name '...' already defined",
+      "created_at": "2021-04-22T18:49:20Z",
+      "closed_at": "2021-10-25T20:51:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10411",
+      "number": 10411,
+      "title": "IntEnum with NewType value type regression",
+      "created_at": "2021-05-04T12:46:09Z",
+      "closed_at": "2021-05-04T14:17:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10414",
+      "number": 10414,
+      "title": "TypedDict narrowing regression with enum literal",
+      "created_at": "2021-05-04T14:48:18Z",
+      "closed_at": "2021-05-04T16:10:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10423",
+      "number": 10423,
+      "title": "Narrowing types using a metaclass can cause false positives",
+      "created_at": "2021-05-05T12:04:05Z",
+      "closed_at": "2021-05-05T13:15:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10426",
+      "number": 10426,
+      "title": "False positive for lambda within a function",
+      "created_at": "2021-05-06T04:03:44Z",
+      "closed_at": "2025-05-15T09:03:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10427",
+      "number": 10427,
+      "title": "Invariance, contravariance, and covariance for containers",
+      "created_at": "2021-05-06T07:14:24Z",
+      "closed_at": "2023-08-25T04:15:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10556",
+      "number": 10556,
+      "title": "Tuple through try/except gives object has no attribute __iter__",
+      "created_at": "2021-05-30T00:02:17Z",
+      "closed_at": "2021-05-30T07:26:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10601",
+      "number": 10601,
+      "title": "ignore-missing-import option does not work on false positive \"Library stubs not installed for X\"",
+      "created_at": "2021-06-08T22:46:19Z",
+      "closed_at": "2021-06-09T16:01:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10629",
+      "number": 10629,
+      "title": "False positive with custom `int` type.",
+      "created_at": "2021-06-11T06:38:25Z",
+      "closed_at": "2021-06-11T06:51:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10632",
+      "number": 10632,
+      "title": "ignore-missing-import option does not work on false positive \"Library stubs not installed for X\"",
+      "created_at": "2021-06-11T16:51:51Z",
+      "closed_at": "2021-10-31T05:55:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10755",
+      "number": 10755,
+      "title": "False positive \"unsafe[] overlapping\" for _floordiv__/__rfloordiv__ with Real argument, but nearly identical signatures for other operators are fine",
+      "created_at": "2021-07-02T02:15:53Z",
+      "closed_at": "2024-07-01T23:11:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10813",
+      "number": 10813,
+      "title": "false positive: warn-unused-ignores checks in different python version blocks",
+      "created_at": "2021-07-13T07:08:39Z",
+      "closed_at": "2021-07-13T16:55:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10817",
+      "number": 10817,
+      "title": "False-positive on TypeVar bound class return value",
+      "created_at": "2021-07-13T17:19:05Z",
+      "closed_at": "2025-06-03T18:37:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10849",
+      "number": 10849,
+      "title": "Inconsistent typechecker behaviour of equivalent dataclass usages",
+      "created_at": "2021-07-21T13:47:57Z",
+      "closed_at": "2022-03-29T21:12:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10910",
+      "number": 10910,
+      "title": "False positive for \"Non-overlapping identity check\" when comparing Enum variants",
+      "created_at": "2021-08-02T06:28:41Z",
+      "closed_at": "2025-08-03T16:47:37Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10915",
+      "number": 10915,
+      "title": "support narrowing enum values using `==` and `!=`",
+      "created_at": "2021-08-03T05:27:51Z",
+      "closed_at": "2023-04-24T06:47:03Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10921",
+      "number": 10921,
+      "title": "False positive error \"return-value\" when subclass doesn't override classmethod",
+      "created_at": "2021-08-03T22:38:23Z",
+      "closed_at": "2021-08-03T22:46:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11004",
+      "number": 11004,
+      "title": "Wrong \"Overloaded function implementation does not accept all possible arguments\"",
+      "created_at": "2021-08-21T15:29:19Z",
+      "closed_at": "2025-03-26T16:20:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11016",
+      "number": 11016,
+      "title": "False positive from failing to narrow union type across testing of same condition",
+      "created_at": "2021-08-24T20:13:09Z",
+      "closed_at": "2021-09-26T21:10:21Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11036",
+      "number": 11036,
+      "title": "False positive on class definition keyword arguments",
+      "created_at": "2021-08-29T18:34:58Z",
+      "closed_at": "2023-08-12T10:57:13Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11070",
+      "number": 11070,
+      "title": "False-Positive: type sometimes not deduced correctly when using `Union` and `isinstance`",
+      "created_at": "2021-09-07T07:54:53Z",
+      "closed_at": "2021-09-07T08:40:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11084",
+      "number": 11084,
+      "title": "Optional arguments mixed with **kwargs",
+      "created_at": "2021-09-09T19:02:09Z",
+      "closed_at": "2022-03-19T16:14:39Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11098",
+      "number": 11098,
+      "title": "(🐞) False positive \"error: Type application has too many types (1 expected)\" on tuple when annotated as a type or in a `TypeAlias` with new union syntax (PEP 604)",
+      "created_at": "2021-09-13T06:24:43Z",
+      "closed_at": "2022-11-25T12:58:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11099",
+      "number": 11099,
+      "title": "False positive for \"Enum\" has no attribute \"__iter__\"; maybe \"__str__\" or \"__dir__\"? (not iterable)",
+      "created_at": "2021-09-13T12:08:50Z",
+      "closed_at": "2021-09-13T15:31:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11109",
+      "number": 11109,
+      "title": "False positive has incompatible type \"Optional[str]\"; expected \"str\"",
+      "created_at": "2021-09-15T07:25:04Z",
+      "closed_at": "2021-09-22T14:54:26Z"
+    }
+  ]
+}

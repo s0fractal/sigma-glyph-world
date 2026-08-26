@@ -1,0 +1,716 @@
+{
+  "index": 68,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "ignored",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:36.481977+00:00",
+  "total_count": 134,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "b8fd9e26105f4f147fc0390fcd8577083c0ce403a43bd0e1b4739ed7b55ae718",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/8263",
+      "number": 8263,
+      "title": "Feature - Partial Type Specifications For Callable",
+      "created_at": "2020-01-08T21:45:17Z",
+      "closed_at": "2020-01-13T13:32:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8330",
+      "number": 8330,
+      "title": "Respecting return type of __new__ does not extend to derived classes",
+      "created_at": "2020-01-25T05:18:59Z",
+      "closed_at": "2026-05-27T01:13:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8353",
+      "number": 8353,
+      "title": "super(self.__class__, self) causes INTERNAL ERROR (AssertionError: unreachable)",
+      "created_at": "2020-02-01T17:49:22Z",
+      "closed_at": "2020-08-02T09:15:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8356",
+      "number": 8356,
+      "title": "mypy crashes with overloads of functools.singledispatch",
+      "created_at": "2020-02-02T08:35:39Z",
+      "closed_at": "2021-11-28T02:46:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8446",
+      "number": 8446,
+      "title": "Reports ignoring the --ignore-missing-imports flag",
+      "created_at": "2020-02-26T18:24:18Z",
+      "closed_at": "2020-02-28T18:11:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8453",
+      "number": 8453,
+      "title": "Filenames with dots",
+      "created_at": "2020-02-28T16:33:41Z",
+      "closed_at": "2020-03-23T23:11:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8712",
+      "number": 8712,
+      "title": "File-level ignore of specific error codes",
+      "created_at": "2020-04-23T11:50:56Z",
+      "closed_at": "2020-04-29T18:38:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8758",
+      "number": 8758,
+      "title": "MyPy disallows Tuple to be instantiated with variable number of items",
+      "created_at": "2020-05-01T14:25:23Z",
+      "closed_at": "2022-03-25T22:45:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8823",
+      "number": 8823,
+      "title": "Cannot silence \"unused 'type: ignore'\" in version specific code",
+      "created_at": "2020-05-14T13:49:25Z",
+      "closed_at": "2023-05-02T15:47:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8926",
+      "number": 8926,
+      "title": "Should concrete implementations be required to implement protocol?",
+      "created_at": "2020-05-31T12:04:13Z",
+      "closed_at": "2022-08-02T18:45:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9070",
+      "number": 9070,
+      "title": "Ignore generic type signature in pybind11 functions and methods with overloads",
+      "created_at": "2020-06-29T17:59:38Z",
+      "closed_at": "2021-02-11T14:49:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9076",
+      "number": 9076,
+      "title": "Not None checks ignored when passing to a lambda",
+      "created_at": "2020-07-01T08:49:04Z",
+      "closed_at": "2020-07-01T15:26:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9115",
+      "number": 9115,
+      "title": "ignore stubs but get an error if module is missing",
+      "created_at": "2020-07-09T07:17:57Z",
+      "closed_at": "2023-08-13T20:30:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9135",
+      "number": 9135,
+      "title": "Question: Can't import Django app located in the same project",
+      "created_at": "2020-07-12T10:07:46Z",
+      "closed_at": "2021-12-17T23:02:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9170",
+      "number": 9170,
+      "title": "Mypy thinks __doc__ may be None even for classes that have a docstring",
+      "created_at": "2020-07-18T22:22:09Z",
+      "closed_at": "2020-07-20T14:46:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9242",
+      "number": 9242,
+      "title": "[BUG] Type ignore annotation used on operating system specific code",
+      "created_at": "2020-08-01T18:36:01Z",
+      "closed_at": "2020-08-01T20:59:41Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9419",
+      "number": 9419,
+      "title": "Piping mypy into a closed pipe results in BrokenPipeError",
+      "created_at": "2020-09-05T11:41:49Z",
+      "closed_at": "2020-09-19T16:57:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9540",
+      "number": 9540,
+      "title": "Ignore existing errors for gradual MyPy integration into project",
+      "created_at": "2020-10-06T10:27:37Z",
+      "closed_at": "2020-10-07T13:57:35Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9652",
+      "number": 9652,
+      "title": "--warn-unused-ignore inconsistent with removed branches",
+      "created_at": "2020-10-27T18:14:14Z",
+      "closed_at": "2020-10-27T18:22:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9698",
+      "number": 9698,
+      "title": "Should dictionary keys be assumed to be hashable?",
+      "created_at": "2020-11-04T02:50:47Z",
+      "closed_at": "2020-11-04T18:06:48Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9744",
+      "number": 9744,
+      "title": "@overload cannot be used with conditional \"if TYPE_CHECKING\"",
+      "created_at": "2020-11-22T17:54:23Z",
+      "closed_at": "2022-03-03T06:11:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9774",
+      "number": 9774,
+      "title": "Type annotation of the property setter is ignored",
+      "created_at": "2020-12-02T10:27:24Z",
+      "closed_at": "2020-12-02T19:34:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9815",
+      "number": 9815,
+      "title": "Presence of __init__ in parent class triggering false positive error: Access to generic class variables is ambiguous",
+      "created_at": "2020-12-16T23:47:26Z",
+      "closed_at": "2025-06-18T23:26:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9837",
+      "number": 9837,
+      "title": "Improve support of @overload for await expressions",
+      "created_at": "2020-12-25T17:55:11Z",
+      "closed_at": "2021-01-08T07:50:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9869",
+      "number": 9869,
+      "title": "`yield` inside `with` blocks with type comment: Type does not follow the type comment",
+      "created_at": "2021-01-01T04:57:06Z",
+      "closed_at": "2021-01-01T05:47:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9917",
+      "number": 9917,
+      "title": "Assertion over Optional[] is ignored, if used from a separate method.",
+      "created_at": "2021-01-16T04:57:32Z",
+      "closed_at": "2021-01-16T14:27:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9981",
+      "number": 9981,
+      "title": "Please revert new source finding behaviour or add some way to exclude paths",
+      "created_at": "2021-01-27T15:47:43Z",
+      "closed_at": "2021-02-10T16:25:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10118",
+      "number": 10118,
+      "title": "Have dmypy gracefully ignore report generation settings",
+      "created_at": "2021-02-20T00:50:48Z",
+      "closed_at": "2022-03-19T15:56:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10192",
+      "number": 10192,
+      "title": "No-untyped-call / no-untyped-def errors reported despite being disabled in mypy.ini",
+      "created_at": "2021-03-10T05:16:47Z",
+      "closed_at": "2021-03-10T06:39:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10194",
+      "number": 10194,
+      "title": "`bool` is not treated the same as `Union[Literal[True], Literal[False]]` in overloads",
+      "created_at": "2021-03-10T10:59:01Z",
+      "closed_at": "2021-04-22T09:51:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10270",
+      "number": 10270,
+      "title": "Can't make mypy work with a class inherited from django",
+      "created_at": "2021-03-31T12:40:46Z",
+      "closed_at": "2022-04-02T15:52:31Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10279",
+      "number": 10279,
+      "title": "Support for inline disable_error_code",
+      "created_at": "2021-04-04T15:04:23Z",
+      "closed_at": "2021-04-04T18:37:58Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10280",
+      "number": 10280,
+      "title": "Outer type guards do not apply in nested functions",
+      "created_at": "2021-04-05T10:04:06Z",
+      "closed_at": "2021-04-05T17:25:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10283",
+      "number": 10283,
+      "title": "--ignore-missing-imports not working for modularized typeshed types",
+      "created_at": "2021-04-06T01:20:01Z",
+      "closed_at": "2021-06-04T16:51:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10285",
+      "number": 10285,
+      "title": "\"--follow-imports=error\" is confusing",
+      "created_at": "2021-04-06T09:31:47Z",
+      "closed_at": "2021-04-06T18:10:43Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10304",
+      "number": 10304,
+      "title": "Allow error-code specific whole-file `# type: ignore`s",
+      "created_at": "2021-04-09T22:48:53Z",
+      "closed_at": "2022-08-25T17:13:03Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10393",
+      "number": 10393,
+      "title": "stubtest: catch type alias/variable mismatch",
+      "created_at": "2021-04-30T18:24:22Z",
+      "closed_at": "2021-08-02T00:51:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10427",
+      "number": 10427,
+      "title": "Invariance, contravariance, and covariance for containers",
+      "created_at": "2021-05-06T07:14:24Z",
+      "closed_at": "2023-08-25T04:15:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10445",
+      "number": 10445,
+      "title": "TypeVar bound is ignored in generic alias",
+      "created_at": "2021-05-07T18:24:35Z",
+      "closed_at": "2022-11-24T11:22:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10471",
+      "number": 10471,
+      "title": "int and float types are treated as the same",
+      "created_at": "2021-05-14T12:12:49Z",
+      "closed_at": "2021-05-14T12:19:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10632",
+      "number": 10632,
+      "title": "ignore-missing-import option does not work on false positive \"Library stubs not installed for X\"",
+      "created_at": "2021-06-11T16:51:51Z",
+      "closed_at": "2021-10-31T05:55:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10718",
+      "number": 10718,
+      "title": "Enforce error codes on type: ignores",
+      "created_at": "2021-06-26T05:18:02Z",
+      "closed_at": "2022-03-26T15:16:59Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11118",
+      "number": 11118,
+      "title": "Declaring types as cython typed memoryviews causes a SyntaxError",
+      "created_at": "2021-09-16T14:21:25Z",
+      "closed_at": "2024-06-21T09:51:59Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11157",
+      "number": 11157,
+      "title": "warn-unused-ignores doesn't fire when ignoring multiple codes",
+      "created_at": "2021-09-21T10:22:38Z",
+      "closed_at": "2021-09-24T11:00:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11234",
+      "number": 11234,
+      "title": "Mypy issue validating package with directory and -p arg",
+      "created_at": "2021-09-30T16:23:50Z",
+      "closed_at": "2022-09-27T05:57:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11269",
+      "number": 11269,
+      "title": "`functools.partial` assignment is ignored if a different type is used in a different branch",
+      "created_at": "2021-10-04T20:32:32Z",
+      "closed_at": "2024-07-01T23:37:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11355",
+      "number": 11355,
+      "title": "[self testsuite] testpep561.py::PEP561Suite tests fail against pip 21.3",
+      "created_at": "2021-10-19T08:38:01Z",
+      "closed_at": "2021-10-21T18:56:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11362",
+      "number": 11362,
+      "title": "MyPy not recognizing ParamSpec usage with Generic",
+      "created_at": "2021-10-19T19:08:28Z",
+      "closed_at": "2021-12-07T18:32:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11466",
+      "number": 11466,
+      "title": "`Callable`s that don't return `None` should be compatible with `Callable[[<args>], None]`",
+      "created_at": "2021-11-05T03:10:16Z",
+      "closed_at": "2021-11-09T12:11:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11475",
+      "number": 11475,
+      "title": "isinstance type narrowing ignored when called in extra function",
+      "created_at": "2021-11-05T11:32:22Z",
+      "closed_at": "2021-11-05T15:41:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11480",
+      "number": 11480,
+      "title": "Implementation annotation not used when using overload",
+      "created_at": "2021-11-06T08:16:34Z",
+      "closed_at": "2021-11-06T08:54:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11497",
+      "number": 11497,
+      "title": "bug: main repository shows mypy errors",
+      "created_at": "2021-11-08T16:27:41Z",
+      "closed_at": "2021-11-08T18:26:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11509",
+      "number": 11509,
+      "title": "option to enforce error codes in `type: ignore` comments",
+      "created_at": "2021-11-10T02:36:11Z",
+      "closed_at": "2022-02-09T23:44:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11649",
+      "number": 11649,
+      "title": "unreachable code isn't type checked",
+      "created_at": "2021-12-01T02:10:42Z",
+      "closed_at": "2021-12-01T03:43:34Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11789",
+      "number": 11789,
+      "title": "Inline specification of `enable-error-code` silently ignored",
+      "created_at": "2021-12-18T13:40:04Z",
+      "closed_at": "2023-12-04T07:18:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11829",
+      "number": 11829,
+      "title": "mypy always fails with Python 3.10 match statement",
+      "created_at": "2021-12-23T00:10:13Z",
+      "closed_at": "2022-01-18T14:57:03Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11886",
+      "number": 11886,
+      "title": "Should `__class_getitem__` be considered part of the interface of Protocol classes?",
+      "created_at": "2022-01-02T13:43:03Z",
+      "closed_at": "2023-06-26T20:12:45Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11999",
+      "number": 11999,
+      "title": "`# type: ignore[import]` at top of file causes all error codes to be ignored",
+      "created_at": "2022-01-16T18:25:27Z",
+      "closed_at": "2022-08-26T19:28:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12055",
+      "number": 12055,
+      "title": "Show ignored errors",
+      "created_at": "2022-01-24T14:57:11Z",
+      "closed_at": "2022-08-03T08:47:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12076",
+      "number": 12076,
+      "title": "Incorrect \"Unused 'type: ignore' comment\" on top-level ignore[error-code]",
+      "created_at": "2022-01-26T16:35:01Z",
+      "closed_at": "2022-08-26T19:28:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12087",
+      "number": 12087,
+      "title": "mypy does not ignore on multiline function definitions",
+      "created_at": "2022-01-27T21:13:10Z",
+      "closed_at": "2022-01-28T18:59:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12237",
+      "number": 12237,
+      "title": "Python 2 feature freeze (and removal of support)",
+      "created_at": "2022-02-22T14:55:17Z",
+      "closed_at": "2022-10-10T05:35:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12249",
+      "number": 12249,
+      "title": "dmypy ignores flags and config file",
+      "created_at": "2022-02-24T02:36:14Z",
+      "closed_at": "2023-06-15T20:32:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12275",
+      "number": 12275,
+      "title": "Mypy `unsupported operand types` after inline checking for is None in typing.Optional[int] arg",
+      "created_at": "2022-03-02T12:34:26Z",
+      "closed_at": "2022-03-19T15:50:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12299",
+      "number": 12299,
+      "title": "Getting Invalid \"type: ignore\" comment reports from 3rd party library code",
+      "created_at": "2022-03-06T21:33:33Z",
+      "closed_at": "2022-08-25T05:14:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12342",
+      "number": 12342,
+      "title": "(🐞) Invalid per-module options in inline configuration are silently ignored",
+      "created_at": "2022-03-13T04:04:13Z",
+      "closed_at": "2025-08-02T22:01:47Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12366",
+      "number": 12366,
+      "title": "Unsupported type inferring for Unions of dicts",
+      "created_at": "2022-03-16T15:39:18Z",
+      "closed_at": "2022-03-16T15:56:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12529",
+      "number": 12529,
+      "title": "`allow-subclassing-any` also applies to subclassing the `Any` type as well as values with `Any` type",
+      "created_at": "2022-04-06T00:28:49Z",
+      "closed_at": "2022-04-07T04:27:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12574",
+      "number": 12574,
+      "title": "Circular import of name defined in same module, reported as an error.",
+      "created_at": "2022-04-13T02:47:45Z",
+      "closed_at": "2022-11-03T05:10:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12675",
+      "number": 12675,
+      "title": "functools.partial always assumes the first signature of an @overloaded function",
+      "created_at": "2022-04-26T11:10:57Z",
+      "closed_at": "2022-04-26T20:20:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12689",
+      "number": 12689,
+      "title": "`from module import submodule` implicit reexport is allowed",
+      "created_at": "2022-04-28T16:29:22Z",
+      "closed_at": "2022-06-24T12:07:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12785",
+      "number": 12785,
+      "title": "False positive unreachable after type:ignore (also possibly invalid erorr code)",
+      "created_at": "2022-05-14T10:05:17Z",
+      "closed_at": "2025-07-04T14:09:22Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12962",
+      "number": 12962,
+      "title": "dataclass with Generic parameter does not honor default value",
+      "created_at": "2022-06-09T15:57:47Z",
+      "closed_at": "2022-07-16T09:35:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12987",
+      "number": 12987,
+      "title": "ErrorCodes defined in mypy plugins seemingly cannot be ignored by --disable-error-code",
+      "created_at": "2022-06-16T10:38:34Z",
+      "closed_at": "2025-10-04T02:07:22Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13056",
+      "number": 13056,
+      "title": "[str-format] typecheck failure for correct complex format strings",
+      "created_at": "2022-07-02T20:48:59Z",
+      "closed_at": "2022-07-06T17:45:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13098",
+      "number": 13098,
+      "title": "mypy_path is being ignored when providing file arguments",
+      "created_at": "2022-07-08T20:53:48Z",
+      "closed_at": "2022-07-08T21:40:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13113",
+      "number": 13113,
+      "title": "stubtest: ignore name mismatches for positional only arguments",
+      "created_at": "2022-07-13T10:41:19Z",
+      "closed_at": "2022-07-13T20:26:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13411",
+      "number": 13411,
+      "title": "\"'bool' is not a valid base class\" should be possible to ignore.",
+      "created_at": "2022-08-14T10:26:43Z",
+      "closed_at": "2022-08-15T17:24:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13437",
+      "number": 13437,
+      "title": "Incorrect \"Type application has too few types\"",
+      "created_at": "2022-08-17T00:39:56Z",
+      "closed_at": "2025-02-09T21:44:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13540",
+      "number": 13540,
+      "title": "`ParamSpec` does not consider substitution of `@overload`s",
+      "created_at": "2022-08-28T07:25:11Z",
+      "closed_at": "2022-10-06T08:28:13Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13712",
+      "number": 13712,
+      "title": "Mypy strict mode does not trust imported library type hints no matter what",
+      "created_at": "2022-09-23T01:29:31Z",
+      "closed_at": "2022-09-23T02:32:35Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13757",
+      "number": 13757,
+      "title": "follow_imports doesn't take affect for \"spurious duplicate modules\"",
+      "created_at": "2022-09-28T22:51:22Z",
+      "closed_at": "2022-09-29T00:52:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13773",
+      "number": 13773,
+      "title": "Undesirable import following behavior",
+      "created_at": "2022-09-29T21:16:10Z",
+      "closed_at": "2022-10-04T04:43:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13841",
+      "number": 13841,
+      "title": "Enum instance type ignored in match/case statements",
+      "created_at": "2022-10-08T17:48:59Z",
+      "closed_at": "2025-08-03T16:47:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14055",
+      "number": 14055,
+      "title": "Explicit self type ignored for inherited constructor",
+      "created_at": "2022-11-09T20:58:49Z",
+      "closed_at": "2022-11-24T08:31:13Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14260",
+      "number": 14260,
+      "title": "__get__ self type ignored",
+      "created_at": "2022-12-06T23:18:14Z",
+      "closed_at": "2025-02-10T20:54:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14431",
+      "number": 14431,
+      "title": "Syntax error when `type` in commented out code",
+      "created_at": "2023-01-12T03:08:28Z",
+      "closed_at": "2023-01-12T03:09:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14477",
+      "number": 14477,
+      "title": "`Expected type in class pattern; found \"Any\"` for ignored missing import in match/case",
+      "created_at": "2023-01-20T14:43:40Z",
+      "closed_at": "2023-09-02T06:57:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14484",
+      "number": 14484,
+      "title": "Function body is ignored by `mypy`",
+      "created_at": "2023-01-21T07:10:46Z",
+      "closed_at": "2023-01-21T07:18:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14628",
+      "number": 14628,
+      "title": "Is a module-level `# type: ignore[...]` always invalid?",
+      "created_at": "2023-02-07T06:03:52Z",
+      "closed_at": "2023-02-07T06:16:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14656",
+      "number": 14656,
+      "title": "Accept `Ellipsis` as last argument for `Concatenate`.",
+      "created_at": "2023-02-08T22:09:42Z",
+      "closed_at": "2023-08-19T13:49:41Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14671",
+      "number": 14671,
+      "title": "Daemon `dmypy` crashes with `disable_error_code` configuration option",
+      "created_at": "2023-02-10T17:07:59Z",
+      "closed_at": "2023-05-11T13:07:43Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14686",
+      "number": 14686,
+      "title": "Detect @abstractmethod used in non-abstract classes",
+      "created_at": "2023-02-13T03:19:21Z",
+      "closed_at": "2023-02-13T07:20:13Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14763",
+      "number": 14763,
+      "title": "mypy 1.0.0 does not include error code for `\"await\" outside function` so it cannot be ignored when linting notebooks",
+      "created_at": "2023-02-22T20:20:56Z",
+      "closed_at": "2023-02-28T16:57:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14772",
+      "number": 14772,
+      "title": "Arguments of `type[bool]` and `type[int]` are considered overlapping",
+      "created_at": "2023-02-23T19:46:16Z",
+      "closed_at": "2023-02-23T19:56:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14933",
+      "number": 14933,
+      "title": "False positive TypeGuard error on methods",
+      "created_at": "2023-03-21T17:51:26Z",
+      "closed_at": "2023-03-21T18:17:45Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14999",
+      "number": 14999,
+      "title": "imports in `__init__.py` are not available in modules",
+      "created_at": "2023-04-03T12:28:22Z",
+      "closed_at": "2023-04-24T06:33:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15255",
+      "number": 15255,
+      "title": "Crash with custom plugin and `ErrorCode`",
+      "created_at": "2023-05-16T21:59:22Z",
+      "closed_at": "2023-05-31T10:20:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15349",
+      "number": 15349,
+      "title": "“Duplicate base class” blocks checking",
+      "created_at": "2023-06-02T03:57:33Z",
+      "closed_at": "2023-06-05T07:21:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15496",
+      "number": 15496,
+      "title": "error: Expected type in class pattern; found \"Any\" (cannot be ignored, error without line number)",
+      "created_at": "2023-06-22T20:26:49Z",
+      "closed_at": "2023-06-23T14:38:38Z"
+    }
+  ]
+}

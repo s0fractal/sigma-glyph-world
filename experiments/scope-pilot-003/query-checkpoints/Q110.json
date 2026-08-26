@@ -1,0 +1,79 @@
+{
+  "index": 110,
+  "stratum": "artifact_conformance",
+  "repository": "sigstore/cosign",
+  "repository_id": 335952417,
+  "term": "ignored",
+  "query": "repo:sigstore/cosign is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:49.101618+00:00",
+  "total_count": 9,
+  "incomplete_results": false,
+  "returned": 9,
+  "raw_response_sha256": "974359ae51a62126c1b510d5cdc741faaae310446c613a71babe8aa3e906054c",
+  "items": [
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1258",
+      "number": 1258,
+      "title": "OIDC-Issuer flag ignored (Github Actions)",
+      "created_at": "2021-12-28T18:37:56Z",
+      "closed_at": "2023-08-18T17:35:34Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1554",
+      "number": 1554,
+      "title": "Allow specifying CA chain when not using Fulcio",
+      "created_at": "2022-03-04T21:47:42Z",
+      "closed_at": "2023-01-11T22:49:53Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1679",
+      "number": 1679,
+      "title": "Not supporting in-toto DSS payloadType in verify-attestation",
+      "created_at": "2022-03-29T12:42:39Z",
+      "closed_at": "2026-04-02T03:57:15Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/2632",
+      "number": 2632,
+      "title": "bug: x509 verification broken",
+      "created_at": "2023-01-16T00:44:49Z",
+      "closed_at": "2025-12-08T21:17:25Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/2827",
+      "number": 2827,
+      "title": "cosign dockerfile verify with key doesn't work",
+      "created_at": "2023-03-22T16:35:26Z",
+      "closed_at": "2023-03-23T14:08:43Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3133",
+      "number": 3133,
+      "title": "`pkg/cosign.verifySignatures` wrongly returns `ErrNoMatchingSignatures` when the context was canceled ",
+      "created_at": "2023-07-24T14:17:46Z",
+      "closed_at": "2026-04-02T04:06:51Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3436",
+      "number": 3436,
+      "title": "`cosign verify` does not honor --rekor-url",
+      "created_at": "2023-12-15T12:15:28Z",
+      "closed_at": "2024-01-11T21:37:22Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/4134",
+      "number": 4134,
+      "title": "cosign load does ignore --allow-http-registry",
+      "created_at": "2025-03-26T07:26:53Z",
+      "closed_at": "2026-05-05T14:27:40Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/4464",
+      "number": 4464,
+      "title": "Cosign v3 silently ignores pushing signatures to a separate repository via the `COSIGN_REPOSITORY` envvar",
+      "created_at": "2025-10-14T07:27:28Z",
+      "closed_at": "2025-10-18T10:04:38Z"
+    }
+  ]
+}

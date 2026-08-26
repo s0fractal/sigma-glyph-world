@@ -1,0 +1,128 @@
+{
+  "index": 148,
+  "stratum": "proofs_build_completeness",
+  "repository": "agda/agda",
+  "repository_id": 40411471,
+  "term": "exit code",
+  "query": "repo:agda/agda is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:35.368147+00:00",
+  "total_count": 16,
+  "incomplete_results": false,
+  "returned": 16,
+  "raw_response_sha256": "055faf59b319d06fcba536b0d0523da99d05e3b1942f1f2a5145baacea3833ae",
+  "items": [
+    {
+      "url": "https://github.com/agda/agda/issues/4490",
+      "number": 4490,
+      "title": "Bisection instructions for test suite breakages?",
+      "created_at": "2020-02-29T19:50:17Z",
+      "closed_at": "2022-08-26T13:11:47Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4501",
+      "number": 4501,
+      "title": "GitHub workflow `stack build` failure on Windows",
+      "created_at": "2020-03-05T15:52:36Z",
+      "closed_at": "2020-03-14T13:38:53Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4529",
+      "number": 4529,
+      "title": "Build error due to linker on OS X 10.10",
+      "created_at": "2020-03-21T14:12:58Z",
+      "closed_at": "2020-05-22T10:09:27Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4543",
+      "number": 4543,
+      "title": "Access violation on Windows on GHC 8.8.3, 8.8.4, 8.10.1 and 8.10.2",
+      "created_at": "2020-03-27T05:34:39Z",
+      "closed_at": "2021-01-07T13:52:36Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4569",
+      "number": 4569,
+      "title": "Build failure with dynamic linking (logic in Setup.hs broken)",
+      "created_at": "2020-04-05T22:28:37Z",
+      "closed_at": "2020-04-27T18:21:01Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4732",
+      "number": 4732,
+      "title": "[github-actions] Ubuntu Nightly builds are crashing",
+      "created_at": "2020-06-05T10:37:08Z",
+      "closed_at": "2020-06-06T06:34:19Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4765",
+      "number": 4765,
+      "title": "Current master build fails (tests fail?)",
+      "created_at": "2020-06-19T12:29:16Z",
+      "closed_at": "2020-06-24T17:53:03Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4795",
+      "number": 4795,
+      "title": "Build \"agda-tests\" fails using dynamic linking",
+      "created_at": "2020-07-08T17:25:42Z",
+      "closed_at": "2020-07-28T21:28:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4850",
+      "number": 4850,
+      "title": "Makefile requires global installation of GHC and Cabal",
+      "created_at": "2020-08-18T08:56:59Z",
+      "closed_at": "2020-09-02T14:50:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4962",
+      "number": 4962,
+      "title": "JS backend: bugs involving \"null\"",
+      "created_at": "2020-10-08T02:52:15Z",
+      "closed_at": "2021-02-03T14:32:10Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5314",
+      "number": 5314,
+      "title": "Warn about abstract definitions without type signatures",
+      "created_at": "2021-04-12T09:53:29Z",
+      "closed_at": "2021-04-12T14:04:07Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5740",
+      "number": 5740,
+      "title": "Optimise readTextFile",
+      "created_at": "2022-01-15T13:46:06Z",
+      "closed_at": "2022-10-06T12:03:14Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5773",
+      "number": 5773,
+      "title": "Support `text-icu-0.8.0`",
+      "created_at": "2022-02-02T21:07:53Z",
+      "closed_at": "2022-02-09T17:52:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6501",
+      "number": 6501,
+      "title": "CI Windows: adding MSYS2 to PATH breaks cache action",
+      "created_at": "2023-02-12T09:00:18Z",
+      "closed_at": "2023-02-12T20:10:32Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6620",
+      "number": 6620,
+      "title": "Agda 2.6.3  compiles application on Debian 10 much worse than on Ubuntu 18.04",
+      "created_at": "2023-05-11T20:06:47Z",
+      "closed_at": "2023-05-29T16:33:17Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8016",
+      "number": 8016,
+      "title": "Nix build fails on aarch64-darwin",
+      "created_at": "2025-07-20T19:49:42Z",
+      "closed_at": "2025-07-21T09:42:49Z"
+    }
+  ]
+}

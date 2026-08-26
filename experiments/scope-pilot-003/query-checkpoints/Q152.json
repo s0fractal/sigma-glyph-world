@@ -1,0 +1,352 @@
+{
+  "index": 152,
+  "stratum": "proofs_build_completeness",
+  "repository": "agda/agda",
+  "repository_id": 40411471,
+  "term": "ignored",
+  "query": "repo:agda/agda is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:46.963008+00:00",
+  "total_count": 48,
+  "incomplete_results": false,
+  "returned": 48,
+  "raw_response_sha256": "e140bcfe13b95350b4922b66fdf6f60933a6b805626fb16560c736385bfae7f6",
+  "items": [
+    {
+      "url": "https://github.com/agda/agda/issues/4398",
+      "number": 4398,
+      "title": "runtime irrelevance ignored for implicit arguments",
+      "created_at": "2020-01-25T13:41:42Z",
+      "closed_at": "2020-01-27T11:43:37Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4431",
+      "number": 4431,
+      "title": "hlinting agda",
+      "created_at": "2020-02-08T18:39:09Z",
+      "closed_at": "2020-07-24T18:21:51Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4481",
+      "number": 4481,
+      "title": "Named implicit arguments do not behave the same in anonymous lambdas & definitions",
+      "created_at": "2020-02-25T21:45:00Z",
+      "closed_at": "2020-03-26T20:26:21Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4506",
+      "number": 4506,
+      "title": "Lack of unicode support in locale may result in uncaught `IOException`",
+      "created_at": "2020-03-09T11:05:09Z",
+      "closed_at": "2022-01-24T15:41:13Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4560",
+      "number": 4560,
+      "title": "Loss of canonicity with no-eta record and copatterns.",
+      "created_at": "2020-04-02T08:16:24Z",
+      "closed_at": "2020-04-22T15:32:01Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4608",
+      "number": 4608,
+      "title": "Records without constructors cannot be instances.  Why?",
+      "created_at": "2020-04-19T15:12:20Z",
+      "closed_at": "2020-04-24T16:54:49Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4623",
+      "number": 4623,
+      "title": "Empty where blocks should get dead code warnings",
+      "created_at": "2020-04-25T14:08:48Z",
+      "closed_at": "2020-04-25T19:01:36Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4649",
+      "number": 4649,
+      "title": "Repair Agda's REPL (agda -I) to work with --safe flag",
+      "created_at": "2020-05-13T10:32:30Z",
+      "closed_at": "2024-11-09T17:58:14Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4701",
+      "number": 4701,
+      "title": "A compiler for Cubical Agda programs where all cubical parts have been marked as erased",
+      "created_at": "2020-06-01T11:00:20Z",
+      "closed_at": "2021-06-07T19:07:30Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4917",
+      "number": 4917,
+      "title": "The caching machinery is broken",
+      "created_at": "2020-09-08T10:33:43Z",
+      "closed_at": "2020-09-10T07:41:52Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5038",
+      "number": 5038,
+      "title": "The flags field is sometimes ignored",
+      "created_at": "2020-11-06T23:15:48Z",
+      "closed_at": "2020-11-07T11:43:56Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5057",
+      "number": 5057,
+      "title": "Add erased annotations automatically (e.g. to parameters of projections)",
+      "created_at": "2020-11-13T23:42:54Z",
+      "closed_at": "2021-02-03T15:14:50Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5101",
+      "number": 5101,
+      "title": "Error lost when --only-scope-checking in invalid combination",
+      "created_at": "2020-12-15T19:23:47Z",
+      "closed_at": "2020-12-21T19:03:52Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5250",
+      "number": 5250,
+      "title": "Change of warning options ignored",
+      "created_at": "2021-03-02T11:51:14Z",
+      "closed_at": "2021-04-20T09:20:01Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5251",
+      "number": 5251,
+      "title": "@0 annotation on lambda ignored",
+      "created_at": "2021-03-02T18:16:48Z",
+      "closed_at": "2021-06-01T10:46:12Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5318",
+      "number": 5318,
+      "title": "Why is relevance ignored by the reflection machinery?",
+      "created_at": "2021-04-14T09:59:03Z",
+      "closed_at": "2021-04-14T12:49:44Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5438",
+      "number": 5438,
+      "title": "GHC: Bind instantiated data types to `data`s",
+      "created_at": "2021-06-08T12:50:57Z",
+      "closed_at": "2021-06-08T16:43:35Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5448",
+      "number": 5448,
+      "title": "Should the predicate be erasable in the subst rule (without-K)",
+      "created_at": "2021-06-17T16:11:20Z",
+      "closed_at": "2022-10-29T21:02:09Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5524",
+      "number": 5524,
+      "title": "duplicate identifiers ignored in fixity declarations",
+      "created_at": "2021-08-19T18:04:59Z",
+      "closed_at": "2025-07-25T14:33:18Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5528",
+      "number": 5528,
+      "title": "master fails to build agda-tests with GHC-9.0.1",
+      "created_at": "2021-08-21T11:14:14Z",
+      "closed_at": "2021-10-27T15:31:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5618",
+      "number": 5618,
+      "title": "More precise wording of warning \"Instance applies only to declarations that introduce new identifiers\"",
+      "created_at": "2021-10-27T09:40:24Z",
+      "closed_at": "2026-02-21T08:44:34Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5731",
+      "number": 5731,
+      "title": "Performance: Instantiated meta-variables in interface files",
+      "created_at": "2022-01-11T11:41:40Z",
+      "closed_at": "2022-02-04T11:37:52Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5734",
+      "number": 5734,
+      "title": "Relevance check in reflection",
+      "created_at": "2022-01-13T05:37:06Z",
+      "closed_at": "2022-08-27T08:43:03Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6037",
+      "number": 6037,
+      "title": "Surprising semantics of `module` keyword in `using`/`renaming`/`hiding` clause",
+      "created_at": "2022-08-18T15:03:44Z",
+      "closed_at": "2022-08-23T12:32:22Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6066",
+      "number": 6066,
+      "title": "Document the meaning of `pattern` without `no-eta-equality`",
+      "created_at": "2022-08-31T06:06:28Z",
+      "closed_at": "2022-10-06T07:59:49Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6331",
+      "number": 6331,
+      "title": "Build failure for Agda-2.5.2 with cabal in EdisonCore-1.3.1.1",
+      "created_at": "2022-11-15T14:44:46Z",
+      "closed_at": "2022-11-16T00:31:46Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6342",
+      "number": 6342,
+      "title": "The positivity checker ignores some clauses",
+      "created_at": "2022-11-19T16:01:27Z",
+      "closed_at": "2025-11-21T20:55:25Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6379",
+      "number": 6379,
+      "title": "Weird warning for instance declarations of bad type",
+      "created_at": "2022-12-03T23:51:52Z",
+      "closed_at": "2022-12-06T17:46:22Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6417",
+      "number": 6417,
+      "title": "Forward declaration breaks eta for unit type",
+      "created_at": "2023-01-03T13:59:20Z",
+      "closed_at": "2023-01-10T10:52:10Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6465",
+      "number": 6465,
+      "title": "Do not silently ignore `.agda-lib` files",
+      "created_at": "2023-01-23T10:54:00Z",
+      "closed_at": "2023-01-24T15:18:47Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6524",
+      "number": 6524,
+      "title": "Ignore Unicode byte order mark",
+      "created_at": "2023-03-13T01:12:12Z",
+      "closed_at": "2023-05-10T15:51:55Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6574",
+      "number": 6574,
+      "title": "Sort out `--exact-split` vs. `-WCoverageNoExactSplit`",
+      "created_at": "2023-04-11T14:44:16Z",
+      "closed_at": "2023-04-30T13:26:35Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6795",
+      "number": 6795,
+      "title": "Missing warning about discarded `{-# TERMINATING #-}` pragma in `where` block inside `interleaved mutual` block",
+      "created_at": "2023-08-26T10:15:41Z",
+      "closed_at": "2023-08-28T14:14:11Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6801",
+      "number": 6801,
+      "title": "Building with `make install` requires too much time/memory",
+      "created_at": "2023-08-29T20:28:42Z",
+      "closed_at": "2023-12-04T15:00:11Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7198",
+      "number": 7198,
+      "title": "Failed to build Agda 2.6.1.2 using GHC 8.10.5",
+      "created_at": "2024-03-21T11:23:52Z",
+      "closed_at": "2024-03-21T14:10:21Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7245",
+      "number": 7245,
+      "title": "INJECTIVE_FOR_INFERENCE silently ignored on non-functions",
+      "created_at": "2024-05-03T07:15:15Z",
+      "closed_at": "2024-05-16T14:53:39Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7428",
+      "number": 7428,
+      "title": "Erasure and irrelevance forbid deeper absurd patterns",
+      "created_at": "2024-08-09T04:51:07Z",
+      "closed_at": "2024-09-02T08:50:04Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7689",
+      "number": 7689,
+      "title": "Strange indentation of record fields using `AgdaMultiCode`",
+      "created_at": "2025-01-24T11:21:06Z",
+      "closed_at": "2025-01-27T08:40:56Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7691",
+      "number": 7691,
+      "title": "Custom treeless pipeline is ignored for \"recursive\" calls",
+      "created_at": "2025-01-27T11:38:59Z",
+      "closed_at": "2025-11-27T21:01:00Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7795",
+      "number": 7795,
+      "title": "Polarity annotation ignored by positivity checker?",
+      "created_at": "2025-04-09T17:21:33Z",
+      "closed_at": "2025-04-30T18:02:11Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7836",
+      "number": 7836,
+      "title": "`record where` silently ignores postulated field values",
+      "created_at": "2025-05-01T06:39:50Z",
+      "closed_at": "2025-07-15T19:52:24Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7851",
+      "number": 7851,
+      "title": "Error TooManyPolarities is too eager",
+      "created_at": "2025-05-03T07:25:18Z",
+      "closed_at": "2025-05-03T10:41:58Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7893",
+      "number": 7893,
+      "title": "Confluence check misses critical pair",
+      "created_at": "2025-05-26T13:54:51Z",
+      "closed_at": "2025-11-29T16:21:28Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7998",
+      "number": 7998,
+      "title": "`instance` silently dropped from `primitive` and `variable` blocks",
+      "created_at": "2025-07-14T13:38:16Z",
+      "closed_at": "2025-07-15T07:22:47Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8016",
+      "number": 8016,
+      "title": "Nix build fails on aarch64-darwin",
+      "created_at": "2025-07-20T19:49:42Z",
+      "closed_at": "2025-07-21T09:42:49Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8092",
+      "number": 8092,
+      "title": "COMPILE pragmas on declared-but-not-yet-defined symbols are discarded",
+      "created_at": "2025-09-03T09:48:00Z",
+      "closed_at": "2025-09-04T18:17:19Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8206",
+      "number": 8206,
+      "title": "`interleaved mutual` does not check consistency of parameters (hiding / typing)",
+      "created_at": "2025-11-15T12:23:56Z",
+      "closed_at": "2025-11-16T17:00:29Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8305",
+      "number": 8305,
+      "title": "Type errors should not be fatal when checking a module",
+      "created_at": "2025-12-29T19:48:37Z",
+      "closed_at": "2026-04-15T20:30:47Z"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "index": 151,
+  "stratum": "proofs_build_completeness",
+  "repository": "agda/agda",
+  "repository_id": 40411471,
+  "term": "not run",
+  "query": "repo:agda/agda is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:43.790540+00:00",
+  "total_count": 57,
+  "incomplete_results": false,
+  "returned": 57,
+  "raw_response_sha256": "6ec34ad3562482bb8e51f7ecfe8534c0ba7697747db51aba74585ce4147ad699",
+  "items": [
+    {
+      "url": "https://github.com/agda/agda/issues/4457",
+      "number": 4457,
+      "title": "Use compact regions?",
+      "created_at": "2020-02-19T10:11:22Z",
+      "closed_at": "2020-02-24T10:16:29Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4469",
+      "number": 4469,
+      "title": "The warning machinery does not work correctly when interface files are involved",
+      "created_at": "2020-02-22T09:06:18Z",
+      "closed_at": "2020-02-29T15:31:05Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4521",
+      "number": 4521,
+      "title": "Massive increase in memory required to install Agda 2.6.1",
+      "created_at": "2020-03-18T07:51:28Z",
+      "closed_at": "2021-03-15T14:54:40Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4569",
+      "number": 4569,
+      "title": "Build failure with dynamic linking (logic in Setup.hs broken)",
+      "created_at": "2020-04-05T22:28:37Z",
+      "closed_at": "2020-04-27T18:21:01Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4668",
+      "number": 4668,
+      "title": "devel branch forked agda in mac howto",
+      "created_at": "2020-05-25T09:08:55Z",
+      "closed_at": "2020-05-25T09:15:17Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4729",
+      "number": 4729,
+      "title": "Duplicate actions run",
+      "created_at": "2020-06-04T21:27:51Z",
+      "closed_at": "2021-04-22T07:55:56Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4736",
+      "number": 4736,
+      "title": "Tweaking the test suite runner ",
+      "created_at": "2020-06-06T11:29:07Z",
+      "closed_at": "2026-02-28T20:18:10Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4765",
+      "number": 4765,
+      "title": "Current master build fails (tests fail?)",
+      "created_at": "2020-06-19T12:29:16Z",
+      "closed_at": "2020-06-24T17:53:03Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4784",
+      "number": 4784,
+      "title": "Make erasure compatible with univalence",
+      "created_at": "2020-06-27T16:23:42Z",
+      "closed_at": "2020-12-01T15:23:30Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4786",
+      "number": 4786,
+      "title": "Should the parameters be marked as erased in the types of constructors and projections?",
+      "created_at": "2020-06-28T11:19:41Z",
+      "closed_at": "2021-10-21T10:56:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4805",
+      "number": 4805,
+      "title": "Build failure in doc/user-manual/language/cubical.lagda",
+      "created_at": "2020-07-23T17:36:07Z",
+      "closed_at": "2020-10-28T14:46:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4814",
+      "number": 4814,
+      "title": "Emacs agda-mode setup command failing.",
+      "created_at": "2020-07-28T20:47:38Z",
+      "closed_at": "2021-09-10T17:18:24Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4850",
+      "number": 4850,
+      "title": "Makefile requires global installation of GHC and Cabal",
+      "created_at": "2020-08-18T08:56:59Z",
+      "closed_at": "2020-09-02T14:50:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4883",
+      "number": 4883,
+      "title": "The `make type-check` target does not run `stack` (only `cabal` is supported)",
+      "created_at": "2020-08-28T09:15:22Z",
+      "closed_at": "2026-03-01T21:04:30Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4900",
+      "number": 4900,
+      "title": "Travis hanging on stack build size-solver",
+      "created_at": "2020-09-01T13:04:18Z",
+      "closed_at": "2020-09-01T20:34:34Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4962",
+      "number": 4962,
+      "title": "JS backend: bugs involving \"null\"",
+      "created_at": "2020-10-08T02:52:15Z",
+      "closed_at": "2021-02-03T14:32:10Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5002",
+      "number": 5002,
+      "title": "Bad JavaScript generated",
+      "created_at": "2020-10-23T07:44:58Z",
+      "closed_at": "2020-10-29T21:29:57Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5026",
+      "number": 5026,
+      "title": "Better testing of JS backend",
+      "created_at": "2020-10-31T13:39:04Z",
+      "closed_at": "2022-08-26T19:05:05Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5131",
+      "number": 5131,
+      "title": "Agda fails test Issue4967",
+      "created_at": "2021-01-14T23:10:28Z",
+      "closed_at": "2021-01-15T17:28:04Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5169",
+      "number": 5169,
+      "title": "Master fails test \"Issue3436\"",
+      "created_at": "2021-02-04T05:31:42Z",
+      "closed_at": "2021-02-08T08:59:40Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5258",
+      "number": 5258,
+      "title": "`interaction` tests using `.hs` script are failing on github actions",
+      "created_at": "2021-03-04T16:39:15Z",
+      "closed_at": "2022-11-28T19:55:40Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5302",
+      "number": 5302,
+      "title": "building tests with cabal",
+      "created_at": "2021-04-04T11:30:02Z",
+      "closed_at": "2021-09-02T10:37:23Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5317",
+      "number": 5317,
+      "title": "The reflection machinery should support quantities",
+      "created_at": "2021-04-13T13:49:09Z",
+      "closed_at": "2021-04-29T13:37:52Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5379",
+      "number": 5379,
+      "title": "__IMPOSSIBLE_VERBOSE__ isn't verbose any more",
+      "created_at": "2021-05-11T07:08:59Z",
+      "closed_at": "2021-05-17T06:41:44Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5403",
+      "number": 5403,
+      "title": "`make up-to-date-std-lib` fails on cabal-install 3.2.0.0",
+      "created_at": "2021-05-24T20:06:31Z",
+      "closed_at": "2021-05-24T20:27:09Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5441",
+      "number": 5441,
+      "title": "Segfault with --ghc-strict",
+      "created_at": "2021-06-11T16:28:08Z",
+      "closed_at": "2021-11-23T07:19:57Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5528",
+      "number": 5528,
+      "title": "master fails to build agda-tests with GHC-9.0.1",
+      "created_at": "2021-08-21T11:14:14Z",
+      "closed_at": "2021-10-27T15:31:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5613",
+      "number": 5613,
+      "title": "Automatic record module application",
+      "created_at": "2021-10-22T18:53:17Z",
+      "closed_at": "2021-11-01T19:08:19Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5619",
+      "number": 5619,
+      "title": "Race condition in CI workflow `cabal-test` and `test`",
+      "created_at": "2021-10-27T14:12:11Z",
+      "closed_at": "2023-01-04T19:45:11Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5760",
+      "number": 5760,
+      "title": "Some code related to Cubical Agda runs also when the K rule is on",
+      "created_at": "2022-01-29T17:37:24Z",
+      "closed_at": "2022-02-04T14:11:25Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5816",
+      "number": 5816,
+      "title": "Panic at Cubical.hs:2265 with `--without-K` and `--prop`",
+      "created_at": "2022-03-09T03:49:02Z",
+      "closed_at": "2022-10-23T00:08:50Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5843",
+      "number": 5843,
+      "title": "Proposal: new flag `--cubical-compatible` replacing `--without-K`",
+      "created_at": "2022-03-23T14:57:37Z",
+      "closed_at": "2022-04-13T06:34:03Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5935",
+      "number": 5935,
+      "title": "On workflow for GitHub workflows",
+      "created_at": "2022-06-01T10:00:34Z",
+      "closed_at": "2022-06-01T15:23:24Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5963",
+      "number": 5963,
+      "title": "`interaction` testsuite requires `kpsewhich` installed",
+      "created_at": "2022-06-17T09:12:41Z",
+      "closed_at": "2022-06-21T12:43:34Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5982",
+      "number": 5982,
+      "title": "quoting/unquoting changing unexpected subterms",
+      "created_at": "2022-07-04T14:11:24Z",
+      "closed_at": "2022-10-13T09:29:49Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6111",
+      "number": 6111,
+      "title": "Is compile-time irrelevance supposed to be erased with `COMPILE` pragmas?",
+      "created_at": "2022-09-18T19:22:42Z",
+      "closed_at": "2025-05-31T14:47:52Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6124",
+      "number": 6124,
+      "title": "Reflection: cannot reduce type because variable is erased",
+      "created_at": "2022-09-22T11:38:41Z",
+      "closed_at": "2024-06-11T12:55:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6128",
+      "number": 6128,
+      "title": "Stack CI times out for Windows",
+      "created_at": "2022-09-23T14:27:10Z",
+      "closed_at": "2022-10-23T20:10:12Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6271",
+      "number": 6271,
+      "title": "Cubical: should generated code corresponding to erased constructors be erased?",
+      "created_at": "2022-11-01T12:10:34Z",
+      "closed_at": "2022-12-07T16:53:11Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6274",
+      "number": 6274,
+      "title": "Our feedback on GHC medium-term priorities",
+      "created_at": "2022-11-02T04:57:15Z",
+      "closed_at": "2022-11-15T00:09:07Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6292",
+      "number": 6292,
+      "title": "Document interaction between reflection and erasure",
+      "created_at": "2022-11-04T20:38:49Z",
+      "closed_at": "2024-06-11T12:55:20Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6298",
+      "number": 6298,
+      "title": "Code is rejected with `--cubical-compatible`, but not with `--without-K`",
+      "created_at": "2022-11-05T20:37:57Z",
+      "closed_at": "2022-11-22T20:46:37Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6620",
+      "number": 6620,
+      "title": "Agda 2.6.3  compiles application on Debian 10 much worse than on Ubuntu 18.04",
+      "created_at": "2023-05-11T20:06:47Z",
+      "closed_at": "2023-05-29T16:33:17Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6660",
+      "number": 6660,
+      "title": "`{-# INLINE #-}` for copattern constructors",
+      "created_at": "2023-05-24T08:39:35Z",
+      "closed_at": "2023-07-25T07:45:48Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6757",
+      "number": 6757,
+      "title": "Incorrect `InteractionMetaBoundaries` warning",
+      "created_at": "2023-08-08T13:45:12Z",
+      "closed_at": "2023-08-10T17:25:28Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7080",
+      "number": 7080,
+      "title": "Import libraries from a system path",
+      "created_at": "2024-02-01T07:24:25Z",
+      "closed_at": "2024-02-02T16:31:17Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7145",
+      "number": 7145,
+      "title": "Use of Non-terminating Function in Data Declaration Makes Typechecker Loop",
+      "created_at": "2024-02-24T09:01:14Z",
+      "closed_at": "2024-02-26T21:37:15Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7277",
+      "number": 7277,
+      "title": "TBT: do not count rhs `j : Size< i` towards `j < i` in termination",
+      "created_at": "2024-05-16T19:24:59Z",
+      "closed_at": "2024-07-14T13:49:00Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7466",
+      "number": 7466,
+      "title": "Compiled `--erased-cubical` program produces non-deterministic value",
+      "created_at": "2024-09-03T08:00:11Z",
+      "closed_at": "2024-09-04T15:07:29Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7637",
+      "number": 7637,
+      "title": "Discrepancy in test output for Issue2248_COMPILED_TYPE",
+      "created_at": "2024-12-04T15:19:51Z",
+      "closed_at": "2024-12-12T07:26:45Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/7722",
+      "number": 7722,
+      "title": "Exponential behavior in pattern operator parser",
+      "created_at": "2025-02-27T01:12:46Z",
+      "closed_at": "2025-02-28T18:23:13Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8076",
+      "number": 8076,
+      "title": "Actions are suspended on the agda organization",
+      "created_at": "2025-08-25T18:41:24Z",
+      "closed_at": "2025-10-03T06:56:04Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8080",
+      "number": 8080,
+      "title": "std-lib-test spends ~5% of runtime rendering warnings that are never displayed",
+      "created_at": "2025-08-29T09:14:22Z",
+      "closed_at": "2025-10-28T13:10:51Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8097",
+      "number": 8097,
+      "title": "Internal error when trying Automatic Proof Search",
+      "created_at": "2025-09-12T02:19:32Z",
+      "closed_at": "2025-10-18T18:51:17Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8254",
+      "number": 8254,
+      "title": "Only run `cubical` job in workflow `test.yml` with tag `[cubical]`",
+      "created_at": "2025-12-01T17:43:11Z",
+      "closed_at": "2025-12-01T19:36:27Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8305",
+      "number": 8305,
+      "title": "Type errors should not be fatal when checking a module",
+      "created_at": "2025-12-29T19:48:37Z",
+      "closed_at": "2026-04-15T20:30:47Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8307",
+      "number": 8307,
+      "title": "Does generalisation prepruning even *do* anything?",
+      "created_at": "2025-12-30T18:06:47Z",
+      "closed_at": "2026-04-15T20:30:43Z"
+    }
+  ]
+}

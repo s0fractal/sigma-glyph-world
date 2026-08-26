@@ -1,0 +1,275 @@
+{
+  "index": 60,
+  "stratum": "lint_static_analysis",
+  "repository": "koalaman/shellcheck",
+  "repository_id": 6731432,
+  "term": "not run",
+  "query": "repo:koalaman/shellcheck is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:11.210639+00:00",
+  "total_count": 37,
+  "incomplete_results": false,
+  "returned": 37,
+  "raw_response_sha256": "3be071e19d6f11d1fed31d851a9f95d04f976aa6a6719055dd699fceadf6314f",
+  "items": [
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1789",
+      "number": 1789,
+      "title": "CentOS 8 RPMs",
+      "created_at": "2020-01-09T17:56:52Z",
+      "closed_at": "2026-07-03T22:57:20Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1849",
+      "number": 1849,
+      "title": "Warn about bash history expansion issue",
+      "created_at": "2020-02-27T07:59:42Z",
+      "closed_at": "2020-12-21T21:57:56Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1883",
+      "number": 1883,
+      "title": "SC2129 wrongly flagging correct construct",
+      "created_at": "2020-03-22T05:28:38Z",
+      "closed_at": "2020-03-23T01:56:05Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1931",
+      "number": 1931,
+      "title": "Can't disable warnings for anonymous functions",
+      "created_at": "2020-04-27T14:24:05Z",
+      "closed_at": "2020-05-04T05:08:03Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1936",
+      "number": 1936,
+      "title": "Invalid command not noticed! bad 'eho' right echo",
+      "created_at": "2020-05-03T18:05:20Z",
+      "closed_at": "2020-05-03T19:38:06Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1996",
+      "number": 1996,
+      "title": "New directive to ignore file",
+      "created_at": "2020-06-25T16:03:11Z",
+      "closed_at": "2021-10-31T00:19:52Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2001",
+      "number": 2001,
+      "title": "docker image not working",
+      "created_at": "2020-06-27T19:42:45Z",
+      "closed_at": "2020-06-27T23:02:34Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2012",
+      "number": 2012,
+      "title": "SC1090 - how to follow a remote file?",
+      "created_at": "2020-07-12T22:51:38Z",
+      "closed_at": "2020-07-13T18:24:16Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2023",
+      "number": 2023,
+      "title": "Suppress SC2120, SC2119 on optional arguments",
+      "created_at": "2020-07-29T10:14:01Z",
+      "closed_at": "2025-04-09T03:55:29Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2081",
+      "number": 2081,
+      "title": "Enhancement Request: add IBM Power Linux Platform (ppc64le) support",
+      "created_at": "2020-10-30T06:37:29Z",
+      "closed_at": "2021-08-30T05:17:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2260",
+      "number": 2260,
+      "title": "Option --color=auto should check 'dump' & 'unknown' terminals",
+      "created_at": "2021-06-23T15:16:14Z",
+      "closed_at": "2021-07-25T21:45:33Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2285",
+      "number": 2285,
+      "title": "Bug: SC2102 on Associative Array key existence check with repeated characters",
+      "created_at": "2021-07-17T19:50:48Z",
+      "closed_at": "2021-07-25T20:05:01Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2286",
+      "number": 2286,
+      "title": "Bug: ./quickrun does not appear to work anymore",
+      "created_at": "2021-07-19T23:54:24Z",
+      "closed_at": "2021-10-16T01:08:33Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2299",
+      "number": 2299,
+      "title": "Configuration file",
+      "created_at": "2021-08-13T09:47:01Z",
+      "closed_at": "2021-08-14T06:01:23Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2314",
+      "number": 2314,
+      "title": "SC2015: Warning disappears when there is a continuation",
+      "created_at": "2021-08-29T08:11:16Z",
+      "closed_at": "2021-09-17T02:12:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2341",
+      "number": 2341,
+      "title": "Does not warn about unquoted $?",
+      "created_at": "2021-09-30T12:31:31Z",
+      "closed_at": "2021-10-07T02:06:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2353",
+      "number": 2353,
+      "title": "SC2032 triggers weirdly in a bigger file",
+      "created_at": "2021-10-08T07:24:53Z",
+      "closed_at": "2021-11-15T05:36:42Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2370",
+      "number": 2370,
+      "title": "Bug: `--format=diff` introduce syntax errors when there are multiple issues for a single token",
+      "created_at": "2021-11-09T11:44:09Z",
+      "closed_at": "2022-07-26T17:16:45Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2374",
+      "number": 2374,
+      "title": "SC2048 vs SC2066 - loop over array .. use \"quotes\" vs \"the loop will only run once\"",
+      "created_at": "2021-11-12T19:16:09Z",
+      "closed_at": "2021-11-26T14:39:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2478",
+      "number": 2478,
+      "title": "No warning with `set -e` and eval inside string interpolation",
+      "created_at": "2022-03-30T00:25:35Z",
+      "closed_at": "2022-03-30T04:50:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2531",
+      "number": 2531,
+      "title": "Add warning for $command && successful || unsuccessful",
+      "created_at": "2022-07-12T18:30:17Z",
+      "closed_at": "2022-07-12T20:56:41Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2550",
+      "number": 2550,
+      "title": "SC2312: false positive when using 'time'",
+      "created_at": "2022-08-05T10:36:15Z",
+      "closed_at": "2022-10-09T18:55:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2555",
+      "number": 2555,
+      "title": "`set -o pipefail` is part of POSIX now, consider disabling the warning for `sh`",
+      "created_at": "2022-08-11T17:08:16Z",
+      "closed_at": "2025-09-25T02:16:20Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2558",
+      "number": 2558,
+      "title": "Is shellcheck support security issues on scripts?",
+      "created_at": "2022-08-13T13:48:50Z",
+      "closed_at": "2022-08-14T01:54:18Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2599",
+      "number": 2599,
+      "title": "SC2151 — False positive",
+      "created_at": "2022-10-02T10:48:35Z",
+      "closed_at": "2022-10-07T01:22:04Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2609",
+      "number": 2609,
+      "title": " Run script through tr -d '\\r' .",
+      "created_at": "2022-10-19T20:41:01Z",
+      "closed_at": "2022-10-19T20:53:46Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2611",
+      "number": 2611,
+      "title": "One line of script is said to have no issues detected but not runnable actually, hinted \"find: paths must precede expression: `+exec'\"",
+      "created_at": "2022-10-21T07:01:59Z",
+      "closed_at": "2022-10-21T07:29:32Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2646",
+      "number": 2646,
+      "title": "ShellCheck fails to run using pre-commit (Debian-based distro/shell: bash)",
+      "created_at": "2022-12-27T00:04:51Z",
+      "closed_at": "2023-01-11T17:35:20Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2675",
+      "number": 2675,
+      "title": "Building for darwin.x86_64 fails with error building dependency \"hashable-1.4.2.0\"",
+      "created_at": "2023-01-27T09:36:46Z",
+      "closed_at": "2023-02-05T06:36:25Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2789",
+      "number": 2789,
+      "title": "SC2015: `A && B || true` should be considered OK",
+      "created_at": "2023-06-28T23:33:43Z",
+      "closed_at": "2023-09-15T09:28:00Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2803",
+      "number": 2803,
+      "title": "Heredoc after source causes sourced file to fail to parse (SC1094)",
+      "created_at": "2023-07-18T09:14:50Z",
+      "closed_at": "2023-07-30T23:53:48Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2812",
+      "number": 2812,
+      "title": "Warn about \"if FUNC; then\" and \"FUNC ||\" that suppresses \"-e\" in the function",
+      "created_at": "2023-08-01T21:37:02Z",
+      "closed_at": "2023-10-07T19:57:47Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2829",
+      "number": 2829,
+      "title": "SC1018: Unicode non-breaking space character, fix instructions do not work for MacOS",
+      "created_at": "2023-09-15T17:03:29Z",
+      "closed_at": "2023-09-19T07:40:06Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2977",
+      "number": 2977,
+      "title": "Skip SC2015 when it end with: || true",
+      "created_at": "2024-05-04T23:45:04Z",
+      "closed_at": "2025-04-12T02:15:49Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2995",
+      "number": 2995,
+      "title": "ShellCheck does not recommend quote variables",
+      "created_at": "2024-06-05T08:58:05Z",
+      "closed_at": "2024-06-08T05:03:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3070",
+      "number": 3070,
+      "title": "SC2218 not discovered when function combined with logical operators",
+      "created_at": "2024-10-09T11:24:22Z",
+      "closed_at": "2024-10-27T22:45:27Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3143",
+      "number": 3143,
+      "title": "Snap building fails: swapon: /tmp/swap: swapon failed: Operation not permitted",
+      "created_at": "2025-02-11T09:02:04Z",
+      "closed_at": "2025-09-17T02:15:40Z"
+    }
+  ]
+}

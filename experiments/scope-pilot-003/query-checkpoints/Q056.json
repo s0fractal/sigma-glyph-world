@@ -1,0 +1,30 @@
+{
+  "index": 56,
+  "stratum": "lint_static_analysis",
+  "repository": "golangci/golangci-lint",
+  "repository_id": 132145189,
+  "term": "zero issues",
+  "query": "repo:golangci/golangci-lint is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:59.650727+00:00",
+  "total_count": 2,
+  "incomplete_results": false,
+  "returned": 2,
+  "raw_response_sha256": "b6cb51aafbc9756889667732b261b2ea4bb57c7fd8974d46f00ed52231da78e2",
+  "items": [
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1981",
+      "number": 1981,
+      "title": "golangci-lint cli returning non-zero value for issues raised at a severity level not of error",
+      "created_at": "2021-05-14T02:33:12Z",
+      "closed_at": "2025-04-30T15:38:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/4041",
+      "number": 4041,
+      "title": "Can we get non-zero error code even if all issues get fixed",
+      "created_at": "2023-08-25T19:01:06Z",
+      "closed_at": "2023-08-25T19:06:47Z"
+    }
+  ]
+}

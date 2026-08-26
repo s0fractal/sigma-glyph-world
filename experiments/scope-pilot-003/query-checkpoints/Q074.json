@@ -1,0 +1,716 @@
+{
+  "index": 74,
+  "stratum": "lint_static_analysis",
+  "repository": "semgrep/semgrep",
+  "repository_id": 227803815,
+  "term": "not run",
+  "query": "repo:semgrep/semgrep is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:55.694661+00:00",
+  "total_count": 102,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "7668af3ff68b9fcf577427ed649a4d6cc1edfa8b4ce41efab48a98b5b3bfa028",
+  "items": [
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/16",
+      "number": 16,
+      "title": "-r2c flag is not respected when -rules_file is specified ",
+      "created_at": "2020-01-28T22:07:26Z",
+      "closed_at": "2020-01-30T01:45:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/66",
+      "number": 66,
+      "title": "sgrep not working on js files",
+      "created_at": "2020-02-03T01:09:57Z",
+      "closed_at": "2020-02-05T00:32:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/478",
+      "number": 478,
+      "title": "Filter allowable imports in `pattern-where-python` to limit potential risk from untrusted rules",
+      "created_at": "2020-04-15T23:02:37Z",
+      "closed_at": "2021-02-05T21:18:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/664",
+      "number": 664,
+      "title": "`...` is really slow on long files",
+      "created_at": "2020-05-03T10:44:25Z",
+      "closed_at": "2020-06-04T21:37:47Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/674",
+      "number": 674,
+      "title": "Apply equivalences only to current rule",
+      "created_at": "2020-05-04T17:38:48Z",
+      "closed_at": "2020-08-13T00:42:59Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/763",
+      "number": 763,
+      "title": "Rule Validators are not run",
+      "created_at": "2020-05-15T21:50:04Z",
+      "closed_at": "2020-05-22T16:49:03Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/775",
+      "number": 775,
+      "title": "Either change or add option to make check IDs independent of config location",
+      "created_at": "2020-05-18T15:55:30Z",
+      "closed_at": "2020-05-18T21:42:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/781",
+      "number": 781,
+      "title": "IsADirectoryError: [Errno 21] Is a directory:",
+      "created_at": "2020-05-19T10:20:55Z",
+      "closed_at": "2020-05-19T17:23:02Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/788",
+      "number": 788,
+      "title": "Fix hacky performance test fixtures",
+      "created_at": "2020-05-19T16:32:42Z",
+      "closed_at": "2020-08-10T22:20:52Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/991",
+      "number": 991,
+      "title": "\"at least one rule needs to execute arbitrary code\" not printed out till after run is complete",
+      "created_at": "2020-06-12T16:52:23Z",
+      "closed_at": "2021-01-22T20:09:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1059",
+      "number": 1059,
+      "title": "Support inline semgrep rules",
+      "created_at": "2020-06-17T23:11:32Z",
+      "closed_at": "2022-10-10T18:31:23Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1093",
+      "number": 1093,
+      "title": "Arbitrary files?",
+      "created_at": "2020-06-22T14:06:54Z",
+      "closed_at": "2020-06-24T13:31:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1155",
+      "number": 1155,
+      "title": "Feature: Add in a top-level key 'extensions' that specifies file extensions to scan instead of languages.",
+      "created_at": "2020-06-26T22:59:46Z",
+      "closed_at": "2020-08-27T19:56:21Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1191",
+      "number": 1191,
+      "title": "Fix version check caching in Docker image",
+      "created_at": "2020-07-02T13:49:04Z",
+      "closed_at": "2020-07-07T21:26:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1230",
+      "number": 1230,
+      "title": "Parse error with valid Go code",
+      "created_at": "2020-07-10T05:03:26Z",
+      "closed_at": "2020-08-04T08:32:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1297",
+      "number": 1297,
+      "title": "Semgrep 0.15.0 performance issues",
+      "created_at": "2020-07-16T20:09:46Z",
+      "closed_at": "2020-08-31T14:25:10Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1330",
+      "number": 1330,
+      "title": "Add Native (non-WSL) Windows support to semgrep",
+      "created_at": "2020-07-22T20:49:04Z",
+      "closed_at": "2025-08-11T21:48:13Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1386",
+      "number": 1386,
+      "title": "--test-ignore-todo doesn't work",
+      "created_at": "2020-07-29T00:26:12Z",
+      "closed_at": "2021-02-08T21:38:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1412",
+      "number": 1412,
+      "title": "No File Info Yet exn on toyota benchmarks C codebase",
+      "created_at": "2020-07-30T20:14:24Z",
+      "closed_at": "2020-11-10T14:49:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1425",
+      "number": 1425,
+      "title": "Parse error when running taint analysis",
+      "created_at": "2020-08-03T15:56:23Z",
+      "closed_at": "2021-03-19T17:53:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1454",
+      "number": 1454,
+      "title": "warn: parse error(Javascript file) ",
+      "created_at": "2020-08-05T12:26:15Z",
+      "closed_at": "2020-08-06T13:13:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1469",
+      "number": 1469,
+      "title": "Core when run with -json does not output json",
+      "created_at": "2020-08-07T22:17:14Z",
+      "closed_at": "2020-11-30T22:07:34Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1550",
+      "number": 1550,
+      "title": "Clean up parser warning UX",
+      "created_at": "2020-08-20T18:26:56Z",
+      "closed_at": "2020-10-06T16:54:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1688",
+      "number": 1688,
+      "title": "[Javascript] Parse Failure on empty yield",
+      "created_at": "2020-09-17T21:14:54Z",
+      "closed_at": "2020-09-21T15:29:10Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1709",
+      "number": 1709,
+      "title": "Null AST but no parsing error returned on typescript code in editor",
+      "created_at": "2020-09-21T11:35:35Z",
+      "closed_at": "2020-10-23T20:12:19Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1713",
+      "number": 1713,
+      "title": "[typescript] Probable bug in parsing",
+      "created_at": "2020-09-21T23:41:24Z",
+      "closed_at": "2020-11-24T19:28:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1724",
+      "number": 1724,
+      "title": "RFC: Add primitive for mathematical comparisons of metavariable",
+      "created_at": "2020-09-23T16:26:20Z",
+      "closed_at": "2020-10-19T18:02:08Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1743",
+      "number": 1743,
+      "title": "Docker image for CI not behaving as expected",
+      "created_at": "2020-09-29T16:32:29Z",
+      "closed_at": "2020-09-29T17:12:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1756",
+      "number": 1756,
+      "title": "Match only function signatures or class header (in Go and Typescript)",
+      "created_at": "2020-09-30T17:32:48Z",
+      "closed_at": "2020-10-11T22:30:19Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1789",
+      "number": 1789,
+      "title": "[PHP] Unable to parse $var[] = ... array append operator",
+      "created_at": "2020-10-07T08:18:36Z",
+      "closed_at": "2020-10-09T10:41:39Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1807",
+      "number": 1807,
+      "title": "PHP parse error - variable length argument lists",
+      "created_at": "2020-10-08T19:36:56Z",
+      "closed_at": "2020-10-09T14:05:29Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1808",
+      "number": 1808,
+      "title": "PHP parse error - exponentiation",
+      "created_at": "2020-10-08T19:37:52Z",
+      "closed_at": "2020-10-09T08:37:59Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1809",
+      "number": 1809,
+      "title": "PHP parse error - static anonymous functions",
+      "created_at": "2020-10-08T19:38:45Z",
+      "closed_at": "2020-10-09T08:38:16Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1810",
+      "number": 1810,
+      "title": "PHP parse error - anonymous functions inheriting variables",
+      "created_at": "2020-10-08T19:39:58Z",
+      "closed_at": "2020-10-09T14:33:59Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1822",
+      "number": 1822,
+      "title": "PHP parse error - array appends",
+      "created_at": "2020-10-12T17:49:32Z",
+      "closed_at": "2020-10-15T08:50:21Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1831",
+      "number": 1831,
+      "title": "Semgrep fails with an SSL error",
+      "created_at": "2020-10-14T13:06:48Z",
+      "closed_at": "2020-11-11T19:38:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1867",
+      "number": 1867,
+      "title": "TS Parsing failing on juice-shop",
+      "created_at": "2020-10-21T17:11:52Z",
+      "closed_at": "2021-09-08T17:59:41Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1919",
+      "number": 1919,
+      "title": "Equivalences cause Java parse errors",
+      "created_at": "2020-10-29T08:50:10Z",
+      "closed_at": "2021-08-05T17:41:21Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1922",
+      "number": 1922,
+      "title": "Parse errors not shown when run with --strict",
+      "created_at": "2020-10-29T13:36:35Z",
+      "closed_at": "2022-03-04T01:24:15Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/1960",
+      "number": 1960,
+      "title": "Missing ASI when parsing a semgrep pattern",
+      "created_at": "2020-11-04T12:17:53Z",
+      "closed_at": "2020-11-10T13:48:24Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2033",
+      "number": 2033,
+      "title": "Inline // nosem not working",
+      "created_at": "2020-11-12T18:43:49Z",
+      "closed_at": "2020-11-17T18:48:45Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2054",
+      "number": 2054,
+      "title": "semgrep thows exception on python setup.py install",
+      "created_at": "2020-11-16T17:45:43Z",
+      "closed_at": "2021-01-05T14:35:36Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2078",
+      "number": 2078,
+      "title": "javascript timeout errors on Signal-Desktop WASM autogenerated code",
+      "created_at": "2020-11-18T18:28:37Z",
+      "closed_at": "2021-03-23T09:48:35Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2098",
+      "number": 2098,
+      "title": "Ruby parse error on brew example code",
+      "created_at": "2020-11-19T16:41:24Z",
+      "closed_at": "2020-12-15T12:59:44Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2102",
+      "number": 2102,
+      "title": "Typescript rule hangs on Signal Desktop",
+      "created_at": "2020-11-20T02:40:51Z",
+      "closed_at": "2020-12-08T19:51:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2104",
+      "number": 2104,
+      "title": "Semgrep fails to parse C code with `#ifdef` mid function call",
+      "created_at": "2020-11-20T17:20:25Z",
+      "closed_at": "2022-06-21T12:07:35Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2154",
+      "number": 2154,
+      "title": "spacegrep does not match equivalent metavariables",
+      "created_at": "2020-12-02T17:06:28Z",
+      "closed_at": "2021-04-15T03:17:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2186",
+      "number": 2186,
+      "title": "Better message for partial parsing errors",
+      "created_at": "2020-12-04T14:57:16Z",
+      "closed_at": "2024-05-31T19:16:22Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2252",
+      "number": 2252,
+      "title": "Support ARM architecture",
+      "created_at": "2020-12-14T18:48:43Z",
+      "closed_at": "2023-09-04T21:32:08Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2301",
+      "number": 2301,
+      "title": "Semgrep in docker always reports \"new version is available\"",
+      "created_at": "2020-12-21T00:24:43Z",
+      "closed_at": "2020-12-23T15:44:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2313",
+      "number": 2313,
+      "title": "Cannot Run Semgrep - Exception: Could not locate 'semgrep-core' binary",
+      "created_at": "2020-12-28T15:40:40Z",
+      "closed_at": "2020-12-28T19:48:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2346",
+      "number": 2346,
+      "title": "PermissionError exception not handled",
+      "created_at": "2021-01-07T16:16:05Z",
+      "closed_at": "2021-01-15T09:07:28Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2409",
+      "number": 2409,
+      "title": "JS browser security concat bypass not detected",
+      "created_at": "2021-01-18T10:24:30Z",
+      "closed_at": "2021-01-18T11:26:00Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2411",
+      "number": 2411,
+      "title": "Rules with \"too many matches\" generate confusing \"Timeout\" error",
+      "created_at": "2021-01-19T07:02:31Z",
+      "closed_at": "2021-02-08T13:34:52Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2432",
+      "number": 2432,
+      "title": "Running semgrep on Apple M1 ARM system",
+      "created_at": "2021-01-21T18:10:31Z",
+      "closed_at": "2022-06-07T19:34:40Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2704",
+      "number": 2704,
+      "title": "Parse Java symbols containing accented characters and the new record extension",
+      "created_at": "2021-03-05T15:12:46Z",
+      "closed_at": "2021-04-15T12:49:39Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2885",
+      "number": 2885,
+      "title": "Finish Parse_ocaml_tree_sitter.ml",
+      "created_at": "2021-04-05T17:51:12Z",
+      "closed_at": "2021-09-13T11:40:04Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/2994",
+      "number": 2994,
+      "title": "Doesn't find files when running in docker",
+      "created_at": "2021-04-24T02:52:43Z",
+      "closed_at": "2021-06-11T15:39:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3019",
+      "number": 3019,
+      "title": "Multiple output options simultaneously",
+      "created_at": "2021-04-28T23:23:57Z",
+      "closed_at": "2024-08-21T17:30:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3099",
+      "number": 3099,
+      "title": "Running with `--strict` does not report results",
+      "created_at": "2021-05-13T17:57:52Z",
+      "closed_at": "2021-05-20T04:55:08Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3142",
+      "number": 3142,
+      "title": "Ensure invalid configurations are reported",
+      "created_at": "2021-05-19T01:24:47Z",
+      "closed_at": "2021-05-19T15:31:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3161",
+      "number": 3161,
+      "title": "C# tests are broken",
+      "created_at": "2021-05-20T15:28:28Z",
+      "closed_at": "2021-05-20T17:27:14Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3232",
+      "number": 3232,
+      "title": "Project hash metric depends on passwords",
+      "created_at": "2021-05-28T20:44:02Z",
+      "closed_at": "2021-06-01T18:04:12Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3307",
+      "number": 3307,
+      "title": "Run rules in semgrep-core not reporting parse errors",
+      "created_at": "2021-06-08T14:07:51Z",
+      "closed_at": "2021-06-08T18:20:51Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3430",
+      "number": 3430,
+      "title": "Slow parsing and matching with spacegrep",
+      "created_at": "2021-06-28T18:06:26Z",
+      "closed_at": "2022-06-22T00:10:37Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/3794",
+      "number": 3794,
+      "title": "URL with self signed certificate cannot be used as repository",
+      "created_at": "2021-09-01T11:57:59Z",
+      "closed_at": "2021-11-08T19:09:47Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4036",
+      "number": 4036,
+      "title": "Correctly Tag Pypi Releases for alpine",
+      "created_at": "2021-10-11T19:12:29Z",
+      "closed_at": "2022-01-28T02:29:25Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4083",
+      "number": 4083,
+      "title": "[Internal] ocamldebug does not work anymore on semgrep Main.bc",
+      "created_at": "2021-10-18T09:00:28Z",
+      "closed_at": "2022-06-11T11:08:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4135",
+      "number": 4135,
+      "title": "The advanced editor in the playground doesn't check the rules for empty values",
+      "created_at": "2021-10-23T21:22:43Z",
+      "closed_at": "2022-01-28T02:29:26Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4328",
+      "number": 4328,
+      "title": "`python.lang.security.audit.insecure-file-permissions.insecure-file-permissions` raises a `Eval_generic.NotHandled(_)` error",
+      "created_at": "2021-11-21T20:54:30Z",
+      "closed_at": "2021-11-30T14:49:51Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4540",
+      "number": 4540,
+      "title": "unit test for pattern-regex always fails locally",
+      "created_at": "2022-01-19T11:13:25Z",
+      "closed_at": "2022-02-04T10:40:53Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4701",
+      "number": 4701,
+      "title": "pre-commit installs semgrep ELF binary on M1 macs",
+      "created_at": "2022-02-18T09:35:40Z",
+      "closed_at": "2022-06-02T21:22:20Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4797",
+      "number": 4797,
+      "title": "'utf-8' codec can't decode byte 0xff in position ...",
+      "created_at": "2022-03-11T16:20:11Z",
+      "closed_at": "2022-04-13T20:48:54Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4828",
+      "number": 4828,
+      "title": "[RFC] Add minimum semgrep version needed to run rule",
+      "created_at": "2022-03-17T15:45:44Z",
+      "closed_at": "2025-09-29T20:39:18Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/4984",
+      "number": 4984,
+      "title": "Can't run scans due to: \"Additional properties are not allowed ('metavariable-analysis' was unexpected)\" error",
+      "created_at": "2022-04-08T11:32:43Z",
+      "closed_at": "2022-04-08T21:19:56Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5043",
+      "number": 5043,
+      "title": "Getting a '/.semgrep' permission denied error after upgrading from 0.57.0 to 0.83.0",
+      "created_at": "2022-04-18T15:15:05Z",
+      "closed_at": "2022-04-19T17:50:56Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5058",
+      "number": 5058,
+      "title": "Semgrep runs rules against files specified in .semgrepignore when passed explicitly",
+      "created_at": "2022-04-20T10:32:36Z",
+      "closed_at": "2022-04-20T18:00:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5252",
+      "number": 5252,
+      "title": "docker image fails to fetch rules from registry",
+      "created_at": "2022-05-18T12:40:14Z",
+      "closed_at": "2022-05-19T15:29:45Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5391",
+      "number": 5391,
+      "title": "Fatal error while trying to scan Dockerfile: invalid argument",
+      "created_at": "2022-06-01T21:31:43Z",
+      "closed_at": "2024-05-23T04:32:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5399",
+      "number": 5399,
+      "title": "Include switch does not work as expected from documentation and is difficult to configure for large repositories",
+      "created_at": "2022-06-02T15:39:12Z",
+      "closed_at": "2025-04-22T22:48:23Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5514",
+      "number": 5514,
+      "title": "Invalid Version in GitLab Sast Output",
+      "created_at": "2022-06-14T06:54:16Z",
+      "closed_at": "2022-06-15T20:30:39Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5669",
+      "number": 5669,
+      "title": "`.semgrepignore` not processed outside of working directory",
+      "created_at": "2022-07-01T07:41:35Z",
+      "closed_at": "2025-04-23T01:11:50Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5685",
+      "number": 5685,
+      "title": "--no-test-ignore-todo doesn't seem to work",
+      "created_at": "2022-07-06T00:02:38Z",
+      "closed_at": "2022-08-05T14:44:17Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5758",
+      "number": 5758,
+      "title": "Getting error while executing njsscan",
+      "created_at": "2022-07-20T10:32:28Z",
+      "closed_at": "2022-08-12T20:08:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5969",
+      "number": 5969,
+      "title": "Getting error while running njsscan",
+      "created_at": "2022-08-24T10:51:55Z",
+      "closed_at": "2022-09-25T06:58:26Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/5996",
+      "number": 5996,
+      "title": "Error while running rules: 0 bytes read on a total of 2 expected bytes",
+      "created_at": "2022-08-27T12:29:52Z",
+      "closed_at": "2022-09-24T03:38:26Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6026",
+      "number": 6026,
+      "title": "semgrep-core linked to homebrew libpcre.1.dylib",
+      "created_at": "2022-09-02T06:57:22Z",
+      "closed_at": "2022-10-11T10:51:34Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/6064",
+      "number": 6064,
+      "title": "Ignore unrelated YAML files from rulesets",
+      "created_at": "2022-09-08T12:59:47Z",
+      "closed_at": "2022-10-01T17:32:21Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7278",
+      "number": 7278,
+      "title": "Document how to run semgrep ci on PRs for workflow_dispatch GitHub event",
+      "created_at": "2023-03-03T20:10:46Z",
+      "closed_at": "2023-04-25T18:47:31Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7288",
+      "number": 7288,
+      "title": "JSON output format: local variable 'taint_sink' where it is not associated with a value",
+      "created_at": "2023-03-09T13:58:39Z",
+      "closed_at": "2023-03-13T17:09:56Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7532",
+      "number": 7532,
+      "title": "Semgrep Findings Range Extends Too Far",
+      "created_at": "2023-04-14T03:02:38Z",
+      "closed_at": "2023-07-28T18:26:18Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/7891",
+      "number": 7891,
+      "title": "semgrep returns 0 exit code when configuration path doesn't exist",
+      "created_at": "2023-05-25T19:46:08Z",
+      "closed_at": "2024-01-08T13:12:22Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/8420",
+      "number": 8420,
+      "title": "Issue in Parsing Code Snippet having matched Pattern.",
+      "created_at": "2023-08-03T09:08:03Z",
+      "closed_at": "2023-08-04T14:57:18Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/8963",
+      "number": 8963,
+      "title": "python.aws-lambda.security.dangerous-subprocess-use.dangerous-sub remediation not accurate",
+      "created_at": "2023-10-11T16:08:49Z",
+      "closed_at": "2023-10-13T16:36:27Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/9805",
+      "number": 9805,
+      "title": "Version check running when disabled",
+      "created_at": "2024-02-20T19:21:03Z",
+      "closed_at": "2024-02-22T16:26:37Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10044",
+      "number": 10044,
+      "title": "LOG_LEVEL variable causing high memory usage / process killed",
+      "created_at": "2024-04-02T21:19:51Z",
+      "closed_at": "2024-04-05T19:57:55Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10063",
+      "number": 10063,
+      "title": "Incorrect help instructions displayed on command line",
+      "created_at": "2024-04-05T08:39:18Z",
+      "closed_at": "2026-06-24T16:14:51Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/10868",
+      "number": 10868,
+      "title": "Loading rules from disk is slow",
+      "created_at": "2025-02-26T09:34:43Z",
+      "closed_at": "2025-06-09T17:53:09Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11087",
+      "number": 11087,
+      "title": "Warn but don't fail?",
+      "created_at": "2025-06-27T20:09:32Z",
+      "closed_at": "2025-07-15T19:26:26Z"
+    },
+    {
+      "url": "https://github.com/semgrep/semgrep/issues/11112",
+      "number": 11112,
+      "title": "Configure MAX number of findings for taint analysis",
+      "created_at": "2025-07-14T14:08:36Z",
+      "closed_at": "2025-07-15T19:38:52Z"
+    }
+  ]
+}

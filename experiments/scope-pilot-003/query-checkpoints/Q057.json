@@ -1,0 +1,184 @@
+{
+  "index": 57,
+  "stratum": "lint_static_analysis",
+  "repository": "koalaman/shellcheck",
+  "repository_id": 6731432,
+  "term": "exit code",
+  "query": "repo:koalaman/shellcheck is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:02.344032+00:00",
+  "total_count": 24,
+  "incomplete_results": false,
+  "returned": 24,
+  "raw_response_sha256": "ba52c4bef1fc6898b58666cfb07692355e7989b369147dae6ed49b602dac35d4",
+  "items": [
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2026",
+      "number": 2026,
+      "title": "ShellCheck should warn against \"return\" outside a function",
+      "created_at": "2020-08-02T10:44:25Z",
+      "closed_at": "2026-07-04T00:15:41Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2188",
+      "number": 2188,
+      "title": "SC2181 may be incorrect when command contains logical operators",
+      "created_at": "2021-03-26T01:30:30Z",
+      "closed_at": "2021-04-02T18:16:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2189",
+      "number": 2189,
+      "title": "Warning for \"check exit code directly\" is misleading when checking for non-zero exit code",
+      "created_at": "2021-03-26T22:43:02Z",
+      "closed_at": "2021-07-19T00:00:58Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2207",
+      "number": 2207,
+      "title": "Shellcheck 0.7.1_1 not being installable for catalina",
+      "created_at": "2021-04-16T09:52:20Z",
+      "closed_at": "2021-04-16T10:39:02Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2314",
+      "number": 2314,
+      "title": "SC2015: Warning disappears when there is a continuation",
+      "created_at": "2021-08-29T08:11:16Z",
+      "closed_at": "2021-09-17T02:12:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2338",
+      "number": 2338,
+      "title": "Add new check for error ignoring on command substitutions",
+      "created_at": "2021-09-29T00:26:13Z",
+      "closed_at": "2021-10-09T17:08:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2341",
+      "number": 2341,
+      "title": "Does not warn about unquoted $?",
+      "created_at": "2021-09-30T12:31:31Z",
+      "closed_at": "2021-10-07T02:06:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2362",
+      "number": 2362,
+      "title": "Missing \"cannot be declared & assigned separately\" error when using `local -r`",
+      "created_at": "2021-10-22T18:24:57Z",
+      "closed_at": "2021-11-06T22:43:28Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2439",
+      "number": 2439,
+      "title": "[New Check] Warn when builtins might mask return codes",
+      "created_at": "2022-01-31T18:30:33Z",
+      "closed_at": "2026-07-27T17:33:12Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2465",
+      "number": 2465,
+      "title": "SC2181 argues even if command is excessively long",
+      "created_at": "2022-03-11T19:49:06Z",
+      "closed_at": "2022-06-20T02:51:37Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2478",
+      "number": 2478,
+      "title": "No warning with `set -e` and eval inside string interpolation",
+      "created_at": "2022-03-30T00:25:35Z",
+      "closed_at": "2022-03-30T04:50:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2484",
+      "number": 2484,
+      "title": "detect ignored exitcode from subshell parameter substitution",
+      "created_at": "2022-04-10T14:13:42Z",
+      "closed_at": "2022-10-09T14:37:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2495",
+      "number": 2495,
+      "title": "Is it possible to use \"shellcheck-precommit\" pre-commit hook without Docker?",
+      "created_at": "2022-05-07T20:41:27Z",
+      "closed_at": "2023-10-03T16:16:36Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2533",
+      "number": 2533,
+      "title": "SC2154 \"referenced but not assigned\" for variables assigned and referenced in a trap",
+      "created_at": "2022-07-14T16:28:04Z",
+      "closed_at": "2022-07-14T16:47:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2544",
+      "number": 2544,
+      "title": "SC2319 - confusing warning message when checking $? after [[  ]]",
+      "created_at": "2022-07-24T13:24:00Z",
+      "closed_at": "2022-07-25T19:22:32Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2550",
+      "number": 2550,
+      "title": "SC2312: false positive when using 'time'",
+      "created_at": "2022-08-05T10:36:15Z",
+      "closed_at": "2022-10-09T18:55:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2646",
+      "number": 2646,
+      "title": "ShellCheck fails to run using pre-commit (Debian-based distro/shell: bash)",
+      "created_at": "2022-12-27T00:04:51Z",
+      "closed_at": "2023-01-11T17:35:20Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2655",
+      "number": 2655,
+      "title": "Potential false positive SC2320",
+      "created_at": "2023-01-06T07:33:49Z",
+      "closed_at": "2023-01-09T08:41:25Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2670",
+      "number": 2670,
+      "title": "Following advice for SC2181 gives SC2077",
+      "created_at": "2023-01-23T04:11:55Z",
+      "closed_at": "2023-01-24T01:39:59Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2709",
+      "number": 2709,
+      "title": "SC2181 conflicts with SC2310",
+      "created_at": "2023-03-07T12:14:46Z",
+      "closed_at": "2023-04-21T18:46:51Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3121",
+      "number": 3121,
+      "title": "The \"Use && exit 1\" for SC2251 can result in a wrong exit code",
+      "created_at": "2025-01-13T12:58:58Z",
+      "closed_at": "2026-07-27T18:04:26Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3143",
+      "number": 3143,
+      "title": "Snap building fails: swapon: /tmp/swap: swapon failed: Operation not permitted",
+      "created_at": "2025-02-11T09:02:04Z",
+      "closed_at": "2025-09-17T02:15:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3152",
+      "number": 3152,
+      "title": "Warn if scripts or functions end with `[ condition ] && cmd`",
+      "created_at": "2025-02-26T17:15:51Z",
+      "closed_at": "2025-02-28T04:49:02Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3155",
+      "number": 3155,
+      "title": "Add native support for \"Code Climate\" / \"GitLab Code Quality\" report",
+      "created_at": "2025-03-10T12:01:58Z",
+      "closed_at": "2025-08-05T10:18:21Z"
+    }
+  ]
+}

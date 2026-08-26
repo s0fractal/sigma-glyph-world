@@ -1,0 +1,93 @@
+{
+  "index": 129,
+  "stratum": "proofs_build_completeness",
+  "repository": "leanprover/lean4",
+  "repository_id": 129571436,
+  "term": "false positive",
+  "query": "repo:leanprover/lean4 is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:41.895782+00:00",
+  "total_count": 11,
+  "incomplete_results": false,
+  "returned": 11,
+  "raw_response_sha256": "fa6632fda27a36fa0195ef03e150ebc7faeaee0dd82bc20f9c4e138941d679e3",
+  "items": [
+    {
+      "url": "https://github.com/leanprover/lean4/issues/503",
+      "number": 503,
+      "title": "Progress notification server protocol extension proposal",
+      "created_at": "2021-05-31T11:37:30Z",
+      "closed_at": "2021-06-05T11:49:28Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/1206",
+      "number": 1206,
+      "title": "Unused variable false positive on destructuring assignment ",
+      "created_at": "2022-06-09T16:08:30Z",
+      "closed_at": "2022-06-10T15:31:36Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/1214",
+      "number": 1214,
+      "title": "Unused variables false positive with match",
+      "created_at": "2022-06-13T17:56:31Z",
+      "closed_at": "2022-08-01T14:09:10Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/1633",
+      "number": 1633,
+      "title": "`linter.unusedVariables` false positive",
+      "created_at": "2022-09-21T23:07:11Z",
+      "closed_at": "2024-09-13T10:15:08Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2088",
+      "number": 2088,
+      "title": "`linter.unusedVariables` false positive in dependent types",
+      "created_at": "2023-02-04T06:46:57Z",
+      "closed_at": "2024-09-13T09:16:28Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2873",
+      "number": 2873,
+      "title": "cases/induction does not connect reverted variables in info tree",
+      "created_at": "2023-11-14T08:18:35Z",
+      "closed_at": "2025-05-31T22:52:07Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4328",
+      "number": 4328,
+      "title": "bug: unusedVariable false positive in implict arguments ",
+      "created_at": "2024-06-03T10:48:15Z",
+      "closed_at": "2024-06-04T09:52:17Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4714",
+      "number": 4714,
+      "title": "`linter.unusedVariables` false positive when using `match` and `assumption`",
+      "created_at": "2024-07-10T07:38:08Z",
+      "closed_at": "2024-09-19T11:14:19Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4828",
+      "number": 4828,
+      "title": "Unused variable linter false positive",
+      "created_at": "2024-07-25T08:57:20Z",
+      "closed_at": "2024-08-01T11:57:50Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/9909",
+      "number": 9909,
+      "title": "`unusedSimpArgs` linter false positive",
+      "created_at": "2025-08-14T07:12:58Z",
+      "closed_at": "2025-08-14T10:19:50Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/10678",
+      "number": 10678,
+      "title": "`ToExpr` deriving handler puts auxiliary declaration into the wrong namespace",
+      "created_at": "2025-10-06T07:48:18Z",
+      "closed_at": "2025-10-06T12:07:10Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "index": 113,
+  "stratum": "artifact_conformance",
+  "repository": "ossf/scorecard",
+  "repository_id": 302670797,
+  "term": "exit code",
+  "query": "repo:ossf/scorecard is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:57.224372+00:00",
+  "total_count": 5,
+  "incomplete_results": false,
+  "returned": 5,
+  "raw_response_sha256": "869b1f80da65775d1b0382a26a920752f639f0a53439dbd1cae542696d4449c8",
+  "items": [
+    {
+      "url": "https://github.com/ossf/scorecard/issues/512",
+      "number": 512,
+      "title": "BUG: Cron job looping",
+      "created_at": "2021-05-26T23:58:04Z",
+      "closed_at": "2021-06-01T22:58:36Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1659",
+      "number": 1659,
+      "title": "BUG - Fix golang CI issues",
+      "created_at": "2022-02-18T14:25:33Z",
+      "closed_at": "2022-02-19T21:56:34Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2118",
+      "number": 2118,
+      "title": "scorecard_4.5.0_linux_amd64.tar.gz wasn't released",
+      "created_at": "2022-08-03T03:20:47Z",
+      "closed_at": "2022-08-18T22:48:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2124",
+      "number": 2124,
+      "title": "Feature scorecard exits with non-zero status when internal errors occur",
+      "created_at": "2022-08-04T18:31:16Z",
+      "closed_at": "2022-08-15T20:48:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2902",
+      "number": 2902,
+      "title": "BUG:Error: check runtime error: CII-Best-Practices: internal error: error during json parsing: error during json.Unmarshal: invalid character '<' looking for beginning of value",
+      "created_at": "2023-04-25T07:42:54Z",
+      "closed_at": "2023-05-06T02:55:26Z"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "index": 39,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "not run",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:04.376731+00:00",
+  "total_count": 37,
+  "incomplete_results": false,
+  "returned": 37,
+  "raw_response_sha256": "09340862c7e9e0c77a89e7e090a893aff968abcec1a4d069aea3a901a7d1f9cf",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/13",
+      "number": 13,
+      "title": "Add support for stress tests to nextest",
+      "created_at": "2022-02-08T01:34:17Z",
+      "closed_at": "2025-03-10T19:35:35Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/35",
+      "number": 35,
+      "title": "slow down, leaking ansi escapes in output",
+      "created_at": "2022-02-14T20:57:20Z",
+      "closed_at": "2022-02-14T22:21:06Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/36",
+      "number": 36,
+      "title": "--recursive to test an entire workspace?",
+      "created_at": "2022-02-14T21:08:34Z",
+      "closed_at": "2022-02-14T22:17:10Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/98",
+      "number": 98,
+      "title": "Tracking issue for reuse build options",
+      "created_at": "2022-03-08T00:46:25Z",
+      "closed_at": "2022-04-17T02:20:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/159",
+      "number": 159,
+      "title": "Add partition operator to filter expressions?",
+      "created_at": "2022-04-17T17:03:44Z",
+      "closed_at": "2022-04-18T16:49:28Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/208",
+      "number": 208,
+      "title": "Skipping tests",
+      "created_at": "2022-05-13T10:30:03Z",
+      "closed_at": "2022-05-13T10:35:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/260",
+      "number": 260,
+      "title": "No such file or directory when trying to run tests in another docker container than it was built in",
+      "created_at": "2022-06-06T12:44:58Z",
+      "closed_at": "2022-06-09T01:38:09Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/267",
+      "number": 267,
+      "title": "macos: dyld: Library not loaded: @rpath/libtest-77ee8c29c330e4a3.dylib",
+      "created_at": "2022-06-09T20:28:55Z",
+      "closed_at": "2024-05-23T21:14:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/319",
+      "number": 319,
+      "title": "Use environement variables from .cargo/config.toml",
+      "created_at": "2022-06-27T19:47:53Z",
+      "closed_at": "2022-06-30T04:18:29Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/416",
+      "number": 416,
+      "title": "Detecting invocations of nextest",
+      "created_at": "2022-07-27T18:03:34Z",
+      "closed_at": "2022-07-28T01:03:48Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/430",
+      "number": 430,
+      "title": "No meaningful test output in GitHub Actions",
+      "created_at": "2022-07-31T21:09:27Z",
+      "closed_at": "2022-07-31T21:20:14Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/441",
+      "number": 441,
+      "title": "No detailed error message when `cargo test --no-run --message-format json-render-diagnostics` failed",
+      "created_at": "2022-08-03T04:53:54Z",
+      "closed_at": "2022-08-03T05:15:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/740",
+      "number": 740,
+      "title": "Run test parallely  when `--no-capture` flag is enabled",
+      "created_at": "2022-12-28T13:01:27Z",
+      "closed_at": "2022-12-30T09:18:36Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/767",
+      "number": 767,
+      "title": "unable to find cargo-nextest-dup",
+      "created_at": "2023-01-12T13:24:51Z",
+      "closed_at": "2023-01-12T22:01:52Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/847",
+      "number": 847,
+      "title": "Allow specifying a default filter for a profile",
+      "created_at": "2023-04-04T17:52:08Z",
+      "closed_at": "2024-08-25T20:37:54Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/917",
+      "number": 917,
+      "title": "streamline bin injection into integration test",
+      "created_at": "2023-07-27T23:02:14Z",
+      "closed_at": "2023-07-27T23:39:38Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/958",
+      "number": 958,
+      "title": "Question/Suggestion: Keep an expected test duration log and guide CI users in using it",
+      "created_at": "2023-09-14T10:49:30Z",
+      "closed_at": "2023-09-14T17:51:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1107",
+      "number": 1107,
+      "title": "An option to fail if no test has been actually run",
+      "created_at": "2023-11-14T04:43:09Z",
+      "closed_at": "2024-08-25T20:32:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1108",
+      "number": 1108,
+      "title": "A typo can lead to accidentally skipping all tests",
+      "created_at": "2023-11-14T05:48:28Z",
+      "closed_at": "2023-11-15T00:52:34Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1140",
+      "number": 1140,
+      "title": "nextest run does not inherit `OUT_DIR` env var from Cargo",
+      "created_at": "2023-11-30T16:49:18Z",
+      "closed_at": "2023-12-06T04:54:32Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1316",
+      "number": 1316,
+      "title": "Optionally use threads instead of processes?",
+      "created_at": "2024-02-16T13:21:12Z",
+      "closed_at": "2024-02-20T22:44:51Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1358",
+      "number": 1358,
+      "title": "Add support for per-test target runners",
+      "created_at": "2024-03-05T21:27:51Z",
+      "closed_at": "2025-03-10T21:20:07Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1369",
+      "number": 1369,
+      "title": "when using nextest a test fails (doesn't fail with cargo test)",
+      "created_at": "2024-03-10T22:51:23Z",
+      "closed_at": "2024-04-09T00:17:01Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1483",
+      "number": 1483,
+      "title": "Add support for `cargo test`s --skip and --exact command line flags",
+      "created_at": "2024-05-06T08:41:07Z",
+      "closed_at": "2024-10-05T21:28:34Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1496",
+      "number": 1496,
+      "title": "nextest chooses arbitrarily not to run some tests it's found",
+      "created_at": "2024-05-11T08:23:39Z",
+      "closed_at": "2024-05-17T11:53:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1639",
+      "number": 1639,
+      "title": "Behavior change: produce a non-zero exit code (4) if no tests were run",
+      "created_at": "2024-08-18T02:34:45Z",
+      "closed_at": "2024-08-18T22:56:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1684",
+      "number": 1684,
+      "title": "Nextest doesn't work in workspace where Cargo.toml of workspace is not hierarchically higher than crates",
+      "created_at": "2024-09-04T14:27:55Z",
+      "closed_at": "2025-06-05T06:55:25Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1728",
+      "number": 1728,
+      "title": "[feature request]: Add ability to throttle RAM usage",
+      "created_at": "2024-09-23T16:30:03Z",
+      "closed_at": "2024-10-04T07:01:20Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1816",
+      "number": 1816,
+      "title": "Bug: filterset binary operators are parsed as function applications",
+      "created_at": "2024-10-22T19:02:32Z",
+      "closed_at": "2026-05-24T04:00:59Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1891",
+      "number": 1891,
+      "title": "Bug: leak detection swallows test failure output",
+      "created_at": "2024-11-22T11:09:12Z",
+      "closed_at": "2024-11-23T23:29:09Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2124",
+      "number": 2124,
+      "title": "Bug: default deduced target triple is wrong",
+      "created_at": "2025-02-06T15:58:35Z",
+      "closed_at": "2025-02-09T22:34:42Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2261",
+      "number": 2261,
+      "title": "Bug: setting failure-ouput in the config prevents you fron passing the --no-run flag",
+      "created_at": "2025-03-31T06:34:47Z",
+      "closed_at": "2025-03-31T21:34:12Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2310",
+      "number": 2310,
+      "title": "Bug: serial tests start to run before other finish",
+      "created_at": "2025-04-27T16:00:07Z",
+      "closed_at": "2025-04-27T20:16:23Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2372",
+      "number": 2372,
+      "title": "Bug: WebAssembly Target Runner Support",
+      "created_at": "2025-05-30T16:15:45Z",
+      "closed_at": "2025-06-02T14:04:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2463",
+      "number": 2463,
+      "title": "nextest test suite hanging in some configurations (Cargo 1.88 bug)",
+      "created_at": "2025-07-12T00:03:43Z",
+      "closed_at": "2025-08-07T21:08:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2623",
+      "number": 2623,
+      "title": "--message-format documentation outdated",
+      "created_at": "2025-10-01T18:51:51Z",
+      "closed_at": "2025-10-01T20:35:55Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2794",
+      "number": 2794,
+      "title": "Bug: can't build in macos 26.1",
+      "created_at": "2025-11-21T08:40:01Z",
+      "closed_at": "2025-11-21T08:58:13Z"
+    }
+  ]
+}

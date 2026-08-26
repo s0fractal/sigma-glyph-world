@@ -1,0 +1,142 @@
+{
+  "index": 109,
+  "stratum": "artifact_conformance",
+  "repository": "sigstore/cosign",
+  "repository_id": 335952417,
+  "term": "not run",
+  "query": "repo:sigstore/cosign is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:46.231096+00:00",
+  "total_count": 18,
+  "incomplete_results": false,
+  "returned": 18,
+  "raw_response_sha256": "1caa26f1c7a7b78a1a4dbfa9bb527d0ac3e918b424a008036472c5c61cafdc54",
+  "items": [
+    {
+      "url": "https://github.com/sigstore/cosign/issues/38",
+      "number": 38,
+      "title": "Idea: kubectl plugin to embed signatures in objects",
+      "created_at": "2021-03-01T17:34:58Z",
+      "closed_at": "2026-03-09T04:31:38Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/325",
+      "number": 325,
+      "title": "design: consider allow pass by tag to image ref for signing and verifying process",
+      "created_at": "2021-05-17T08:37:52Z",
+      "closed_at": "2021-05-24T17:11:44Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/383",
+      "number": 383,
+      "title": "Cosign with AWS ECR ",
+      "created_at": "2021-06-22T05:08:04Z",
+      "closed_at": "2021-07-02T14:23:44Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/494",
+      "number": 494,
+      "title": "Binary release not working on alpine based images",
+      "created_at": "2021-07-28T10:15:14Z",
+      "closed_at": "2021-07-29T14:55:47Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/678",
+      "number": 678,
+      "title": "Run Allstar across sigstore",
+      "created_at": "2021-09-15T14:37:03Z",
+      "closed_at": "2023-10-05T07:23:20Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1037",
+      "number": 1037,
+      "title": "Signing with PKCS#11 keypair that has no X.509 certificate",
+      "created_at": "2021-11-11T21:33:02Z",
+      "closed_at": "2021-11-12T20:40:57Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1140",
+      "number": 1140,
+      "title": "Security Hardening Tracking Issue",
+      "created_at": "2021-12-05T16:57:55Z",
+      "closed_at": "2024-01-05T19:47:36Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1212",
+      "number": 1212,
+      "title": "Enforce image signing on AWS ECS",
+      "created_at": "2021-12-14T22:59:08Z",
+      "closed_at": "2022-02-21T22:02:42Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1574",
+      "number": 1574,
+      "title": "ClusterImagePolicy CRD Status implementation",
+      "created_at": "2022-03-09T14:02:58Z",
+      "closed_at": "2023-01-30T17:16:30Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1643",
+      "number": 1643,
+      "title": "Binary for Debian release has unexpected name",
+      "created_at": "2022-03-21T20:29:32Z",
+      "closed_at": "2022-03-30T01:09:07Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/1692",
+      "number": 1692,
+      "title": "panic: The environment variable \"SYSTEM_NAMESPACE\" is not set",
+      "created_at": "2022-03-31T00:45:25Z",
+      "closed_at": "2022-03-31T22:02:37Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/2170",
+      "number": 2170,
+      "title": "Has anyone had success signing an windows executable? (SignTool)",
+      "created_at": "2022-08-16T21:01:42Z",
+      "closed_at": "2022-10-19T02:28:43Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/2655",
+      "number": 2655,
+      "title": "verify unsigned local image throws panic error",
+      "created_at": "2023-01-25T10:38:57Z",
+      "closed_at": "2023-01-25T17:48:14Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/2783",
+      "number": 2783,
+      "title": "Question: what URI schemes can be used with cosign?",
+      "created_at": "2023-03-10T10:12:25Z",
+      "closed_at": "2023-07-24T01:56:25Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3034",
+      "number": 3034,
+      "title": "`cosign digest` subcommand to resolve tag to digest",
+      "created_at": "2023-06-03T21:45:55Z",
+      "closed_at": "2023-10-18T15:09:22Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3343",
+      "number": 3343,
+      "title": "Add end-to-end testing for PKCS11 token signing",
+      "created_at": "2023-11-06T19:57:08Z",
+      "closed_at": "2024-02-05T15:34:33Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3361",
+      "number": 3361,
+      "title": "Cosign 2.2.1 Docker image missing /bin/sh",
+      "created_at": "2023-11-12T14:55:36Z",
+      "closed_at": "2023-11-19T14:21:43Z"
+    },
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3875",
+      "number": 3875,
+      "title": "Cosign timestamp verification does not work with protobuf bundle format",
+      "created_at": "2024-09-10T19:08:10Z",
+      "closed_at": "2024-09-11T00:19:04Z"
+    }
+  ]
+}

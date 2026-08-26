@@ -1,0 +1,716 @@
+{
+  "index": 165,
+  "stratum": "proofs_build_completeness",
+  "repository": "NixOS/nixpkgs",
+  "repository_id": 4542716,
+  "term": "not run",
+  "query": "repo:NixOS/nixpkgs is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:49:24.966651+00:00",
+  "total_count": 1914,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "f25ec8496b33b3b950733fd4643ee82286b86f26dccbbd7404071aebd8c70d90",
+  "items": [
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76844",
+      "number": 76844,
+      "title": "multibootusb does not run",
+      "created_at": "2020-01-02T21:59:38Z",
+      "closed_at": "2020-01-08T14:27:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76860",
+      "number": 76860,
+      "title": "Cannot connect to Nix store via SSH",
+      "created_at": "2020-01-03T04:32:58Z",
+      "closed_at": "2020-01-04T04:39:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76928",
+      "number": 76928,
+      "title": "package request: howdy  Windows Hello face recognition on linux",
+      "created_at": "2020-01-04T10:36:00Z",
+      "closed_at": "2025-09-24T16:26:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76996",
+      "number": 76996,
+      "title": "google-chrome does not run from the environment that uses libredirect",
+      "created_at": "2020-01-05T20:10:01Z",
+      "closed_at": "2026-02-14T14:47:47Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77119",
+      "number": 77119,
+      "title": "Cannot install Python dependencies with Poetry",
+      "created_at": "2020-01-06T18:59:57Z",
+      "closed_at": "2020-01-07T18:36:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77338",
+      "number": 77338,
+      "title": "chromedriver can't start chromium due to mode",
+      "created_at": "2020-01-08T21:21:50Z",
+      "closed_at": "2020-01-09T07:48:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77339",
+      "number": 77339,
+      "title": "krop segfaults",
+      "created_at": "2020-01-08T21:29:03Z",
+      "closed_at": "2020-01-16T16:02:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77550",
+      "number": 77550,
+      "title": "skanlite does not start",
+      "created_at": "2020-01-12T11:36:46Z",
+      "closed_at": "2020-01-17T18:58:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77736",
+      "number": 77736,
+      "title": "libopenshot-audio: does not install [SOLVED]",
+      "created_at": "2020-01-15T08:18:22Z",
+      "closed_at": "2020-03-23T15:59:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77858",
+      "number": 77858,
+      "title": "Packaging dracut",
+      "created_at": "2020-01-17T03:58:19Z",
+      "closed_at": "2023-01-16T16:53:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77995",
+      "number": 77995,
+      "title": "firefox fails to load libEGL.so using i965",
+      "created_at": "2020-01-18T21:40:18Z",
+      "closed_at": "2020-01-19T15:15:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78044",
+      "number": 78044,
+      "title": "Node2nix doesn't support the `nodejs-13_x` packageset",
+      "created_at": "2020-01-19T19:54:04Z",
+      "closed_at": "2020-03-31T19:20:25Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78085",
+      "number": 78085,
+      "title": "podman not working on unstable",
+      "created_at": "2020-01-20T08:47:36Z",
+      "closed_at": "2020-01-21T08:35:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78211",
+      "number": 78211,
+      "title": "Could not import the zenmapGUI.App module: 'No module named gtk'.",
+      "created_at": "2020-01-21T20:54:00Z",
+      "closed_at": "2020-07-22T00:50:16Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78304",
+      "number": 78304,
+      "title": "Imapfilter is broken",
+      "created_at": "2020-01-22T15:58:33Z",
+      "closed_at": "2020-04-13T07:31:19Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78449",
+      "number": 78449,
+      "title": "anki: upgrade to latest release",
+      "created_at": "2020-01-24T23:50:58Z",
+      "closed_at": "2023-04-11T21:43:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78450",
+      "number": 78450,
+      "title": "Chromium and Google Chrome need new maintainers",
+      "created_at": "2020-01-25T00:28:14Z",
+      "closed_at": "2021-02-07T18:26:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78538",
+      "number": 78538,
+      "title": "Bug in fetchFromGithub",
+      "created_at": "2020-01-26T13:00:25Z",
+      "closed_at": "2020-01-26T23:31:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78552",
+      "number": 78552,
+      "title": "ldc fails to build",
+      "created_at": "2020-01-26T14:40:40Z",
+      "closed_at": "2020-01-27T18:47:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78568",
+      "number": 78568,
+      "title": "in zsh with command-not-found, missing programs return null error ",
+      "created_at": "2020-01-26T18:22:41Z",
+      "closed_at": "2021-01-24T19:14:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78705",
+      "number": 78705,
+      "title": "nixos-option intermittently fails",
+      "created_at": "2020-01-28T13:28:03Z",
+      "closed_at": "2020-01-29T01:02:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78770",
+      "number": 78770,
+      "title": "mysql-workbench fails to build due to warnings",
+      "created_at": "2020-01-29T11:51:10Z",
+      "closed_at": "2020-03-14T03:41:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78811",
+      "number": 78811,
+      "title": "singularity-tools.buildImage: FATAL: shell /bin/sh doesn't exist in container",
+      "created_at": "2020-01-30T06:03:17Z",
+      "closed_at": "2020-02-03T20:19:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79061",
+      "number": 79061,
+      "title": "pkgs.mkShell is executing scripts added to buildInputs",
+      "created_at": "2020-02-02T01:03:53Z",
+      "closed_at": "2020-02-03T06:22:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79109",
+      "number": 79109,
+      "title": "\"No space left on device\" running out of Inodes on server",
+      "created_at": "2020-02-02T19:14:02Z",
+      "closed_at": "2020-08-24T14:34:43Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79245",
+      "number": 79245,
+      "title": "lispPackages sourced with lispPackages.clwrapper fail to load",
+      "created_at": "2020-02-05T00:29:30Z",
+      "closed_at": "2020-02-11T02:27:24Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79258",
+      "number": 79258,
+      "title": "Anbox not working : session-manager, network connectivity",
+      "created_at": "2020-02-05T09:58:13Z",
+      "closed_at": "2020-08-18T12:01:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79304",
+      "number": 79304,
+      "title": "nixos.tests.installer.simpleUefiSystemdBoot.x86_64-linux is broken",
+      "created_at": "2020-02-06T02:36:42Z",
+      "closed_at": "2020-02-09T07:22:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79968",
+      "number": 79968,
+      "title": "nix-prefetch-git derivation does not pull all the necessary dependencies",
+      "created_at": "2020-02-13T02:09:38Z",
+      "closed_at": "2020-02-13T15:18:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79975",
+      "number": 79975,
+      "title": "Rust Application Migration to fetchCargoTarball Implementation",
+      "created_at": "2020-02-13T03:27:51Z",
+      "closed_at": "2020-03-19T03:12:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80060",
+      "number": 80060,
+      "title": "nixosTests.postgresql-wal-receiver is broken",
+      "created_at": "2020-02-13T21:22:08Z",
+      "closed_at": "2020-02-16T20:58:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80061",
+      "number": 80061,
+      "title": "nixosTests.redmine is broken",
+      "created_at": "2020-02-13T21:23:54Z",
+      "closed_at": "2020-04-22T00:24:04Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80702",
+      "number": 80702,
+      "title": "Alacritty won't start - found no glX extensions",
+      "created_at": "2020-02-21T08:30:21Z",
+      "closed_at": "2020-02-23T09:03:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80713",
+      "number": 80713,
+      "title": "plasma5 activation scripts fails with unset/null XDG_CONFIG_HOME",
+      "created_at": "2020-02-21T11:00:26Z",
+      "closed_at": "2020-02-27T17:08:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80813",
+      "number": 80813,
+      "title": "Cross-compiling gtk3.dev fails",
+      "created_at": "2020-02-22T17:30:54Z",
+      "closed_at": "2022-06-03T16:53:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80815",
+      "number": 80815,
+      "title": "AMD Radeon RX 5700XT \"(EE) No devices detected\"",
+      "created_at": "2020-02-22T17:46:37Z",
+      "closed_at": "2020-03-18T15:25:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80976",
+      "number": 80976,
+      "title": "seafile-client: fails to launch due to `Could not find the Qt platform plugin \"xcb\"` in 20.03",
+      "created_at": "2020-02-24T19:10:09Z",
+      "closed_at": "2020-02-26T01:11:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81194",
+      "number": 81194,
+      "title": "[Guix] msbuild outdated mono dependencies?",
+      "created_at": "2020-02-27T17:25:56Z",
+      "closed_at": "2023-06-25T14:55:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81206",
+      "number": 81206,
+      "title": "neovim install fails with missing libluv.so.1",
+      "created_at": "2020-02-27T20:56:49Z",
+      "closed_at": "2020-03-02T09:35:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81218",
+      "number": 81218,
+      "title": "blender 2.82 with numpy does not find numpy at run-time",
+      "created_at": "2020-02-27T23:18:30Z",
+      "closed_at": "2020-03-03T13:31:12Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81284",
+      "number": 81284,
+      "title": "Flatpaks can't be run/installed without org.freedesktop.Accounts interface",
+      "created_at": "2020-02-28T11:48:29Z",
+      "closed_at": "2020-03-23T15:15:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81408",
+      "number": 81408,
+      "title": "multibootusb: QT error",
+      "created_at": "2020-02-29T20:34:59Z",
+      "closed_at": "2021-04-16T09:16:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81425",
+      "number": 81425,
+      "title": "Xpra 3.0.6 failing to start xdummy server",
+      "created_at": "2020-03-01T08:58:48Z",
+      "closed_at": "2020-04-02T03:39:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81634",
+      "number": 81634,
+      "title": "nixos/acme: force-renewing certificates is unreasonably difficult",
+      "created_at": "2020-03-03T16:58:20Z",
+      "closed_at": "2020-10-30T13:04:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81726",
+      "number": 81726,
+      "title": "appimage-run: Hyper 3 does not run",
+      "created_at": "2020-03-04T14:20:11Z",
+      "closed_at": "2020-03-07T12:49:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81842",
+      "number": 81842,
+      "title": "security.acme timeout because services.nginx takes time to start",
+      "created_at": "2020-03-05T20:05:42Z",
+      "closed_at": "2020-06-29T08:17:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82008",
+      "number": 82008,
+      "title": "julia_13 doesn't build",
+      "created_at": "2020-03-07T18:58:19Z",
+      "closed_at": "2021-04-28T23:39:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82304",
+      "number": 82304,
+      "title": "CMAKE_INSTALL_DOCDIR set incorrectly without multiple outputs",
+      "created_at": "2020-03-11T06:39:37Z",
+      "closed_at": "2020-07-19T07:25:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82428",
+      "number": 82428,
+      "title": "nixos/mysql: Error first init mysql databases",
+      "created_at": "2020-03-12T18:01:34Z",
+      "closed_at": "2020-03-15T14:47:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82732",
+      "number": 82732,
+      "title": "postgres initdb doesn't work from command line in nix-shell",
+      "created_at": "2020-03-16T15:30:47Z",
+      "closed_at": "2023-07-03T13:49:05Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82748",
+      "number": 82748,
+      "title": "teams: Not working outside desktop environments",
+      "created_at": "2020-03-16T20:14:43Z",
+      "closed_at": "2020-03-17T16:10:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82923",
+      "number": 82923,
+      "title": "dvipng extremely slow",
+      "created_at": "2020-03-19T07:24:39Z",
+      "closed_at": "2020-04-01T06:22:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82983",
+      "number": 82983,
+      "title": "nixpkgs-built packages having issues running on fontconfig 2.13 distros",
+      "created_at": "2020-03-20T07:38:56Z",
+      "closed_at": "2020-11-10T10:47:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83157",
+      "number": 83157,
+      "title": "nixos-manual runs as root",
+      "created_at": "2020-03-22T19:41:14Z",
+      "closed_at": "2020-03-24T14:26:56Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83411",
+      "number": 83411,
+      "title": "Packaging request: Jami desktop client",
+      "created_at": "2020-03-26T07:29:30Z",
+      "closed_at": "2021-10-24T20:36:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83492",
+      "number": 83492,
+      "title": "Legacy nvidia driver 340 fails to compile with recent linux kernel 5.4",
+      "created_at": "2020-03-27T13:03:01Z",
+      "closed_at": "2020-07-01T19:08:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83499",
+      "number": 83499,
+      "title": "[discussion] shared yarnPackages.nix to reduce evaluation overhead",
+      "created_at": "2020-03-27T14:25:58Z",
+      "closed_at": "2026-02-19T18:10:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83575",
+      "number": 83575,
+      "title": "dvtm doesn't build for aarch64",
+      "created_at": "2020-03-28T04:13:55Z",
+      "closed_at": "2020-04-29T18:42:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83699",
+      "number": 83699,
+      "title": "Zotero cannot open file chooser dialog",
+      "created_at": "2020-03-29T17:05:25Z",
+      "closed_at": "2020-03-31T02:33:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83713",
+      "number": 83713,
+      "title": "[20.03] nvidia-docker: failure to find libnvidia-ml.so on LD_LIBRARY_PATH ",
+      "created_at": "2020-03-29T21:45:05Z",
+      "closed_at": "2020-04-30T20:53:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83977",
+      "number": 83977,
+      "title": "nixos.vimPlugins.youcompleteme fails to start server",
+      "created_at": "2020-04-01T13:07:00Z",
+      "closed_at": "2021-09-12T17:05:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/84391",
+      "number": 84391,
+      "title": "Running nginx master process as root no longer works correctly",
+      "created_at": "2020-04-05T20:18:35Z",
+      "closed_at": "2020-04-11T01:33:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/84452",
+      "number": 84452,
+      "title": "Pidgin does not find purple plugins",
+      "created_at": "2020-04-06T11:00:05Z",
+      "closed_at": "2020-04-06T19:03:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/84633",
+      "number": 84633,
+      "title": "Several issues in ACME certificates",
+      "created_at": "2020-04-07T17:26:13Z",
+      "closed_at": "2021-05-04T19:05:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/84826",
+      "number": 84826,
+      "title": "Recommend buildGoPackage instead of buildGoModule in the nixpkgs manual",
+      "created_at": "2020-04-09T15:42:43Z",
+      "closed_at": "2025-07-24T10:20:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85135",
+      "number": 85135,
+      "title": "some programs ignoring my gtk theme",
+      "created_at": "2020-04-13T10:02:02Z",
+      "closed_at": "2020-04-13T22:30:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85242",
+      "number": 85242,
+      "title": "Blink does not run",
+      "created_at": "2020-04-14T18:38:14Z",
+      "closed_at": "2022-03-16T20:56:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85250",
+      "number": 85250,
+      "title": "vim_configurable packpath order",
+      "created_at": "2020-04-14T20:44:04Z",
+      "closed_at": "2020-08-13T00:28:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85265",
+      "number": 85265,
+      "title": "elixir's setupHook causes compiler to emit warnings for all code",
+      "created_at": "2020-04-15T04:53:36Z",
+      "closed_at": "2021-05-24T01:14:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85342",
+      "number": 85342,
+      "title": "Chromium extension that uses native messaging does not work",
+      "created_at": "2020-04-16T00:53:46Z",
+      "closed_at": "2024-02-10T16:15:15Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85655",
+      "number": 85655,
+      "title": "Nixos update failed \"numpy.distutils.system_info.NotFoundError: No lapack/blas resources found.\"",
+      "created_at": "2020-04-21T04:47:59Z",
+      "closed_at": "2020-04-21T06:20:46Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85672",
+      "number": 85672,
+      "title": "emacs GUI doesn't respect XDG_DATA_DIRS",
+      "created_at": "2020-04-21T11:50:29Z",
+      "closed_at": "2020-04-21T11:58:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85706",
+      "number": 85706,
+      "title": "Needed `/run/nginx` for nginx directory absent in 20.03",
+      "created_at": "2020-04-21T18:30:31Z",
+      "closed_at": "2020-04-21T18:54:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85707",
+      "number": 85707,
+      "title": "Touchpad broken in mysterious ways on 20.03",
+      "created_at": "2020-04-21T18:46:27Z",
+      "closed_at": "2020-11-06T14:00:16Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85817",
+      "number": 85817,
+      "title": "Khronos Vulkan Samples not running",
+      "created_at": "2020-04-22T22:22:32Z",
+      "closed_at": "2020-04-25T12:53:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85855",
+      "number": 85855,
+      "title": "systemd: ship dbus system services",
+      "created_at": "2020-04-23T11:33:28Z",
+      "closed_at": "2020-06-13T11:21:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85861",
+      "number": 85861,
+      "title": "acme/lego causes account rate limits ",
+      "created_at": "2020-04-23T13:06:55Z",
+      "closed_at": "2020-10-21T16:34:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85875",
+      "number": 85875,
+      "title": "ZFS system: non-ZFS filesystems not mounting",
+      "created_at": "2020-04-23T16:51:44Z",
+      "closed_at": "2020-05-06T19:45:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/85989",
+      "number": 85989,
+      "title": "mailcatcher: Could not find daemons-1.3.1 in any of the sources (Bundler::GemNotFound)",
+      "created_at": "2020-04-25T09:16:49Z",
+      "closed_at": "2021-01-25T01:28:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86040",
+      "number": 86040,
+      "title": "wxPython_4_0 is not built for darwin",
+      "created_at": "2020-04-26T07:02:08Z",
+      "closed_at": "2021-01-15T09:30:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86131",
+      "number": 86131,
+      "title": "Meson no longer able to pick up Boost",
+      "created_at": "2020-04-27T14:23:46Z",
+      "closed_at": "2024-07-28T23:57:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86184",
+      "number": 86184,
+      "title": "nixos/modules/security/acme: unnecessary lego run when lego renew fails",
+      "created_at": "2020-04-28T09:05:02Z",
+      "closed_at": "2020-07-06T11:26:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86257",
+      "number": 86257,
+      "title": "[steam] Steam Remote Play Together no longer works; libtier0_s.so missing",
+      "created_at": "2020-04-28T21:11:38Z",
+      "closed_at": "2021-04-30T21:38:58Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86403",
+      "number": 86403,
+      "title": "python2Packages.nixpart0 doesn't build",
+      "created_at": "2020-04-30T12:16:07Z",
+      "closed_at": "2020-06-10T14:39:36Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86441",
+      "number": 86441,
+      "title": "Bluetooth (bluez) + pulseaudio doesn't support hot swap audio",
+      "created_at": "2020-05-01T07:28:11Z",
+      "closed_at": "2020-05-02T11:31:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86500",
+      "number": 86500,
+      "title": "Haskell: to-do list of potentially out-dated overrides",
+      "created_at": "2020-05-01T20:23:53Z",
+      "closed_at": "2022-07-17T09:02:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86601",
+      "number": 86601,
+      "title": "fontconfig: Enable color emoji as a fallback",
+      "created_at": "2020-05-02T16:29:57Z",
+      "closed_at": "2021-02-08T09:12:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86639",
+      "number": 86639,
+      "title": "unity-editor from unity3d cannot find libnss3.so",
+      "created_at": "2020-05-03T09:04:43Z",
+      "closed_at": "2020-06-25T00:17:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86761",
+      "number": 86761,
+      "title": "Concerning logs linked to networking.interfaces.<name?>.tempAddress",
+      "created_at": "2020-05-04T11:14:13Z",
+      "closed_at": "2020-05-05T07:01:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86906",
+      "number": 86906,
+      "title": "gnujump: crashes with segmentation fault",
+      "created_at": "2020-05-05T08:44:38Z",
+      "closed_at": "2021-01-11T18:44:50Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86970",
+      "number": 86970,
+      "title": "Sabaki SGF editor (Electron/Node)",
+      "created_at": "2020-05-05T18:20:25Z",
+      "closed_at": "2021-08-17T21:00:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86993",
+      "number": 86993,
+      "title": "platformio package broken (on hardened NixOS)",
+      "created_at": "2020-05-05T20:43:00Z",
+      "closed_at": "2020-05-06T06:51:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/87094",
+      "number": 87094,
+      "title": "Cannot find `~/.config/nixpkgs/config.nix` by following the documentation in `python.section.md`",
+      "created_at": "2020-05-06T13:10:45Z",
+      "closed_at": "2023-05-27T23:14:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/87533",
+      "number": 87533,
+      "title": "Flatpak app can't use org.freedesktop.secrets (or at least KDE Wallet)",
+      "created_at": "2020-05-10T19:30:51Z",
+      "closed_at": "2020-05-12T15:52:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/87895",
+      "number": 87895,
+      "title": "firefox-wayland cannot be started if it is already running",
+      "created_at": "2020-05-15T15:23:08Z",
+      "closed_at": "2020-11-25T01:42:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/87945",
+      "number": 87945,
+      "title": "Kwallet not launched by lightdm/gdm/sddm",
+      "created_at": "2020-05-16T13:20:38Z",
+      "closed_at": "2020-11-17T15:17:36Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88035",
+      "number": 88035,
+      "title": "Xpra: fails to attach on KDE Plasma",
+      "created_at": "2020-05-17T23:01:41Z",
+      "closed_at": "2020-06-08T15:39:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88046",
+      "number": 88046,
+      "title": "nodePackages.tsun doesn't start up",
+      "created_at": "2020-05-18T03:40:26Z",
+      "closed_at": "2020-08-20T18:53:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88097",
+      "number": 88097,
+      "title": "Nixos-Taskserver: CA setup not done or incomplete",
+      "created_at": "2020-05-18T22:35:33Z",
+      "closed_at": "2020-05-19T02:19:36Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88178",
+      "number": 88178,
+      "title": "ofono: crashes when OFONO_PLUGIN_PATH is unset due to patch",
+      "created_at": "2020-05-19T16:37:23Z",
+      "closed_at": "2020-05-24T08:02:43Z"
+    }
+  ]
+}

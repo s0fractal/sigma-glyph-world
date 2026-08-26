@@ -1,0 +1,716 @@
+{
+  "index": 162,
+  "stratum": "proofs_build_completeness",
+  "repository": "NixOS/nixpkgs",
+  "repository_id": 4542716,
+  "term": "exit code",
+  "query": "repo:NixOS/nixpkgs is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:49:13.672598+00:00",
+  "total_count": 3950,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "ebb23dcda51a2695e36195d91943ce6154b2e2db4567c101bc8623af27593c20",
+  "items": [
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76761",
+      "number": 76761,
+      "title": "writers.writeC: can't use libraries",
+      "created_at": "2020-01-01T01:47:45Z",
+      "closed_at": "2023-03-01T16:07:50Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76775",
+      "number": 76775,
+      "title": "libarchive on darwin on staging-next can't find lzma.h",
+      "created_at": "2020-01-01T09:43:59Z",
+      "closed_at": "2020-01-02T09:54:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76920",
+      "number": 76920,
+      "title": "Remove mumble JACK patch",
+      "created_at": "2020-01-04T02:09:39Z",
+      "closed_at": "2020-03-13T19:58:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76925",
+      "number": 76925,
+      "title": "Build LLDB in Android SDK failed: libssl and libcrypto not found",
+      "created_at": "2020-01-04T07:35:34Z",
+      "closed_at": "2020-01-07T16:19:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76927",
+      "number": 76927,
+      "title": "gnustep.base fails with undefined symbol: xmemdup",
+      "created_at": "2020-01-04T09:35:48Z",
+      "closed_at": "2020-02-03T20:02:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76929",
+      "number": 76929,
+      "title": "ipykernel fails to build",
+      "created_at": "2020-01-04T10:59:34Z",
+      "closed_at": "2020-01-05T12:51:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76986",
+      "number": 76986,
+      "title": "bitcoind fails to build on macOS",
+      "created_at": "2020-01-05T15:03:31Z",
+      "closed_at": "2020-01-25T15:32:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76989",
+      "number": 76989,
+      "title": "khal-0.10.1 fails to build",
+      "created_at": "2020-01-05T16:51:44Z",
+      "closed_at": "2020-01-06T16:42:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77026",
+      "number": 77026,
+      "title": "Package Request: `steamlink`",
+      "created_at": "2020-01-06T09:20:25Z",
+      "closed_at": "2024-02-26T09:54:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77034",
+      "number": 77034,
+      "title": "spectral: broken in nixos-unstable, can't build - can't find `olm`",
+      "created_at": "2020-01-06T09:49:13Z",
+      "closed_at": "2020-03-03T13:25:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77108",
+      "number": 77108,
+      "title": "rls doesn't build",
+      "created_at": "2020-01-06T17:43:47Z",
+      "closed_at": "2020-01-29T15:53:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77178",
+      "number": 77178,
+      "title": "Cannot install python3-3.9.0a2 on macOS",
+      "created_at": "2020-01-07T05:32:28Z",
+      "closed_at": "2020-08-24T05:13:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77201",
+      "number": 77201,
+      "title": "pycurl tests fail on master",
+      "created_at": "2020-01-07T09:26:42Z",
+      "closed_at": "2020-01-19T19:18:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77229",
+      "number": 77229,
+      "title": "numexpr-2.7.0 Error during system update",
+      "created_at": "2020-01-07T13:32:57Z",
+      "closed_at": "2020-01-17T05:07:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77284",
+      "number": 77284,
+      "title": "swaylock-fancy",
+      "created_at": "2020-01-07T22:09:56Z",
+      "closed_at": "2020-01-09T01:26:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77304",
+      "number": 77304,
+      "title": "Python 3.7 pycurl build failing in latest unstable",
+      "created_at": "2020-01-08T10:30:43Z",
+      "closed_at": "2020-06-09T23:46:15Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77312",
+      "number": 77312,
+      "title": "nixosTests.ec2: Don't work",
+      "created_at": "2020-01-08T12:29:37Z",
+      "closed_at": "2020-01-27T00:04:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77357",
+      "number": 77357,
+      "title": "Python 3.7 pandas-0.25.3 failed to build/update",
+      "created_at": "2020-01-09T04:43:21Z",
+      "closed_at": "2020-01-09T19:28:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77378",
+      "number": 77378,
+      "title": "nixosTests.ceph: ceph-multi-node.nix test fails",
+      "created_at": "2020-01-09T14:57:35Z",
+      "closed_at": "2020-01-20T09:56:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77457",
+      "number": 77457,
+      "title": "Discordpy package broken",
+      "created_at": "2020-01-10T18:53:22Z",
+      "closed_at": "2020-01-11T20:48:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77504",
+      "number": 77504,
+      "title": "pkgsCross.{armv7l-hf,aarch64}-multiplatform.glibc fails to build ",
+      "created_at": "2020-01-11T09:56:05Z",
+      "closed_at": "2020-01-11T19:29:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77539",
+      "number": 77539,
+      "title": "patchShebangs doesn't handle /usr/bin/env -S",
+      "created_at": "2020-01-12T00:01:53Z",
+      "closed_at": "2023-03-01T17:56:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77563",
+      "number": 77563,
+      "title": "Pycuda failed to compile during installation",
+      "created_at": "2020-01-12T15:00:42Z",
+      "closed_at": "2020-05-18T01:16:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77581",
+      "number": 77581,
+      "title": "Upgrade digikam: 6.2.0 -> 6.4.0",
+      "created_at": "2020-01-12T21:58:46Z",
+      "closed_at": "2020-09-25T08:16:54Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77588",
+      "number": 77588,
+      "title": "Haskell package gi-gdkx11 fails to build",
+      "created_at": "2020-01-13T00:14:57Z",
+      "closed_at": "2020-02-28T19:43:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77646",
+      "number": 77646,
+      "title": "gssdp fails to build",
+      "created_at": "2020-01-13T21:31:39Z",
+      "closed_at": "2021-01-08T15:44:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77671",
+      "number": 77671,
+      "title": "Unbreak vagrant on macOS",
+      "created_at": "2020-01-14T12:14:27Z",
+      "closed_at": "2020-01-15T02:51:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77681",
+      "number": 77681,
+      "title": "Bookworm doesnt compile",
+      "created_at": "2020-01-14T14:38:13Z",
+      "closed_at": "2020-01-16T17:36:56Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77699",
+      "number": 77699,
+      "title": "Cross compilation for perl fails, preventing cmake to be built (armv6l-unknown-linux-gnueabihf)",
+      "created_at": "2020-01-14T21:01:56Z",
+      "closed_at": "2020-02-13T06:49:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77736",
+      "number": 77736,
+      "title": "libopenshot-audio: does not install [SOLVED]",
+      "created_at": "2020-01-15T08:18:22Z",
+      "closed_at": "2020-03-23T15:59:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77771",
+      "number": 77771,
+      "title": "Tensorflow: command line flags not recognized by Bazel 2.0",
+      "created_at": "2020-01-15T15:14:49Z",
+      "closed_at": "2020-03-02T09:07:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77858",
+      "number": 77858,
+      "title": "Packaging dracut",
+      "created_at": "2020-01-17T03:58:19Z",
+      "closed_at": "2023-01-16T16:53:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77869",
+      "number": 77869,
+      "title": "pandoc-2.9.1.1 build failing on nixpkgs-unstable",
+      "created_at": "2020-01-17T05:17:56Z",
+      "closed_at": "2020-03-03T02:31:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78030",
+      "number": 78030,
+      "title": "failed to build python3.7-pycurl-7.43.0.3: tests failed.",
+      "created_at": "2020-01-19T14:32:11Z",
+      "closed_at": "2020-01-19T19:18:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78396",
+      "number": 78396,
+      "title": "Latest python37Packages.altair fails on build due to urllib test failure",
+      "created_at": "2020-01-24T00:43:20Z",
+      "closed_at": "2020-01-25T19:36:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78412",
+      "number": 78412,
+      "title": "buildRustCrate fails to build rustversion 1.0.2",
+      "created_at": "2020-01-24T13:20:45Z",
+      "closed_at": "2020-01-30T11:26:52Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78444",
+      "number": 78444,
+      "title": "Enable poetry package to be used with other interpreters than python3.7",
+      "created_at": "2020-01-24T21:28:17Z",
+      "closed_at": "2020-02-23T20:56:30Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78552",
+      "number": 78552,
+      "title": "ldc fails to build",
+      "created_at": "2020-01-26T14:40:40Z",
+      "closed_at": "2020-01-27T18:47:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78557",
+      "number": 78557,
+      "title": "Mesos is broken",
+      "created_at": "2020-01-26T15:02:48Z",
+      "closed_at": "2020-08-16T12:46:25Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78627",
+      "number": 78627,
+      "title": "tigervnc fails to compile",
+      "created_at": "2020-01-27T19:17:22Z",
+      "closed_at": "2020-02-11T08:46:25Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78743",
+      "number": 78743,
+      "title": "singularity-tools.buildImage: permission denied",
+      "created_at": "2020-01-29T03:49:56Z",
+      "closed_at": "2020-01-30T05:36:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78755",
+      "number": 78755,
+      "title": "upgrade QGIS to 3.10.2",
+      "created_at": "2020-01-29T09:34:04Z",
+      "closed_at": "2020-03-25T03:38:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78770",
+      "number": 78770,
+      "title": "mysql-workbench fails to build due to warnings",
+      "created_at": "2020-01-29T11:51:10Z",
+      "closed_at": "2020-03-14T03:41:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79245",
+      "number": 79245,
+      "title": "lispPackages sourced with lispPackages.clwrapper fail to load",
+      "created_at": "2020-02-05T00:29:30Z",
+      "closed_at": "2020-02-11T02:27:24Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79304",
+      "number": 79304,
+      "title": "nixos.tests.installer.simpleUefiSystemdBoot.x86_64-linux is broken",
+      "created_at": "2020-02-06T02:36:42Z",
+      "closed_at": "2020-02-09T07:22:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79331",
+      "number": 79331,
+      "title": "libuv: fails to build on darwin",
+      "created_at": "2020-02-06T11:02:55Z",
+      "closed_at": "2020-02-13T00:55:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79441",
+      "number": 79441,
+      "title": "ghcWithPackages wrapper does not work with ghc-8.10.1",
+      "created_at": "2020-02-07T10:35:14Z",
+      "closed_at": "2020-04-17T19:03:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79548",
+      "number": 79548,
+      "title": "pysam build fails: cython uses wrong python version",
+      "created_at": "2020-02-08T18:02:27Z",
+      "closed_at": "2020-02-27T11:58:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79562",
+      "number": 79562,
+      "title": "The package amdgpu-pro is packaged for any kernel version even though kernel version is fixed",
+      "created_at": "2020-02-08T20:15:58Z",
+      "closed_at": "2024-12-12T07:21:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79806",
+      "number": 79806,
+      "title": "gnomeExtensions.gsconnect build error on master",
+      "created_at": "2020-02-11T08:10:19Z",
+      "closed_at": "2020-02-11T17:48:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79849",
+      "number": 79849,
+      "title": "glibc: error nixops deploy",
+      "created_at": "2020-02-11T17:51:18Z",
+      "closed_at": "2020-02-17T06:41:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79863",
+      "number": 79863,
+      "title": "pkgsMusl.libffi fails in test suite",
+      "created_at": "2020-02-11T21:00:03Z",
+      "closed_at": "2020-02-16T23:46:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79870",
+      "number": 79870,
+      "title": "neovim fails to build on master (due to lua / luarocks)",
+      "created_at": "2020-02-11T22:38:22Z",
+      "closed_at": "2020-02-21T07:05:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79954",
+      "number": 79954,
+      "title": "Zoom won't start due to LD_PRELOAD of v4l2convert",
+      "created_at": "2020-02-12T23:51:54Z",
+      "closed_at": "2020-02-14T14:16:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79975",
+      "number": 79975,
+      "title": "Rust Application Migration to fetchCargoTarball Implementation",
+      "created_at": "2020-02-13T03:27:51Z",
+      "closed_at": "2020-03-19T03:12:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80060",
+      "number": 80060,
+      "title": "nixosTests.postgresql-wal-receiver is broken",
+      "created_at": "2020-02-13T21:22:08Z",
+      "closed_at": "2020-02-16T20:58:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80061",
+      "number": 80061,
+      "title": "nixosTests.redmine is broken",
+      "created_at": "2020-02-13T21:23:54Z",
+      "closed_at": "2020-04-22T00:24:04Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80083",
+      "number": 80083,
+      "title": "python3Packages.spyder broken",
+      "created_at": "2020-02-14T02:52:23Z",
+      "closed_at": "2020-05-06T07:07:05Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80176",
+      "number": 80176,
+      "title": "haskellPackages.ghc not available on aarch64",
+      "created_at": "2020-02-15T13:58:01Z",
+      "closed_at": "2020-03-26T14:18:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80177",
+      "number": 80177,
+      "title": "go get breaks with \"ld: framework not found CoreFoundation\"",
+      "created_at": "2020-02-15T14:42:43Z",
+      "closed_at": "2020-08-16T16:54:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80217",
+      "number": 80217,
+      "title": "Cannot Install Mono",
+      "created_at": "2020-02-15T23:51:51Z",
+      "closed_at": "2020-02-16T09:29:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80423",
+      "number": 80423,
+      "title": "nixos/modules/programs/fish: completion generator patch does not work with fish 3.1.0 package",
+      "created_at": "2020-02-18T10:21:08Z",
+      "closed_at": "2020-02-20T06:43:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80440",
+      "number": 80440,
+      "title": "bazel broken on darwin",
+      "created_at": "2020-02-18T14:04:42Z",
+      "closed_at": "2020-02-22T07:52:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80577",
+      "number": 80577,
+      "title": "nomachine-client hash mismatch",
+      "created_at": "2020-02-19T23:36:39Z",
+      "closed_at": "2020-05-14T20:48:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80621",
+      "number": 80621,
+      "title": "electrum: No matching distribution found for qdarkstyle<2.7",
+      "created_at": "2020-02-20T10:24:54Z",
+      "closed_at": "2020-02-21T15:16:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80639",
+      "number": 80639,
+      "title": "xorg freezes on nixos unstable",
+      "created_at": "2020-02-20T14:24:29Z",
+      "closed_at": "2020-02-23T11:14:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80704",
+      "number": 80704,
+      "title": "Neovim (luajitPackages.luv) does not install correctly",
+      "created_at": "2020-02-21T08:50:40Z",
+      "closed_at": "2020-02-21T11:14:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80713",
+      "number": 80713,
+      "title": "plasma5 activation scripts fails with unset/null XDG_CONFIG_HOME",
+      "created_at": "2020-02-21T11:00:26Z",
+      "closed_at": "2020-02-27T17:08:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80813",
+      "number": 80813,
+      "title": "Cross-compiling gtk3.dev fails",
+      "created_at": "2020-02-22T17:30:54Z",
+      "closed_at": "2022-06-03T16:53:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80827",
+      "number": 80827,
+      "title": "postgresql fails to start if dataDir is not default ",
+      "created_at": "2020-02-22T20:47:07Z",
+      "closed_at": "2020-08-06T09:12:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80915",
+      "number": 80915,
+      "title": "Rust rls 1.41 does not build on Darwin",
+      "created_at": "2020-02-23T21:46:37Z",
+      "closed_at": "2020-03-03T21:15:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81066",
+      "number": 81066,
+      "title": "nixos-activation script failing to start due to missing XDG_CONFIG_HOME env variable",
+      "created_at": "2020-02-25T23:16:53Z",
+      "closed_at": "2020-02-26T01:57:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81103",
+      "number": 81103,
+      "title": "OpenCV 4 fails to build with cuda enabled due to missing NVIDIA optical flow sdk",
+      "created_at": "2020-02-26T09:54:40Z",
+      "closed_at": "2020-03-22T15:13:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81197",
+      "number": 81197,
+      "title": "`pkgsStatic.jemalloc` fails to build.",
+      "created_at": "2020-02-27T18:27:42Z",
+      "closed_at": "2023-11-19T02:07:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81198",
+      "number": 81198,
+      "title": "`pkgsStatic.libunwind` fails to build",
+      "created_at": "2020-02-27T18:32:19Z",
+      "closed_at": "2020-03-29T10:07:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81205",
+      "number": 81205,
+      "title": "haskellPackages.Spock marked as broken",
+      "created_at": "2020-02-27T20:54:21Z",
+      "closed_at": "2020-02-28T16:32:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81206",
+      "number": 81206,
+      "title": "neovim install fails with missing libluv.so.1",
+      "created_at": "2020-02-27T20:56:49Z",
+      "closed_at": "2020-03-02T09:35:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81314",
+      "number": 81314,
+      "title": "pythonPackages.apache-airflow: broken on 20.03",
+      "created_at": "2020-02-28T19:04:42Z",
+      "closed_at": "2020-12-03T11:05:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81387",
+      "number": 81387,
+      "title": "MEGAsync fails to build",
+      "created_at": "2020-02-29T16:30:32Z",
+      "closed_at": "2020-03-16T16:04:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81444",
+      "number": 81444,
+      "title": "Redmine fails on NixOS 20.03pre",
+      "created_at": "2020-03-01T15:56:08Z",
+      "closed_at": "2020-03-27T09:05:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81482",
+      "number": 81482,
+      "title": "Inclusion of tests in Python package installations is causing collisions",
+      "created_at": "2020-03-02T01:55:59Z",
+      "closed_at": "2020-03-14T23:18:50Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81602",
+      "number": 81602,
+      "title": "zpool-trim.service fails by default in NixOS 20.03 in many scenarios",
+      "created_at": "2020-03-03T09:40:17Z",
+      "closed_at": "2020-03-04T11:44:58Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81634",
+      "number": 81634,
+      "title": "nixos/acme: force-renewing certificates is unreasonably difficult",
+      "created_at": "2020-03-03T16:58:20Z",
+      "closed_at": "2020-10-30T13:04:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81636",
+      "number": 81636,
+      "title": "Gitaly/Gitlab does not build on unstable",
+      "created_at": "2020-03-03T17:09:06Z",
+      "closed_at": "2020-03-03T20:20:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81703",
+      "number": 81703,
+      "title": "builder for python2.7-decorator-4.4.1 is failing",
+      "created_at": "2020-03-04T09:22:52Z",
+      "closed_at": "2020-03-04T09:43:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81727",
+      "number": 81727,
+      "title": "Systemd ignoring special prefixes",
+      "created_at": "2020-03-04T14:55:17Z",
+      "closed_at": "2020-04-25T10:03:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81800",
+      "number": 81800,
+      "title": "haskellPackages.stack broken",
+      "created_at": "2020-03-05T04:57:24Z",
+      "closed_at": "2020-03-05T13:16:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81801",
+      "number": 81801,
+      "title": "haskellPackages.postgrest broken",
+      "created_at": "2020-03-05T05:02:27Z",
+      "closed_at": "2020-05-17T02:43:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81842",
+      "number": 81842,
+      "title": "security.acme timeout because services.nginx takes time to start",
+      "created_at": "2020-03-05T20:05:42Z",
+      "closed_at": "2020-06-29T08:17:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81866",
+      "number": 81866,
+      "title": "qgnomeplatform requires gsettings-desktop-schemas",
+      "created_at": "2020-03-06T04:15:28Z",
+      "closed_at": "2020-04-01T06:16:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81868",
+      "number": 81868,
+      "title": "skype is outdated",
+      "created_at": "2020-03-06T06:40:12Z",
+      "closed_at": "2020-05-12T09:43:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81933",
+      "number": 81933,
+      "title": "nvidiaLegacy390 causes a collision",
+      "created_at": "2020-03-06T22:56:16Z",
+      "closed_at": "2020-03-07T17:18:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81972",
+      "number": 81972,
+      "title": "Unable to build glibc on armv7l",
+      "created_at": "2020-03-07T13:55:22Z",
+      "closed_at": "2020-03-16T23:36:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82145",
+      "number": 82145,
+      "title": "pkg builds in nix-shell, but not in nix-env",
+      "created_at": "2020-03-09T12:59:55Z",
+      "closed_at": "2020-03-09T21:54:12Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82154",
+      "number": 82154,
+      "title": "monero-gui fails to build",
+      "created_at": "2020-03-09T15:11:39Z",
+      "closed_at": "2020-03-22T08:14:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82221",
+      "number": 82221,
+      "title": "electron-cash broken",
+      "created_at": "2020-03-10T08:14:16Z",
+      "closed_at": "2020-03-10T13:41:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82232",
+      "number": 82232,
+      "title": "AFL QEMU build is broken",
+      "created_at": "2020-03-10T10:25:05Z",
+      "closed_at": "2020-03-14T05:55:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82233",
+      "number": 82233,
+      "title": "hnix doesn't build on nixos-unstable",
+      "created_at": "2020-03-10T10:58:32Z",
+      "closed_at": "2020-06-08T11:49:54Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82263",
+      "number": 82263,
+      "title": "GNU radio 3.8 update meta issue",
+      "created_at": "2020-03-10T17:08:32Z",
+      "closed_at": "2021-03-13T17:27:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82489",
+      "number": 82489,
+      "title": "tevent: pytalloc-util not found",
+      "created_at": "2020-03-13T14:40:12Z",
+      "closed_at": "2020-03-31T19:08:33Z"
+    }
+  ]
+}

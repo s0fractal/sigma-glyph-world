@@ -1,0 +1,380 @@
+{
+  "index": 116,
+  "stratum": "artifact_conformance",
+  "repository": "ossf/scorecard",
+  "repository_id": 302670797,
+  "term": "not run",
+  "query": "repo:ossf/scorecard is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:06.664920+00:00",
+  "total_count": 52,
+  "incomplete_results": false,
+  "returned": 52,
+  "raw_response_sha256": "9691d777751e4e0f85e4c44f6569e40178b6fd3c6c1bde70565233de1b842f01",
+  "items": [
+    {
+      "url": "https://github.com/ossf/scorecard/issues/58",
+      "number": 58,
+      "title": "Hook Scorecard as a CI/CD solution, prevent bad deps from being added in code",
+      "created_at": "2020-11-11T01:28:57Z",
+      "closed_at": "2023-08-18T18:24:54Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/172",
+      "number": 172,
+      "title": "Enable gosec for  golangci-lint",
+      "created_at": "2021-02-14T02:47:27Z",
+      "closed_at": "2021-02-19T13:23:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/173",
+      "number": 173,
+      "title": "Fix golang-lint ci issues",
+      "created_at": "2021-02-14T02:51:17Z",
+      "closed_at": "2021-05-31T14:18:54Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/202",
+      "number": 202,
+      "title": "Reducing GitHub API calls to scale scanning repositories",
+      "created_at": "2021-02-21T01:54:03Z",
+      "closed_at": "2021-05-26T19:56:43Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/252",
+      "number": 252,
+      "title": "BUG - Cron container for scorecard is missing the cron.sh",
+      "created_at": "2021-03-07T21:51:11Z",
+      "closed_at": "2021-03-10T16:01:47Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/400",
+      "number": 400,
+      "title": "New check: Complain on binary artifacts in source repos, e.g. jars, esp for third_party use",
+      "created_at": "2021-05-05T04:53:02Z",
+      "closed_at": "2021-06-28T06:06:48Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/426",
+      "number": 426,
+      "title": "New check: Check for dangerous code practices in github workflows",
+      "created_at": "2021-05-10T18:10:21Z",
+      "closed_at": "2024-01-30T22:55:19Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/432",
+      "number": 432,
+      "title": "BUG: restrict github token for scorecard repo",
+      "created_at": "2021-05-11T00:32:35Z",
+      "closed_at": "2021-12-15T22:24:08Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/512",
+      "number": 512,
+      "title": "BUG: Cron job looping",
+      "created_at": "2021-05-26T23:58:04Z",
+      "closed_at": "2021-06-01T22:58:36Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/545",
+      "number": 545,
+      "title": "Feature - Improve Tarball caching for CheckIfFileExists",
+      "created_at": "2021-06-04T15:26:25Z",
+      "closed_at": "2021-06-29T17:41:29Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/575",
+      "number": 575,
+      "title": "Commit based scorecard",
+      "created_at": "2021-06-14T15:37:19Z",
+      "closed_at": "2022-03-16T21:20:21Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/615",
+      "number": 615,
+      "title": "FYI: pausing PubSub cron controller",
+      "created_at": "2021-06-25T20:57:50Z",
+      "closed_at": "2021-08-06T20:49:59Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/679",
+      "number": 679,
+      "title": "\"Rate limit exceeded\" error while scorecard run hangs",
+      "created_at": "2021-07-12T18:36:47Z",
+      "closed_at": "2021-07-12T19:13:38Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/861",
+      "number": 861,
+      "title": "BUG: re-enable some e2e tests",
+      "created_at": "2021-08-17T00:27:57Z",
+      "closed_at": "2021-12-15T21:57:05Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/978",
+      "number": 978,
+      "title": "Availability and freshness of data available on Google Storage",
+      "created_at": "2021-09-08T11:04:53Z",
+      "closed_at": "2021-09-08T14:06:45Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1005",
+      "number": 1005,
+      "title": "BUG: Branch-Protection/Code-Review bypassable",
+      "created_at": "2021-09-13T16:17:24Z",
+      "closed_at": "2021-09-13T16:35:51Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1121",
+      "number": 1121,
+      "title": "DISCUSSION: v4 milestone",
+      "created_at": "2021-10-07T20:52:49Z",
+      "closed_at": "2022-01-19T17:11:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1128",
+      "number": 1128,
+      "title": "Token-Permissions check clarification",
+      "created_at": "2021-10-12T21:30:10Z",
+      "closed_at": "2021-12-08T01:18:28Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1207",
+      "number": 1207,
+      "title": "BUG: `cannot assign requested address` errors in cron worker",
+      "created_at": "2021-11-02T03:51:14Z",
+      "closed_at": "2022-01-09T02:23:11Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1256",
+      "number": 1256,
+      "title": "Binary-Artifacts false positives",
+      "created_at": "2021-11-13T05:06:18Z",
+      "closed_at": "2021-12-23T07:08:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1257",
+      "number": 1257,
+      "title": "The \"Token-Permissions\" check seems to complain about codeql and labeler",
+      "created_at": "2021-11-13T19:59:58Z",
+      "closed_at": "2021-12-28T22:56:28Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1275",
+      "number": 1275,
+      "title": "BUG: `urllib3/urllib3` security policy not detected in cron run",
+      "created_at": "2021-11-15T21:07:03Z",
+      "closed_at": "2021-12-15T22:04:15Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1329",
+      "number": 1329,
+      "title": "Feature: integration tests should not require distinct approval",
+      "created_at": "2021-11-22T19:50:37Z",
+      "closed_at": "2021-12-15T21:53:38Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1359",
+      "number": 1359,
+      "title": "Feature: check for `pull-requests` permission in Token-Permission",
+      "created_at": "2021-12-04T01:16:50Z",
+      "closed_at": "2022-01-18T23:26:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1399",
+      "number": 1399,
+      "title": "Feature: Rollout the Dangerous-Workflow check",
+      "created_at": "2021-12-16T01:15:07Z",
+      "closed_at": "2022-01-12T17:14:20Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1543",
+      "number": 1543,
+      "title": "BUG: ListCommits() has empty committer name for \"verified\" commits",
+      "created_at": "2022-01-27T02:55:11Z",
+      "closed_at": "2022-03-03T18:04:06Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1582",
+      "number": 1582,
+      "title": "BUG: maven signatures not detected by Signed-release check",
+      "created_at": "2022-02-01T21:06:54Z",
+      "closed_at": "2022-02-05T02:32:26Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1605",
+      "number": 1605,
+      "title": "BUG CodeQL result upload fails",
+      "created_at": "2022-02-05T00:37:29Z",
+      "closed_at": "2022-02-07T16:22:19Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1621",
+      "number": 1621,
+      "title": "Release Scorecard - Next release (v4.1.0)",
+      "created_at": "2022-02-10T22:10:16Z",
+      "closed_at": "2022-02-22T01:22:44Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1729",
+      "number": 1729,
+      "title": "Scorecard - GitHub bot account",
+      "created_at": "2022-03-13T16:04:57Z",
+      "closed_at": "2023-11-03T15:55:56Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2051",
+      "number": 2051,
+      "title": "BUG: Pinned-Dependencies results do not show up in some scorecard-action runs",
+      "created_at": "2022-07-13T15:06:15Z",
+      "closed_at": "2022-08-12T16:23:08Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2052",
+      "number": 2052,
+      "title": "Use https://github.com/dorny/paths-filter for GH Actions",
+      "created_at": "2022-07-13T17:58:33Z",
+      "closed_at": "2024-04-15T20:03:58Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2080",
+      "number": 2080,
+      "title": "Feature: facilitate the Scorecard run for the dependency-diff API/CLI",
+      "created_at": "2022-07-20T17:41:48Z",
+      "closed_at": "2022-07-21T21:39:09Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2087",
+      "number": 2087,
+      "title": "Feature: Optimize&refactor the duplicated work / logic modules in the GetDependencyDiffResult API",
+      "created_at": "2022-07-21T20:43:18Z",
+      "closed_at": "2024-06-06T16:50:26Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2334",
+      "number": 2334,
+      "title": "BUG: Scorecard does not run any checks on local repos",
+      "created_at": "2022-10-06T16:59:52Z",
+      "closed_at": "2022-10-11T17:31:43Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2426",
+      "number": 2426,
+      "title": "Project with CI-tests appear to be penalized compared with those with no CI",
+      "created_at": "2022-11-04T11:18:40Z",
+      "closed_at": "2022-11-04T12:00:25Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2432",
+      "number": 2432,
+      "title": "BUG (?): JSON output omits checks' `\"score\": 0`",
+      "created_at": "2022-11-04T21:48:49Z",
+      "closed_at": "2023-01-10T18:51:56Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2762",
+      "number": 2762,
+      "title": "release 4.10.3 was not completed",
+      "created_at": "2023-03-16T16:17:57Z",
+      "closed_at": "2023-03-17T00:34:57Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2850",
+      "number": 2850,
+      "title": "Feature: Token-Permissions should ignore `on: pull_request` workflows",
+      "created_at": "2023-04-11T14:16:18Z",
+      "closed_at": "2023-07-12T20:16:29Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2897",
+      "number": 2897,
+      "title": "e2e tests: use ginkgo's `--flake-attempts` flag instead of `nick-invision/retry`",
+      "created_at": "2023-04-21T22:31:39Z",
+      "closed_at": "2026-04-27T13:46:24Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3166",
+      "number": 3166,
+      "title": "BUG: --npm wrong input does not throw error",
+      "created_at": "2023-06-14T19:37:18Z",
+      "closed_at": "2024-06-05T17:15:31Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3310",
+      "number": 3310,
+      "title": "Some GitLab integration tests run during GitHub integration tests",
+      "created_at": "2023-07-25T20:26:09Z",
+      "closed_at": "2023-08-17T16:40:16Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3353",
+      "number": 3353,
+      "title": "Release: Scorecard 4.12",
+      "created_at": "2023-08-04T17:59:16Z",
+      "closed_at": "2023-08-08T17:10:48Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3491",
+      "number": 3491,
+      "title": "BUG: jazzer.js not detected",
+      "created_at": "2023-09-19T16:03:40Z",
+      "closed_at": "2023-10-11T22:40:22Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3600",
+      "number": 3600,
+      "title": "SAST analyzer does not find CodeQL run via 'uses' directive",
+      "created_at": "2023-10-24T14:46:52Z",
+      "closed_at": "2023-10-24T20:28:35Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3648",
+      "number": 3648,
+      "title": "Not all checks returned for repo",
+      "created_at": "2023-11-07T14:29:50Z",
+      "closed_at": "2025-08-04T15:48:36Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3720",
+      "number": 3720,
+      "title": "should probes have a more defined structure?",
+      "created_at": "2023-12-07T20:41:48Z",
+      "closed_at": "2024-03-28T17:40:43Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4048",
+      "number": 4048,
+      "title": "BUG: Patch Maintainers Annotations",
+      "created_at": "2024-04-22T20:07:33Z",
+      "closed_at": "2024-08-13T16:42:09Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4237",
+      "number": 4237,
+      "title": "BUG Sonarcloud not detected consistently",
+      "created_at": "2024-07-12T13:11:38Z",
+      "closed_at": "2024-07-17T16:53:32Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4443",
+      "number": 4443,
+      "title": "BigQuery scorecard-v2 table doesn't have new partitions",
+      "created_at": "2024-12-10T18:16:38Z",
+      "closed_at": "2024-12-23T14:50:35Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4695",
+      "number": 4695,
+      "title": "BUG Vulnerabilities are not being detected accurately in repos using the bun.js runtime",
+      "created_at": "2025-07-07T17:27:40Z",
+      "closed_at": "2025-11-04T16:07:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4795",
+      "number": 4795,
+      "title": "Feature: Filter-out incompatible repository checks",
+      "created_at": "2025-09-17T15:01:46Z",
+      "closed_at": "2026-04-23T21:26:30Z"
+    }
+  ]
+}

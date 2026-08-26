@@ -1,0 +1,268 @@
+{
+  "index": 65,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "no tests",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:25.811514+00:00",
+  "total_count": 36,
+  "incomplete_results": false,
+  "returned": 36,
+  "raw_response_sha256": "19c876c589bc9086af6b47cefe79e451967cd7da020f03dcf096d75557063895",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/8548",
+      "number": 8548,
+      "title": "mypy doesn't recurse through directories, but -h says it does",
+      "created_at": "2020-03-16T23:28:52Z",
+      "closed_at": "2020-10-23T21:56:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8567",
+      "number": 8567,
+      "title": "Navigating to file within site-packages and type checking with mypy causes site-packages is in the PYTHONPATH",
+      "created_at": "2020-03-21T10:48:21Z",
+      "closed_at": "2020-04-04T23:50:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8659",
+      "number": 8659,
+      "title": "Reorganise wiki and README.md information about testing process",
+      "created_at": "2020-04-11T16:18:21Z",
+      "closed_at": "2023-10-11T18:57:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8785",
+      "number": 8785,
+      "title": "Drop appveyor",
+      "created_at": "2020-05-06T17:10:08Z",
+      "closed_at": "2020-05-27T09:55:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8875",
+      "number": 8875,
+      "title": "Type hints from repo/package are not recognized anymore when installed",
+      "created_at": "2020-05-22T21:57:03Z",
+      "closed_at": "2020-05-23T06:02:43Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8944",
+      "number": 8944,
+      "title": "[release 0.780] Source file found twice under different module names error.",
+      "created_at": "2020-06-03T20:18:19Z",
+      "closed_at": "2020-08-23T03:45:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9169",
+      "number": 9169,
+      "title": "Regression from 0.750 - Literal types cause significant slowdown",
+      "created_at": "2020-07-18T05:50:43Z",
+      "closed_at": "2022-07-17T00:35:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9419",
+      "number": 9419,
+      "title": "Piping mypy into a closed pipe results in BrokenPipeError",
+      "created_at": "2020-09-05T11:41:49Z",
+      "closed_at": "2020-09-19T16:57:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9504",
+      "number": 9504,
+      "title": "Question: Is the a project to automatically annotate functions?",
+      "created_at": "2020-09-29T20:42:04Z",
+      "closed_at": "2020-09-29T21:32:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9630",
+      "number": 9630,
+      "title": "Mypy 0.790 release postmortem",
+      "created_at": "2020-10-23T15:51:09Z",
+      "closed_at": "2021-03-10T14:56:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10172",
+      "number": 10172,
+      "title": "\"Source file found twice under different module names\" with namespace package installed in virtualenv by \"pip install -e .\"",
+      "created_at": "2021-03-05T23:28:23Z",
+      "closed_at": "2021-03-05T23:53:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10407",
+      "number": 10407,
+      "title": "Virtualenv pinned to <20",
+      "created_at": "2021-05-03T22:47:29Z",
+      "closed_at": "2021-07-22T00:38:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10661",
+      "number": 10661,
+      "title": "Strange name substitution on upgrading to >= 0.900 from 0.812",
+      "created_at": "2021-06-17T01:03:57Z",
+      "closed_at": "2021-12-13T10:56:41Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11094",
+      "number": 11094,
+      "title": "`--exclude` not working as expected",
+      "created_at": "2021-09-12T03:16:26Z",
+      "closed_at": "2021-09-25T09:57:02Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11193",
+      "number": 11193,
+      "title": "mypy does not honour `open()` overrides from typeshed.",
+      "created_at": "2021-09-25T16:28:16Z",
+      "closed_at": "2022-02-09T06:30:13Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11355",
+      "number": 11355,
+      "title": "[self testsuite] testpep561.py::PEP561Suite tests fail against pip 21.3",
+      "created_at": "2021-10-19T08:38:01Z",
+      "closed_at": "2021-10-21T18:56:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11662",
+      "number": 11662,
+      "title": "Meta issue: improving test runner",
+      "created_at": "2021-12-04T13:37:33Z",
+      "closed_at": "2022-05-19T15:02:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12237",
+      "number": 12237,
+      "title": "Python 2 feature freeze (and removal of support)",
+      "created_at": "2022-02-22T14:55:17Z",
+      "closed_at": "2022-10-10T05:35:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13098",
+      "number": 13098,
+      "title": "mypy_path is being ignored when providing file arguments",
+      "created_at": "2022-07-08T20:53:48Z",
+      "closed_at": "2022-07-08T21:40:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13597",
+      "number": 13597,
+      "title": "Add `[disallow-non-exhaustive-match]` check",
+      "created_at": "2022-09-03T11:43:33Z",
+      "closed_at": "2025-06-11T06:43:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14033",
+      "number": 14033,
+      "title": "Offer a simpler way to resolve metaclass conflicts",
+      "created_at": "2022-11-08T11:11:57Z",
+      "closed_at": "2025-07-01T01:36:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14042",
+      "number": 14042,
+      "title": "mypy 0.990 shows no errors when passing source directory as absolute path",
+      "created_at": "2022-11-08T22:20:45Z",
+      "closed_at": "2022-11-10T17:37:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14211",
+      "number": 14211,
+      "title": "Class attribute not correctly detected in pytest parametrized test",
+      "created_at": "2022-11-28T13:12:57Z",
+      "closed_at": "2022-11-28T14:01:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15180",
+      "number": 15180,
+      "title": "proposal: type inference from `assert all(...)`",
+      "created_at": "2023-05-04T12:29:33Z",
+      "closed_at": "2023-08-14T20:16:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15530",
+      "number": 15530,
+      "title": "pre-commit-hooks is not needed to run tests using tox",
+      "created_at": "2023-06-27T09:47:32Z",
+      "closed_at": "2023-07-01T16:13:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15785",
+      "number": 15785,
+      "title": "error: \"x\" does not return a value  [func-returns-value]",
+      "created_at": "2023-07-30T15:35:23Z",
+      "closed_at": "2023-08-24T08:10:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16420",
+      "number": 16420,
+      "title": "`mypyc runtime tests with py39-macos` is unstable ",
+      "created_at": "2023-11-08T10:50:23Z",
+      "closed_at": "2023-11-19T17:33:43Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16466",
+      "number": 16466,
+      "title": "1.7.0: Cannot find implementation or library stub for module named \"scribe\"",
+      "created_at": "2023-11-11T21:42:08Z",
+      "closed_at": "2023-11-16T14:55:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17368",
+      "number": 17368,
+      "title": "There is a bug in `exclue` ? ",
+      "created_at": "2024-06-12T12:57:24Z",
+      "closed_at": "2024-10-21T10:14:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/18271",
+      "number": 18271,
+      "title": "Unexpected \"Never has no attribute...\" error for declared context manager enter result type",
+      "created_at": "2024-12-09T11:47:45Z",
+      "closed_at": "2024-12-09T14:56:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/18610",
+      "number": 18610,
+      "title": "[self-tests] mypyc 1.15.0 self-tests fail",
+      "created_at": "2025-02-05T10:44:02Z",
+      "closed_at": "2025-02-12T08:54:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19156",
+      "number": 19156,
+      "title": "Incorrect error [list-tem] with deque",
+      "created_at": "2025-05-27T18:41:22Z",
+      "closed_at": "2025-05-28T00:39:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19230",
+      "number": 19230,
+      "title": "random slow down",
+      "created_at": "2025-06-04T10:37:49Z",
+      "closed_at": "2025-06-04T19:17:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19711",
+      "number": 19711,
+      "title": "Odd behavior in DEV version of mypy on `pandas-stubs`",
+      "created_at": "2025-08-21T20:58:59Z",
+      "closed_at": "2025-08-26T21:32:50Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20072",
+      "number": 20072,
+      "title": "Planned work related to fixed-format serialization",
+      "created_at": "2025-10-15T15:13:03Z",
+      "closed_at": "2026-01-10T00:19:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20473",
+      "number": 20473,
+      "title": "Unaligned memory access in _write_short_int",
+      "created_at": "2025-12-25T12:06:37Z",
+      "closed_at": "2026-01-08T16:53:09Z"
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "index": 23,
+  "stratum": "tests",
+  "repository": "microsoft/playwright",
+  "repository_id": 221981891,
+  "term": "no tests",
+  "query": "repo:microsoft/playwright is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:11.759259+00:00",
+  "total_count": 693,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "ef370f6c12c1d59d99b728b0b4e00365591fc00f805cd83641aa865e60147efa",
+  "items": [
+    {
+      "url": "https://github.com/microsoft/playwright/issues/630",
+      "number": 630,
+      "title": "Being able to run Firefox ESR",
+      "created_at": "2020-01-24T17:53:14Z",
+      "closed_at": "2020-02-19T20:48:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/926",
+      "number": 926,
+      "title": "[Question]Can I do an automation test with playwright in github actions?",
+      "created_at": "2020-02-11T16:52:46Z",
+      "closed_at": "2020-02-13T18:18:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1604",
+      "number": 1604,
+      "title": "Page Object Model [Question]",
+      "created_at": "2020-03-31T11:53:03Z",
+      "closed_at": "2020-04-01T16:53:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1799",
+      "number": 1799,
+      "title": "[Feature] allow client certificate selection and settings from Javascript",
+      "created_at": "2020-04-15T15:43:30Z",
+      "closed_at": "2024-07-24T09:43:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1985",
+      "number": 1985,
+      "title": "[Question] Attaching playwright to an existing browser window?",
+      "created_at": "2020-04-25T20:36:36Z",
+      "closed_at": "2020-06-28T17:47:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2274",
+      "number": 2274,
+      "title": "[Bug] running tests in parallel in Docker lead to page crashes",
+      "created_at": "2020-05-17T02:08:13Z",
+      "closed_at": "2020-11-24T18:53:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2616",
+      "number": 2616,
+      "title": "[REGRESSION]: Very slow on v1.1",
+      "created_at": "2020-06-18T03:07:25Z",
+      "closed_at": "2020-08-21T17:35:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2749",
+      "number": 2749,
+      "title": "[Feature] allow viewport size to be independent from the window size",
+      "created_at": "2020-06-29T11:28:23Z",
+      "closed_at": "2020-07-07T06:00:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2971",
+      "number": 2971,
+      "title": "[Internal] Jest runner limitations / adoption blockers",
+      "created_at": "2020-07-16T06:17:12Z",
+      "closed_at": "2020-08-21T08:12:23Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3090",
+      "number": 3090,
+      "title": "[BUG] GitHub + macOS + Node 14: All tests pass but process exits with code 134",
+      "created_at": "2020-07-22T19:07:00Z",
+      "closed_at": "2020-07-27T13:40:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3148",
+      "number": 3148,
+      "title": "[Question] Issue with launching Chromium in headful mode",
+      "created_at": "2020-07-24T16:51:14Z",
+      "closed_at": "2020-11-24T19:25:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3192",
+      "number": 3192,
+      "title": "[Question] Check if element is stable",
+      "created_at": "2020-07-28T09:12:54Z",
+      "closed_at": "2020-08-17T23:38:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4031",
+      "number": 4031,
+      "title": "[Question] Access-Control-Allow-Origin issue",
+      "created_at": "2020-10-01T14:26:18Z",
+      "closed_at": "2020-11-13T01:34:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4295",
+      "number": 4295,
+      "title": "[Question] Scrollbars in Firefox headless",
+      "created_at": "2020-10-30T21:27:17Z",
+      "closed_at": "2026-05-07T22:44:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4549",
+      "number": 4549,
+      "title": "playwright.helper.Error: Navigation failed because page crashed!",
+      "created_at": "2020-11-29T18:39:37Z",
+      "closed_at": "2021-01-18T17:33:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4538",
+      "number": 4538,
+      "title": "[Feature] landmarks support for selection",
+      "created_at": "2020-11-30T08:19:25Z",
+      "closed_at": "2021-07-12T21:18:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4822",
+      "number": 4822,
+      "title": "[Question] How to disable bringing page to front during launching.",
+      "created_at": "2020-12-25T09:07:22Z",
+      "closed_at": "2021-01-16T20:32:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7035",
+      "number": 7035,
+      "title": "[Feature] watch mode for e2e tests",
+      "created_at": "2020-12-27T07:54:27Z",
+      "closed_at": "2023-03-23T00:39:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4834",
+      "number": 4834,
+      "title": "[Question] Is it possible to save video by parts for one page?",
+      "created_at": "2020-12-28T11:18:07Z",
+      "closed_at": "2022-01-01T23:22:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4956",
+      "number": 4956,
+      "title": "[Question] Ability to disconnect from browser server without closing contexts",
+      "created_at": "2021-01-09T00:51:33Z",
+      "closed_at": "2021-01-12T23:41:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5130",
+      "number": 5130,
+      "title": "[BUG] Playwright-Electron - app is closed prematurely (Cannot find parent object BrowserContext@..)",
+      "created_at": "2021-01-24T17:48:16Z",
+      "closed_at": "2023-11-16T04:43:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5853",
+      "number": 5853,
+      "title": "[Feature] Redirect video stream to new path",
+      "created_at": "2021-03-17T08:14:59Z",
+      "closed_at": "2021-03-31T17:38:06Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5999",
+      "number": 5999,
+      "title": "[Question] Is it possible to make an HttpRequest through Playwright?",
+      "created_at": "2021-03-30T09:33:02Z",
+      "closed_at": "2021-10-18T17:33:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6097",
+      "number": 6097,
+      "title": "[BUG] page.fill fails in Github Actions but succeeds locally",
+      "created_at": "2021-04-06T15:36:10Z",
+      "closed_at": "2021-04-07T14:46:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6347",
+      "number": 6347,
+      "title": "[Feature] Time/Date emulation via e.g. a `clock()` primitive",
+      "created_at": "2021-04-28T09:09:30Z",
+      "closed_at": "2024-06-25T14:43:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6382",
+      "number": 6382,
+      "title": "[Question] How to run tests on docker which points to other than localhost url?",
+      "created_at": "2021-05-02T19:08:11Z",
+      "closed_at": "2021-05-05T10:58:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7032",
+      "number": 7032,
+      "title": "Feature Request: Rails System Tests w/ playwright-test",
+      "created_at": "2021-05-28T17:48:38Z",
+      "closed_at": "2022-01-01T23:43:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7070",
+      "number": 7070,
+      "title": "[REGRESSION]: `folio` cannot be exported when upgrading to 1.12",
+      "created_at": "2021-06-11T10:02:06Z",
+      "closed_at": "2021-06-11T13:11:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7121",
+      "number": 7121,
+      "title": "[TestRunner] tsconfig, babel, tsx, esm metabug",
+      "created_at": "2021-06-14T23:53:35Z",
+      "closed_at": "2022-01-10T17:10:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7218",
+      "number": 7218,
+      "title": "[Question] How to share singleton class instance with test fixtures?",
+      "created_at": "2021-06-18T04:53:15Z",
+      "closed_at": "2021-06-21T05:32:01Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7267",
+      "number": 7267,
+      "title": "[Question] Any way to pass playwright.config.js configuration to custom context, page worker fixtures?",
+      "created_at": "2021-06-23T07:07:08Z",
+      "closed_at": "2021-07-07T18:51:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7341",
+      "number": 7341,
+      "title": "[BUG] Tests for the firefox doesn't run in a CI runner",
+      "created_at": "2021-06-27T12:58:07Z",
+      "closed_at": "2021-08-06T16:12:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7403",
+      "number": 7403,
+      "title": "Requesting 'testDir' to take in an string array instead of just string",
+      "created_at": "2021-06-30T14:42:13Z",
+      "closed_at": "2022-10-20T03:12:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7482",
+      "number": 7482,
+      "title": "[Feature] Get access to fixtures in test.describe block ",
+      "created_at": "2021-07-06T16:37:49Z",
+      "closed_at": "2021-07-08T19:46:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7551",
+      "number": 7551,
+      "title": "[Feature]: Support .tsx files to avoid need for jest",
+      "created_at": "2021-07-11T09:02:17Z",
+      "closed_at": "2021-07-12T21:02:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7563",
+      "number": 7563,
+      "title": "[Feature]: more detail on failing tests when using playwright-test",
+      "created_at": "2021-07-12T16:29:49Z",
+      "closed_at": "2021-09-08T11:52:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7568",
+      "number": 7568,
+      "title": "[Bug]: junit report does not report the correct test status when sharding",
+      "created_at": "2021-07-12T21:27:07Z",
+      "closed_at": "2021-07-13T12:05:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7609",
+      "number": 7609,
+      "title": "[Bug]: Error: ENOENT: no such file or directory, open '...\\test1\\test2\\snapshot-name-expected.png",
+      "created_at": "2021-07-14T15:16:10Z",
+      "closed_at": "2021-07-14T23:34:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7611",
+      "number": 7611,
+      "title": "[Bug]: Self signed certificate doesn't work for Docker",
+      "created_at": "2021-07-14T16:06:26Z",
+      "closed_at": "2022-01-01T23:38:23Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7639",
+      "number": 7639,
+      "title": "[Bug]: Problem in runner with report: junit and shard=x/y",
+      "created_at": "2021-07-15T10:33:48Z",
+      "closed_at": "2021-07-27T18:05:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7915",
+      "number": 7915,
+      "title": "Unknown option --no-sandbox (webkit)",
+      "created_at": "2021-07-29T17:39:11Z",
+      "closed_at": "2021-07-30T03:54:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8039",
+      "number": 8039,
+      "title": "setViewportSize doesn't work properly on some pages, modals etc.",
+      "created_at": "2021-08-06T12:57:34Z",
+      "closed_at": "2021-08-23T23:28:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8053",
+      "number": 8053,
+      "title": "[Bug]: Bump Runtime.Evaluate priority in Chromium",
+      "created_at": "2021-08-06T17:57:42Z",
+      "closed_at": "2023-06-30T17:41:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8098",
+      "number": 8098,
+      "title": "[Bug]: NaCl helper error when launching Chromium on linux",
+      "created_at": "2021-08-09T17:58:57Z",
+      "closed_at": "2021-08-09T21:14:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8161",
+      "number": 8161,
+      "title": "feat: better support for visual regression testing",
+      "created_at": "2021-08-12T10:16:51Z",
+      "closed_at": "2026-05-12T17:00:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8192",
+      "number": 8192,
+      "title": "[Feature] Expose Reporter api for getting skipped testSuites ",
+      "created_at": "2021-08-14T00:23:55Z",
+      "closed_at": "2021-08-16T18:41:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8281",
+      "number": 8281,
+      "title": "[BUG] HTML report crashes if diff snapshot does not exists",
+      "created_at": "2021-08-18T15:01:48Z",
+      "closed_at": "2021-08-20T20:40:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8344",
+      "number": 8344,
+      "title": "[Question]\"no tests found\" issue with Jenkins",
+      "created_at": "2021-08-20T14:15:47Z",
+      "closed_at": "2021-08-23T11:31:01Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8392",
+      "number": 8392,
+      "title": "[BUG]  Run the specific test from the root folder, triggers the message: 'no tests found', but succeeds if run from the folder that contains the test",
+      "created_at": "2021-08-24T05:39:29Z",
+      "closed_at": "2021-09-13T16:09:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8505",
+      "number": 8505,
+      "title": "[Question] Any way to have more than one worker for tests in the same spec file",
+      "created_at": "2021-08-27T13:53:54Z",
+      "closed_at": "2021-09-08T14:44:26Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8719",
+      "number": 8719,
+      "title": "[BUG] Cannot install PlayWright",
+      "created_at": "2021-09-06T04:25:33Z",
+      "closed_at": "2021-09-07T21:00:10Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8742",
+      "number": 8742,
+      "title": "[BUG] Playwright runner doesn't execute test and give a \"no tests found.\" message, if the path contains a hidden directory reference",
+      "created_at": "2021-09-07T10:58:08Z",
+      "closed_at": "2021-09-07T17:32:47Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8747",
+      "number": 8747,
+      "title": "[Question]  Evade headless browser detection?",
+      "created_at": "2021-09-07T13:58:55Z",
+      "closed_at": "2021-09-10T13:56:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8799",
+      "number": 8799,
+      "title": "[BUG] Incorrect attachments in junit report  ",
+      "created_at": "2021-09-09T08:58:23Z",
+      "closed_at": "2021-09-14T00:50:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8849",
+      "number": 8849,
+      "title": "[BUG] Test that passed on first retry  - defined as flaky and triggers failure of the whole test run",
+      "created_at": "2021-09-10T21:21:39Z",
+      "closed_at": "2022-10-20T03:17:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8852",
+      "number": 8852,
+      "title": "[Feature] Show skipped tests names and skip messages in --list output",
+      "created_at": "2021-09-10T22:02:11Z",
+      "closed_at": "2023-06-30T18:18:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9002",
+      "number": 9002,
+      "title": "[BUG] Some config options are working only partially when using browser.newContext()",
+      "created_at": "2021-09-18T03:08:42Z",
+      "closed_at": "2022-06-14T00:25:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9025",
+      "number": 9025,
+      "title": "[Feature] Connect to Appium Service within Playwright",
+      "created_at": "2021-09-20T13:13:42Z",
+      "closed_at": "2021-09-20T14:51:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9064",
+      "number": 9064,
+      "title": "[Question] How can I add global variables to the playwright test runner?",
+      "created_at": "2021-09-22T06:23:37Z",
+      "closed_at": "2021-09-22T09:14:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9146",
+      "number": 9146,
+      "title": "[Question]Playwright not able to find test in the folder",
+      "created_at": "2021-09-25T11:11:18Z",
+      "closed_at": "2021-09-25T12:39:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9178",
+      "number": 9178,
+      "title": "[Question] Worker Fixtures with Account Logins",
+      "created_at": "2021-09-27T17:14:39Z",
+      "closed_at": "2021-11-01T17:37:34Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9217",
+      "number": 9217,
+      "title": "[Feature] Expose browser/platform info through reporter API",
+      "created_at": "2021-09-29T19:30:45Z",
+      "closed_at": "2023-06-30T17:52:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9262",
+      "number": 9262,
+      "title": "[BUG] PW not working for electron on ubuntu-latest github actions",
+      "created_at": "2021-10-01T17:07:57Z",
+      "closed_at": "2021-10-13T23:54:11Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9312",
+      "number": 9312,
+      "title": "[BUG] playwright throwing SSL while ignoreHTTPSErrors is true",
+      "created_at": "2021-10-05T13:13:59Z",
+      "closed_at": "2021-10-06T09:15:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9357",
+      "number": 9357,
+      "title": "[BUG] page.goto: Navigation failed because page crashed! [Edge]",
+      "created_at": "2021-10-07T08:42:52Z",
+      "closed_at": "2021-10-16T20:35:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9369",
+      "number": 9369,
+      "title": "[BUG] inconsistent/broken behavior with waitForNavigation and redirects",
+      "created_at": "2021-10-07T16:47:51Z",
+      "closed_at": "2021-11-12T00:00:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9613",
+      "number": 9613,
+      "title": "using storageState to login issue",
+      "created_at": "2021-10-19T12:22:14Z",
+      "closed_at": "2021-10-22T23:28:24Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9636",
+      "number": 9636,
+      "title": "[BUG] Test not found error when using async/await calls to fetch data ",
+      "created_at": "2021-10-20T00:34:52Z",
+      "closed_at": "2021-10-22T19:28:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9847",
+      "number": 9847,
+      "title": "[Question] Why in CI there is no line with summary info about tests and workers?",
+      "created_at": "2021-10-28T11:47:08Z",
+      "closed_at": "2021-11-03T18:17:24Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9867",
+      "number": 9867,
+      "title": "[Question] Electron App + Playwright - POC",
+      "created_at": "2021-10-28T22:26:43Z",
+      "closed_at": "2021-10-29T14:50:10Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10046",
+      "number": 10046,
+      "title": "[Question] Want to execute a test multiple times without CLI commands?",
+      "created_at": "2021-11-04T17:01:12Z",
+      "closed_at": "2021-11-08T10:00:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10072",
+      "number": 10072,
+      "title": "[BUG] Empty test-results folder when all tests pass",
+      "created_at": "2021-11-05T01:49:47Z",
+      "closed_at": "2021-11-18T17:45:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10132",
+      "number": 10132,
+      "title": "[Feature] Pause test (`page.pause()`) on failure",
+      "created_at": "2021-11-08T16:34:40Z",
+      "closed_at": "2023-01-10T18:58:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10168",
+      "number": 10168,
+      "title": "[Question] How to reduce size of Docker image for Playwright ( focal )",
+      "created_at": "2021-11-09T05:22:50Z",
+      "closed_at": "2021-11-18T17:46:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10183",
+      "number": 10183,
+      "title": "[BUG] mouse.wheel doesn't work with Mobile Safari on Linux",
+      "created_at": "2021-11-09T14:05:07Z",
+      "closed_at": "2021-12-15T19:57:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10271",
+      "number": 10271,
+      "title": "[Question]Getting below warning while using test.slow and test gets skipped",
+      "created_at": "2021-11-12T03:30:02Z",
+      "closed_at": "2021-11-14T12:54:24Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10325",
+      "number": 10325,
+      "title": "[Feature] Parametrization API for Playwright Test",
+      "created_at": "2021-11-15T16:13:25Z",
+      "closed_at": "2022-01-25T19:06:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10330",
+      "number": 10330,
+      "title": "[Regression] Font has been changed inside of Docker from 1.16",
+      "created_at": "2021-11-15T21:06:36Z",
+      "closed_at": "2022-10-20T06:27:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10440",
+      "number": 10440,
+      "title": "[Feature] Support traces in `beforeAll` and `afterAll` test hooks",
+      "created_at": "2021-11-19T16:35:07Z",
+      "closed_at": "2021-12-16T00:06:11Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10500",
+      "number": 10500,
+      "title": "[Command line flag that runs all \"failures\" from the last run]",
+      "created_at": "2021-11-23T20:56:21Z",
+      "closed_at": "2024-05-07T15:51:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10624",
+      "number": 10624,
+      "title": "[BUG] timeout in afterAll hook does not report which spec had the problem",
+      "created_at": "2021-12-01T03:14:07Z",
+      "closed_at": "2021-12-18T17:32:41Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10837",
+      "number": 10837,
+      "title": "Problem starting browser after upgrade Node module repo from http to https ",
+      "created_at": "2021-12-09T21:26:15Z",
+      "closed_at": "2021-12-10T01:03:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11060",
+      "number": 11060,
+      "title": "[Question] \"no tests found\", but files exist",
+      "created_at": "2021-12-22T14:20:20Z",
+      "closed_at": "2022-01-25T18:51:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11128",
+      "number": 11128,
+      "title": "[Feature] I want to handle multiple environments and pass env name from CLI.",
+      "created_at": "2021-12-29T09:01:31Z",
+      "closed_at": "2021-12-30T05:29:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11130",
+      "number": 11130,
+      "title": "[BUG] browserType.launch: Protocol error (Browser.enable): Browser closed",
+      "created_at": "2021-12-29T16:27:42Z",
+      "closed_at": "2022-04-05T08:55:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11314",
+      "number": 11314,
+      "title": "[BUG] HTML Reporter Color Output Dependent on Global Color Settings",
+      "created_at": "2022-01-11T00:56:47Z",
+      "closed_at": "2022-02-02T01:29:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11398",
+      "number": 11398,
+      "title": "[Question] BeforeAll and AfterAll executed even when all tests are skipped",
+      "created_at": "2022-01-14T13:35:29Z",
+      "closed_at": "2022-01-14T15:44:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11458",
+      "number": 11458,
+      "title": "Dynamic tests fail under specific circumstances - test() can only be called in a test file",
+      "created_at": "2022-01-18T14:24:33Z",
+      "closed_at": "2022-01-18T21:40:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11543",
+      "number": 11543,
+      "title": "[Feature] Introduce beforestep and afterstep",
+      "created_at": "2022-01-21T11:47:08Z",
+      "closed_at": "2022-01-31T14:24:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11655",
+      "number": 11655,
+      "title": "[Feature] Serialize specific tests in an otherwise-parallelized test suite",
+      "created_at": "2022-01-26T19:36:21Z",
+      "closed_at": "2022-01-27T16:05:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11656",
+      "number": 11656,
+      "title": "Using alias in tsconfig.json for paths causes \"Could not resolve\" error when executing tests the first time. No error shows up after that!",
+      "created_at": "2022-01-26T19:51:33Z",
+      "closed_at": "2022-01-26T20:10:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11719",
+      "number": 11719,
+      "title": "[Question] Playwright Docker image not finding browser",
+      "created_at": "2022-01-28T17:00:22Z",
+      "closed_at": "2022-01-31T13:37:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11809",
+      "number": 11809,
+      "title": "[Question] Way to skip global setup for selective tests?",
+      "created_at": "2022-02-02T12:49:57Z",
+      "closed_at": "2023-06-30T20:24:06Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11823",
+      "number": 11823,
+      "title": "[Question] Tests do not run on Electron 16,17",
+      "created_at": "2022-02-03T01:39:59Z",
+      "closed_at": "2022-02-11T20:27:06Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11841",
+      "number": 11841,
+      "title": "[BUG] @playwright/test@next build from 1.19.0-alpha-feb-2-2022 onwards is bad",
+      "created_at": "2022-02-03T17:42:20Z",
+      "closed_at": "2022-02-14T19:31:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12027",
+      "number": 12027,
+      "title": "[Feature] Update babel config to include private methods proposal plugin",
+      "created_at": "2022-02-11T12:29:50Z",
+      "closed_at": "2022-02-11T22:46:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12060",
+      "number": 12060,
+      "title": "[Question] Loop tests based on API data array",
+      "created_at": "2022-02-12T14:13:27Z",
+      "closed_at": "2022-02-14T19:52:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12096",
+      "number": 12096,
+      "title": "[FEATURE] Cookies not supported with Electron",
+      "created_at": "2022-02-14T21:13:47Z",
+      "closed_at": "2024-04-26T17:01:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12139",
+      "number": 12139,
+      "title": "[BUG] Electron not running in GitHub actions CI for ubuntu-latest (electron.launch: Process failed to launch!)",
+      "created_at": "2022-02-15T23:50:24Z",
+      "closed_at": "2022-02-16T18:54:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12217",
+      "number": 12217,
+      "title": "[Feature] Providing test filepaths with CLI",
+      "created_at": "2022-02-18T12:15:23Z",
+      "closed_at": "2022-03-08T00:45:02Z"
+    }
+  ]
+}

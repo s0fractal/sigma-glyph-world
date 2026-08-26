@@ -1,0 +1,716 @@
+{
+  "index": 16,
+  "stratum": "tests",
+  "repository": "jestjs/jest",
+  "repository_id": 15062869,
+  "term": "no tests",
+  "query": "repo:jestjs/jest is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:48.624249+00:00",
+  "total_count": 180,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "981c7d962a6d2ecc8a350591ab8794a72e26c462933dcd9a84003701f676f461",
+  "items": [
+    {
+      "url": "https://github.com/jestjs/jest/issues/9364",
+      "number": 9364,
+      "title": "dynamic/progressive test display in verbose mode to see each individual test as they run and their timing",
+      "created_at": "2020-01-03T09:14:37Z",
+      "closed_at": "2020-01-03T16:36:49Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9392",
+      "number": 9392,
+      "title": "coverage report not produced with --passWithNoTests flag and no tests",
+      "created_at": "2020-01-10T15:38:34Z",
+      "closed_at": "2022-03-27T13:00:48Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9396",
+      "number": 9396,
+      "title": "Lots of handlebars warnings with text+coverage reporter",
+      "created_at": "2020-01-11T00:50:05Z",
+      "closed_at": "2020-01-11T15:52:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9408",
+      "number": 9408,
+      "title": "Jest always returns 'Done in 0.69s' but no test results",
+      "created_at": "2020-01-15T11:59:42Z",
+      "closed_at": "2020-01-15T12:08:12Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9418",
+      "number": 9418,
+      "title": "Were the green progress bar and live stats removed recently?",
+      "created_at": "2020-01-16T15:24:11Z",
+      "closed_at": "2020-01-16T15:50:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9420",
+      "number": 9420,
+      "title": "Jest Progress bar and live stats not showing up when running in band",
+      "created_at": "2020-01-16T18:36:22Z",
+      "closed_at": "2022-11-10T13:49:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9421",
+      "number": 9421,
+      "title": "Problem when running Jest tests on Linux machines",
+      "created_at": "2020-01-16T20:46:16Z",
+      "closed_at": "2020-03-27T01:41:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9441",
+      "number": 9441,
+      "title": "v25.1.0 text reporter generates to much white space",
+      "created_at": "2020-01-22T07:29:44Z",
+      "closed_at": "2020-06-02T04:13:37Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9457",
+      "number": 9457,
+      "title": "jest 25 performance",
+      "created_at": "2020-01-24T00:05:20Z",
+      "closed_at": "2025-02-17T13:20:04Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9473",
+      "number": 9473,
+      "title": "--detectOpenHandles prints nothing, just hangs",
+      "created_at": "2020-01-28T10:17:33Z",
+      "closed_at": "2021-05-21T06:14:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9475",
+      "number": 9475,
+      "title": "Don't create separate workers for tests with `--runInBand` ",
+      "created_at": "2020-01-28T11:14:41Z",
+      "closed_at": "2020-01-28T11:18:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9489",
+      "number": 9489,
+      "title": "]BUG] Repeatedly runs tests even though no changes occurs after first trigger (Win 10)",
+      "created_at": "2020-01-30T17:24:29Z",
+      "closed_at": "2020-01-31T14:42:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9503",
+      "number": 9503,
+      "title": "jest: failed to cache transform results",
+      "created_at": "2020-02-03T13:51:06Z",
+      "closed_at": "2020-10-15T10:13:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9515",
+      "number": 9515,
+      "title": "Proposed changes for malformed tests",
+      "created_at": "2020-02-04T09:21:33Z",
+      "closed_at": "2022-03-27T13:00:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9528",
+      "number": 9528,
+      "title": "watch mode regex is not working",
+      "created_at": "2020-02-07T01:32:32Z",
+      "closed_at": "2024-03-18T20:04:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9599",
+      "number": 9599,
+      "title": "jest test freezes with typescript",
+      "created_at": "2020-02-19T19:07:37Z",
+      "closed_at": "2023-03-19T16:46:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9728",
+      "number": 9728,
+      "title": "Jest25: --findRelatedTests not working in hidden directory on windows",
+      "created_at": "2020-03-30T04:58:36Z",
+      "closed_at": "2021-06-14T11:17:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9742",
+      "number": 9742,
+      "title": "Output # of threads",
+      "created_at": "2020-04-01T20:41:18Z",
+      "closed_at": "2022-03-27T13:00:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9797",
+      "number": 9797,
+      "title": "Error in handleTestEvent fails the entire test suite (no tests marked as being run)",
+      "created_at": "2020-04-11T08:39:29Z",
+      "closed_at": "2023-02-18T07:48:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9829",
+      "number": 9829,
+      "title": "Jest fails when git branch name looks like a json file",
+      "created_at": "2020-04-16T20:53:55Z",
+      "closed_at": "2020-07-30T09:14:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9860",
+      "number": 9860,
+      "title": " SyntaxError: Cannot use import statement outside a module, with TypeScript and ES Modules",
+      "created_at": "2020-04-22T11:08:32Z",
+      "closed_at": "2020-12-04T13:03:56Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9865",
+      "number": 9865,
+      "title": "Snapshot comparison failing but results look identical",
+      "created_at": "2020-04-22T17:49:36Z",
+      "closed_at": "2023-03-19T16:42:29Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9908",
+      "number": 9908,
+      "title": "Defining sequel and parallel blocks in test file",
+      "created_at": "2020-04-28T09:55:54Z",
+      "closed_at": "2022-02-27T19:23:55Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9911",
+      "number": 9911,
+      "title": "Establish consistent and reasonable failing hooks behaviour",
+      "created_at": "2020-04-29T00:23:57Z",
+      "closed_at": "2023-10-11T12:09:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9941",
+      "number": 9941,
+      "title": "No option to run code before all tests in multiple files",
+      "created_at": "2020-05-01T16:35:05Z",
+      "closed_at": "2020-05-01T17:23:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9980",
+      "number": 9980,
+      "title": "JavaScript heap out of memory after upgrade to Jest 26",
+      "created_at": "2020-05-05T20:35:54Z",
+      "closed_at": "2025-05-25T01:16:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10014",
+      "number": 10014,
+      "title": "Jest v26 is failing when run without cli options",
+      "created_at": "2020-05-10T09:23:16Z",
+      "closed_at": "2021-05-16T07:01:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10047",
+      "number": 10047,
+      "title": "create-react-app typescript with jest set up not working",
+      "created_at": "2020-05-15T13:52:40Z",
+      "closed_at": "2020-05-18T22:43:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10079",
+      "number": 10079,
+      "title": "Subsequent test fails if first test has Promise handler",
+      "created_at": "2020-05-23T22:23:22Z",
+      "closed_at": "2023-03-19T16:41:52Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10114",
+      "number": 10114,
+      "title": "--notify does not seem to be working anymore",
+      "created_at": "2020-06-01T18:14:46Z",
+      "closed_at": "2020-06-01T18:16:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10144",
+      "number": 10144,
+      "title": "write EPIPE when using ChildProcessWorker.js",
+      "created_at": "2020-06-08T15:52:38Z",
+      "closed_at": "2020-10-02T16:45:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10257",
+      "number": 10257,
+      "title": "Custom reporters option eats all following arguments up to the next option",
+      "created_at": "2020-07-08T01:07:00Z",
+      "closed_at": "2023-03-19T16:41:08Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10263",
+      "number": 10263,
+      "title": "Native file crawling doesn't work with POSIX find",
+      "created_at": "2020-07-10T16:33:47Z",
+      "closed_at": "2020-07-24T16:49:55Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10265",
+      "number": 10265,
+      "title": "Build fail",
+      "created_at": "2020-07-10T19:32:05Z",
+      "closed_at": "2020-07-10T19:32:54Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10295",
+      "number": 10295,
+      "title": "tests only succeed once. No tests found; Jest, Babel, lint-staged, husky.",
+      "created_at": "2020-07-21T12:52:33Z",
+      "closed_at": "2023-01-08T20:16:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10311",
+      "number": 10311,
+      "title": "TypeError: Cannot read property '_location' of null",
+      "created_at": "2020-07-24T21:36:17Z",
+      "closed_at": "2022-04-01T09:39:09Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10330",
+      "number": 10330,
+      "title": "Source maps are mis-aligned",
+      "created_at": "2020-07-28T13:29:54Z",
+      "closed_at": "2021-02-19T09:29:42Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10338",
+      "number": 10338,
+      "title": "Getting Started tutorial fails to find test",
+      "created_at": "2020-07-30T15:49:21Z",
+      "closed_at": "2023-03-19T16:46:18Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10339",
+      "number": 10339,
+      "title": "Jest 26.2.1 regression: “No tests found” on Windows",
+      "created_at": "2020-07-30T19:12:33Z",
+      "closed_at": "2020-07-31T10:49:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10361",
+      "number": 10361,
+      "title": "Jest doesn't fail if unhandled rejections are detected after the test has finished executing",
+      "created_at": "2020-08-04T12:22:31Z",
+      "closed_at": "2023-03-19T16:46:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10514",
+      "number": 10514,
+      "title": "Jest <regexForTestFiles> Does Not work w/ Links in Path ",
+      "created_at": "2020-09-14T21:23:14Z",
+      "closed_at": "2023-03-19T16:45:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10520",
+      "number": 10520,
+      "title": "[jest-circus] suite level retry",
+      "created_at": "2020-09-15T14:26:36Z",
+      "closed_at": "2026-08-18T08:13:29Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10535",
+      "number": 10535,
+      "title": "Jest Unrecognized CLI Parameters with TypeScript",
+      "created_at": "2020-09-19T12:44:15Z",
+      "closed_at": "2022-02-25T11:22:24Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10550",
+      "number": 10550,
+      "title": "Module caching memory leak",
+      "created_at": "2020-09-23T16:09:33Z",
+      "closed_at": "2022-03-03T10:43:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10625",
+      "number": 10625,
+      "title": "require.main is undefined ...when resetModules=true? (maybe)",
+      "created_at": "2020-10-12T05:50:39Z",
+      "closed_at": "2020-10-13T11:16:17Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10646",
+      "number": 10646,
+      "title": "No progress messages when imposing sequential tests in jest 26.5.3",
+      "created_at": "2020-10-19T06:45:05Z",
+      "closed_at": "2022-11-10T13:47:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10704",
+      "number": 10704,
+      "title": "babel-jest not doing type-check during transform",
+      "created_at": "2020-10-25T20:14:15Z",
+      "closed_at": "2020-10-25T20:17:42Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10710",
+      "number": 10710,
+      "title": "Jest flags: --findRelatedTests and --onlyChanged",
+      "created_at": "2020-10-26T08:35:16Z",
+      "closed_at": "2022-06-09T18:28:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10716",
+      "number": 10716,
+      "title": "`toHaveBeenCalledWith` `objectContaining` issue after patch update 26.6.1",
+      "created_at": "2020-10-26T18:02:04Z",
+      "closed_at": "2020-11-02T11:45:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10833",
+      "number": 10833,
+      "title": "Slow startup time in monorepos (single test/project)",
+      "created_at": "2020-11-16T07:42:39Z",
+      "closed_at": "2026-06-17T05:43:52Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10851",
+      "number": 10851,
+      "title": "Jest run coverage report even without adding coverage param",
+      "created_at": "2020-11-20T11:00:01Z",
+      "closed_at": "2023-03-19T16:40:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10856",
+      "number": 10856,
+      "title": "List the files that will run against using the --onlyChanged",
+      "created_at": "2020-11-21T05:48:39Z",
+      "closed_at": "2020-11-21T08:30:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10895",
+      "number": 10895,
+      "title": "Better timeout errors through deadline checking",
+      "created_at": "2020-11-30T17:25:02Z",
+      "closed_at": "2023-08-14T14:04:37Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10950",
+      "number": 10950,
+      "title": "No tests found while running tests using Jest in network mapped drives",
+      "created_at": "2020-12-14T05:41:35Z",
+      "closed_at": "2022-03-27T13:08:40Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10969",
+      "number": 10969,
+      "title": "Global `beforeAll` and `afterAll` issue with `--no-cache`",
+      "created_at": "2020-12-22T21:29:27Z",
+      "closed_at": "2020-12-22T21:55:22Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11011",
+      "number": 11011,
+      "title": "Wasm es6 modules fail to load with Jest, but work in Node",
+      "created_at": "2021-01-16T20:00:52Z",
+      "closed_at": "2022-11-06T20:48:13Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11030",
+      "number": 11030,
+      "title": "Skipped tests are not shown in jest output",
+      "created_at": "2021-01-26T11:19:02Z",
+      "closed_at": "2023-03-19T16:39:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11041",
+      "number": 11041,
+      "title": "Attempting to modify the testMatch micromatch glob to support .mjs/.cjs files results in no test-files being discovered",
+      "created_at": "2021-01-30T00:57:31Z",
+      "closed_at": "2021-01-31T22:32:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11096",
+      "number": 11096,
+      "title": "Jest summary output is not printed at the end / test output after summary",
+      "created_at": "2021-02-19T11:02:22Z",
+      "closed_at": "2023-03-19T16:39:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11132",
+      "number": 11132,
+      "title": "Tests logging after teardown do not fail tests in non-watch mode",
+      "created_at": "2021-02-28T23:03:47Z",
+      "closed_at": "2024-04-22T10:05:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11178",
+      "number": 11178,
+      "title": "jest not resolve cjs modules as nodejs",
+      "created_at": "2021-03-11T00:25:56Z",
+      "closed_at": "2021-03-11T06:35:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11234",
+      "number": 11234,
+      "title": "Slow start times due to use of barrel files",
+      "created_at": "2021-03-23T19:46:56Z",
+      "closed_at": "2026-07-07T17:40:22Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11339",
+      "number": 11339,
+      "title": "ESM and `node:` protocol in imports",
+      "created_at": "2021-04-24T10:08:43Z",
+      "closed_at": "2021-08-27T09:51:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11354",
+      "number": 11354,
+      "title": "Spurious error: \"A worker process has failed to exit gracefully and has been force exited.\"",
+      "created_at": "2021-04-28T22:25:51Z",
+      "closed_at": "2024-02-29T17:04:17Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11374",
+      "number": 11374,
+      "title": "No tests found, exiting with code 1",
+      "created_at": "2021-05-04T18:37:19Z",
+      "closed_at": "2023-03-19T16:45:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11431",
+      "number": 11431,
+      "title": "Babel unexpectedly transpiling/converting node_modules",
+      "created_at": "2021-05-20T18:26:24Z",
+      "closed_at": "2024-06-29T16:04:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11447",
+      "number": 11447,
+      "title": "useFakeTimers no longer mocks out timer functions properly",
+      "created_at": "2021-05-26T09:35:26Z",
+      "closed_at": "2021-05-27T09:18:10Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11458",
+      "number": 11458,
+      "title": "\"synchronous transformer must export a \"process\" function\" when using `processAsync`",
+      "created_at": "2021-05-26T20:28:23Z",
+      "closed_at": "2021-09-14T06:15:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11485",
+      "number": 11485,
+      "title": " Invalid: afterAll() may not be used in a describe block containing no tests.",
+      "created_at": "2021-05-30T08:35:42Z",
+      "closed_at": "2021-05-31T06:39:17Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11527",
+      "number": 11527,
+      "title": "--findRelatedTests does not seem to be combatible with `roots`",
+      "created_at": "2021-06-04T16:18:52Z",
+      "closed_at": "2021-06-11T15:27:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11534",
+      "number": 11534,
+      "title": "--findRelatedTests <spaceSeparatedListOfSourceFiles> don't find test file if path include special characters and file extension",
+      "created_at": "2021-06-05T21:02:34Z",
+      "closed_at": "2021-06-14T11:17:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11562",
+      "number": 11562,
+      "title": "describe.statefulSequence for tests where each depends on the previous",
+      "created_at": "2021-06-12T07:01:57Z",
+      "closed_at": "2022-07-12T07:18:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11572",
+      "number": 11572,
+      "title": "No way to fix tests from hanging with fake modern timers",
+      "created_at": "2021-06-15T11:16:26Z",
+      "closed_at": "2022-04-06T11:57:22Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11584",
+      "number": 11584,
+      "title": "CLI flag for enableSymlinks",
+      "created_at": "2021-06-17T16:28:47Z",
+      "closed_at": "2022-05-20T14:22:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11596",
+      "number": 11596,
+      "title": "Only failed tests not working in watch mode",
+      "created_at": "2021-06-22T00:48:47Z",
+      "closed_at": "2025-03-15T19:04:13Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11607",
+      "number": 11607,
+      "title": "Exceeded timeout of 5000 ms for a test",
+      "created_at": "2021-06-23T20:37:58Z",
+      "closed_at": "2022-04-06T12:06:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11667",
+      "number": 11667,
+      "title": "Watch not working properly for file with brackets in name",
+      "created_at": "2021-07-16T15:07:47Z",
+      "closed_at": "2023-03-19T16:38:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11739",
+      "number": 11739,
+      "title": "Cannot destructure property 'instrument' of 'options' as it is undefined - React Native with Typescript ",
+      "created_at": "2021-08-10T20:17:18Z",
+      "closed_at": "2021-08-11T10:08:48Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11774",
+      "number": 11774,
+      "title": "--changedSince does not run anything if a file is changed that is referenced by setupFilesAfterEnv",
+      "created_at": "2021-08-23T07:20:21Z",
+      "closed_at": "2024-01-01T12:05:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11781",
+      "number": 11781,
+      "title": "[Bug]: Unable to run a test from whitelisted \"node_modules\"",
+      "created_at": "2021-08-24T11:41:19Z",
+      "closed_at": "2022-02-22T12:54:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11782",
+      "number": 11782,
+      "title": "Jest, ESM and Typescript - Must use import to load ES Module",
+      "created_at": "2021-08-24T11:53:16Z",
+      "closed_at": "2021-08-24T12:37:24Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11786",
+      "number": 11786,
+      "title": "[Bug]: Jest doesn't run with node --loader option",
+      "created_at": "2021-08-25T14:55:00Z",
+      "closed_at": "2022-09-26T12:16:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11860",
+      "number": 11860,
+      "title": "[Bug]: testTimeout doesn't respect it.each",
+      "created_at": "2021-09-09T14:25:25Z",
+      "closed_at": "2022-10-10T08:16:58Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11891",
+      "number": 11891,
+      "title": "[Bug]: V8 coverage does not work with native ESM",
+      "created_at": "2021-09-22T15:47:37Z",
+      "closed_at": "2021-09-25T12:58:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11923",
+      "number": 11923,
+      "title": "[Bug]: \"Received: serializes to the same string\" when using `toStrictEqual` with fs.readdirSync",
+      "created_at": "2021-10-02T15:54:59Z",
+      "closed_at": "2023-03-06T06:59:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11940",
+      "number": 11940,
+      "title": "[Feature]: Ignore \".only\" - CLI flag",
+      "created_at": "2021-10-08T14:44:16Z",
+      "closed_at": "2021-10-10T20:51:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11956",
+      "number": 11956,
+      "title": "[Bug]: Memory consumption issues on Node JS 16.11.0+",
+      "created_at": "2021-10-13T09:18:24Z",
+      "closed_at": "2023-10-26T08:32:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11965",
+      "number": 11965,
+      "title": "[Bug]: Jest ignores a single file if the file doesn't match configured matchers/filters",
+      "created_at": "2021-10-15T18:00:07Z",
+      "closed_at": "2022-11-14T18:40:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12061",
+      "number": 12061,
+      "title": "[Bug]: collectCoverageFrom does not run when there are no tests",
+      "created_at": "2021-11-11T11:01:00Z",
+      "closed_at": "2022-12-11T11:22:28Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12068",
+      "number": 12068,
+      "title": "[Bug]: `test.concurrent.each` not executing tests concurrently",
+      "created_at": "2021-11-15T09:50:31Z",
+      "closed_at": "2022-04-26T09:07:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12071",
+      "number": 12071,
+      "title": "[Bug]: run specified test file within symbol link path gives **No tests found**",
+      "created_at": "2021-11-16T05:42:59Z",
+      "closed_at": "2022-11-16T05:53:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12116",
+      "number": 12116,
+      "title": "[Feature]: Lift `moduleFileExtensions` option validation.",
+      "created_at": "2021-12-03T17:14:55Z",
+      "closed_at": "2023-06-08T08:04:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12129",
+      "number": 12129,
+      "title": "Example `describe.each` from docs doesn't work",
+      "created_at": "2021-12-07T10:05:49Z",
+      "closed_at": "2022-02-04T20:19:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12139",
+      "number": 12139,
+      "title": "[Bug]: Expect library throws JestAssertionError and exits main process when compare an object vs JSON parsed file",
+      "created_at": "2021-12-10T21:08:42Z",
+      "closed_at": "2021-12-10T21:16:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12159",
+      "number": 12159,
+      "title": "[Bug]: Linearly-increased memory usage when using multiple `jest.config.ts` files + `projects`",
+      "created_at": "2021-12-17T21:15:23Z",
+      "closed_at": "2021-12-20T08:27:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12183",
+      "number": 12183,
+      "title": "[Bug]: SyntaxError: Cannot use 'import.meta' outside a module",
+      "created_at": "2021-12-22T17:20:06Z",
+      "closed_at": "2022-01-04T00:19:24Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12202",
+      "number": 12202,
+      "title": "[Bug]: Running tests with \"jsdom\" sometimes randomly fails",
+      "created_at": "2021-12-30T22:45:07Z",
+      "closed_at": "2023-01-03T11:48:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12237",
+      "number": 12237,
+      "title": "[Bug]: ES6 Test Match in configuration file ignoring .mjs extension",
+      "created_at": "2022-01-14T05:18:47Z",
+      "closed_at": "2022-03-29T07:52:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12337",
+      "number": 12337,
+      "title": "[Bug]: \"No tests found\" after upgrading to 27.5.x",
+      "created_at": "2022-02-09T11:09:29Z",
+      "closed_at": "2022-02-09T12:06:50Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/12478",
+      "number": 12478,
+      "title": "[Bug]: No tests found using --findRelatedTests always exits with code 0",
+      "created_at": "2022-02-23T16:23:11Z",
+      "closed_at": "2022-02-24T14:19:47Z"
+    }
+  ]
+}

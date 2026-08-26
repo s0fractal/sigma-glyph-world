@@ -1,0 +1,93 @@
+{
+  "index": 86,
+  "stratum": "artifact_conformance",
+  "repository": "codecov/codecov-action",
+  "repository_id": 200299178,
+  "term": "no tests",
+  "query": "repo:codecov/codecov-action is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:38.346521+00:00",
+  "total_count": 11,
+  "incomplete_results": false,
+  "returned": 11,
+  "raw_response_sha256": "b8dcdf758667e53e829f40882da4efc8e16325adb7b1c71bb27fb69a130bf8ff",
+  "items": [
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/439",
+      "number": 439,
+      "title": "codecov-action@v2 fails when encounters an existing file with an unprintable name",
+      "created_at": "2021-07-22T11:17:10Z",
+      "closed_at": "2021-08-12T19:56:10Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/445",
+      "number": 445,
+      "title": "Fails to respect `files`?",
+      "created_at": "2021-07-24T11:10:43Z",
+      "closed_at": "2021-07-27T17:48:38Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/622",
+      "number": 622,
+      "title": "Action fails on pull request to organization repo from fork (code: 404 Not Found)",
+      "created_at": "2022-01-03T13:34:08Z",
+      "closed_at": "2022-01-22T00:15:31Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/654",
+      "number": 654,
+      "title": "Not picking up code coverage report with NET 6 project",
+      "created_at": "2022-02-17T12:27:00Z",
+      "closed_at": "2023-03-23T02:31:18Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/666",
+      "number": 666,
+      "title": "V2 not picking up C++/catch2 outputs",
+      "created_at": "2022-03-05T08:57:01Z",
+      "closed_at": "2023-03-23T02:32:31Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/671",
+      "number": 671,
+      "title": "Codecoverage not working as documented",
+      "created_at": "2022-03-10T19:51:36Z",
+      "closed_at": "2023-03-10T00:17:52Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/844",
+      "number": 844,
+      "title": "upload is empty",
+      "created_at": "2022-10-03T10:21:58Z",
+      "closed_at": "2023-03-11T03:49:09Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/891",
+      "number": 891,
+      "title": "Coverage decreased and CI fails, but \"No Files covered by tests were changed\"",
+      "created_at": "2022-12-29T14:43:44Z",
+      "closed_at": "2023-03-01T19:10:56Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/944",
+      "number": 944,
+      "title": "Why It's not generating the Coverage File!",
+      "created_at": "2023-03-20T13:39:50Z",
+      "closed_at": "2023-03-22T04:13:33Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1550",
+      "number": 1550,
+      "title": "FileNotFoundError for non-ASCII file names",
+      "created_at": "2024-08-18T20:47:33Z",
+      "closed_at": "2025-03-28T08:34:23Z"
+    },
+    {
+      "url": "https://github.com/codecov/codecov-action/issues/1568",
+      "number": 1568,
+      "title": "Uploads throttled while using token-based upload from public repo",
+      "created_at": "2024-09-13T15:56:16Z",
+      "closed_at": "2024-12-16T15:28:49Z"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "index": 5,
+  "stratum": "tests",
+  "repository": "mochajs/mocha",
+  "repository_id": 1451352,
+  "term": "ignored",
+  "query": "repo:mochajs/mocha is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:12.381762+00:00",
+  "total_count": 15,
+  "incomplete_results": false,
+  "returned": 15,
+  "raw_response_sha256": "ab852ad9e80473ccba234c6b2e5150b0345670cca2490eb7c0e3eaa4cb95fb24",
+  "items": [
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4183",
+      "number": 4183,
+      "title": "Filter tests programatically ",
+      "created_at": "2020-02-14T21:28:24Z",
+      "closed_at": "2020-08-24T06:33:55Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4347",
+      "number": 4347,
+      "title": "Thrown error in afterEach as a root hook plugin is ignored in watchmode",
+      "created_at": "2020-06-25T16:25:10Z",
+      "closed_at": "2020-07-29T21:11:15Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4481",
+      "number": 4481,
+      "title": "🐛 Bug: Negative functional tests started to throw \"Uncaught Error\" after mocha update to 8.2.0",
+      "created_at": "2020-10-19T06:24:47Z",
+      "closed_at": "2023-12-28T00:16:10Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4522",
+      "number": 4522,
+      "title": "Mocha should also report tests that couldn't run due to failure in before/beforeEach block",
+      "created_at": "2020-11-26T09:37:09Z",
+      "closed_at": "2020-11-26T09:59:45Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4559",
+      "number": 4559,
+      "title": "Parallel mode fails silently sometimes with tests that import mocha",
+      "created_at": "2021-01-22T15:43:31Z",
+      "closed_at": "2021-03-01T15:01:50Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4621",
+      "number": 4621,
+      "title": "🚀 Feature: Title for root hooks",
+      "created_at": "2021-04-05T15:22:23Z",
+      "closed_at": "2023-12-27T23:40:00Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4659",
+      "number": 4659,
+      "title": "Custom UI option is not passed to parallel workers",
+      "created_at": "2021-06-14T10:36:28Z",
+      "closed_at": "2021-07-18T13:30:45Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4803",
+      "number": 4803,
+      "title": "Missing file/package in import statement misreported as ESM error",
+      "created_at": "2021-12-27T13:07:50Z",
+      "closed_at": "2022-01-10T16:45:59Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4952",
+      "number": 4952,
+      "title": "ERR_UNKNOWN_FILE_EXTENSION when importing certain packages in tests",
+      "created_at": "2022-11-29T02:32:14Z",
+      "closed_at": "2022-12-25T17:27:15Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4963",
+      "number": 4963,
+      "title": "🚀 Feature: Explicitly programmatically fail test",
+      "created_at": "2023-02-08T16:56:06Z",
+      "closed_at": "2024-02-07T01:48:05Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5005",
+      "number": 5005,
+      "title": "🐛 Bug: `--(f)grep` causes `mochaHooks` to not run",
+      "created_at": "2023-08-18T14:11:42Z",
+      "closed_at": "2024-08-14T03:51:14Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5205",
+      "number": 5205,
+      "title": "🐛 Bug: Can't get the .css files to be ignored",
+      "created_at": "2024-08-30T14:32:16Z",
+      "closed_at": "2024-09-12T01:08:18Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5393",
+      "number": 5393,
+      "title": "🐛 Bug: original require() errors are masked with an unrelated `ERR_UNKNOWN_FILE_EXTENSION`",
+      "created_at": "2025-06-26T07:28:26Z",
+      "closed_at": "2025-09-30T12:01:58Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5426",
+      "number": 5426,
+      "title": "🛠 Repo: Compliance check forces each PR to close a bug",
+      "created_at": "2025-08-16T21:04:23Z",
+      "closed_at": "2025-12-19T13:38:10Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5483",
+      "number": 5483,
+      "title": "🛠 Repo: Bump eslint from 8 to 9",
+      "created_at": "2025-10-02T12:28:33Z",
+      "closed_at": "2025-12-10T17:42:38Z"
+    }
+  ]
+}

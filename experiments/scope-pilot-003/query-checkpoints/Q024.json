@@ -1,0 +1,289 @@
+{
+  "index": 24,
+  "stratum": "tests",
+  "repository": "microsoft/playwright",
+  "repository_id": 221981891,
+  "term": "false positive",
+  "query": "repo:microsoft/playwright is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:15.500995+00:00",
+  "total_count": 39,
+  "incomplete_results": false,
+  "returned": 39,
+  "raw_response_sha256": "515851eaf068d3392d6f671c3f55cbd9e2c079c3d31d3bc58644a0e67d8a3d5c",
+  "items": [
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2511",
+      "number": 2511,
+      "title": "[Feature] how to simulate a paste event",
+      "created_at": "2020-06-09T16:19:39Z",
+      "closed_at": "2021-07-12T21:36:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5129",
+      "number": 5129,
+      "title": "[BUG] :not([aria-hidden=true]) :text(\"Submit\") finds hidden elements",
+      "created_at": "2021-01-24T15:05:10Z",
+      "closed_at": "2021-02-03T19:05:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8161",
+      "number": 8161,
+      "title": "feat: better support for visual regression testing",
+      "created_at": "2021-08-12T10:16:51Z",
+      "closed_at": "2026-05-12T17:00:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8404",
+      "number": 8404,
+      "title": "[Question]: Speed up test/tests now fail if exceeding timeout after update?",
+      "created_at": "2021-08-24T14:56:55Z",
+      "closed_at": "2021-09-07T17:11:11Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8725",
+      "number": 8725,
+      "title": "[Feature] Expect(locator).toHaveCountGreaterThen",
+      "created_at": "2021-09-06T15:52:01Z",
+      "closed_at": "2021-09-10T21:12:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10173",
+      "number": 10173,
+      "title": "[BUG] Installing firefox fails because maintenanceservice.exe gets flagged as malware",
+      "created_at": "2021-11-09T08:05:57Z",
+      "closed_at": "2022-01-31T17:13:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10219",
+      "number": 10219,
+      "title": "[Question] What does threshold mean in a method toMatchSnapshot",
+      "created_at": "2021-11-10T15:44:28Z",
+      "closed_at": "2022-02-17T23:48:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11897",
+      "number": 11897,
+      "title": "[BUG] Parallelization within a single file combines times for slow file detection",
+      "created_at": "2022-02-07T10:02:42Z",
+      "closed_at": "2022-10-20T03:21:58Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13797",
+      "number": 13797,
+      "title": "[Feature] Add trace option for 'on-first-retry-failure'",
+      "created_at": "2022-04-27T16:58:33Z",
+      "closed_at": "2025-09-08T18:36:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14117",
+      "number": 14117,
+      "title": "[Feature] add expect(locator).toContainClass()",
+      "created_at": "2022-05-12T10:22:17Z",
+      "closed_at": "2025-03-26T09:42:41Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14485",
+      "number": 14485,
+      "title": "[Feature] New test status for screenshot tests (something like passedWithDiff)",
+      "created_at": "2022-05-30T16:24:39Z",
+      "closed_at": "2025-09-08T18:36:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14584",
+      "number": 14584,
+      "title": "[Feature] Allow test run to continue the case execution if a test.step() fails",
+      "created_at": "2022-06-02T14:58:20Z",
+      "closed_at": "2022-06-07T09:02:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15109",
+      "number": 15109,
+      "title": "[BUG] When expect fails it is still a passes even on reports",
+      "created_at": "2022-06-24T14:39:11Z",
+      "closed_at": "2022-07-04T19:14:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16440",
+      "number": 16440,
+      "title": "[Feature] Show values being compared in test.expect",
+      "created_at": "2022-08-11T06:42:06Z",
+      "closed_at": "2023-06-30T18:16:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16889",
+      "number": 16889,
+      "title": "[Question] Access vue 2 instance of component",
+      "created_at": "2022-08-29T09:31:04Z",
+      "closed_at": "2022-11-24T08:48:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17266",
+      "number": 17266,
+      "title": "[Feature] Can we add feature for test.describe.serial if any dependent test case failed it should not stop entire execution",
+      "created_at": "2022-09-12T15:58:49Z",
+      "closed_at": "2022-09-19T18:18:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17438",
+      "number": 17438,
+      "title": "[BUG] False positive checking if @playwright/test is being run inside Jest",
+      "created_at": "2022-09-19T14:34:05Z",
+      "closed_at": "2022-09-19T18:27:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18815",
+      "number": 18815,
+      "title": "[BUG] .not.toBeVisible with short timeouts (or no timeouts) is broken",
+      "created_at": "2022-11-15T10:34:37Z",
+      "closed_at": "2022-11-16T15:31:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18934",
+      "number": 18934,
+      "title": "[BUG] Viewport change in Chrome (crPage.js) when taking screenshot triggers animations",
+      "created_at": "2022-11-19T21:53:49Z",
+      "closed_at": "2022-11-22T18:01:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19542",
+      "number": 19542,
+      "title": "[Question] False positive expectation",
+      "created_at": "2022-12-17T22:01:14Z",
+      "closed_at": "2022-12-21T15:06:47Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19860",
+      "number": 19860,
+      "title": "[Question] expect().toBeTruthy may cause false positive test results",
+      "created_at": "2023-01-04T09:17:49Z",
+      "closed_at": "2023-01-06T11:00:26Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20049",
+      "number": 20049,
+      "title": "[Question] How to wait until all elements are hidden",
+      "created_at": "2023-01-11T19:16:48Z",
+      "closed_at": "2023-01-12T02:42:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/21539",
+      "number": 21539,
+      "title": "[Feature] Add a waitForResponse with a string | RegExp predicate parameter as well as Response one",
+      "created_at": "2023-03-09T21:09:11Z",
+      "closed_at": "2023-03-10T08:02:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22938",
+      "number": 22938,
+      "title": "[Question]: Is ClickASync too fast, or the project too slow? False positive tests",
+      "created_at": "2023-05-10T18:12:31Z",
+      "closed_at": "2023-05-11T21:17:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/23079",
+      "number": 23079,
+      "title": "[BUG] Running test in UI mode do not recognise project dependencies (while in terminal and runner it is OK)",
+      "created_at": "2023-05-17T07:38:19Z",
+      "closed_at": "2023-05-17T18:49:37Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/23197",
+      "number": 23197,
+      "title": "[Feature] Show expected and actual images in test results UI when test passes",
+      "created_at": "2023-05-21T19:20:15Z",
+      "closed_at": "2025-09-08T18:38:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/24121",
+      "number": 24121,
+      "title": "Playwright 1.35 failed to load chrome dll in azure devops CI",
+      "created_at": "2023-07-10T08:09:22Z",
+      "closed_at": "2023-07-28T03:27:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/26995",
+      "number": 26995,
+      "title": "[Feature Request]Add Support for Adding Extensions to Firefox Browser in Playwright",
+      "created_at": "2023-09-11T14:33:30Z",
+      "closed_at": "2023-09-12T03:50:00Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/28029",
+      "number": 28029,
+      "title": "[Feature] addInitScript for Worker",
+      "created_at": "2023-11-08T04:16:18Z",
+      "closed_at": "2024-04-22T17:58:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/28696",
+      "number": 28696,
+      "title": "Why is it not recommended to use page.wait_for_timeout?",
+      "created_at": "2023-12-18T12:15:43Z",
+      "closed_at": "2023-12-18T17:17:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/29218",
+      "number": 29218,
+      "title": "[Feature] - Possibility to reduce sizes of screenshots and trace files",
+      "created_at": "2024-01-29T12:20:40Z",
+      "closed_at": "2024-08-16T00:31:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/29713",
+      "number": 29713,
+      "title": "[Feature]: allow visual comparison to compare screenshoots on different OS",
+      "created_at": "2024-02-28T15:46:00Z",
+      "closed_at": "2024-02-28T16:33:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/29922",
+      "number": 29922,
+      "title": "[Bug]: False positive pipeline when using retries in serial mode ",
+      "created_at": "2024-03-13T14:17:57Z",
+      "closed_at": "2024-03-15T17:11:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/31449",
+      "number": 31449,
+      "title": "expect() false positive",
+      "created_at": "2024-06-26T14:35:45Z",
+      "closed_at": "2024-07-01T08:04:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/35398",
+      "number": 35398,
+      "title": "[Feature]: Disable Vue Devtools plugin during tests",
+      "created_at": "2025-03-28T14:12:59Z",
+      "closed_at": "2025-03-28T14:21:58Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/36845",
+      "number": 36845,
+      "title": "[Feature]: Be able to turn off Check against test-file imports",
+      "created_at": "2025-07-30T00:18:58Z",
+      "closed_at": "2025-07-30T23:47:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/37805",
+      "number": 37805,
+      "title": "[Docs]: Discourage `Download.createReadStream`",
+      "created_at": "2025-10-11T11:44:18Z",
+      "closed_at": "2025-10-13T15:16:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/37982",
+      "number": 37982,
+      "title": "[Bug]: VSCode extension should guard against vscode#272888",
+      "created_at": "2025-10-23T15:28:09Z",
+      "closed_at": "2025-10-29T08:18:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/38134",
+      "number": 38134,
+      "title": "[Bug]: Playwright is failed in Veracode scan",
+      "created_at": "2025-11-07T08:40:39Z",
+      "closed_at": "2025-11-07T19:03:59Z"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "index": 1,
+  "stratum": "tests",
+  "repository": "mochajs/mocha",
+  "repository_id": 1451352,
+  "term": "exit code",
+  "query": "repo:mochajs/mocha is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:40:59.535028+00:00",
+  "total_count": 23,
+  "incomplete_results": false,
+  "returned": 23,
+  "raw_response_sha256": "9a910b21a243cdf5e66110abcf76faee7b5f6eaa64e6145eab02608c2dae1d07",
+  "items": [
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4151",
+      "number": 4151,
+      "title": "multiple calls to done() doesn't always fail if second done is called async",
+      "created_at": "2020-01-13T21:24:49Z",
+      "closed_at": "2020-05-20T19:08:39Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4216",
+      "number": 4216,
+      "title": "🚀 Feature: Possibility to return 0 exit code when tests run successfully even with fails",
+      "created_at": "2020-03-24T15:44:11Z",
+      "closed_at": "2024-07-20T19:38:32Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4257",
+      "number": 4257,
+      "title": "Missing callstack in error",
+      "created_at": "2020-04-28T17:28:13Z",
+      "closed_at": "2020-05-01T11:31:25Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4414",
+      "number": 4414,
+      "title": "`jsonStringify` util regularly causes out of memory crash",
+      "created_at": "2020-08-19T20:44:25Z",
+      "closed_at": "2020-09-29T23:08:34Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4466",
+      "number": 4466,
+      "title": "Hangs when using deasync",
+      "created_at": "2020-10-05T21:32:46Z",
+      "closed_at": "2020-10-08T23:43:05Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4526",
+      "number": 4526,
+      "title": "🐛 Bug: xunit reporter does not strip ansi escape sequences, leading to invalid XML",
+      "created_at": "2020-12-02T18:09:21Z",
+      "closed_at": "2026-07-19T00:57:01Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4594",
+      "number": 4594,
+      "title": "TypeError: Invalid host defined options - Cannot Use TypeScript, JavaScript, ESM, and TS-Node",
+      "created_at": "2021-03-03T22:45:34Z",
+      "closed_at": "2021-03-08T23:04:12Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4621",
+      "number": 4621,
+      "title": "🚀 Feature: Title for root hooks",
+      "created_at": "2021-04-05T15:22:23Z",
+      "closed_at": "2023-12-27T23:40:00Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4628",
+      "number": 4628,
+      "title": "Error: Cannot find module '@/rum/perf/common'",
+      "created_at": "2021-04-22T10:43:24Z",
+      "closed_at": "2021-04-30T07:23:55Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4700",
+      "number": 4700,
+      "title": "nps not working",
+      "created_at": "2021-07-23T08:23:10Z",
+      "closed_at": "2021-07-24T06:52:36Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4708",
+      "number": 4708,
+      "title": "mochaGlobalSetup fails because of timeout",
+      "created_at": "2021-08-01T23:30:02Z",
+      "closed_at": "2021-08-03T00:06:25Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4773",
+      "number": 4773,
+      "title": "Crashes that happen before test running and after test completion are reported with success exit code",
+      "created_at": "2021-10-21T15:28:31Z",
+      "closed_at": "2021-10-21T22:01:51Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4828",
+      "number": 4828,
+      "title": "DevDeps: Direct and indirect reliance on `canvas` module fails on ARM / Apple M1",
+      "created_at": "2022-02-09T07:47:00Z",
+      "closed_at": "2022-02-10T17:27:36Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4934",
+      "number": 4934,
+      "title": "Mocha fails silently when 10 or more errors occurs outside the test suite",
+      "created_at": "2022-10-18T23:29:28Z",
+      "closed_at": "2024-08-14T03:50:13Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5059",
+      "number": 5059,
+      "title": "🛠 Repo: Unable to install on ARM Mac (node-pre-gyp and gyp failures)",
+      "created_at": "2023-12-28T16:15:23Z",
+      "closed_at": "2024-08-03T13:21:44Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5098",
+      "number": 5098,
+      "title": "📝 Docs: Nightly Netlify deploys are failing",
+      "created_at": "2024-02-15T14:27:47Z",
+      "closed_at": "2024-02-27T16:10:48Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5115",
+      "number": 5115,
+      "title": "🐛 Bug: Eleventy template builds crash with 'unexpected token at \": string, msg...\"'",
+      "created_at": "2024-03-07T15:09:00Z",
+      "closed_at": "2024-03-08T13:14:58Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5174",
+      "number": 5174,
+      "title": "🛠 Repo: Netlify deploy previews failing all PR builds",
+      "created_at": "2024-07-11T00:33:14Z",
+      "closed_at": "2024-07-15T23:38:17Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5208",
+      "number": 5208,
+      "title": "🐛 Bug: Error in mochaGlobalTeardown is swallowed and exits with code 0",
+      "created_at": "2024-09-05T02:57:07Z",
+      "closed_at": "2026-06-08T01:05:22Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5220",
+      "number": 5220,
+      "title": "🛠 Repo: Windows fails to run `npm test`",
+      "created_at": "2024-09-29T16:39:35Z",
+      "closed_at": "2024-10-02T11:40:21Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5299",
+      "number": 5299,
+      "title": "🚀 Feature: Exit with code 1 when .only is used by default in CI (--forbid-only)",
+      "created_at": "2025-02-18T19:55:32Z",
+      "closed_at": "2025-11-22T07:05:43Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5358",
+      "number": 5358,
+      "title": "🧹 Versioning: Bump minimum Node.js version from 18.18.0 to 20.19.0",
+      "created_at": "2025-05-06T01:23:07Z",
+      "closed_at": "2025-10-02T11:48:25Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5415",
+      "number": 5415,
+      "title": "📝 Docs: New site has broken link to CLI page",
+      "created_at": "2025-08-10T23:18:56Z",
+      "closed_at": "2025-08-15T02:11:32Z"
+    }
+  ]
+}

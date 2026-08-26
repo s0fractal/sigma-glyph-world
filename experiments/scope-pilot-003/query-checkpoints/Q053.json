@@ -1,0 +1,716 @@
+{
+  "index": 53,
+  "stratum": "lint_static_analysis",
+  "repository": "golangci/golangci-lint",
+  "repository_id": 132145189,
+  "term": "not run",
+  "query": "repo:golangci/golangci-lint is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:49.177036+00:00",
+  "total_count": 231,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "53ae3a139935c3ccbbe479512120a48c1acdc24c1f5ffb422b12a16a5b053342",
+  "items": [
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/911",
+      "number": 911,
+      "title": "1.22.2 on ubuntu 18.04 build failed",
+      "created_at": "2020-01-06T16:07:53Z",
+      "closed_at": "2020-02-04T20:36:55Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/912",
+      "number": 912,
+      "title": "Linter request: go-ruleguard",
+      "created_at": "2020-01-07T17:59:13Z",
+      "closed_at": "2020-07-05T16:22:33Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/913",
+      "number": 913,
+      "title": "skip-dirs works with some linters and not with others",
+      "created_at": "2020-01-07T19:25:44Z",
+      "closed_at": "2024-12-21T23:59:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/925",
+      "number": 925,
+      "title": "Frequent \"failed to get data from low-level cache\" warning",
+      "created_at": "2020-01-16T17:51:14Z",
+      "closed_at": "2020-05-24T07:19:01Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/928",
+      "number": 928,
+      "title": "golangci-lint run --disable-all -E golint does nothing",
+      "created_at": "2020-01-20T10:43:01Z",
+      "closed_at": "2020-07-12T23:59:07Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/963",
+      "number": 963,
+      "title": "Panic on parse issues.exclude with '*' symbol",
+      "created_at": "2020-02-07T14:28:44Z",
+      "closed_at": "2020-02-08T12:01:48Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/972",
+      "number": 972,
+      "title": "--new-from-rev doesn't work on Windows",
+      "created_at": "2020-02-21T04:09:22Z",
+      "closed_at": "2022-08-04T08:43:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/977",
+      "number": 977,
+      "title": "Docker images still inherit from Go 1.13 causing build issues",
+      "created_at": "2020-02-28T20:52:12Z",
+      "closed_at": "2020-03-04T03:40:19Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/980",
+      "number": 980,
+      "title": "Stylecheck's ST1000 is not enabled (or no way to enable it)",
+      "created_at": "2020-03-03T23:19:08Z",
+      "closed_at": "2021-05-27T18:14:11Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/985",
+      "number": 985,
+      "title": "golangci-lint behavior in generating report is not as expected",
+      "created_at": "2020-03-10T05:39:24Z",
+      "closed_at": "2022-04-29T06:37:31Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/995",
+      "number": 995,
+      "title": "Can't run linter goanalysis_metalinter 1.24.x: failed prerequisites",
+      "created_at": "2020-03-16T06:36:21Z",
+      "closed_at": "2020-04-23T20:42:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1026",
+      "number": 1026,
+      "title": "Homebrew version is outdated",
+      "created_at": "2020-04-17T17:42:12Z",
+      "closed_at": "2020-04-22T23:31:31Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1051",
+      "number": 1051,
+      "title": "golangci-lint run does not report issues.",
+      "created_at": "2020-04-29T09:28:12Z",
+      "closed_at": "2020-04-29T13:39:34Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1085",
+      "number": 1085,
+      "title": "Custom plugins path should be relative to the configuration file",
+      "created_at": "2020-05-13T11:18:55Z",
+      "closed_at": "2020-12-26T23:02:25Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1170",
+      "number": 1170,
+      "title": "\"--out-format\" does not change output format",
+      "created_at": "2020-05-29T19:07:04Z",
+      "closed_at": "2020-05-29T22:38:05Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1176",
+      "number": 1176,
+      "title": "Error on Github Actions: could not import C (cgo preprocessing failed)",
+      "created_at": "2020-06-03T11:02:39Z",
+      "closed_at": "2020-06-05T07:21:29Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1178",
+      "number": 1178,
+      "title": "Use path exclude rules on absolute paths instead of relative paths",
+      "created_at": "2020-06-06T00:53:07Z",
+      "closed_at": "2025-01-28T22:49:14Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1182",
+      "number": 1182,
+      "title": "golangci-lint which was installed from Homebrew cannot load a plugin ",
+      "created_at": "2020-06-07T15:07:56Z",
+      "closed_at": "2020-07-04T20:59:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1185",
+      "number": 1185,
+      "title": "Add Instruction on installation to fix Error golangci-lint not found",
+      "created_at": "2020-06-08T15:31:26Z",
+      "closed_at": "2020-06-12T16:51:59Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1188",
+      "number": 1188,
+      "title": "Flag --disable-all does not disable all",
+      "created_at": "2020-06-16T15:34:07Z",
+      "closed_at": "2020-07-04T20:23:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1190",
+      "number": 1190,
+      "title": "ERRO Running error: buildir: analysis skipped: errors in package",
+      "created_at": "2020-06-18T10:02:04Z",
+      "closed_at": "2020-07-04T20:27:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1220",
+      "number": 1220,
+      "title": "Run with go 1.14.4 under MacOS 10.15.5 produces error output.",
+      "created_at": "2020-07-09T01:41:04Z",
+      "closed_at": "2020-07-09T11:49:48Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1245",
+      "number": 1245,
+      "title": "pre-commit hook runs on all files instead of just changed files in the repo",
+      "created_at": "2020-07-15T05:01:29Z",
+      "closed_at": "2023-03-06T02:27:10Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1249",
+      "number": 1249,
+      "title": "golangci-lint (with golint linter enabled) is not reporting issues that golint catches",
+      "created_at": "2020-07-16T13:42:53Z",
+      "closed_at": "2022-04-29T06:37:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1259",
+      "number": 1259,
+      "title": "failed to load package due to export data. ",
+      "created_at": "2020-07-22T13:52:46Z",
+      "closed_at": "2020-07-30T17:51:58Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1272",
+      "number": 1272,
+      "title": "Let me selectively disable linters from CLI which are enabled in the config",
+      "created_at": "2020-07-26T19:59:09Z",
+      "closed_at": "2021-08-29T23:49:41Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1276",
+      "number": 1276,
+      "title": "Debug why a private linter was not added to the list",
+      "created_at": "2020-07-28T12:15:29Z",
+      "closed_at": "2024-03-11T16:40:28Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1351",
+      "number": 1351,
+      "title": "gci does not take effect when used with `...` style",
+      "created_at": "2020-09-01T21:56:35Z",
+      "closed_at": "2021-03-07T05:21:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1370",
+      "number": 1370,
+      "title": "Allow multiple main in same folder (for adhoc scripts, now fails with \"main redeclared...\")",
+      "created_at": "2020-09-16T01:45:54Z",
+      "closed_at": "2022-04-29T06:37:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1373",
+      "number": 1373,
+      "title": "goimports --fix not fixing new lines",
+      "created_at": "2020-09-17T19:15:11Z",
+      "closed_at": "2022-04-29T06:37:29Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1463",
+      "number": 1463,
+      "title": "could not import C: failure with confluent-kafka-go in docker alpine",
+      "created_at": "2020-10-21T16:38:47Z",
+      "closed_at": "2020-10-22T09:17:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1466",
+      "number": 1466,
+      "title": "nolint yet linter says: \"could not load export data\"…",
+      "created_at": "2020-10-23T20:14:09Z",
+      "closed_at": "2021-03-19T08:39:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1488",
+      "number": 1488,
+      "title": "some problem with private repository,goimports: 10:2: invalid import path: \"`gitlab.sogame.co/go/errors`\" ",
+      "created_at": "2020-11-02T13:03:46Z",
+      "closed_at": "2020-12-02T12:21:52Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1506",
+      "number": 1506,
+      "title": "go get -u github.com/golangci/golangci-lint/cmd/golangci-lint fails",
+      "created_at": "2020-11-15T06:33:21Z",
+      "closed_at": "2020-11-15T06:45:53Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1510",
+      "number": 1510,
+      "title": "Conflict gofumpt and wsl for empty lines before if statement",
+      "created_at": "2020-11-16T16:23:08Z",
+      "closed_at": "2024-07-03T16:13:51Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1516",
+      "number": 1516,
+      "title": "Can't install golangci-lint normally on Ubuntu 20.04",
+      "created_at": "2020-11-19T06:11:51Z",
+      "closed_at": "2020-11-22T06:58:09Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1519",
+      "number": 1519,
+      "title": "docker install failed",
+      "created_at": "2020-11-20T04:49:17Z",
+      "closed_at": "2020-12-13T18:45:07Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1523",
+      "number": 1523,
+      "title": "go get -u fails",
+      "created_at": "2020-11-24T04:08:31Z",
+      "closed_at": "2020-11-24T07:16:16Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1537",
+      "number": 1537,
+      "title": "Can not detect issue when check dir",
+      "created_at": "2020-12-04T08:32:54Z",
+      "closed_at": "2020-12-07T21:39:21Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1539",
+      "number": 1539,
+      "title": "structcheck unused false positive",
+      "created_at": "2020-12-05T21:39:03Z",
+      "closed_at": "2020-12-12T21:06:00Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1546",
+      "number": 1546,
+      "title": "declared but not used error",
+      "created_at": "2020-12-10T08:59:29Z",
+      "closed_at": "2021-03-23T01:41:00Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1566",
+      "number": 1566,
+      "title": "nolintlint: \"allow no explanation\" broken since v1.31.0",
+      "created_at": "2020-12-18T16:34:44Z",
+      "closed_at": "2020-12-22T00:24:28Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1574",
+      "number": 1574,
+      "title": "Running golangci-lint against single file fails with undeclared name error",
+      "created_at": "2020-12-23T13:02:32Z",
+      "closed_at": "2021-03-23T00:59:15Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1577",
+      "number": 1577,
+      "title": "run --fix with gofmt does not work",
+      "created_at": "2020-12-26T21:29:59Z",
+      "closed_at": "2022-11-13T07:29:34Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1636",
+      "number": 1636,
+      "title": "Print all build errors in a readable way",
+      "created_at": "2021-01-07T12:39:24Z",
+      "closed_at": "2021-02-08T10:10:10Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1649",
+      "number": 1649,
+      "title": "Confusing staticcheck rule activation ",
+      "created_at": "2021-01-13T05:42:46Z",
+      "closed_at": "2021-05-17T22:03:55Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1686",
+      "number": 1686,
+      "title": "way to identify newly available linters",
+      "created_at": "2021-02-03T17:45:56Z",
+      "closed_at": "2021-06-02T15:04:48Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1690",
+      "number": 1690,
+      "title": "Configurable cache directory",
+      "created_at": "2021-02-05T05:41:34Z",
+      "closed_at": "2021-03-25T21:18:32Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1726",
+      "number": 1726,
+      "title": "Using `--fix` option results in panic: runtime error: index out of range [146] with length 146",
+      "created_at": "2021-02-10T08:29:26Z",
+      "closed_at": "2024-12-17T22:22:27Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1768",
+      "number": 1768,
+      "title": "false staticcheck reports not reproducible with standalone staticcheck",
+      "created_at": "2021-02-22T20:10:13Z",
+      "closed_at": "2021-02-22T20:13:06Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1779",
+      "number": 1779,
+      "title": "Add support for SuggestedFixes",
+      "created_at": "2021-02-25T18:53:37Z",
+      "closed_at": "2024-12-17T22:22:25Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1810",
+      "number": 1810,
+      "title": "Make `--fast` meaningful again",
+      "created_at": "2021-03-03T05:06:41Z",
+      "closed_at": "2021-03-15T07:13:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1832",
+      "number": 1832,
+      "title": "golangci-lint fails if it can't read the contents of a directory, even if it's in --skip-dirs",
+      "created_at": "2021-03-11T01:38:31Z",
+      "closed_at": "2024-04-19T14:48:15Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1868",
+      "number": 1868,
+      "title": "version: prints to Stderr instead of StdOut",
+      "created_at": "2021-03-24T14:26:01Z",
+      "closed_at": "2021-03-24T16:43:56Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1878",
+      "number": 1878,
+      "title": "Running golangci-lint --enable-all prints warnings about deprecated linters",
+      "created_at": "2021-03-29T19:06:45Z",
+      "closed_at": "2021-03-29T19:36:43Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1897",
+      "number": 1897,
+      "title": "golangci-lint: command not found",
+      "created_at": "2021-04-05T14:15:10Z",
+      "closed_at": "2021-04-05T14:16:22Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1903",
+      "number": 1903,
+      "title": "unparam linter does not respect `--issues-exit-code=0`",
+      "created_at": "2021-04-09T21:13:09Z",
+      "closed_at": "2021-06-02T15:49:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1914",
+      "number": 1914,
+      "title": "Introduce the https://github.com/segmentio/golines linter",
+      "created_at": "2021-04-15T16:58:00Z",
+      "closed_at": "2025-02-19T14:52:59Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1931",
+      "number": 1931,
+      "title": "--timeout not respected from config file",
+      "created_at": "2021-04-25T01:02:26Z",
+      "closed_at": "2021-04-25T02:13:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1942",
+      "number": 1942,
+      "title": "Conflicts gofumpt and gci for imports",
+      "created_at": "2021-04-29T07:24:41Z",
+      "closed_at": "2021-04-29T07:44:51Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1954",
+      "number": 1954,
+      "title": "wrapcheck ignoreSigs config not being applied",
+      "created_at": "2021-05-04T19:23:56Z",
+      "closed_at": "2021-05-04T19:48:53Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1961",
+      "number": 1961,
+      "title": "Intro page: Integrations guide list is so short for front page",
+      "created_at": "2021-05-07T18:21:14Z",
+      "closed_at": "2021-06-03T00:30:17Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1969",
+      "number": 1969,
+      "title": "Cannot install golangci-lint from source on Go <= 1.15",
+      "created_at": "2021-05-11T07:13:18Z",
+      "closed_at": "2021-05-11T08:11:58Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1972",
+      "number": 1972,
+      "title": "a config file has high priority than command-line options `--disable-all`",
+      "created_at": "2021-05-11T14:58:43Z",
+      "closed_at": "2021-05-11T17:04:39Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/1981",
+      "number": 1981,
+      "title": "golangci-lint cli returning non-zero value for issues raised at a severity level not of error",
+      "created_at": "2021-05-14T02:33:12Z",
+      "closed_at": "2025-04-30T15:38:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2022",
+      "number": 2022,
+      "title": "Unable to see file names when not setting color=never with Ubuntu 20.04",
+      "created_at": "2021-05-30T09:20:58Z",
+      "closed_at": "2021-06-25T22:05:29Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2049",
+      "number": 2049,
+      "title": "staticchecks errors are not reported",
+      "created_at": "2021-06-13T15:51:39Z",
+      "closed_at": "2021-06-13T17:19:57Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2088",
+      "number": 2088,
+      "title": "scopelint missing features in exportloopref",
+      "created_at": "2021-07-01T09:42:44Z",
+      "closed_at": "2021-07-01T10:42:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2104",
+      "number": 2104,
+      "title": "File is not `gofumpt`-ed (gofumpt) with properly formatted source code",
+      "created_at": "2021-07-05T08:34:57Z",
+      "closed_at": "2021-08-04T19:46:14Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2134",
+      "number": 2134,
+      "title": "Suggested Edits from Linters do not get printed",
+      "created_at": "2021-07-28T17:26:25Z",
+      "closed_at": "2024-12-21T15:41:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2161",
+      "number": 2161,
+      "title": "gci and goimports --fix wrongly removing packages",
+      "created_at": "2021-08-05T17:02:28Z",
+      "closed_at": "2024-12-17T22:22:26Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2190",
+      "number": 2190,
+      "title": "golangci-lint -> gocritic -> ruleguard fails with no indication",
+      "created_at": "2021-08-19T22:30:01Z",
+      "closed_at": "2021-10-23T16:10:47Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2228",
+      "number": 2228,
+      "title": "gofmt detects error only when ran on explecit file",
+      "created_at": "2021-09-10T09:09:01Z",
+      "closed_at": "2021-09-11T16:05:51Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2232",
+      "number": 2232,
+      "title": "typecheck fails incorrectly when encountering package paths with hyphens in them",
+      "created_at": "2021-09-14T16:59:13Z",
+      "closed_at": "2021-09-15T08:08:42Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2251",
+      "number": 2251,
+      "title": "goimports -local not enforced",
+      "created_at": "2021-09-21T09:53:56Z",
+      "closed_at": "2021-09-21T10:58:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2288",
+      "number": 2288,
+      "title": "npm dependent vulnerabilities in .github/contributors/package-lock.json",
+      "created_at": "2021-10-11T13:42:05Z",
+      "closed_at": "2025-08-09T23:29:37Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2337",
+      "number": 2337,
+      "title": "Ability to run all the linters present",
+      "created_at": "2021-11-02T08:19:29Z",
+      "closed_at": "2021-11-02T08:29:32Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2355",
+      "number": 2355,
+      "title": "\"too many open files\" since update to v1.43.0",
+      "created_at": "2021-11-09T12:40:04Z",
+      "closed_at": "2022-02-10T10:25:44Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2374",
+      "number": 2374,
+      "title": "Panic since update to v1.43.0 (load embedded ruleguard rules: rules/rules.go:13: can't load fmt)",
+      "created_at": "2021-11-23T07:04:40Z",
+      "closed_at": "2022-08-17T17:30:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2399",
+      "number": 2399,
+      "title": "Unable to run a specific linter",
+      "created_at": "2021-12-02T13:25:32Z",
+      "closed_at": "2021-12-02T13:45:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2409",
+      "number": 2409,
+      "title": "golangci-lint didn't check `staging/src/github.com/kubeedge/beehive` codes",
+      "created_at": "2021-12-11T06:39:30Z",
+      "closed_at": "2021-12-11T08:37:30Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2411",
+      "number": 2411,
+      "title": "--build-tags from command line should override the build-tags from yaml",
+      "created_at": "2021-12-13T14:59:19Z",
+      "closed_at": "2021-12-13T17:38:28Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2415",
+      "number": 2415,
+      "title": "bug(runner_action.go): invalid memory address or nil pointer dereference",
+      "created_at": "2021-12-15T21:08:05Z",
+      "closed_at": "2021-12-15T22:06:45Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2421",
+      "number": 2421,
+      "title": "Column missing from output",
+      "created_at": "2021-12-20T07:47:14Z",
+      "closed_at": "2021-12-21T12:08:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2515",
+      "number": 2515,
+      "title": "'unused' check should not reason about control flow",
+      "created_at": "2022-01-24T17:17:18Z",
+      "closed_at": "2022-01-24T17:34:29Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2527",
+      "number": 2527,
+      "title": "Allow to disable tests checking only for particular linters",
+      "created_at": "2022-01-27T19:54:26Z",
+      "closed_at": "2022-01-28T07:30:49Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2626",
+      "number": 2626,
+      "title": "staticcheck config in golangci-lint is invallid",
+      "created_at": "2022-02-28T03:51:40Z",
+      "closed_at": "2022-02-28T08:46:53Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2645",
+      "number": 2645,
+      "title": "Verify the .golangci.yaml config",
+      "created_at": "2022-03-11T17:41:49Z",
+      "closed_at": "2024-03-19T20:35:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2649",
+      "number": 2649,
+      "title": "Support of generics",
+      "created_at": "2022-03-16T11:39:57Z",
+      "closed_at": "2023-03-15T02:10:54Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2654",
+      "number": 2654,
+      "title": "Error with go1.18 workspace",
+      "created_at": "2022-03-18T02:57:44Z",
+      "closed_at": "2023-06-26T02:17:47Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2670",
+      "number": 2670,
+      "title": "depguard integration unnecessarily type checks",
+      "created_at": "2022-03-21T11:02:27Z",
+      "closed_at": "2022-03-21T23:30:21Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2673",
+      "number": 2673,
+      "title": "go1.17 arm64 fails with can't load fmt error (>= 1.45.0)",
+      "created_at": "2022-03-21T18:09:40Z",
+      "closed_at": "2022-08-17T17:30:15Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2711",
+      "number": 2711,
+      "title": "Enabling Gofumpt throws error `File is not `gofumpt`-ed` on properly formatted code",
+      "created_at": "2022-04-01T09:30:45Z",
+      "closed_at": "2022-08-29T18:27:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2750",
+      "number": 2750,
+      "title": "Failed in private repository import",
+      "created_at": "2022-04-07T13:23:33Z",
+      "closed_at": "2022-04-07T13:26:23Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2766",
+      "number": 2766,
+      "title": "Docker simple install isn't working for me out of the box",
+      "created_at": "2022-04-13T13:35:59Z",
+      "closed_at": "2022-04-14T14:47:05Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2783",
+      "number": 2783,
+      "title": "LInter 'typecheck' reports false positive imports not matching module name",
+      "created_at": "2022-04-26T08:50:45Z",
+      "closed_at": "2022-04-26T10:44:09Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2788",
+      "number": 2788,
+      "title": " can't run linter goanalysis_metalinter: *inspect*: failed to load package sugar: could not load export data: no export data for #248 ",
+      "created_at": "2022-04-29T09:20:52Z",
+      "closed_at": "2022-07-30T20:26:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2864",
+      "number": 2864,
+      "title": "Option to allow the linting of generated files",
+      "created_at": "2022-05-18T11:43:57Z",
+      "closed_at": "2024-05-23T14:17:38Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2910",
+      "number": 2910,
+      "title": "Adding import \"C\" makes warnings for some linters to go away",
+      "created_at": "2022-06-07T02:27:10Z",
+      "closed_at": "2022-07-30T20:26:36Z"
+    },
+    {
+      "url": "https://github.com/golangci/golangci-lint/issues/2922",
+      "number": 2922,
+      "title": "go-critic: checkers.init panic with go1.19beta1",
+      "created_at": "2022-06-16T18:37:44Z",
+      "closed_at": "2022-08-03T18:53:07Z"
+    }
+  ]
+}

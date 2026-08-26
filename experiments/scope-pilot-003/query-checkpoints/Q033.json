@@ -1,0 +1,716 @@
+{
+  "index": 33,
+  "stratum": "tests",
+  "repository": "cypress-io/cypress",
+  "repository_id": 31629751,
+  "term": "ignored",
+  "query": "repo:cypress-io/cypress is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:46.351881+00:00",
+  "total_count": 152,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "acafcd14f223a381afee40f33f15dc874faf963dee8495cbce9623aeecd5eaea",
+  "items": [
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6173",
+      "number": 6173,
+      "title": "setCookie() does not recognize domain correctly ",
+      "created_at": "2020-01-15T23:57:51Z",
+      "closed_at": "2020-01-21T21:23:00Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6304",
+      "number": 6304,
+      "title": "Make it possible to support no_proxy environment variable for download",
+      "created_at": "2020-02-03T15:19:26Z",
+      "closed_at": "2021-09-20T18:25:54Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6305",
+      "number": 6305,
+      "title": "Test Files aren't ignored after adding new code to index.js",
+      "created_at": "2020-02-03T15:47:03Z",
+      "closed_at": "2020-02-04T05:05:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6375",
+      "number": 6375,
+      "title": "\"Removing cookie failed for\" error in Firefox after setting cookie via `cy.setCookie()`",
+      "created_at": "2020-02-07T22:05:35Z",
+      "closed_at": "2021-08-04T14:23:46Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6392",
+      "number": 6392,
+      "title": "Cypress could not connect to Firefox. `Error: cannot open socket` displayed at beginning of running spec",
+      "created_at": "2020-02-10T12:13:16Z",
+      "closed_at": "2020-07-15T18:42:26Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6438",
+      "number": 6438,
+      "title": "`after` hook ignored if last test is skipped via `xit`",
+      "created_at": "2020-02-13T07:46:23Z",
+      "closed_at": "2020-02-13T08:10:23Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6439",
+      "number": 6439,
+      "title": "Cypress run command skips cy.requests",
+      "created_at": "2020-02-13T10:14:47Z",
+      "closed_at": "2020-02-14T09:42:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6536",
+      "number": 6536,
+      "title": "Add configuration option to throw error when `it.only()` is used",
+      "created_at": "2020-02-22T14:30:29Z",
+      "closed_at": "2020-02-24T06:36:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6675",
+      "number": 6675,
+      "title": "`position: fixed` elements having parent with `pointer-events: none` mistakenly display as not visible / covered by another el",
+      "created_at": "2020-03-08T10:07:07Z",
+      "closed_at": "2020-07-29T06:07:16Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6676",
+      "number": 6676,
+      "title": "How to delete cookies from all domain after running tests of a single Feature File",
+      "created_at": "2020-03-08T20:57:37Z",
+      "closed_at": "2020-03-10T06:55:26Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6730",
+      "number": 6730,
+      "title": "Replace deprecated dependencies",
+      "created_at": "2020-03-16T05:09:50Z",
+      "closed_at": "2022-04-08T17:57:48Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6884",
+      "number": 6884,
+      "title": "If we cannot connect to Chrome via RDP we should re-launch the browser",
+      "created_at": "2020-03-30T21:24:21Z",
+      "closed_at": "2023-06-04T02:13:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6904",
+      "number": 6904,
+      "title": "Event listener error while working on Cypress",
+      "created_at": "2020-04-01T07:06:13Z",
+      "closed_at": "2020-04-01T09:42:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6978",
+      "number": 6978,
+      "title": "Login failed due to HTTPS and HTTP: This request has been blocked; the content must be served over HTTPS.",
+      "created_at": "2020-04-09T16:49:40Z",
+      "closed_at": "2020-04-10T05:18:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6987",
+      "number": 6987,
+      "title": "Feature request: .stop() command",
+      "created_at": "2020-04-10T19:08:54Z",
+      "closed_at": "2022-04-08T18:49:26Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7011",
+      "number": 7011,
+      "title": "plugins.js - async/await causes invalid import errors",
+      "created_at": "2020-04-14T15:09:25Z",
+      "closed_at": "2020-05-04T12:57:41Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7048",
+      "number": 7048,
+      "title": "SIGSEGV after passing all tests",
+      "created_at": "2020-04-17T02:12:04Z",
+      "closed_at": "2023-06-23T14:32:54Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7188",
+      "number": 7188,
+      "title": "typescript compilerOptions not reflected",
+      "created_at": "2020-04-30T12:45:21Z",
+      "closed_at": "2020-09-11T14:11:12Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7248",
+      "number": 7248,
+      "title": "Bad Output in AWS CodeBuild running Cypress with docker-compose",
+      "created_at": "2020-05-06T20:19:42Z",
+      "closed_at": "2020-05-21T13:38:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7306",
+      "number": 7306,
+      "title": "Re-query elements that are found 'detached' from the DOM",
+      "created_at": "2020-05-12T08:41:20Z",
+      "closed_at": "2022-12-06T13:10:43Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7449",
+      "number": 7449,
+      "title": "Warning for 'integrity' attribute, unknown error while trying to verify integrity with `experimentalSourceRewriting` on",
+      "created_at": "2020-05-22T06:26:30Z",
+      "closed_at": "2023-06-03T02:03:24Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7508",
+      "number": 7508,
+      "title": "Unable to load iFrame",
+      "created_at": "2020-05-28T08:36:33Z",
+      "closed_at": "2020-06-01T10:44:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7631",
+      "number": 7631,
+      "title": "Test configuration object ignored for viewportHeight and viewportWidth",
+      "created_at": "2020-06-09T07:28:01Z",
+      "closed_at": "2020-07-17T05:11:32Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7745",
+      "number": 7745,
+      "title": "Bug:  Modifying the `Cypress.SelectorPlayground.defaults - selectorPriority` breaks the Selector Playground",
+      "created_at": "2020-06-17T18:03:07Z",
+      "closed_at": "2021-10-21T15:55:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7756",
+      "number": 7756,
+      "title": "Cypress 4.8 Not Reacting to Test Changes | Windows 10, WSL 2 w/ Ubuntu 18",
+      "created_at": "2020-06-18T18:18:05Z",
+      "closed_at": "2020-06-18T20:48:25Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7786",
+      "number": 7786,
+      "title": "Convert Date to number when using cy.clock",
+      "created_at": "2020-06-23T12:48:32Z",
+      "closed_at": "2020-07-17T19:34:34Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7816",
+      "number": 7816,
+      "title": "cy.request - Content-type header can't be set for POST and PUT requests",
+      "created_at": "2020-06-25T14:08:57Z",
+      "closed_at": "2020-12-15T08:26:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7822",
+      "number": 7822,
+      "title": "Using CYPRESS_DOWNLOAD_MIRROR with NO_PROXY and HTTP_PROXY set",
+      "created_at": "2020-06-26T00:36:02Z",
+      "closed_at": "2021-11-19T21:54:40Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7837",
+      "number": 7837,
+      "title": "Unexpected token '<'",
+      "created_at": "2020-06-28T18:47:44Z",
+      "closed_at": "2021-04-29T18:03:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/7876",
+      "number": 7876,
+      "title": "4.8.0 -> 4.9.0: Windows based tests no longer working, linux working fine",
+      "created_at": "2020-07-03T10:06:01Z",
+      "closed_at": "2020-08-21T08:22:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8262",
+      "number": 8262,
+      "title": "Fetch problem with Firefox and {\"experimentalFetchPolyfill\": true}",
+      "created_at": "2020-08-12T16:20:17Z",
+      "closed_at": "2020-08-14T10:00:07Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8336",
+      "number": 8336,
+      "title": "Custom timeouts are ignored on retry attempts.",
+      "created_at": "2020-08-19T10:49:30Z",
+      "closed_at": "2020-08-21T06:56:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8459",
+      "number": 8459,
+      "title": "cy.route() is ignored by <img> and <a> tags in the rendered page",
+      "created_at": "2020-09-01T11:23:19Z",
+      "closed_at": "2020-09-01T13:37:34Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8471",
+      "number": 8471,
+      "title": "Win 10 - symlink - operation not permitted, symlink",
+      "created_at": "2020-09-02T07:32:01Z",
+      "closed_at": "2023-06-09T14:48:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8488",
+      "number": 8488,
+      "title": "Allow the user env variable of `CYPRESS_INSTALL_BINARY=''` (an empty string) to take precedence over npm config",
+      "created_at": "2020-09-03T07:42:16Z",
+      "closed_at": "2020-09-22T19:55:04Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8497",
+      "number": 8497,
+      "title": "Some Calls to cy.visit() Fail with a Parse Error when experimentalNetworkStubbing is Turned On",
+      "created_at": "2020-09-03T20:50:43Z",
+      "closed_at": "2020-10-22T17:17:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8585",
+      "number": 8585,
+      "title": " Configuration \"scale: false\" do not work in docker ",
+      "created_at": "2020-09-15T18:38:03Z",
+      "closed_at": "2020-10-15T02:13:52Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8768",
+      "number": 8768,
+      "title": "#8764 should be re-written.",
+      "created_at": "2020-10-07T05:49:19Z",
+      "closed_at": "2020-10-08T07:59:09Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8873",
+      "number": 8873,
+      "title": "Using .within() in custom commands/functions to return an inner DOM element found in .within() results in unexpected behavior",
+      "created_at": "2020-10-16T21:00:00Z",
+      "closed_at": "2026-06-27T18:02:16Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9073",
+      "number": 9073,
+      "title": "Uncaught syntax error in selector expression.",
+      "created_at": "2020-11-03T13:27:55Z",
+      "closed_at": "2020-11-04T04:18:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9121",
+      "number": 9121,
+      "title": "Calls to preserve cookie `_session_id` being ignored",
+      "created_at": "2020-11-08T16:53:34Z",
+      "closed_at": "2022-11-16T22:56:29Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9207",
+      "number": 9207,
+      "title": "Type error triggerd by afterEach hook: Cannot read property 'selector' of undefined",
+      "created_at": "2020-11-16T15:24:24Z",
+      "closed_at": "2023-06-02T02:10:22Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9390",
+      "number": 9390,
+      "title": "Cypress-5.1.0 : Failed to generate the video",
+      "created_at": "2020-12-01T09:23:01Z",
+      "closed_at": "2021-02-27T00:11:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/9708",
+      "number": 9708,
+      "title": ".env file is ignored while testing next.js app",
+      "created_at": "2020-12-04T08:16:50Z",
+      "closed_at": "2023-06-02T02:09:37Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/14260",
+      "number": 14260,
+      "title": "\"visit\" overwrite is ignored when using @cypress/react",
+      "created_at": "2020-12-21T12:08:51Z",
+      "closed_at": "2021-04-15T01:30:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/14429",
+      "number": 14429,
+      "title": "FireFox 83 doesn't trigger mousedown, even with {force: true}",
+      "created_at": "2021-01-06T11:05:36Z",
+      "closed_at": "2021-01-07T08:28:52Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/14968",
+      "number": 14968,
+      "title": "404 by getting the popper.js.map",
+      "created_at": "2021-02-08T11:14:58Z",
+      "closed_at": "2021-02-09T01:14:56Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15813",
+      "number": 15813,
+      "title": "open-ct complains about unknown property `publicPath`",
+      "created_at": "2021-04-06T14:55:24Z",
+      "closed_at": "2021-04-06T20:00:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15892",
+      "number": 15892,
+      "title": "[@cypress/vite-dev-server] Ability to select different port when running dev server",
+      "created_at": "2021-04-08T20:56:08Z",
+      "closed_at": "2021-04-09T01:00:08Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15899",
+      "number": 15899,
+      "title": "[Component testing] Viewport size config ignored if 1000x660",
+      "created_at": "2021-04-09T08:42:22Z",
+      "closed_at": "2021-04-09T16:45:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/15969",
+      "number": 15969,
+      "title": "Add `timings` to `cy.intercept()` objects",
+      "created_at": "2021-04-13T23:20:19Z",
+      "closed_at": "2024-01-24T01:46:47Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16201",
+      "number": 16201,
+      "title": "DOM snapshots do not work with apps using Angular Elements (Web Components)",
+      "created_at": "2021-04-26T11:42:55Z",
+      "closed_at": "2023-05-31T20:22:34Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16253",
+      "number": 16253,
+      "title": "[Component tests] As soon as I change a test file I get \"Your tests are loading...\"",
+      "created_at": "2021-04-28T15:18:37Z",
+      "closed_at": "2022-09-19T00:34:50Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16310",
+      "number": 16310,
+      "title": "Failed to execute 'postMessage' on 'DOMWindow'",
+      "created_at": "2021-05-03T19:50:23Z",
+      "closed_at": "2022-10-21T21:11:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16373",
+      "number": 16373,
+      "title": "baseUrl in extended cypress config can't be overwritten by environment variable ",
+      "created_at": "2021-05-06T14:17:51Z",
+      "closed_at": "2021-05-06T19:01:32Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16426",
+      "number": 16426,
+      "title": "Aliasing responses from chained cy.request",
+      "created_at": "2021-05-10T17:18:10Z",
+      "closed_at": "2023-05-17T14:37:37Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16442",
+      "number": 16442,
+      "title": "scrollBehavior: center ignored when in global config but respected when in click options object",
+      "created_at": "2021-05-11T12:24:09Z",
+      "closed_at": "2023-05-31T20:21:54Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16507",
+      "number": 16507,
+      "title": "Content Security Policy Headers are ignored (\"chromeWebSecurity\": true) while rendering page content.",
+      "created_at": "2021-05-13T20:00:04Z",
+      "closed_at": "2023-05-31T20:21:44Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16527",
+      "number": 16527,
+      "title": "Issues with Turn off uncaught exception handling unhandled promise rejections does not work from a beforeEach hooks",
+      "created_at": "2021-05-14T20:33:18Z",
+      "closed_at": "2021-05-17T17:32:09Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16677",
+      "number": 16677,
+      "title": "Chrome flag settings ignored when using Command-Line Test Runner",
+      "created_at": "2021-05-25T22:02:24Z",
+      "closed_at": "2021-05-26T19:06:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/16762",
+      "number": 16762,
+      "title": "Cypress + headless Electron: CoreText warning",
+      "created_at": "2021-06-01T16:04:45Z",
+      "closed_at": "2021-06-01T16:27:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17095",
+      "number": 17095,
+      "title": "Upgrading 7.5.0 to 7.6.0 gives warning about saving state for non-allowed keys",
+      "created_at": "2021-06-24T04:00:52Z",
+      "closed_at": "2021-06-30T14:32:12Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17182",
+      "number": 17182,
+      "title": "responseTimeout is ignored in wait function with alias",
+      "created_at": "2021-07-02T11:25:50Z",
+      "closed_at": "2023-06-02T02:06:49Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17254",
+      "number": 17254,
+      "title": "Cypress erasing cookies during test when running on Chrome",
+      "created_at": "2021-07-08T17:03:49Z",
+      "closed_at": "2021-07-08T22:01:31Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17411",
+      "number": 17411,
+      "title": "babel.config.js file not working in v8",
+      "created_at": "2021-07-20T18:30:43Z",
+      "closed_at": "2021-07-21T04:55:08Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17565",
+      "number": 17565,
+      "title": "Unable to overwrite intercept in component tests",
+      "created_at": "2021-08-02T21:54:38Z",
+      "closed_at": "2023-05-31T20:18:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17929",
+      "number": 17929,
+      "title": "Cannot read property 'test' of null",
+      "created_at": "2021-08-29T22:49:32Z",
+      "closed_at": "2021-09-05T01:48:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/18319",
+      "number": 18319,
+      "title": "Pending tests are reported as Passed by teamcity reporter",
+      "created_at": "2021-09-30T22:17:44Z",
+      "closed_at": "2023-06-02T02:05:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/18745",
+      "number": 18745,
+      "title": "Angular schematic ignores baseUrl if a devServerTarget is defined",
+      "created_at": "2021-11-02T14:53:36Z",
+      "closed_at": "2022-05-11T19:45:05Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/18866",
+      "number": 18866,
+      "title": "Rewind & Resume Test / Interactive Breakpoint",
+      "created_at": "2021-11-10T01:39:54Z",
+      "closed_at": "2023-06-02T02:05:00Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/18958",
+      "number": 18958,
+      "title": "Cypress side panel seemingly disappears on redirect",
+      "created_at": "2021-11-17T14:10:21Z",
+      "closed_at": "2023-06-02T02:04:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/19227",
+      "number": 19227,
+      "title": ".npmrc is ignored during npm i, cypress download failes",
+      "created_at": "2021-12-03T07:11:42Z",
+      "closed_at": "2023-06-01T13:59:53Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/19438",
+      "number": 19438,
+      "title": "cy.screenshot scrolls background when modal displayed  ",
+      "created_at": "2021-12-21T09:16:27Z",
+      "closed_at": "2024-10-22T01:59:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/19559",
+      "number": 19559,
+      "title": "CYPRESS_VERIFY_TIMEOUT ignored when passed via .npmrc",
+      "created_at": "2022-01-05T10:42:26Z",
+      "closed_at": "2022-01-12T14:52:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/19804",
+      "number": 19804,
+      "title": "cy.request() with followRedirects sometimes is ignored.",
+      "created_at": "2022-01-21T01:43:23Z",
+      "closed_at": "2023-07-07T02:06:13Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/20736",
+      "number": 20736,
+      "title": "\"cypress install\" stuck in a never ending loop and could not install cypress | Cypress package version: 9.5.2 Cypress binary version: not installed",
+      "created_at": "2022-03-22T19:43:27Z",
+      "closed_at": "2024-06-10T01:50:12Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/20745",
+      "number": 20745,
+      "title": "pause() should not be ignored with cypress run --headed --no-exit",
+      "created_at": "2022-03-23T06:46:27Z",
+      "closed_at": "2022-04-11T17:25:34Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/20897",
+      "number": 20897,
+      "title": "Intermittent requests hanging, eventually crashing the tab/browser",
+      "created_at": "2022-04-04T09:39:40Z",
+      "closed_at": "2022-09-14T15:53:17Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/21110",
+      "number": 21110,
+      "title": "Cypress hanging on circleCI but pass locally",
+      "created_at": "2022-04-17T15:28:48Z",
+      "closed_at": "2023-04-24T12:39:15Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/21313",
+      "number": 21313,
+      "title": "Escape input event is ignored when using `cy.type('{esc}')`",
+      "created_at": "2022-05-03T14:26:32Z",
+      "closed_at": "2024-12-08T02:09:40Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22054",
+      "number": 22054,
+      "title": "Cypress 10 watch all files when executing cypress run",
+      "created_at": "2022-06-02T18:13:35Z",
+      "closed_at": "2022-06-02T20:50:47Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22077",
+      "number": 22077,
+      "title": "Enable modern ES features in ts-loader",
+      "created_at": "2022-06-03T06:38:05Z",
+      "closed_at": "2022-06-03T11:47:55Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22147",
+      "number": 22147,
+      "title": "nohoist config is ignored",
+      "created_at": "2022-06-06T20:20:34Z",
+      "closed_at": "2022-06-17T15:09:02Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22273",
+      "number": 22273,
+      "title": "Error message printed to the console: Couldn't find tsconfig.json. tsconfig-paths will be skipped",
+      "created_at": "2022-06-13T08:15:15Z",
+      "closed_at": "2025-05-06T16:48:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22305",
+      "number": 22305,
+      "title": "Backslash is not recognized if it is given in json file as a value ",
+      "created_at": "2022-06-14T12:09:13Z",
+      "closed_at": "2022-06-23T18:04:52Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22407",
+      "number": 22407,
+      "title": "Can't exclude tests from command line in Cypress 10",
+      "created_at": "2022-06-20T18:45:37Z",
+      "closed_at": "2023-05-31T20:04:10Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/22920",
+      "number": 22920,
+      "title": "The cypress npm package is installed, but the Cypress binary is missing.",
+      "created_at": "2022-07-25T13:45:18Z",
+      "closed_at": "2022-08-10T11:56:49Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23025",
+      "number": 23025,
+      "title": "CSS import in component is not respected",
+      "created_at": "2022-07-30T12:30:03Z",
+      "closed_at": "2022-10-07T16:24:56Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23087",
+      "number": 23087,
+      "title": "TSError: ⨯ Unable to compile TypeScript after version `10.1.0`",
+      "created_at": "2022-08-03T14:17:23Z",
+      "closed_at": "2022-08-03T15:01:28Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23141",
+      "number": 23141,
+      "title": "After Spec API TypeScript Code breaks the config.ts file - [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension \".ts\"",
+      "created_at": "2022-08-05T15:02:51Z",
+      "closed_at": "2025-05-06T16:47:18Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23239",
+      "number": 23239,
+      "title": "Error with permission",
+      "created_at": "2022-08-10T13:44:12Z",
+      "closed_at": "2022-08-18T13:48:33Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23310",
+      "number": 23310,
+      "title": "Running test in an order and if one fails the following should be ignored",
+      "created_at": "2022-08-12T07:49:17Z",
+      "closed_at": "2022-08-12T07:49:38Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23452",
+      "number": 23452,
+      "title": "Flaky test: CypressError: `cy.task('__internal_scaffoldProject')`",
+      "created_at": "2022-08-19T06:00:47Z",
+      "closed_at": "2023-08-16T01:43:57Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23459",
+      "number": 23459,
+      "title": "Unable to override configured fixturesFolder via CLI",
+      "created_at": "2022-08-19T10:03:42Z",
+      "closed_at": "2023-05-31T20:03:39Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23487",
+      "number": 23487,
+      "title": "Component testing viteConfig override gets ignored",
+      "created_at": "2022-08-22T08:53:08Z",
+      "closed_at": "2022-08-30T18:07:56Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23498",
+      "number": 23498,
+      "title": "Cypress.on('uncaught:exception', (err, runnable) not working after updated to cypress 10.6.0",
+      "created_at": "2022-08-22T18:29:03Z",
+      "closed_at": "2022-09-21T15:19:59Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23642",
+      "number": 23642,
+      "title": "@cypress/schematics: no spec file generated with schematic v2.1.0",
+      "created_at": "2022-08-31T13:16:10Z",
+      "closed_at": "2022-09-01T20:33:35Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23664",
+      "number": 23664,
+      "title": "Aliases from cy.intercept() are being ignored",
+      "created_at": "2022-09-01T22:08:32Z",
+      "closed_at": "2022-09-19T14:08:45Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23670",
+      "number": 23670,
+      "title": "CYPRESS_DOWNLOAD_PATH_TEMPLATE only replace placeholder once",
+      "created_at": "2022-09-02T09:44:34Z",
+      "closed_at": "2023-05-05T17:09:02Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23673",
+      "number": 23673,
+      "title": "TSConfig seemingly not used when passed in via angular's build options (see #23161)",
+      "created_at": "2022-09-02T14:25:37Z",
+      "closed_at": "2022-09-13T02:54:00Z"
+    }
+  ]
+}

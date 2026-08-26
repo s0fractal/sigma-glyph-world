@@ -1,0 +1,471 @@
+{
+  "index": 79,
+  "stratum": "lint_static_analysis",
+  "repository": "eslint/eslint",
+  "repository_id": 11061773,
+  "term": "no tests",
+  "query": "repo:eslint/eslint is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:12.565407+00:00",
+  "total_count": 65,
+  "incomplete_results": false,
+  "returned": 65,
+  "raw_response_sha256": "5e6df084d665b8f15c3cb8ba813fd950c6f643f09952c6d6a1fed4cea58ea5c7",
+  "items": [
+    {
+      "url": "https://github.com/eslint/eslint/issues/12758",
+      "number": 12758,
+      "title": "[no-duplicate-imports] Treat namespace imports as different",
+      "created_at": "2020-01-07T21:07:02Z",
+      "closed_at": "2021-06-04T15:58:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12773",
+      "number": 12773,
+      "title": "\"array-element-newline\" must handle ignored elements when destructuring arrays",
+      "created_at": "2020-01-10T21:48:56Z",
+      "closed_at": "2020-04-11T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12963",
+      "number": 12963,
+      "title": "typescript; no-used-vars fires incorrectly on identifiers that are in use",
+      "created_at": "2020-02-26T20:10:28Z",
+      "closed_at": "2020-02-26T20:56:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12981",
+      "number": 12981,
+      "title": "Can't unignore a file when directory ignored",
+      "created_at": "2020-02-28T15:27:27Z",
+      "closed_at": "2020-03-02T12:40:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13238",
+      "number": 13238,
+      "title": "[no-constant-condition] all literal should be treated like boolean literal",
+      "created_at": "2020-04-30T05:10:01Z",
+      "closed_at": "2020-06-02T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13253",
+      "number": 13253,
+      "title": "TypeScript Reactjs: Assignment to property of function parameter 'state'",
+      "created_at": "2020-05-03T14:19:37Z",
+      "closed_at": "2020-06-04T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13481",
+      "number": 13481,
+      "title": "Implement Flat Config",
+      "created_at": "2020-07-10T16:04:34Z",
+      "closed_at": "2025-11-12T22:36:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13546",
+      "number": 13546,
+      "title": "[no-unused-vars] Incorrect code location when self referencing",
+      "created_at": "2020-08-03T18:05:11Z",
+      "closed_at": "2020-09-07T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13566",
+      "number": 13566,
+      "title": "Optional chaining issue with dot-notation rule",
+      "created_at": "2020-08-14T08:55:35Z",
+      "closed_at": "2020-09-24T17:03:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13568",
+      "number": 13568,
+      "title": "Support numeric separators",
+      "created_at": "2020-08-15T19:24:48Z",
+      "closed_at": "2020-09-05T20:12:27Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13585",
+      "number": 13585,
+      "title": "Override not working as anticipated",
+      "created_at": "2020-08-18T14:36:41Z",
+      "closed_at": "2020-08-18T19:29:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13705",
+      "number": 13705,
+      "title": "Improve no-func-assign docs and add tests",
+      "created_at": "2020-09-20T15:51:40Z",
+      "closed_at": "2020-10-22T12:34:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13723",
+      "number": 13723,
+      "title": "RuleTester: Cannot test failing suggestion fixer",
+      "created_at": "2020-09-30T17:55:04Z",
+      "closed_at": "2020-10-23T23:40:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13858",
+      "number": 13858,
+      "title": "Cannot find module eslint-plugin-react/lib/options",
+      "created_at": "2020-11-17T14:26:49Z",
+      "closed_at": "2020-11-28T21:30:32Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13865",
+      "number": 13865,
+      "title": "Can't Load Standard config",
+      "created_at": "2020-11-19T03:53:00Z",
+      "closed_at": "2020-11-22T03:01:36Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13956",
+      "number": 13956,
+      "title": "Cannot read property 'loc' of undefined",
+      "created_at": "2020-12-25T03:36:07Z",
+      "closed_at": "2020-12-25T11:31:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13957",
+      "number": 13957,
+      "title": "\"Cannot read property of 'loc' of undefined\" when typing \"const\"",
+      "created_at": "2020-12-25T15:34:26Z",
+      "closed_at": "2020-12-27T20:31:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13984",
+      "number": 13984,
+      "title": "Vue lazy loading components import is marked as \"no-undef\"",
+      "created_at": "2021-01-05T17:25:13Z",
+      "closed_at": "2021-01-10T04:41:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14129",
+      "number": 14129,
+      "title": "guard-for-in won't show error if logic contains unrelated IF statement",
+      "created_at": "2021-02-23T11:41:10Z",
+      "closed_at": "2021-02-23T13:17:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14315",
+      "number": 14315,
+      "title": "`no-redeclare` loose parser tests",
+      "created_at": "2021-04-11T14:22:11Z",
+      "closed_at": "2021-05-08T00:37:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14575",
+      "number": 14575,
+      "title": "Allow all directives in line comments",
+      "created_at": "2021-05-07T15:58:22Z",
+      "closed_at": "2023-08-26T18:39:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14642",
+      "number": 14642,
+      "title": "[no-magic-numbers]: Ignore file patterns",
+      "created_at": "2021-05-30T17:54:50Z",
+      "closed_at": "2021-05-31T09:01:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15030",
+      "number": 15030,
+      "title": "TypeError: Ajv is not a constructor with Jest 27",
+      "created_at": "2021-09-05T03:26:07Z",
+      "closed_at": "2021-09-14T18:10:24Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15080",
+      "number": 15080,
+      "title": "Bug: no-misleading-character-class triggers on seemingly-OK code",
+      "created_at": "2021-09-18T21:58:28Z",
+      "closed_at": "2024-05-10T14:25:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15452",
+      "number": 15452,
+      "title": "Change Request: Add docker support",
+      "created_at": "2021-12-24T12:41:29Z",
+      "closed_at": "2021-12-31T23:55:30Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15709",
+      "number": 15709,
+      "title": "Change Request: magic comment `eslint-expect-error-next-line`",
+      "created_at": "2022-03-19T10:27:07Z",
+      "closed_at": "2022-03-22T12:04:20Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15757",
+      "number": 15757,
+      "title": "Bug: SyntaxError: Unexpected token 'extends'",
+      "created_at": "2022-04-04T16:18:18Z",
+      "closed_at": "2022-04-17T11:17:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16033",
+      "number": 16033,
+      "title": "Bug: can't test TemplateLiteral rules",
+      "created_at": "2022-06-21T12:44:22Z",
+      "closed_at": "2022-06-21T17:51:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16255",
+      "number": 16255,
+      "title": "Migrate functional-red-black-tree to Js-sdsl OrderedMap",
+      "created_at": "2022-08-28T07:30:07Z",
+      "closed_at": "2022-09-12T04:34:03Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16260",
+      "number": 16260,
+      "title": "Bug: [new config system] path to a directory lints files outside that directory",
+      "created_at": "2022-08-29T23:16:47Z",
+      "closed_at": "2022-09-12T04:18:27Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16490",
+      "number": 16490,
+      "title": "Bug: `key-spacing` with `align: \"value\"` produces incorrect alignment",
+      "created_at": "2022-11-02T16:02:46Z",
+      "closed_at": "2022-11-14T01:38:06Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16555",
+      "number": 16555,
+      "title": "Bug: Can't escape / (forward slash) in no-restricted-syntax rule.",
+      "created_at": "2022-11-16T06:53:54Z",
+      "closed_at": "2026-01-25T17:24:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16974",
+      "number": 16974,
+      "title": "Bug: no-unused-vars reports errors in typescript lambda types (where parameters are not variables and cannot be used)",
+      "created_at": "2023-03-09T17:59:11Z",
+      "closed_at": "2023-03-09T18:05:31Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17054",
+      "number": 17054,
+      "title": "Bug: --fix is breaking valid code inside a simple arrow function",
+      "created_at": "2023-04-03T20:42:12Z",
+      "closed_at": "2023-04-04T13:50:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17244",
+      "number": 17244,
+      "title": "block-scoped-var rule reports duplicate issues in some cases",
+      "created_at": "2023-06-07T03:38:42Z",
+      "closed_at": "2023-06-11T15:28:45Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17259",
+      "number": 17259,
+      "title": "Bug: eslint uses 8GB of memory, 100% CPU, hangs indefinitely",
+      "created_at": "2023-06-08T21:09:53Z",
+      "closed_at": "2023-06-09T16:56:32Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17572",
+      "number": 17572,
+      "title": "Browser test is failing",
+      "created_at": "2023-09-16T20:34:20Z",
+      "closed_at": "2023-10-04T15:43:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17660",
+      "number": 17660,
+      "title": "Bug: --output-file not written when empty",
+      "created_at": "2023-10-17T21:46:40Z",
+      "closed_at": "2024-01-06T18:22:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17860",
+      "number": 17860,
+      "title": "Bug: no-restricted-import exclusion pattern does not work",
+      "created_at": "2023-12-15T16:07:28Z",
+      "closed_at": "2024-01-16T21:02:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18044",
+      "number": 18044,
+      "title": "Bug: Can't define other rules in `RuleTester` in v9",
+      "created_at": "2024-01-27T19:53:44Z",
+      "closed_at": "2024-01-27T21:50:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18160",
+      "number": 18160,
+      "title": "Bug: Migrate away from lodash method packages",
+      "created_at": "2024-03-01T18:14:25Z",
+      "closed_at": "2025-11-12T22:36:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18347",
+      "number": 18347,
+      "title": "Bug: Eslint not working with  `eslint src/**/*.ts --fix`",
+      "created_at": "2024-04-15T19:22:59Z",
+      "closed_at": "2024-05-06T08:43:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18370",
+      "number": 18370,
+      "title": "Bug: v9.0.0 has prevented ancestor glob patterns",
+      "created_at": "2024-04-19T23:41:21Z",
+      "closed_at": "2024-05-06T17:09:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18386",
+      "number": 18386,
+      "title": "This method cannot be used with flat config. Add your entries directly into the config array.",
+      "created_at": "2024-04-23T21:08:02Z",
+      "closed_at": "2024-04-24T11:55:30Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18449",
+      "number": 18449,
+      "title": "ESLint hangs indefinitely, no errors",
+      "created_at": "2024-05-14T15:08:24Z",
+      "closed_at": "2024-05-14T17:41:17Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18486",
+      "number": 18486,
+      "title": "Bug: possible `no-constructor-return` false negative with nested blocks",
+      "created_at": "2024-05-22T14:57:08Z",
+      "closed_at": "2024-05-28T02:28:44Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18548",
+      "number": 18548,
+      "title": "ci: browser testing is failing sometimes",
+      "created_at": "2024-06-03T16:33:12Z",
+      "closed_at": "2024-08-06T20:09:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18607",
+      "number": 18607,
+      "title": "Bug: [no-unused-vars] Error message doesn't inform about caught errors pattern when caught error is reassigned but not used",
+      "created_at": "2024-06-19T07:41:55Z",
+      "closed_at": "2024-06-21T07:16:07Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18723",
+      "number": 18723,
+      "title": "Change Request: Allow the name property and the ignores property to be used together.",
+      "created_at": "2024-07-29T04:06:19Z",
+      "closed_at": "2024-09-09T08:20:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18770",
+      "number": 18770,
+      "title": "RuleTester feature: `setup` for test cases",
+      "created_at": "2024-08-10T22:03:50Z",
+      "closed_at": "2024-09-26T15:58:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18815",
+      "number": 18815,
+      "title": "Bug: Writing to a global triggers no-unused-vars",
+      "created_at": "2024-08-26T17:23:16Z",
+      "closed_at": "2024-10-01T07:07:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18843",
+      "number": 18843,
+      "title": "Rule Change: add suggestions to `no-empty-pattern` rule",
+      "created_at": "2024-09-02T06:24:29Z",
+      "closed_at": "2024-09-02T15:08:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18948",
+      "number": 18948,
+      "title": "Bug: `--ignore-pattern` doesn't work well with `--flag unstable_config_lookup_from_file`",
+      "created_at": "2024-09-24T18:07:06Z",
+      "closed_at": "2025-06-27T14:21:17Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19031",
+      "number": 19031,
+      "title": "Bug: incorrect file enumeration with legacy config in Node.js 23",
+      "created_at": "2024-10-18T14:37:20Z",
+      "closed_at": "2024-10-25T14:28:08Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19073",
+      "number": 19073,
+      "title": "Support RegExp Modifiers",
+      "created_at": "2024-10-29T06:46:16Z",
+      "closed_at": "2024-11-01T17:50:44Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19099",
+      "number": 19099,
+      "title": "Starting with eslint 9.14.0 I am getting messages like “Processing pending tasks: 1 pending, 0 working.\"",
+      "created_at": "2024-11-05T02:17:30Z",
+      "closed_at": "2024-11-05T05:11:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19120",
+      "number": 19120,
+      "title": "Bug: `no-loop-func` errors on functions in the condition and not just the body",
+      "created_at": "2024-11-11T18:05:33Z",
+      "closed_at": "2024-12-28T16:39:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19229",
+      "number": 19229,
+      "title": "Rule Change: update message for `no-console` when there is `allow` option",
+      "created_at": "2024-12-08T00:25:10Z",
+      "closed_at": "2025-01-03T17:39:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19534",
+      "number": 19534,
+      "title": "Bug: inspector resolves my config, but eslint does not",
+      "created_at": "2025-03-19T13:18:05Z",
+      "closed_at": "2025-03-19T20:01:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19573",
+      "number": 19573,
+      "title": "Bug: `no-useless-escape` triggered for `\\+` in character class for regex literal",
+      "created_at": "2025-03-24T18:09:57Z",
+      "closed_at": "2025-03-28T06:09:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/19674",
+      "number": 19674,
+      "title": "Bug: `YAMLException: Cannot read config file` when using mjs in shared config file",
+      "created_at": "2025-04-29T18:27:37Z",
+      "closed_at": "2025-05-05T15:56:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/20000",
+      "number": 20000,
+      "title": "Rule Change: no-empty rule does not ignore empty switch statements with comments",
+      "created_at": "2025-08-09T20:59:38Z",
+      "closed_at": "2025-08-28T07:52:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/20355",
+      "number": 20355,
+      "title": "Change Request: Update issue templates to add checkboxes for LLM usage",
+      "created_at": "2025-11-25T18:38:23Z",
+      "closed_at": "2026-02-19T10:13:27Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/20378",
+      "number": 20378,
+      "title": "RFC: Allow processors to associate child files with real filesystem paths for typed linting",
+      "created_at": "2025-12-05T10:36:19Z",
+      "closed_at": "2025-12-08T00:57:01Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/20422",
+      "number": 20422,
+      "title": "Bug: `no-redeclare` inconsistency for `var` in `catch` block",
+      "created_at": "2025-12-31T10:38:56Z",
+      "closed_at": "2025-12-31T16:50:57Z"
+    }
+  ]
+}

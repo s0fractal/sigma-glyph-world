@@ -1,0 +1,72 @@
+{
+  "index": 69,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "reports success",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"reports success\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:40.536198+00:00",
+  "total_count": 8,
+  "incomplete_results": false,
+  "returned": 8,
+  "raw_response_sha256": "ee4f9e1a855b5c7fe931befa3dd6d96b74c128992ef18a769c17740b9fcfe3cf",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/12155",
+      "number": 12155,
+      "title": "Unexpected error behaviour: Parameterized generics cannot be used with class or instance checks",
+      "created_at": "2022-02-09T11:32:22Z",
+      "closed_at": "2024-06-13T21:17:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14066",
+      "number": 14066,
+      "title": "mypy fails to report issues when PYTHONPATH is set to cwd and absolute path to file is provided",
+      "created_at": "2022-11-11T05:22:10Z",
+      "closed_at": "2022-11-11T08:31:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15033",
+      "number": 15033,
+      "title": "Mypy incorrectly passes the type check `Iterable[T]` with type `numpy.NDArray[Any]`",
+      "created_at": "2023-04-11T08:59:22Z",
+      "closed_at": "2023-04-11T14:51:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15214",
+      "number": 15214,
+      "title": "`mypy` and `dmypy run` are not agreeing",
+      "created_at": "2023-05-09T23:55:00Z",
+      "closed_at": "2023-05-18T18:00:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16630",
+      "number": 16630,
+      "title": "Generate report (mypy.xml) fails when running mypy in parallel with another job",
+      "created_at": "2023-12-07T09:36:16Z",
+      "closed_at": "2023-12-08T19:00:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16902",
+      "number": 16902,
+      "title": "`next(iter(<Tuple[...]>))` should be a `Union` of the `Tuple` element types, rather than their most descended common ancestor",
+      "created_at": "2024-02-10T22:04:39Z",
+      "closed_at": "2025-02-12T21:05:03Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19019",
+      "number": 19019,
+      "title": "mypy accepts passing args= to a function taking *args",
+      "created_at": "2025-05-03T09:34:28Z",
+      "closed_at": "2025-05-05T23:21:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19037",
+      "number": 19037,
+      "title": "Empty vs filled cache inconsistency for google-cloud-logging & google-cloud-pubsub together with `type: ignore` comments",
+      "created_at": "2025-05-05T17:32:01Z",
+      "closed_at": "2025-05-07T15:59:52Z"
+    }
+  ]
+}

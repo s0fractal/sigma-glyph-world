@@ -1,0 +1,716 @@
+{
+  "index": 46,
+  "stratum": "lint_static_analysis",
+  "repository": "astral-sh/ruff",
+  "repository_id": 523043277,
+  "term": "not run",
+  "query": "repo:astral-sh/ruff is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:25.920027+00:00",
+  "total_count": 155,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "3e2a2f9831a4f054961284ae99344e85b5ac5e31780cf56abea8834c76b802d8",
+  "items": [
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/43",
+      "number": 43,
+      "title": "Enable installation via cargo",
+      "created_at": "2022-08-29T17:35:21Z",
+      "closed_at": "2026-06-23T16:49:25Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/82",
+      "number": 82,
+      "title": "ruff incorrectly flags imports included in __all__",
+      "created_at": "2022-09-01T22:20:09Z",
+      "closed_at": "2022-09-02T14:17:42Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/225",
+      "number": 225,
+      "title": "Provide pre-comit actions that does not require cargo crate run ",
+      "created_at": "2022-09-19T11:58:45Z",
+      "closed_at": "2022-09-20T03:06:40Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/315",
+      "number": 315,
+      "title": "Is \"A003 class attribute `set` is shadowing a python builtin\" too aggressive?",
+      "created_at": "2022-10-04T00:20:30Z",
+      "closed_at": "2022-10-04T12:28:48Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/360",
+      "number": 360,
+      "title": "False positive for W292",
+      "created_at": "2022-10-08T03:05:20Z",
+      "closed_at": "2022-10-08T21:25:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/579",
+      "number": 579,
+      "title": "Feature request: support for flake8-annotations",
+      "created_at": "2022-11-04T09:14:59Z",
+      "closed_at": "2022-11-06T22:25:50Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/723",
+      "number": 723,
+      "title": "Avoid back-ticks in linter messages",
+      "created_at": "2022-11-13T18:16:22Z",
+      "closed_at": "2022-11-15T02:32:41Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1035",
+      "number": 1035,
+      "title": "RET508 potential false positive after elif",
+      "created_at": "2022-12-04T15:06:51Z",
+      "closed_at": "2023-02-14T02:51:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1297",
+      "number": 1297,
+      "title": "`# noqa` not respected in docstrings.",
+      "created_at": "2022-12-20T10:06:06Z",
+      "closed_at": "2022-12-20T17:56:00Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1347",
+      "number": 1347,
+      "title": "Cannot select specific flake8-errmsg checks",
+      "created_at": "2022-12-23T11:34:39Z",
+      "closed_at": "2022-12-23T13:25:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1421",
+      "number": 1421,
+      "title": "[Question] Is there autofix for E501 and how do I turn it on?",
+      "created_at": "2022-12-28T07:23:20Z",
+      "closed_at": "2022-12-28T12:15:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1439",
+      "number": 1439,
+      "title": "Subsequent runs with --diff give no result",
+      "created_at": "2022-12-29T16:05:25Z",
+      "closed_at": "2022-12-29T17:51:59Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1514",
+      "number": 1514,
+      "title": "False positive in F541 (f-string without placeholders) after v0.0.204",
+      "created_at": "2022-12-31T16:10:36Z",
+      "closed_at": "2022-12-31T18:41:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1699",
+      "number": 1699,
+      "title": "Installing ruff via pip on NixOs does not work",
+      "created_at": "2023-01-06T21:41:30Z",
+      "closed_at": "2023-01-08T03:18:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1904",
+      "number": 1904,
+      "title": "Implement autoformat capabilities",
+      "created_at": "2023-01-16T03:02:39Z",
+      "closed_at": "2023-10-26T23:55:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1964",
+      "number": 1964,
+      "title": "D407 doesn't respect indentation level?",
+      "created_at": "2023-01-18T16:11:46Z",
+      "closed_at": "2023-01-19T15:32:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2179",
+      "number": 2179,
+      "title": "Keeping up with new rules",
+      "created_at": "2023-01-25T22:44:45Z",
+      "closed_at": "2023-05-10T21:06:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2198",
+      "number": 2198,
+      "title": "`noqa: E402` not detected",
+      "created_at": "2023-01-26T16:30:10Z",
+      "closed_at": "2023-02-11T23:29:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2313",
+      "number": 2313,
+      "title": "Make a discord server. ",
+      "created_at": "2023-01-28T20:31:35Z",
+      "closed_at": "2023-02-01T23:25:04Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2454",
+      "number": 2454,
+      "title": "Gitlab ci configuration",
+      "created_at": "2023-02-01T19:46:40Z",
+      "closed_at": "2023-02-02T15:58:34Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2557",
+      "number": 2557,
+      "title": "Have option to ignore unknown rule selector codes",
+      "created_at": "2023-02-03T21:57:30Z",
+      "closed_at": "2023-05-18T16:47:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2606",
+      "number": 2606,
+      "title": "Allow explicit select of docstring rule to override configured convention",
+      "created_at": "2023-02-06T12:07:46Z",
+      "closed_at": "2023-11-10T18:47:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3134",
+      "number": 3134,
+      "title": "`suppress-none-returning = true` won't work",
+      "created_at": "2023-02-22T16:47:07Z",
+      "closed_at": "2023-02-22T20:10:27Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3224",
+      "number": 3224,
+      "title": "`autoflake`/`black`/`isort` do not resolve to the same file",
+      "created_at": "2023-02-25T13:02:49Z",
+      "closed_at": "2023-03-03T08:01:26Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3289",
+      "number": 3289,
+      "title": "Feature Request:  GitHub Action for Ruff",
+      "created_at": "2023-03-01T05:59:27Z",
+      "closed_at": "2023-04-03T23:43:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3410",
+      "number": 3410,
+      "title": "Add a `include` parameter to allow expanding scope of included files",
+      "created_at": "2023-03-08T21:52:09Z",
+      "closed_at": "2023-04-12T03:39:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3435",
+      "number": 3435,
+      "title": "Should ruff be invoked in the same venv as the python code?",
+      "created_at": "2023-03-10T09:26:38Z",
+      "closed_at": "2023-03-10T16:05:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3652",
+      "number": 3652,
+      "title": "PLW2901 ignore when using cast",
+      "created_at": "2023-03-21T16:57:25Z",
+      "closed_at": "2023-04-05T22:02:34Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3711",
+      "number": 3711,
+      "title": "[feature request] Support ignore block of code with noqa",
+      "created_at": "2023-03-24T07:25:40Z",
+      "closed_at": "2026-01-16T19:35:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3752",
+      "number": 3752,
+      "title": "Explore use of `cargo nextest` for test running",
+      "created_at": "2023-03-26T21:10:01Z",
+      "closed_at": "2023-06-29T00:15:15Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3781",
+      "number": 3781,
+      "title": "Inconsistent results running ruff via `poetry` and `pre-commit`",
+      "created_at": "2023-03-28T18:33:38Z",
+      "closed_at": "2023-03-28T19:42:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3791",
+      "number": 3791,
+      "title": "ruff can not run on aarch64 machine",
+      "created_at": "2023-03-29T06:52:41Z",
+      "closed_at": "2023-05-08T06:10:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3997",
+      "number": 3997,
+      "title": "Fails with assignment expression used in \"any()\" function",
+      "created_at": "2023-04-17T14:46:42Z",
+      "closed_at": "2023-04-29T22:45:32Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4092",
+      "number": 4092,
+      "title": "`--fix-only` returns exit code 1 upon fixes",
+      "created_at": "2023-04-25T09:05:53Z",
+      "closed_at": "2023-05-04T19:03:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4107",
+      "number": 4107,
+      "title": "Docs request: `autoflake` in Rules page",
+      "created_at": "2023-04-26T00:09:05Z",
+      "closed_at": "2023-04-26T17:10:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4160",
+      "number": 4160,
+      "title": "Allow for testing of packages in integration tests",
+      "created_at": "2023-04-30T11:39:14Z",
+      "closed_at": "2023-11-03T03:07:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4240",
+      "number": 4240,
+      "title": "Incorrect docs for RET504",
+      "created_at": "2023-05-05T09:58:51Z",
+      "closed_at": "2023-05-06T20:56:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4266",
+      "number": 4266,
+      "title": "providing settings for rules which are not generated should produce a warning",
+      "created_at": "2023-05-07T08:13:03Z",
+      "closed_at": "2024-01-10T21:25:10Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4348",
+      "number": 4348,
+      "title": "Overriding one sub-setting nulls out other inherited settings",
+      "created_at": "2023-05-10T14:56:19Z",
+      "closed_at": "2023-05-15T02:35:00Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4363",
+      "number": 4363,
+      "title": "[Linter panic] so-vits-svc-fork-main\\src\\so_vits_svc_fork\\modules\\mel_processing.py",
+      "created_at": "2023-05-11T00:12:23Z",
+      "closed_at": "2023-05-11T02:42:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4436",
+      "number": 4436,
+      "title": "Fails to install on Termux ",
+      "created_at": "2023-05-15T09:49:20Z",
+      "closed_at": "2023-05-18T17:02:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4502",
+      "number": 4502,
+      "title": "JUnit output can be rejected by Jenkins's junit test reporter when there are no lint errors",
+      "created_at": "2023-05-18T17:28:08Z",
+      "closed_at": "2023-05-20T03:38:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4523",
+      "number": 4523,
+      "title": "Autofix errors from extended ecosystem checks",
+      "created_at": "2023-05-19T09:14:20Z",
+      "closed_at": "2023-09-04T12:44:10Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4849",
+      "number": 4849,
+      "title": "`noqa` comment stripped due to syntax error elsewhere in file",
+      "created_at": "2023-06-04T14:32:56Z",
+      "closed_at": "2023-06-05T17:32:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4925",
+      "number": 4925,
+      "title": "E712: Invalid parentheses removal",
+      "created_at": "2023-06-07T12:08:12Z",
+      "closed_at": "2023-08-17T15:51:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5072",
+      "number": 5072,
+      "title": "Official docker image",
+      "created_at": "2023-06-14T03:06:14Z",
+      "closed_at": "2023-12-07T14:56:33Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5102",
+      "number": 5102,
+      "title": "Configuration via JSON",
+      "created_at": "2023-06-14T21:58:35Z",
+      "closed_at": "2023-07-10T08:29:04Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5226",
+      "number": 5226,
+      "title": "Cross compile from linux to mac",
+      "created_at": "2023-06-20T22:06:36Z",
+      "closed_at": "2023-06-23T08:49:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5385",
+      "number": 5385,
+      "title": "Ruff complains about a too long line which black does not format",
+      "created_at": "2023-06-27T10:26:03Z",
+      "closed_at": "2023-06-27T15:15:25Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5551",
+      "number": 5551,
+      "title": "0.0.277 release was not completed",
+      "created_at": "2023-07-06T02:27:08Z",
+      "closed_at": "2023-07-06T03:27:31Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5970",
+      "number": 5970,
+      "title": "parser needs special handling of self-documenting f-strings",
+      "created_at": "2023-07-22T07:39:46Z",
+      "closed_at": "2023-08-01T05:55:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6054",
+      "number": 6054,
+      "title": "Is it possible to avoid raising `PT012` if `with pytest.raises` contains a `with` statement with a single raise statement? ",
+      "created_at": "2023-07-25T06:24:13Z",
+      "closed_at": "2023-07-26T01:43:33Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6232",
+      "number": 6232,
+      "title": "requires-python being set as * makes ruff fail",
+      "created_at": "2023-08-01T08:08:02Z",
+      "closed_at": "2023-09-22T04:13:15Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6366",
+      "number": 6366,
+      "title": "docs examples should not violate (other) ruff rules",
+      "created_at": "2023-08-05T14:12:50Z",
+      "closed_at": "2023-08-05T15:53:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6465",
+      "number": 6465,
+      "title": "type-comparison (E721) only works on some builtin classes and nothing else",
+      "created_at": "2023-08-10T01:09:13Z",
+      "closed_at": "2024-06-25T16:22:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6595",
+      "number": 6595,
+      "title": "ISC003 gives false positive when two different string types in one line are mandatory",
+      "created_at": "2023-08-15T12:36:53Z",
+      "closed_at": "2023-08-15T17:50:30Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6740",
+      "number": 6740,
+      "title": "UP007: Flags code even when python version is less than 3.10",
+      "created_at": "2023-08-21T20:56:25Z",
+      "closed_at": "2023-08-22T21:04:01Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6891",
+      "number": 6891,
+      "title": "Rules E712,F632 causes infinite loop",
+      "created_at": "2023-08-26T07:25:15Z",
+      "closed_at": "2023-10-01T08:27:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6927",
+      "number": 6927,
+      "title": "Implement `django-upgrade`",
+      "created_at": "2023-08-27T23:21:09Z",
+      "closed_at": "2024-02-06T16:29:04Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7159",
+      "number": 7159,
+      "title": "Fingerprint in gitlab report should not use location in code as part of the hashing algorithm",
+      "created_at": "2023-09-05T15:00:33Z",
+      "closed_at": "2023-09-08T06:25:28Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7433",
+      "number": 7433,
+      "title": "Ruff needs to formats files 2 times until there is nothing to format",
+      "created_at": "2023-09-16T09:40:22Z",
+      "closed_at": "2023-09-16T14:22:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7716",
+      "number": 7716,
+      "title": "Request: `select=[\"AUTOFIXABLE\"]` 🚀 ",
+      "created_at": "2023-09-29T17:11:55Z",
+      "closed_at": "2024-01-08T07:16:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7782",
+      "number": 7782,
+      "title": "Formatter: include filenames in ruff format --check",
+      "created_at": "2023-10-03T14:24:57Z",
+      "closed_at": "2023-10-03T18:50:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7834",
+      "number": 7834,
+      "title": "Enforce single quote - clarification",
+      "created_at": "2023-10-06T08:24:34Z",
+      "closed_at": "2023-10-09T09:37:18Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7891",
+      "number": 7891,
+      "title": "ruff fix on UP032 breaks applied code when f-string is too long",
+      "created_at": "2023-10-10T12:34:35Z",
+      "closed_at": "2023-10-10T16:31:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7958",
+      "number": 7958,
+      "title": "cache-dir in configfiile should be relative to that configfile",
+      "created_at": "2023-10-14T10:03:20Z",
+      "closed_at": "2023-10-14T19:00:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8125",
+      "number": 8125,
+      "title": "`if-with-same-arms` (`SIM114`) false negative on `if` statements that raise or return",
+      "created_at": "2023-10-23T06:47:44Z",
+      "closed_at": "2024-04-12T02:12:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8147",
+      "number": 8147,
+      "title": "Ruff fails with memory allocation of X bytes failed",
+      "created_at": "2023-10-23T15:36:19Z",
+      "closed_at": "2024-02-14T14:09:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8187",
+      "number": 8187,
+      "title": "Unintentional formatter deviation: spaces added around power operator (`**`)",
+      "created_at": "2023-10-24T22:04:46Z",
+      "closed_at": "2023-10-25T06:24:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8299",
+      "number": 8299,
+      "title": "Python Substring: infine loop using ruff v0.1.2",
+      "created_at": "2023-10-28T09:00:56Z",
+      "closed_at": "2023-10-30T23:38:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8408",
+      "number": 8408,
+      "title": "Fun with imports :)",
+      "created_at": "2023-11-01T16:13:09Z",
+      "closed_at": "2023-11-03T02:05:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8482",
+      "number": 8482,
+      "title": "Better documentation of unsafe fixes",
+      "created_at": "2023-11-03T22:34:33Z",
+      "closed_at": "2024-01-29T17:31:31Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8566",
+      "number": 8566,
+      "title": "formatter removes blank line after class definition",
+      "created_at": "2023-11-08T16:05:43Z",
+      "closed_at": "2023-11-09T01:48:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8571",
+      "number": 8571,
+      "title": "I001 (isort) local vs CI ordering differs for wandb",
+      "created_at": "2023-11-08T22:11:14Z",
+      "closed_at": "2023-11-09T07:20:48Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8629",
+      "number": 8629,
+      "title": "🐞 Don't remove nested comments on formatting",
+      "created_at": "2023-11-12T16:37:08Z",
+      "closed_at": "2023-11-16T04:06:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9023",
+      "number": 9023,
+      "title": "Exclude applied to root, when used with pre-commit",
+      "created_at": "2023-12-06T12:31:37Z",
+      "closed_at": "2026-08-05T11:29:09Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9203",
+      "number": 9203,
+      "title": "E501 line-too-long created as a side effect of applying UP015",
+      "created_at": "2023-12-19T22:49:18Z",
+      "closed_at": "2024-01-02T17:59:21Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9224",
+      "number": 9224,
+      "title": "Optimize production binaries",
+      "created_at": "2023-12-21T06:00:44Z",
+      "closed_at": "2024-01-26T07:30:51Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9393",
+      "number": 9393,
+      "title": "line-length for formatter doesn't respect noqa: E501 comment",
+      "created_at": "2024-01-04T19:17:09Z",
+      "closed_at": "2024-01-09T03:14:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9568",
+      "number": 9568,
+      "title": "TCH003 incosistency",
+      "created_at": "2024-01-17T19:13:35Z",
+      "closed_at": "2024-01-17T19:47:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9696",
+      "number": 9696,
+      "title": "Don't add space before new function on top of cell",
+      "created_at": "2024-01-30T04:19:36Z",
+      "closed_at": "2024-01-30T07:58:39Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9820",
+      "number": 9820,
+      "title": "[Feature Request] Static type checker and language server à la Pyright",
+      "created_at": "2024-02-05T01:37:31Z",
+      "closed_at": "2024-02-10T16:16:31Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9930",
+      "number": 9930,
+      "title": "[Feature Request] Exclude option in per-linter configuration",
+      "created_at": "2024-02-11T13:45:45Z",
+      "closed_at": "2024-02-25T11:39:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9975",
+      "number": 9975,
+      "title": "`pip install .` from src is failing",
+      "created_at": "2024-02-13T15:54:51Z",
+      "closed_at": "2024-02-13T16:02:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9984",
+      "number": 9984,
+      "title": "Colorize `format --diff` output",
+      "created_at": "2024-02-14T13:01:02Z",
+      "closed_at": "2024-03-01T09:04:42Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10159",
+      "number": 10159,
+      "title": "Unable to build ruff on aarch64 alpine docker",
+      "created_at": "2024-02-29T06:03:14Z",
+      "closed_at": "2024-04-12T01:47:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10192",
+      "number": 10192,
+      "title": "Support range in required-version setting",
+      "created_at": "2024-03-02T00:46:31Z",
+      "closed_at": "2024-03-03T23:43:51Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10207",
+      "number": 10207,
+      "title": "RUF022 `__all__` is not sorted: odd sorting algorithm",
+      "created_at": "2024-03-03T04:10:47Z",
+      "closed_at": "2024-03-04T05:45:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10423",
+      "number": 10423,
+      "title": "SIM300: fix and check are not aligned",
+      "created_at": "2024-03-15T16:24:07Z",
+      "closed_at": "2024-03-15T17:16:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10542",
+      "number": 10542,
+      "title": "0.3.4: pytest fails because `No data_provider tests were created for test_type_availability` ans some warnings",
+      "created_at": "2024-03-24T09:03:17Z",
+      "closed_at": "2024-03-25T00:04:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10968",
+      "number": 10968,
+      "title": "Server log messages should use `window/logMessage`",
+      "created_at": "2024-04-16T06:38:22Z",
+      "closed_at": "2024-06-11T18:29:49Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10983",
+      "number": 10983,
+      "title": "Formatter: include files that were formatted in the output",
+      "created_at": "2024-04-16T20:46:46Z",
+      "closed_at": "2024-04-17T17:32:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11056",
+      "number": 11056,
+      "title": "Improve backport friendliness of quotes in Python 3.12 f-string placeholders",
+      "created_at": "2024-04-20T13:01:27Z",
+      "closed_at": "2024-10-23T05:57:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11214",
+      "number": 11214,
+      "title": "`ruff server` first-party libraries get categorized as third-party",
+      "created_at": "2024-04-30T14:25:23Z",
+      "closed_at": "2024-05-02T02:24:37Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11246",
+      "number": 11246,
+      "title": "Can't run ruff when installed with pip target dir option",
+      "created_at": "2024-05-02T11:45:23Z",
+      "closed_at": "2024-05-02T15:37:39Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11259",
+      "number": 11259,
+      "title": "Code action breaks when using both `ruff_lsp` and `ruff` on unused import",
+      "created_at": "2024-05-03T04:18:51Z",
+      "closed_at": "2024-05-03T04:57:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11351",
+      "number": 11351,
+      "title": "No warnings 'too-many-blank-lines' or 'blank-line-between-methods'.",
+      "created_at": "2024-05-09T12:34:46Z",
+      "closed_at": "2024-05-09T12:45:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11355",
+      "number": 11355,
+      "title": "Docs Request: Add examples of settings that can be turned on and off",
+      "created_at": "2024-05-09T22:21:49Z",
+      "closed_at": "2024-07-26T01:28:50Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11451",
+      "number": 11451,
+      "title": "Ruff fails to build from source on Windows with Rust and Visual Studio installed",
+      "created_at": "2024-05-16T15:59:16Z",
+      "closed_at": "2024-05-30T17:03:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11786",
+      "number": 11786,
+      "title": "No longer works w/o kludges on Mac OS X versions (<10.12) which are still supported by official Python",
+      "created_at": "2024-06-06T22:26:53Z",
+      "closed_at": "2024-06-07T13:13:52Z"
+    }
+  ]
+}

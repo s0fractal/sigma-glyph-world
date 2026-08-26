@@ -1,0 +1,653 @@
+{
+  "index": 102,
+  "stratum": "artifact_conformance",
+  "repository": "docker/build-push-action",
+  "repository_id": 241092383,
+  "term": "not run",
+  "query": "repo:docker/build-push-action is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:25.352877+00:00",
+  "total_count": 91,
+  "incomplete_results": false,
+  "returned": 91,
+  "raw_response_sha256": "d29d74c4f5a1803a10679f4120490bcb533e821f354bdcd1ba4ae6823133c6b6",
+  "items": [
+    {
+      "url": "https://github.com/docker/build-push-action/issues/10",
+      "number": 10,
+      "title": "Please consider adding input safelisting",
+      "created_at": "2020-03-18T19:37:36Z",
+      "closed_at": "2020-09-02T12:47:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/71",
+      "number": 71,
+      "title": "v2: upgrade to buildx",
+      "created_at": "2020-07-07T01:16:22Z",
+      "closed_at": "2020-10-23T11:28:10Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/74",
+      "number": 74,
+      "title": "Error: lazy-load database is corrupt",
+      "created_at": "2020-07-16T05:12:47Z",
+      "closed_at": "2020-07-22T09:46:00Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/85",
+      "number": 85,
+      "title": "Login validation must be ignored if push is false",
+      "created_at": "2020-08-02T17:48:20Z",
+      "closed_at": "2020-09-09T22:45:34Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/90",
+      "number": 90,
+      "title": "Path option not working as expected",
+      "created_at": "2020-08-14T16:48:42Z",
+      "closed_at": "2020-09-09T22:46:25Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/127",
+      "number": 127,
+      "title": "Working with Github package registry",
+      "created_at": "2020-09-16T12:27:35Z",
+      "closed_at": "2020-09-21T19:17:15Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/131",
+      "number": 131,
+      "title": "Push with rpc error Unknown desc failed commit on ref: no response",
+      "created_at": "2020-09-18T07:38:23Z",
+      "closed_at": "2020-09-21T07:30:42Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/132",
+      "number": 132,
+      "title": "Complicated Action Structure - Request Advice",
+      "created_at": "2020-09-18T20:33:51Z",
+      "closed_at": "2020-10-22T19:04:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/142",
+      "number": 142,
+      "title": "Add support --env-file in build ",
+      "created_at": "2020-09-28T19:20:45Z",
+      "closed_at": "2020-09-29T14:58:27Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/262",
+      "number": 262,
+      "title": "Executing wrong Dockerfile",
+      "created_at": "2020-12-22T23:12:16Z",
+      "closed_at": "2021-08-30T19:44:24Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/316",
+      "number": 316,
+      "title": "rpc error",
+      "created_at": "2021-03-09T17:38:53Z",
+      "closed_at": "2021-03-26T13:11:08Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/327",
+      "number": 327,
+      "title": "Working directory is not applying to docker/build-push-action@v2",
+      "created_at": "2021-03-31T20:23:17Z",
+      "closed_at": "2021-04-03T19:59:41Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/377",
+      "number": 377,
+      "title": "Omitting target does not build all stages like command line does",
+      "created_at": "2021-06-02T16:03:25Z",
+      "closed_at": "2021-08-04T19:08:40Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/401",
+      "number": 401,
+      "title": "How to quickly build and run images -- seeking help",
+      "created_at": "2021-07-03T09:24:43Z",
+      "closed_at": "2021-07-08T13:12:38Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/413",
+      "number": 413,
+      "title": "Specifying load and outputs causes image not loaded",
+      "created_at": "2021-07-19T08:11:21Z",
+      "closed_at": "2021-08-05T14:41:14Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/490",
+      "number": 490,
+      "title": "Cannot access the image in subsequent workflow steps",
+      "created_at": "2021-10-25T07:58:25Z",
+      "closed_at": "2021-10-25T09:25:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/496",
+      "number": 496,
+      "title": "Add git action secrets to env var",
+      "created_at": "2021-11-10T21:53:14Z",
+      "closed_at": "2021-11-16T17:25:32Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/498",
+      "number": 498,
+      "title": "Action is encountering internal issue and sits in a retry loop(?), chews up action minutes",
+      "created_at": "2021-11-13T02:46:57Z",
+      "closed_at": "2021-11-13T03:43:01Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/515",
+      "number": 515,
+      "title": "Build Push action failing with GHA cache on self-hosted runner",
+      "created_at": "2021-12-08T16:58:18Z",
+      "closed_at": "2022-01-30T17:48:30Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/558",
+      "number": 558,
+      "title": "error: failed to solve: failed to compute cache key: failed to copy: invalid status response 416",
+      "created_at": "2022-02-08T14:24:28Z",
+      "closed_at": "2022-10-24T08:25:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/577",
+      "number": 577,
+      "title": "Build should not fail on corrupted cache",
+      "created_at": "2022-03-24T07:58:43Z",
+      "closed_at": "2023-05-11T11:34:49Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/592",
+      "number": 592,
+      "title": "How to use artifacts in build-push-action?",
+      "created_at": "2022-04-11T10:52:31Z",
+      "closed_at": "2022-04-11T13:45:17Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/605",
+      "number": 605,
+      "title": "docker/build-push-action 403 api rate limit",
+      "created_at": "2022-05-03T08:37:47Z",
+      "closed_at": "2022-05-04T15:25:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/608",
+      "number": 608,
+      "title": "Fatal error when trying to use local cache",
+      "created_at": "2022-05-05T12:53:12Z",
+      "closed_at": "2022-05-30T16:56:26Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/626",
+      "number": 626,
+      "title": "Issue with push to GHCR - buildx failed with: error: failed to solve: failed to copy: cannot reuse body, request must be retried",
+      "created_at": "2022-06-01T13:25:30Z",
+      "closed_at": "2022-06-13T14:27:02Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/652",
+      "number": 652,
+      "title": "build-push action failed while building Docker Image ( `npm run build` cannot execute `process.env.MONGO_URI` from repository without .env )",
+      "created_at": "2022-07-17T12:41:51Z",
+      "closed_at": "2022-07-17T15:43:42Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/655",
+      "number": 655,
+      "title": "`.dockerignore` seems to get ignored",
+      "created_at": "2022-07-23T21:11:44Z",
+      "closed_at": "2022-08-03T09:20:03Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/659",
+      "number": 659,
+      "title": "Is it possible to use the action only for testing purposes?",
+      "created_at": "2022-08-01T10:22:24Z",
+      "closed_at": "2022-08-01T11:46:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/660",
+      "number": 660,
+      "title": "Can't create a container since the provided tag name is different from the one I provided",
+      "created_at": "2022-08-02T07:19:00Z",
+      "closed_at": "2022-09-02T10:53:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/690",
+      "number": 690,
+      "title": "Read Only File System",
+      "created_at": "2022-09-21T19:20:50Z",
+      "closed_at": "2022-10-20T07:54:52Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/691",
+      "number": 691,
+      "title": "Unable to COPY artifacts downloaded with download-artifacts",
+      "created_at": "2022-09-22T22:07:27Z",
+      "closed_at": "2023-02-04T08:31:15Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/692",
+      "number": 692,
+      "title": "how to use existing image without Dockerfile",
+      "created_at": "2022-09-24T20:03:06Z",
+      "closed_at": "2022-10-12T21:35:43Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/701",
+      "number": 701,
+      "title": "Secrets not working as expected (mount fails)",
+      "created_at": "2022-10-08T12:40:06Z",
+      "closed_at": "2022-10-08T21:34:12Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/711",
+      "number": 711,
+      "title": "Multi-platform image is being built without Qemu, with amd64 builder only",
+      "created_at": "2022-10-26T14:09:00Z",
+      "closed_at": "2022-11-07T09:30:30Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/715",
+      "number": 715,
+      "title": "Trying to pass GitHub actions secrets as ENV variables is not working. ",
+      "created_at": "2022-10-30T18:24:18Z",
+      "closed_at": "2022-10-31T07:35:54Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/728",
+      "number": 728,
+      "title": "build-push-action not copying hidden folder to docker image",
+      "created_at": "2022-11-24T10:42:26Z",
+      "closed_at": "2023-07-21T13:37:52Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/735",
+      "number": 735,
+      "title": "Unexpected cache bust when using the GHA cache",
+      "created_at": "2022-12-01T06:41:45Z",
+      "closed_at": "2024-03-08T14:25:17Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/740",
+      "number": 740,
+      "title": "cache-from doesn't use cache with local aha runners",
+      "created_at": "2022-12-07T12:19:37Z",
+      "closed_at": "2022-12-07T12:21:06Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/741",
+      "number": 741,
+      "title": "cache-from doesn't use cache with local gha runners",
+      "created_at": "2022-12-07T13:35:33Z",
+      "closed_at": "2023-04-14T12:42:06Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/748",
+      "number": 748,
+      "title": "Action fails to build images for ARM-platform",
+      "created_at": "2023-01-05T07:41:02Z",
+      "closed_at": "2023-01-05T08:51:41Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/751",
+      "number": 751,
+      "title": "Corrective action unclear after a publish container image fails",
+      "created_at": "2023-01-09T04:20:25Z",
+      "closed_at": "2023-01-09T08:12:25Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/754",
+      "number": 754,
+      "title": "Not able to read passed secrets in the docker file.",
+      "created_at": "2023-01-10T07:44:08Z",
+      "closed_at": "2023-02-01T16:18:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/755",
+      "number": 755,
+      "title": "Action started to push manifest indexes instead of images for a single platform",
+      "created_at": "2023-01-11T03:54:19Z",
+      "closed_at": "2023-02-06T10:35:05Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/761",
+      "number": 761,
+      "title": "buildx failed with: ERROR: failed to solve: failed to push ghcr.io/finchsec/kali:latest: failed to copy: io: read/write on closed pipe",
+      "created_at": "2023-01-14T18:50:47Z",
+      "closed_at": "2023-01-27T09:45:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/766",
+      "number": 766,
+      "title": "Strange cache misshit when using `gha` cache.",
+      "created_at": "2023-01-19T17:54:26Z",
+      "closed_at": "2024-03-08T14:36:17Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/767",
+      "number": 767,
+      "title": "Creates 3 Google Container Registry images instead of the one",
+      "created_at": "2023-01-20T21:32:45Z",
+      "closed_at": "2023-01-20T23:48:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/769",
+      "number": 769,
+      "title": "Manifest version changed on jan 19th or 20th",
+      "created_at": "2023-01-23T10:33:59Z",
+      "closed_at": "2023-01-23T10:36:18Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/778",
+      "number": 778,
+      "title": "Breaking change included in subversion release",
+      "created_at": "2023-01-24T13:20:41Z",
+      "closed_at": "2023-01-30T18:07:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/786",
+      "number": 786,
+      "title": "Quesion regarding default environment variables",
+      "created_at": "2023-01-31T09:31:19Z",
+      "closed_at": "2023-01-31T10:10:53Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/795",
+      "number": 795,
+      "title": "`4.0.0` + `--provenance false` fails with `ERROR: attestations are not supported by the current buildkitd`",
+      "created_at": "2023-02-08T00:18:01Z",
+      "closed_at": "2023-02-08T02:51:09Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/816",
+      "number": 816,
+      "title": "How to push a image build from previous action?",
+      "created_at": "2023-02-22T17:34:41Z",
+      "closed_at": "2023-02-22T17:48:19Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/824",
+      "number": 824,
+      "title": "Test before push error: buildx failed with: ERROR: failed to solve: failed to read dockerfile: read /tmp/buildkit-mount1790184381: is a directory",
+      "created_at": "2023-03-02T09:20:52Z",
+      "closed_at": "2023-03-02T10:52:13Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/826",
+      "number": 826,
+      "title": "Possible incompatibility with AWS ECR",
+      "created_at": "2023-03-02T17:50:01Z",
+      "closed_at": "2023-06-21T09:33:32Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/844",
+      "number": 844,
+      "title": "Action created image has different behavior/contents compared to locally created version",
+      "created_at": "2023-03-22T06:32:09Z",
+      "closed_at": "2023-03-30T20:17:44Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/850",
+      "number": 850,
+      "title": "AWS ECR push problems",
+      "created_at": "2023-03-28T16:33:57Z",
+      "closed_at": "2023-04-19T08:57:12Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/852",
+      "number": 852,
+      "title": "Quotation marks don't work in build-args",
+      "created_at": "2023-03-31T08:12:30Z",
+      "closed_at": "2023-04-07T14:08:35Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/856",
+      "number": 856,
+      "title": "Push image that was downloaded from artifact",
+      "created_at": "2023-04-13T14:27:29Z",
+      "closed_at": "2023-04-14T12:25:41Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/864",
+      "number": 864,
+      "title": "Cannot push to open source repo using community user bot",
+      "created_at": "2023-05-09T19:22:32Z",
+      "closed_at": "2023-11-10T15:22:40Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/883",
+      "number": 883,
+      "title": "GitHub Actions + Docker Build: not creating directory",
+      "created_at": "2023-06-15T20:29:45Z",
+      "closed_at": "2023-06-15T20:58:10Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/906",
+      "number": 906,
+      "title": "Digest output missing for buildx",
+      "created_at": "2023-07-13T13:36:48Z",
+      "closed_at": "2024-03-08T14:44:39Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/914",
+      "number": 914,
+      "title": "GitHub Action can use mamba to build regular projects but fails to build during Docker build",
+      "created_at": "2023-07-27T15:51:44Z",
+      "closed_at": "2023-07-27T19:04:54Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/933",
+      "number": 933,
+      "title": "buildx failed with: ERROR: failed to solve: process ... did not complete successfully: exit code: 100",
+      "created_at": "2023-08-18T08:33:45Z",
+      "closed_at": "2023-08-21T20:23:34Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/934",
+      "number": 934,
+      "title": "ERROR: failed to calculate checksum of ref 2be76fa3-2818-4c9b-915a-8fa715bd0b82::lhij89b8k6fneaah4jc4kjrg2: \"/jenkins-agent\": not found",
+      "created_at": "2023-08-21T08:07:59Z",
+      "closed_at": "2023-08-21T09:53:56Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/942",
+      "number": 942,
+      "title": "What is the cache ttl for type=gha ?",
+      "created_at": "2023-08-29T14:00:49Z",
+      "closed_at": "2023-09-05T10:06:16Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/946",
+      "number": 946,
+      "title": "Node 16 no longer available via nodesource",
+      "created_at": "2023-08-30T16:25:02Z",
+      "closed_at": "2023-08-30T16:38:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/966",
+      "number": 966,
+      "title": "Docker build fails occasionally reporting \"ERROR: failed to copy to tar: EOF\"",
+      "created_at": "2023-09-12T12:04:27Z",
+      "closed_at": "2023-09-13T08:54:38Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/972",
+      "number": 972,
+      "title": "SBOM cant access path `/run/src/core/sbom/proc/mounts`",
+      "created_at": "2023-09-26T11:03:39Z",
+      "closed_at": "2023-11-22T13:56:57Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/978",
+      "number": 978,
+      "title": "build-args not passing to buildkit builder ",
+      "created_at": "2023-10-02T09:42:53Z",
+      "closed_at": "2023-11-10T14:40:09Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/984",
+      "number": 984,
+      "title": "go 1.21.1 errors parsing go.mod",
+      "created_at": "2023-10-08T03:12:44Z",
+      "closed_at": "2023-10-08T05:23:00Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/993",
+      "number": 993,
+      "title": "buildx failed with: ERROR",
+      "created_at": "2023-10-25T10:58:31Z",
+      "closed_at": "2024-03-08T14:46:13Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/996",
+      "number": 996,
+      "title": "Cached repo/submodules not working with build-push-action",
+      "created_at": "2023-11-01T14:28:26Z",
+      "closed_at": "2023-11-01T15:20:55Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1002",
+      "number": 1002,
+      "title": "How to clear the builder cache?",
+      "created_at": "2023-11-15T09:45:13Z",
+      "closed_at": "2023-11-17T16:50:39Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1011",
+      "number": 1011,
+      "title": "cache-from/cache-to: type=gha option doesn't persist Dockerfile's RUN --mount=type=cache caches",
+      "created_at": "2023-11-21T06:14:41Z",
+      "closed_at": "2023-11-21T06:17:49Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1024",
+      "number": 1024,
+      "title": "Cannot export multiple platforms without multi-platform enabled with scratch image",
+      "created_at": "2023-12-11T17:14:49Z",
+      "closed_at": "2024-01-09T19:15:07Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1030",
+      "number": 1030,
+      "title": "context should observe working-directory defined on defaults",
+      "created_at": "2023-12-25T22:48:57Z",
+      "closed_at": "2024-01-04T15:38:24Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1037",
+      "number": 1037,
+      "title": "Docker: Cannot create container for service: No command specified",
+      "created_at": "2024-01-11T03:15:22Z",
+      "closed_at": "2024-03-08T14:50:48Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1050",
+      "number": 1050,
+      "title": "GIT context ignores changes in build secrets and use GHA build cache from other build",
+      "created_at": "2024-02-04T21:52:29Z",
+      "closed_at": "2024-03-08T14:53:44Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1112",
+      "number": 1112,
+      "title": "fatal: could not read Username for 'https://github.com': No such device or address ",
+      "created_at": "2024-05-07T11:34:44Z",
+      "closed_at": "2024-05-27T07:52:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1131",
+      "number": 1131,
+      "title": "Docker build cannot access downloaded artifacts",
+      "created_at": "2024-06-06T01:03:08Z",
+      "closed_at": "2024-06-06T02:44:51Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1175",
+      "number": 1175,
+      "title": "How to always checkout latest commit/tag when using workflow_call",
+      "created_at": "2024-07-10T07:11:20Z",
+      "closed_at": "2024-07-16T00:30:01Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1177",
+      "number": 1177,
+      "title": "MIssing signature for docker.io/dockereng/export-build on notary.docker.io",
+      "created_at": "2024-07-10T16:08:53Z",
+      "closed_at": "2024-07-22T11:10:05Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1178",
+      "number": 1178,
+      "title": "Cant use ghcr pushed images in following jobs",
+      "created_at": "2024-07-11T02:51:34Z",
+      "closed_at": "2024-07-16T02:15:19Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1200",
+      "number": 1200,
+      "title": "Errors while building such as \"`ERROR: failed to parse source \"conversions\\\"\", valid sources are digests, references and descriptors: invalid reference format`\"",
+      "created_at": "2024-08-05T00:13:00Z",
+      "closed_at": "2024-11-15T15:52:23Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1223",
+      "number": 1223,
+      "title": "build-push-action (docker buildx) does not respect the no_proxy variable.",
+      "created_at": "2024-08-31T08:42:52Z",
+      "closed_at": "2025-05-16T10:11:47Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1316",
+      "number": 1316,
+      "title": "Documentation for \"list\" types is incorrect",
+      "created_at": "2025-02-08T03:41:25Z",
+      "closed_at": "2025-02-08T04:12:21Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1326",
+      "number": 1326,
+      "title": "Secret-files not found in docker/build-push-action@v6, but works with docker buildx build",
+      "created_at": "2025-02-20T14:51:20Z",
+      "closed_at": "2025-02-20T15:00:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1328",
+      "number": 1328,
+      "title": "unable to build nginx image with dynamic modules",
+      "created_at": "2025-02-21T02:58:24Z",
+      "closed_at": "2026-04-24T09:45:59Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1332",
+      "number": 1332,
+      "title": "Authentication failure on upload with buildx",
+      "created_at": "2025-03-02T20:43:41Z",
+      "closed_at": "2025-03-05T16:45:55Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1382",
+      "number": 1382,
+      "title": "build-push-action fails on ghe.com with wrong twirp client URL",
+      "created_at": "2025-06-10T07:50:26Z",
+      "closed_at": "2025-06-11T16:14:20Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1385",
+      "number": 1385,
+      "title": "cannot output arch linux image to local directory",
+      "created_at": "2025-07-03T23:41:37Z",
+      "closed_at": "2025-12-07T15:10:51Z"
+    },
+    {
+      "url": "https://github.com/docker/build-push-action/issues/1441",
+      "number": 1441,
+      "title": "Build cache not saved",
+      "created_at": "2025-12-20T19:33:27Z",
+      "closed_at": "2025-12-22T10:45:52Z"
+    }
+  ]
+}

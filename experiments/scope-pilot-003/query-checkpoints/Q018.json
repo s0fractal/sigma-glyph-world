@@ -1,0 +1,716 @@
+{
+  "index": 18,
+  "stratum": "tests",
+  "repository": "jestjs/jest",
+  "repository_id": 15062869,
+  "term": "not run",
+  "query": "repo:jestjs/jest is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:55.366654+00:00",
+  "total_count": 320,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "83bb5e1217d5e715ee04c5d63ccf0253d765e0bdd622ad46cbed861a95208880",
+  "items": [
+    {
+      "url": "https://github.com/jestjs/jest/issues/9378",
+      "number": 9378,
+      "title": "Clear all timers without using fake timers",
+      "created_at": "2020-01-08T16:00:44Z",
+      "closed_at": "2022-03-27T13:00:49Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9395",
+      "number": 9395,
+      "title": "SyntaxError: Cannot use import statement outside a module",
+      "created_at": "2020-01-11T00:49:47Z",
+      "closed_at": "2020-01-14T08:36:48Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9401",
+      "number": 9401,
+      "title": "100% CPU usage on --bail & --coverage combination",
+      "created_at": "2020-01-14T09:51:08Z",
+      "closed_at": "2026-08-08T01:32:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9409",
+      "number": 9409,
+      "title": "make it possible to test.each snapshot or add documentation for it",
+      "created_at": "2020-01-15T15:23:36Z",
+      "closed_at": "2022-03-27T13:00:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9429",
+      "number": 9429,
+      "title": "globalTeardown do not run after test is failed",
+      "created_at": "2020-01-19T13:08:35Z",
+      "closed_at": "2020-01-29T15:47:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9446",
+      "number": 9446,
+      "title": "jest-circus ordering and error-handling behavior undocumented",
+      "created_at": "2020-01-22T20:28:20Z",
+      "closed_at": "2020-05-04T20:16:08Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9457",
+      "number": 9457,
+      "title": "jest 25 performance",
+      "created_at": "2020-01-24T00:05:20Z",
+      "closed_at": "2025-02-17T13:20:04Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9458",
+      "number": 9458,
+      "title": "--changedSince does not run globalSetup or Teardown",
+      "created_at": "2020-01-24T00:07:42Z",
+      "closed_at": "2023-03-19T16:47:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9461",
+      "number": 9461,
+      "title": "Typing error on jest-haste-map HastMap class",
+      "created_at": "2020-01-24T09:49:40Z",
+      "closed_at": "2020-01-28T10:59:29Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9464",
+      "number": 9464,
+      "title": "Jest 25's change in behaviour of collectCoverageFrom option",
+      "created_at": "2020-01-24T18:05:29Z",
+      "closed_at": "2021-04-25T06:14:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9473",
+      "number": 9473,
+      "title": "--detectOpenHandles prints nothing, just hangs",
+      "created_at": "2020-01-28T10:17:33Z",
+      "closed_at": "2021-05-21T06:14:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9477",
+      "number": 9477,
+      "title": "Inline snapshots indented at col 0 when existing inline snapshots in file",
+      "created_at": "2020-01-28T13:05:00Z",
+      "closed_at": "2020-02-06T01:44:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9479",
+      "number": 9479,
+      "title": "Running jest in global strict mode",
+      "created_at": "2020-01-28T14:54:41Z",
+      "closed_at": "2020-01-28T15:59:50Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9504",
+      "number": 9504,
+      "title": "Implement async code transformations",
+      "created_at": "2020-02-03T14:01:31Z",
+      "closed_at": "2021-03-13T15:58:49Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9506",
+      "number": 9506,
+      "title": "Tests marked with each are not added in total count",
+      "created_at": "2020-02-03T15:20:11Z",
+      "closed_at": "2020-04-15T21:14:54Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9537",
+      "number": 9537,
+      "title": "Module name mapper fails when used with mock",
+      "created_at": "2020-02-07T14:43:53Z",
+      "closed_at": "2023-03-19T16:46:50Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9538",
+      "number": 9538,
+      "title": "setting testEnvironment to node causes jest functions to be undefined",
+      "created_at": "2020-02-08T15:51:34Z",
+      "closed_at": "2020-02-08T17:02:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9564",
+      "number": 9564,
+      "title": "node_modules/react-native-aws3-cognito ReferenceError: FormData is not defined",
+      "created_at": "2020-02-12T00:12:26Z",
+      "closed_at": "2020-02-12T08:05:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9576",
+      "number": 9576,
+      "title": "automock is crashing",
+      "created_at": "2020-02-15T20:47:07Z",
+      "closed_at": "2025-03-18T20:04:42Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9602",
+      "number": 9602,
+      "title": "changedSince runs specs related to files with no diff",
+      "created_at": "2020-02-20T03:01:57Z",
+      "closed_at": "2020-07-03T09:41:32Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9643",
+      "number": 9643,
+      "title": "Security issue: please update Acorn",
+      "created_at": "2020-03-06T23:56:46Z",
+      "closed_at": "2020-03-10T14:08:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9674",
+      "number": 9674,
+      "title": "New moderate vulnerability found",
+      "created_at": "2020-03-17T10:26:15Z",
+      "closed_at": "2020-03-17T10:29:53Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9680",
+      "number": 9680,
+      "title": "Test suite failed to run. \"RelativeImageStub\" error ",
+      "created_at": "2020-03-17T21:06:01Z",
+      "closed_at": "2020-03-17T23:14:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9685",
+      "number": 9685,
+      "title": "When tests are stopped by timeout, pending promises continue execution",
+      "created_at": "2020-03-19T11:48:09Z",
+      "closed_at": "2024-08-29T22:04:49Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9687",
+      "number": 9687,
+      "title": "Running a SINGLE Jest test programmatically as opposed to running an entire directory",
+      "created_at": "2020-03-20T04:32:21Z",
+      "closed_at": "2023-03-19T16:51:45Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9689",
+      "number": 9689,
+      "title": "transformIgnorePatterns seems to be ignoring react-navigation",
+      "created_at": "2020-03-22T22:41:14Z",
+      "closed_at": "2020-03-23T08:47:25Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9697",
+      "number": 9697,
+      "title": "Memory leak related to require",
+      "created_at": "2020-03-24T20:54:15Z",
+      "closed_at": "2022-03-03T10:30:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9706",
+      "number": 9706,
+      "title": "document.activeElement is always null after upgrading to jest 25.x",
+      "created_at": "2020-03-26T09:39:49Z",
+      "closed_at": "2020-03-26T09:43:28Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9723",
+      "number": 9723,
+      "title": "Jest --coverage - Nothing was returned from render",
+      "created_at": "2020-03-29T05:18:32Z",
+      "closed_at": "2020-05-25T17:55:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9751",
+      "number": 9751,
+      "title": "Feature Proposal: Exclude certein tests from coverage recording",
+      "created_at": "2020-04-02T11:32:52Z",
+      "closed_at": "2022-03-27T13:00:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9776",
+      "number": 9776,
+      "title": "Performance loss between jest 25.1.0 and 25.2.7",
+      "created_at": "2020-04-06T16:11:27Z",
+      "closed_at": "2020-04-23T15:40:13Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9781",
+      "number": 9781,
+      "title": "Cannot output multi-project coverage info into one directory",
+      "created_at": "2020-04-07T21:34:11Z",
+      "closed_at": "2023-03-27T15:02:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9793",
+      "number": 9793,
+      "title": "feat: add changedProject CLI flag",
+      "created_at": "2020-04-10T16:16:11Z",
+      "closed_at": "2022-10-23T15:55:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9795",
+      "number": 9795,
+      "title": "feat: destructor for jest runners",
+      "created_at": "2020-04-11T00:25:48Z",
+      "closed_at": "2022-03-27T13:00:16Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9824",
+      "number": 9824,
+      "title": "jest-circus allows nested `it` calls",
+      "created_at": "2020-04-16T12:28:32Z",
+      "closed_at": "2020-04-17T11:14:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9825",
+      "number": 9825,
+      "title": "jest-circus issues confusing error message if attempting to nest `test` calls",
+      "created_at": "2020-04-16T12:33:10Z",
+      "closed_at": "2020-04-17T11:14:00Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9839",
+      "number": 9839,
+      "title": "Test using the exec method of the child_process module are not run concurrently",
+      "created_at": "2020-04-19T11:20:23Z",
+      "closed_at": "2023-03-19T16:42:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9851",
+      "number": 9851,
+      "title": "Clean install of Jest Circus results in 'runtime.unstable_shouldLoadAsEsm' error",
+      "created_at": "2020-04-20T23:19:11Z",
+      "closed_at": "2020-04-28T09:12:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9867",
+      "number": 9867,
+      "title": "An exception is thrown in `setup()` is hidden by the exception thrown on `teardown()`",
+      "created_at": "2020-04-22T20:43:17Z",
+      "closed_at": "2023-03-19T16:42:27Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9898",
+      "number": 9898,
+      "title": "[RFC] Jest-internal sandbox escape hatch",
+      "created_at": "2020-04-27T15:15:44Z",
+      "closed_at": "2020-05-25T22:41:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9908",
+      "number": 9908,
+      "title": "Defining sequel and parallel blocks in test file",
+      "created_at": "2020-04-28T09:55:54Z",
+      "closed_at": "2022-02-27T19:23:55Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9939",
+      "number": 9939,
+      "title": "jest runs tests from another folder despite it's not asked to",
+      "created_at": "2020-05-01T14:56:09Z",
+      "closed_at": "2020-05-01T14:58:32Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9947",
+      "number": 9947,
+      "title": "Installing jest@25.4.0 installs incorrect v25.5.4 @jest/core dependency",
+      "created_at": "2020-05-02T10:07:34Z",
+      "closed_at": "2022-03-27T12:59:58Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9979",
+      "number": 9979,
+      "title": "jest --verbose only prints the tests names after all tests had run",
+      "created_at": "2020-05-05T20:31:44Z",
+      "closed_at": "2020-05-06T05:47:47Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9995",
+      "number": 9995,
+      "title": "jest --coverage fails with cov_xxx is not a function",
+      "created_at": "2020-05-07T08:51:07Z",
+      "closed_at": "2020-05-07T08:55:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10012",
+      "number": 10012,
+      "title": "TypeError: _gracefulFs(...).realpathSync.native is not a function",
+      "created_at": "2020-05-10T08:38:03Z",
+      "closed_at": "2020-05-10T08:51:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10014",
+      "number": 10014,
+      "title": "Jest v26 is failing when run without cli options",
+      "created_at": "2020-05-10T09:23:16Z",
+      "closed_at": "2021-05-16T07:01:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10019",
+      "number": 10019,
+      "title": ".LegacyFakeTimers is not a constructor",
+      "created_at": "2020-05-11T09:50:39Z",
+      "closed_at": "2020-05-11T10:04:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10037",
+      "number": 10037,
+      "title": "'expect(promise).resolves' with no matcher causes strange side effects on node version < 12.",
+      "created_at": "2020-05-14T11:26:48Z",
+      "closed_at": "2023-03-19T16:42:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10045",
+      "number": 10045,
+      "title": "URL behaves differently when run with jest",
+      "created_at": "2020-05-15T12:34:31Z",
+      "closed_at": "2020-08-10T13:41:56Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10047",
+      "number": 10047,
+      "title": "create-react-app typescript with jest set up not working",
+      "created_at": "2020-05-15T13:52:40Z",
+      "closed_at": "2020-05-18T22:43:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10065",
+      "number": 10065,
+      "title": "Caching problem with --runTestsByPath and 'import' in globalSetup",
+      "created_at": "2020-05-20T15:19:00Z",
+      "closed_at": "2020-05-21T12:50:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10100",
+      "number": 10100,
+      "title": "test.todo should allow and ignore implementation function",
+      "created_at": "2020-05-29T12:53:54Z",
+      "closed_at": "2022-02-26T10:19:40Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10103",
+      "number": 10103,
+      "title": "ftest is not defined",
+      "created_at": "2020-05-29T16:22:39Z",
+      "closed_at": "2020-05-30T12:46:04Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10106",
+      "number": 10106,
+      "title": "Extended matcher does not work properly (doc pasted example)",
+      "created_at": "2020-05-30T06:48:51Z",
+      "closed_at": "2020-05-30T13:58:08Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10121",
+      "number": 10121,
+      "title": "Error in moduleNameMapper when I use ^constants(.*)$",
+      "created_at": "2020-06-03T13:14:23Z",
+      "closed_at": "2023-12-12T20:54:34Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10127",
+      "number": 10127,
+      "title": "[Docs] Bail cli option unclear (and possibly incorrect)",
+      "created_at": "2020-06-04T22:11:06Z",
+      "closed_at": "2023-03-19T16:41:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10147",
+      "number": 10147,
+      "title": "@jest/globals breaks jest.mock",
+      "created_at": "2020-06-09T08:20:48Z",
+      "closed_at": "2021-09-14T07:49:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10152",
+      "number": 10152,
+      "title": "High perf cost of using `test.each` on large data sets",
+      "created_at": "2020-06-09T20:55:53Z",
+      "closed_at": "2023-03-19T16:41:35Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10163",
+      "number": 10163,
+      "title": "Allow watcher plugins to mark any test to be run",
+      "created_at": "2020-06-12T11:51:05Z",
+      "closed_at": "2022-02-25T12:53:36Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10174",
+      "number": 10174,
+      "title": "ReferenceError: CustomFunctions is not defined when running Jest",
+      "created_at": "2020-06-18T04:31:39Z",
+      "closed_at": "2020-06-19T05:35:58Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10192",
+      "number": 10192,
+      "title": "Getting Started sample fails with ReferenceError: test is not defined",
+      "created_at": "2020-06-23T15:14:26Z",
+      "closed_at": "2023-08-14T21:04:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10220",
+      "number": 10220,
+      "title": "Jest does not exit properly when using supertest and only 1 test file",
+      "created_at": "2020-07-01T18:50:52Z",
+      "closed_at": "2023-03-19T16:41:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10264",
+      "number": 10264,
+      "title": "Jest giving failed test result for a positive test",
+      "created_at": "2020-07-10T16:54:01Z",
+      "closed_at": "2023-03-19T16:41:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10273",
+      "number": 10273,
+      "title": "Files containing \"ñ\" or other non-ascii characters are not picked in watch or onlyChanged",
+      "created_at": "2020-07-13T21:47:57Z",
+      "closed_at": "2024-03-18T19:04:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10284",
+      "number": 10284,
+      "title": "testEnvironmentOptions silently drops functions when tests run in parallel",
+      "created_at": "2020-07-17T17:20:28Z",
+      "closed_at": "2023-03-19T16:41:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10295",
+      "number": 10295,
+      "title": "tests only succeed once. No tests found; Jest, Babel, lint-staged, husky.",
+      "created_at": "2020-07-21T12:52:33Z",
+      "closed_at": "2023-01-08T20:16:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10301",
+      "number": 10301,
+      "title": "Performance - start up - Can haste-map do less if you don't --changedSince ?",
+      "created_at": "2020-07-22T09:19:14Z",
+      "closed_at": "2023-04-10T08:31:59Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10311",
+      "number": 10311,
+      "title": "TypeError: Cannot read property '_location' of null",
+      "created_at": "2020-07-24T21:36:17Z",
+      "closed_at": "2022-04-01T09:39:09Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10363",
+      "number": 10363,
+      "title": "`jest.mock({ virtual: true })` don't work through `moduleNameMapper`",
+      "created_at": "2020-08-04T22:02:56Z",
+      "closed_at": "2022-02-25T13:28:35Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10376",
+      "number": 10376,
+      "title": "[SOLVED] TypeError: _chalk.default.dim is not a function",
+      "created_at": "2020-08-06T23:07:50Z",
+      "closed_at": "2020-08-08T21:09:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10378",
+      "number": 10378,
+      "title": "Error in React Native with Jest & Style and Dimensions",
+      "created_at": "2020-08-07T14:13:29Z",
+      "closed_at": "2020-08-10T08:43:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10448",
+      "number": 10448,
+      "title": "Jest unit test fail When use --coverage",
+      "created_at": "2020-08-26T02:11:52Z",
+      "closed_at": "2023-02-25T17:42:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10451",
+      "number": 10451,
+      "title": "beforeAll block runs even if it is inside a describe.skip block",
+      "created_at": "2020-08-26T08:55:19Z",
+      "closed_at": "2020-11-26T08:22:19Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10468",
+      "number": 10468,
+      "title": "`jest.useFakeTimers()` leaking to other tests",
+      "created_at": "2020-08-31T13:08:59Z",
+      "closed_at": "2020-11-26T11:38:37Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10475",
+      "number": 10475,
+      "title": "Jest TypeError: (0 , _jestUtil(...).tryRealpath) is not a function",
+      "created_at": "2020-09-03T08:28:13Z",
+      "closed_at": "2020-09-03T11:21:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10476",
+      "number": 10476,
+      "title": "Jest is unable to mock modules with names containing `.js`",
+      "created_at": "2020-09-03T20:53:59Z",
+      "closed_at": "2023-03-19T16:45:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10479",
+      "number": 10479,
+      "title": "`require.main` undefined with createRequire()",
+      "created_at": "2020-09-04T15:02:33Z",
+      "closed_at": "2020-10-10T11:57:10Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10514",
+      "number": 10514,
+      "title": "Jest <regexForTestFiles> Does Not work w/ Links in Path ",
+      "created_at": "2020-09-14T21:23:14Z",
+      "closed_at": "2023-03-19T16:45:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10519",
+      "number": 10519,
+      "title": "Jest says test case fails with error but in reality an unhandled rejection occurred",
+      "created_at": "2020-09-15T14:15:22Z",
+      "closed_at": "2023-03-19T16:45:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10520",
+      "number": 10520,
+      "title": "[jest-circus] suite level retry",
+      "created_at": "2020-09-15T14:26:36Z",
+      "closed_at": "2026-08-18T08:13:29Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10532",
+      "number": 10532,
+      "title": "Evaluating inline scripts within  jsdom container",
+      "created_at": "2020-09-18T19:54:45Z",
+      "closed_at": "2025-03-31T13:11:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10550",
+      "number": 10550,
+      "title": "Module caching memory leak",
+      "created_at": "2020-09-23T16:09:33Z",
+      "closed_at": "2022-03-03T10:43:39Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10577",
+      "number": 10577,
+      "title": "Circular references hang jest when assertions fail on node 14",
+      "created_at": "2020-10-04T00:57:24Z",
+      "closed_at": "2024-07-23T07:38:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10581",
+      "number": 10581,
+      "title": "moduleNameMapper failed to process the capture group",
+      "created_at": "2020-10-04T13:35:37Z",
+      "closed_at": "2020-10-05T18:30:50Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10591",
+      "number": 10591,
+      "title": "Regression: runtime.setGlobalsForRuntime is not a function jest-circus 26.5.0 ",
+      "created_at": "2020-10-05T10:03:35Z",
+      "closed_at": "2020-10-05T10:26:58Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10607",
+      "number": 10607,
+      "title": "globalTeardown does not run after test is failed when using bail=true",
+      "created_at": "2020-10-08T08:21:57Z",
+      "closed_at": "2023-03-19T16:40:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10647",
+      "number": 10647,
+      "title": "Transform not working when nested package.json exists",
+      "created_at": "2020-10-19T07:42:47Z",
+      "closed_at": "2020-12-18T00:38:15Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10648",
+      "number": 10648,
+      "title": "Terminal is not cleared on windows",
+      "created_at": "2020-10-19T11:07:04Z",
+      "closed_at": "2023-07-13T00:18:26Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10658",
+      "number": 10658,
+      "title": "support for node version 10.13.0",
+      "created_at": "2020-10-20T10:02:45Z",
+      "closed_at": "2020-11-09T14:38:10Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10679",
+      "number": 10679,
+      "title": "Telling jest not to use the cache in watch mode doesn't work",
+      "created_at": "2020-10-22T11:59:15Z",
+      "closed_at": "2023-03-19T16:40:37Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10707",
+      "number": 10707,
+      "title": "Add debug output for transformers",
+      "created_at": "2020-10-26T02:53:30Z",
+      "closed_at": "2022-03-27T12:58:53Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10710",
+      "number": 10710,
+      "title": "Jest flags: --findRelatedTests and --onlyChanged",
+      "created_at": "2020-10-26T08:35:16Z",
+      "closed_at": "2022-06-09T18:28:33Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10726",
+      "number": 10726,
+      "title": "Jest is failing on a FIPS enabled machine",
+      "created_at": "2020-10-27T20:26:23Z",
+      "closed_at": "2022-04-28T18:01:46Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10746",
+      "number": 10746,
+      "title": "Passing in test files to CLI should be matched against relative path",
+      "created_at": "2020-10-31T00:14:46Z",
+      "closed_at": "2023-10-03T05:56:52Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10769",
+      "number": 10769,
+      "title": "Error while upgrading to 26.6.2",
+      "created_at": "2020-11-02T13:03:30Z",
+      "closed_at": "2020-11-02T13:04:44Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10771",
+      "number": 10771,
+      "title": "Jest-resolve broken: getMockModule throws an error",
+      "created_at": "2020-11-02T17:45:36Z",
+      "closed_at": "2020-11-04T05:49:03Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10774",
+      "number": 10774,
+      "title": "jest-circus beforeAll hook behaviour on failure",
+      "created_at": "2020-11-03T01:28:57Z",
+      "closed_at": "2025-07-13T01:34:20Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10775",
+      "number": 10775,
+      "title": "Jest + React -> ReferenceError: method (method name) is not defined",
+      "created_at": "2020-11-03T05:22:23Z",
+      "closed_at": "2020-11-03T09:16:42Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10776",
+      "number": 10776,
+      "title": "Skipped describe block is run",
+      "created_at": "2020-11-03T15:24:05Z",
+      "closed_at": "2020-11-03T16:45:23Z"
+    }
+  ]
+}

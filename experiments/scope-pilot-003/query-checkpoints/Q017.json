@@ -1,0 +1,219 @@
+{
+  "index": 17,
+  "stratum": "tests",
+  "repository": "jestjs/jest",
+  "repository_id": 15062869,
+  "term": "false positive",
+  "query": "repo:jestjs/jest is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:52.284307+00:00",
+  "total_count": 29,
+  "incomplete_results": false,
+  "returned": 29,
+  "raw_response_sha256": "f1cf2b5f64ebd4b87c214a9e4a256b47fc9fc82192a281cccd3c96bfecdcf72f",
+  "items": [
+    {
+      "url": "https://github.com/jestjs/jest/issues/9388",
+      "number": 9388,
+      "title": "Coverage in HTML view is broken",
+      "created_at": "2020-01-10T10:17:02Z",
+      "closed_at": "2020-01-12T01:37:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9457",
+      "number": 9457,
+      "title": "jest 25 performance",
+      "created_at": "2020-01-24T00:05:20Z",
+      "closed_at": "2025-02-17T13:20:04Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9502",
+      "number": 9502,
+      "title": "`require.resolve` with options seems have different result in some case",
+      "created_at": "2020-02-03T05:33:12Z",
+      "closed_at": "2022-03-27T13:00:36Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9697",
+      "number": 9697,
+      "title": "Memory leak related to require",
+      "created_at": "2020-03-24T20:54:15Z",
+      "closed_at": "2022-03-03T10:30:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9904",
+      "number": 9904,
+      "title": "Config option for tests to only use adjacent/ascending __mocks__ directories",
+      "created_at": "2020-04-27T20:07:32Z",
+      "closed_at": "2022-03-27T13:00:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/9982",
+      "number": 9982,
+      "title": "The process exits normally, but I get an open handle error.",
+      "created_at": "2020-05-06T03:26:46Z",
+      "closed_at": "2021-05-28T12:49:27Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10020",
+      "number": 10020,
+      "title": "ELDHISTOGRAM open handle",
+      "created_at": "2020-05-11T13:23:22Z",
+      "closed_at": "2020-08-19T21:28:50Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/10932",
+      "number": 10932,
+      "title": "jest 27: test failed with beforeEach/afterEach async",
+      "created_at": "2020-12-08T13:58:23Z",
+      "closed_at": "2020-12-08T15:13:06Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11078",
+      "number": 11078,
+      "title": "toHaveBeenCalledWith with CustomEvent false positive",
+      "created_at": "2021-02-11T20:07:01Z",
+      "closed_at": "2023-03-19T16:39:21Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11379",
+      "number": 11379,
+      "title": "`jest-resolve` transitively pulls in a moderate `npm audit` issue",
+      "created_at": "2021-05-06T17:56:58Z",
+      "closed_at": "2021-05-06T22:28:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11464",
+      "number": 11464,
+      "title": "Jest does not exit tests cleanly with Firebase Firestore, an older version does. (Potentially jsdom related, repro *is* included.)",
+      "created_at": "2021-05-27T17:46:27Z",
+      "closed_at": "2023-03-19T16:38:51Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11542",
+      "number": 11542,
+      "title": "`--detectOpenHandles` reports open handles in ZLIB, but exits cleanly",
+      "created_at": "2021-06-08T11:05:22Z",
+      "closed_at": "2021-11-02T18:24:43Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11770",
+      "number": 11770,
+      "title": "Handling of ArrayBuffer in `.toStrictEqual()`",
+      "created_at": "2021-08-20T08:23:44Z",
+      "closed_at": "2021-09-29T10:43:30Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11777",
+      "number": 11777,
+      "title": "Possible Good First Issues",
+      "created_at": "2021-08-24T06:49:54Z",
+      "closed_at": "2022-10-22T16:16:07Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/11939",
+      "number": 11939,
+      "title": "[Bug]: Address CVE-2021-3807 for MacOS and Yarn 2 Users",
+      "created_at": "2021-10-08T02:08:30Z",
+      "closed_at": "2021-10-08T07:06:11Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13042",
+      "number": 13042,
+      "title": "jest framework disrupting codebases w/o spec file on keyword TEST ",
+      "created_at": "2022-07-19T10:27:39Z",
+      "closed_at": "2022-09-17T11:25:14Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13625",
+      "number": 13625,
+      "title": "[Feature]: .each() method",
+      "created_at": "2022-11-18T12:09:53Z",
+      "closed_at": "2022-11-18T21:58:01Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/13885",
+      "number": 13885,
+      "title": "[Bug]: isEqual ignores trailing undefineds in arrays",
+      "created_at": "2023-02-09T18:35:12Z",
+      "closed_at": "2023-02-10T11:58:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14354",
+      "number": 14354,
+      "title": "Potential Security Vulnerabilities Detected in Package ",
+      "created_at": "2023-07-24T07:17:51Z",
+      "closed_at": "2023-07-24T08:15:10Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14648",
+      "number": 14648,
+      "title": "[Bug]: False positive memory leak with `fetch` on Node v20+ when using `--detectLeaks`",
+      "created_at": "2023-10-27T13:56:29Z",
+      "closed_at": "2023-10-27T14:00:40Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14649",
+      "number": 14649,
+      "title": "[Bug]: False positive memory leak when running with `--experimental-vm-modules` and using `--detectLeaks`",
+      "created_at": "2023-10-27T14:47:38Z",
+      "closed_at": "2024-01-28T13:04:41Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14788",
+      "number": 14788,
+      "title": "[Bug]: Regression in detectOpenHandles for DNSCHANNEL",
+      "created_at": "2023-12-27T19:19:05Z",
+      "closed_at": "2024-01-01T22:17:08Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/14954",
+      "number": 14954,
+      "title": "[Bug]: `URLSearchParams#get(k, v)` is not implemented and uses `URLSearchParams#get(k)` instead",
+      "created_at": "2024-03-11T14:56:12Z",
+      "closed_at": "2024-03-11T15:34:23Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15222",
+      "number": 15222,
+      "title": "[Bug]: --detectLeaks reports a false positive for failing tests",
+      "created_at": "2024-07-30T18:06:57Z",
+      "closed_at": "2024-09-28T20:04:54Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15360",
+      "number": 15360,
+      "title": "[Bug]: `v8` coverage provider has too much tradeoffs to be actually reliable",
+      "created_at": "2024-10-25T08:01:14Z",
+      "closed_at": "2025-02-21T09:05:05Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15533",
+      "number": 15533,
+      "title": "[Feature]: DSL for running all assertions rather than stopping at the first failed assertion",
+      "created_at": "2025-03-05T23:48:41Z",
+      "closed_at": "2025-05-05T01:33:31Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15556",
+      "number": 15556,
+      "title": "[Meta]: Current blockers for a v30 release?",
+      "created_at": "2025-03-31T01:08:07Z",
+      "closed_at": "2025-06-10T02:39:22Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15597",
+      "number": 15597,
+      "title": "[Bug]: expect.any fails for `Array` and for other object instances when they come from different realms (Asymmetric matcher cross-realm issue)",
+      "created_at": "2025-05-15T21:25:43Z",
+      "closed_at": "2025-07-30T12:11:38Z"
+    },
+    {
+      "url": "https://github.com/jestjs/jest/issues/15887",
+      "number": 15887,
+      "title": "[Bug]: Unhandled promise rejections leading to unexpected jest output (with workaround)",
+      "created_at": "2025-11-11T16:06:37Z",
+      "closed_at": "2026-01-11T12:09:23Z"
+    }
+  ]
+}

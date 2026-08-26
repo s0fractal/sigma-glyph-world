@@ -1,0 +1,716 @@
+{
+  "index": 92,
+  "stratum": "artifact_conformance",
+  "repository": "actions/runner",
+  "repository_id": 184286875,
+  "term": "exit code",
+  "query": "repo:actions/runner is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:55.035267+00:00",
+  "total_count": 186,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "e63b41e5f9180b7a93c9d228884927adc157e603979c64e63fc7610f54afc012",
+  "items": [
+    {
+      "url": "https://github.com/actions/runner/issues/258",
+      "number": 258,
+      "title": "pipenv install fails on windows-latest unless it's in its own step",
+      "created_at": "2020-01-06T20:51:59Z",
+      "closed_at": "2020-04-14T16:09:35Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/283",
+      "number": 283,
+      "title": "Runner logs infrastructure details",
+      "created_at": "2020-01-15T18:16:11Z",
+      "closed_at": "2020-01-21T16:23:30Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/334",
+      "number": 334,
+      "title": "javascript action not usable for Python C extensions",
+      "created_at": "2020-01-24T13:16:22Z",
+      "closed_at": "2022-02-22T19:27:44Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/342",
+      "number": 342,
+      "title": "Introduce $COMMIT_RANGE (simmilar to $TRAVIS_COMMIT_RANGE) ",
+      "created_at": "2020-02-24T16:23:54Z",
+      "closed_at": "2023-02-09T08:35:52Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/377",
+      "number": 377,
+      "title": "Debug logs for hashFiles function",
+      "created_at": "2020-03-16T16:29:29Z",
+      "closed_at": "2020-04-13T14:49:21Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/382",
+      "number": 382,
+      "title": "The default shell for Windows (Powershell) does not show the stderr/stdout on exit error",
+      "created_at": "2020-03-20T17:22:37Z",
+      "closed_at": "2023-02-07T12:43:16Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/411",
+      "number": 411,
+      "title": "get permission denied when using docker in self-hosted server",
+      "created_at": "2020-04-07T14:24:12Z",
+      "closed_at": "2020-06-08T18:09:14Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/412",
+      "number": 412,
+      "title": "2.168.0 does not work, permission issue, 2.165.2 worked fine",
+      "created_at": "2020-04-07T18:56:51Z",
+      "closed_at": "2020-04-08T15:17:17Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/484",
+      "number": 484,
+      "title": "Automatic worker update cause container to crash",
+      "created_at": "2020-05-17T20:35:04Z",
+      "closed_at": "2020-05-18T12:58:09Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/503",
+      "number": 503,
+      "title": "AWS CLI calls broken during change from 2.169.1 to 2.262.1",
+      "created_at": "2020-05-24T11:34:14Z",
+      "closed_at": "2021-04-22T21:37:21Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/530",
+      "number": 530,
+      "title": "Processing web console line queue takes long time to stop in self hosted runner",
+      "created_at": "2020-06-10T15:33:26Z",
+      "closed_at": "2020-06-11T14:30:52Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/562",
+      "number": 562,
+      "title": "self-hosted action runner failed to update",
+      "created_at": "2020-06-21T09:13:36Z",
+      "closed_at": "2022-03-08T08:42:25Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/571",
+      "number": 571,
+      "title": "Actions gets stuck when starting a step",
+      "created_at": "2020-06-26T22:12:37Z",
+      "closed_at": "2022-06-29T15:48:02Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/648",
+      "number": 648,
+      "title": "When --platform is in options, pass it to docker pull",
+      "created_at": "2020-08-07T13:37:13Z",
+      "closed_at": "2021-03-30T20:25:52Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/679",
+      "number": 679,
+      "title": "Self hosted runners on idle, but doesn't pickup any job/workflow",
+      "created_at": "2020-08-24T14:15:34Z",
+      "closed_at": "2020-09-30T13:24:24Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/710",
+      "number": 710,
+      "title": "Error: Sorry, there was a problem deleting your runner.",
+      "created_at": "2020-09-16T06:10:44Z",
+      "closed_at": "2022-03-31T08:48:34Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/716",
+      "number": 716,
+      "title": "${{ github.action_path }} makes no sense when action is run inside self-hosted custom container.",
+      "created_at": "2020-09-22T17:34:10Z",
+      "closed_at": "2022-04-11T12:43:25Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/739",
+      "number": 739,
+      "title": "Self-hosted runner failed to update itself from 2.273.4 -> 2.273.5 bug",
+      "created_at": "2020-10-05T17:34:28Z",
+      "closed_at": "2020-10-05T20:32:26Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/743",
+      "number": 743,
+      "title": "Error when auto-upgrading runner service on MacOS - service fails to restart after upgrade",
+      "created_at": "2020-10-06T15:51:07Z",
+      "closed_at": "2021-09-01T19:39:18Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/759",
+      "number": 759,
+      "title": "Proxies with port 80 are stripped of their port",
+      "created_at": "2020-10-15T14:47:52Z",
+      "closed_at": "2020-11-03T15:47:31Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/788",
+      "number": 788,
+      "title": "Github actions runner dies from update to 2.273.6",
+      "created_at": "2020-11-04T02:41:30Z",
+      "closed_at": "2022-03-04T10:41:22Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/808",
+      "number": 808,
+      "title": "[docker] the input device is not a TTY",
+      "created_at": "2020-11-17T10:13:36Z",
+      "closed_at": "2022-04-11T12:17:07Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/858",
+      "number": 858,
+      "title": "Organization private repo is not accessible from another private repo with Organization secret - Go dependency downloads",
+      "created_at": "2020-12-13T00:21:40Z",
+      "closed_at": "2020-12-13T06:54:42Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/869",
+      "number": 869,
+      "title": "Auto upgrade to 2.275.1 keeps failing",
+      "created_at": "2020-12-18T03:53:01Z",
+      "closed_at": "2020-12-18T09:08:03Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/879",
+      "number": 879,
+      "title": "Improve error handling",
+      "created_at": "2020-12-22T07:26:04Z",
+      "closed_at": "2023-02-28T15:00:39Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/886",
+      "number": 886,
+      "title": "Log lines for an active step are inaccessible",
+      "created_at": "2020-12-30T02:53:18Z",
+      "closed_at": "2021-12-17T21:22:38Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/887",
+      "number": 887,
+      "title": "Command path is added to the command line output breaking JSON based commands",
+      "created_at": "2020-12-31T00:29:09Z",
+      "closed_at": "2021-04-23T19:19:38Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/894",
+      "number": 894,
+      "title": "hashFiles function returns nothing instead of hash of the file content",
+      "created_at": "2021-01-06T19:44:54Z",
+      "closed_at": "2021-01-06T20:25:31Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/925",
+      "number": 925,
+      "title": "Hosted Github runner auto update to 2.276.0 fails - leaves runner in dead state",
+      "created_at": "2021-01-20T20:06:07Z",
+      "closed_at": "2021-03-31T00:31:19Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/932",
+      "number": 932,
+      "title": "The repository 'https://dl.bintray.com/sbt/debian  Release' no longer has a Release file.",
+      "created_at": "2021-01-22T01:26:03Z",
+      "closed_at": "2021-03-30T20:29:17Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/935",
+      "number": 935,
+      "title": "Automatic upgrades fail to re-connect with GitHub on Mac",
+      "created_at": "2021-01-22T20:13:50Z",
+      "closed_at": "2021-09-09T13:27:54Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/981",
+      "number": 981,
+      "title": "Downloading runner update fails: \"An error occurred: Access to the path is denied\"",
+      "created_at": "2021-02-10T22:46:57Z",
+      "closed_at": "2021-03-30T19:39:13Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/988",
+      "number": 988,
+      "title": "Self Hosted Runner running in a container fails to run steps inside a service container \"sh: 0: Can't open /__w/_temp/xxx.sh\"",
+      "created_at": "2021-02-15T19:23:00Z",
+      "closed_at": "2021-03-30T19:48:49Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1015",
+      "number": 1015,
+      "title": "[Powershell] Tests do not fail despite use of $ErrorActionPreference='Stop' if error code != 1",
+      "created_at": "2021-03-18T13:21:23Z",
+      "closed_at": "2021-03-30T18:30:38Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1017",
+      "number": 1017,
+      "title": "Global npm dependencies are not installed correcly in 'ubuntu-latest'",
+      "created_at": "2021-03-19T18:04:44Z",
+      "closed_at": "2021-03-19T19:42:16Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1039",
+      "number": 1039,
+      "title": "GITHUB_TOKEN permissions for ghcr.io only apply to the default branch",
+      "created_at": "2021-04-07T08:12:23Z",
+      "closed_at": "2021-04-14T17:35:06Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1059",
+      "number": 1059,
+      "title": "Runner.Listener failing to detect queued workflows/jobs for Enterprise runners",
+      "created_at": "2021-04-23T02:31:32Z",
+      "closed_at": "2021-04-23T02:56:27Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1062",
+      "number": 1062,
+      "title": "Self-hosted Runner stuck in \" Not configured\" state",
+      "created_at": "2021-04-23T18:44:04Z",
+      "closed_at": "2022-02-28T14:42:52Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1066",
+      "number": 1066,
+      "title": "[Custom action] Cannot execute script using Bash in Windows",
+      "created_at": "2021-04-26T10:22:45Z",
+      "closed_at": "2021-06-06T22:43:49Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1094",
+      "number": 1094,
+      "title": "Runner Logs are not shown in Github Actions and Workflows stuck on Queue",
+      "created_at": "2021-05-16T08:05:39Z",
+      "closed_at": "2021-05-16T16:11:00Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1097",
+      "number": 1097,
+      "title": "git clone errors are not shown in the log",
+      "created_at": "2021-05-17T08:47:22Z",
+      "closed_at": "2022-03-16T08:16:21Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1134",
+      "number": 1134,
+      "title": "Podman: support \"cgroupManager: systemd\" for non-root users",
+      "created_at": "2021-06-04T16:32:02Z",
+      "closed_at": "2021-12-17T20:53:36Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1139",
+      "number": 1139,
+      "title": "docker-compose run can't run",
+      "created_at": "2021-06-08T01:04:06Z",
+      "closed_at": "2022-02-03T14:36:57Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1193",
+      "number": 1193,
+      "title": "Service installation does not work on Fedora",
+      "created_at": "2021-07-06T20:39:01Z",
+      "closed_at": "2021-07-19T14:00:28Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1194",
+      "number": 1194,
+      "title": "self hosted windows runner fails on start",
+      "created_at": "2021-07-07T13:31:40Z",
+      "closed_at": "2021-07-09T09:01:33Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1199",
+      "number": 1199,
+      "title": "Can't Login ghcr.io for docker registry with Github Enterprise server",
+      "created_at": "2021-07-12T04:08:26Z",
+      "closed_at": "2021-08-30T09:52:13Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1212",
+      "number": 1212,
+      "title": "pipefail not set by default",
+      "created_at": "2021-07-20T16:48:16Z",
+      "closed_at": "2022-03-15T08:58:26Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1214",
+      "number": 1214,
+      "title": "Checkout Action fails in container where image has defined USER",
+      "created_at": "2021-07-20T18:20:32Z",
+      "closed_at": "2023-03-17T12:10:30Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1221",
+      "number": 1221,
+      "title": "Composite actions which contains external bash script doesn't run if the jobs are executed with container ",
+      "created_at": "2021-07-22T11:36:02Z",
+      "closed_at": "2022-03-18T11:57:50Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1264",
+      "number": 1264,
+      "title": "Configuring self-hosted runner: Registering the runner to the parent organization fails using $GITHUB_TOKEN",
+      "created_at": "2021-08-16T11:58:50Z",
+      "closed_at": "2021-08-16T17:18:31Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1278",
+      "number": 1278,
+      "title": "build errors with ubuntu and macos",
+      "created_at": "2021-08-19T18:01:03Z",
+      "closed_at": "2022-04-01T18:54:50Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1280",
+      "number": 1280,
+      "title": "Golang tests passing but getting Error: Process completed with exit code 2",
+      "created_at": "2021-08-20T01:33:52Z",
+      "closed_at": "2021-08-21T17:58:33Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1309",
+      "number": 1309,
+      "title": "On cancellation SIGHUP instead of SIGINT is used",
+      "created_at": "2021-09-05T09:36:19Z",
+      "closed_at": "2021-10-11T08:34:33Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1322",
+      "number": 1322,
+      "title": "unknown character streamed to action resulting in exit code 1",
+      "created_at": "2021-09-10T18:02:14Z",
+      "closed_at": "2022-02-25T01:36:20Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1326",
+      "number": 1326,
+      "title": "GitHub Actions step is hanging until timeout",
+      "created_at": "2021-09-13T13:10:51Z",
+      "closed_at": "2022-03-16T08:47:41Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1353",
+      "number": 1353,
+      "title": "Added -coverpkg=./... to go test fails the step with no errors of value",
+      "created_at": "2021-09-17T21:31:09Z",
+      "closed_at": "2022-03-21T08:23:28Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1405",
+      "number": 1405,
+      "title": "my action with macos-latest needs Swift tools v5.5.0, currently v5.3.0 is available => fail",
+      "created_at": "2021-10-05T10:09:48Z",
+      "closed_at": "2021-10-06T20:14:07Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1445",
+      "number": 1445,
+      "title": "GITHUB_ENV: No such file or directory",
+      "created_at": "2021-10-29T03:35:54Z",
+      "closed_at": "2022-03-08T10:39:18Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1456",
+      "number": 1456,
+      "title": "Install Docker on Mac runners",
+      "created_at": "2021-11-02T14:03:45Z",
+      "closed_at": "2021-11-19T14:57:28Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1460",
+      "number": 1460,
+      "title": "Post Run: Error: Value cannot be null. (Parameter 'target')",
+      "created_at": "2021-11-03T22:16:54Z",
+      "closed_at": "2021-11-18T16:56:13Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1463",
+      "number": 1463,
+      "title": "Self-hosted runner on EC2 stalls at some point.",
+      "created_at": "2021-11-04T13:54:49Z",
+      "closed_at": "2022-03-07T11:53:22Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1476",
+      "number": 1476,
+      "title": "Self-hosted runner Status switch to offline after logout",
+      "created_at": "2021-11-11T14:34:52Z",
+      "closed_at": "2022-03-07T11:54:58Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1496",
+      "number": 1496,
+      "title": "GitHub Self Hosted Runners randomly stall when communicating with JobServerQueue",
+      "created_at": "2021-11-18T21:30:41Z",
+      "closed_at": "2022-03-14T08:55:23Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1498",
+      "number": 1498,
+      "title": "Combining job outputs with masking leads to empty output",
+      "created_at": "2021-11-18T23:01:41Z",
+      "closed_at": "2022-03-14T08:51:14Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1506",
+      "number": 1506,
+      "title": "Runner listener exited and session duplicated",
+      "created_at": "2021-11-23T18:28:33Z",
+      "closed_at": "2024-05-27T00:24:00Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1531",
+      "number": 1531,
+      "title": "Error: Docker pull failed with exit code 1",
+      "created_at": "2021-12-03T11:25:28Z",
+      "closed_at": "2021-12-14T03:16:18Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1546",
+      "number": 1546,
+      "title": "[Self-hosted] job abandoned",
+      "created_at": "2021-12-10T05:20:55Z",
+      "closed_at": "2021-12-10T19:12:24Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1579",
+      "number": 1579,
+      "title": "GH runner config exits with return code=0 after failure",
+      "created_at": "2021-12-27T10:31:06Z",
+      "closed_at": "2022-02-08T14:53:25Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1584",
+      "number": 1584,
+      "title": "Documentation updates around liblttng-ust0",
+      "created_at": "2022-01-04T01:56:12Z",
+      "closed_at": "2022-06-22T17:49:26Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1598",
+      "number": 1598,
+      "title": "`shell: python` does not work when using Docker container",
+      "created_at": "2022-01-09T00:06:51Z",
+      "closed_at": "2022-02-03T08:17:05Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1604",
+      "number": 1604,
+      "title": "selfhosted runner version 2.278.0 can't be picked ",
+      "created_at": "2022-01-12T11:43:56Z",
+      "closed_at": "2022-04-07T08:00:00Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1652",
+      "number": 1652,
+      "title": "System.IO.IOException: Invalid argument",
+      "created_at": "2022-02-03T04:05:19Z",
+      "closed_at": "2022-04-06T11:24:44Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1663",
+      "number": 1663,
+      "title": "Runner.Listener exits with code 2 (retryable error) when runner is not configured (a non-retryable error)",
+      "created_at": "2022-02-05T19:52:06Z",
+      "closed_at": "2022-02-28T08:32:04Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1677",
+      "number": 1677,
+      "title": "Systemd service doesn't fail when runner listener crashes",
+      "created_at": "2022-02-09T20:51:50Z",
+      "closed_at": "2022-03-01T13:06:31Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1682",
+      "number": 1682,
+      "title": "job.status is not updated within composite action",
+      "created_at": "2022-02-11T22:35:37Z",
+      "closed_at": "2022-02-15T17:43:03Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1705",
+      "number": 1705,
+      "title": "Runner seems to mess up `run` strings with nested quotes (at least on macOS)",
+      "created_at": "2022-02-21T18:33:29Z",
+      "closed_at": "2022-02-22T16:22:47Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1725",
+      "number": 1725,
+      "title": "ubuntu-latest runner fails to download qemu package",
+      "created_at": "2022-03-02T10:49:57Z",
+      "closed_at": "2022-03-02T11:21:11Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1736",
+      "number": 1736,
+      "title": "Runner not using latest update, keeps trying to update to already installed update",
+      "created_at": "2022-03-07T20:44:42Z",
+      "closed_at": "2022-03-16T07:23:34Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1746",
+      "number": 1746,
+      "title": "[Windows] Runner failing to extract project - Path too long ",
+      "created_at": "2022-03-11T08:23:21Z",
+      "closed_at": "2023-02-10T11:50:22Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1752",
+      "number": 1752,
+      "title": "[self-host][oracle-linux] runner as a service not working",
+      "created_at": "2022-03-15T03:09:48Z",
+      "closed_at": "2022-03-22T14:10:19Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1774",
+      "number": 1774,
+      "title": "libclang-12-dev package cannot be installed in Ubuntu 20.04 image",
+      "created_at": "2022-03-20T08:58:43Z",
+      "closed_at": "2022-03-21T08:30:02Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1776",
+      "number": 1776,
+      "title": "toJson has error with particular value",
+      "created_at": "2022-03-23T00:48:29Z",
+      "closed_at": "2022-03-25T19:15:05Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1807",
+      "number": 1807,
+      "title": "No space left on device after upgrading to 2.289.2",
+      "created_at": "2022-04-05T01:52:43Z",
+      "closed_at": "2022-04-05T16:26:43Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1812",
+      "number": 1812,
+      "title": "Github Actions runner does not automatically resume after Auto-update",
+      "created_at": "2022-04-06T17:57:23Z",
+      "closed_at": "2022-09-19T17:00:56Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1825",
+      "number": 1825,
+      "title": "Set up runner step fails on Windows self-hosted runner when `ACTIONS_RUNNER_HOOK_JOB_STARTED` set to powershell script",
+      "created_at": "2022-04-14T02:48:17Z",
+      "closed_at": "2022-06-08T11:54:23Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1879",
+      "number": 1879,
+      "title": "hashFiles returns an empty string",
+      "created_at": "2022-05-08T12:52:36Z",
+      "closed_at": "2022-05-11T05:19:02Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1882",
+      "number": 1882,
+      "title": "Configuration tries to use the registration endpoint even when passed `--token <token>` ",
+      "created_at": "2022-05-10T18:04:32Z",
+      "closed_at": "2024-02-24T13:55:06Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1892",
+      "number": 1892,
+      "title": "Not Able to Clone an internal/private repo via runner",
+      "created_at": "2022-05-13T10:52:16Z",
+      "closed_at": "2022-05-13T10:57:55Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1947",
+      "number": 1947,
+      "title": "Composite Action: Incorrect State Value when composite action is used twice in the workflow",
+      "created_at": "2022-06-16T04:58:13Z",
+      "closed_at": "2023-11-20T00:22:46Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1955",
+      "number": 1955,
+      "title": "Fail-fast/pipefail behaviour for default shell inconsistent with documentation ",
+      "created_at": "2022-06-20T12:34:26Z",
+      "closed_at": "2022-07-12T07:05:38Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1960",
+      "number": 1960,
+      "title": "Pages build and deployment doesn't works due to \"Docker pull failed with exit code 1\"",
+      "created_at": "2022-06-22T12:09:35Z",
+      "closed_at": "2022-06-22T12:42:27Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1974",
+      "number": 1974,
+      "title": "Unexpected EOF while looking for matching `\"' when copying the secret (JSON format) to a file",
+      "created_at": "2022-06-27T20:34:59Z",
+      "closed_at": "2022-07-12T11:12:20Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1975",
+      "number": 1975,
+      "title": "Flaky Network -> RemoteProtocolError",
+      "created_at": "2022-06-28T09:59:14Z",
+      "closed_at": "2022-08-29T08:52:43Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1978",
+      "number": 1978,
+      "title": "Intermittent error: Docker Login failed with exit code 1 running jobs in container",
+      "created_at": "2022-06-29T09:29:25Z",
+      "closed_at": "2022-09-14T08:16:49Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1981",
+      "number": 1981,
+      "title": "update to 2.294.0 failed",
+      "created_at": "2022-07-01T07:17:06Z",
+      "closed_at": "2022-10-20T14:38:57Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2081",
+      "number": 2081,
+      "title": "container exit itself after run it in github action",
+      "created_at": "2022-08-24T05:58:27Z",
+      "closed_at": "2023-10-09T00:21:34Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2119",
+      "number": 2119,
+      "title": "Runner replacement is broken in 2.296.2",
+      "created_at": "2022-09-13T16:50:15Z",
+      "closed_at": "2022-11-17T09:28:47Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2129",
+      "number": 2129,
+      "title": "[self-host][RH enterprise] service failing with status=133",
+      "created_at": "2022-09-18T08:17:07Z",
+      "closed_at": "2024-05-20T00:23:24Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2149",
+      "number": 2149,
+      "title": "Error when running az acr login command from run step on Windows runner",
+      "created_at": "2022-09-22T12:40:15Z",
+      "closed_at": "2023-10-16T00:21:44Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2172",
+      "number": 2172,
+      "title": "Installing runner 2.298.0 on MacOS fails at config.sh step",
+      "created_at": "2022-10-04T14:16:44Z",
+      "closed_at": "2022-10-07T16:46:16Z"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "index": 59,
+  "stratum": "lint_static_analysis",
+  "repository": "koalaman/shellcheck",
+  "repository_id": 6731432,
+  "term": "false positive",
+  "query": "repo:koalaman/shellcheck is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:07.854359+00:00",
+  "total_count": 72,
+  "incomplete_results": false,
+  "returned": 72,
+  "raw_response_sha256": "d329091bda225d7b1c654503a30fa69249bd9e10b26c07dd669583cf1662ed6b",
+  "items": [
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1788",
+      "number": 1788,
+      "title": "SC1009 parsing (apparently) valid if statement",
+      "created_at": "2020-01-05T05:30:11Z",
+      "closed_at": "2020-01-07T05:37:27Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1796",
+      "number": 1796,
+      "title": "False positive for SC2034 with `read -i`",
+      "created_at": "2020-01-15T11:49:01Z",
+      "closed_at": "2026-07-03T22:36:55Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1806",
+      "number": 1806,
+      "title": "SC2034 false positive in heredoc",
+      "created_at": "2020-01-24T22:59:31Z",
+      "closed_at": "2020-01-25T04:37:05Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1832",
+      "number": 1832,
+      "title": "\"appears unused\" false positive with aliases (!)",
+      "created_at": "2020-02-11T18:12:10Z",
+      "closed_at": "2020-02-17T22:21:16Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1836",
+      "number": 1836,
+      "title": "Strange SC1106 error",
+      "created_at": "2020-02-13T11:05:47Z",
+      "closed_at": "2020-02-17T20:28:11Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1842",
+      "number": 1842,
+      "title": "SC2033 false positive",
+      "created_at": "2020-02-21T02:37:58Z",
+      "closed_at": "2020-02-22T22:32:50Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1856",
+      "number": 1856,
+      "title": "Potential false positive with SC2062",
+      "created_at": "2020-03-03T19:24:42Z",
+      "closed_at": "2020-03-04T04:36:50Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1891",
+      "number": 1891,
+      "title": " [SC2252] False positive when using different variables",
+      "created_at": "2020-03-27T10:40:17Z",
+      "closed_at": "2020-04-02T05:09:48Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1936",
+      "number": 1936,
+      "title": "Invalid command not noticed! bad 'eho' right echo",
+      "created_at": "2020-05-03T18:05:20Z",
+      "closed_at": "2020-05-03T19:38:06Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1954",
+      "number": 1954,
+      "title": "Idea: Encourage more local variables",
+      "created_at": "2020-05-15T13:55:02Z",
+      "closed_at": "2026-07-15T20:19:39Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1968",
+      "number": 1968,
+      "title": "Different SC results for the same sed script when quoted",
+      "created_at": "2020-05-28T13:35:35Z",
+      "closed_at": "2020-05-28T23:19:02Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1994",
+      "number": 1994,
+      "title": "Warn about blatant recursion",
+      "created_at": "2020-06-24T15:01:28Z",
+      "closed_at": "2020-07-28T05:34:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1997",
+      "number": 1997,
+      "title": "SC2034: Returning a value by reference is not recognised as usage",
+      "created_at": "2020-06-25T19:15:01Z",
+      "closed_at": "2020-07-13T18:30:28Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2000",
+      "number": 2000,
+      "title": "SC1102 false positive: Using variable as arithmetic operator",
+      "created_at": "2020-06-26T00:16:33Z",
+      "closed_at": "2020-07-01T21:53:01Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2008",
+      "number": 2008,
+      "title": "SC2016 false positive when using exec",
+      "created_at": "2020-07-05T21:21:57Z",
+      "closed_at": "2020-07-25T20:45:50Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2057",
+      "number": 2057,
+      "title": "SC2016 false positive (podman)",
+      "created_at": "2020-09-17T16:56:16Z",
+      "closed_at": "2021-03-08T04:48:59Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2060",
+      "number": 2060,
+      "title": "SC2178 gets confused with `declare -n`",
+      "created_at": "2020-09-28T10:02:44Z",
+      "closed_at": "2026-07-15T20:26:41Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2061",
+      "number": 2061,
+      "title": "SC2034 - false positive with `$()` and `declare -F`",
+      "created_at": "2020-09-30T09:18:05Z",
+      "closed_at": "2020-10-18T22:18:26Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2087",
+      "number": 2087,
+      "title": "TODO: Add title",
+      "created_at": "2020-11-11T17:54:21Z",
+      "closed_at": "2020-11-12T07:27:00Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2132",
+      "number": 2132,
+      "title": "Feature Request: Warn about trailing backslashes in comments (similar to SC2215)",
+      "created_at": "2021-01-25T23:24:10Z",
+      "closed_at": "2021-03-21T01:55:03Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2168",
+      "number": 2168,
+      "title": "SC2016 false positive",
+      "created_at": "2021-03-08T14:09:07Z",
+      "closed_at": "2026-07-05T02:52:09Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2169",
+      "number": 2169,
+      "title": "SC2234",
+      "created_at": "2021-03-11T13:29:23Z",
+      "closed_at": "2021-08-30T17:57:57Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2180",
+      "number": 2180,
+      "title": "SC1072/SC1073 false positives for valid while loop",
+      "created_at": "2021-03-19T15:55:23Z",
+      "closed_at": "2021-03-20T21:54:16Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2209",
+      "number": 2209,
+      "title": "SC2016 false positive with ripgrep capture groups",
+      "created_at": "2021-04-19T16:47:21Z",
+      "closed_at": "2021-08-27T01:53:38Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2213",
+      "number": 2213,
+      "title": "Proposal: Warn about using commas with printf",
+      "created_at": "2021-04-20T19:36:30Z",
+      "closed_at": "2021-05-02T03:43:35Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2217",
+      "number": 2217,
+      "title": "False positive SC2030/SC2031 in 0.7.2?",
+      "created_at": "2021-04-23T11:57:46Z",
+      "closed_at": "2021-07-27T16:42:36Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2242",
+      "number": 2242,
+      "title": "SC2102 false positive",
+      "created_at": "2021-05-31T14:24:39Z",
+      "closed_at": "2021-07-25T19:59:29Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2264",
+      "number": 2264,
+      "title": "SC2086: false positive in Bash here strings",
+      "created_at": "2021-06-26T03:37:54Z",
+      "closed_at": "2022-03-14T17:14:56Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2287",
+      "number": 2287,
+      "title": "SC1001: false positive on \\:",
+      "created_at": "2021-07-20T19:14:25Z",
+      "closed_at": "2021-07-21T23:46:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2290",
+      "number": 2290,
+      "title": "Warn against variable substring removal",
+      "created_at": "2021-08-02T02:38:13Z",
+      "closed_at": "2021-08-03T20:19:25Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2310",
+      "number": 2310,
+      "title": "SC2016, SC2006 complains about backticks in awscli jmespath",
+      "created_at": "2021-08-26T16:49:25Z",
+      "closed_at": "2021-08-27T00:27:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2311",
+      "number": 2311,
+      "title": "Missing blank(s) between (echo) command and argument not detected",
+      "created_at": "2021-08-26T17:41:34Z",
+      "closed_at": "2021-08-30T17:02:44Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2312",
+      "number": 2312,
+      "title": "False positive for SC2154",
+      "created_at": "2021-08-28T14:47:52Z",
+      "closed_at": "2021-08-30T18:47:55Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2319",
+      "number": 2319,
+      "title": "SC2016 false positive",
+      "created_at": "2021-09-03T15:34:05Z",
+      "closed_at": "2021-09-17T03:08:04Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2325",
+      "number": 2325,
+      "title": "Warnings about reading and writing when only reading",
+      "created_at": "2021-09-11T02:02:29Z",
+      "closed_at": "2021-09-19T01:09:10Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2369",
+      "number": 2369,
+      "title": "False positive on SC2259 with cat <<EOF",
+      "created_at": "2021-11-09T09:25:28Z",
+      "closed_at": "2021-11-13T00:01:54Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2389",
+      "number": 2389,
+      "title": "\"ls | grep\" is needed with -A/-B",
+      "created_at": "2021-11-26T22:34:53Z",
+      "closed_at": "2021-12-12T02:11:41Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2404",
+      "number": 2404,
+      "title": "SC2188 false positive with pseudo device /dev/tcp and /dev/udp ",
+      "created_at": "2021-12-07T21:57:04Z",
+      "closed_at": "2021-12-21T23:35:44Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2432",
+      "number": 2432,
+      "title": "Virustotal finds as malicious.",
+      "created_at": "2022-01-17T06:15:11Z",
+      "closed_at": "2022-01-17T21:28:13Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2474",
+      "number": 2474,
+      "title": "SC2164 false positive with cd at end of shell function",
+      "created_at": "2022-03-23T03:22:49Z",
+      "closed_at": "2026-05-16T04:00:28Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2481",
+      "number": 2481,
+      "title": "SC2154 false positive for cat EOF",
+      "created_at": "2022-04-04T15:42:27Z",
+      "closed_at": "2023-10-11T06:17:17Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2514",
+      "number": 2514,
+      "title": "SC2260 and SC3021 false positives",
+      "created_at": "2022-06-08T05:30:05Z",
+      "closed_at": "2022-07-23T00:33:12Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2550",
+      "number": 2550,
+      "title": "SC2312: false positive when using 'time'",
+      "created_at": "2022-08-05T10:36:15Z",
+      "closed_at": "2022-10-09T18:55:40Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2552",
+      "number": 2552,
+      "title": "bug: False positives when cd'ing with Bats-specific variables",
+      "created_at": "2022-08-11T01:13:14Z",
+      "closed_at": "2025-06-03T07:01:08Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2562",
+      "number": 2562,
+      "title": "False positive SC2094",
+      "created_at": "2022-08-16T14:28:45Z",
+      "closed_at": "2022-08-16T14:28:57Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2563",
+      "number": 2563,
+      "title": "False positive SC2094",
+      "created_at": "2022-08-16T14:29:17Z",
+      "closed_at": "2022-09-25T18:03:46Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2597",
+      "number": 2597,
+      "title": "False positive for SC2009 : should cope with the use of pgrep for collecting pids and then grepping process details",
+      "created_at": "2022-09-28T12:56:09Z",
+      "closed_at": "2022-10-13T03:26:20Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2599",
+      "number": 2599,
+      "title": "SC2151 — False positive",
+      "created_at": "2022-10-02T10:48:35Z",
+      "closed_at": "2022-10-07T01:22:04Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2604",
+      "number": 2604,
+      "title": "False positive SC2094",
+      "created_at": "2022-10-11T04:24:41Z",
+      "closed_at": "2026-03-12T07:43:38Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2617",
+      "number": 2617,
+      "title": "shecllcheck doesn't give warning for included file ",
+      "created_at": "2022-11-01T04:09:01Z",
+      "closed_at": "2022-11-03T04:28:39Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2655",
+      "number": 2655,
+      "title": "Potential false positive SC2320",
+      "created_at": "2023-01-06T07:33:49Z",
+      "closed_at": "2023-01-09T08:41:25Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2660",
+      "number": 2660,
+      "title": "SC2317: false-positive with EXIT trap in subshell?",
+      "created_at": "2023-01-09T12:07:48Z",
+      "closed_at": "2026-08-07T13:42:53Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2719",
+      "number": 2719,
+      "title": "False SC2154 positive when assigning a variable via mapfile/readarray",
+      "created_at": "2023-03-21T09:33:45Z",
+      "closed_at": "2023-03-21T09:45:46Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2731",
+      "number": 2731,
+      "title": "Show \"SCxxxx\" error code in warning message",
+      "created_at": "2023-04-06T21:16:42Z",
+      "closed_at": "2023-07-29T21:44:26Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2773",
+      "number": 2773,
+      "title": "SC2016 false positive: awk expression with `$` fails if prepended by `command -p`",
+      "created_at": "2023-06-02T01:32:36Z",
+      "closed_at": "2023-06-02T23:25:25Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2804",
+      "number": 2804,
+      "title": "rule for non existent function or command?",
+      "created_at": "2023-07-18T23:58:08Z",
+      "closed_at": "2023-08-25T10:53:38Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2809",
+      "number": 2809,
+      "title": "SC2312 false positive inside conditionals ",
+      "created_at": "2023-07-28T22:54:58Z",
+      "closed_at": "2023-07-31T02:57:43Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2869",
+      "number": 2869,
+      "title": "False positive: SC1035 You are missing a required space after the `!`",
+      "created_at": "2023-11-28T17:18:50Z",
+      "closed_at": "2023-12-11T03:53:47Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2872",
+      "number": 2872,
+      "title": "False positive for SC1003 due to enclosing quotation",
+      "created_at": "2023-12-01T15:50:12Z",
+      "closed_at": "2023-12-11T03:33:51Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2878",
+      "number": 2878,
+      "title": "`CFLAGS`: `SC2034` false positive, optionally whitelist env vars",
+      "created_at": "2023-12-11T12:09:08Z",
+      "closed_at": "2023-12-19T10:01:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2921",
+      "number": 2921,
+      "title": "Add an option to treat `/bin/sh` interpreter as `busybox`",
+      "created_at": "2024-02-04T01:28:38Z",
+      "closed_at": "2024-02-26T02:10:51Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2926",
+      "number": 2926,
+      "title": "SC2119 / SC2120 false positives?",
+      "created_at": "2024-02-18T04:46:42Z",
+      "closed_at": "2025-04-09T04:25:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2970",
+      "number": 2970,
+      "title": "SC2154 var is referenced but not assigned not triggered if used within an array",
+      "created_at": "2024-04-23T20:34:01Z",
+      "closed_at": "2024-05-04T23:30:10Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2982",
+      "number": 2982,
+      "title": "SC2004 false positive on assignment to array position",
+      "created_at": "2024-05-10T21:56:23Z",
+      "closed_at": "2024-05-10T22:03:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2984",
+      "number": 2984,
+      "title": "SC2094, SC2035, SC2034, SC2205, SC2283  ternary arithmetic false positives",
+      "created_at": "2024-05-15T15:28:01Z",
+      "closed_at": "2024-09-14T04:43:22Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3033",
+      "number": 3033,
+      "title": "SC2016 false positive with OpenShift client",
+      "created_at": "2024-07-31T12:28:41Z",
+      "closed_at": "2024-08-04T23:50:31Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3049",
+      "number": 3049,
+      "title": "SC2086 - False positive in multi-line quoted string",
+      "created_at": "2024-09-01T15:18:12Z",
+      "closed_at": "2024-09-13T17:11:33Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3098",
+      "number": 3098,
+      "title": "[SC3003] `$'..'` is POSIX.1-2024 compliant",
+      "created_at": "2024-12-09T14:31:37Z",
+      "closed_at": "2026-03-11T02:35:58Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3112",
+      "number": 3112,
+      "title": "[SC2031] false positive (from `for PATH_W in ${PATH}; do`)",
+      "created_at": "2025-01-01T17:13:05Z",
+      "closed_at": "2025-01-11T07:00:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3141",
+      "number": 3141,
+      "title": "SC2216: false positive for piping yes or letter y/n to commands that ask yes/no questions.",
+      "created_at": "2025-02-07T08:02:37Z",
+      "closed_at": "2025-04-07T02:28:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3225",
+      "number": 3225,
+      "title": "False positive SC2094 when tee is used with -a",
+      "created_at": "2025-06-20T09:29:45Z",
+      "closed_at": "2025-09-15T08:54:30Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3275",
+      "number": 3275,
+      "title": "False positive SC2034: Variable incorrectly marked as unused inside indented here-document",
+      "created_at": "2025-08-06T10:24:35Z",
+      "closed_at": "2025-08-06T10:26:12Z"
+    }
+  ]
+}

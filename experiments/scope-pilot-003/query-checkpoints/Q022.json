@@ -1,0 +1,716 @@
+{
+  "index": 22,
+  "stratum": "tests",
+  "repository": "microsoft/playwright",
+  "repository_id": 221981891,
+  "term": "exit code",
+  "query": "repo:microsoft/playwright is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:07.707300+00:00",
+  "total_count": 403,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "31148fcf7dda8803de63a77a4553aad90ddc5862fae92bd787a9552013dc761d",
+  "items": [
+    {
+      "url": "https://github.com/microsoft/playwright/issues/576",
+      "number": 576,
+      "title": "Cannot find module ./errors",
+      "created_at": "2020-01-23T03:39:26Z",
+      "closed_at": "2020-01-23T04:25:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/581",
+      "number": 581,
+      "title": "UnhandledPromiseRejectionWarning: Error: Failed to launch browser!",
+      "created_at": "2020-01-23T07:03:17Z",
+      "closed_at": "2020-02-27T22:33:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/598",
+      "number": 598,
+      "title": "WSL - Doesn't appear to Install Chromium",
+      "created_at": "2020-01-23T18:08:03Z",
+      "closed_at": "2020-02-27T22:26:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/669",
+      "number": 669,
+      "title": "Error 404 minibrowser-mac-10.13.zip",
+      "created_at": "2020-01-27T13:43:26Z",
+      "closed_at": "2020-01-27T17:37:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/672",
+      "number": 672,
+      "title": "UnhandledPromiseRejectionWarning: Error: Failed to launch browser!",
+      "created_at": "2020-01-27T16:58:58Z",
+      "closed_at": "2020-02-27T22:34:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/817",
+      "number": 817,
+      "title": "[Feature] XPath staring with \"(//\" should be detected as such",
+      "created_at": "2020-02-03T18:01:23Z",
+      "closed_at": "2020-02-03T22:52:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/890",
+      "number": 890,
+      "title": "[BUG] UnhandledPromiseRejectionWarning: TypeError: browser.newPage is not a function",
+      "created_at": "2020-02-07T09:24:09Z",
+      "closed_at": "2020-02-08T22:10:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/925",
+      "number": 925,
+      "title": "[Question] I encounter an error while using playwright",
+      "created_at": "2020-02-11T16:39:44Z",
+      "closed_at": "2020-02-27T22:50:56Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1114",
+      "number": 1114,
+      "title": "[Feature] Allow to register selector engine dependencies in addition to selector engine function itself",
+      "created_at": "2020-02-26T00:34:01Z",
+      "closed_at": "2020-02-26T18:52:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1140",
+      "number": 1140,
+      "title": "[REGRESSION]: getting \"Protocol error (Target.setDiscoverTargets): Target closed\" after upgrading from v0.10 on CentOS7",
+      "created_at": "2020-02-27T05:21:55Z",
+      "closed_at": "2020-06-28T16:48:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1214",
+      "number": 1214,
+      "title": "[BUG] Setting slowMo to 250 ms to examples in README.md times out the test cases with headless: false",
+      "created_at": "2020-03-04T15:31:38Z",
+      "closed_at": "2020-03-10T22:57:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1307",
+      "number": 1307,
+      "title": "[BUG] ERROR: method 'Target.enable' is not supported Firefox custom build.",
+      "created_at": "2020-03-10T12:57:51Z",
+      "closed_at": "2020-03-11T20:38:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1392",
+      "number": 1392,
+      "title": "[BUG] Error: Protocol error (Target.setDiscoverTargets): Target closed.",
+      "created_at": "2020-03-13T22:32:14Z",
+      "closed_at": "2020-03-14T10:34:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1442",
+      "number": 1442,
+      "title": "[BUG] Fill throws \"Element is not visible\" despite waiting for visibility",
+      "created_at": "2020-03-20T14:43:15Z",
+      "closed_at": "2020-03-25T21:40:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1513",
+      "number": 1513,
+      "title": "[REGRESSION] npm install playwright@0.12.0",
+      "created_at": "2020-03-24T18:04:08Z",
+      "closed_at": "2020-03-24T18:44:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1651",
+      "number": 1651,
+      "title": "[BUG] PLAYWRIGHT_BROWSERS_PATH throws error on subsequent installs",
+      "created_at": "2020-04-03T05:48:46Z",
+      "closed_at": "2020-04-04T06:16:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1731",
+      "number": 1731,
+      "title": "[BUG] Installation of playwright is successful even if fetching browser binaries fails",
+      "created_at": "2020-04-09T11:55:26Z",
+      "closed_at": "2020-04-15T18:42:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1821",
+      "number": 1821,
+      "title": "[Question] Cannot access element in Iframe",
+      "created_at": "2020-04-16T07:46:24Z",
+      "closed_at": "2021-07-12T21:14:59Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1844",
+      "number": 1844,
+      "title": "[Question] chrome.connect or firefox.connect using public ip address not 127.0.0.1",
+      "created_at": "2020-04-17T07:41:44Z",
+      "closed_at": "2020-04-18T06:34:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1935",
+      "number": 1935,
+      "title": "[BUG] cant create webkit context",
+      "created_at": "2020-04-23T06:30:47Z",
+      "closed_at": "2020-08-21T06:59:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2110",
+      "number": 2110,
+      "title": "[BUG] Unable to launch firefox on playwright@next",
+      "created_at": "2020-05-05T02:56:41Z",
+      "closed_at": "2020-05-05T02:57:59Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2205",
+      "number": 2205,
+      "title": "[BUG] Unable to use Chromium in a Docker container",
+      "created_at": "2020-05-12T17:33:03Z",
+      "closed_at": "2020-05-12T18:22:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2298",
+      "number": 2298,
+      "title": "[Bug] Firefox fails with STATUS_DLL_NOT_FOUND on some Win 10 setups",
+      "created_at": "2020-05-19T14:06:44Z",
+      "closed_at": "2020-07-31T23:14:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2409",
+      "number": 2409,
+      "title": "[BUG] UnhandledPromiseRejectionWarning: Error: by Firefox and web kit.",
+      "created_at": "2020-05-29T18:56:42Z",
+      "closed_at": "2020-11-24T18:48:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2437",
+      "number": 2437,
+      "title": "[BUG] The official Docker image doesn't work with non root user",
+      "created_at": "2020-06-02T04:13:06Z",
+      "closed_at": "2020-06-11T18:38:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2447",
+      "number": 2447,
+      "title": "[BUG] WebKit browser crashes on new page/context on Ubuntu",
+      "created_at": "2020-06-03T08:02:17Z",
+      "closed_at": "2020-06-03T23:35:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2494",
+      "number": 2494,
+      "title": "[REGRESSION]: Atomic binary install failing in CI",
+      "created_at": "2020-06-07T22:26:48Z",
+      "closed_at": "2020-06-08T19:11:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2570",
+      "number": 2570,
+      "title": "Enable user to detect launch options run time",
+      "created_at": "2020-06-14T08:18:36Z",
+      "closed_at": "2020-06-28T19:33:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2621",
+      "number": 2621,
+      "title": "[BUG] Webkit problem with libwebp-1.1.0-1, error while loading shared libraries: libwebp.so.6",
+      "created_at": "2020-06-18T08:16:02Z",
+      "closed_at": "2020-07-22T22:12:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2647",
+      "number": 2647,
+      "title": "[BUG] Browser crashing when trying to use mic permission",
+      "created_at": "2020-06-19T16:40:31Z",
+      "closed_at": "2020-06-22T23:50:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2660",
+      "number": 2660,
+      "title": "[BUG] Cannot find a MiniBrowser.app in neither location",
+      "created_at": "2020-06-21T15:09:40Z",
+      "closed_at": "2020-08-10T23:24:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2697",
+      "number": 2697,
+      "title": "[BUG] Can't launch browser if ignoreDefaultArgs is set to true",
+      "created_at": "2020-06-24T23:47:19Z",
+      "closed_at": "2020-06-25T02:11:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2710",
+      "number": 2710,
+      "title": "[BUG] launchPersistentContext failed",
+      "created_at": "2020-06-25T15:37:25Z",
+      "closed_at": "2020-06-29T22:10:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2828",
+      "number": 2828,
+      "title": "[BUG] - Multiple calls to launchPersistentContext fail in non-headless mode ",
+      "created_at": "2020-07-03T13:05:45Z",
+      "closed_at": "2020-08-21T07:21:56Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2973",
+      "number": 2973,
+      "title": "[Feature] Add support for better testing WebRTC applications with Webkit",
+      "created_at": "2020-07-16T14:46:44Z",
+      "closed_at": "2026-07-17T16:22:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2974",
+      "number": 2974,
+      "title": "[BUG] Unable to adopt element handle from a different document",
+      "created_at": "2020-07-16T14:55:44Z",
+      "closed_at": "2020-11-09T17:39:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3042",
+      "number": 3042,
+      "title": "[Question] - What's the best way to handle multiple URL's in page.goto",
+      "created_at": "2020-07-20T18:55:26Z",
+      "closed_at": "2020-07-20T20:21:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3090",
+      "number": 3090,
+      "title": "[BUG] GitHub + macOS + Node 14: All tests pass but process exits with code 134",
+      "created_at": "2020-07-22T19:07:00Z",
+      "closed_at": "2020-07-27T13:40:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3106",
+      "number": 3106,
+      "title": "Playwright debian not working[BUG]",
+      "created_at": "2020-07-23T09:57:49Z",
+      "closed_at": "2020-07-23T17:30:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3191",
+      "number": 3191,
+      "title": "[BUG] Chromium on Windows does not launch without --no-sandbox",
+      "created_at": "2020-07-28T02:36:43Z",
+      "closed_at": "2020-10-21T16:09:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3285",
+      "number": 3285,
+      "title": "[BUG] Different behaviour of click action when target clear button is not visible for headless, headful and in docker. #MaterialUI #Chromium",
+      "created_at": "2020-08-04T12:42:11Z",
+      "closed_at": "2022-01-01T23:09:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3493",
+      "number": 3493,
+      "title": "[BUG]addEventListener is not working.",
+      "created_at": "2020-08-16T02:31:30Z",
+      "closed_at": "2020-08-16T16:58:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3496",
+      "number": 3496,
+      "title": "[BUG] Launching Chromium on Windows complains about missing libraries",
+      "created_at": "2020-08-17T00:42:44Z",
+      "closed_at": "2020-12-15T00:40:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3560",
+      "number": 3560,
+      "title": "[BUG] webkit-1322 browserType.launch: Host system is missing dependencies!",
+      "created_at": "2020-08-21T11:21:13Z",
+      "closed_at": "2020-08-21T18:41:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3607",
+      "number": 3607,
+      "title": "[BUG] Chromium doesn't work in the playwright:bionic Docker image",
+      "created_at": "2020-08-24T22:16:15Z",
+      "closed_at": "2020-09-09T18:43:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3692",
+      "number": 3692,
+      "title": "[BUG] UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'createHandle'/'childframes' of undefined",
+      "created_at": "2020-08-30T01:41:54Z",
+      "closed_at": "2020-10-20T05:17:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3768",
+      "number": 3768,
+      "title": "[BUG] File uploads fail which are > 50 MB",
+      "created_at": "2020-09-04T09:03:04Z",
+      "closed_at": "2022-03-25T20:26:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3871",
+      "number": 3871,
+      "title": "[BUG] Always failed in CircleCI",
+      "created_at": "2020-09-14T07:37:43Z",
+      "closed_at": "2020-11-30T20:49:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3912",
+      "number": 3912,
+      "title": "[BUG] Race condition with concurrent playwright NPM postinstall scripts",
+      "created_at": "2020-09-17T03:30:36Z",
+      "closed_at": "2020-09-21T23:09:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3921",
+      "number": 3921,
+      "title": "[BUG] Playwright doesn't work with GitHub codespaces out of the box",
+      "created_at": "2020-09-18T17:43:01Z",
+      "closed_at": "2020-10-20T05:01:25Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/3952",
+      "number": 3952,
+      "title": "[BUG] UnhandledPromiseRejectionWarning: page.goto: Timeout 30000ms exceeded",
+      "created_at": "2020-09-22T13:36:04Z",
+      "closed_at": "2020-09-22T23:44:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4033",
+      "number": 4033,
+      "title": "[BUG] Failed to launch chromium because executable doesn't exist",
+      "created_at": "2020-10-01T18:27:08Z",
+      "closed_at": "2020-10-01T18:41:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4172",
+      "number": 4172,
+      "title": "[BUG] Crashes when trying to launch more than 6 instances",
+      "created_at": "2020-10-17T09:40:57Z",
+      "closed_at": "2020-10-23T19:53:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4193",
+      "number": 4193,
+      "title": "[Question] Error when using wireguard vpn?",
+      "created_at": "2020-10-20T16:22:02Z",
+      "closed_at": "2020-10-20T16:22:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4218",
+      "number": 4218,
+      "title": "[BUG] Playwright-chromium (>1.5.0) does not exit properly (hangs) when started in docker",
+      "created_at": "2020-10-23T11:25:31Z",
+      "closed_at": "2020-10-24T20:22:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4238",
+      "number": 4238,
+      "title": "[BUG] A png screenshot is produced when a jpeg/jpg screenshot is requested",
+      "created_at": "2020-10-26T17:04:35Z",
+      "closed_at": "2020-10-27T07:02:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4242",
+      "number": 4242,
+      "title": "[BUG] Helpful error message for lockfile",
+      "created_at": "2020-10-26T22:01:12Z",
+      "closed_at": "2020-11-30T14:16:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4393",
+      "number": 4393,
+      "title": "[BUG] TypeError: Cannot read property 'childFrames' of null with series of redirects",
+      "created_at": "2020-11-10T13:12:22Z",
+      "closed_at": "2020-11-16T22:54:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4439",
+      "number": 4439,
+      "title": "[REGRESSION]: self signed certificate in certificate chain -> Error with installation",
+      "created_at": "2020-11-14T02:31:46Z",
+      "closed_at": "2020-11-19T00:46:26Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4445",
+      "number": 4445,
+      "title": "[BUG] Unknown scheme for WebSocket.listenerCount",
+      "created_at": "2020-11-15T22:02:09Z",
+      "closed_at": "2020-11-24T07:47:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4461",
+      "number": 4461,
+      "title": "[BUG] Error when using PM2 process manager in cluster mode",
+      "created_at": "2020-11-17T00:46:32Z",
+      "closed_at": "2020-11-23T23:23:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4509",
+      "number": 4509,
+      "title": "How to login to Microsoft Azure AD",
+      "created_at": "2020-11-20T20:09:12Z",
+      "closed_at": "2020-11-23T18:25:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4530",
+      "number": 4530,
+      "title": "[BUG] 'The expression evaluated to a falsy value' in GitHub authentication example",
+      "created_at": "2020-11-25T21:31:41Z",
+      "closed_at": "2020-11-26T17:24:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4533",
+      "number": 4533,
+      "title": "[BUG] Cannot launch webkit on apple silicon",
+      "created_at": "2020-11-27T09:04:00Z",
+      "closed_at": "2020-12-09T18:10:34Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4624",
+      "number": 4624,
+      "title": "Endless frameattached events [BUG]",
+      "created_at": "2020-12-07T19:07:12Z",
+      "closed_at": "2021-02-05T19:30:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4686",
+      "number": 4686,
+      "title": "[BUG] Filechooser seems to fail for me",
+      "created_at": "2020-12-11T14:31:34Z",
+      "closed_at": "2020-12-16T07:58:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4775",
+      "number": 4775,
+      "title": "[Feature] Playwright does not support chromium on mac11.1",
+      "created_at": "2020-12-19T02:39:53Z",
+      "closed_at": "2021-01-14T19:45:10Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4820",
+      "number": 4820,
+      "title": "[BUG] No usable sandbox!",
+      "created_at": "2020-12-24T12:35:28Z",
+      "closed_at": "2021-01-16T18:44:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4851",
+      "number": 4851,
+      "title": "[BUG] Navigation failed because page crashed!",
+      "created_at": "2020-12-29T19:53:27Z",
+      "closed_at": "2021-01-22T01:10:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4855",
+      "number": 4855,
+      "title": "How can I figure out secure connection failed?ignorehttpserror doesn't work.",
+      "created_at": "2020-12-30T05:52:33Z",
+      "closed_at": "2022-01-01T23:06:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4966",
+      "number": 4966,
+      "title": "[BUG] No exception is thrown if invalid token is provided when connecting to a remote instance of BrowserServer",
+      "created_at": "2021-01-11T12:52:40Z",
+      "closed_at": "2021-01-11T23:53:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4996",
+      "number": 4996,
+      "title": "[BUG]install python -m playwright install on windows7 Python3.8.7, got this error message:(node:5848) UnhandledPromiseRejectionWarning: Error: connect ETIMEDOUT 13.107.24 6.13:443",
+      "created_at": "2021-01-13T08:25:16Z",
+      "closed_at": "2021-01-27T17:33:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4999",
+      "number": 4999,
+      "title": "[Question][webkit]page.reload crush session",
+      "created_at": "2021-01-13T12:01:47Z",
+      "closed_at": "2021-01-14T20:12:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5056",
+      "number": 5056,
+      "title": "[REGRESSION]: Install of chromium with playwright@next fails starting with 1.8.0-next-1610946580000",
+      "created_at": "2021-01-19T17:59:10Z",
+      "closed_at": "2021-01-20T15:12:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5066",
+      "number": 5066,
+      "title": "[BUG] yarn install results in `Error: unexpected end of file` during archive extraction (Zlib.zlibOnError)",
+      "created_at": "2021-01-20T14:04:42Z",
+      "closed_at": "2021-01-20T22:53:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5111",
+      "number": 5111,
+      "title": "[BUG] Frames crashes everything",
+      "created_at": "2021-01-22T16:15:27Z",
+      "closed_at": "2021-01-27T18:40:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5197",
+      "number": 5197,
+      "title": "[BUG] Cannot run Playwright via shell from IIS",
+      "created_at": "2021-01-28T04:33:07Z",
+      "closed_at": "2021-02-16T22:21:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5304",
+      "number": 5304,
+      "title": "[BUG] Chromium executable missing on Mac 10.17.0",
+      "created_at": "2021-02-04T06:48:04Z",
+      "closed_at": "2021-02-12T19:33:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5325",
+      "number": 5325,
+      "title": "[Question] how to use proxy with playwright ?",
+      "created_at": "2021-02-05T10:59:02Z",
+      "closed_at": "2021-02-05T23:47:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5327",
+      "number": 5327,
+      "title": "[BUG] Playwright can not close the browser when running with Chrome (no-headless mode)",
+      "created_at": "2021-02-05T13:40:12Z",
+      "closed_at": "2026-05-12T18:05:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5404",
+      "number": 5404,
+      "title": "[Question] NW.js crashes when used by Playwright",
+      "created_at": "2021-02-10T21:47:40Z",
+      "closed_at": "2021-07-12T21:25:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5443",
+      "number": 5443,
+      "title": "[BUG] Playwright does not support chromium on mac11.2",
+      "created_at": "2021-02-12T14:39:00Z",
+      "closed_at": "2021-02-24T18:29:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5445",
+      "number": 5445,
+      "title": "[BUG] Camera permission throws error for firefox and webkit",
+      "created_at": "2021-02-12T15:33:36Z",
+      "closed_at": "2021-07-12T21:25:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5636",
+      "number": 5636,
+      "title": "[BUG] Playwright install fails on windows 10 ",
+      "created_at": "2021-02-26T18:26:23Z",
+      "closed_at": "2021-03-18T01:02:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5733",
+      "number": 5733,
+      "title": "Browser Closed : UnhandledPromiseRejectionWarning (node:1744)",
+      "created_at": "2021-03-05T18:15:52Z",
+      "closed_at": "2021-03-10T01:20:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5915",
+      "number": 5915,
+      "title": "[BUG] : Codegen on loading a new page showing error - attaching Video",
+      "created_at": "2021-03-23T11:26:21Z",
+      "closed_at": "2021-03-29T22:37:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5916",
+      "number": 5916,
+      "title": "[BUG] : Chromium Issue while loading a page",
+      "created_at": "2021-03-23T12:00:09Z",
+      "closed_at": "2021-04-05T20:44:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5956",
+      "number": 5956,
+      "title": "[BUG] Can't connect playwright to lighthouse. Getting 426 error",
+      "created_at": "2021-03-25T22:11:22Z",
+      "closed_at": "2021-03-29T21:58:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6066",
+      "number": 6066,
+      "title": "electron import playwirght error",
+      "created_at": "2021-04-04T06:16:41Z",
+      "closed_at": "2021-04-13T14:47:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6105",
+      "number": 6105,
+      "title": "[BUG] Error: Unsupported platform: android",
+      "created_at": "2021-04-06T21:27:13Z",
+      "closed_at": "2021-04-08T21:01:41Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6137",
+      "number": 6137,
+      "title": "Chromium Issue while loading a page ",
+      "created_at": "2021-04-08T10:35:30Z",
+      "closed_at": "2021-05-06T22:21:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7029",
+      "number": 7029,
+      "title": "globalSetup doesn't run before all tests",
+      "created_at": "2021-04-14T00:10:17Z",
+      "closed_at": "2021-06-11T08:44:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6202",
+      "number": 6202,
+      "title": "[BUG] Error: page.goto: Navigation failed because page crashed!",
+      "created_at": "2021-04-15T08:15:17Z",
+      "closed_at": "2021-07-01T18:14:30Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6233",
+      "number": 6233,
+      "title": "[BUG] page.evaluate broken on site",
+      "created_at": "2021-04-19T18:35:32Z",
+      "closed_at": "2021-04-23T01:20:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6260",
+      "number": 6260,
+      "title": "[BUG] \"headers is not iterable\"",
+      "created_at": "2021-04-22T00:30:17Z",
+      "closed_at": "2021-04-22T20:10:10Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6266",
+      "number": 6266,
+      "title": "[BUG] Error: page.setInputFiles: Cannot create a string longer than 0x1fffffe8 characters",
+      "created_at": "2021-04-22T10:46:55Z",
+      "closed_at": "2021-04-22T15:28:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6342",
+      "number": 6342,
+      "title": "[BUG] PDF Viewer does not work in headless Chromium and leads to download the file instead",
+      "created_at": "2021-04-27T20:45:39Z",
+      "closed_at": "2021-09-28T12:57:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6356",
+      "number": 6356,
+      "title": "[BUG] page.screenshot: Evaluation failed: Error: Please keep customCSSNames in sync with evaluator engines",
+      "created_at": "2021-04-28T23:12:29Z",
+      "closed_at": "2021-04-30T18:32:21Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6500",
+      "number": 6500,
+      "title": "[BUG] Running Nightly as root in a regular user's session is not supported.",
+      "created_at": "2021-05-11T13:06:32Z",
+      "closed_at": "2023-06-05T21:33:56Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6554",
+      "number": 6554,
+      "title": "[FEATURE] Linux Mint",
+      "created_at": "2021-05-13T10:10:30Z",
+      "closed_at": "2021-05-14T03:13:41Z"
+    }
+  ]
+}

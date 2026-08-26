@@ -1,0 +1,289 @@
+{
+  "index": 37,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "no tests",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:58.610003+00:00",
+  "total_count": 39,
+  "incomplete_results": false,
+  "returned": 39,
+  "raw_response_sha256": "4e9b3d349080484700e485b0fa5ab2250ef5c202a4a833a0779a3cc9a41a1330",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/15",
+      "number": 15,
+      "title": "Fail tests that leak pipes",
+      "created_at": "2022-02-08T01:36:01Z",
+      "closed_at": "2022-07-18T18:31:13Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/39",
+      "number": 39,
+      "title": "Ensure graceful experience for trybuild users",
+      "created_at": "2022-02-14T21:42:05Z",
+      "closed_at": "2022-07-18T04:59:37Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/44",
+      "number": 44,
+      "title": "Add support for running tests without building them",
+      "created_at": "2022-02-15T10:23:42Z",
+      "closed_at": "2022-03-08T02:05:31Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/122",
+      "number": 122,
+      "title": "Unexpected behavior when custom test harnesses don't parse arguments",
+      "created_at": "2022-03-19T17:24:20Z",
+      "closed_at": "2022-04-07T23:39:30Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/260",
+      "number": 260,
+      "title": "No such file or directory when trying to run tests in another docker container than it was built in",
+      "created_at": "2022-06-06T12:44:58Z",
+      "closed_at": "2022-06-09T01:38:09Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/281",
+      "number": 281,
+      "title": "Report test failures due to signals",
+      "created_at": "2022-06-15T11:34:11Z",
+      "closed_at": "2022-06-17T06:25:41Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/561",
+      "number": 561,
+      "title": "nextest has issues running tests that use serial_test",
+      "created_at": "2022-10-05T11:26:07Z",
+      "closed_at": "2022-10-05T17:07:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/604",
+      "number": 604,
+      "title": "Why used hashed partition?",
+      "created_at": "2022-10-22T21:40:17Z",
+      "closed_at": "2022-10-22T22:20:24Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/621",
+      "number": 621,
+      "title": "Help filtering test",
+      "created_at": "2022-11-03T03:19:48Z",
+      "closed_at": "2022-12-07T16:25:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/663",
+      "number": 663,
+      "title": "[Question] Support for no_std and custom test-framework?",
+      "created_at": "2022-11-19T18:20:28Z",
+      "closed_at": "2022-11-21T19:51:27Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/687",
+      "number": 687,
+      "title": "Integration test failure while using `--all-features`",
+      "created_at": "2022-12-01T15:19:09Z",
+      "closed_at": "2022-12-05T02:12:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/715",
+      "number": 715,
+      "title": "Can't get `threads-required` working",
+      "created_at": "2022-12-16T15:33:40Z",
+      "closed_at": "2022-12-24T12:00:58Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/740",
+      "number": 740,
+      "title": "Run test parallely  when `--no-capture` flag is enabled",
+      "created_at": "2022-12-28T13:01:27Z",
+      "closed_at": "2022-12-30T09:18:36Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/757",
+      "number": 757,
+      "title": "Allow stdout for passing tests",
+      "created_at": "2023-01-10T17:54:36Z",
+      "closed_at": "2023-01-17T22:09:09Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/767",
+      "number": 767,
+      "title": "unable to find cargo-nextest-dup",
+      "created_at": "2023-01-12T13:24:51Z",
+      "closed_at": "2023-01-12T22:01:52Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/931",
+      "number": 931,
+      "title": "Configurartion for a graceful shutdown period for tests manually aborted with Ctrl+C or other signals",
+      "created_at": "2023-08-13T22:44:10Z",
+      "closed_at": "2023-10-21T23:52:06Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1036",
+      "number": 1036,
+      "title": "Combining nextest, llvm-cov and delayed execution",
+      "created_at": "2023-10-13T12:34:49Z",
+      "closed_at": "2023-10-13T15:13:25Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1068",
+      "number": 1068,
+      "title": "nextest seems to handle stdio-intensive tests less efficiently than cargo test",
+      "created_at": "2023-10-26T09:02:48Z",
+      "closed_at": "2025-03-07T19:39:39Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1107",
+      "number": 1107,
+      "title": "An option to fail if no test has been actually run",
+      "created_at": "2023-11-14T04:43:09Z",
+      "closed_at": "2024-08-25T20:32:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1109",
+      "number": 1109,
+      "title": "[Behavior change] Deprecating and disabling test name filters before --",
+      "created_at": "2023-11-14T22:38:48Z",
+      "closed_at": "2024-03-16T23:05:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1110",
+      "number": 1110,
+      "title": "Feature req.: write the list of tests being ran to a file",
+      "created_at": "2023-11-15T01:17:35Z",
+      "closed_at": "2024-10-04T07:06:28Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1158",
+      "number": 1158,
+      "title": "JUnit Test Result Trend visualization Problem ",
+      "created_at": "2023-12-11T15:01:44Z",
+      "closed_at": "2023-12-11T20:46:46Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1256",
+      "number": 1256,
+      "title": "JSON output is not emitted until tests end",
+      "created_at": "2024-01-26T23:08:04Z",
+      "closed_at": "2025-08-24T19:44:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1346",
+      "number": 1346,
+      "title": "Miri's memory usage has decreased. Thoughts on giving the default profile some parallelism?",
+      "created_at": "2024-03-01T23:47:56Z",
+      "closed_at": "2024-03-02T01:56:17Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1369",
+      "number": 1369,
+      "title": "when using nextest a test fails (doesn't fail with cargo test)",
+      "created_at": "2024-03-10T22:51:23Z",
+      "closed_at": "2024-04-09T00:17:01Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1466",
+      "number": 1466,
+      "title": "v0.9.70 using significantly more stack",
+      "created_at": "2024-04-26T03:02:58Z",
+      "closed_at": "2024-04-27T03:25:46Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1496",
+      "number": 1496,
+      "title": "nextest chooses arbitrarily not to run some tests it's found",
+      "created_at": "2024-05-11T08:23:39Z",
+      "closed_at": "2024-05-17T11:53:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1573",
+      "number": 1573,
+      "title": "Test Suite Running Very Slowly",
+      "created_at": "2024-07-12T00:07:18Z",
+      "closed_at": "2024-07-13T17:52:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1639",
+      "number": 1639,
+      "title": "Behavior change: produce a non-zero exit code (4) if no tests were run",
+      "created_at": "2024-08-18T02:34:45Z",
+      "closed_at": "2024-08-18T22:56:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1696",
+      "number": 1696,
+      "title": "capture stack backtrace of all threads in a test?",
+      "created_at": "2024-09-07T22:01:58Z",
+      "closed_at": "2024-09-08T22:40:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1933",
+      "number": 1933,
+      "title": "Bug: Inconsistent CLI flags style: `--no-tests` requires an equal sign, all others use space",
+      "created_at": "2024-12-02T13:21:32Z",
+      "closed_at": "2025-02-10T20:43:05Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1955",
+      "number": 1955,
+      "title": "Bug: Beta ignores `--no-fail-fast`",
+      "created_at": "2024-12-06T13:11:02Z",
+      "closed_at": "2024-12-06T20:42:11Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2147",
+      "number": 2147,
+      "title": "Bug: Timeouts Are Not Retried When Retries are Set",
+      "created_at": "2025-02-13T19:00:02Z",
+      "closed_at": "2025-02-13T22:39:51Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2261",
+      "number": 2261,
+      "title": "Bug: setting failure-ouput in the config prevents you fron passing the --no-run flag",
+      "created_at": "2025-03-31T06:34:47Z",
+      "closed_at": "2025-03-31T21:34:12Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2463",
+      "number": 2463,
+      "title": "nextest test suite hanging in some configurations (Cargo 1.88 bug)",
+      "created_at": "2025-07-12T00:03:43Z",
+      "closed_at": "2025-08-07T21:08:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2513",
+      "number": 2513,
+      "title": "Bug: verbose flag doesn't do anything?",
+      "created_at": "2025-08-17T19:54:09Z",
+      "closed_at": "2025-12-26T23:26:29Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2566",
+      "number": 2566,
+      "title": "Bug: `--config` arguments not forwarded to `cargo metadata`",
+      "created_at": "2025-09-10T17:49:44Z",
+      "closed_at": "2025-09-14T22:36:56Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2768",
+      "number": 2768,
+      "title": "Bug: Possible regression in rust breaks wasm-bindgen-test-runner (likely other test-runners as well)",
+      "created_at": "2025-11-13T08:29:07Z",
+      "closed_at": "2025-11-13T17:31:43Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2770",
+      "number": 2770,
+      "title": "Bug: Overflow when subtracting durations",
+      "created_at": "2025-11-14T15:12:57Z",
+      "closed_at": "2025-11-14T18:14:41Z"
+    }
+  ]
+}

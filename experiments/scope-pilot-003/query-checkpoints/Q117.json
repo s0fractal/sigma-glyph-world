@@ -1,0 +1,135 @@
+{
+  "index": 117,
+  "stratum": "artifact_conformance",
+  "repository": "ossf/scorecard",
+  "repository_id": 302670797,
+  "term": "ignored",
+  "query": "repo:ossf/scorecard is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:09.938090+00:00",
+  "total_count": 17,
+  "incomplete_results": false,
+  "returned": 17,
+  "raw_response_sha256": "e59102d92f1c4c7f5f226485e32b3a36e670d22208f3e088667083ce1947d72c",
+  "items": [
+    {
+      "url": "https://github.com/ossf/scorecard/issues/351",
+      "number": 351,
+      "title": "Check . gitignore",
+      "created_at": "2021-04-21T17:54:47Z",
+      "closed_at": "2021-04-21T23:33:24Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1256",
+      "number": 1256,
+      "title": "Binary-Artifacts false positives",
+      "created_at": "2021-11-13T05:06:18Z",
+      "closed_at": "2021-12-23T07:08:02Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1352",
+      "number": 1352,
+      "title": "DISCUSSION: improvements needed by tools scorecard uses or recommends",
+      "created_at": "2021-12-03T17:52:58Z",
+      "closed_at": "2022-02-10T10:18:29Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1415",
+      "number": 1415,
+      "title": "Feature: improve SARIF presentation in GitHub dashboard",
+      "created_at": "2021-12-23T18:25:26Z",
+      "closed_at": "2022-01-04T20:40:01Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1582",
+      "number": 1582,
+      "title": "BUG: maven signatures not detected by Signed-release check",
+      "created_at": "2022-02-01T21:06:54Z",
+      "closed_at": "2022-02-05T02:32:26Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/1815",
+      "number": 1815,
+      "title": "Binary Artifacts should allow well-known artifacts, if best practices are followed",
+      "created_at": "2022-04-04T18:34:27Z",
+      "closed_at": "2022-07-18T18:42:32Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2812",
+      "number": 2812,
+      "title": "BUG (?): Large changes to Code-Review scores between 4.10.2 and 4.10.5",
+      "created_at": "2023-03-31T22:43:49Z",
+      "closed_at": "2023-06-14T15:13:25Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/2850",
+      "number": 2850,
+      "title": "Feature: Token-Permissions should ignore `on: pull_request` workflows",
+      "created_at": "2023-04-11T14:16:18Z",
+      "closed_at": "2023-07-12T20:16:29Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3156",
+      "number": 3156,
+      "title": "The \"vulnerabilities\" check seems to be flaky",
+      "created_at": "2023-06-12T12:01:47Z",
+      "closed_at": "2023-09-25T07:28:16Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3161",
+      "number": 3161,
+      "title": "Links to OSV IDs aren't clickable",
+      "created_at": "2023-06-13T09:26:23Z",
+      "closed_at": "2023-09-25T07:28:35Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3684",
+      "number": 3684,
+      "title": "Pinned dependencies check in Dockerfile does not handle build args",
+      "created_at": "2023-11-18T15:42:57Z",
+      "closed_at": "2025-09-29T21:32:00Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/3908",
+      "number": 3908,
+      "title": "Feature: Skip .git folder in localdir client",
+      "created_at": "2024-03-01T00:50:03Z",
+      "closed_at": "2024-03-13T12:45:36Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4462",
+      "number": 4462,
+      "title": "BUG: CODEOWNERS file not located",
+      "created_at": "2024-12-18T21:22:22Z",
+      "closed_at": "2024-12-18T21:59:15Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4463",
+      "number": 4463,
+      "title": "BUG: Security policy is not detected in GitHub repository",
+      "created_at": "2024-12-18T21:29:22Z",
+      "closed_at": "2024-12-18T21:57:27Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4475",
+      "number": 4475,
+      "title": "Detect and warn about conflicting Github Tokens",
+      "created_at": "2025-01-02T06:21:16Z",
+      "closed_at": "2025-01-09T15:42:30Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4530",
+      "number": 4530,
+      "title": "osv-scanner.toml not working for vulnerability Suppression in Scorecards",
+      "created_at": "2025-02-18T18:44:29Z",
+      "closed_at": "2025-02-19T12:50:33Z"
+    },
+    {
+      "url": "https://github.com/ossf/scorecard/issues/4626",
+      "number": 4626,
+      "title": "migrate from container registry to artifact registry",
+      "created_at": "2025-04-11T16:34:05Z",
+      "closed_at": "2025-05-23T14:58:33Z"
+    }
+  ]
+}

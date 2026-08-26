@@ -1,0 +1,716 @@
+{
+  "index": 82,
+  "stratum": "lint_static_analysis",
+  "repository": "eslint/eslint",
+  "repository_id": 11061773,
+  "term": "ignored",
+  "query": "repo:eslint/eslint is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:24.348838+00:00",
+  "total_count": 245,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "5d57225efc67c399d1a230b119515e791e9ece2376565da77feec769affbd8bd",
+  "items": [
+    {
+      "url": "https://github.com/eslint/eslint/issues/12736",
+      "number": 12736,
+      "title": "Request option for array-bracket-newline to only enforce adding line breaks, not removing of line breaks",
+      "created_at": "2020-01-02T22:26:50Z",
+      "closed_at": "2020-02-11T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12745",
+      "number": 12745,
+      "title": "`--no-ignore` not work with `--stdin-filename`",
+      "created_at": "2020-01-05T17:15:36Z",
+      "closed_at": "2020-04-06T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12748",
+      "number": 12748,
+      "title": "`prefer-for-of` should include some Array methods (forEach, reduce)",
+      "created_at": "2020-01-06T05:07:53Z",
+      "closed_at": "2020-02-08T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12751",
+      "number": 12751,
+      "title": "prefer-destructuring should include or exclude certain variables so that projects can prefer to destructure some variables but not affect others",
+      "created_at": "2020-01-06T23:47:35Z",
+      "closed_at": "2020-02-09T22:43:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12756",
+      "number": 12756,
+      "title": "\"comma-style\" doesn't like ignored, multiline destructured array elements.",
+      "created_at": "2020-01-07T19:52:57Z",
+      "closed_at": "2021-07-30T22:23:03Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12769",
+      "number": 12769,
+      "title": "ESLint doesn't respect the .eslintignore and hangs on the last step",
+      "created_at": "2020-01-10T12:00:54Z",
+      "closed_at": "2020-01-14T19:27:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12773",
+      "number": 12773,
+      "title": "\"array-element-newline\" must handle ignored elements when destructuring arrays",
+      "created_at": "2020-01-10T21:48:56Z",
+      "closed_at": "2020-04-11T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12783",
+      "number": 12783,
+      "title": "Enhancement of sort-keys",
+      "created_at": "2020-01-13T19:57:59Z",
+      "closed_at": "2020-02-16T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12845",
+      "number": 12845,
+      "title": "no-magic-numbers false negatives on invalid array indexes",
+      "created_at": "2020-01-29T23:57:55Z",
+      "closed_at": "2020-03-28T00:27:07Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12854",
+      "number": 12854,
+      "title": "ESLint attempting to load parser for directory inside node_modules",
+      "created_at": "2020-01-31T17:51:05Z",
+      "closed_at": "2020-03-05T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12871",
+      "number": 12871,
+      "title": "no-unused-vars should warn on the offending assignment instead of declaration",
+      "created_at": "2020-02-04T17:26:31Z",
+      "closed_at": "2020-03-07T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12873",
+      "number": 12873,
+      "title": "Eslint falsely reports matching configured ignore pattern for implicit ignore pattern",
+      "created_at": "2020-02-05T04:58:48Z",
+      "closed_at": "2020-03-28T00:18:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12874",
+      "number": 12874,
+      "title": "new cap: option capIsNewExceptionPattern is not behaving as documented",
+      "created_at": "2020-02-05T10:50:35Z",
+      "closed_at": "2021-06-26T19:01:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12907",
+      "number": 12907,
+      "title": "[spaced-comment] require two (N) spaces before a line comment?",
+      "created_at": "2020-02-13T00:43:15Z",
+      "closed_at": "2020-03-27T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12917",
+      "number": 12917,
+      "title": "More configurable `ignorePatterns`.",
+      "created_at": "2020-02-14T17:07:38Z",
+      "closed_at": "2020-02-17T17:31:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12934",
+      "number": 12934,
+      "title": "Neither `// eslint-disable-next-line` nor `/* eslint-disable no-empty */` nor `/* eslint-disable no-unused-expression */` work on the latest stable `6.8.0` version ",
+      "created_at": "2020-02-18T11:29:47Z",
+      "closed_at": "2020-02-19T21:00:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12936",
+      "number": 12936,
+      "title": "ESLint is taking too long to run --max-warnings doesn't work",
+      "created_at": "2020-02-19T00:55:43Z",
+      "closed_at": "2020-03-29T03:39:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12938",
+      "number": 12938,
+      "title": "Dotfiles still being ignored with version 6.8.0",
+      "created_at": "2020-02-19T12:36:16Z",
+      "closed_at": "2020-02-23T18:27:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12970",
+      "number": 12970,
+      "title": "newline-per-chained-call not working as expected",
+      "created_at": "2020-02-27T07:54:51Z",
+      "closed_at": "2020-04-08T03:39:18Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12981",
+      "number": 12981,
+      "title": "Can't unignore a file when directory ignored",
+      "created_at": "2020-02-28T15:27:27Z",
+      "closed_at": "2020-03-02T12:40:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12993",
+      "number": 12993,
+      "title": "`padded-blocks`: Add \"iife\" object option",
+      "created_at": "2020-03-04T03:10:02Z",
+      "closed_at": "2020-04-09T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13006",
+      "number": 13006,
+      "title": "Documentation bug: Re: linting `node_modules`",
+      "created_at": "2020-03-06T06:55:28Z",
+      "closed_at": "2020-03-21T00:24:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13013",
+      "number": 13013,
+      "title": "Note if `/* exported */` applies when using `--no-inline-config`",
+      "created_at": "2020-03-07T11:53:07Z",
+      "closed_at": "2020-04-13T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13031",
+      "number": 13031,
+      "title": "eslint --ignore-path <file> Path interpretation in files",
+      "created_at": "2020-03-11T16:31:36Z",
+      "closed_at": "2020-04-12T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13041",
+      "number": 13041,
+      "title": "Camelcase rule change for #9470",
+      "created_at": "2020-03-13T02:13:46Z",
+      "closed_at": "2020-04-29T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13085",
+      "number": 13085,
+      "title": "Error while installing ESlint (Legacy versions of mkdirp)",
+      "created_at": "2020-03-24T18:12:44Z",
+      "closed_at": "2020-03-24T18:38:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13090",
+      "number": 13090,
+      "title": "[max-params] can ignore constructor() of Class?",
+      "created_at": "2020-03-25T11:51:42Z",
+      "closed_at": "2020-03-25T18:24:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13131",
+      "number": 13131,
+      "title": "Option to ignore slice indices in no-magic-numbers",
+      "created_at": "2020-04-01T18:11:26Z",
+      "closed_at": "2020-05-03T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13147",
+      "number": 13147,
+      "title": "Do not ignore eslintrc below eslintignore path",
+      "created_at": "2020-04-06T11:04:33Z",
+      "closed_at": "2020-06-12T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13174",
+      "number": 13174,
+      "title": "Eslint 6.8.0 does not follow symlinked directory in Atom but it does in VSCode",
+      "created_at": "2020-04-12T12:15:13Z",
+      "closed_at": "2020-05-18T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13183",
+      "number": 13183,
+      "title": "Parameter \"varsIgnorePattern\" should ensure that they will never be read",
+      "created_at": "2020-04-15T13:57:18Z",
+      "closed_at": "2020-05-20T03:39:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13187",
+      "number": 13187,
+      "title": "node_modules is not ignored when running from a child-module",
+      "created_at": "2020-04-16T11:58:47Z",
+      "closed_at": "2020-05-19T09:03:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13209",
+      "number": 13209,
+      "title": "eslint never finishes",
+      "created_at": "2020-04-22T12:14:52Z",
+      "closed_at": "2020-04-22T22:52:39Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13229",
+      "number": 13229,
+      "title": "Bug: `capitalized-comments` yelling about an inline comment",
+      "created_at": "2020-04-27T15:14:10Z",
+      "closed_at": "2020-05-30T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13236",
+      "number": 13236,
+      "title": "--ignore-pattern from CLI is ignored if it is set in eslintrc",
+      "created_at": "2020-04-29T19:37:42Z",
+      "closed_at": "2020-05-31T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13281",
+      "number": 13281,
+      "title": "Support Specifying Ignore Patterns For consistent-return",
+      "created_at": "2020-05-10T20:35:53Z",
+      "closed_at": "2020-06-13T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13283",
+      "number": 13283,
+      "title": "Failed to load config \"react-app\" to extend from.",
+      "created_at": "2020-05-11T12:47:07Z",
+      "closed_at": "2020-06-16T03:39:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13294",
+      "number": 13294,
+      "title": "Upgrade ignore to 5.x?",
+      "created_at": "2020-05-13T15:19:57Z",
+      "closed_at": "2021-09-06T00:18:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13319",
+      "number": 13319,
+      "title": "array-bracket-spacing autofix removes inline comments",
+      "created_at": "2020-05-18T15:15:16Z",
+      "closed_at": "2023-11-04T23:47:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13385",
+      "number": 13385,
+      "title": "ESLint couldn't determine the plugin uniquely.",
+      "created_at": "2020-06-03T07:49:51Z",
+      "closed_at": "2020-06-09T14:22:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13428",
+      "number": 13428,
+      "title": "Codespell report for \"ESLint\" (on fossies.org)",
+      "created_at": "2020-06-19T19:47:37Z",
+      "closed_at": "2020-07-27T00:29:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13442",
+      "number": 13442,
+      "title": "`no-unused-vars` should not activate on object destructuring with `...rest`",
+      "created_at": "2020-06-23T21:36:15Z",
+      "closed_at": "2020-06-23T22:10:57Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13472",
+      "number": 13472,
+      "title": "Support directive comment groups",
+      "created_at": "2020-07-07T19:56:16Z",
+      "closed_at": "2020-08-21T00:29:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13481",
+      "number": 13481,
+      "title": "Implement Flat Config",
+      "created_at": "2020-07-10T16:04:34Z",
+      "closed_at": "2025-11-12T22:36:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13517",
+      "number": 13517,
+      "title": "ESLint ignores its own cache",
+      "created_at": "2020-07-21T21:27:20Z",
+      "closed_at": "2020-08-23T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13551",
+      "number": 13551,
+      "title": "Symbolic links are ignored",
+      "created_at": "2020-08-07T15:20:49Z",
+      "closed_at": "2021-02-26T00:25:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13560",
+      "number": 13560,
+      "title": "Ignore negation doesn't seem to work",
+      "created_at": "2020-08-12T05:47:42Z",
+      "closed_at": "2020-09-13T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13651",
+      "number": 13651,
+      "title": "feature request: eslint-disable comments are time-boxed (snoozeable)",
+      "created_at": "2020-09-02T17:53:28Z",
+      "closed_at": "2020-10-03T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13740",
+      "number": 13740,
+      "title": "Report \"\\8\" and \"\\9\" in no-octal-escape",
+      "created_at": "2020-10-06T17:24:08Z",
+      "closed_at": "2020-10-16T23:46:14Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13773",
+      "number": 13773,
+      "title": "(spaced-comment) rule",
+      "created_at": "2020-10-20T09:30:10Z",
+      "closed_at": "2020-11-20T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13789",
+      "number": 13789,
+      "title": "Error arfter upgrade 7.11.0 ->7.12.0 \" The \"path\" argument must be of type string. Received undefined\"",
+      "created_at": "2020-10-24T19:44:56Z",
+      "closed_at": "2020-10-27T03:07:37Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13801",
+      "number": 13801,
+      "title": "Bug with automatic formatting for \"function-paren-newline\" rule",
+      "created_at": "2020-10-29T03:43:37Z",
+      "closed_at": "2020-10-30T01:16:17Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13816",
+      "number": 13816,
+      "title": "eslint glob behavior gives warnings on Windows, but does not on a OSX",
+      "created_at": "2020-11-05T13:16:59Z",
+      "closed_at": "2020-11-06T20:43:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13822",
+      "number": 13822,
+      "title": "eslint binary not installed locally in 7.12.1 (works in 7.9.0)",
+      "created_at": "2020-11-06T17:35:49Z",
+      "closed_at": "2020-12-07T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13871",
+      "number": 13871,
+      "title": "CLI: Specifying an external config causes ESLint to ignore per-directory overrides",
+      "created_at": "2020-11-20T18:00:24Z",
+      "closed_at": "2020-12-22T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13881",
+      "number": 13881,
+      "title": "Turn off complexity for switch statement.",
+      "created_at": "2020-11-24T10:19:59Z",
+      "closed_at": "2020-12-31T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13896",
+      "number": 13896,
+      "title": "Bug : .eslintrc in node_modules directories are not ignored",
+      "created_at": "2020-12-01T13:49:32Z",
+      "closed_at": "2020-12-01T18:52:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13898",
+      "number": 13898,
+      "title": "Add the --quiet option (to only output errors and not warnings) to the configuration file",
+      "created_at": "2020-12-01T13:56:12Z",
+      "closed_at": "2021-01-15T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13903",
+      "number": 13903,
+      "title": "Populate context.options with the default values when no options are present",
+      "created_at": "2020-12-02T21:20:39Z",
+      "closed_at": "2021-01-09T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13909",
+      "number": 13909,
+      "title": "no-param-reassign should trigger loops parameters",
+      "created_at": "2020-12-05T12:27:05Z",
+      "closed_at": "2021-01-11T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13974",
+      "number": 13974,
+      "title": "CLIEngine.getConfigForFile() fails after Webpack.",
+      "created_at": "2021-01-02T14:36:54Z",
+      "closed_at": "2021-05-28T00:34:30Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14047",
+      "number": 14047,
+      "title": "Default ignore results in top-level node_modules directory to be traversed",
+      "created_at": "2021-01-27T13:04:54Z",
+      "closed_at": "2021-01-27T14:25:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14073",
+      "number": 14073,
+      "title": " Is no-irregular-whitespace fixable?",
+      "created_at": "2021-02-06T08:23:42Z",
+      "closed_at": "2021-04-08T00:53:39Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14093",
+      "number": 14093,
+      "title": "[max-statements]: add option to not count lines as statements if they start as filter regexp",
+      "created_at": "2021-02-11T11:42:40Z",
+      "closed_at": "2021-02-13T01:07:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15687",
+      "number": 15687,
+      "title": "Overrides of ignore patterns",
+      "created_at": "2021-02-12T02:22:13Z",
+      "closed_at": "2022-10-14T17:50:53Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14104",
+      "number": 14104,
+      "title": "`semi` `beforeStatementContinuationChars` without `never`",
+      "created_at": "2021-02-13T14:10:30Z",
+      "closed_at": "2021-02-14T22:43:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14116",
+      "number": 14116,
+      "title": "Scheduled release for February 26th, 2021",
+      "created_at": "2021-02-15T22:48:19Z",
+      "closed_at": "2021-03-02T00:09:16Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14156",
+      "number": 14156,
+      "title": "eslint --init: Parsing error: Cannot use keyword 'await' outside an async function",
+      "created_at": "2021-03-01T19:32:35Z",
+      "closed_at": "2021-03-03T22:31:00Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14158",
+      "number": 14158,
+      "title": "7.21.0 release not ignoring node_modules ?",
+      "created_at": "2021-03-02T01:23:43Z",
+      "closed_at": "2021-03-03T00:20:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14167",
+      "number": 14167,
+      "title": "Being able to disable each option in indent rule",
+      "created_at": "2021-03-02T20:35:49Z",
+      "closed_at": "2021-03-02T22:55:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14189",
+      "number": 14189,
+      "title": "Option to allow reassigning default parameters when no-param-reassign is set",
+      "created_at": "2021-03-09T06:49:46Z",
+      "closed_at": "2021-03-10T12:55:50Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14229",
+      "number": 14229,
+      "title": "ESLint ignores all folders starting with dot",
+      "created_at": "2021-03-18T10:50:36Z",
+      "closed_at": "2021-03-18T19:19:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14284",
+      "number": 14284,
+      "title": "allowing eslint-disable-next-line directives to have extra lines only for descriptions",
+      "created_at": "2021-04-01T04:45:52Z",
+      "closed_at": "2021-12-29T10:21:46Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14342",
+      "number": 14342,
+      "title": "no-restricted-imports does not show which member is deprecated or allow for message customization per member",
+      "created_at": "2021-04-19T17:11:02Z",
+      "closed_at": "2021-04-21T00:33:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14597",
+      "number": 14597,
+      "title": "Ability to print out the list of top disabled rules",
+      "created_at": "2021-05-19T02:41:42Z",
+      "closed_at": "2025-06-05T19:17:14Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14650",
+      "number": 14650,
+      "title": "--ext doesn't work on the command line",
+      "created_at": "2021-05-31T15:19:25Z",
+      "closed_at": "2021-06-09T00:56:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14655",
+      "number": 14655,
+      "title": "padding-line-between-statements: multiline-const rules are ignored when using export",
+      "created_at": "2021-06-02T01:42:13Z",
+      "closed_at": "2021-06-25T01:15:53Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14661",
+      "number": 14661,
+      "title": "Change how to write rules",
+      "created_at": "2021-06-03T15:36:41Z",
+      "closed_at": "2021-06-04T00:40:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14686",
+      "number": 14686,
+      "title": "node_modules file is not ignored correctly if it contains eslint config",
+      "created_at": "2021-06-09T12:31:20Z",
+      "closed_at": "2021-10-19T00:36:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14758",
+      "number": 14758,
+      "title": "Add ignore list to no-use-before-define",
+      "created_at": "2021-06-30T10:27:30Z",
+      "closed_at": "2021-07-03T00:42:10Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14775",
+      "number": 14775,
+      "title": "Files to be ignored depend on working directory",
+      "created_at": "2021-07-07T01:34:13Z",
+      "closed_at": "2023-01-30T20:43:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14972",
+      "number": 14972,
+      "title": "Fix docs about the config in the root directory",
+      "created_at": "2021-08-24T03:16:28Z",
+      "closed_at": "2021-12-31T00:34:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15010",
+      "number": 15010,
+      "title": "Remove warnings when linting ignored files",
+      "created_at": "2021-08-31T18:36:58Z",
+      "closed_at": "2023-10-01T16:00:10Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15035",
+      "number": 15035,
+      "title": "Change Request: Don't Warn That Files Were Ignored by Default When They Were Ignored Explicitly",
+      "created_at": "2021-09-08T05:51:29Z",
+      "closed_at": "2021-09-08T20:04:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15057",
+      "number": 15057,
+      "title": "Bug: no-restricted-imports negate pattern doesn't work",
+      "created_at": "2021-09-13T22:14:50Z",
+      "closed_at": "2021-09-14T08:49:38Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15121",
+      "number": 15121,
+      "title": "New Rule: no-override-native-methods | no-assignment-native-props?",
+      "created_at": "2021-09-29T13:02:25Z",
+      "closed_at": "2021-12-11T01:24:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15124",
+      "number": 15124,
+      "title": "📝 Rule Change: `padded-blocks` - Option to set minimum number of statements to require in block, before applying the rule",
+      "created_at": "2021-09-30T09:17:17Z",
+      "closed_at": "2021-09-30T18:07:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15219",
+      "number": 15219,
+      "title": "Rule Change: Have `no-unreachable-loop` ignore async iterators",
+      "created_at": "2021-10-26T16:40:45Z",
+      "closed_at": "2021-12-28T00:46:17Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15284",
+      "number": 15284,
+      "title": "Feedback Needed: Passing options to parsers with new config system",
+      "created_at": "2021-11-10T16:29:14Z",
+      "closed_at": "2022-01-11T00:45:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15288",
+      "number": 15288,
+      "title": "Change Request: (Allow silently ignoring explicitly passed files)",
+      "created_at": "2021-11-11T12:15:26Z",
+      "closed_at": "2021-11-12T01:49:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15359",
+      "number": 15359,
+      "title": "Bug: Negated ignore patterns not working with ignorePatterns",
+      "created_at": "2021-11-26T16:03:07Z",
+      "closed_at": "2021-11-26T17:17:57Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15456",
+      "number": 15456,
+      "title": "Bug: \"use strict\" should not trigger strict mode in ES3",
+      "created_at": "2021-12-25T18:38:05Z",
+      "closed_at": "2022-04-28T00:45:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15466",
+      "number": 15466,
+      "title": "Change Request: Enable `reportUnusedDisableDirectives` config option by default",
+      "created_at": "2021-12-29T15:50:12Z",
+      "closed_at": "2023-12-28T09:23:39Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15510",
+      "number": 15510,
+      "title": "Bug: missing property `fatalErrorCount` in ignored file results",
+      "created_at": "2022-01-11T22:17:05Z",
+      "closed_at": "2022-01-14T00:45:33Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15528",
+      "number": 15528,
+      "title": "Bug: eslint reading config from parent directory",
+      "created_at": "2022-01-17T19:43:38Z",
+      "closed_at": "2022-01-17T19:48:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15538",
+      "number": 15538,
+      "title": "`$ eslint **/**/*.{ts,tsx}` shows warnings for `node_modules`",
+      "created_at": "2022-01-22T14:01:12Z",
+      "closed_at": "2022-01-23T10:29:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15642",
+      "number": 15642,
+      "title": "Bug: can't escape `]` in `.eslintignore`",
+      "created_at": "2022-02-25T11:21:21Z",
+      "closed_at": "2022-03-11T22:09:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15661",
+      "number": 15661,
+      "title": "Change Request: Matching behavior in flat config",
+      "created_at": "2022-03-02T02:47:05Z",
+      "closed_at": "2022-08-01T04:07:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15757",
+      "number": 15757,
+      "title": "Bug: SyntaxError: Unexpected token 'extends'",
+      "created_at": "2022-04-04T16:18:18Z",
+      "closed_at": "2022-04-17T11:17:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15796",
+      "number": 15796,
+      "title": "Bug: Option ignoreConstructors of object-shorthand doesn't ignore prototype's constructor property",
+      "created_at": "2022-04-22T08:09:37Z",
+      "closed_at": "2022-08-14T00:33:24Z"
+    }
+  ]
+}

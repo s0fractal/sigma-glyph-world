@@ -1,0 +1,37 @@
+{
+  "index": 34,
+  "stratum": "tests",
+  "repository": "cypress-io/cypress",
+  "repository_id": 31629751,
+  "term": "reports success",
+  "query": "repo:cypress-io/cypress is:issue is:closed created:2020-01-01..2025-12-31 \"reports success\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:50.201736+00:00",
+  "total_count": 3,
+  "incomplete_results": false,
+  "returned": 3,
+  "raw_response_sha256": "5e57cdae9580195094145c681eabbf02ac94ef9725b365ea5f8719031a06ae76",
+  "items": [
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/17752",
+      "number": 17752,
+      "title": "run-ct returns with exit code 0 when tests fail - breaking CI detection of failed tests",
+      "created_at": "2021-08-16T19:19:37Z",
+      "closed_at": "2021-08-26T15:57:27Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/29319",
+      "number": 29319,
+      "title": "Support Ubuntu 24.04",
+      "created_at": "2024-04-12T15:32:27Z",
+      "closed_at": "2024-05-14T17:24:07Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/31268",
+      "number": 31268,
+      "title": "Skipped test sometimes runs and fails due to intermittent Cypress issue",
+      "created_at": "2025-03-12T05:16:07Z",
+      "closed_at": "2025-09-24T02:02:08Z"
+    }
+  ]
+}

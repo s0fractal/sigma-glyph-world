@@ -1,0 +1,86 @@
+{
+  "index": 149,
+  "stratum": "proofs_build_completeness",
+  "repository": "agda/agda",
+  "repository_id": 40411471,
+  "term": "no tests",
+  "query": "repo:agda/agda is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:38.165732+00:00",
+  "total_count": 10,
+  "incomplete_results": false,
+  "returned": 10,
+  "raw_response_sha256": "97b7471b57bccca7ab42838121126a24f92af839938098b8753f1567f1f96fff",
+  "items": [
+    {
+      "url": "https://github.com/agda/agda/issues/4795",
+      "number": 4795,
+      "title": "Build \"agda-tests\" fails using dynamic linking",
+      "created_at": "2020-07-08T17:25:42Z",
+      "closed_at": "2020-07-28T21:28:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4805",
+      "number": 4805,
+      "title": "Build failure in doc/user-manual/language/cubical.lagda",
+      "created_at": "2020-07-23T17:36:07Z",
+      "closed_at": "2020-10-28T14:46:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/4850",
+      "number": 4850,
+      "title": "Makefile requires global installation of GHC and Cabal",
+      "created_at": "2020-08-18T08:56:59Z",
+      "closed_at": "2020-09-02T14:50:16Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5133",
+      "number": 5133,
+      "title": "Current master fails LaTeX-related tests",
+      "created_at": "2021-01-15T17:27:47Z",
+      "closed_at": "2021-02-04T13:07:45Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5302",
+      "number": 5302,
+      "title": "building tests with cabal",
+      "created_at": "2021-04-04T11:30:02Z",
+      "closed_at": "2021-09-02T10:37:23Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5352",
+      "number": 5352,
+      "title": "Testsuite: Let `--double-check` be controlled by `.flags`",
+      "created_at": "2021-04-29T10:14:01Z",
+      "closed_at": "2021-04-29T12:57:45Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5607",
+      "number": 5607,
+      "title": "Retire the JS backend?",
+      "created_at": "2021-10-19T20:34:11Z",
+      "closed_at": "2022-03-25T15:30:15Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/5649",
+      "number": 5649,
+      "title": "Fully migrate CI to GHC 9.2",
+      "created_at": "2021-11-14T22:04:12Z",
+      "closed_at": "2022-06-12T19:10:44Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/6128",
+      "number": 6128,
+      "title": "Stack CI times out for Windows",
+      "created_at": "2022-09-23T14:27:10Z",
+      "closed_at": "2022-10-23T20:10:12Z"
+    },
+    {
+      "url": "https://github.com/agda/agda/issues/8070",
+      "number": 8070,
+      "title": "Missing test that `--caching` actually does the caching",
+      "created_at": "2025-08-14T14:37:21Z",
+      "closed_at": "2026-03-04T15:30:46Z"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "index": 143,
+  "stratum": "proofs_build_completeness",
+  "repository": "rocq-prover/rocq",
+  "repository_id": 1377159,
+  "term": "false positive",
+  "query": "repo:rocq-prover/rocq is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:20.811478+00:00",
+  "total_count": 7,
+  "incomplete_results": false,
+  "returned": 7,
+  "raw_response_sha256": "495db77a9734041143426e3adc4d7e5319210027384866d00d53cf1ceec2d306",
+  "items": [
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14014",
+      "number": 14014,
+      "title": "[test-suite] Performance tests are flaky and should be removed from the test-suite.",
+      "created_at": "2021-03-26T18:08:20Z",
+      "closed_at": "2026-02-11T02:19:28Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14015",
+      "number": 14015,
+      "title": "Broken SR with SProp",
+      "created_at": "2021-03-26T20:46:04Z",
+      "closed_at": "2022-02-13T20:33:04Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16998",
+      "number": 16998,
+      "title": "Strict positivity check for types defined using `fix` and `match`",
+      "created_at": "2022-12-15T05:07:33Z",
+      "closed_at": "2022-12-23T16:36:45Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17449",
+      "number": 17449,
+      "title": "`Set Ltac Backtrace` throws `Not_found` exception in 8.17.0",
+      "created_at": "2023-03-31T10:36:17Z",
+      "closed_at": "2023-04-01T13:19:20Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18078",
+      "number": 18078,
+      "title": "Idea for a more useful variant of `Hint Mode` `+`",
+      "created_at": "2023-09-22T18:15:24Z",
+      "closed_at": "2026-04-30T15:42:45Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19077",
+      "number": 19077,
+      "title": "anomaly uncaught exception not_found",
+      "created_at": "2024-05-23T19:04:36Z",
+      "closed_at": "2024-06-10T13:50:09Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19536",
+      "number": 19536,
+      "title": "Warning attributes on notations do not apply when they are imported",
+      "created_at": "2024-09-12T13:22:55Z",
+      "closed_at": "2024-09-13T12:57:40Z"
+    }
+  ]
+}

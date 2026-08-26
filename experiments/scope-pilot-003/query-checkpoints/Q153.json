@@ -1,0 +1,15 @@
+{
+  "index": 153,
+  "stratum": "proofs_build_completeness",
+  "repository": "agda/agda",
+  "repository_id": 40411471,
+  "term": "reports success",
+  "query": "repo:agda/agda is:issue is:closed created:2020-01-01..2025-12-31 \"reports success\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:50.111720+00:00",
+  "total_count": 0,
+  "incomplete_results": false,
+  "returned": 0,
+  "raw_response_sha256": "c9938edecb99d754b2d039ac9eec320a94c769b6a6417921e2dcbef9e2fe01a0",
+  "items": []
+}

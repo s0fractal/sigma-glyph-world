@@ -1,0 +1,716 @@
+{
+  "index": 67,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "not run",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:32.627667+00:00",
+  "total_count": 147,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "48d12cc78b0faededed396ce0429cf6304a254ed4cf01a9b10e4dc01ed1f8f17",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/8320",
+      "number": 8320,
+      "title": "\"maximum semantic analysis iteration count reached\" with TypeVar bound to recursive type definition",
+      "created_at": "2020-01-23T12:54:29Z",
+      "closed_at": "2022-08-23T01:34:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8349",
+      "number": 8349,
+      "title": "mypy skips type checking if it sees assertion inconsistent with param signature",
+      "created_at": "2020-01-31T11:46:22Z",
+      "closed_at": "2020-01-31T16:03:51Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8353",
+      "number": 8353,
+      "title": "super(self.__class__, self) causes INTERNAL ERROR (AssertionError: unreachable)",
+      "created_at": "2020-02-01T17:49:22Z",
+      "closed_at": "2020-08-02T09:15:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8400",
+      "number": 8400,
+      "title": "<directory> is not a valid Python package name",
+      "created_at": "2020-02-13T22:07:43Z",
+      "closed_at": "2020-02-17T10:18:54Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8497",
+      "number": 8497,
+      "title": "[Bug report] Name '...' is not defined when wildcard importing local module",
+      "created_at": "2020-03-05T20:13:14Z",
+      "closed_at": "2020-03-06T23:35:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8504",
+      "number": 8504,
+      "title": "Python executable inference not run when using --py2 of --python-version",
+      "created_at": "2020-03-06T23:39:59Z",
+      "closed_at": "2022-03-31T09:03:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8520",
+      "number": 8520,
+      "title": "Incompatible import of \"Literal\" (imported name has type \"typing_extensions._SpecialForm\", local name has type \"typing._SpecialForm\")",
+      "created_at": "2020-03-10T16:52:17Z",
+      "closed_at": "2020-03-14T02:29:54Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8567",
+      "number": 8567,
+      "title": "Navigating to file within site-packages and type checking with mypy causes site-packages is in the PYTHONPATH",
+      "created_at": "2020-03-21T10:48:21Z",
+      "closed_at": "2020-04-04T23:50:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8754",
+      "number": 8754,
+      "title": "Implicit re-exports should not be disabled for installed PEP 561 packages",
+      "created_at": "2020-05-01T07:59:50Z",
+      "closed_at": "2023-11-12T22:36:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8823",
+      "number": 8823,
+      "title": "Cannot silence \"unused 'type: ignore'\" in version specific code",
+      "created_at": "2020-05-14T13:49:25Z",
+      "closed_at": "2023-05-02T15:47:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8989",
+      "number": 8989,
+      "title": "Hello everyone, I am making an exe file from python(.py) using pyinstaller. The code requires connection to SQL database through cx_Oracle. Exe file gets created successfully and runs on my PC properly. However, when I share it with a team member of mine, it does not run on some other PC and gives this error: \"cannot open self abc or archive abc.pkg\" (abc being the name of exe). It would be very nice if someone could help on the same.",
+      "created_at": "2020-06-11T12:31:49Z",
+      "closed_at": "2020-06-11T13:48:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9169",
+      "number": 9169,
+      "title": "Regression from 0.750 - Literal types cause significant slowdown",
+      "created_at": "2020-07-18T05:50:43Z",
+      "closed_at": "2022-07-17T00:35:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9365",
+      "number": 9365,
+      "title": "Feature request: Custom path for ini file with dmypy",
+      "created_at": "2020-08-27T13:27:01Z",
+      "closed_at": "2020-08-27T13:33:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9434",
+      "number": 9434,
+      "title": "unused ignore comment changes depending on cache",
+      "created_at": "2020-09-10T09:45:27Z",
+      "closed_at": "2023-06-07T18:17:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9455",
+      "number": 9455,
+      "title": "False positive when using type set as function",
+      "created_at": "2020-09-18T07:05:51Z",
+      "closed_at": "2025-02-05T22:45:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9591",
+      "number": 9591,
+      "title": "mypy appears to become inefficient for nested ifs (13+ nested ifs)",
+      "created_at": "2020-10-13T17:23:48Z",
+      "closed_at": "2022-05-20T15:37:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9677",
+      "number": 9677,
+      "title": "Running mypy on the current directory without some OS-specific stuff",
+      "created_at": "2020-10-31T16:35:22Z",
+      "closed_at": "2020-12-12T02:21:59Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9678",
+      "number": 9678,
+      "title": "stubs for plugin not found when plugin on PYTHONPATH",
+      "created_at": "2020-10-31T18:29:24Z",
+      "closed_at": "2020-12-14T09:44:48Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9681",
+      "number": 9681,
+      "title": "Dealing with incompatible types when value changes type?",
+      "created_at": "2020-10-31T20:31:48Z",
+      "closed_at": "2020-10-31T20:35:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9696",
+      "number": 9696,
+      "title": "Do not run CI builds on pushes to branches",
+      "created_at": "2020-11-03T15:00:22Z",
+      "closed_at": "2021-10-31T07:08:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9777",
+      "number": 9777,
+      "title": "`type: ignore` only works when deleting mypy cache",
+      "created_at": "2020-12-02T22:43:52Z",
+      "closed_at": "2021-08-06T20:01:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9792",
+      "number": 9792,
+      "title": "[Question]A simple implementation of utility generic ReturnType not work in mypy",
+      "created_at": "2020-12-11T05:19:24Z",
+      "closed_at": "2020-12-11T06:06:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9814",
+      "number": 9814,
+      "title": "\"beep-boop is not a valid Python package name\"",
+      "created_at": "2020-12-16T20:18:56Z",
+      "closed_at": "2020-12-16T20:26:59Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9826",
+      "number": 9826,
+      "title": "Optional with a test still think it could be None",
+      "created_at": "2020-12-20T09:54:48Z",
+      "closed_at": "2021-01-07T07:07:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9852",
+      "number": 9852,
+      "title": "Cache causes mypy to fail every 2nd run for module importing from aws_cdk",
+      "created_at": "2020-12-29T13:43:39Z",
+      "closed_at": "2021-08-06T20:01:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9884",
+      "number": 9884,
+      "title": "Anonymous and inline declaration of `TypedDict` types",
+      "created_at": "2021-01-07T02:46:50Z",
+      "closed_at": "2024-07-07T09:59:21Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9944",
+      "number": 9944,
+      "title": "Mypy doesn't find type hints in imported module",
+      "created_at": "2021-01-22T22:36:19Z",
+      "closed_at": "2021-01-24T19:08:21Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9967",
+      "number": 9967,
+      "title": "INTERNAL ERROR running against a Trio PR",
+      "created_at": "2021-01-25T18:49:47Z",
+      "closed_at": "2021-11-28T02:46:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9981",
+      "number": 9981,
+      "title": "Please revert new source finding behaviour or add some way to exclude paths",
+      "created_at": "2021-01-27T15:47:43Z",
+      "closed_at": "2021-02-10T16:25:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9989",
+      "number": 9989,
+      "title": "Allow error codes to be disabled inline",
+      "created_at": "2021-01-28T15:17:21Z",
+      "closed_at": "2022-03-27T21:02:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9996",
+      "number": 9996,
+      "title": "False positive result in 0.800: \"run_path\" does not return a value",
+      "created_at": "2021-01-30T07:40:34Z",
+      "closed_at": "2021-01-30T07:49:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10118",
+      "number": 10118,
+      "title": "Have dmypy gracefully ignore report generation settings",
+      "created_at": "2021-02-20T00:50:48Z",
+      "closed_at": "2022-03-19T15:56:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10139",
+      "number": 10139,
+      "title": "Type alias fails but long version works.",
+      "created_at": "2021-02-26T10:38:08Z",
+      "closed_at": "2021-03-05T15:22:17Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10413",
+      "number": 10413,
+      "title": "Incremental Adoption",
+      "created_at": "2021-05-04T13:41:31Z",
+      "closed_at": "2021-05-04T17:15:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10516",
+      "number": 10516,
+      "title": "Type of existing variable is not being specified when statement in assignment returns Awaitable ",
+      "created_at": "2021-05-21T12:28:30Z",
+      "closed_at": "2023-08-12T06:22:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10571",
+      "number": 10571,
+      "title": "TypeVar introspection not working in mypy. ",
+      "created_at": "2021-06-01T12:50:58Z",
+      "closed_at": "2021-06-02T04:32:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10592",
+      "number": 10592,
+      "title": "mypy command not found",
+      "created_at": "2021-06-08T15:02:08Z",
+      "closed_at": "2021-06-09T19:58:17Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10601",
+      "number": 10601,
+      "title": "ignore-missing-import option does not work on false positive \"Library stubs not installed for X\"",
+      "created_at": "2021-06-08T22:46:19Z",
+      "closed_at": "2021-06-09T16:01:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10604",
+      "number": 10604,
+      "title": "Allow marking test cases in .test files with -xfail",
+      "created_at": "2021-06-09T01:44:35Z",
+      "closed_at": "2021-06-13T18:22:22Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10633",
+      "number": 10633,
+      "title": "Find library stubs in __pypackages__",
+      "created_at": "2021-06-11T17:03:35Z",
+      "closed_at": "2022-08-06T03:32:02Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10637",
+      "number": 10637,
+      "title": "`while x is not None` not recognised by Optional type",
+      "created_at": "2021-06-13T11:27:28Z",
+      "closed_at": "2021-08-03T23:02:37Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10644",
+      "number": 10644,
+      "title": "mypy errors every other run",
+      "created_at": "2021-06-14T19:00:24Z",
+      "closed_at": "2021-08-06T20:02:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10648",
+      "number": 10648,
+      "title": "Docs: Postponed evaluation of annotations deferred to 3.11",
+      "created_at": "2021-06-15T16:11:44Z",
+      "closed_at": "2021-06-17T06:44:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10700",
+      "number": 10700,
+      "title": "mypy 0.910 now fails if stubs package is missing",
+      "created_at": "2021-06-23T06:50:51Z",
+      "closed_at": "2021-06-23T09:27:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10724",
+      "number": 10724,
+      "title": "0.910: pytest is failing",
+      "created_at": "2021-06-27T00:33:55Z",
+      "closed_at": "2021-06-27T00:38:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10810",
+      "number": 10810,
+      "title": "Run mypy programmatically on entire files (was #2369)",
+      "created_at": "2021-07-12T16:53:33Z",
+      "closed_at": "2021-07-13T00:38:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10906",
+      "number": 10906,
+      "title": "Errors depend on the existence of `.mypy_cache`",
+      "created_at": "2021-08-01T19:27:45Z",
+      "closed_at": "2021-08-04T08:58:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11009",
+      "number": 11009,
+      "title": "dmypy crashes every 2nd run when trying to update unlreated and unchanged numpy.compat",
+      "created_at": "2021-08-23T09:03:21Z",
+      "closed_at": "2025-05-03T02:08:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11019",
+      "number": 11019,
+      "title": "Tests from mypy/test/teststubtest.py fail without pytest-xdist or with v2.3.0",
+      "created_at": "2021-08-24T23:55:55Z",
+      "closed_at": "2022-03-04T08:28:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11051",
+      "number": 11051,
+      "title": "mypy ignores possible changes of global variables outside current function",
+      "created_at": "2021-09-03T13:47:26Z",
+      "closed_at": "2025-03-28T19:05:39Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11164",
+      "number": 11164,
+      "title": "`Callable` used as condition silently disables type checks",
+      "created_at": "2021-09-21T20:58:51Z",
+      "closed_at": "2025-02-08T15:08:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11184",
+      "number": 11184,
+      "title": "Failure to detect \"Module has no attribute\"",
+      "created_at": "2021-09-24T10:38:47Z",
+      "closed_at": "2021-09-24T17:55:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11299",
+      "number": 11299,
+      "title": "I can't run a check of the entire directory in python 3.10",
+      "created_at": "2021-10-08T18:49:33Z",
+      "closed_at": "2021-10-08T19:55:18Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11383",
+      "number": 11383,
+      "title": "Inconsistent behaviour of `--allow-untyped-defs` VS. `--disable-error-code no-untyped-def`",
+      "created_at": "2021-10-25T09:39:16Z",
+      "closed_at": "2021-10-28T07:25:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11386",
+      "number": 11386,
+      "title": "Script to clean up the issue tracker",
+      "created_at": "2021-10-25T20:08:05Z",
+      "closed_at": "2021-10-25T20:08:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11462",
+      "number": 11462,
+      "title": "Inline config 'disable-error-code = attr-defined' does not disable errors",
+      "created_at": "2021-11-04T21:48:22Z",
+      "closed_at": "2022-12-02T02:23:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11497",
+      "number": 11497,
+      "title": "bug: main repository shows mypy errors",
+      "created_at": "2021-11-08T16:27:41Z",
+      "closed_at": "2021-11-08T18:26:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11511",
+      "number": 11511,
+      "title": "Is it sus that fake unreachable blocks aren't type checked?",
+      "created_at": "2021-11-10T04:50:58Z",
+      "closed_at": "2021-11-13T04:06:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11580",
+      "number": 11580,
+      "title": "Mypy seems to not infer type properly when using isinstance() with dictionaries",
+      "created_at": "2021-11-19T17:58:10Z",
+      "closed_at": "2021-11-19T18:10:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11645",
+      "number": 11645,
+      "title": "\"maximum semantic analysis iteration count\" when combining nested dataclass and undefined field.",
+      "created_at": "2021-11-30T10:06:15Z",
+      "closed_at": "2022-03-26T07:50:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11665",
+      "number": 11665,
+      "title": "TypeAlias does not work with Union types",
+      "created_at": "2021-12-05T04:45:50Z",
+      "closed_at": "2022-02-24T20:27:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11732",
+      "number": 11732,
+      "title": "assert does not work as expected",
+      "created_at": "2021-12-14T11:25:21Z",
+      "closed_at": "2021-12-15T00:51:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11795",
+      "number": 11795,
+      "title": "dmypy crash on followup check of file importing `multiprocessing`",
+      "created_at": "2021-12-19T14:30:24Z",
+      "closed_at": "2022-08-29T00:39:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11839",
+      "number": 11839,
+      "title": "Regression with type narrowing of bool",
+      "created_at": "2021-12-23T17:02:42Z",
+      "closed_at": "2024-12-08T20:00:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11843",
+      "number": 11843,
+      "title": "stubtest regression in 0.930 handling local/relative imports?",
+      "created_at": "2021-12-25T08:11:58Z",
+      "closed_at": "2021-12-31T23:59:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11859",
+      "number": 11859,
+      "title": "'\"dict\" is not subscriptable' error when using a type alias for `dict` in a `.pyi` stub file, with Python <= 3.8",
+      "created_at": "2021-12-28T17:44:27Z",
+      "closed_at": "2022-01-06T09:44:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11920",
+      "number": 11920,
+      "title": "mypy 0.930 does not install types",
+      "created_at": "2022-01-06T09:32:06Z",
+      "closed_at": "2022-08-03T08:43:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12036",
+      "number": 12036,
+      "title": "Discrepancy between `if cond: a / else: b` and `a if cond else b`",
+      "created_at": "2022-01-21T13:48:27Z",
+      "closed_at": "2025-02-09T18:15:59Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12097",
+      "number": 12097,
+      "title": "Regression from 310 to 931: Module has no attribute \"NETLINK_ROUTE\"",
+      "created_at": "2022-01-29T16:57:21Z",
+      "closed_at": "2022-01-29T17:02:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12122",
+      "number": 12122,
+      "title": "Accessing obviously non-existent class attribute not seen as an error",
+      "created_at": "2022-02-03T21:23:51Z",
+      "closed_at": "2022-02-03T22:21:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12140",
+      "number": 12140,
+      "title": "Using a class as an implementation of a Protocol does not reveal a type mismatch",
+      "created_at": "2022-02-07T11:45:30Z",
+      "closed_at": "2022-11-16T14:10:22Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12202",
+      "number": 12202,
+      "title": "pyinfo.py not compatible with Python 2",
+      "created_at": "2022-02-17T11:50:49Z",
+      "closed_at": "2022-02-23T03:44:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12249",
+      "number": 12249,
+      "title": "dmypy ignores flags and config file",
+      "created_at": "2022-02-24T02:36:14Z",
+      "closed_at": "2023-06-15T20:32:40Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12257",
+      "number": 12257,
+      "title": "Crash when deserialising ParamSpec in ClassDef",
+      "created_at": "2022-02-27T10:02:32Z",
+      "closed_at": "2022-04-07T10:05:37Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12364",
+      "number": 12364,
+      "title": "`mypy` unable to narrow type of tuple elements in `case` clause in pattern matching",
+      "created_at": "2022-03-16T11:25:26Z",
+      "closed_at": "2024-04-04T10:34:01Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12482",
+      "number": 12482,
+      "title": "The .pyd or .so files don't appear to behave the same as corresponding .py files.",
+      "created_at": "2022-03-28T23:43:54Z",
+      "closed_at": "2022-03-29T00:58:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12497",
+      "number": 12497,
+      "title": "Strict flag gives less errors than default mode",
+      "created_at": "2022-03-31T06:13:19Z",
+      "closed_at": "2023-08-13T05:58:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12723",
+      "number": 12723,
+      "title": "Argument 1 to \"__anext__\" of \"AsyncIterator\" has incompatible type \"AsyncIterator[_T_co]\"; expected \"AsyncIterator[_T_co]\"",
+      "created_at": "2022-05-03T12:18:56Z",
+      "closed_at": "2022-05-03T12:32:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12737",
+      "number": 12737,
+      "title": "Incompatible return type with Union when not all Union variants are possible",
+      "created_at": "2022-05-06T14:30:46Z",
+      "closed_at": "2022-05-06T14:36:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12739",
+      "number": 12739,
+      "title": "typed_ast>=1.4.0 in MAC M1 build Failed",
+      "created_at": "2022-05-06T15:07:11Z",
+      "closed_at": "2022-05-06T15:18:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12744",
+      "number": 12744,
+      "title": "dmypy: ValueError: value is not in list  when running a second time",
+      "created_at": "2022-05-07T16:15:24Z",
+      "closed_at": "2022-11-15T22:55:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12823",
+      "number": 12823,
+      "title": "Returning optional union from method complains about `got \"object\"`",
+      "created_at": "2022-05-20T05:48:40Z",
+      "closed_at": "2025-03-28T23:42:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12825",
+      "number": 12825,
+      "title": "Stubtest whines about Concatenate given as Callable argument",
+      "created_at": "2022-05-20T09:10:17Z",
+      "closed_at": "2022-05-22T23:15:23Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13082",
+      "number": 13082,
+      "title": "Some level of dynamic inference for enums",
+      "created_at": "2022-07-06T15:28:26Z",
+      "closed_at": "2022-07-16T11:09:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13449",
+      "number": 13449,
+      "title": "Unbound type variables in Callable type alias are substituted with Any",
+      "created_at": "2022-08-18T17:42:12Z",
+      "closed_at": "2023-08-21T15:01:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13510",
+      "number": 13510,
+      "title": "Mypy not detecting referenced before assignment",
+      "created_at": "2022-08-25T07:02:28Z",
+      "closed_at": "2022-08-25T07:25:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13580",
+      "number": 13580,
+      "title": "Mypy uses pip for --install-types but does not list pip in requirements",
+      "created_at": "2022-09-01T11:36:01Z",
+      "closed_at": "2022-09-30T19:41:24Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13633",
+      "number": 13633,
+      "title": "Running mypy and managing imports and incompatible stubs",
+      "created_at": "2022-09-08T20:24:57Z",
+      "closed_at": "2022-09-08T21:16:29Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13701",
+      "number": 13701,
+      "title": "Mucking with sys.path breaks checking imports",
+      "created_at": "2022-09-21T07:54:14Z",
+      "closed_at": "2023-09-02T08:10:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14042",
+      "number": 14042,
+      "title": "mypy 0.990 shows no errors when passing source directory as absolute path",
+      "created_at": "2022-11-08T22:20:45Z",
+      "closed_at": "2022-11-10T17:37:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14079",
+      "number": 14079,
+      "title": "Multipe errors in the interaction between `Protocol`, `Callable`, `ParamSpec` and `TypeVar`",
+      "created_at": "2022-11-13T01:53:30Z",
+      "closed_at": "2023-08-14T03:57:02Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14202",
+      "number": 14202,
+      "title": "AssertionError: assert file not in self.flushed_files",
+      "created_at": "2022-11-27T05:33:09Z",
+      "closed_at": "2022-12-18T01:20:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14219",
+      "number": 14219,
+      "title": "Cannot resolve recursive/cyclic definitions (v0.991, Python 3.8/3.9)",
+      "created_at": "2022-11-29T11:32:31Z",
+      "closed_at": "2022-11-29T18:02:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14230",
+      "number": 14230,
+      "title": "False positive of incompatible type report with StrEnum and str",
+      "created_at": "2022-12-01T16:18:18Z",
+      "closed_at": "2022-12-01T17:09:58Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14255",
+      "number": 14255,
+      "title": "mypy doesn't distinguish between a `bool` and an `int`?",
+      "created_at": "2022-12-04T20:38:44Z",
+      "closed_at": "2022-12-04T20:46:56Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14296",
+      "number": 14296,
+      "title": "AttributeError: attribute '_fullname' of 'TypeInfo' undefined",
+      "created_at": "2022-12-15T06:18:51Z",
+      "closed_at": "2023-02-01T10:19:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14589",
+      "number": 14589,
+      "title": "Conflicting stubs cause AssertionError",
+      "created_at": "2023-02-02T10:41:31Z",
+      "closed_at": "2023-08-25T06:54:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14623",
+      "number": 14623,
+      "title": "Mypyc multiprocessing bug",
+      "created_at": "2023-02-06T19:27:59Z",
+      "closed_at": "2023-07-04T17:43:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14732",
+      "number": 14732,
+      "title": "var-annotated error not showing up unless --cache-fine-grained is used",
+      "created_at": "2023-02-18T01:00:48Z",
+      "closed_at": "2023-02-18T01:03:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14800",
+      "number": 14800,
+      "title": "assignment error not detected as expected",
+      "created_at": "2023-02-27T23:12:01Z",
+      "closed_at": "2023-02-27T23:28:53Z"
+    }
+  ]
+}

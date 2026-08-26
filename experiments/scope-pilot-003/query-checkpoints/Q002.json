@@ -1,0 +1,310 @@
+{
+  "index": 2,
+  "stratum": "tests",
+  "repository": "mochajs/mocha",
+  "repository_id": 1451352,
+  "term": "no tests",
+  "query": "repo:mochajs/mocha is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:02.516751+00:00",
+  "total_count": 42,
+  "incomplete_results": false,
+  "returned": 42,
+  "raw_response_sha256": "fa34e672a1b626caaee2f88e5ffa93e5fd44efdb6af94a4fae4db9356e1287d3",
+  "items": [
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4179",
+      "number": 4179,
+      "title": "Mocha does not run tests with ts-node if main entry of package.json does not exist",
+      "created_at": "2020-02-08T12:35:45Z",
+      "closed_at": "2021-06-16T16:04:28Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4183",
+      "number": 4183,
+      "title": "Filter tests programatically ",
+      "created_at": "2020-02-14T21:28:24Z",
+      "closed_at": "2020-08-24T06:33:55Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4216",
+      "number": 4216,
+      "title": "🚀 Feature: Possibility to return 0 exit code when tests run successfully even with fails",
+      "created_at": "2020-03-24T15:44:11Z",
+      "closed_at": "2024-07-20T19:38:32Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4262",
+      "number": 4262,
+      "title": "🛠️ Repo: e2e test helpers could be better (test/integration/helpers.js)",
+      "created_at": "2020-04-30T22:10:07Z",
+      "closed_at": "2024-11-06T21:29:03Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4283",
+      "number": 4283,
+      "title": " \"before all\" hook issue undefined value",
+      "created_at": "2020-05-12T09:32:51Z",
+      "closed_at": "2020-05-12T22:05:58Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4301",
+      "number": 4301,
+      "title": "--ignore-only - Option for the cli",
+      "created_at": "2020-05-26T08:06:11Z",
+      "closed_at": "2020-06-10T21:46:59Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4303",
+      "number": 4303,
+      "title": "update sinon usages",
+      "created_at": "2020-05-27T18:24:38Z",
+      "closed_at": "2020-06-27T15:01:10Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4384",
+      "number": 4384,
+      "title": "set timeout in .mocharc.yaml not work",
+      "created_at": "2020-07-28T08:55:02Z",
+      "closed_at": "2020-07-29T05:30:50Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4553",
+      "number": 4553,
+      "title": "Github actions: browser tests fail for PR's raised from forked repos",
+      "created_at": "2021-01-13T12:36:38Z",
+      "closed_at": "2021-04-04T10:49:25Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4559",
+      "number": 4559,
+      "title": "Parallel mode fails silently sometimes with tests that import mocha",
+      "created_at": "2021-01-22T15:43:31Z",
+      "closed_at": "2021-03-01T15:01:50Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4560",
+      "number": 4560,
+      "title": "Mocha runner's EventEmitter does not work correctly in parallel mode",
+      "created_at": "2021-01-24T18:37:03Z",
+      "closed_at": "2024-01-15T06:31:37Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4588",
+      "number": 4588,
+      "title": "🚀 Feature: Parallel tests inside suite (was: in addition to it, will)",
+      "created_at": "2021-02-25T19:07:24Z",
+      "closed_at": "2023-12-28T00:08:56Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4597",
+      "number": 4597,
+      "title": "Error on attempt to run tests in parallel mode with nodejs 15.11",
+      "created_at": "2021-03-08T17:52:45Z",
+      "closed_at": "2021-03-08T18:28:24Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4625",
+      "number": 4625,
+      "title": "Error [ERR_REQUIRE_ESM]: Must use import to load ES Module:",
+      "created_at": "2021-04-10T04:57:00Z",
+      "closed_at": "2021-04-10T05:10:35Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4632",
+      "number": 4632,
+      "title": "Async Express.js function with invalid reference hangs Mocha without an error or stack trace",
+      "created_at": "2021-04-27T09:13:37Z",
+      "closed_at": "2021-04-29T14:46:45Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4634",
+      "number": 4634,
+      "title": "Test Context not available in Custom Reporter when run in Parallel",
+      "created_at": "2021-05-13T18:20:16Z",
+      "closed_at": "2024-01-15T06:35:04Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4645",
+      "number": 4645,
+      "title": "Bin exported without extension, breaks node's native loader picker and ts-node/esm",
+      "created_at": "2021-06-03T08:28:23Z",
+      "closed_at": "2021-07-19T22:17:01Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4671",
+      "number": 4671,
+      "title": "mocha -r esm: ERR_VM_DYNAMIC_IMPORT_CALLBACK_MISSING",
+      "created_at": "2021-06-28T16:07:26Z",
+      "closed_at": "2021-07-01T17:08:35Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4693",
+      "number": 4693,
+      "title": "Tests not running with Mocha 9.0.2 and Yarn Berry (2.4.2)",
+      "created_at": "2021-07-19T19:58:57Z",
+      "closed_at": "2021-07-28T06:40:03Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4694",
+      "number": 4694,
+      "title": "Standard font is glitching in the reporter",
+      "created_at": "2021-07-19T23:11:04Z",
+      "closed_at": "2024-01-15T06:40:12Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4715",
+      "number": 4715,
+      "title": "dynamically generating tests doesn't work with tdd (works with bdd)",
+      "created_at": "2021-08-12T05:47:10Z",
+      "closed_at": "2021-08-14T05:35:05Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4721",
+      "number": 4721,
+      "title": "No longer getting console output after updating from v8 to v9",
+      "created_at": "2021-08-16T19:58:20Z",
+      "closed_at": "2021-08-17T07:40:42Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4732",
+      "number": 4732,
+      "title": "Massive decrease in performance after updating from `v9.0.3` to `v9.1.0` (test executions are very slow)",
+      "created_at": "2021-08-26T06:39:20Z",
+      "closed_at": "2021-09-03T09:15:10Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4739",
+      "number": 4739,
+      "title": "\"node-option\" is mandatory in config file",
+      "created_at": "2021-09-04T10:48:13Z",
+      "closed_at": "2021-09-04T11:34:00Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4761",
+      "number": 4761,
+      "title": "There is no ability to skip suite with tests via own api (works in mocha@2)",
+      "created_at": "2021-10-01T11:09:20Z",
+      "closed_at": "2021-10-04T09:20:14Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4763",
+      "number": 4763,
+      "title": "Unable to import mocha API functions from 'mocha'",
+      "created_at": "2021-10-01T20:21:56Z",
+      "closed_at": "2021-10-15T06:20:02Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4790",
+      "number": 4790,
+      "title": "mochaGlobalTeardown is never called",
+      "created_at": "2021-11-21T04:30:06Z",
+      "closed_at": "2021-11-21T11:09:11Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4858",
+      "number": 4858,
+      "title": "fail-zero option doesn't seem to be working",
+      "created_at": "2022-03-27T15:54:47Z",
+      "closed_at": "2022-03-29T16:03:41Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4890",
+      "number": 4890,
+      "title": "Tests does not run as expected with WebAssembly",
+      "created_at": "2022-06-09T16:23:43Z",
+      "closed_at": "2022-06-09T16:34:20Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/4957",
+      "number": 4957,
+      "title": "Passing certain arguments after \"npm test -- \" skips all tests",
+      "created_at": "2022-12-31T23:33:42Z",
+      "closed_at": "2023-01-01T12:01:17Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5025",
+      "number": 5025,
+      "title": "🐛 Bug: remove util.inherits / convert to classes",
+      "created_at": "2023-11-06T11:36:35Z",
+      "closed_at": "2026-06-19T05:05:12Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5048",
+      "number": 5048,
+      "title": "mocha failed and shows ERROR: null",
+      "created_at": "2023-12-18T11:25:09Z",
+      "closed_at": "2024-01-21T05:34:53Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5078",
+      "number": 5078,
+      "title": "🐛 Bug: Mocha prints out command help text and ERROR: null when unexpected error in -r module occurs",
+      "created_at": "2024-01-15T06:01:13Z",
+      "closed_at": "2026-02-01T18:20:04Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5156",
+      "number": 5156,
+      "title": "🐛 Bug: Hit an error with CJS named exports",
+      "created_at": "2024-06-04T09:18:37Z",
+      "closed_at": "2024-07-04T15:47:15Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5223",
+      "number": 5223,
+      "title": "🚀 Feature: Add an option to run all tests, including skipped ones",
+      "created_at": "2024-10-10T22:08:53Z",
+      "closed_at": "2024-10-29T20:12:35Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5233",
+      "number": 5233,
+      "title": "🐛 Bug: Executing npx mocha --parallel testcase/xx/x.js reports an error: ✖ ERROR: null",
+      "created_at": "2024-10-15T10:09:58Z",
+      "closed_at": "2024-10-15T20:53:47Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5264",
+      "number": 5264,
+      "title": "endSuite hook is called without matching startSuite hook",
+      "created_at": "2024-11-29T08:38:48Z",
+      "closed_at": "2025-01-29T12:59:09Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5299",
+      "number": 5299,
+      "title": "🚀 Feature: Exit with code 1 when .only is used by default in CI (--forbid-only)",
+      "created_at": "2025-02-18T19:55:32Z",
+      "closed_at": "2025-11-22T07:05:43Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5374",
+      "number": 5374,
+      "title": "🐛 Bug: Not able to watch files with huge node_modules anymore after bumping chokidar to v4",
+      "created_at": "2025-06-10T16:28:58Z",
+      "closed_at": "2025-10-01T21:52:52Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5425",
+      "number": 5425,
+      "title": "🐛 Bug: .mjs test files can be loaded with `require()` which breaks custom module loaders",
+      "created_at": "2025-08-15T16:38:21Z",
+      "closed_at": "2025-08-30T04:11:50Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5494",
+      "number": 5494,
+      "title": "🐛 Bug: Mocha v11.7.3 and v11.7.4 fails with error ERR_REQUIRE_ESM",
+      "created_at": "2025-10-07T09:39:09Z",
+      "closed_at": "2025-11-05T02:18:44Z"
+    },
+    {
+      "url": "https://github.com/mochajs/mocha/issues/5586",
+      "number": 5586,
+      "title": "📦 Package: Bump chokidar from 4 to 5",
+      "created_at": "2025-12-19T20:42:19Z",
+      "closed_at": "2026-02-21T13:18:00Z"
+    }
+  ]
+}

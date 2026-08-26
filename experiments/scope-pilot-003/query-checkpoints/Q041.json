@@ -1,0 +1,23 @@
+{
+  "index": 41,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "reports success",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"reports success\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:10.521569+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "361866d888e6a3fdf30d226a44381ff2cac8017cbe84ab958aa4c87769ba5942",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1158",
+      "number": 1158,
+      "title": "JUnit Test Result Trend visualization Problem ",
+      "created_at": "2023-12-11T15:01:44Z",
+      "closed_at": "2023-12-11T20:46:46Z"
+    }
+  ]
+}

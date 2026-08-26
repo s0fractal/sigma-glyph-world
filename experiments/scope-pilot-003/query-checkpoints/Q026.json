@@ -1,0 +1,716 @@
+{
+  "index": 26,
+  "stratum": "tests",
+  "repository": "microsoft/playwright",
+  "repository_id": 221981891,
+  "term": "ignored",
+  "query": "repo:microsoft/playwright is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:22.159014+00:00",
+  "total_count": 214,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "55bf9b09981fa1c36cbd26c8c6fce18e3af8af8d0b915611560ad0ca930ef0d1",
+  "items": [
+    {
+      "url": "https://github.com/microsoft/playwright/issues/910",
+      "number": 910,
+      "title": "[BUG] args options ignored when launching firefox",
+      "created_at": "2020-02-09T16:13:24Z",
+      "closed_at": "2020-02-09T17:25:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1030",
+      "number": 1030,
+      "title": "[BUG] chromium and webkit screenshot ignoring screenshot: clip: height option property",
+      "created_at": "2020-02-15T11:08:35Z",
+      "closed_at": "2020-02-28T17:02:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/1090",
+      "number": 1090,
+      "title": "[Feature] support route aka request interception for service workers",
+      "created_at": "2020-02-24T20:12:29Z",
+      "closed_at": "2022-07-22T19:59:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2343",
+      "number": 2343,
+      "title": "How to use additional flags to a 'jest-playwright --parallel' script?",
+      "created_at": "2020-05-22T15:29:17Z",
+      "closed_at": "2020-05-25T16:36:32Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2667",
+      "number": 2667,
+      "title": "[BUG] chromium --remote-debugging-port arg does not work",
+      "created_at": "2020-06-22T16:04:37Z",
+      "closed_at": "2020-06-23T01:01:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/2749",
+      "number": 2749,
+      "title": "[Feature] allow viewport size to be independent from the window size",
+      "created_at": "2020-06-29T11:28:23Z",
+      "closed_at": "2020-07-07T06:00:02Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4173",
+      "number": 4173,
+      "title": "[BUG]  Firefox & WebKit behave un-expected to route",
+      "created_at": "2020-10-17T10:47:37Z",
+      "closed_at": "2020-10-23T04:51:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/4925",
+      "number": 4925,
+      "title": "[Question] Build WebKitGTK failed",
+      "created_at": "2021-01-07T03:03:44Z",
+      "closed_at": "2021-01-07T09:16:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5000",
+      "number": 5000,
+      "title": "[Question] Debugging in Playwright Chromium in Docker",
+      "created_at": "2021-01-13T15:24:46Z",
+      "closed_at": "2021-01-13T20:32:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5215",
+      "number": 5215,
+      "title": "[BUG] Version 1.8.0 doesn't read secure cookies",
+      "created_at": "2021-01-29T14:04:07Z",
+      "closed_at": "2021-02-16T18:34:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5236",
+      "number": 5236,
+      "title": "[BUG] Webkit (docker image) cookie added but ignored",
+      "created_at": "2021-02-01T10:28:10Z",
+      "closed_at": "2021-07-12T21:29:42Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5323",
+      "number": 5323,
+      "title": "[BUG] page.waitForFunction with { timeout: 0 } fails with a timeout",
+      "created_at": "2021-02-05T03:58:28Z",
+      "closed_at": "2021-02-05T04:29:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/5396",
+      "number": 5396,
+      "title": "[Question] Issues with file downloads using webkit-1423",
+      "created_at": "2021-02-10T10:19:23Z",
+      "closed_at": "2021-02-22T17:02:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6347",
+      "number": 6347,
+      "title": "[Feature] Time/Date emulation via e.g. a `clock()` primitive",
+      "created_at": "2021-04-28T09:09:30Z",
+      "closed_at": "2024-06-25T14:43:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6403",
+      "number": 6403,
+      "title": "[BUG] Chromium - Playwright not intercepting importScripts requests in WebWorker",
+      "created_at": "2021-05-04T14:24:30Z",
+      "closed_at": "2021-05-10T20:27:15Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/6615",
+      "number": 6615,
+      "title": "[Question] Way for capturing screenshot with `:visited` style?",
+      "created_at": "2021-05-17T14:58:48Z",
+      "closed_at": "2022-01-01T23:22:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7046",
+      "number": 7046,
+      "title": "Set background image and/or color in Header and Footer in Page.printToPDF",
+      "created_at": "2021-06-10T20:36:53Z",
+      "closed_at": "2022-01-01T23:24:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7262",
+      "number": 7262,
+      "title": "[BUG] BeforeEach/AfterEach hooks run ignoring the skip, fixme, fail annotation ",
+      "created_at": "2021-06-22T15:32:57Z",
+      "closed_at": "2021-07-07T19:37:55Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7718",
+      "number": 7718,
+      "title": "[Bug]: test results are not produced when using custom fixture",
+      "created_at": "2021-07-19T13:21:49Z",
+      "closed_at": "2021-08-11T00:25:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7792",
+      "number": 7792,
+      "title": "[Feature]: Can I somehow change the directory for saving screenshots?",
+      "created_at": "2021-07-22T13:45:15Z",
+      "closed_at": "2022-11-09T23:29:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/7913",
+      "number": 7913,
+      "title": "[Bug]: Tests are not running for `.tsx` file type in `@playwright/test`",
+      "created_at": "2021-07-29T15:30:16Z",
+      "closed_at": "2021-07-29T15:38:27Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8095",
+      "number": 8095,
+      "title": "trace-viewer doesn't show formatted (main screen) ",
+      "created_at": "2021-08-09T15:30:05Z",
+      "closed_at": "2021-08-17T00:40:47Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8882",
+      "number": 8882,
+      "title": "Images not rendered correctly from local webserver",
+      "created_at": "2021-09-13T15:03:09Z",
+      "closed_at": "2021-09-13T16:34:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/8917",
+      "number": 8917,
+      "title": "Trace does not capture network traffic",
+      "created_at": "2021-09-14T15:24:56Z",
+      "closed_at": "2021-09-20T13:49:39Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9280",
+      "number": 9280,
+      "title": "[BUG] ASP.Net Unexpected token \"$\" while parsing selector",
+      "created_at": "2021-10-04T00:34:13Z",
+      "closed_at": "2021-10-04T00:53:23Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9394",
+      "number": 9394,
+      "title": "waitForFunction() not working? ",
+      "created_at": "2021-10-08T12:55:07Z",
+      "closed_at": "2021-10-08T15:54:14Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9466",
+      "number": 9466,
+      "title": "[BUG] ignoreHTTPSErrors flag is being ignored when using WebKit on Linux through https proxy",
+      "created_at": "2021-10-13T14:01:13Z",
+      "closed_at": "2023-11-16T04:43:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9571",
+      "number": 9571,
+      "title": "[Question] Visual comparisons with specific  areas ignored",
+      "created_at": "2021-10-17T12:47:27Z",
+      "closed_at": "2021-10-17T19:16:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9768",
+      "number": 9768,
+      "title": "[BUG] ignoreHTTPSErrors not working on page.request",
+      "created_at": "2021-10-26T01:13:05Z",
+      "closed_at": "2021-10-27T06:22:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/9899",
+      "number": 9899,
+      "title": "[Feature] Ability to add mask when comparing snapshot images",
+      "created_at": "2021-10-30T10:48:56Z",
+      "closed_at": "2022-02-09T16:09:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10279",
+      "number": 10279,
+      "title": "[BUG] No cookies in headless mode & specific browser parameters not working",
+      "created_at": "2021-11-12T14:05:33Z",
+      "closed_at": "2021-11-23T04:08:22Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10324",
+      "number": 10324,
+      "title": "Playwright misreports test results when one of the tests has a bad fixture",
+      "created_at": "2021-11-15T16:07:23Z",
+      "closed_at": "2021-11-15T21:17:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10632",
+      "number": 10632,
+      "title": "[BUG] Playwright 1.17.0 -> After clicking the element - I get an error that click action was failed",
+      "created_at": "2021-12-01T09:03:56Z",
+      "closed_at": "2021-12-01T22:53:18Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10784",
+      "number": 10784,
+      "title": "[Feature] CLI options to run / ignore matching tests",
+      "created_at": "2021-12-08T10:05:26Z",
+      "closed_at": "2021-12-08T18:36:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/10840",
+      "number": 10840,
+      "title": "[BUG] timeout fixtures are not applied to Electron",
+      "created_at": "2021-12-09T23:57:00Z",
+      "closed_at": "2023-11-17T00:22:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11014",
+      "number": 11014,
+      "title": "[BUG] page.on('dialog', ()=>{}) doesn't work when external URL handlers are opened. e.g. Telegram",
+      "created_at": "2021-12-18T23:49:05Z",
+      "closed_at": "2026-05-12T18:08:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11060",
+      "number": 11060,
+      "title": "[Question] \"no tests found\", but files exist",
+      "created_at": "2021-12-22T14:20:20Z",
+      "closed_at": "2022-01-25T18:51:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11198",
+      "number": 11198,
+      "title": "How to explicit wait for Alert in Playwright .Net",
+      "created_at": "2022-01-05T14:43:29Z",
+      "closed_at": "2022-01-18T23:48:35Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11325",
+      "number": 11325,
+      "title": "[BUG] Whitespace in HTML is considered as text",
+      "created_at": "2022-01-11T12:54:52Z",
+      "closed_at": "2022-01-12T09:36:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11741",
+      "number": 11741,
+      "title": "[Question] What config changes & default behavior is playwright overriding while debugging in vscode?",
+      "created_at": "2022-01-31T06:24:04Z",
+      "closed_at": "2022-03-01T01:38:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/11843",
+      "number": 11843,
+      "title": "[Feature] playwright init should support a non-interactive mode with arguments specified on the command line.",
+      "created_at": "2022-02-03T18:47:45Z",
+      "closed_at": "2024-02-12T14:21:07Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12138",
+      "number": 12138,
+      "title": "[BUG] ReferenceError: module is not defined in ES module scope (with sveltekit)",
+      "created_at": "2022-02-15T23:34:53Z",
+      "closed_at": "2022-02-23T13:24:01Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12178",
+      "number": 12178,
+      "title": "Windows Screen scaling appears to be ignored for browser windows",
+      "created_at": "2022-02-17T11:36:19Z",
+      "closed_at": "2022-10-20T03:26:30Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12519",
+      "number": 12519,
+      "title": "Ignoring Tests that are inside .gitignore.",
+      "created_at": "2022-03-04T15:13:29Z",
+      "closed_at": "2022-03-14T19:45:00Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12808",
+      "number": 12808,
+      "title": "[BUG] Impossible to remove unnamed cookies",
+      "created_at": "2022-03-16T02:55:02Z",
+      "closed_at": "2022-03-23T22:50:44Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/12824",
+      "number": 12824,
+      "title": "[Feature] Configurable Default Timeout for Web-First Assertions",
+      "created_at": "2022-03-16T15:08:28Z",
+      "closed_at": "2022-10-20T06:15:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16961",
+      "number": 16961,
+      "title": "Run debug in headless mode",
+      "created_at": "2022-04-04T10:43:05Z",
+      "closed_at": "2023-06-30T20:13:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13734",
+      "number": 13734,
+      "title": "[BUG] Screenshot from locator or full page does not show scrollbars even with --hide-scrollbars ignored",
+      "created_at": "2022-04-25T14:10:14Z",
+      "closed_at": "2023-06-30T18:02:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13772",
+      "number": 13772,
+      "title": "[Question] always 401 Unauth on request.get",
+      "created_at": "2022-04-26T16:41:34Z",
+      "closed_at": "2022-07-01T19:46:05Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13815",
+      "number": 13815,
+      "title": "[BUG] Default viewport config doesn't set viewport to selected size",
+      "created_at": "2022-04-28T09:45:45Z",
+      "closed_at": "2022-04-28T15:03:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13822",
+      "number": 13822,
+      "title": "[Question] User-agent not used in a global setup file",
+      "created_at": "2022-04-28T14:00:19Z",
+      "closed_at": "2022-04-28T17:08:43Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/13853",
+      "number": 13853,
+      "title": "Excessive locator duration in Firefox",
+      "created_at": "2022-04-29T18:14:21Z",
+      "closed_at": "2022-05-16T07:33:01Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14295",
+      "number": 14295,
+      "title": "[Feature] Use existing vite.config.js file for component tests",
+      "created_at": "2022-05-19T21:10:54Z",
+      "closed_at": "2022-05-20T20:12:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14313",
+      "number": 14313,
+      "title": "[BUG] route.fulfill() fails when times:1 is used when it is not the first awaited call",
+      "created_at": "2022-05-20T18:52:28Z",
+      "closed_at": "2022-05-22T04:55:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14332",
+      "number": 14332,
+      "title": "[Feature] Expose all aria attributes",
+      "created_at": "2022-05-22T16:37:06Z",
+      "closed_at": "2025-01-07T01:41:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14485",
+      "number": 14485,
+      "title": "[Feature] New test status for screenshot tests (something like passedWithDiff)",
+      "created_at": "2022-05-30T16:24:39Z",
+      "closed_at": "2025-09-08T18:36:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/14487",
+      "number": 14487,
+      "title": "[Feature] Add label to HTML-report from test for test filtering",
+      "created_at": "2022-05-30T16:50:15Z",
+      "closed_at": "2024-09-14T15:42:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15344",
+      "number": 15344,
+      "title": "[BUG] `test.AfterAll` block is ignored if last test of the describe has attribute `.skip`",
+      "created_at": "2022-07-04T04:27:32Z",
+      "closed_at": "2022-07-12T04:33:57Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15431",
+      "number": 15431,
+      "title": "[BUG] Regression: page.on('console') is ignored in 1.23",
+      "created_at": "2022-07-06T22:04:07Z",
+      "closed_at": "2022-07-06T22:06:12Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15701",
+      "number": 15701,
+      "title": "[BUG] Tests wont run due to reentrant plugin error from babel",
+      "created_at": "2022-07-15T04:50:32Z",
+      "closed_at": "2022-07-16T08:22:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15781",
+      "number": 15781,
+      "title": "[Question] Firefox does not reload if goto has the same url",
+      "created_at": "2022-07-19T10:39:21Z",
+      "closed_at": "2022-07-24T19:56:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15841",
+      "number": 15841,
+      "title": "[Feature] Locator to implement Iterable ",
+      "created_at": "2022-07-21T14:22:50Z",
+      "closed_at": "2022-07-22T00:23:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15859",
+      "number": 15859,
+      "title": "[Question] Chromium distribution 'msedge-canary' is not found",
+      "created_at": "2022-07-21T21:47:54Z",
+      "closed_at": "2022-07-22T16:15:16Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/15993",
+      "number": 15993,
+      "title": "Reentrant plugin detected trying to load",
+      "created_at": "2022-07-27T14:27:56Z",
+      "closed_at": "2022-07-27T16:09:56Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16005",
+      "number": 16005,
+      "title": "[BUG] APIRequestContext not honoring httpCredentials option",
+      "created_at": "2022-07-28T02:19:06Z",
+      "closed_at": "2024-04-22T17:55:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16159",
+      "number": 16159,
+      "title": "[Internal] deprecate old accessibility API in favor of the new one",
+      "created_at": "2022-08-02T17:28:44Z",
+      "closed_at": "2022-08-09T22:42:40Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16439",
+      "number": 16439,
+      "title": "[BUG] Cookie header ignored when using proxy",
+      "created_at": "2022-08-11T02:57:33Z",
+      "closed_at": "2022-08-16T10:21:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/16580",
+      "number": 16580,
+      "title": "[Feature] BrowserType.connect() Should Accept Type LaunchOptions",
+      "created_at": "2022-08-16T14:37:25Z",
+      "closed_at": "2022-08-17T15:15:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17026",
+      "number": 17026,
+      "title": "[BUG] test.fail() is ignored when awaiting a promise that times out",
+      "created_at": "2022-09-01T23:19:58Z",
+      "closed_at": "2022-09-01T23:46:36Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17075",
+      "number": 17075,
+      "title": "[BUG] dynamic import of ESM results in ERR_REQUIRE_ESM",
+      "created_at": "2022-09-04T16:24:25Z",
+      "closed_at": "2024-06-13T13:18:45Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17155",
+      "number": 17155,
+      "title": "[Question] Custom pytest fixture from conftest, called in the test case",
+      "created_at": "2022-09-07T08:57:42Z",
+      "closed_at": "2022-09-07T09:03:31Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/17507",
+      "number": 17507,
+      "title": "Random target closed errors, timeout is ignored",
+      "created_at": "2022-09-21T14:00:23Z",
+      "closed_at": "2022-09-23T16:52:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18041",
+      "number": 18041,
+      "title": "[Question] Detect if playwright reused an existing server.",
+      "created_at": "2022-10-13T04:31:04Z",
+      "closed_at": "2022-10-18T18:06:54Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18121",
+      "number": 18121,
+      "title": "[BUG] input text field goes empty after filling in firefox",
+      "created_at": "2022-10-17T12:13:31Z",
+      "closed_at": "2022-10-24T16:12:51Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18248",
+      "number": 18248,
+      "title": "[BUG] Tests do not respect timeout",
+      "created_at": "2022-10-21T15:27:54Z",
+      "closed_at": "2025-09-08T18:36:03Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18289",
+      "number": 18289,
+      "title": "Record video retain-on-failure with launchPersistentContext",
+      "created_at": "2022-10-24T12:59:59Z",
+      "closed_at": "2022-10-24T22:47:50Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18291",
+      "number": 18291,
+      "title": "[BUG] Ignore snapshots flag -i failed",
+      "created_at": "2022-10-24T14:39:42Z",
+      "closed_at": "2022-10-24T17:49:59Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18676",
+      "number": 18676,
+      "title": "[BUG] Global Setup fails to apply",
+      "created_at": "2022-11-09T15:12:42Z",
+      "closed_at": "2022-11-09T20:08:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/18825",
+      "number": 18825,
+      "title": "[BUG] Rollup failed to resolve import \"$env/static/public\"",
+      "created_at": "2022-11-15T19:00:29Z",
+      "closed_at": "2025-09-04T01:23:46Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19352",
+      "number": 19352,
+      "title": "[Question]: wait_for_url does not work with redirects",
+      "created_at": "2022-11-24T15:59:52Z",
+      "closed_at": "2022-12-13T23:04:13Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19186",
+      "number": 19186,
+      "title": "[BUG] CSP meta tag is ignored",
+      "created_at": "2022-11-30T23:15:55Z",
+      "closed_at": "2022-12-01T20:39:42Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19622",
+      "number": 19622,
+      "title": "[Question]: \"playwright install\" command fails with UNABLE_TO_GET_ISSUER_CERT_LOCALLY error",
+      "created_at": "2022-12-21T10:26:21Z",
+      "closed_at": "2022-12-23T04:47:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/19826",
+      "number": 19826,
+      "title": "HTML Report open option is ignored when running tests from VS Code extension",
+      "created_at": "2023-01-01T18:13:49Z",
+      "closed_at": "2023-01-09T10:39:24Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20179",
+      "number": 20179,
+      "title": "[BUG]How to use grep invert for skipping tests with multiple tags",
+      "created_at": "2023-01-18T05:51:12Z",
+      "closed_at": "2023-01-18T06:54:19Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20202",
+      "number": 20202,
+      "title": "First TAG is ignored when using selector('#id')",
+      "created_at": "2023-01-18T20:25:43Z",
+      "closed_at": "2023-01-18T23:17:26Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20600",
+      "number": 20600,
+      "title": "Can't install Playwright on Github Actions' ubuntu-latest: Failed to fetch https://packages.microsoft.com/...: Hash Sum mismatch",
+      "created_at": "2023-02-02T23:04:22Z",
+      "closed_at": "2023-02-02T23:04:28Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20614",
+      "number": 20614,
+      "title": "[BUG] custom headers injection is ignored for FireFox & latest playwright Version (1.30)",
+      "created_at": "2023-02-03T14:26:19Z",
+      "closed_at": "2023-02-14T16:14:49Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20677",
+      "number": 20677,
+      "title": "[BUG]Visual comparisons > toHaveScreenshot() > Failing on element height v width",
+      "created_at": "2023-02-06T17:07:37Z",
+      "closed_at": "2023-02-08T15:18:38Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20938",
+      "number": 20938,
+      "title": "maxDiffPixels does not work while page comparison, but works fine with element comparion",
+      "created_at": "2023-02-16T05:48:31Z",
+      "closed_at": "2023-02-21T15:58:09Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20947",
+      "number": 20947,
+      "title": "[BUG] sync_api.sync_playwright().start() hangs when built using cx_freeze",
+      "created_at": "2023-02-16T10:49:53Z",
+      "closed_at": "2023-02-16T13:17:17Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/20987",
+      "number": 20987,
+      "title": "[Feature] make expect(locator).toHaveScreenshot less flaky by using target screenshot as goal",
+      "created_at": "2023-02-17T15:09:02Z",
+      "closed_at": "2026-05-08T21:55:20Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/21453",
+      "number": 21453,
+      "title": "[REGRESSION]: Type of toMatch assertion changed in Playwright v1.31.0",
+      "created_at": "2023-03-07T11:55:11Z",
+      "closed_at": "2023-03-07T16:53:52Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22186",
+      "number": 22186,
+      "title": "[BUG] ignore_default_args doesn't work with --disable-features",
+      "created_at": "2023-04-04T03:15:14Z",
+      "closed_at": "2023-04-05T20:37:48Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22495",
+      "number": 22495,
+      "title": "[BUG] ignoreHTTPSErrors ignored in Webkit on MacOS",
+      "created_at": "2023-04-19T17:10:13Z",
+      "closed_at": "2023-05-10T17:19:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22575",
+      "number": 22575,
+      "title": "[BUG] expect(someLocator).toHaveScreenshot ignores global and direct timout, falls to default 1000ms",
+      "created_at": "2023-04-23T11:35:36Z",
+      "closed_at": "2023-04-25T05:20:33Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22596",
+      "number": 22596,
+      "title": "[BUG] Xray-Report: Tests within a skipped test group unnecessarily create new Xray test issues",
+      "created_at": "2023-04-24T12:56:13Z",
+      "closed_at": "2023-04-30T07:23:29Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22657",
+      "number": 22657,
+      "title": "[Question] Importing static assets (.png) in component tests",
+      "created_at": "2023-04-26T17:44:03Z",
+      "closed_at": "2024-01-17T17:06:04Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22663",
+      "number": 22663,
+      "title": "[BUG] TypeScript's `baseUrl` is not honoured",
+      "created_at": "2023-04-26T20:24:08Z",
+      "closed_at": "2023-05-03T23:08:08Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22681",
+      "number": 22681,
+      "title": "In Windows playwright \"Error: Not found tests\" without cross-env before playwright in command line [BUG]",
+      "created_at": "2023-04-27T09:58:13Z",
+      "closed_at": "2023-04-30T07:01:11Z"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright/issues/22789",
+      "number": 22789,
+      "title": "[BUG] 'React is not defined' on a shared package after updating to 1.33.0",
+      "created_at": "2023-05-03T16:05:28Z",
+      "closed_at": "2023-05-04T18:45:02Z"
+    }
+  ]
+}

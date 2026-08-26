@@ -1,0 +1,716 @@
+{
+  "index": 163,
+  "stratum": "proofs_build_completeness",
+  "repository": "NixOS/nixpkgs",
+  "repository_id": 4542716,
+  "term": "no tests",
+  "query": "repo:NixOS/nixpkgs is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:49:17.569169+00:00",
+  "total_count": 332,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "929ca9fc7ca3a5db799d692876b47f179bd74df63757ba4cdcbc4f2184f84633",
+  "items": [
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/76929",
+      "number": 76929,
+      "title": "ipykernel fails to build",
+      "created_at": "2020-01-04T10:59:34Z",
+      "closed_at": "2020-01-05T12:51:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77378",
+      "number": 77378,
+      "title": "nixosTests.ceph: ceph-multi-node.nix test fails",
+      "created_at": "2020-01-09T14:57:35Z",
+      "closed_at": "2020-01-20T09:56:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78030",
+      "number": 78030,
+      "title": "failed to build python3.7-pycurl-7.43.0.3: tests failed.",
+      "created_at": "2020-01-19T14:32:11Z",
+      "closed_at": "2020-01-19T19:18:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79304",
+      "number": 79304,
+      "title": "nixos.tests.installer.simpleUefiSystemdBoot.x86_64-linux is broken",
+      "created_at": "2020-02-06T02:36:42Z",
+      "closed_at": "2020-02-09T07:22:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79754",
+      "number": 79754,
+      "title": "google-cloud-sdk: gsutil does not work",
+      "created_at": "2020-02-10T18:34:05Z",
+      "closed_at": "2020-02-18T14:41:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80018",
+      "number": 80018,
+      "title": "tiledb-0.5.6 python packages fail a test and can't be build",
+      "created_at": "2020-02-13T12:47:31Z",
+      "closed_at": "2020-03-14T02:03:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81447",
+      "number": 81447,
+      "title": "Package ›playonlinux‹ fails with ›ImportError: No module named wx‹",
+      "created_at": "2020-03-01T17:00:11Z",
+      "closed_at": "2021-02-24T23:34:19Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/81703",
+      "number": 81703,
+      "title": "builder for python2.7-decorator-4.4.1 is failing",
+      "created_at": "2020-03-04T09:22:52Z",
+      "closed_at": "2020-03-04T09:43:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82008",
+      "number": 82008,
+      "title": "julia_13 doesn't build",
+      "created_at": "2020-03-07T18:58:19Z",
+      "closed_at": "2021-04-28T23:39:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82435",
+      "number": 82435,
+      "title": "nixos.iso_minimal.i686-linux blocking channel again",
+      "created_at": "2020-03-12T20:46:01Z",
+      "closed_at": "2020-03-13T07:37:59Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83049",
+      "number": 83049,
+      "title": "Suggestion: add an aarch64 channel",
+      "created_at": "2020-03-21T04:32:55Z",
+      "closed_at": "2021-12-07T04:22:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/83513",
+      "number": 83513,
+      "title": "python3Packages.pelican tests fail",
+      "created_at": "2020-03-27T17:28:00Z",
+      "closed_at": "2020-07-27T11:29:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/84510",
+      "number": 84510,
+      "title": "Python 3 support for Hy",
+      "created_at": "2020-04-06T20:52:15Z",
+      "closed_at": "2020-10-21T01:19:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86305",
+      "number": 86305,
+      "title": "nixosTests.ldap is broken",
+      "created_at": "2020-04-29T10:33:41Z",
+      "closed_at": "2020-05-06T17:49:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/87166",
+      "number": 87166,
+      "title": "python3Packages.ipykernel fails to build",
+      "created_at": "2020-05-07T06:57:39Z",
+      "closed_at": "2020-05-09T04:52:56Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/91369",
+      "number": 91369,
+      "title": "pkgs.dockerTools.buildLayeredImage issues",
+      "created_at": "2020-06-23T18:05:11Z",
+      "closed_at": "2020-07-07T17:00:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/91570",
+      "number": 91570,
+      "title": "pythonPackages.cassandra-driver broken",
+      "created_at": "2020-06-26T08:45:42Z",
+      "closed_at": "2021-06-23T08:53:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/91706",
+      "number": 91706,
+      "title": "pytest_xdist breaks tests for bash-completion on armv7l",
+      "created_at": "2020-06-28T07:58:39Z",
+      "closed_at": "2020-07-11T11:32:30Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/91930",
+      "number": 91930,
+      "title": "Too many old Julia versions, 1.5 is not packaged, and all versions fail in tests",
+      "created_at": "2020-07-01T10:51:52Z",
+      "closed_at": "2020-11-19T14:53:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/93058",
+      "number": 93058,
+      "title": "diffoscope is old and broken",
+      "created_at": "2020-07-13T11:55:02Z",
+      "closed_at": "2020-07-13T14:11:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/93370",
+      "number": 93370,
+      "title": "GNOME gtd app",
+      "created_at": "2020-07-17T20:50:52Z",
+      "closed_at": "2020-08-05T12:02:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/93446",
+      "number": 93446,
+      "title": "nixpkgs.haskell.packages.ghcjs.diagrams-lib fails to build on OSX",
+      "created_at": "2020-07-18T22:51:45Z",
+      "closed_at": "2022-12-22T05:30:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/93499",
+      "number": 93499,
+      "title": "RLS hangs during install",
+      "created_at": "2020-07-20T03:50:16Z",
+      "closed_at": "2020-07-24T09:52:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/94274",
+      "number": 94274,
+      "title": "tests.haskell-shellFor no longer works",
+      "created_at": "2020-07-31T02:19:06Z",
+      "closed_at": "2020-10-04T08:16:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/94663",
+      "number": 94663,
+      "title": "Git not found when trying to upgrade pubs",
+      "created_at": "2020-08-04T14:24:36Z",
+      "closed_at": "2020-08-22T12:17:30Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/94690",
+      "number": 94690,
+      "title": "cargo-fuzz fails to build",
+      "created_at": "2020-08-04T23:38:38Z",
+      "closed_at": "2020-08-24T01:43:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/96699",
+      "number": 96699,
+      "title": "Removal of Machine.nested from test-driver broke several tests (chromium, dhparams, initrd-network-ssh, taskserver, virtualbox)",
+      "created_at": "2020-08-30T22:13:12Z",
+      "closed_at": "2020-08-30T23:08:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/103193",
+      "number": 103193,
+      "title": "pkgsStatic.wayland does not compile",
+      "created_at": "2020-11-09T09:32:54Z",
+      "closed_at": "2022-05-28T06:40:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/103279",
+      "number": 103279,
+      "title": "pkgsStatic.dbus does not compile with x11Support = true",
+      "created_at": "2020-11-10T06:55:39Z",
+      "closed_at": "2022-03-16T09:30:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/105974",
+      "number": 105974,
+      "title": "python3.pkgs.wheel is out of date, and updating it requires bootstraping packaging?",
+      "created_at": "2020-12-05T13:41:10Z",
+      "closed_at": "2020-12-06T10:34:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/106142",
+      "number": 106142,
+      "title": "cargo-geiger fails check phase",
+      "created_at": "2020-12-07T06:43:10Z",
+      "closed_at": "2020-12-07T17:17:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/106262",
+      "number": 106262,
+      "title": "pydicom fail in test",
+      "created_at": "2020-12-07T17:38:37Z",
+      "closed_at": "2021-01-04T11:16:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/107768",
+      "number": 107768,
+      "title": "bash-completion: can't be unpacked/built on macOS because of filenames",
+      "created_at": "2020-12-27T23:52:26Z",
+      "closed_at": "2020-12-29T18:00:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/111223",
+      "number": 111223,
+      "title": "installer.luksroot test failing on master (sometimes)",
+      "created_at": "2021-01-29T23:08:32Z",
+      "closed_at": "2021-02-02T13:03:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/113901",
+      "number": 113901,
+      "title": "Python 3's mimetypes module is broken on NixOS",
+      "created_at": "2021-02-21T13:35:52Z",
+      "closed_at": "2021-03-31T10:42:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/114477",
+      "number": 114477,
+      "title": "Cannot build python3Full with matplotlib on nixos-unstable-small",
+      "created_at": "2021-02-26T16:25:38Z",
+      "closed_at": "2021-02-27T10:12:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/115466",
+      "number": 115466,
+      "title": "python38Packages.soco fails to build",
+      "created_at": "2021-03-09T01:05:53Z",
+      "closed_at": "2021-03-09T23:35:16Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/117014",
+      "number": 117014,
+      "title": "python3Packages.setuptools: bootstrapping changed",
+      "created_at": "2021-03-20T09:01:44Z",
+      "closed_at": "2021-03-23T13:32:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/117897",
+      "number": 117897,
+      "title": "jdk14 fails to build",
+      "created_at": "2021-03-28T17:34:33Z",
+      "closed_at": "2022-01-30T15:28:19Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/118155",
+      "number": 118155,
+      "title": "Steam / gtk+3 broken on master",
+      "created_at": "2021-03-31T16:25:00Z",
+      "closed_at": "2021-04-09T17:46:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/118770",
+      "number": 118770,
+      "title": "Deselect specific test case in specific file using pytestCheckHook",
+      "created_at": "2021-04-08T00:45:25Z",
+      "closed_at": "2023-12-26T21:14:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/121550",
+      "number": 121550,
+      "title": "perceptualdiff broken on darwin",
+      "created_at": "2021-05-03T02:39:48Z",
+      "closed_at": "2021-05-06T02:36:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/122827",
+      "number": 122827,
+      "title": "python-databases does not build",
+      "created_at": "2021-05-13T12:58:03Z",
+      "closed_at": "2021-05-13T13:55:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/123295",
+      "number": 123295,
+      "title": "Ardour build broken due to glib update",
+      "created_at": "2021-05-16T22:01:44Z",
+      "closed_at": "2021-05-22T08:48:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/123394",
+      "number": 123394,
+      "title": "julia_10-bin, julia_16-bin: add x86_64-darwin support",
+      "created_at": "2021-05-17T18:36:12Z",
+      "closed_at": "2023-01-22T02:42:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/123412",
+      "number": 123412,
+      "title": "Markdown 3.2.2 fails tests with Python 3.6",
+      "created_at": "2021-05-17T21:45:37Z",
+      "closed_at": "2022-04-29T11:12:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/126639",
+      "number": 126639,
+      "title": "Black 21.5b1 fails to build on Darwin",
+      "created_at": "2021-06-12T01:41:01Z",
+      "closed_at": "2021-06-13T18:28:56Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/127290",
+      "number": 127290,
+      "title": "Cannot build python3Packages.pecan",
+      "created_at": "2021-06-18T03:56:37Z",
+      "closed_at": "2021-06-18T20:18:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/127982",
+      "number": 127982,
+      "title": "awscli2 build fails on nixpkgs-unstable on Darwin",
+      "created_at": "2021-06-24T05:10:03Z",
+      "closed_at": "2021-06-30T02:21:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/128266",
+      "number": 128266,
+      "title": "python3Packages.pycairo is broken on darwin",
+      "created_at": "2021-06-27T00:18:12Z",
+      "closed_at": "2021-07-13T10:01:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/128751",
+      "number": 128751,
+      "title": "khal fails to build, fails on test",
+      "created_at": "2021-06-30T08:13:44Z",
+      "closed_at": "2021-07-04T08:16:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/130012",
+      "number": 130012,
+      "title": "Rebar3 not bulding on mac M1 due to failed checks",
+      "created_at": "2021-07-12T12:15:24Z",
+      "closed_at": "2021-11-19T09:26:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/130929",
+      "number": 130929,
+      "title": "Installing httpie fails on MacOS Big Sur 11.4",
+      "created_at": "2021-07-21T11:54:19Z",
+      "closed_at": "2021-08-19T17:58:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/131288",
+      "number": 131288,
+      "title": "zstd: 1.5.0 can't compile on macOS",
+      "created_at": "2021-07-23T23:09:48Z",
+      "closed_at": "2021-07-24T03:03:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/132476",
+      "number": 132476,
+      "title": "patool: build fails due to failing tests",
+      "created_at": "2021-08-02T23:15:36Z",
+      "closed_at": "2021-08-07T05:11:25Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/132642",
+      "number": 132642,
+      "title": "ocrmypdf: fails to be built/installed",
+      "created_at": "2021-08-04T09:49:28Z",
+      "closed_at": "2021-08-06T21:33:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/134758",
+      "number": 134758,
+      "title": "bazel_4 fails to build on aarch64-darwin",
+      "created_at": "2021-08-19T03:19:31Z",
+      "closed_at": "2021-11-12T11:16:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/136214",
+      "number": 136214,
+      "title": "awscli2 build fails on nixpkgs-unstable on Darwin",
+      "created_at": "2021-08-30T18:13:31Z",
+      "closed_at": "2021-12-06T22:36:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/137188",
+      "number": 137188,
+      "title": "mnamer package broken",
+      "created_at": "2021-09-09T14:49:13Z",
+      "closed_at": "2021-09-19T12:03:43Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/137956",
+      "number": 137956,
+      "title": "openjdk 17",
+      "created_at": "2021-09-15T03:46:48Z",
+      "closed_at": "2021-11-25T09:19:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/138085",
+      "number": 138085,
+      "title": "buku fails to install on Darwin aarch64",
+      "created_at": "2021-09-16T01:43:21Z",
+      "closed_at": "2022-04-25T12:16:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/144627",
+      "number": 144627,
+      "title": "ZERO Hydra Failures 21.11",
+      "created_at": "2021-11-04T16:23:47Z",
+      "closed_at": "2021-12-02T18:07:15Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/146765",
+      "number": 146765,
+      "title": "`python3Packages.frozendict` is failing its tests on darwin",
+      "created_at": "2021-11-20T14:56:15Z",
+      "closed_at": "2025-03-12T17:50:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/147294",
+      "number": 147294,
+      "title": "nixosTests.keymap.qwertz fails on aarch64-linux",
+      "created_at": "2021-11-24T20:16:59Z",
+      "closed_at": "2021-12-04T00:13:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/148008",
+      "number": 148008,
+      "title": "Package: ilua, nice interactive Lua (as a Jupyter kernel)",
+      "created_at": "2021-11-30T12:32:24Z",
+      "closed_at": "2022-02-03T03:20:29Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/148111",
+      "number": 148111,
+      "title": "mkvtoolnix-62.0.0 fails a test on x86_64-darwin",
+      "created_at": "2021-12-01T09:03:20Z",
+      "closed_at": "2022-05-26T14:10:54Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/150818",
+      "number": 150818,
+      "title": "pypy3Packages.bootstrapped-pip fails to build",
+      "created_at": "2021-12-15T10:02:04Z",
+      "closed_at": "2023-02-26T23:39:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/151767",
+      "number": 151767,
+      "title": "Gajim 1.3.3 does not build",
+      "created_at": "2021-12-22T14:54:06Z",
+      "closed_at": "2021-12-27T22:58:52Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/152049",
+      "number": 152049,
+      "title": "python3Packages.einops tests are broken",
+      "created_at": "2021-12-25T01:09:11Z",
+      "closed_at": "2022-01-10T13:25:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/152226",
+      "number": 152226,
+      "title": "Octoprint not building on unstable/master for aarch64-linux due to sarge test failing",
+      "created_at": "2021-12-26T13:10:37Z",
+      "closed_at": "2022-01-03T22:27:54Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/156131",
+      "number": 156131,
+      "title": "Noto-fonts-cjk variable font doesn't work in gedit",
+      "created_at": "2022-01-22T03:54:53Z",
+      "closed_at": "2022-04-02T05:51:06Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/159423",
+      "number": 159423,
+      "title": "Building `remarshal` package fails on determining `tomlkit` version",
+      "created_at": "2022-02-12T04:00:18Z",
+      "closed_at": "2022-02-12T04:26:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/159864",
+      "number": 159864,
+      "title": "pytest-httpbin test failed due to override in octoprint",
+      "created_at": "2022-02-13T16:52:49Z",
+      "closed_at": "2022-02-15T09:47:34Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/160333",
+      "number": 160333,
+      "title": "python38Packages.fastapi is broken",
+      "created_at": "2022-02-16T14:28:41Z",
+      "closed_at": "2022-02-24T15:02:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/161570",
+      "number": 161570,
+      "title": "strictDeps breaks libs in checkInputs",
+      "created_at": "2022-02-23T20:06:08Z",
+      "closed_at": "2023-01-21T16:12:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/162053",
+      "number": 162053,
+      "title": "Packaging request: vimPlugins.everforest",
+      "created_at": "2022-02-27T07:57:00Z",
+      "closed_at": "2022-03-02T03:22:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/166228",
+      "number": 166228,
+      "title": "Packaging request: normcap",
+      "created_at": "2022-03-29T11:12:26Z",
+      "closed_at": "2023-09-20T20:37:16Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/167972",
+      "number": 167972,
+      "title": "`pycrypto-2.6.1-13.1` fails to build",
+      "created_at": "2022-04-09T09:22:33Z",
+      "closed_at": "2022-05-05T17:24:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/168365",
+      "number": 168365,
+      "title": "`gamemoded -t` fails because of missing libc version GLIBC_2.34 ",
+      "created_at": "2022-04-12T08:10:26Z",
+      "closed_at": "2022-04-19T04:55:28Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/169286",
+      "number": 169286,
+      "title": "python39Packages.pywebview tests failing",
+      "created_at": "2022-04-19T07:35:48Z",
+      "closed_at": "2022-04-21T06:01:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/169542",
+      "number": 169542,
+      "title": "Unable to build GraalVM on Darwin (x64_64)",
+      "created_at": "2022-04-21T07:06:47Z",
+      "closed_at": "2022-04-21T13:35:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/175875",
+      "number": 175875,
+      "title": "pyopenssl fails to build on aarch64-darwin",
+      "created_at": "2022-06-02T01:37:08Z",
+      "closed_at": "2022-12-18T23:11:22Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/176525",
+      "number": 176525,
+      "title": "python3.9-jupyterlab_server-2.12.0 tests failing",
+      "created_at": "2022-06-06T09:06:29Z",
+      "closed_at": "2022-07-14T12:49:19Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/178427",
+      "number": 178427,
+      "title": "Python Package Request: Disnake",
+      "created_at": "2022-06-21T10:59:42Z",
+      "closed_at": "2025-03-12T17:46:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/179151",
+      "number": 179151,
+      "title": "hercules-ci-cnix-store fails to build on aarch64-darwin",
+      "created_at": "2022-06-26T05:08:36Z",
+      "closed_at": "2022-07-03T03:02:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/179474",
+      "number": 179474,
+      "title": "bitcoin: broken on aarch64-darwin",
+      "created_at": "2022-06-28T19:23:57Z",
+      "closed_at": "2022-11-25T11:19:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/180254",
+      "number": 180254,
+      "title": "[22.05] diffoscope build is broken (test failure)",
+      "created_at": "2022-07-05T16:33:30Z",
+      "closed_at": "2022-07-05T17:14:10Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/182735",
+      "number": 182735,
+      "title": "pygobject fails to cross-compile (target: riscv64-linux) (host: x86_64-linux)",
+      "created_at": "2022-07-24T20:15:06Z",
+      "closed_at": "2022-08-31T14:17:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/184013",
+      "number": 184013,
+      "title": "mat2 broken latest unstable",
+      "created_at": "2022-07-30T17:08:20Z",
+      "closed_at": "2022-08-01T17:33:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/185096",
+      "number": 185096,
+      "title": "git-town fails to build on Darwin",
+      "created_at": "2022-08-04T05:46:20Z",
+      "closed_at": "2022-08-19T17:53:17Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/185289",
+      "number": 185289,
+      "title": "Python3Packages.debugpy build error under aarch64-darwin",
+      "created_at": "2022-08-05T18:58:43Z",
+      "closed_at": "2022-10-05T14:50:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/185918",
+      "number": 185918,
+      "title": "python310Packages.psycopg: fails to install on darwin",
+      "created_at": "2022-08-10T13:41:19Z",
+      "closed_at": "2022-08-13T22:12:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/186766",
+      "number": 186766,
+      "title": "cargo-generate broken on darwin",
+      "created_at": "2022-08-15T09:00:07Z",
+      "closed_at": "2022-08-25T05:13:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/190019",
+      "number": 190019,
+      "title": "Failed to build `rls` on aarch64-darwin (commit 2da64a81)",
+      "created_at": "2022-09-06T14:37:27Z",
+      "closed_at": "2022-09-11T14:00:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/191677",
+      "number": 191677,
+      "title": "tests fail for python3Packages.dask-jobqueue",
+      "created_at": "2022-09-17T16:03:46Z",
+      "closed_at": "2022-10-26T08:25:04Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/193540",
+      "number": 193540,
+      "title": "Newer pytz breaks khal",
+      "created_at": "2022-09-29T15:01:22Z",
+      "closed_at": "2022-10-01T19:25:25Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/194208",
+      "number": 194208,
+      "title": "🦝 NixOS 22.11 - Feature Freeze & Release Blockers",
+      "created_at": "2022-10-03T10:52:27Z",
+      "closed_at": "2023-01-14T15:34:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/200864",
+      "number": 200864,
+      "title": "php-fileinfo-8.1.14 fails to build",
+      "created_at": "2022-11-12T14:26:27Z",
+      "closed_at": "2023-01-10T06:04:04Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/203459",
+      "number": 203459,
+      "title": "python310Packages.pylsp-mypy: build fails",
+      "created_at": "2022-11-28T14:23:44Z",
+      "closed_at": "2022-11-29T14:37:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/204181",
+      "number": 204181,
+      "title": "GTK3 and GTK4 applications fail to display Noto CJK fonts.",
+      "created_at": "2022-12-02T21:59:01Z",
+      "closed_at": "2022-12-04T04:14:06Z"
+    }
+  ]
+}

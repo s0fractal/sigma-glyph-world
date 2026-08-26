@@ -1,0 +1,716 @@
+{
+  "index": 80,
+  "stratum": "lint_static_analysis",
+  "repository": "eslint/eslint",
+  "repository_id": 11061773,
+  "term": "false positive",
+  "query": "repo:eslint/eslint is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:15.939275+00:00",
+  "total_count": 163,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "6c8283a019b6d7c9b607523fb45a00d5e16c1a72a74f29dce407f2e51c0f5fd6",
+  "items": [
+    {
+      "url": "https://github.com/eslint/eslint/issues/12739",
+      "number": 12739,
+      "title": "no-extra-parens false positive with await and exponentiation operator",
+      "created_at": "2020-01-03T22:26:09Z",
+      "closed_at": "2020-12-18T17:55:45Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12740",
+      "number": 12740,
+      "title": "no-extra-parens false positives with new and member expressions",
+      "created_at": "2020-01-04T05:16:04Z",
+      "closed_at": "2020-07-03T19:43:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12750",
+      "number": 12750,
+      "title": "TypeError when parsing template literal in dynamic import",
+      "created_at": "2020-01-06T20:14:19Z",
+      "closed_at": "2020-02-06T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12754",
+      "number": 12754,
+      "title": "prefer-typeof-undefined rule proposal",
+      "created_at": "2020-01-07T15:30:33Z",
+      "closed_at": "2020-02-10T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12768",
+      "number": 12768,
+      "title": "no-empty-function false positive",
+      "created_at": "2020-01-10T11:22:35Z",
+      "closed_at": "2020-03-20T02:09:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12788",
+      "number": 12788,
+      "title": "False positive for 'no-multi-spaces' combined with 'key-spacing'",
+      "created_at": "2020-01-14T11:57:16Z",
+      "closed_at": "2020-02-14T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12809",
+      "number": 12809,
+      "title": "`no-new-object`: warns on non-global Object instantiation",
+      "created_at": "2020-01-19T22:51:41Z",
+      "closed_at": "2020-04-01T16:00:10Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12868",
+      "number": 12868,
+      "title": "Require initialValue for .reduce()",
+      "created_at": "2020-02-03T13:25:28Z",
+      "closed_at": "2020-03-10T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12880",
+      "number": 12880,
+      "title": "False positive no-unreachable catch in generator ",
+      "created_at": "2020-02-06T11:43:33Z",
+      "closed_at": "2020-02-14T15:54:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12883",
+      "number": 12883,
+      "title": "yoda rule exceptRange false positives",
+      "created_at": "2020-02-07T17:57:31Z",
+      "closed_at": "2020-04-24T20:07:06Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12902",
+      "number": 12902,
+      "title": "prefer-destructuring false-positive if already declared in upper scope",
+      "created_at": "2020-02-10T22:56:48Z",
+      "closed_at": "2020-03-12T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12928",
+      "number": 12928,
+      "title": "Rule \"curly\" with \"multi\" has false positive on nested if-for-if, fixer changes code behavior",
+      "created_at": "2020-02-17T00:20:45Z",
+      "closed_at": "2020-02-28T20:47:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12980",
+      "number": 12980,
+      "title": "Rule proposal: `no-unused-return-value`",
+      "created_at": "2020-02-28T14:27:54Z",
+      "closed_at": "2020-04-04T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12992",
+      "number": 12992,
+      "title": "Prevent `let` and/or `const` from being used at too high of a scope",
+      "created_at": "2020-03-04T02:51:35Z",
+      "closed_at": "2020-04-08T03:39:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13003",
+      "number": 13003,
+      "title": "Typescript `eslint --init` false positives",
+      "created_at": "2020-03-05T12:19:30Z",
+      "closed_at": "2020-04-06T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13021",
+      "number": 13021,
+      "title": "[camelcase] false positive when parsing object pattern with a default value, and using a non-default parser.",
+      "created_at": "2020-03-09T14:24:03Z",
+      "closed_at": "2021-08-05T19:43:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13022",
+      "number": 13022,
+      "title": "[camelcase] False positive when using leading underscore when destructuring with computed object property name.",
+      "created_at": "2020-03-10T00:09:12Z",
+      "closed_at": "2020-03-10T17:36:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13030",
+      "number": 13030,
+      "title": "no-unreachable breaks with babel parser + do { continue; } while (false);",
+      "created_at": "2020-03-11T13:50:01Z",
+      "closed_at": "2020-04-21T03:39:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13131",
+      "number": 13131,
+      "title": "Option to ignore slice indices in no-magic-numbers",
+      "created_at": "2020-04-01T18:11:26Z",
+      "closed_at": "2020-05-03T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13146",
+      "number": 13146,
+      "title": "no-unused-vars false positive when interface and class have same name",
+      "created_at": "2020-04-06T08:50:51Z",
+      "closed_at": "2020-04-08T10:13:32Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13159",
+      "number": 13159,
+      "title": "no-extra-parens false positive for TypeScript cast",
+      "created_at": "2020-04-08T12:53:55Z",
+      "closed_at": "2020-04-09T01:33:14Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13163",
+      "number": 13163,
+      "title": "no-unused-vars false positive in for-in loops",
+      "created_at": "2020-04-08T16:22:12Z",
+      "closed_at": "2020-04-08T21:39:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13218",
+      "number": 13218,
+      "title": "`prefer-const` false positive",
+      "created_at": "2020-04-23T20:39:52Z",
+      "closed_at": "2020-04-24T15:51:33Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13221",
+      "number": 13221,
+      "title": "[Internal Rule]: no-unused-messageId",
+      "created_at": "2020-04-24T07:36:55Z",
+      "closed_at": "2020-05-09T05:20:24Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13227",
+      "number": 13227,
+      "title": "no-unused-vars produces frequent False Positives Involving Async/Await",
+      "created_at": "2020-04-25T16:16:23Z",
+      "closed_at": "2020-04-25T22:41:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13241",
+      "number": 13241,
+      "title": "add variable ignore list for `block-scoped-var`",
+      "created_at": "2020-04-30T16:31:25Z",
+      "closed_at": "2020-06-02T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13260",
+      "number": 13260,
+      "title": "report-unused-disable-directives reports false positive with eslint-disable-next-line no-fallthrough",
+      "created_at": "2020-05-04T17:19:20Z",
+      "closed_at": "2020-06-06T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13339",
+      "number": 13339,
+      "title": "no-fallthrough reports false positive when commenting cases",
+      "created_at": "2020-05-21T21:02:11Z",
+      "closed_at": "2020-05-26T23:51:44Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13346",
+      "number": 13346,
+      "title": "[no-loss-of-precision] The rule reports false positives for values with numeric separators",
+      "created_at": "2020-05-23T07:07:57Z",
+      "closed_at": "2020-08-14T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13388",
+      "number": 13388,
+      "title": "Bug: False positive no-unused-vars on import in custom.d.ts",
+      "created_at": "2020-06-03T23:28:38Z",
+      "closed_at": "2020-07-10T00:47:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13428",
+      "number": 13428,
+      "title": "Codespell report for \"ESLint\" (on fossies.org)",
+      "created_at": "2020-06-19T19:47:37Z",
+      "closed_at": "2020-07-27T00:29:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13429",
+      "number": 13429,
+      "title": "\"prefer-const\" wrongly suggests to use \"const\" instead of \"let\"",
+      "created_at": "2020-06-19T21:40:38Z",
+      "closed_at": "2020-06-19T21:53:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13430",
+      "number": 13430,
+      "title": "Rule Proposal: prefer-optional-chaining",
+      "created_at": "2020-06-21T04:36:38Z",
+      "closed_at": "2025-06-05T15:36:06Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13464",
+      "number": 13464,
+      "title": "no-unmodified-loop-condition false positive",
+      "created_at": "2020-07-06T17:57:56Z",
+      "closed_at": "2020-08-08T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13472",
+      "number": 13472,
+      "title": "Support directive comment groups",
+      "created_at": "2020-07-07T19:56:16Z",
+      "closed_at": "2020-08-21T00:29:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13504",
+      "number": 13504,
+      "title": "no-extra-parens false positive for ctor",
+      "created_at": "2020-07-19T06:57:14Z",
+      "closed_at": "2020-07-19T09:29:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13554",
+      "number": 13554,
+      "title": "`no-this-before-super` rule false positive",
+      "created_at": "2020-08-08T11:20:00Z",
+      "closed_at": "2020-09-09T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13555",
+      "number": 13555,
+      "title": "react/display-name false positive on ant-design ColumnsType",
+      "created_at": "2020-08-10T06:46:50Z",
+      "closed_at": "2020-08-13T03:56:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13566",
+      "number": 13566,
+      "title": "Optional chaining issue with dot-notation rule",
+      "created_at": "2020-08-14T08:55:35Z",
+      "closed_at": "2020-09-24T17:03:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13567",
+      "number": 13567,
+      "title": "Warn when `await` keyword might be missing",
+      "created_at": "2020-08-14T15:19:47Z",
+      "closed_at": "2020-09-22T00:29:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13594",
+      "number": 13594,
+      "title": "Make no-restricted-imports apply to dynamic imports",
+      "created_at": "2020-08-20T11:00:41Z",
+      "closed_at": "2020-11-06T17:28:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13599",
+      "number": 13599,
+      "title": "Make no-dupe-keys compare tokens (like no-duplicate-case does)",
+      "created_at": "2020-08-21T09:47:26Z",
+      "closed_at": "2020-09-22T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13604",
+      "number": 13604,
+      "title": "no-extra-parens false positive with TypeScript `as`",
+      "created_at": "2020-08-22T02:27:59Z",
+      "closed_at": "2020-09-23T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13616",
+      "number": 13616,
+      "title": "[no-unused-vars] Potential False Positive with rest destructuring",
+      "created_at": "2020-08-25T17:05:17Z",
+      "closed_at": "2020-08-25T17:55:58Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13620",
+      "number": 13620,
+      "title": "no-unused-vars false positive in for-in loops? still an issue?",
+      "created_at": "2020-08-26T17:51:19Z",
+      "closed_at": "2020-08-27T17:41:01Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13640",
+      "number": 13640,
+      "title": "Enum and no-shadow - False Positive",
+      "created_at": "2020-08-31T21:28:59Z",
+      "closed_at": "2020-08-31T21:41:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13648",
+      "number": 13648,
+      "title": "False positive warning for the rule \"prefer-destructuring\"",
+      "created_at": "2020-09-01T21:27:53Z",
+      "closed_at": "2020-09-05T21:03:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13649",
+      "number": 13649,
+      "title": "Variables are incorrectly marked as shadowed",
+      "created_at": "2020-09-01T21:46:45Z",
+      "closed_at": "2020-09-02T01:50:24Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13666",
+      "number": 13666,
+      "title": "False positive from `no-unused-expressions` when using nullish coalescing operator with array push",
+      "created_at": "2020-09-07T08:56:53Z",
+      "closed_at": "2020-10-08T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13668",
+      "number": 13668,
+      "title": "[no-promise-executor-return]: false positive on arrow function",
+      "created_at": "2020-09-07T12:35:16Z",
+      "closed_at": "2020-11-19T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13669",
+      "number": 13669,
+      "title": "[no-duplicate-imports]: false positive when import and import type",
+      "created_at": "2020-09-07T12:45:29Z",
+      "closed_at": "2020-09-10T14:54:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13672",
+      "number": 13672,
+      "title": "Feature request: disable-comments that expect errors",
+      "created_at": "2020-09-08T04:13:53Z",
+      "closed_at": "2020-09-09T02:10:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13678",
+      "number": 13678,
+      "title": "prefer-destructuring false Positive when casting result",
+      "created_at": "2020-09-09T20:46:42Z",
+      "closed_at": "2020-10-13T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13744",
+      "number": 13744,
+      "title": "Add no-dupe-ternary-expressions",
+      "created_at": "2020-10-08T10:58:30Z",
+      "closed_at": "2020-10-20T17:59:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13805",
+      "number": 13805,
+      "title": "False positive warning for the rule \"prefer-destructuring\"",
+      "created_at": "2020-10-30T07:41:52Z",
+      "closed_at": "2020-10-31T03:15:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13806",
+      "number": 13806,
+      "title": "False positive for no-shadow on typescript enum",
+      "created_at": "2020-10-30T12:24:28Z",
+      "closed_at": "2020-10-30T19:54:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13821",
+      "number": 13821,
+      "title": " no-undef rule false positive",
+      "created_at": "2020-11-06T10:11:19Z",
+      "closed_at": "2020-11-06T10:35:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13833",
+      "number": 13833,
+      "title": "False positive indentation result when the semi-colon is at the beginning of a new line.",
+      "created_at": "2020-11-10T20:49:51Z",
+      "closed_at": "2020-12-31T17:28:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13855",
+      "number": 13855,
+      "title": "no-unused-vars false-positive with array reduce function",
+      "created_at": "2020-11-16T20:37:43Z",
+      "closed_at": "2020-11-16T20:44:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13894",
+      "number": 13894,
+      "title": "Rule \"no-invalid-this\" produces false positives.",
+      "created_at": "2020-12-01T09:56:59Z",
+      "closed_at": "2021-01-02T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13916",
+      "number": 13916,
+      "title": "\"no-unused-vars\" is coming up with a false positive",
+      "created_at": "2020-12-10T00:44:52Z",
+      "closed_at": "2020-12-10T16:49:31Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13943",
+      "number": 13943,
+      "title": "[no-shadow] False positive in function block as variable is initialized",
+      "created_at": "2020-12-19T21:15:47Z",
+      "closed_at": "2020-12-19T23:35:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13998",
+      "number": 13998,
+      "title": "no-redeclare identifies false positives with switch-case statements",
+      "created_at": "2021-01-11T12:44:20Z",
+      "closed_at": "2021-01-12T22:12:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14000",
+      "number": 14000,
+      "title": "False positive for 'no-template-curly-in-string'",
+      "created_at": "2021-01-11T18:38:58Z",
+      "closed_at": "2021-01-13T01:29:50Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14037",
+      "number": 14037,
+      "title": "prefer-nullish-coalescing rule",
+      "created_at": "2021-01-26T11:51:52Z",
+      "closed_at": "2021-08-28T00:37:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14163",
+      "number": 14163,
+      "title": "no-unused-vars with ignoreRestSiblings:true reports false-positives",
+      "created_at": "2021-03-02T16:34:23Z",
+      "closed_at": "2021-04-03T23:32:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14208",
+      "number": 14208,
+      "title": "[require-atomic-updates]: False positive on reused loop variable name",
+      "created_at": "2021-03-12T18:55:45Z",
+      "closed_at": "2021-05-08T00:54:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14212",
+      "number": 14212,
+      "title": "/* eslint-expect-error */ — continuous verification of eslint config",
+      "created_at": "2021-03-15T04:13:10Z",
+      "closed_at": "2021-03-15T23:31:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14213",
+      "number": 14213,
+      "title": "`no-unused-expressions` false positive in `expect().to.be.true` for chai",
+      "created_at": "2021-03-15T07:48:53Z",
+      "closed_at": "2021-03-15T21:45:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14219",
+      "number": 14219,
+      "title": "check `node.raw` before checking because it's not standard and may break custom parser",
+      "created_at": "2021-03-16T16:21:26Z",
+      "closed_at": "2021-03-16T17:09:58Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14221",
+      "number": 14221,
+      "title": "no-invalid-this: false positive with `this` in class field",
+      "created_at": "2021-03-16T20:31:19Z",
+      "closed_at": "2021-03-16T20:56:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14223",
+      "number": 14223,
+      "title": "no-mixed-operators: don't require parentheses around a single ternary operator argument",
+      "created_at": "2021-03-17T15:27:40Z",
+      "closed_at": "2021-03-24T15:40:29Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14534",
+      "number": 14534,
+      "title": "False positive \"(ESLint) no-invalid-this\" in class property method",
+      "created_at": "2021-04-28T10:41:19Z",
+      "closed_at": "2021-04-28T15:17:21Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14593",
+      "number": 14593,
+      "title": "no-unused-vars needs a better default",
+      "created_at": "2021-05-17T02:30:46Z",
+      "closed_at": "2021-05-21T00:47:36Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14623",
+      "number": 14623,
+      "title": "no-implicit-coercion: <string expression> + \"\" triggers false positive",
+      "created_at": "2021-05-25T03:32:48Z",
+      "closed_at": "2021-06-04T16:27:34Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14695",
+      "number": 14695,
+      "title": "Strange behavior of require-atomic-updates",
+      "created_at": "2021-06-10T19:36:58Z",
+      "closed_at": "2022-01-03T18:02:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14700",
+      "number": 14700,
+      "title": "`no-await-in-loop` false positive on exiting code path (break, return)",
+      "created_at": "2021-06-12T18:17:49Z",
+      "closed_at": "2021-06-15T00:29:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14724",
+      "number": 14724,
+      "title": "Rule `import/no-unresolved` raise false positive when there is no `main` field in the `package.json`",
+      "created_at": "2021-06-18T23:09:57Z",
+      "closed_at": "2021-06-19T10:31:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14776",
+      "number": 14776,
+      "title": "Allow valid/invalid cases in RuleTester to contain a syntax tree instead of example code",
+      "created_at": "2021-07-07T12:10:14Z",
+      "closed_at": "2021-08-21T00:40:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14802",
+      "number": 14802,
+      "title": "Check `!foo === bar` in `no-unsafe-negation` rule",
+      "created_at": "2021-07-15T11:30:39Z",
+      "closed_at": "2021-12-24T22:34:03Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14859",
+      "number": 14859,
+      "title": "Detect unused private members in classes",
+      "created_at": "2021-07-30T11:12:30Z",
+      "closed_at": "2021-10-22T13:17:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14950",
+      "number": 14950,
+      "title": "False positive `@typescript-eslint/explicit-member-accessibility` for interface's getters/setters",
+      "created_at": "2021-08-20T12:01:10Z",
+      "closed_at": "2021-08-20T12:08:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15056",
+      "number": 15056,
+      "title": "Bug: false positive \"ESLint: Parsing error: Unexpected token <\"",
+      "created_at": "2021-09-13T21:03:42Z",
+      "closed_at": "2021-09-15T00:15:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15078",
+      "number": 15078,
+      "title": "Rule Change: Allow complex, non-name-specific RexExp strings for no-unused-vars varsIgnorePattern",
+      "created_at": "2021-09-18T00:46:12Z",
+      "closed_at": "2021-12-01T01:24:25Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15080",
+      "number": 15080,
+      "title": "Bug: no-misleading-character-class triggers on seemingly-OK code",
+      "created_at": "2021-09-18T21:58:28Z",
+      "closed_at": "2024-05-10T14:25:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15097",
+      "number": 15097,
+      "title": "New Rule: prefer using `.at()`",
+      "created_at": "2021-09-24T08:09:20Z",
+      "closed_at": "2021-09-29T02:42:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15240",
+      "number": 15240,
+      "title": "New Rule: disallow bidirectional control characters and homoglyphs to mitigate trojan source attacks",
+      "created_at": "2021-11-02T06:30:01Z",
+      "closed_at": "2023-05-11T12:57:18Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15379",
+      "number": 15379,
+      "title": "Bug: prefer-destructuring couldn't auto fix in this condition ",
+      "created_at": "2021-12-02T13:56:10Z",
+      "closed_at": "2021-12-02T16:34:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15433",
+      "number": 15433,
+      "title": "Bug: false positive for key-spacing with align mode: minimum and afterColon: true",
+      "created_at": "2021-12-17T08:36:28Z",
+      "closed_at": "2021-12-21T14:09:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15457",
+      "number": 15457,
+      "title": "Bug: no-unused-vars triggered with typescript this: typing",
+      "created_at": "2021-12-26T18:40:42Z",
+      "closed_at": "2021-12-27T09:11:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15466",
+      "number": 15466,
+      "title": "Change Request: Enable `reportUnusedDisableDirectives` config option by default",
+      "created_at": "2021-12-29T15:50:12Z",
+      "closed_at": "2023-12-28T09:23:39Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15467",
+      "number": 15467,
+      "title": "Bug: False positives with no-constant-condition",
+      "created_at": "2021-12-29T21:54:35Z",
+      "closed_at": "2022-01-11T00:56:06Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15477",
+      "number": 15477,
+      "title": "Bug: no-invalid-this: false positive with this in class field",
+      "created_at": "2022-01-01T22:01:41Z",
+      "closed_at": "2022-01-15T22:58:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15552",
+      "number": 15552,
+      "title": "Add no-duplicate-case documentation note about ignoring side effects",
+      "created_at": "2022-01-30T23:19:00Z",
+      "closed_at": "2022-02-02T00:44:38Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15576",
+      "number": 15576,
+      "title": "Rule Change: Update no-inner-declaration and remove from eslint:recommended",
+      "created_at": "2022-02-05T13:48:28Z",
+      "closed_at": "2024-01-09T19:09:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15737",
+      "number": 15737,
+      "title": "New Rule: `no-useless-override`",
+      "created_at": "2022-03-29T01:39:56Z",
+      "closed_at": "2022-03-29T03:21:17Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15743",
+      "number": 15743,
+      "title": "Change Request: How foo/**/* is handled in \"files\" key",
+      "created_at": "2022-03-30T16:59:26Z",
+      "closed_at": "2022-04-02T00:21:37Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15767",
+      "number": 15767,
+      "title": "Bug: `no-loss-of-precision` false positive",
+      "created_at": "2022-04-07T18:13:30Z",
+      "closed_at": "2022-08-18T23:27:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15772",
+      "number": 15772,
+      "title": "Add support for Unicode properties `Script` values added in ES2022",
+      "created_at": "2022-04-10T09:35:50Z",
+      "closed_at": "2023-03-03T14:26:18Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15810",
+      "number": 15810,
+      "title": "Bug: `no-underscore-dangle` not working as expected in ES2022 public/private class fields",
+      "created_at": "2022-04-26T20:26:23Z",
+      "closed_at": "2022-05-04T10:02:21Z"
+    }
+  ]
+}

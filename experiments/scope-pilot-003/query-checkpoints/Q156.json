@@ -1,0 +1,23 @@
+{
+  "index": 156,
+  "stratum": "proofs_build_completeness",
+  "repository": "seL4/l4v",
+  "repository_id": 21950486,
+  "term": "no tests",
+  "query": "repo:seL4/l4v is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:57.903949+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "b4050fe616fbf2da6f726fa4b8f0f8cf5c826ade4b98ab8d38eabff92f6eb829",
+  "items": [
+    {
+      "url": "https://github.com/seL4/l4v/issues/74",
+      "number": 74,
+      "title": "HaskellKernel times out running tests in a clean repo",
+      "created_at": "2020-09-06T09:07:19Z",
+      "closed_at": "2020-12-02T04:37:10Z"
+    }
+  ]
+}

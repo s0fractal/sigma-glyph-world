@@ -1,0 +1,37 @@
+{
+  "index": 49,
+  "stratum": "lint_static_analysis",
+  "repository": "astral-sh/ruff",
+  "repository_id": 523043277,
+  "term": "zero issues",
+  "query": "repo:astral-sh/ruff is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:36.194732+00:00",
+  "total_count": 3,
+  "incomplete_results": false,
+  "returned": 3,
+  "raw_response_sha256": "a07b0ad77194db35e5369a35f1ac1c622e6cc6025d4f4bcabafab05541b2bec2",
+  "items": [
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4092",
+      "number": 4092,
+      "title": "`--fix-only` returns exit code 1 upon fixes",
+      "created_at": "2023-04-25T09:05:53Z",
+      "closed_at": "2023-05-04T19:03:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10844",
+      "number": 10844,
+      "title": "New Rule: Disallow uncaught and unchecked exceptions",
+      "created_at": "2024-04-09T03:16:28Z",
+      "closed_at": "2024-04-14T09:32:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/21613",
+      "number": 21613,
+      "title": "Show diff for applied fixes",
+      "created_at": "2025-11-24T13:11:11Z",
+      "closed_at": "2025-11-24T15:50:46Z"
+    }
+  ]
+}

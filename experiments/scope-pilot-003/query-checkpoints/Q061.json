@@ -1,0 +1,177 @@
+{
+  "index": 61,
+  "stratum": "lint_static_analysis",
+  "repository": "koalaman/shellcheck",
+  "repository_id": 6731432,
+  "term": "ignored",
+  "query": "repo:koalaman/shellcheck is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:14.272642+00:00",
+  "total_count": 23,
+  "incomplete_results": false,
+  "returned": 23,
+  "raw_response_sha256": "78780a81c02328d24fe60c46b6f334651e8f9f17db91e7c3ddc6fc94b2f4cfde",
+  "items": [
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1799",
+      "number": 1799,
+      "title": "error| syntax error near unexpected token `('",
+      "created_at": "2020-01-18T21:19:58Z",
+      "closed_at": "2020-02-17T08:36:37Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1859",
+      "number": 1859,
+      "title": "error parsing &|",
+      "created_at": "2020-03-04T07:26:06Z",
+      "closed_at": "2020-03-04T15:33:24Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1954",
+      "number": 1954,
+      "title": "Idea: Encourage more local variables",
+      "created_at": "2020-05-15T13:55:02Z",
+      "closed_at": "2026-07-15T20:19:39Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/1996",
+      "number": 1996,
+      "title": "New directive to ignore file",
+      "created_at": "2020-06-25T16:03:11Z",
+      "closed_at": "2021-10-31T00:19:52Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2085",
+      "number": 2085,
+      "title": "The online editor converts tabs to spaces",
+      "created_at": "2020-11-06T23:19:41Z",
+      "closed_at": "2020-11-06T23:33:22Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2091",
+      "number": 2091,
+      "title": "Conditional oneliner does not detect lack of &&.",
+      "created_at": "2020-11-18T11:58:43Z",
+      "closed_at": "2020-12-07T05:26:45Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2281",
+      "number": 2281,
+      "title": "SC1133: wrong error reported",
+      "created_at": "2021-07-10T06:37:52Z",
+      "closed_at": "2021-07-23T02:42:34Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2338",
+      "number": 2338,
+      "title": "Add new check for error ignoring on command substitutions",
+      "created_at": "2021-09-29T00:26:13Z",
+      "closed_at": "2021-10-09T17:08:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2345",
+      "number": 2345,
+      "title": "Misleading warning about ranges on association array",
+      "created_at": "2021-10-04T03:26:44Z",
+      "closed_at": "2021-10-08T01:51:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2361",
+      "number": 2361,
+      "title": "SC3026: shellcheck does not report that [^a] is not equivalent to [!a] in dash",
+      "created_at": "2021-10-21T19:17:00Z",
+      "closed_at": "2021-10-22T04:01:08Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2484",
+      "number": 2484,
+      "title": "detect ignored exitcode from subshell parameter substitution",
+      "created_at": "2022-04-10T14:13:42Z",
+      "closed_at": "2022-10-09T14:37:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2534",
+      "number": 2534,
+      "title": "SC1071 can't be disabled via RC file",
+      "created_at": "2022-07-16T15:29:59Z",
+      "closed_at": "2022-07-28T18:53:10Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2552",
+      "number": 2552,
+      "title": "bug: False positives when cd'ing with Bats-specific variables",
+      "created_at": "2022-08-11T01:13:14Z",
+      "closed_at": "2025-06-03T07:01:08Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2560",
+      "number": 2560,
+      "title": "SC2086 requiring quotes for `$?` et al. again",
+      "created_at": "2022-08-15T12:04:12Z",
+      "closed_at": "2022-09-16T07:26:37Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2567",
+      "number": 2567,
+      "title": "[Feature request] Catch ambiguity of using single quote in default value substitution  ",
+      "created_at": "2022-08-29T10:37:52Z",
+      "closed_at": "2026-07-05T02:47:45Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2650",
+      "number": 2650,
+      "title": "Relax SC2182 for bash, when printf -v is used",
+      "created_at": "2022-12-30T04:38:45Z",
+      "closed_at": "2026-05-16T04:31:18Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2660",
+      "number": 2660,
+      "title": "SC2317: false-positive with EXIT trap in subshell?",
+      "created_at": "2023-01-09T12:07:48Z",
+      "closed_at": "2026-08-07T13:42:53Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/2970",
+      "number": 2970,
+      "title": "SC2154 var is referenced but not assigned not triggered if used within an array",
+      "created_at": "2024-04-23T20:34:01Z",
+      "closed_at": "2024-05-04T23:30:10Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3054",
+      "number": 3054,
+      "title": "SC2329 should be transitive",
+      "created_at": "2024-09-06T11:50:37Z",
+      "closed_at": "2024-10-27T22:57:15Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3137",
+      "number": 3137,
+      "title": "v0.10.0 miscategorizes uncalled function as unreachable code",
+      "created_at": "2025-02-04T15:33:52Z",
+      "closed_at": "2026-07-05T03:04:03Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3138",
+      "number": 3138,
+      "title": "v0.10.0 miscategorizes uncalled function as unreachable code",
+      "created_at": "2025-02-04T15:45:13Z",
+      "closed_at": "2025-02-06T08:44:14Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3227",
+      "number": 3227,
+      "title": "Documentation feature request: using \"ignore\" directive with line continuations",
+      "created_at": "2025-06-20T15:45:03Z",
+      "closed_at": "2025-07-16T13:23:19Z"
+    },
+    {
+      "url": "https://github.com/koalaman/shellcheck/issues/3298",
+      "number": 3298,
+      "title": "SC2329 is incorrectly shown if sourced file contains \"return\"",
+      "created_at": "2025-09-16T13:26:37Z",
+      "closed_at": "2026-07-27T17:47:45Z"
+    }
+  ]
+}

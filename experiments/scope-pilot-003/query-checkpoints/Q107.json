@@ -1,0 +1,23 @@
+{
+  "index": 107,
+  "stratum": "artifact_conformance",
+  "repository": "sigstore/cosign",
+  "repository_id": 335952417,
+  "term": "no tests",
+  "query": "repo:sigstore/cosign is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:40.638500+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "6ce36b108c7042d4080e8bfa79df606689dc8767d96dfa785172b620613231c3",
+  "items": [
+    {
+      "url": "https://github.com/sigstore/cosign/issues/3976",
+      "number": 3976,
+      "title": "Intermediate cert and root CA must come via same source for verify to succeed",
+      "created_at": "2024-12-17T06:54:57Z",
+      "closed_at": "2026-08-07T18:43:03Z"
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "index": 10,
+  "stratum": "tests",
+  "repository": "vitest-dev/vitest",
+  "repository_id": 434708679,
+  "term": "false positive",
+  "query": "repo:vitest-dev/vitest is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:28.099451+00:00",
+  "total_count": 93,
+  "incomplete_results": false,
+  "returned": 93,
+  "raw_response_sha256": "2e124aaea738ae7c5ebfe91e964c07e1d3b2dde8490cd57d04699673d28ef7ae",
+  "items": [
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/960",
+      "number": 960,
+      "title": "Error on dynamic imports using `AsyncConstructor` in Vitest",
+      "created_at": "2022-03-16T20:49:40Z",
+      "closed_at": "2024-02-16T13:56:52Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/973",
+      "number": 973,
+      "title": "False positive test result",
+      "created_at": "2022-03-18T09:33:26Z",
+      "closed_at": "2022-04-07T18:23:17Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1231",
+      "number": 1231,
+      "title": "`stdout.write` is undefined on Windows when called from try/catch",
+      "created_at": "2022-05-04T18:45:38Z",
+      "closed_at": "2022-05-05T15:36:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1527",
+      "number": 1527,
+      "title": "Bug: Running tests with both script setup and script error",
+      "created_at": "2022-06-22T14:18:38Z",
+      "closed_at": "2023-10-04T10:08:06Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1562",
+      "number": 1562,
+      "title": "Dependency resolution difference between vitest and vite",
+      "created_at": "2022-06-28T08:28:31Z",
+      "closed_at": "2022-06-28T09:03:28Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1615",
+      "number": 1615,
+      "title": "Empty test causes writableLength undefined error",
+      "created_at": "2022-07-08T06:23:51Z",
+      "closed_at": "2022-09-24T00:24:40Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1652",
+      "number": 1652,
+      "title": "Can not run tests when using preact compat alias",
+      "created_at": "2022-07-16T08:45:20Z",
+      "closed_at": "2024-04-25T09:19:51Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1692",
+      "number": 1692,
+      "title": "Tests pass but vitest fails non-deterministically and sometimes causes Unhandled Rejection",
+      "created_at": "2022-07-20T11:58:28Z",
+      "closed_at": "2022-11-01T17:49:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1709",
+      "number": 1709,
+      "title": "Vitest 0.19 fails to run because of extended, unresolved dependencies",
+      "created_at": "2022-07-25T07:05:25Z",
+      "closed_at": "2022-07-25T13:27:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1725",
+      "number": 1725,
+      "title": "vi.actualImport fails if module file path includes \"/dist/\"",
+      "created_at": "2022-07-26T14:49:37Z",
+      "closed_at": "2022-08-04T07:15:36Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1759",
+      "number": 1759,
+      "title": "[0.20.2] \"ArrayBuffer is not defined\" when isolate=false set",
+      "created_at": "2022-07-31T17:51:59Z",
+      "closed_at": "2022-08-02T15:37:11Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1765",
+      "number": 1765,
+      "title": "[0.20.2] Uncaught error on Node.js 18.7: Cannot mix BigInt and other types",
+      "created_at": "2022-08-01T12:06:50Z",
+      "closed_at": "2022-08-01T12:25:57Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2008",
+      "number": 2008,
+      "title": "Vitest hangs tests, close timed out after 1000ms",
+      "created_at": "2022-09-08T17:20:58Z",
+      "closed_at": "2024-05-09T15:24:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2028",
+      "number": 2028,
+      "title": "Unexpected Istanbul code coverage report",
+      "created_at": "2022-09-12T13:30:26Z",
+      "closed_at": "2023-02-21T23:26:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2054",
+      "number": 2054,
+      "title": "Broken TypeScript support for 'this' in custom generic matchers",
+      "created_at": "2022-09-18T16:16:16Z",
+      "closed_at": "2022-09-21T14:04:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2262",
+      "number": 2262,
+      "title": "toThrowError() doesn’t catch async throws",
+      "created_at": "2022-11-03T00:01:57Z",
+      "closed_at": "2022-12-06T17:08:59Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2264",
+      "number": 2264,
+      "title": "Doesn't report some unhandled errors correctly but shows TypeError",
+      "created_at": "2022-11-03T07:05:12Z",
+      "closed_at": "2022-11-03T10:36:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2284",
+      "number": 2284,
+      "title": "Bench.setup throw an error",
+      "created_at": "2022-11-07T06:07:27Z",
+      "closed_at": "2022-11-08T15:40:15Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2327",
+      "number": 2327,
+      "title": "Inline Snapshot won't be written into the source code",
+      "created_at": "2022-11-14T13:31:32Z",
+      "closed_at": "2024-02-16T09:42:31Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2493",
+      "number": 2493,
+      "title": "How to properly handle \"unhandled\" exceptions ",
+      "created_at": "2022-12-12T11:14:55Z",
+      "closed_at": "2022-12-13T08:16:01Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2531",
+      "number": 2531,
+      "title": "0.26.0 causes TypeError: __vite_ssr_import_1__.default.fileURLToPath is not a function",
+      "created_at": "2022-12-19T16:21:50Z",
+      "closed_at": "2022-12-20T09:57:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2744",
+      "number": 2744,
+      "title": "Asymmetric matcher utilities broken in v0.28+",
+      "created_at": "2023-01-24T23:42:04Z",
+      "closed_at": "2023-01-30T08:01:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2806",
+      "number": 2806,
+      "title": "`Cannot destructure property 'AsymmetricMatcher'` with `deps.inline: true`",
+      "created_at": "2023-02-04T12:14:35Z",
+      "closed_at": "2023-12-28T13:57:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2822",
+      "number": 2822,
+      "title": "Unable to update inline snapshots when `vi.mock` is used",
+      "created_at": "2023-02-07T06:27:00Z",
+      "closed_at": "2024-02-16T11:11:13Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3023",
+      "number": 3023,
+      "title": "Only with `--threads=false` option is `process.exitCode` affected",
+      "created_at": "2023-03-17T15:54:39Z",
+      "closed_at": "2024-10-02T14:46:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3102",
+      "number": 3102,
+      "title": "exclude default setting should exclude e2e tests folder",
+      "created_at": "2023-03-29T13:43:31Z",
+      "closed_at": "2025-06-20T08:52:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3174",
+      "number": 3174,
+      "title": "Test Files is not found with Vitest v0.30.0",
+      "created_at": "2023-04-11T08:48:52Z",
+      "closed_at": "2023-04-11T09:33:22Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3257",
+      "number": 3257,
+      "title": "Unhandled errors do not provide enough information to debug",
+      "created_at": "2023-04-25T16:11:16Z",
+      "closed_at": "2023-07-07T00:21:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3318",
+      "number": 3318,
+      "title": "`rejects` & `resolves` breaks with thenable objects",
+      "created_at": "2023-05-08T11:23:35Z",
+      "closed_at": "2023-05-29T13:45:28Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3376",
+      "number": 3376,
+      "title": "Using createError in component causes false positives and VITEST_AFTER_ENV_TEARDOWN unhandled error",
+      "created_at": "2023-05-15T09:46:17Z",
+      "closed_at": "2023-05-17T08:27:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3398",
+      "number": 3398,
+      "title": "False positive on circular dependency check",
+      "created_at": "2023-05-17T15:17:06Z",
+      "closed_at": "2023-05-17T15:21:12Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3412",
+      "number": 3412,
+      "title": "Unhandled promise rejection should be reported after the test finished",
+      "created_at": "2023-05-20T05:44:06Z",
+      "closed_at": "2024-02-16T14:10:44Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3414",
+      "number": 3414,
+      "title": "Coverage Report breaks when using ignore option",
+      "created_at": "2023-05-20T12:57:33Z",
+      "closed_at": "2023-05-21T11:42:03Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3694",
+      "number": 3694,
+      "title": "Simple benchmarking fails",
+      "created_at": "2023-06-28T09:50:19Z",
+      "closed_at": "2023-06-28T09:54:14Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3774",
+      "number": 3774,
+      "title": "vitest run on SvelteKit project but no test found",
+      "created_at": "2023-07-15T10:01:34Z",
+      "closed_at": "2023-07-25T04:16:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3912",
+      "number": 3912,
+      "title": "Option to handle \"unhandled errors\"",
+      "created_at": "2023-08-08T07:06:12Z",
+      "closed_at": "2023-08-15T16:58:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4106",
+      "number": 4106,
+      "title": "Error: [birpc] timeout on calling \"fetch\" on CI/CD environment",
+      "created_at": "2023-09-11T06:49:25Z",
+      "closed_at": "2023-09-16T00:15:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4337",
+      "number": 4337,
+      "title": "The requested module '/node_modules/util/util.js' does not provide an export named",
+      "created_at": "2023-10-19T14:06:38Z",
+      "closed_at": "2023-10-19T15:50:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4384",
+      "number": 4384,
+      "title": "Upgrading to 1.0.0-beta.3 causes browser failures",
+      "created_at": "2023-10-27T17:13:10Z",
+      "closed_at": "2023-11-01T19:37:42Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4393",
+      "number": 4393,
+      "title": "Typecheck fails with Yarn PnP",
+      "created_at": "2023-10-30T01:14:33Z",
+      "closed_at": "2023-11-01T13:01:16Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4461",
+      "number": 4461,
+      "title": "\"Vitest caught 1 unhandled error\" for error in TransformStream",
+      "created_at": "2023-11-08T19:27:08Z",
+      "closed_at": "2023-11-13T10:37:23Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4464",
+      "number": 4464,
+      "title": "Fix flaky tests",
+      "created_at": "2023-11-10T12:19:23Z",
+      "closed_at": "2025-09-05T04:54:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4635",
+      "number": 4635,
+      "title": "Vitest exit with an unhandled error if tests have a module with \"then\" exports",
+      "created_at": "2023-12-01T10:47:37Z",
+      "closed_at": "2023-12-01T12:34:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4686",
+      "number": 4686,
+      "title": "unhandled error with browser tests and modified `base`",
+      "created_at": "2023-12-06T15:23:15Z",
+      "closed_at": "2024-01-04T14:11:40Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4713",
+      "number": 4713,
+      "title": "Rerunning vitest with browser mode no longer works since vitest 1.0.0",
+      "created_at": "2023-12-09T09:57:44Z",
+      "closed_at": "2023-12-09T13:00:15Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4730",
+      "number": 4730,
+      "title": "Vitest 1.0.2 broke happy-dom with msw + axios",
+      "created_at": "2023-12-11T13:44:51Z",
+      "closed_at": "2024-02-16T15:48:05Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4745",
+      "number": 4745,
+      "title": "Support named export in a CommonJS module in node_modules",
+      "created_at": "2023-12-14T10:07:55Z",
+      "closed_at": "2023-12-14T10:13:05Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4791",
+      "number": 4791,
+      "title": "Wrong coverage for files containing types and executable code",
+      "created_at": "2023-12-21T15:21:08Z",
+      "closed_at": "2023-12-29T16:42:23Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5046",
+      "number": 5046,
+      "title": "vitest/browser fails to run when the dependent package has storybook",
+      "created_at": "2024-01-25T16:24:56Z",
+      "closed_at": "2024-01-31T09:39:16Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5263",
+      "number": 5263,
+      "title": "Can't update inline snapshot in Browser Mode",
+      "created_at": "2024-02-21T23:09:30Z",
+      "closed_at": "2024-03-14T15:26:16Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5332",
+      "number": 5332,
+      "title": "vitest/browser fails to run when the dependent package has chai v5",
+      "created_at": "2024-03-04T14:10:45Z",
+      "closed_at": "2024-07-24T08:44:55Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5494",
+      "number": 5494,
+      "title": "Error: EISDIR: illegal operation on a directory, read",
+      "created_at": "2024-04-05T10:24:03Z",
+      "closed_at": "2025-04-17T15:38:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5615",
+      "number": 5615,
+      "title": "1.5.1 Throws Unhandled Rejections TypeErrors in coverage-instanbul - 1.4.0 works fine",
+      "created_at": "2024-04-24T22:57:55Z",
+      "closed_at": "2024-04-30T00:17:25Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5740",
+      "number": 5740,
+      "title": "Resource Busy Or Locked Error",
+      "created_at": "2024-05-03T09:22:48Z",
+      "closed_at": "2025-01-11T00:22:55Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5717",
+      "number": 5717,
+      "title": "执行 vitest 时报错 ast.body is not iterable",
+      "created_at": "2024-05-14T07:28:35Z",
+      "closed_at": "2024-05-18T00:18:13Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5796",
+      "number": 5796,
+      "title": "Support testing the unhandled promise rejection",
+      "created_at": "2024-05-30T09:23:59Z",
+      "closed_at": "2024-07-01T16:04:20Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5848",
+      "number": 5848,
+      "title": "vitest 1.6.0 and axios tests fails with error `DataCloneError: function transformRequest` ",
+      "created_at": "2024-06-05T13:55:49Z",
+      "closed_at": "2024-06-16T12:21:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5856",
+      "number": 5856,
+      "title": "coverage-istanbul does not work with workspaces and SvelteKit",
+      "created_at": "2024-06-07T13:42:05Z",
+      "closed_at": "2024-08-20T07:43:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5966",
+      "number": 5966,
+      "title": "Browser mode: No tests are running when using define in vitest config ",
+      "created_at": "2024-06-24T21:09:54Z",
+      "closed_at": "2024-06-24T21:30:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6112",
+      "number": 6112,
+      "title": "stack trace incorrect for unhandled errors during test run in browser mode",
+      "created_at": "2024-07-12T21:49:50Z",
+      "closed_at": "2024-07-31T16:05:11Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6386",
+      "number": 6386,
+      "title": "Test with `expect(promise).resolves` with promise that never resolves and without `await` hangs",
+      "created_at": "2024-08-23T16:59:46Z",
+      "closed_at": "2024-09-03T09:21:01Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6387",
+      "number": 6387,
+      "title": "Incorrect test results on *first* run after installing node_modules",
+      "created_at": "2024-08-24T00:14:11Z",
+      "closed_at": "2024-09-07T07:02:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6444",
+      "number": 6444,
+      "title": "vitest fails if coverage is configured but disabled",
+      "created_at": "2024-09-03T08:16:13Z",
+      "closed_at": "2024-09-03T08:50:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6459",
+      "number": 6459,
+      "title": "Simple spy on document throws unhandled exception",
+      "created_at": "2024-09-08T09:01:04Z",
+      "closed_at": "2024-09-08T12:16:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6635",
+      "number": 6635,
+      "title": "vitest with prisma failing randomly in CI ",
+      "created_at": "2024-10-03T15:21:23Z",
+      "closed_at": "2024-10-07T00:23:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6674",
+      "number": 6674,
+      "title": "workspace:  __vitest_browser_runner__.runTests is not a function",
+      "created_at": "2024-10-09T19:27:42Z",
+      "closed_at": "2024-10-21T00:23:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6857",
+      "number": 6857,
+      "title": "Random SyntaxError when running in browser mode + SWC plugin",
+      "created_at": "2024-11-05T12:24:40Z",
+      "closed_at": "2024-11-05T14:53:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7074",
+      "number": 7074,
+      "title": "TypeError: Cannot read properties of undefined (reading 'url')",
+      "created_at": "2024-12-12T03:51:34Z",
+      "closed_at": "2024-12-16T00:26:11Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7079",
+      "number": 7079,
+      "title": "Reject a promise after a test will make test end earlier in browser mode.",
+      "created_at": "2024-12-13T10:32:54Z",
+      "closed_at": "2025-04-17T13:27:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7274",
+      "number": 7274,
+      "title": "[v3] Browser: `vitest --project=browser` `Cannot read properties of undefined (reading 'provider')`",
+      "created_at": "2025-01-17T08:41:12Z",
+      "closed_at": "2025-01-17T08:44:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7303",
+      "number": 7303,
+      "title": "Vitest shows `provider` as undefined for browsers even though provided in config",
+      "created_at": "2025-01-20T13:46:14Z",
+      "closed_at": "2025-01-23T13:01:00Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7308",
+      "number": 7308,
+      "title": "Running a single project with browsers fails with `Cannot read properties of undefined (reading 'provider')`",
+      "created_at": "2025-01-20T14:56:52Z",
+      "closed_at": "2025-01-23T13:01:01Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7322",
+      "number": 7322,
+      "title": "vitest v3 throws with jest-image-snapshot.",
+      "created_at": "2025-01-21T07:19:09Z",
+      "closed_at": "2025-02-04T14:57:22Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7377",
+      "number": 7377,
+      "title": "[Browser Mode]: flaky firefox `Failed to connect to the browser session`",
+      "created_at": "2025-01-29T13:26:40Z",
+      "closed_at": "2025-04-17T11:21:48Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7591",
+      "number": 7591,
+      "title": "`instanceof` not working in vitest in monorepo setups",
+      "created_at": "2025-03-01T04:30:00Z",
+      "closed_at": "2025-03-02T03:18:28Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7826",
+      "number": 7826,
+      "title": "Setting `VITEST_MAX_FORKS` with sharding results in `Unhandled Error`",
+      "created_at": "2025-04-11T10:09:43Z",
+      "closed_at": "2025-04-15T00:25:44Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7940",
+      "number": 7940,
+      "title": "Can't catch unhandled errors/rejections since 3.0.8",
+      "created_at": "2025-05-06T13:41:51Z",
+      "closed_at": "2025-05-13T17:28:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7944",
+      "number": 7944,
+      "title": "vitest with browser setup no longer working when bumping from 3.1.1 to 3.1.3",
+      "created_at": "2025-05-07T16:17:15Z",
+      "closed_at": "2025-05-29T09:50:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8039",
+      "number": 8039,
+      "title": "Vitest erroring out on linux but not on windows (tinypool)",
+      "created_at": "2025-05-27T11:40:10Z",
+      "closed_at": "2025-05-27T13:36:51Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8164",
+      "number": 8164,
+      "title": "testTimeout is not fully respected: `Error: [vitest-worker]: Timeout calling \"onTaskUpdate\"`",
+      "created_at": "2025-06-15T10:20:27Z",
+      "closed_at": "2025-07-22T14:02:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8186",
+      "number": 8186,
+      "title": "After upgrade from 3.1.4 to 3.2.x userAgent is undefined (sometimes)",
+      "created_at": "2025-06-18T14:30:55Z",
+      "closed_at": "2025-06-20T07:21:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8540",
+      "number": 8540,
+      "title": "Vitest Browser 3.1.0+ `Error: Cannot find package 'vite' imported from` test failure",
+      "created_at": "2025-09-05T23:47:13Z",
+      "closed_at": "2025-09-06T08:34:31Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8649",
+      "number": 8649,
+      "title": "'Closing rpc while \"fetch\" was pending' on v4 beta",
+      "created_at": "2025-10-01T09:39:06Z",
+      "closed_at": "2025-10-21T17:12:57Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8855",
+      "number": 8855,
+      "title": "sequence.groupId config doesn't exists",
+      "created_at": "2025-10-28T16:37:38Z",
+      "closed_at": "2025-10-29T06:26:28Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8861",
+      "number": 8861,
+      "title": "v4: inconsistent errors with pool: 'forks' or 'vmForks'",
+      "created_at": "2025-10-29T09:09:23Z",
+      "closed_at": "2025-11-07T11:38:05Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8958",
+      "number": 8958,
+      "title": "Running `test/reporters` and `test/config` locally doesn't work",
+      "created_at": "2025-11-06T13:30:54Z",
+      "closed_at": "2026-04-07T16:44:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8968",
+      "number": 8968,
+      "title": "v4: Timeout starting forks runner.",
+      "created_at": "2025-11-07T12:00:39Z",
+      "closed_at": "2025-11-14T08:34:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8981",
+      "number": 8981,
+      "title": "Running `vitest` with `--typecheck` option throws error that prints out `tsc --help` if `tsconfig.json` is not available",
+      "created_at": "2025-11-08T16:16:33Z",
+      "closed_at": "2025-12-23T17:15:54Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9024",
+      "number": 9024,
+      "title": "Unhandled error after asserting that promise throws an error",
+      "created_at": "2025-11-13T10:42:35Z",
+      "closed_at": "2026-03-29T04:45:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9065",
+      "number": 9065,
+      "title": "Deno broken in v4.0.10",
+      "created_at": "2025-11-20T11:10:32Z",
+      "closed_at": "2025-12-03T06:35:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9092",
+      "number": 9092,
+      "title": "Session is not connected error when using coverage-v8, jsdom, optimizer & react plugin",
+      "created_at": "2025-11-24T14:48:07Z",
+      "closed_at": "2026-01-15T11:27:52Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9169",
+      "number": 9169,
+      "title": "WSL Windows browser support",
+      "created_at": "2025-12-04T13:13:52Z",
+      "closed_at": "2025-12-22T22:53:56Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9189",
+      "number": 9189,
+      "title": "Regression Handling import attributes in v4",
+      "created_at": "2025-12-05T23:49:40Z",
+      "closed_at": "2025-12-12T00:28:22Z"
+    }
+  ]
+}

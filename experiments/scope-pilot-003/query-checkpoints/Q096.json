@@ -1,0 +1,275 @@
+{
+  "index": 96,
+  "stratum": "artifact_conformance",
+  "repository": "actions/runner",
+  "repository_id": 184286875,
+  "term": "ignored",
+  "query": "repo:actions/runner is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:46:08.245900+00:00",
+  "total_count": 37,
+  "incomplete_results": false,
+  "returned": 37,
+  "raw_response_sha256": "d1956180c83d7349f18403604cb2ac75578c804f552d6eac7a8e6d394b80a7eb",
+  "items": [
+    {
+      "url": "https://github.com/actions/runner/issues/412",
+      "number": 412,
+      "title": "2.168.0 does not work, permission issue, 2.165.2 worked fine",
+      "created_at": "2020-04-07T18:56:51Z",
+      "closed_at": "2020-04-08T15:17:17Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/496",
+      "number": 496,
+      "title": "Specifying a timeout option seems to be ignored by the runner",
+      "created_at": "2020-05-21T00:50:56Z",
+      "closed_at": "2020-06-26T04:32:03Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/545",
+      "number": 545,
+      "title": "on.<push|pull_request>.path ignores provided \"path\" and triggers for any PR.",
+      "created_at": "2020-06-15T05:14:43Z",
+      "closed_at": "2020-06-23T17:34:55Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/650",
+      "number": 650,
+      "title": "`composer validate` command not working in a self-hosted environment",
+      "created_at": "2020-08-07T16:18:42Z",
+      "closed_at": "2022-07-12T11:45:09Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/751",
+      "number": 751,
+      "title": "Setting strategy.matrix to variable value returns a \"invalid workflow file\" error",
+      "created_at": "2020-10-08T23:15:06Z",
+      "closed_at": "2022-02-07T18:42:46Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/805",
+      "number": 805,
+      "title": "Add ARM + MacOS target to be able to use on self-hosted runners",
+      "created_at": "2020-11-12T18:32:58Z",
+      "closed_at": "2022-08-15T13:28:22Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/868",
+      "number": 868,
+      "title": "Docker containers get incorrect HTTP_PROXY injected if the host has HTTP_PROXY=http://127.0.0.1:xxx/",
+      "created_at": "2020-12-17T21:43:07Z",
+      "closed_at": "2021-09-14T23:38:00Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/890",
+      "number": 890,
+      "title": "Implementation of --no-check-certificate parameter for the self hosted runner ",
+      "created_at": "2021-01-05T13:07:44Z",
+      "closed_at": "2021-10-17T09:15:47Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/895",
+      "number": 895,
+      "title": "github context is not accessible from step.uses",
+      "created_at": "2021-01-07T14:51:58Z",
+      "closed_at": "2021-04-23T19:54:39Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/932",
+      "number": 932,
+      "title": "The repository 'https://dl.bintray.com/sbt/debian  Release' no longer has a Release file.",
+      "created_at": "2021-01-22T01:26:03Z",
+      "closed_at": "2021-03-30T20:29:17Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/933",
+      "number": 933,
+      "title": "Fail Instead of Warn for Unknown Properties",
+      "created_at": "2021-01-22T01:54:44Z",
+      "closed_at": "2021-03-30T20:27:06Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1015",
+      "number": 1015,
+      "title": "[Powershell] Tests do not fail despite use of $ErrorActionPreference='Stop' if error code != 1",
+      "created_at": "2021-03-18T13:21:23Z",
+      "closed_at": "2021-03-30T18:30:38Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1049",
+      "number": 1049,
+      "title": "[skip ci] skips non-CI workflows",
+      "created_at": "2021-04-16T16:47:15Z",
+      "closed_at": "2021-04-21T10:37:48Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1079",
+      "number": 1079,
+      "title": "remove-svc.sh: sudo config.sh wipes the RUNNER_ALLOW_RUNASROOT env var",
+      "created_at": "2021-05-06T21:03:22Z",
+      "closed_at": "2021-06-04T15:30:03Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1173",
+      "number": 1173,
+      "title": "If condition are always evaluated as true when containing expression syntax inside",
+      "created_at": "2021-06-25T13:35:38Z",
+      "closed_at": "2026-01-22T07:37:17Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1182",
+      "number": 1182,
+      "title": "Support YAML Anchors",
+      "created_at": "2021-07-01T20:34:51Z",
+      "closed_at": "2025-08-04T16:10:44Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1475",
+      "number": 1475,
+      "title": "Workflow Template not using Container",
+      "created_at": "2021-11-10T23:59:23Z",
+      "closed_at": "2021-11-11T11:55:29Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1511",
+      "number": 1511,
+      "title": "Enable user to bypass .gitignore ignores",
+      "created_at": "2021-11-26T12:06:18Z",
+      "closed_at": "2021-12-17T19:45:41Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1602",
+      "number": 1602,
+      "title": "Bug in IF conditions on inputs for reusable workflows",
+      "created_at": "2022-01-11T11:21:22Z",
+      "closed_at": "2022-01-18T17:05:28Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1644",
+      "number": 1644,
+      "title": "Runner does not notify users when a bad yaml is submitted",
+      "created_at": "2022-02-01T10:48:25Z",
+      "closed_at": "2023-03-23T12:16:16Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1660",
+      "number": 1660,
+      "title": "Setting strategy.matrix.value to expression throws invalid type error",
+      "created_at": "2022-02-04T12:13:09Z",
+      "closed_at": "2023-11-16T15:28:05Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1703",
+      "number": 1703,
+      "title": "Inconsistent Environment on Linux",
+      "created_at": "2022-02-21T08:40:33Z",
+      "closed_at": "2022-02-28T16:58:43Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1705",
+      "number": 1705,
+      "title": "Runner seems to mess up `run` strings with nested quotes (at least on macOS)",
+      "created_at": "2022-02-21T18:33:29Z",
+      "closed_at": "2022-02-22T16:22:47Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1742",
+      "number": 1742,
+      "title": "Annotations from composite actions are not correctly created",
+      "created_at": "2022-03-09T18:15:02Z",
+      "closed_at": "2023-06-26T09:43:30Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/1858",
+      "number": 1858,
+      "title": "description field of workflow_dispatch is now showing a parsing error",
+      "created_at": "2022-04-29T11:39:29Z",
+      "closed_at": "2022-07-06T10:52:27Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2005",
+      "number": 2005,
+      "title": "IF conditions in step is ignored when called in a workflow_call",
+      "created_at": "2022-07-17T19:48:47Z",
+      "closed_at": "2023-10-16T00:21:52Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2036",
+      "number": 2036,
+      "title": "Temporary failure resolving 'deb.debian.org'",
+      "created_at": "2022-08-01T13:27:16Z",
+      "closed_at": "2022-08-03T13:31:20Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2157",
+      "number": 2157,
+      "title": "Supporting runners on 64bit RISC-V ",
+      "created_at": "2022-09-26T17:00:39Z",
+      "closed_at": "2022-10-05T10:09:02Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2397",
+      "number": 2397,
+      "title": "Ruuner auto update fail and runner is going ofline",
+      "created_at": "2023-01-26T09:04:22Z",
+      "closed_at": "2024-02-19T00:22:30Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2596",
+      "number": 2596,
+      "title": "self-hosted runner ignores variable in working-directory",
+      "created_at": "2023-05-10T10:27:51Z",
+      "closed_at": "2024-06-03T00:24:06Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/2667",
+      "number": 2667,
+      "title": "Allow null container",
+      "created_at": "2023-06-22T12:41:31Z",
+      "closed_at": "2023-06-30T12:18:42Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3041",
+      "number": 3041,
+      "title": "`cancelled()` returns `false` after workflow cancel ",
+      "created_at": "2023-12-14T13:39:42Z",
+      "closed_at": "2025-04-07T00:32:19Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3146",
+      "number": 3146,
+      "title": "if: ${{ github.event_name != 'workflow_call' }} not working",
+      "created_at": "2024-02-11T21:50:57Z",
+      "closed_at": "2024-04-22T10:24:40Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3585",
+      "number": 3585,
+      "title": "Self-hosted agents ending up in wrong runner-group when './config.sh --replace --runnergroup abcd ' is used",
+      "created_at": "2024-11-20T12:15:24Z",
+      "closed_at": "2025-12-15T00:37:58Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3756",
+      "number": 3756,
+      "title": "Vagrant KVM VM fail to register some of the runners.",
+      "created_at": "2025-03-18T13:38:32Z",
+      "closed_at": "2026-06-08T01:17:13Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3768",
+      "number": 3768,
+      "title": "Specified runner version overridden",
+      "created_at": "2025-03-25T21:02:22Z",
+      "closed_at": "2026-04-20T00:56:04Z"
+    },
+    {
+      "url": "https://github.com/actions/runner/issues/3792",
+      "number": 3792,
+      "title": "safe_sleep.sh rarely hangs indefinitely",
+      "created_at": "2025-04-07T13:10:10Z",
+      "closed_at": "2025-12-01T16:23:55Z"
+    }
+  ]
+}

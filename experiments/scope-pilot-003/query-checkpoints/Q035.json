@@ -1,0 +1,37 @@
+{
+  "index": 35,
+  "stratum": "tests",
+  "repository": "cypress-io/cypress",
+  "repository_id": 31629751,
+  "term": "zero issues",
+  "query": "repo:cypress-io/cypress is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:53.011191+00:00",
+  "total_count": 3,
+  "incomplete_results": false,
+  "returned": 3,
+  "raw_response_sha256": "0b44f2364b409f92e84cf69ebc1072605dd56294ea347c9085f00030c2a92a63",
+  "items": [
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/6183",
+      "number": 6183,
+      "title": "Inline, zero-dimension element: erroneous visibility determination",
+      "created_at": "2020-01-17T11:32:20Z",
+      "closed_at": "2020-08-17T05:00:58Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/8110",
+      "number": 8110,
+      "title": "cy.fixture removes trailing zeroes from number values",
+      "created_at": "2020-07-28T19:00:49Z",
+      "closed_at": "2020-07-29T08:59:36Z"
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress/issues/23824",
+      "number": 23824,
+      "title": "Cypress 10.8.0: Video Randomly Freezing When Recording Tests",
+      "created_at": "2022-09-14T09:10:32Z",
+      "closed_at": "2024-05-21T20:57:57Z"
+    }
+  ]
+}

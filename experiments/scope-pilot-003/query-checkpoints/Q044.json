@@ -1,0 +1,170 @@
+{
+  "index": 44,
+  "stratum": "lint_static_analysis",
+  "repository": "astral-sh/ruff",
+  "repository_id": 523043277,
+  "term": "no tests",
+  "query": "repo:astral-sh/ruff is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:19.461414+00:00",
+  "total_count": 22,
+  "incomplete_results": false,
+  "returned": 22,
+  "raw_response_sha256": "ca6421a2771006cba8caae5357e1f6b39d4999b1e24e3399760bc8c067dfbadd",
+  "items": [
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1699",
+      "number": 1699,
+      "title": "Installing ruff via pip on NixOs does not work",
+      "created_at": "2023-01-06T21:41:30Z",
+      "closed_at": "2023-01-08T03:18:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1915",
+      "number": 1915,
+      "title": "tests fail on windows due to platform line endings",
+      "created_at": "2023-01-16T13:04:06Z",
+      "closed_at": "2023-01-26T00:53:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2169",
+      "number": 2169,
+      "title": "T201 autofix can break code that actually should print things",
+      "created_at": "2023-01-25T20:04:34Z",
+      "closed_at": "2023-02-08T02:44:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2446",
+      "number": 2446,
+      "title": "Feature request: Ignore specific rule on per file basis via in-file comment",
+      "created_at": "2023-02-01T17:08:52Z",
+      "closed_at": "2023-02-17T01:59:03Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5442",
+      "number": 5442,
+      "title": "D410 not enforced",
+      "created_at": "2023-06-29T15:03:21Z",
+      "closed_at": "2023-07-03T00:29:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6788",
+      "number": 6788,
+      "title": "Rules PT009, SIM300, UP018 causes autofix error",
+      "created_at": "2023-08-22T18:32:03Z",
+      "closed_at": "2023-08-23T16:22:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8241",
+      "number": 8241,
+      "title": "Exclude failure for `tool.ruff[lint|format]`",
+      "created_at": "2023-10-26T05:27:44Z",
+      "closed_at": "2023-10-27T00:03:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8605",
+      "number": 8605,
+      "title": "[D417] Missing argument descriptions in the docstring for `**kwargs` and `*args` should be allowed",
+      "created_at": "2023-11-10T15:46:06Z",
+      "closed_at": "2023-11-10T18:59:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9169",
+      "number": 9169,
+      "title": "Fuzz proposal: fuzz target for formatting",
+      "created_at": "2023-12-17T15:22:17Z",
+      "closed_at": "2024-01-11T18:04:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9490",
+      "number": 9490,
+      "title": "Failed to create cache file when trying to run ruff",
+      "created_at": "2024-01-12T11:58:02Z",
+      "closed_at": "2024-01-12T16:11:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10542",
+      "number": 10542,
+      "title": "0.3.4: pytest fails because `No data_provider tests were created for test_type_availability` ans some warnings",
+      "created_at": "2024-03-24T09:03:17Z",
+      "closed_at": "2024-03-25T00:04:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11243",
+      "number": 11243,
+      "title": "PT006 breaks test by removing tuple from parametrize",
+      "created_at": "2024-05-02T08:46:24Z",
+      "closed_at": "2024-12-09T08:58:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11664",
+      "number": 11664,
+      "title": "[red-knot] testing framework",
+      "created_at": "2024-05-31T22:16:16Z",
+      "closed_at": "2024-10-08T19:33:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11868",
+      "number": 11868,
+      "title": "Improve documentation for `PLR0917` around keyword only parameters",
+      "created_at": "2024-06-14T06:41:36Z",
+      "closed_at": "2024-06-23T15:16:10Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12453",
+      "number": 12453,
+      "title": "`extend-select = [\"I\"]` from pyproject.toml not honored for tests in very specific circumstances",
+      "created_at": "2024-07-22T13:37:39Z",
+      "closed_at": "2024-07-22T14:41:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12656",
+      "number": 12656,
+      "title": "macOS test failure for resolver::tests::symlink",
+      "created_at": "2024-08-04T00:12:29Z",
+      "closed_at": "2024-08-05T07:22:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12660",
+      "number": 12660,
+      "title": "Ruff crashed workspace URL was not a file path!",
+      "created_at": "2024-08-04T09:54:46Z",
+      "closed_at": "2024-08-07T09:15:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/13011",
+      "number": 13011,
+      "title": "[red-knot] packages installed by uv fail resolving to a module",
+      "created_at": "2024-08-20T15:12:00Z",
+      "closed_at": "2025-04-04T18:40:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/14205",
+      "number": 14205,
+      "title": "PT017 triggers on non-test code",
+      "created_at": "2024-11-08T14:54:39Z",
+      "closed_at": "2024-11-11T04:48:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/15229",
+      "number": 15229,
+      "title": "Errors for attempted autofixes visible to users even without passing `--fix` and for noqa lines",
+      "created_at": "2025-01-02T22:04:11Z",
+      "closed_at": "2025-01-03T14:50:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/18437",
+      "number": 18437,
+      "title": "ruff format adds trailing comma after function call, silently turning return value into tuple",
+      "created_at": "2025-06-03T08:09:18Z",
+      "closed_at": "2025-06-05T12:31:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/20553",
+      "number": 20553,
+      "title": "inconsistent first-party/third-party auto-resolution for non-permanent files (rule I001)",
+      "created_at": "2025-09-24T16:41:38Z",
+      "closed_at": "2025-09-26T05:40:20Z"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "index": 21,
+  "stratum": "tests",
+  "repository": "jestjs/jest",
+  "repository_id": 15062869,
+  "term": "zero issues",
+  "query": "repo:jestjs/jest is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:42:05.030226+00:00",
+  "total_count": 1,
+  "incomplete_results": false,
+  "returned": 1,
+  "raw_response_sha256": "62d3db81b72788f095fb62134478936e675483d832ddfb4d84a5be0eed186c2c",
+  "items": [
+    {
+      "url": "https://github.com/jestjs/jest/issues/10791",
+      "number": 10791,
+      "title": "Running coverage on untested files...Failed to collect coverage from",
+      "created_at": "2020-11-06T16:32:08Z",
+      "closed_at": "2022-08-23T13:36:18Z"
+    }
+  ]
+}

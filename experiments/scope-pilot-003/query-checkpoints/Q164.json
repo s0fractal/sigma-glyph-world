@@ -1,0 +1,716 @@
+{
+  "index": 164,
+  "stratum": "proofs_build_completeness",
+  "repository": "NixOS/nixpkgs",
+  "repository_id": 4542716,
+  "term": "false positive",
+  "query": "repo:NixOS/nixpkgs is:issue is:closed created:2020-01-01..2025-12-31 \"false positive\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:49:21.715630+00:00",
+  "total_count": 796,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "e8061827ef4a39a1b8c53a9abf8916aff6de1216a649c9a6ba70888fdcd10f38",
+  "items": [
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77256",
+      "number": 77256,
+      "title": "Vulnerability roundup 80: bind-9.14.8: 1 advisory",
+      "created_at": "2020-01-07T20:36:04Z",
+      "closed_at": "2020-01-11T09:57:44Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77257",
+      "number": 77257,
+      "title": "Vulnerability roundup 80: bind-9.14.9: 1 advisory",
+      "created_at": "2020-01-07T20:36:08Z",
+      "closed_at": "2020-01-11T10:01:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77258",
+      "number": 77258,
+      "title": "Vulnerability roundup 80: cyrus-sasl-2.1.27: 1 advisory",
+      "created_at": "2020-01-07T20:36:09Z",
+      "closed_at": "2020-07-15T07:36:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77259",
+      "number": 77259,
+      "title": "Vulnerability roundup 80: ffmpeg-3.4.7: 11 advisories",
+      "created_at": "2020-01-07T20:36:10Z",
+      "closed_at": "2020-07-15T07:54:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77260",
+      "number": 77260,
+      "title": "Vulnerability roundup 80: gcc-9.2.0: 1 advisory",
+      "created_at": "2020-01-07T20:36:11Z",
+      "closed_at": "2020-01-09T10:51:29Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77261",
+      "number": 77261,
+      "title": "Vulnerability roundup 80: imagemagick-6.9.9-34: 1 advisory",
+      "created_at": "2020-01-07T20:36:13Z",
+      "closed_at": "2020-01-18T22:41:47Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77262",
+      "number": 77262,
+      "title": "Vulnerability roundup 80: libspiro-0.5.20150702: 1 advisory",
+      "created_at": "2020-01-07T20:36:15Z",
+      "closed_at": "2020-11-30T03:50:29Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77263",
+      "number": 77263,
+      "title": "Vulnerability roundup 80: libssh-0.8.5: 1 advisory",
+      "created_at": "2020-01-07T20:36:16Z",
+      "closed_at": "2020-01-18T22:41:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77264",
+      "number": 77264,
+      "title": "Vulnerability roundup 80: libssh-0.8.7: 1 advisory",
+      "created_at": "2020-01-07T20:36:17Z",
+      "closed_at": "2020-03-15T08:39:36Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77265",
+      "number": 77265,
+      "title": "Vulnerability roundup 80: libxml2-2.9.9: 1 advisory",
+      "created_at": "2020-01-07T20:36:19Z",
+      "closed_at": "2020-01-11T10:07:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77266",
+      "number": 77266,
+      "title": "Vulnerability roundup 80: openssl-1.0.2t: 1 advisory",
+      "created_at": "2020-01-07T20:36:20Z",
+      "closed_at": "2020-01-11T09:34:27Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77267",
+      "number": 77267,
+      "title": "Vulnerability roundup 80: openssl-1.1.1d: 1 advisory",
+      "created_at": "2020-01-07T20:36:22Z",
+      "closed_at": "2020-04-29T02:45:55Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77268",
+      "number": 77268,
+      "title": "Vulnerability roundup 80: php-7.2.24: 5 advisories",
+      "created_at": "2020-01-07T20:36:24Z",
+      "closed_at": "2020-01-18T22:41:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77269",
+      "number": 77269,
+      "title": "Vulnerability roundup 80: php-7.3.13: 6 advisories",
+      "created_at": "2020-01-07T20:36:27Z",
+      "closed_at": "2020-04-29T14:31:42Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77270",
+      "number": 77270,
+      "title": "Vulnerability roundup 80: shadow-4.8: 1 advisory",
+      "created_at": "2020-01-07T20:36:28Z",
+      "closed_at": "2020-05-11T10:36:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77271",
+      "number": 77271,
+      "title": "Vulnerability roundup 80: sqlite-3.30.1: 10 advisories",
+      "created_at": "2020-01-07T20:36:29Z",
+      "closed_at": "2020-05-20T10:00:02Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77272",
+      "number": 77272,
+      "title": "Vulnerability roundup 80: sudo-1.8.28: 2 advisories",
+      "created_at": "2020-01-07T20:36:31Z",
+      "closed_at": "2020-01-17T14:17:47Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77273",
+      "number": 77273,
+      "title": "Vulnerability roundup 80: virglrenderer-0.7.0: 4 advisories",
+      "created_at": "2020-01-07T20:36:32Z",
+      "closed_at": "2020-07-15T07:29:05Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77926",
+      "number": 77926,
+      "title": "Vulnerability roundup 81: bind-9.14.9: 1 advisory",
+      "created_at": "2020-01-17T14:41:03Z",
+      "closed_at": "2020-02-02T09:57:46Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77927",
+      "number": 77927,
+      "title": "Vulnerability roundup 81: cpio-2.12: 1 advisory",
+      "created_at": "2020-01-17T14:41:04Z",
+      "closed_at": "2020-03-15T10:19:11Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77928",
+      "number": 77928,
+      "title": "Vulnerability roundup 81: curl-7.64.0: 1 advisory",
+      "created_at": "2020-01-17T14:41:06Z",
+      "closed_at": "2020-01-18T22:39:30Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77929",
+      "number": 77929,
+      "title": "Vulnerability roundup 81: curl-7.65.3: 1 advisory",
+      "created_at": "2020-01-17T14:41:09Z",
+      "closed_at": "2020-03-15T08:40:43Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77930",
+      "number": 77930,
+      "title": "Vulnerability roundup 81: curl-7.67.0: 1 advisory",
+      "created_at": "2020-01-17T14:41:10Z",
+      "closed_at": "2020-03-15T08:40:50Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77931",
+      "number": 77931,
+      "title": "Vulnerability roundup 81: dnsmasq-2.80: 1 advisory",
+      "created_at": "2020-01-17T14:41:12Z",
+      "closed_at": "2020-07-15T07:27:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77932",
+      "number": 77932,
+      "title": "Vulnerability roundup 81: firefox-69.0.1: 31 advisories",
+      "created_at": "2020-01-17T14:41:13Z",
+      "closed_at": "2020-01-18T22:39:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77933",
+      "number": 77933,
+      "title": "Vulnerability roundup 81: glib-2.60.7: 1 advisory",
+      "created_at": "2020-01-17T14:41:14Z",
+      "closed_at": "2020-11-12T07:56:12Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77934",
+      "number": 77934,
+      "title": "Vulnerability roundup 81: glib-2.62.4: 1 advisory",
+      "created_at": "2020-01-17T14:41:16Z",
+      "closed_at": "2020-12-01T07:55:30Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77935",
+      "number": 77935,
+      "title": "Vulnerability roundup 81: gnome-shell-3.34.3: 1 advisory",
+      "created_at": "2020-01-17T14:41:18Z",
+      "closed_at": "2020-01-17T15:04:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77936",
+      "number": 77936,
+      "title": "Vulnerability roundup 81: go-1.13.6: 6 advisories",
+      "created_at": "2020-01-17T14:41:19Z",
+      "closed_at": "2020-12-15T16:11:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77937",
+      "number": 77937,
+      "title": "Vulnerability roundup 81: libbsd-0.9.1: 1 advisory",
+      "created_at": "2020-01-17T14:41:20Z",
+      "closed_at": "2020-07-15T07:26:12Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77938",
+      "number": 77938,
+      "title": "Vulnerability roundup 81: opencv-4.1.2: 1 advisory",
+      "created_at": "2020-01-17T14:41:22Z",
+      "closed_at": "2020-12-01T02:44:05Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77939",
+      "number": 77939,
+      "title": "Vulnerability roundup 81: openjpeg-2.3.1: 1 advisory",
+      "created_at": "2020-01-17T14:41:23Z",
+      "closed_at": "2020-03-15T07:59:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77940",
+      "number": 77940,
+      "title": "Vulnerability roundup 81: openssl-1.0.2u: 2 advisories",
+      "created_at": "2020-01-17T14:41:24Z",
+      "closed_at": "2020-02-05T12:02:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77941",
+      "number": 77941,
+      "title": "Vulnerability roundup 81: qemu-3.1.0: 1 advisory",
+      "created_at": "2020-01-17T14:41:25Z",
+      "closed_at": "2020-01-18T22:37:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77942",
+      "number": 77942,
+      "title": "Vulnerability roundup 81: qemu-4.0.1: 1 advisory",
+      "created_at": "2020-01-17T14:41:28Z",
+      "closed_at": "2020-06-19T08:06:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77943",
+      "number": 77943,
+      "title": "Vulnerability roundup 81: qemu-4.2.0: 1 advisory",
+      "created_at": "2020-01-17T14:41:29Z",
+      "closed_at": "2020-06-11T15:15:39Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77944",
+      "number": 77944,
+      "title": "Vulnerability roundup 81: sqlite-3.30.1: 13 advisories",
+      "created_at": "2020-01-17T14:41:30Z",
+      "closed_at": "2020-07-07T07:37:12Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77945",
+      "number": 77945,
+      "title": "Vulnerability roundup 81: vim-8.1.0578: 1 advisory",
+      "created_at": "2020-01-17T14:41:33Z",
+      "closed_at": "2020-01-18T22:37:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/77946",
+      "number": 77946,
+      "title": "Vulnerability roundup 81: vim-8.1.1967: 1 advisory",
+      "created_at": "2020-01-17T14:41:36Z",
+      "closed_at": "2020-02-05T08:00:15Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78759",
+      "number": 78759,
+      "title": "Vulnerability roundup 82: e2fsprogs-1.45.4: 1 advisory",
+      "created_at": "2020-01-29T10:31:51Z",
+      "closed_at": "2020-02-11T08:04:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78760",
+      "number": 78760,
+      "title": "Vulnerability roundup 82: exiv2-0.27.2: 1 advisory",
+      "created_at": "2020-01-29T10:31:53Z",
+      "closed_at": "2020-03-29T07:43:14Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78761",
+      "number": 78761,
+      "title": "Vulnerability roundup 82: libxml2-2.9.10: 1 advisory",
+      "created_at": "2020-01-29T10:31:56Z",
+      "closed_at": "2020-02-02T09:32:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78762",
+      "number": 78762,
+      "title": "Vulnerability roundup 82: qemu-4.2.0: 2 advisories",
+      "created_at": "2020-01-29T10:31:57Z",
+      "closed_at": "2020-02-10T15:52:26Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/78763",
+      "number": 78763,
+      "title": "Vulnerability roundup 82: virglrenderer-0.7.0: 2 advisories",
+      "created_at": "2020-01-29T10:31:59Z",
+      "closed_at": "2020-11-12T07:21:52Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79719",
+      "number": 79719,
+      "title": "Vulnerability roundup 83: aspell-0.60.6.1: 1 advisory",
+      "created_at": "2020-02-10T14:17:23Z",
+      "closed_at": "2020-09-09T18:58:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79720",
+      "number": 79720,
+      "title": "Vulnerability roundup 83: bind-9.14.10: 1 advisory",
+      "created_at": "2020-02-10T14:17:26Z",
+      "closed_at": "2020-03-15T08:07:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79721",
+      "number": 79721,
+      "title": "Vulnerability roundup 83: e2fsprogs-1.45.4: 1 advisory",
+      "created_at": "2020-02-10T14:17:27Z",
+      "closed_at": "2020-11-12T07:56:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79722",
+      "number": 79722,
+      "title": "Vulnerability roundup 83: git-2.25.0: 3 advisories",
+      "created_at": "2020-02-10T14:17:30Z",
+      "closed_at": "2020-04-29T14:57:16Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79723",
+      "number": 79723,
+      "title": "Vulnerability roundup 83: go-1.13.7: 6 advisories",
+      "created_at": "2020-02-10T14:17:31Z",
+      "closed_at": "2020-12-15T16:11:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79724",
+      "number": 79724,
+      "title": "Vulnerability roundup 83: gparted-1.1.0: 1 advisory",
+      "created_at": "2020-02-10T14:17:32Z",
+      "closed_at": "2020-02-14T13:52:09Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79725",
+      "number": 79725,
+      "title": "Vulnerability roundup 83: libxml2-2.9.10: 1 advisory",
+      "created_at": "2020-02-10T14:17:34Z",
+      "closed_at": "2020-03-15T07:55:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79726",
+      "number": 79726,
+      "title": "Vulnerability roundup 83: openjpeg-2.3.1: 1 advisory",
+      "created_at": "2020-02-10T14:17:35Z",
+      "closed_at": "2020-03-15T07:58:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79727",
+      "number": 79727,
+      "title": "Vulnerability roundup 83: parallel-3.2.2.0: 2 advisories",
+      "created_at": "2020-02-10T14:17:37Z",
+      "closed_at": "2020-06-10T14:53:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79728",
+      "number": 79728,
+      "title": "Vulnerability roundup 83: parallel-3.2.2.0-r1.cabal: 2 advisories",
+      "created_at": "2020-02-10T14:17:39Z",
+      "closed_at": "2020-06-10T14:54:01Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79729",
+      "number": 79729,
+      "title": "Vulnerability roundup 83: python-2.7.17: 2 advisories",
+      "created_at": "2020-02-10T14:17:40Z",
+      "closed_at": "2020-06-10T14:48:38Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79730",
+      "number": 79730,
+      "title": "Vulnerability roundup 83: python-2.7.17-env: 1 advisory",
+      "created_at": "2020-02-10T14:17:42Z",
+      "closed_at": "2020-04-23T09:40:04Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79731",
+      "number": 79731,
+      "title": "Vulnerability roundup 83: qt-4.8.7: 1 advisory",
+      "created_at": "2020-02-10T14:17:44Z",
+      "closed_at": "2020-08-31T20:08:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79732",
+      "number": 79732,
+      "title": "Vulnerability roundup 83: samba-4.10.11: 3 advisories",
+      "created_at": "2020-02-10T14:17:46Z",
+      "closed_at": "2020-03-15T10:12:21Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79733",
+      "number": 79733,
+      "title": "Vulnerability roundup 83: samba-4.11.5: 2 advisories",
+      "created_at": "2020-02-10T14:17:48Z",
+      "closed_at": "2020-03-15T09:05:32Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/79734",
+      "number": 79734,
+      "title": "Vulnerability roundup 83: statistics-0.15.2.0: 1 advisory",
+      "created_at": "2020-02-10T14:17:49Z",
+      "closed_at": "2020-05-12T11:57:31Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/80740",
+      "number": 80740,
+      "title": "Replace Bazaar with Breezy",
+      "created_at": "2020-02-21T16:18:43Z",
+      "closed_at": "2020-05-25T07:37:15Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/82042",
+      "number": 82042,
+      "title": "Bulidkite agent does not work anymore",
+      "created_at": "2020-03-08T11:19:30Z",
+      "closed_at": "2020-03-28T23:43:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/86500",
+      "number": 86500,
+      "title": "Haskell: to-do list of potentially out-dated overrides",
+      "created_at": "2020-05-01T20:23:53Z",
+      "closed_at": "2022-07-17T09:02:57Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88268",
+      "number": 88268,
+      "title": "Vulnerability roundup 84: ant-1.10.2: 1 advisory",
+      "created_at": "2020-05-20T09:39:22Z",
+      "closed_at": "2020-11-30T00:04:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88269",
+      "number": 88269,
+      "title": "Vulnerability roundup 84: bash-4.4-p23: 1 advisory",
+      "created_at": "2020-05-20T09:39:23Z",
+      "closed_at": "2020-11-05T06:23:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88270",
+      "number": 88270,
+      "title": "Vulnerability roundup 84: bind-9.14.11: 1 advisory",
+      "created_at": "2020-05-20T09:39:25Z",
+      "closed_at": "2020-12-01T06:16:08Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88271",
+      "number": 88271,
+      "title": "Vulnerability roundup 84: binutils-2.31.1: 11 advisories",
+      "created_at": "2020-05-20T09:39:26Z",
+      "closed_at": "2020-12-01T04:16:54Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88272",
+      "number": 88272,
+      "title": "Vulnerability roundup 84: bluez-5.53: 1 advisory",
+      "created_at": "2020-05-20T09:39:28Z",
+      "closed_at": "2020-11-30T00:34:13Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88273",
+      "number": 88273,
+      "title": "Vulnerability roundup 84: bolt-0.8: 6 advisories",
+      "created_at": "2020-05-20T09:39:29Z",
+      "closed_at": "2020-06-16T08:13:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88274",
+      "number": 88274,
+      "title": "Vulnerability roundup 84: bubblewrap-0.3.3: 1 advisory",
+      "created_at": "2020-05-20T09:39:32Z",
+      "closed_at": "2020-11-12T07:57:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88275",
+      "number": 88275,
+      "title": "Vulnerability roundup 84: cairo-1.16.0: 2 advisories",
+      "created_at": "2020-05-20T09:39:33Z",
+      "closed_at": "2020-12-01T04:15:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88276",
+      "number": 88276,
+      "title": "Vulnerability roundup 84: cereal-0.5.8.1: 2 advisories",
+      "created_at": "2020-05-20T09:39:35Z",
+      "closed_at": "2020-11-12T06:47:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88277",
+      "number": 88277,
+      "title": "Vulnerability roundup 84: cookie-0.4.5: 1 advisory",
+      "created_at": "2020-05-20T09:39:36Z",
+      "closed_at": "2020-12-01T04:15:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88278",
+      "number": 88278,
+      "title": "Vulnerability roundup 84: cryptsetup-2.1.0: 1 advisory",
+      "created_at": "2020-05-20T09:39:37Z",
+      "closed_at": "2020-11-30T00:13:49Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88279",
+      "number": 88279,
+      "title": "Vulnerability roundup 84: dbus-1: 1 advisory",
+      "created_at": "2020-05-20T09:39:39Z",
+      "closed_at": "2020-09-06T09:14:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88280",
+      "number": 88280,
+      "title": "Vulnerability roundup 84: ed-1.15: 1 advisory",
+      "created_at": "2020-05-20T09:39:41Z",
+      "closed_at": "2020-10-01T10:18:40Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88281",
+      "number": 88281,
+      "title": "Vulnerability roundup 84: ed-1.16: 1 advisory",
+      "created_at": "2020-05-20T09:39:43Z",
+      "closed_at": "2020-12-01T07:04:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88282",
+      "number": 88282,
+      "title": "Vulnerability roundup 84: exiv2-0.27.2: 2 advisories",
+      "created_at": "2020-05-20T09:39:44Z",
+      "closed_at": "2020-11-30T00:27:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88283",
+      "number": 88283,
+      "title": "Vulnerability roundup 84: ffmpeg-3.4.7: 11 advisories",
+      "created_at": "2020-05-20T09:39:46Z",
+      "closed_at": "2020-11-30T00:29:46Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88284",
+      "number": 88284,
+      "title": "Vulnerability roundup 84: ffmpeg-4.2.2: 1 advisory",
+      "created_at": "2020-05-20T09:39:48Z",
+      "closed_at": "2020-05-31T07:37:45Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88285",
+      "number": 88285,
+      "title": "Vulnerability roundup 84: file-roller-3.32.1: 1 advisory",
+      "created_at": "2020-05-20T09:39:49Z",
+      "closed_at": "2020-11-12T07:57:46Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88286",
+      "number": 88286,
+      "title": "Vulnerability roundup 84: file-roller-3.32.4: 1 advisory",
+      "created_at": "2020-05-20T09:39:50Z",
+      "closed_at": "2020-12-01T04:14:53Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88287",
+      "number": 88287,
+      "title": "Vulnerability roundup 84: firefox-68.8.0esr: 78 advisories",
+      "created_at": "2020-05-20T09:39:51Z",
+      "closed_at": "2020-06-19T09:50:20Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88288",
+      "number": 88288,
+      "title": "Vulnerability roundup 84: flex-2.6.4: 2 advisories",
+      "created_at": "2020-05-20T09:39:53Z",
+      "closed_at": "2020-09-03T09:21:29Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88289",
+      "number": 88289,
+      "title": "Vulnerability roundup 84: fontconfig-2.10.2: 1 advisory",
+      "created_at": "2020-05-20T09:39:55Z",
+      "closed_at": "2020-08-12T11:45:41Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88290",
+      "number": 88290,
+      "title": "Vulnerability roundup 84: fontforge-20190413: 1 advisory",
+      "created_at": "2020-05-20T09:39:57Z",
+      "closed_at": "2020-06-12T09:49:48Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88291",
+      "number": 88291,
+      "title": "Vulnerability roundup 84: fontforge-20190801: 3 advisories",
+      "created_at": "2020-05-20T09:39:59Z",
+      "closed_at": "2020-06-12T09:47:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88292",
+      "number": 88292,
+      "title": "Vulnerability roundup 84: fuse-2.9.9: 1 advisory",
+      "created_at": "2020-05-20T09:40:00Z",
+      "closed_at": "2020-05-20T10:49:33Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88293",
+      "number": 88293,
+      "title": "Vulnerability roundup 84: fuse-3.6.2: 1 advisory",
+      "created_at": "2020-05-20T09:40:01Z",
+      "closed_at": "2020-05-20T10:50:07Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88294",
+      "number": 88294,
+      "title": "Vulnerability roundup 84: fuse-3.9.0: 1 advisory",
+      "created_at": "2020-05-20T09:40:02Z",
+      "closed_at": "2020-05-20T10:50:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88295",
+      "number": 88295,
+      "title": "Vulnerability roundup 84: fuse-3.9.1: 1 advisory",
+      "created_at": "2020-05-20T09:40:03Z",
+      "closed_at": "2020-05-20T11:07:51Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88296",
+      "number": 88296,
+      "title": "Vulnerability roundup 84: gcc-6.5.0: 2 advisories",
+      "created_at": "2020-05-20T09:40:04Z",
+      "closed_at": "2020-12-01T04:14:36Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88297",
+      "number": 88297,
+      "title": "Vulnerability roundup 84: gcc-9.2.0: 1 advisory",
+      "created_at": "2020-05-20T09:40:06Z",
+      "closed_at": "2020-09-10T13:36:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88298",
+      "number": 88298,
+      "title": "Vulnerability roundup 84: gcc-9.3.0: 1 advisory",
+      "created_at": "2020-05-20T09:40:07Z",
+      "closed_at": "2020-09-10T13:36:37Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88300",
+      "number": 88300,
+      "title": "Vulnerability roundup 84: gcc-9.3.0: 1 advisory",
+      "created_at": "2020-05-20T09:47:34Z",
+      "closed_at": "2020-09-10T13:37:03Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88301",
+      "number": 88301,
+      "title": "Vulnerability roundup 84: git-2.23.3: 4 advisories",
+      "created_at": "2020-05-20T09:47:36Z",
+      "closed_at": "2020-05-20T11:15:00Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88302",
+      "number": 88302,
+      "title": "Vulnerability roundup 84: git-2.25.4: 4 advisories",
+      "created_at": "2020-05-20T09:47:37Z",
+      "closed_at": "2020-05-20T11:15:13Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88303",
+      "number": 88303,
+      "title": "Vulnerability roundup 84: git-2.26.2: 4 advisories",
+      "created_at": "2020-05-20T09:47:38Z",
+      "closed_at": "2020-05-20T11:14:35Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88304",
+      "number": 88304,
+      "title": "Vulnerability roundup 84: glib-2.62.4: 1 advisory",
+      "created_at": "2020-05-20T09:47:39Z",
+      "closed_at": "2020-12-01T04:14:18Z"
+    },
+    {
+      "url": "https://github.com/NixOS/nixpkgs/issues/88305",
+      "number": 88305,
+      "title": "Vulnerability roundup 84: glibc-2.27: 5 advisories",
+      "created_at": "2020-05-20T09:47:42Z",
+      "closed_at": "2020-11-12T06:39:32Z"
+    }
+  ]
+}

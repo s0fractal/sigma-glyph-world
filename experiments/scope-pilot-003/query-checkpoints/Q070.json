@@ -1,0 +1,30 @@
+{
+  "index": 70,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "zero issues",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"zero issues\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:43.345116+00:00",
+  "total_count": 2,
+  "incomplete_results": false,
+  "returned": 2,
+  "raw_response_sha256": "da43cbeee386fc5badf9606d02d0a0bac2284185b9b9a75b84f70f9b36a640e1",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/14066",
+      "number": 14066,
+      "title": "mypy fails to report issues when PYTHONPATH is set to cwd and absolute path to file is provided",
+      "created_at": "2022-11-11T05:22:10Z",
+      "closed_at": "2022-11-11T08:31:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17648",
+      "number": 17648,
+      "title": "[False Negative] enable_error_codes is completely ignored if any specific code is unrecognised",
+      "created_at": "2024-08-06T05:06:00Z",
+      "closed_at": "2025-12-13T21:36:15Z"
+    }
+  ]
+}

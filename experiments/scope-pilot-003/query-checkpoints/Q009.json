@@ -1,0 +1,716 @@
+{
+  "index": 9,
+  "stratum": "tests",
+  "repository": "vitest-dev/vitest",
+  "repository_id": 434708679,
+  "term": "no tests",
+  "query": "repo:vitest-dev/vitest is:issue is:closed created:2020-01-01..2025-12-31 \"no tests\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:24.093232+00:00",
+  "total_count": 267,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "edfcb621ffff3691c4bbf70e67bfd0b9dd69c710eb0ea06e17135beac46769e3",
+  "items": [
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/102",
+      "number": 102,
+      "title": "Docs: Comparison with Web Test Runner",
+      "created_at": "2021-12-12T21:58:02Z",
+      "closed_at": "2021-12-13T15:35:49Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/107",
+      "number": 107,
+      "title": "VS Code extension",
+      "created_at": "2021-12-13T06:21:01Z",
+      "closed_at": "2022-06-25T15:49:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/132",
+      "number": 132,
+      "title": "Mounting components that use Stitches does not work",
+      "created_at": "2021-12-13T21:19:16Z",
+      "closed_at": "2021-12-14T08:58:20Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/226",
+      "number": 226,
+      "title": "Getting `Infinity%` first time running `npx vitest` with no test files",
+      "created_at": "2021-12-20T14:36:25Z",
+      "closed_at": "2021-12-20T14:49:16Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/228",
+      "number": 228,
+      "title": "SyntaxError: Illegal property in declaration context",
+      "created_at": "2021-12-20T15:04:49Z",
+      "closed_at": "2021-12-21T20:30:06Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/269",
+      "number": 269,
+      "title": "esbuild plugins are ignored",
+      "created_at": "2021-12-22T13:22:00Z",
+      "closed_at": "2021-12-27T18:57:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/294",
+      "number": 294,
+      "title": "Errors are not logged in fakePool mode",
+      "created_at": "2021-12-23T18:24:01Z",
+      "closed_at": "2022-04-05T09:55:25Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/326",
+      "number": 326,
+      "title": "Dynamic import with catch block fails in test",
+      "created_at": "2021-12-27T06:26:59Z",
+      "closed_at": "2022-03-03T21:04:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/554",
+      "number": 554,
+      "title": "Extend mocking",
+      "created_at": "2022-01-17T08:14:14Z",
+      "closed_at": "2022-02-17T07:28:16Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/566",
+      "number": 566,
+      "title": "process.chdir is not available in workers",
+      "created_at": "2022-01-17T18:57:56Z",
+      "closed_at": "2022-02-17T07:26:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/579",
+      "number": 579,
+      "title": "Vitest runs tests 3x slower than Jest with threads: true (default) setting",
+      "created_at": "2022-01-19T08:11:33Z",
+      "closed_at": "2024-02-15T16:18:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/661",
+      "number": 661,
+      "title": "Concurrency amongst child `describe`s",
+      "created_at": "2022-01-30T14:43:39Z",
+      "closed_at": "2022-02-02T21:23:59Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/740",
+      "number": 740,
+      "title": "Running multiple test files crashes when canvas is installed (Error: Module did not self-register: '.../canvas/build/Release/canvas.node'.)",
+      "created_at": "2022-02-12T10:42:17Z",
+      "closed_at": "2023-02-25T08:10:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/756",
+      "number": 756,
+      "title": "[Feature Request] Extend `vi.fn`",
+      "created_at": "2022-02-14T16:54:00Z",
+      "closed_at": "2026-06-18T08:25:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/836",
+      "number": 836,
+      "title": "Unit test be failed with component contain svg",
+      "created_at": "2022-02-23T04:45:03Z",
+      "closed_at": "2022-02-26T06:40:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/841",
+      "number": 841,
+      "title": "Option to disable coloured output",
+      "created_at": "2022-02-23T16:38:16Z",
+      "closed_at": "2022-02-23T17:58:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/846",
+      "number": 846,
+      "title": "Cannot require a module when using typescript",
+      "created_at": "2022-02-24T17:17:25Z",
+      "closed_at": "2022-06-13T11:49:22Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/868",
+      "number": 868,
+      "title": "Support `test.concurrent.each`",
+      "created_at": "2022-02-28T14:18:27Z",
+      "closed_at": "2022-08-05T16:07:59Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/892",
+      "number": 892,
+      "title": "Test element-plus project, Cannot find module xxx , Did you mean to import xxx.js?",
+      "created_at": "2022-03-04T09:53:50Z",
+      "closed_at": "2022-03-16T10:46:36Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/903",
+      "number": 903,
+      "title": "Mocking `Math.random` and not restoring makes vitest hang up when coverage is enabled",
+      "created_at": "2022-03-07T02:16:26Z",
+      "closed_at": "2022-04-03T12:33:13Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1024",
+      "number": 1024,
+      "title": "Debug hangs up when using ElementPlus",
+      "created_at": "2022-03-25T02:22:46Z",
+      "closed_at": "2024-02-16T11:15:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1057",
+      "number": 1057,
+      "title": "Flaky test marking and retrying",
+      "created_at": "2022-03-31T07:57:12Z",
+      "closed_at": "2022-09-04T07:53:44Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1113",
+      "number": 1113,
+      "title": "`--changed` option only takes into account changed source files and ignores test files",
+      "created_at": "2022-04-06T11:12:13Z",
+      "closed_at": "2022-04-06T18:04:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1207",
+      "number": 1207,
+      "title": "Failing tests: --no-threads + @testing-library/react",
+      "created_at": "2022-04-28T15:15:40Z",
+      "closed_at": "2022-05-08T05:34:00Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1214",
+      "number": 1214,
+      "title": "Allow `passWithNoTests` in `InlineConfig`",
+      "created_at": "2022-04-30T00:14:16Z",
+      "closed_at": "2022-05-08T05:36:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1218",
+      "number": 1218,
+      "title": "Vitest throws error when importing a file with `module.exports.property = ...`",
+      "created_at": "2022-04-30T14:40:52Z",
+      "closed_at": "2022-05-09T13:07:38Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1252",
+      "number": 1252,
+      "title": "Coverage: give the choice between c8 and nyc",
+      "created_at": "2022-05-07T06:57:50Z",
+      "closed_at": "2022-08-15T18:21:03Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1296",
+      "number": 1296,
+      "title": "no test suites found under Windows when running on a drive assigned to a path with `subst`",
+      "created_at": "2022-05-12T12:17:54Z",
+      "closed_at": "2023-03-24T13:55:15Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1358",
+      "number": 1358,
+      "title": "regression 0.12.7: `window.Audio` is undefined in `environment: jsdom`",
+      "created_at": "2022-05-23T08:04:39Z",
+      "closed_at": "2022-06-09T16:44:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1398",
+      "number": 1398,
+      "title": "`globalSetup` can't inject `globalThis` anymore",
+      "created_at": "2022-05-30T13:24:56Z",
+      "closed_at": "2022-05-30T14:30:47Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1428",
+      "number": 1428,
+      "title": "Add webserver command",
+      "created_at": "2022-06-04T15:59:28Z",
+      "closed_at": "2022-06-13T18:43:44Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1436",
+      "number": 1436,
+      "title": "process.chdir() is not supported in workers (--no-threads doesn't work)",
+      "created_at": "2022-06-05T12:30:36Z",
+      "closed_at": "2023-02-25T08:10:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1459",
+      "number": 1459,
+      "title": "Bail option to skip all subsequent tests",
+      "created_at": "2022-06-09T19:50:02Z",
+      "closed_at": "2023-04-26T19:04:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1463",
+      "number": 1463,
+      "title": "pretty-format doesn't format snapshots for svelte",
+      "created_at": "2022-06-10T16:07:49Z",
+      "closed_at": "2022-06-10T17:40:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1533",
+      "number": 1533,
+      "title": "Add describe.parallel to run tests in parallel",
+      "created_at": "2022-06-23T15:13:01Z",
+      "closed_at": "2024-02-15T15:49:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1544",
+      "number": 1544,
+      "title": "Unable to bundle CDK lambdas when executed through vitest",
+      "created_at": "2022-06-25T09:45:56Z",
+      "closed_at": "2023-02-25T08:10:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1575",
+      "number": 1575,
+      "title": "Add option to define the system timezone for tests",
+      "created_at": "2022-06-30T11:07:47Z",
+      "closed_at": "2022-07-26T19:58:15Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1592",
+      "number": 1592,
+      "title": "Rerun all tests when package.json changes",
+      "created_at": "2022-07-04T08:19:16Z",
+      "closed_at": "2022-07-05T08:04:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1611",
+      "number": 1611,
+      "title": "\"Unexpected end of JSON input\"",
+      "created_at": "2022-07-07T16:28:44Z",
+      "closed_at": "2022-07-08T10:31:43Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1669",
+      "number": 1669,
+      "title": "[TypeError] junit reporter with yarn3 PnP fails",
+      "created_at": "2022-07-18T16:30:23Z",
+      "closed_at": "2023-01-01T15:14:03Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1700",
+      "number": 1700,
+      "title": "Filter out stdout/stderr messages",
+      "created_at": "2022-07-23T18:23:46Z",
+      "closed_at": "2022-08-03T16:31:18Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1709",
+      "number": 1709,
+      "title": "Vitest 0.19 fails to run because of extended, unresolved dependencies",
+      "created_at": "2022-07-25T07:05:25Z",
+      "closed_at": "2022-07-25T13:27:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1743",
+      "number": 1743,
+      "title": "[Idea] Test Level (Error, Warn, Info)",
+      "created_at": "2022-07-29T23:57:58Z",
+      "closed_at": "2024-10-10T09:17:49Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1749",
+      "number": 1749,
+      "title": "[0.20.1] Test file detection fails on Node 18.6.0 or higher",
+      "created_at": "2022-07-31T09:17:54Z",
+      "closed_at": "2022-07-31T13:40:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1758",
+      "number": 1758,
+      "title": "[0.20.x] vitest no longer works with yarn pnp",
+      "created_at": "2022-07-31T16:00:17Z",
+      "closed_at": "2022-08-07T11:30:12Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1780",
+      "number": 1780,
+      "title": "Configuration option to allow empty test suites to pass",
+      "created_at": "2022-08-03T21:37:54Z",
+      "closed_at": "2022-08-03T22:43:19Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1804",
+      "number": 1804,
+      "title": "Add async method variants from sinonjs/fake-timers to vitest",
+      "created_at": "2022-08-05T21:26:15Z",
+      "closed_at": "2023-01-16T08:21:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1823",
+      "number": 1823,
+      "title": "Junit reporter does not escape error messages and stacktraces",
+      "created_at": "2022-08-08T17:31:13Z",
+      "closed_at": "2022-08-23T08:14:23Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1827",
+      "number": 1827,
+      "title": "Error: No \"exports\" main defined in package.json",
+      "created_at": "2022-08-09T13:08:06Z",
+      "closed_at": "2022-08-11T14:29:31Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1862",
+      "number": 1862,
+      "title": "Can't run vitest with json-big",
+      "created_at": "2022-08-16T15:49:04Z",
+      "closed_at": "2023-05-30T18:14:42Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1926",
+      "number": 1926,
+      "title": "Some way to refer to all tests suites for educated progress decisions",
+      "created_at": "2022-08-27T04:58:47Z",
+      "closed_at": "2023-10-04T09:34:04Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1950",
+      "number": 1950,
+      "title": "startVitest exits the process instead of returning a result if no tests found",
+      "created_at": "2022-09-01T15:06:01Z",
+      "closed_at": "2024-02-16T11:02:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1954",
+      "number": 1954,
+      "title": "[RFC] Testing types with expectTypeOf and assertType",
+      "created_at": "2022-09-02T09:50:11Z",
+      "closed_at": "2023-12-04T15:55:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2008",
+      "number": 2008,
+      "title": "Vitest hangs tests, close timed out after 1000ms",
+      "created_at": "2022-09-08T17:20:58Z",
+      "closed_at": "2024-05-09T15:24:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2020",
+      "number": 2020,
+      "title": "Error: No test suite found in tests files",
+      "created_at": "2022-09-10T15:34:00Z",
+      "closed_at": "2022-09-20T11:45:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2030",
+      "number": 2030,
+      "title": "Give more useful error messages on exceptions",
+      "created_at": "2022-09-12T16:21:27Z",
+      "closed_at": "2022-09-12T18:23:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2046",
+      "number": 2046,
+      "title": "Add an --exact flag to vitest cli",
+      "created_at": "2022-09-15T06:07:12Z",
+      "closed_at": "2022-12-05T14:51:20Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2065",
+      "number": 2065,
+      "title": "Unable to run vitest with Temporal",
+      "created_at": "2022-09-20T19:27:08Z",
+      "closed_at": "2023-10-04T12:14:57Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2120",
+      "number": 2120,
+      "title": "vitest cannot load npm dependency (TypeError: default is not a function)",
+      "created_at": "2022-10-06T15:24:32Z",
+      "closed_at": "2023-03-20T17:14:31Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2172",
+      "number": 2172,
+      "title": "No test suite found in vite.config.js when it's not included in include glob",
+      "created_at": "2022-10-19T04:39:13Z",
+      "closed_at": "2022-10-27T06:56:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2174",
+      "number": 2174,
+      "title": "Do not consider snapshot obsolete when filtered out",
+      "created_at": "2022-10-20T03:16:57Z",
+      "closed_at": "2022-10-24T00:31:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2175",
+      "number": 2175,
+      "title": "FATAL ERROR: v8::FromJust Maybe value is Nothing.",
+      "created_at": "2022-10-20T07:55:57Z",
+      "closed_at": "2024-03-25T08:25:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2196",
+      "number": 2196,
+      "title": "Playwright comparison",
+      "created_at": "2022-10-23T14:15:45Z",
+      "closed_at": "2025-11-06T14:02:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2304",
+      "number": 2304,
+      "title": "Files with no tests cause failure even when `passWithNoTests: true`",
+      "created_at": "2022-11-09T23:04:28Z",
+      "closed_at": "2022-11-15T23:43:04Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2328",
+      "number": 2328,
+      "title": "Example of react testing lib & msw error ",
+      "created_at": "2022-11-14T21:35:08Z",
+      "closed_at": "2022-12-21T07:12:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2347",
+      "number": 2347,
+      "title": "Segfaults",
+      "created_at": "2022-11-17T23:28:32Z",
+      "closed_at": "2023-03-16T23:15:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2371",
+      "number": 2371,
+      "title": "describe.skip does not skip the test",
+      "created_at": "2022-11-23T09:05:19Z",
+      "closed_at": "2022-11-23T09:26:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2513",
+      "number": 2513,
+      "title": "Tests break with Node v18",
+      "created_at": "2022-12-16T02:31:25Z",
+      "closed_at": "2022-12-16T03:06:01Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2548",
+      "number": 2548,
+      "title": "0.26.1 failed to load url of virtual module on Windows",
+      "created_at": "2022-12-21T06:23:15Z",
+      "closed_at": "2023-01-06T11:00:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2566",
+      "number": 2566,
+      "title": "Add support project relative paths",
+      "created_at": "2022-12-26T10:33:13Z",
+      "closed_at": "2022-12-31T11:36:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2647",
+      "number": 2647,
+      "title": "Hide skipped test lines",
+      "created_at": "2023-01-12T08:47:29Z",
+      "closed_at": "2023-05-03T09:20:08Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2727",
+      "number": 2727,
+      "title": "Unit test error when rendering with @testing-library/jest-dom or @testing-library/react",
+      "created_at": "2023-01-21T13:55:33Z",
+      "closed_at": "2023-01-21T13:58:15Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2732",
+      "number": 2732,
+      "title": "Snapshots with multiline strings fail on CI but pass locally",
+      "created_at": "2023-01-22T17:20:09Z",
+      "closed_at": "2023-01-22T18:54:56Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2763",
+      "number": 2763,
+      "title": "vitest errors if there are no in-source tests, even with --passWithNoTests",
+      "created_at": "2023-01-28T16:36:20Z",
+      "closed_at": "2023-01-28T19:27:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2806",
+      "number": 2806,
+      "title": "`Cannot destructure property 'AsymmetricMatcher'` with `deps.inline: true`",
+      "created_at": "2023-02-04T12:14:35Z",
+      "closed_at": "2023-12-28T13:57:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2840",
+      "number": 2840,
+      "title": "`no test suite found` when using vitest from global pnpm",
+      "created_at": "2023-02-08T16:18:43Z",
+      "closed_at": "2023-05-17T08:18:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2841",
+      "number": 2841,
+      "title": "Vitest incorrectly injects __dirname when type is module",
+      "created_at": "2023-02-08T17:37:10Z",
+      "closed_at": "2026-01-21T17:30:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2847",
+      "number": 2847,
+      "title": "Dynamically loaded module in forEach loop is mocked only once",
+      "created_at": "2023-02-10T08:31:16Z",
+      "closed_at": "2023-02-10T08:59:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2853",
+      "number": 2853,
+      "title": "Jest compatibility: Use colon `:` instead of chevron `>` for snapshots with hints",
+      "created_at": "2023-02-11T22:38:08Z",
+      "closed_at": "2023-02-14T12:12:18Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2879",
+      "number": 2879,
+      "title": "@vitest/coverage-istanbul report does not include files with no tests",
+      "created_at": "2023-02-16T07:15:48Z",
+      "closed_at": "2023-02-16T09:11:17Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2896",
+      "number": 2896,
+      "title": "No threads option fail to update snapshot correctly",
+      "created_at": "2023-02-22T02:48:14Z",
+      "closed_at": "2023-03-03T01:57:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2908",
+      "number": 2908,
+      "title": "Don't generate coverage reports when tests fail.",
+      "created_at": "2023-02-23T19:14:54Z",
+      "closed_at": "2023-05-29T14:05:17Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2960",
+      "number": 2960,
+      "title": "Transform Plugins with `enforce: 'pre'` break stack traces",
+      "created_at": "2023-03-04T20:00:34Z",
+      "closed_at": "2024-02-16T11:10:44Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3009",
+      "number": 3009,
+      "title": "MISSING DEP  Can not find dependency 'vite' on PNPM 7.29.x",
+      "created_at": "2023-03-14T08:41:49Z",
+      "closed_at": "2023-03-14T09:44:49Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3025",
+      "number": 3025,
+      "title": "Not implemented: HTMLCanvasElement.prototype.getContext",
+      "created_at": "2023-03-17T20:02:41Z",
+      "closed_at": "2023-03-17T20:39:47Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3027",
+      "number": 3027,
+      "title": "mock is cached from test to test",
+      "created_at": "2023-03-18T18:12:05Z",
+      "closed_at": "2023-03-19T09:39:31Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3035",
+      "number": 3035,
+      "title": "Any plan for documentation test like rust?",
+      "created_at": "2023-03-20T02:15:13Z",
+      "closed_at": "2024-04-12T08:13:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3087",
+      "number": 3087,
+      "title": "Coverage generated uncovered lines for import and export rule",
+      "created_at": "2023-03-27T16:32:09Z",
+      "closed_at": "2023-05-12T20:16:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3099",
+      "number": 3099,
+      "title": "Proposition of improvement of the execution time",
+      "created_at": "2023-03-29T10:58:13Z",
+      "closed_at": "2023-04-02T00:18:38Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3102",
+      "number": 3102,
+      "title": "exclude default setting should exclude e2e tests folder",
+      "created_at": "2023-03-29T13:43:31Z",
+      "closed_at": "2025-06-20T08:52:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3128",
+      "number": 3128,
+      "title": "CLI doesn't currently allow choosing filename test pattern until all tests are completed",
+      "created_at": "2023-04-03T19:56:59Z",
+      "closed_at": "2023-04-26T19:04:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3129",
+      "number": 3129,
+      "title": "Snapshot differs and fail when running all tests vs one test at time",
+      "created_at": "2023-04-04T01:17:52Z",
+      "closed_at": "2023-06-20T01:39:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3174",
+      "number": 3174,
+      "title": "Test Files is not found with Vitest v0.30.0",
+      "created_at": "2023-04-11T08:48:52Z",
+      "closed_at": "2023-04-11T09:33:22Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3210",
+      "number": 3210,
+      "title": "Vite reports no tests when running with --no-threads",
+      "created_at": "2023-04-19T02:24:52Z",
+      "closed_at": "2023-04-19T06:09:25Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3219",
+      "number": 3219,
+      "title": "HTML reporter unusable when hosted with relative pathnames",
+      "created_at": "2023-04-20T14:05:45Z",
+      "closed_at": "2023-06-16T17:48:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3286",
+      "number": 3286,
+      "title": "Browser: Simple TypeScript test appearing+running in CLI mode but not Browser mode",
+      "created_at": "2023-05-02T21:11:49Z",
+      "closed_at": "2024-02-16T10:36:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3357",
+      "number": 3357,
+      "title": "process `exit` event never triggered by default",
+      "created_at": "2023-05-11T14:56:38Z",
+      "closed_at": "2023-05-17T07:58:43Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3376",
+      "number": 3376,
+      "title": "Using createError in component causes false positives and VITEST_AFTER_ENV_TEARDOWN unhandled error",
+      "created_at": "2023-05-15T09:46:17Z",
+      "closed_at": "2023-05-17T08:27:33Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3399",
+      "number": 3399,
+      "title": "typecheck.tsconfig not working",
+      "created_at": "2023-05-17T23:19:49Z",
+      "closed_at": "2023-05-18T17:48:21Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3403",
+      "number": 3403,
+      "title": "Hooks not working when loaded from an external vitest.setup.js file",
+      "created_at": "2023-05-18T22:00:49Z",
+      "closed_at": "2024-10-11T15:03:34Z"
+    }
+  ]
+}

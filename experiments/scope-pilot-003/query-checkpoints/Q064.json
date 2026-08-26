@@ -1,0 +1,478 @@
+{
+  "index": 64,
+  "stratum": "lint_static_analysis",
+  "repository": "python/mypy",
+  "repository_id": 7053637,
+  "term": "exit code",
+  "query": "repo:python/mypy is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:44:22.279862+00:00",
+  "total_count": 66,
+  "incomplete_results": false,
+  "returned": 66,
+  "raw_response_sha256": "d542df70a2fab02430338dbf87e72b280af5a9f297b7f248619e5b04f6aa39a9",
+  "items": [
+    {
+      "url": "https://github.com/python/mypy/issues/8356",
+      "number": 8356,
+      "title": "mypy crashes with overloads of functools.singledispatch",
+      "created_at": "2020-02-02T08:35:39Z",
+      "closed_at": "2021-11-28T02:46:12Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8547",
+      "number": 8547,
+      "title": "How can I make this `# type: ignore` platform specific?",
+      "created_at": "2020-03-16T15:55:26Z",
+      "closed_at": "2020-08-07T02:50:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8745",
+      "number": 8745,
+      "title": "mypy generates false positive with custom constants defined via the ``signal`` module",
+      "created_at": "2020-04-29T06:37:19Z",
+      "closed_at": "2020-05-01T13:32:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/8816",
+      "number": 8816,
+      "title": "mypy's --pretty option printing one word per line when used with pre-commit",
+      "created_at": "2020-05-13T22:01:51Z",
+      "closed_at": "2020-05-13T22:35:25Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9488",
+      "number": 9488,
+      "title": "Fails to install on Python 3.9 on Windows",
+      "created_at": "2020-09-25T21:48:25Z",
+      "closed_at": "2020-10-24T20:32:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9493",
+      "number": 9493,
+      "title": "Internal error appearing only with looser settings than defaults",
+      "created_at": "2020-09-27T04:38:07Z",
+      "closed_at": "2020-09-27T06:45:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/9761",
+      "number": 9761,
+      "title": "Supporting Python 3.9",
+      "created_at": "2020-11-26T23:00:18Z",
+      "closed_at": "2021-01-22T20:06:17Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10013",
+      "number": 10013,
+      "title": "Using reveal_type with no errors should return exit code 0",
+      "created_at": "2021-02-03T11:08:22Z",
+      "closed_at": "2022-10-14T22:45:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10632",
+      "number": 10632,
+      "title": "ignore-missing-import option does not work on false positive \"Library stubs not installed for X\"",
+      "created_at": "2021-06-11T16:51:51Z",
+      "closed_at": "2021-10-31T05:55:38Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10700",
+      "number": 10700,
+      "title": "mypy 0.910 now fails if stubs package is missing",
+      "created_at": "2021-06-23T06:50:51Z",
+      "closed_at": "2021-06-23T09:27:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/10896",
+      "number": 10896,
+      "title": "mypy incorrectly missing return statement in presence of ExitStack",
+      "created_at": "2021-07-30T19:02:34Z",
+      "closed_at": "2021-08-01T16:15:30Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11095",
+      "number": 11095,
+      "title": "Add a \"report only\" config option, controllable by module / path",
+      "created_at": "2021-09-12T18:01:45Z",
+      "closed_at": "2024-06-21T09:52:57Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11686",
+      "number": 11686,
+      "title": "Crash when overriding partially typed attribute with partially typed property",
+      "created_at": "2021-12-08T15:11:53Z",
+      "closed_at": "2022-07-08T14:07:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11751",
+      "number": 11751,
+      "title": "mypy pyhton lambda based error in mypy v0.910",
+      "created_at": "2021-12-15T12:53:05Z",
+      "closed_at": "2021-12-17T07:51:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11838",
+      "number": 11838,
+      "title": "INTERNAL ERROR with SQLAlchemy caused by mypy 0.930 regression",
+      "created_at": "2021-12-23T13:20:48Z",
+      "closed_at": "2022-02-20T19:42:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11851",
+      "number": 11851,
+      "title": "AttributeError: 'list' object has no attribute 'split'",
+      "created_at": "2021-12-27T20:20:24Z",
+      "closed_at": "2022-02-24T21:52:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/11936",
+      "number": 11936,
+      "title": "Exclude not working properly for version 0.931",
+      "created_at": "2022-01-07T23:49:58Z",
+      "closed_at": "2022-01-08T00:02:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12245",
+      "number": 12245,
+      "title": "Windows wheel builds are broken",
+      "created_at": "2022-02-23T09:56:39Z",
+      "closed_at": "2022-02-23T13:57:28Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12475",
+      "number": 12475,
+      "title": "Recurrent but not reproducible crash when writing to cache",
+      "created_at": "2022-03-28T12:09:01Z",
+      "closed_at": "2022-10-05T03:08:52Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12493",
+      "number": 12493,
+      "title": "mypyc compile error  \"build/__native.c:346:15: error: variable 'cpy_r_r103' set but not used [-Werror,-Wunused-but-set-variable]\"",
+      "created_at": "2022-03-30T09:54:12Z",
+      "closed_at": "2022-03-31T04:37:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12739",
+      "number": 12739,
+      "title": "typed_ast>=1.4.0 in MAC M1 build Failed",
+      "created_at": "2022-05-06T15:07:11Z",
+      "closed_at": "2022-05-06T15:18:08Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/12771",
+      "number": 12771,
+      "title": "dmypy: run multiple independent daemons",
+      "created_at": "2022-05-12T03:53:33Z",
+      "closed_at": "2022-05-14T07:51:07Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13059",
+      "number": 13059,
+      "title": "Internal mypy error (failed `assert supertype is not None`) on parametrized class",
+      "created_at": "2022-07-03T14:32:00Z",
+      "closed_at": "2022-07-03T15:13:33Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13295",
+      "number": 13295,
+      "title": "Crash on master branch when using `--custom-typeshed-dir` with a relative path",
+      "created_at": "2022-07-31T16:55:59Z",
+      "closed_at": "2022-08-01T21:45:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13358",
+      "number": 13358,
+      "title": "Cannot access `__optional_keys__` on TypedDict: \"has no attribute\"",
+      "created_at": "2022-08-08T11:52:29Z",
+      "closed_at": "2022-08-09T23:08:45Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13370",
+      "number": 13370,
+      "title": "0.971: InvocationError and MYPYPATH issue when running \"mypy src\" with Tox on GitHub Actions",
+      "created_at": "2022-08-09T18:50:57Z",
+      "closed_at": "2022-08-10T01:34:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13592",
+      "number": 13592,
+      "title": "sys.exit() is not considered as noreturn",
+      "created_at": "2022-09-02T09:34:37Z",
+      "closed_at": "2023-08-13T19:15:56Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/13883",
+      "number": 13883,
+      "title": "better doc on excluding files in pyproject.toml",
+      "created_at": "2022-10-13T08:51:03Z",
+      "closed_at": "2022-10-17T20:21:54Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14025",
+      "number": 14025,
+      "title": "under some conditions mypy thinks a function that always calls sys.exit() returns",
+      "created_at": "2022-11-07T17:24:42Z",
+      "closed_at": "2022-11-08T19:28:06Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14101",
+      "number": 14101,
+      "title": "Unchecked annotation note causes dmypy to exit with code 1 on a successful run",
+      "created_at": "2022-11-15T11:00:29Z",
+      "closed_at": "2022-11-15T23:35:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/14615",
+      "number": 14615,
+      "title": "Document mypy's exit code",
+      "created_at": "2023-02-05T17:44:14Z",
+      "closed_at": "2023-02-07T03:59:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15051",
+      "number": 15051,
+      "title": "Exit zero option",
+      "created_at": "2023-04-13T18:32:25Z",
+      "closed_at": "2023-04-13T18:51:44Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15703",
+      "number": 15703,
+      "title": "Iterator evaluators (e.g. `any`) don't erase types when in conjunction with `Never` functions",
+      "created_at": "2023-07-18T09:55:33Z",
+      "closed_at": "2023-08-24T08:19:31Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15861",
+      "number": 15861,
+      "title": "overloaded method that has `NoReturn` for certain arguments not detected ",
+      "created_at": "2023-08-13T04:45:52Z",
+      "closed_at": "2023-08-13T14:44:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/15877",
+      "number": 15877,
+      "title": "pyproject.toml requires mypy 1.4.0-1.5.0 + mypycify in setup.py: failure (AssertionError)",
+      "created_at": "2023-08-15T13:27:15Z",
+      "closed_at": "2023-09-17T12:23:00Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16091",
+      "number": 16091,
+      "title": "The code `del func()` causes a syntax error",
+      "created_at": "2023-09-12T07:45:59Z",
+      "closed_at": "2023-09-12T07:49:09Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16119",
+      "number": 16119,
+      "title": "Type hints of tuple not used effectively when calling a function on its values",
+      "created_at": "2023-09-15T11:37:51Z",
+      "closed_at": "2024-07-03T07:41:49Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16245",
+      "number": 16245,
+      "title": "[mypy 1.6 regression] Crash involving ParamSpec, TypeAlias and overloads",
+      "created_at": "2023-10-11T09:55:13Z",
+      "closed_at": "2023-10-12T20:25:32Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16257",
+      "number": 16257,
+      "title": "INTERNAL ERROR when using `typing.ParamSpec`",
+      "created_at": "2023-10-13T07:35:24Z",
+      "closed_at": "2023-10-13T10:30:56Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16450",
+      "number": 16450,
+      "title": "mypy 1.7.0 crashes (segmentation fault)",
+      "created_at": "2023-11-10T15:39:01Z",
+      "closed_at": "2023-11-11T12:59:04Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16486",
+      "number": 16486,
+      "title": "Various stubgen regressions in mypy 1.7.0",
+      "created_at": "2023-11-14T13:49:56Z",
+      "closed_at": "2024-01-05T17:53:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16533",
+      "number": 16533,
+      "title": "Internal error with an alias type that is a callable with an unpacked tuple as args",
+      "created_at": "2023-11-21T11:53:15Z",
+      "closed_at": "2023-12-12T19:12:27Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16624",
+      "number": 16624,
+      "title": "Dataclass in file named 9.py fails compilation",
+      "created_at": "2023-12-05T20:03:44Z",
+      "closed_at": "2023-12-05T20:05:47Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16650",
+      "number": 16650,
+      "title": "Exhaustive checks with `assert_never` when using `match` on a 2-tuple fails",
+      "created_at": "2023-12-12T08:43:51Z",
+      "closed_at": "2025-08-03T22:42:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16858",
+      "number": 16858,
+      "title": "Crash Report: Internal Error for typechecking openai with pydantic-plugin",
+      "created_at": "2024-02-02T07:06:11Z",
+      "closed_at": "2024-02-02T15:57:07Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/16896",
+      "number": 16896,
+      "title": "IndexError in property incompatible with supertype",
+      "created_at": "2024-02-09T14:37:43Z",
+      "closed_at": "2024-06-09T20:33:14Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17342",
+      "number": 17342,
+      "title": "Crash (stack overflow/segfault): `assert_type(<type>.__new__, SomeProtocol)` involving `Self`",
+      "created_at": "2024-06-07T13:29:34Z",
+      "closed_at": "2024-06-08T22:35:10Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17428",
+      "number": 17428,
+      "title": "1.10.1: pytest fails in ",
+      "created_at": "2024-06-23T13:43:50Z",
+      "closed_at": "2025-06-10T14:42:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17648",
+      "number": 17648,
+      "title": "[False Negative] enable_error_codes is completely ignored if any specific code is unrecognised",
+      "created_at": "2024-08-06T05:06:00Z",
+      "closed_at": "2025-12-13T21:36:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17716",
+      "number": 17716,
+      "title": "AssertionError: Must not defer during final iteration",
+      "created_at": "2024-08-29T01:32:11Z",
+      "closed_at": "2026-05-26T12:11:11Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17745",
+      "number": 17745,
+      "title": "mypy crash trying to analyze library code (when only asked to analyze my own code)",
+      "created_at": "2024-09-06T23:00:11Z",
+      "closed_at": "2026-01-29T17:26:03Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/17796",
+      "number": 17796,
+      "title": "Mypyc IntEnum undeclared name error while compiling",
+      "created_at": "2024-09-20T05:16:40Z",
+      "closed_at": "2025-02-13T19:44:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/18429",
+      "number": 18429,
+      "title": "mypy recurses into build directory and fails",
+      "created_at": "2025-01-07T22:18:17Z",
+      "closed_at": "2025-01-09T22:10:34Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/18782",
+      "number": 18782,
+      "title": "assert not flag ->  Cannot determine type of \"x\"  [has-type]",
+      "created_at": "2025-03-11T08:37:28Z",
+      "closed_at": "2025-03-11T15:10:53Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/18996",
+      "number": 18996,
+      "title": "Crash with Generic Class and Dict",
+      "created_at": "2025-04-29T01:44:53Z",
+      "closed_at": "2025-10-23T21:43:46Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19009",
+      "number": 19009,
+      "title": "Conditional import of a class follows imports of all branches",
+      "created_at": "2025-05-01T16:46:09Z",
+      "closed_at": "2025-05-01T21:14:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19175",
+      "number": 19175,
+      "title": "mypyc 1.16 regression: x86_64-cpython-3{9,10,11,12,13} error: ‘FOO_finalize’ undeclared here (not in a function);  did you mean ‘FOO_init’?",
+      "created_at": "2025-05-30T13:05:48Z",
+      "closed_at": "2025-06-02T14:20:26Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19209",
+      "number": 19209,
+      "title": "[1.16 apparent regression] mypy 1.16 fails to analyze pydantic 2.11.5 (succeeded in mypy 1.15)",
+      "created_at": "2025-06-02T20:32:55Z",
+      "closed_at": "2025-06-03T17:43:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19548",
+      "number": 19548,
+      "title": "Config errors sometimes result in exit code 0",
+      "created_at": "2025-07-31T05:06:26Z",
+      "closed_at": "2025-09-06T20:27:36Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19907",
+      "number": 19907,
+      "title": "TypeError: tuple object expected; got list  site-packages/pydantic/env_settings.py:23",
+      "created_at": "2025-09-23T13:41:09Z",
+      "closed_at": "2025-09-25T16:15:15Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19958",
+      "number": 19958,
+      "title": "runtests.py lint fails in shellcheck, at least on windows",
+      "created_at": "2025-09-30T23:18:21Z",
+      "closed_at": "2025-10-11T04:52:19Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/19964",
+      "number": 19964,
+      "title": "1.19 Release Planning",
+      "created_at": "2025-10-01T19:06:40Z",
+      "closed_at": "2025-12-15T05:05:16Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20107",
+      "number": 20107,
+      "title": "Segfault crash on specific recursive type situation",
+      "created_at": "2025-10-23T20:07:16Z",
+      "closed_at": "2025-10-28T11:57:55Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20245",
+      "number": 20245,
+      "title": "Ship stub files with librt",
+      "created_at": "2025-11-17T15:48:49Z",
+      "closed_at": "2025-12-01T17:35:20Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20265",
+      "number": 20265,
+      "title": "The word `err` should be used for the flags which have the word `warn` like `--err-unreachable`, `--err-unused-configs`, `--err-redundant-casts, etc.",
+      "created_at": "2025-11-19T17:12:07Z",
+      "closed_at": "2025-11-23T21:40:42Z"
+    },
+    {
+      "url": "https://github.com/python/mypy/issues/20357",
+      "number": 20357,
+      "title": "mypy and more specific librt can't be installed on MSYS2/UCRT64 and alike.",
+      "created_at": "2025-12-03T06:47:27Z",
+      "closed_at": "2025-12-04T01:43:04Z"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "index": 127,
+  "stratum": "proofs_build_completeness",
+  "repository": "leanprover/lean4",
+  "repository_id": 129571436,
+  "term": "exit code",
+  "query": "repo:leanprover/lean4 is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:36.036029+00:00",
+  "total_count": 42,
+  "incomplete_results": false,
+  "returned": 42,
+  "raw_response_sha256": "a866c3d50135109af34def6ff0181bbdf4475f58ea888736dae5314885eb1a54",
+  "items": [
+    {
+      "url": "https://github.com/leanprover/lean4/issues/245",
+      "number": 245,
+      "title": "Memory leak from `setStdout/...`",
+      "created_at": "2020-12-30T20:55:40Z",
+      "closed_at": "2021-04-03T08:03:10Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/288",
+      "number": 288,
+      "title": "nix build .#executable fails on macOS Big Sur during Setting UP Lean",
+      "created_at": "2021-01-22T11:11:55Z",
+      "closed_at": "2021-01-22T11:36:54Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/356",
+      "number": 356,
+      "title": "Feature request: System.exit",
+      "created_at": "2021-03-18T05:54:16Z",
+      "closed_at": "2021-06-12T00:53:52Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/409",
+      "number": 409,
+      "title": "Nix: nixpkgs update breaks ccache",
+      "created_at": "2021-04-14T19:10:11Z",
+      "closed_at": "2021-04-18T09:23:22Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/444",
+      "number": 444,
+      "title": "Do notation inhibits tail call optimization",
+      "created_at": "2021-05-07T00:01:39Z",
+      "closed_at": "2026-04-27T14:29:00Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2764",
+      "number": 2764,
+      "title": "Show failing file at the end",
+      "created_at": "2021-11-26T17:12:01Z",
+      "closed_at": "2024-04-30T02:37:31Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/922",
+      "number": 922,
+      "title": "Lake Build fails on Windows regression on leanprover/lean4:nightly-2021-12-28",
+      "created_at": "2022-01-03T23:20:29Z",
+      "closed_at": "2022-01-20T15:05:54Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/1130",
+      "number": 1130,
+      "title": "elan version from nixpkgs can no longer link executables",
+      "created_at": "2022-04-28T15:19:52Z",
+      "closed_at": "2022-05-02T11:53:52Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2229",
+      "number": 2229,
+      "title": "Lean 4 fails to link Hello World on new install on Ventura 13.4 / M1",
+      "created_at": "2023-05-23T16:00:45Z",
+      "closed_at": "2023-09-13T23:55:17Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2346",
+      "number": 2346,
+      "title": "`too many exported symbols` linker error on Windows",
+      "created_at": "2023-07-23T10:13:25Z",
+      "closed_at": "2024-03-15T12:57:53Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2567",
+      "number": 2567,
+      "title": "lake failing because of camel casing overriding user intentions",
+      "created_at": "2023-09-20T23:17:32Z",
+      "closed_at": "2023-11-16T17:49:47Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/2971",
+      "number": 2971,
+      "title": "test suite failing on macos",
+      "created_at": "2023-11-28T02:12:52Z",
+      "closed_at": "2023-11-30T14:16:07Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3167",
+      "number": 3167,
+      "title": "lake doesn't allow transitive dependencies to use non-default branches?",
+      "created_at": "2024-01-12T06:40:06Z",
+      "closed_at": "2024-01-12T11:13:44Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3190",
+      "number": 3190,
+      "title": "[question] How to get the arguments and output of the external process run by the lean program?",
+      "created_at": "2024-01-17T11:56:40Z",
+      "closed_at": "2024-01-17T12:32:56Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3251",
+      "number": 3251,
+      "title": "Unreachable code reached with `precompileModules`",
+      "created_at": "2024-02-04T08:57:07Z",
+      "closed_at": "2026-07-09T04:21:06Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3711",
+      "number": 3711,
+      "title": "Flake fails to build on macOS",
+      "created_at": "2024-03-18T17:03:10Z",
+      "closed_at": "2024-03-19T00:58:17Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3810",
+      "number": 3810,
+      "title": "Shared library fails to build on macOS with Nix",
+      "created_at": "2024-03-30T14:15:45Z",
+      "closed_at": "2024-06-28T10:58:04Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/3987",
+      "number": 3987,
+      "title": "`lake update` fails in new project with mathlib dependency (No such file or directory)",
+      "created_at": "2024-04-24T11:40:40Z",
+      "closed_at": "2024-04-24T14:11:04Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4302",
+      "number": 4302,
+      "title": "`lake` sometimes fails, only reporting an inscrutable `git` message",
+      "created_at": "2024-05-29T08:53:41Z",
+      "closed_at": "2024-07-13T01:28:39Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4303",
+      "number": 4303,
+      "title": "after introducing an error in a file and then reverting it, lake still reports the error",
+      "created_at": "2024-05-29T09:18:55Z",
+      "closed_at": "2024-06-05T00:57:34Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4545",
+      "number": 4545,
+      "title": "libStd.a file not found running `nix develop` through flake template",
+      "created_at": "2024-06-24T04:17:44Z",
+      "closed_at": "2024-08-01T12:09:36Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4565",
+      "number": 4565,
+      "title": "`extern_lib` targets from dependencies aren't loaded when compiling lean files ",
+      "created_at": "2024-06-25T22:55:02Z",
+      "closed_at": "2024-06-27T15:29:35Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/4614",
+      "number": 4614,
+      "title": "FFI: extern opaque fails to compile",
+      "created_at": "2024-07-02T00:00:06Z",
+      "closed_at": "2025-09-20T02:50:10Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/5194",
+      "number": 5194,
+      "title": "RFC: `lean -Werror=linter.unusedVariables` for `MessageData.tagged`",
+      "created_at": "2024-08-28T15:07:44Z",
+      "closed_at": "2024-12-14T02:00:29Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/5615",
+      "number": 5615,
+      "title": "No progress indicator for a long time when downloading a project in VSCode",
+      "created_at": "2024-10-04T01:10:40Z",
+      "closed_at": "2026-05-30T04:03:43Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/5649",
+      "number": 5649,
+      "title": "macOS clang fails to link against dylib generated by Lean",
+      "created_at": "2024-10-08T08:05:34Z",
+      "closed_at": "2025-04-21T17:46:24Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/5917",
+      "number": 5917,
+      "title": "linker error on FreeBSD",
+      "created_at": "2024-11-01T09:32:39Z",
+      "closed_at": "2025-01-04T04:39:24Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/6186",
+      "number": 6186,
+      "title": "lake: seems to accumulate `././`'s",
+      "created_at": "2024-11-23T12:22:04Z",
+      "closed_at": "2025-04-06T17:35:01Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/6392",
+      "number": 6392,
+      "title": "Installed binaries of lean-4.14.0-linux do not work",
+      "created_at": "2024-12-15T08:48:31Z",
+      "closed_at": "2025-01-28T18:22:23Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/6518",
+      "number": 6518,
+      "title": "segfault at 4.15.0-rc1",
+      "created_at": "2025-01-04T00:39:26Z",
+      "closed_at": "2025-01-07T07:55:50Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/6590",
+      "number": 6590,
+      "title": "Build fails in stage 1 with `terminate called after throwing an instance of lean::exception \\ what(): failed to create thread` on PowerPC",
+      "created_at": "2025-01-09T05:18:49Z",
+      "closed_at": "2025-01-10T14:51:17Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/6945",
+      "number": 6945,
+      "title": "`lake build` crash on v4.16.0 under NixOS",
+      "created_at": "2025-02-04T09:25:09Z",
+      "closed_at": "2025-02-04T09:44:56Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/7388",
+      "number": 7388,
+      "title": "Compiler segfaults on modules that import both a precompiled library and Lake",
+      "created_at": "2025-03-07T21:37:55Z",
+      "closed_at": "2025-05-16T21:47:02Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/7790",
+      "number": 7790,
+      "title": "Build failure due to shared library being loaded in the wrong order by Lake when using `precompileModules`",
+      "created_at": "2025-04-02T12:38:10Z",
+      "closed_at": "2025-04-06T18:02:47Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/7917",
+      "number": 7917,
+      "title": "`precompileModules` build failure on MacOS 15.4: `__DATA_CONST` segment missing `SG_READ_ONLY` flag",
+      "created_at": "2025-04-11T12:24:04Z",
+      "closed_at": "2025-04-21T18:18:04Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/8862",
+      "number": 8862,
+      "title": "Cannot initialize project. Command output: PANIC",
+      "created_at": "2025-06-18T01:36:16Z",
+      "closed_at": "2025-07-01T12:09:31Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/9420",
+      "number": 9420,
+      "title": "Lake/Lean fails to build native libraries on Linux because it tries to load `libLake_shared.so`",
+      "created_at": "2025-07-17T17:37:35Z",
+      "closed_at": "2026-07-25T21:44:58Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/10443",
+      "number": 10443,
+      "title": "UInt64 ref counting error",
+      "created_at": "2025-09-18T15:09:18Z",
+      "closed_at": "2025-09-18T21:12:35Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/10698",
+      "number": 10698,
+      "title": "`cmake --preset debug && make ...` crash on macos",
+      "created_at": "2025-10-07T13:09:32Z",
+      "closed_at": "2025-10-07T15:38:10Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/10825",
+      "number": 10825,
+      "title": "Lake: consider eliding \"error: Lean exited with code 1\" when errors have already been printed",
+      "created_at": "2025-10-17T15:48:23Z",
+      "closed_at": "2026-08-02T17:59:59Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/10979",
+      "number": 10979,
+      "title": "Compiler crashes for complicated code",
+      "created_at": "2025-10-27T07:43:20Z",
+      "closed_at": "2025-10-27T10:41:48Z"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4/issues/11827",
+      "number": 11827,
+      "title": "Compiler crashes on modules that import both a precompiled library and `Lake.CLI`",
+      "created_at": "2025-12-29T10:14:52Z",
+      "closed_at": "2026-07-09T14:01:35Z"
+    }
+  ]
+}

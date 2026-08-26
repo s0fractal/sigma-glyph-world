@@ -1,0 +1,303 @@
+{
+  "index": 141,
+  "stratum": "proofs_build_completeness",
+  "repository": "rocq-prover/rocq",
+  "repository_id": 1377159,
+  "term": "exit code",
+  "query": "repo:rocq-prover/rocq is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:14.912383+00:00",
+  "total_count": 41,
+  "incomplete_results": false,
+  "returned": 41,
+  "raw_response_sha256": "d4cb116193f8669a92ef2ef595a31e2d9047c14399bf440baf8c4d660be41565",
+  "items": [
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/11383",
+      "number": 11383,
+      "title": "#11164 got master broken",
+      "created_at": "2020-01-09T09:53:53Z",
+      "closed_at": "2020-01-10T04:39:09Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/11954",
+      "number": 11954,
+      "title": "Coq 8.11 branch compilation failure",
+      "created_at": "2020-03-29T08:19:17Z",
+      "closed_at": "2020-03-31T12:56:59Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12072",
+      "number": 12072,
+      "title": "Running multiple instances of Coq master (such as make -j2) on Windows always segfaults on at least some machines",
+      "created_at": "2020-04-10T23:17:48Z",
+      "closed_at": "2020-05-16T17:44:26Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12128",
+      "number": 12128,
+      "title": "Documentation builds sometime fail because of a timeout.",
+      "created_at": "2020-04-19T20:43:32Z",
+      "closed_at": "2022-05-18T13:34:03Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12375",
+      "number": 12375,
+      "title": "Not the right version of Elpi in nixpkgs",
+      "created_at": "2020-05-20T10:22:12Z",
+      "closed_at": "2020-09-16T16:18:25Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12487",
+      "number": 12487,
+      "title": "Coq sometimes takes enormous amounts of RAM for unclear reasons",
+      "created_at": "2020-06-09T03:27:14Z",
+      "closed_at": "2024-01-14T15:24:22Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13082",
+      "number": 13082,
+      "title": "Performances improved between 8.11 and 8.12",
+      "created_at": "2020-09-24T11:57:57Z",
+      "closed_at": "2020-12-01T16:21:22Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13229",
+      "number": 13229,
+      "title": "Can't install coqide using opam due to problems with gnome-icon-theme",
+      "created_at": "2020-10-20T21:00:18Z",
+      "closed_at": "2020-10-22T12:43:29Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13437",
+      "number": 13437,
+      "title": "Error: \"test-suite/misc/deps/\\316\\261\\316\\262/\\316\\263\\316\\264.v\": No such file or directory",
+      "created_at": "2020-11-21T12:56:10Z",
+      "closed_at": "2021-02-25T08:11:03Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13635",
+      "number": 13635,
+      "title": "coq-doc package fails to install during local opam installation",
+      "created_at": "2020-12-14T20:25:45Z",
+      "closed_at": "2023-07-03T18:46:10Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13752",
+      "number": 13752,
+      "title": "coqide --version causes coqidetop to die badly",
+      "created_at": "2021-01-16T13:38:56Z",
+      "closed_at": "2021-02-22T09:30:09Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13925",
+      "number": 13925,
+      "title": "BinPos OCaml extraction does not typecheck if ExtrOCamlInt63 is required.",
+      "created_at": "2021-03-10T20:32:44Z",
+      "closed_at": "2021-12-01T14:40:03Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14100",
+      "number": 14100,
+      "title": "Extracted OCaml code failed TestCompile",
+      "created_at": "2021-04-09T21:22:26Z",
+      "closed_at": "2021-05-26T05:45:39Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14472",
+      "number": 14472,
+      "title": "coqnative exits with code 0 on error",
+      "created_at": "2021-06-09T17:26:44Z",
+      "closed_at": "2021-06-10T12:48:50Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14915",
+      "number": 14915,
+      "title": "Cannot install coq.14+rc1 in local switches inside directories with dune-project",
+      "created_at": "2021-09-22T07:12:51Z",
+      "closed_at": "2021-09-28T09:44:51Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14941",
+      "number": 14941,
+      "title": "Opam package for Coq 8.14+rc1 fails in a local switch in a directory containing a dune-project file ",
+      "created_at": "2021-09-27T15:11:28Z",
+      "closed_at": "2021-09-27T15:13:13Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15044",
+      "number": 15044,
+      "title": " Cannot install coq 8.14.0 in local switches inside directories with dune-project",
+      "created_at": "2021-10-19T07:41:18Z",
+      "closed_at": "2021-10-21T14:02:26Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15060",
+      "number": 15060,
+      "title": "Error while downloading Coq packages",
+      "created_at": "2021-10-22T01:23:24Z",
+      "closed_at": "2023-06-30T19:13:51Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15076",
+      "number": 15076,
+      "title": "ExtrOcamlNativeString cannot compile",
+      "created_at": "2021-10-27T04:03:41Z",
+      "closed_at": "2021-11-06T13:19:54Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15138",
+      "number": 15138,
+      "title": "Cannot install Coq 8.14 via opam on macOS due to sandboxing + dune 2.x caching",
+      "created_at": "2021-11-07T03:11:59Z",
+      "closed_at": "2022-07-28T03:18:20Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15384",
+      "number": 15384,
+      "title": "Cannot install coq 8.14.1 in local switches inside directories with dune-project",
+      "created_at": "2021-12-18T18:57:05Z",
+      "closed_at": "2022-06-01T15:36:25Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15841",
+      "number": 15841,
+      "title": "`opam install coq.dev` fails on Windows",
+      "created_at": "2022-03-21T16:35:00Z",
+      "closed_at": "2023-06-30T16:27:56Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15850",
+      "number": 15850,
+      "title": "doc_gram_rsts wants to make changes",
+      "created_at": "2022-03-23T13:30:09Z",
+      "closed_at": "2022-04-01T08:35:40Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16510",
+      "number": 16510,
+      "title": "Path cannot be guessed when only `coq-core` is installed",
+      "created_at": "2022-09-20T08:04:42Z",
+      "closed_at": "2022-09-26T19:12:42Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16548",
+      "number": 16548,
+      "title": "coq.dev build is failing",
+      "created_at": "2022-09-27T09:42:43Z",
+      "closed_at": "2022-09-27T11:15:21Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16643",
+      "number": 16643,
+      "title": "problem with installing coqide via OPAM",
+      "created_at": "2022-10-12T09:24:41Z",
+      "closed_at": "2024-05-02T13:37:35Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16677",
+      "number": 16677,
+      "title": "Extraction does not correctly handle shadowing of record fields",
+      "created_at": "2022-10-16T08:00:16Z",
+      "closed_at": "2022-10-18T12:18:34Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16834",
+      "number": 16834,
+      "title": "Error: Anomaly \"Uncaught exception Not_found.\" on `Declare Module`",
+      "created_at": "2022-11-17T17:38:48Z",
+      "closed_at": "2022-11-23T09:02:58Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17142",
+      "number": 17142,
+      "title": "Coq fails to build on OSX 10.6 / PPC + Rosseta: Dune exec fails with Configure error: execve(./_build/default/tools/configure/configure.exe): Operation not supported on socket",
+      "created_at": "2023-01-19T13:23:02Z",
+      "closed_at": "2023-03-08T02:07:56Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17367",
+      "number": 17367,
+      "title": "coqtopide error of option -main-channel and -control-channel",
+      "created_at": "2023-03-09T13:51:51Z",
+      "closed_at": "2023-10-30T16:08:51Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17419",
+      "number": 17419,
+      "title": "Another problem with installing coqide via OPAM",
+      "created_at": "2023-03-24T13:04:33Z",
+      "closed_at": "2023-06-30T17:28:01Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17660",
+      "number": 17660,
+      "title": "Compcert broken on master",
+      "created_at": "2023-05-30T10:17:01Z",
+      "closed_at": "2023-05-31T14:06:38Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17721",
+      "number": 17721,
+      "title": "Argument list too long from a coq_makefile-generated Makefile",
+      "created_at": "2023-06-10T12:19:37Z",
+      "closed_at": "2023-06-30T11:53:18Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17923",
+      "number": 17923,
+      "title": "coqide-server package runs tests which require coq to be built",
+      "created_at": "2023-08-03T14:23:44Z",
+      "closed_at": "2023-11-14T11:45:34Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18415",
+      "number": 18415,
+      "title": "0.33 failed to regression build against ocaml 5.1.1",
+      "created_at": "2023-12-16T18:47:13Z",
+      "closed_at": "2024-02-27T14:24:16Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18548",
+      "number": 18548,
+      "title": "coqide-server build error on Windows",
+      "created_at": "2024-01-24T14:00:23Z",
+      "closed_at": "2024-02-05T12:05:58Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19533",
+      "number": 19533,
+      "title": "Installing coq-doc from opam fails with File not found: ../../theories/Init/Prelude.vo The path for Coq libraries is wrong.",
+      "created_at": "2024-09-11T18:29:16Z",
+      "closed_at": "2025-10-03T16:11:26Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19978",
+      "number": 19978,
+      "title": "opam pin --kind=version add coq dev no longer works (missing md5sum)",
+      "created_at": "2025-01-01T06:58:17Z",
+      "closed_at": "2025-01-10T14:35:28Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/20538",
+      "number": 20538,
+      "title": "Anomaly: \"failed to locate Coq kernel package in split build mode: rocq-runtime.kernel\"",
+      "created_at": "2025-04-17T20:12:19Z",
+      "closed_at": "2025-04-18T14:15:25Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/20546",
+      "number": 20546,
+      "title": "Ocaml 5.3.0 install rocq 9.0.0 failed (\"failed to locate Coq kernel package in split build mode\")",
+      "created_at": "2025-04-19T17:56:44Z",
+      "closed_at": "2025-04-22T12:30:43Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/21123",
+      "number": 21123,
+      "title": "[CI] Bug minimizer has trouble minimize HB (failure to upload artifacts?)",
+      "created_at": "2025-09-25T19:42:21Z",
+      "closed_at": "2025-09-26T15:01:31Z"
+    }
+  ]
+}

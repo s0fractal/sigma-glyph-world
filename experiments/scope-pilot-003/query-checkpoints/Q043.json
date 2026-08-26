@@ -1,0 +1,632 @@
+{
+  "index": 43,
+  "stratum": "lint_static_analysis",
+  "repository": "astral-sh/ruff",
+  "repository_id": 523043277,
+  "term": "exit code",
+  "query": "repo:astral-sh/ruff is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:15.754827+00:00",
+  "total_count": 88,
+  "incomplete_results": false,
+  "returned": 88,
+  "raw_response_sha256": "eed0cebdf26fa86940aba2df8619e4b4ba9797841b485555b4eb851a90e77b90",
+  "items": [
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/196",
+      "number": 196,
+      "title": "Syntax error doesn't cause ruff to exit with non-zero code",
+      "created_at": "2022-09-15T01:51:46Z",
+      "closed_at": "2022-09-15T02:37:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/210",
+      "number": 210,
+      "title": "Regression on GHA with ruff==0.0.39",
+      "created_at": "2022-09-16T08:38:51Z",
+      "closed_at": "2022-09-16T08:58:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/341",
+      "number": 341,
+      "title": "ruff's `--fix` returns a non-zero exit code even though there's only one fixable lint error.",
+      "created_at": "2022-10-07T16:08:16Z",
+      "closed_at": "2022-10-07T16:13:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/484",
+      "number": 484,
+      "title": "`--fix` flag removes imports in `__init__` files if there is a lack of `__all__`",
+      "created_at": "2022-10-27T10:09:58Z",
+      "closed_at": "2022-10-27T17:08:05Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/569",
+      "number": 569,
+      "title": "pre-commit hook does not respect directory",
+      "created_at": "2022-11-03T15:26:45Z",
+      "closed_at": "2022-11-03T16:11:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/775",
+      "number": 775,
+      "title": "0 exit code when used as a module",
+      "created_at": "2022-11-16T18:50:08Z",
+      "closed_at": "2022-11-16T21:16:59Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/832",
+      "number": 832,
+      "title": "[Windows] Issues when running as a module",
+      "created_at": "2022-11-20T16:08:27Z",
+      "closed_at": "2023-06-15T18:58:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1134",
+      "number": 1134,
+      "title": "Consider changing \"consider\" error messages",
+      "created_at": "2022-12-08T00:19:13Z",
+      "closed_at": "2022-12-08T01:10:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1227",
+      "number": 1227,
+      "title": "Ruff is removing used imports since 0.0.173 version ",
+      "created_at": "2022-12-13T09:01:15Z",
+      "closed_at": "2022-12-26T01:15:38Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1353",
+      "number": 1353,
+      "title": "Option to enable the fixable errors only?",
+      "created_at": "2022-12-23T17:52:58Z",
+      "closed_at": "2022-12-25T23:49:57Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1425",
+      "number": 1425,
+      "title": "`wasm-pack` test is unreliable",
+      "created_at": "2022-12-28T15:10:39Z",
+      "closed_at": "2024-02-23T22:01:36Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/1823",
+      "number": 1823,
+      "title": "[question/request] processing stdin?",
+      "created_at": "2023-01-12T17:28:26Z",
+      "closed_at": "2023-01-12T17:34:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2154",
+      "number": 2154,
+      "title": "Significant performance overhead when passing files and using multiple `per-file-ignores`",
+      "created_at": "2023-01-25T14:00:38Z",
+      "closed_at": "2023-01-25T18:38:35Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2324",
+      "number": 2324,
+      "title": "feature request: Allow ruff to exit zero even with found violations",
+      "created_at": "2023-01-29T12:17:44Z",
+      "closed_at": "2023-01-29T13:14:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2349",
+      "number": 2349,
+      "title": "let some rules not cause an error exit code",
+      "created_at": "2023-01-30T11:42:52Z",
+      "closed_at": "2023-01-30T17:15:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2555",
+      "number": 2555,
+      "title": "Error using '--force-exclude' with pre-commit",
+      "created_at": "2023-02-03T20:14:03Z",
+      "closed_at": "2023-02-03T20:55:30Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2633",
+      "number": 2633,
+      "title": "Ability to exit with non-zero after fixing errors ",
+      "created_at": "2023-02-07T19:31:52Z",
+      "closed_at": "2023-02-08T19:27:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/2661",
+      "number": 2661,
+      "title": "Add a flag to tell users which files were fixed, and via which rules",
+      "created_at": "2023-02-08T15:47:31Z",
+      "closed_at": "2023-02-12T20:48:03Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3272",
+      "number": 3272,
+      "title": "Parser error and Rule violation on syntax error breaks Emacs integration",
+      "created_at": "2023-02-28T11:31:26Z",
+      "closed_at": "2023-03-13T12:04:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3347",
+      "number": 3347,
+      "title": "Ruff and Flake8's McCabe complexity differs",
+      "created_at": "2023-03-04T21:06:07Z",
+      "closed_at": "2023-03-14T18:40:35Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3667",
+      "number": 3667,
+      "title": "Support for nested classes",
+      "created_at": "2023-03-22T14:37:21Z",
+      "closed_at": "2023-03-23T13:19:57Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3744",
+      "number": 3744,
+      "title": "nbqa + isort produces false positive",
+      "created_at": "2023-03-26T17:00:39Z",
+      "closed_at": "2023-09-14T20:02:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3781",
+      "number": 3781,
+      "title": "Inconsistent results running ruff via `poetry` and `pre-commit`",
+      "created_at": "2023-03-28T18:33:38Z",
+      "closed_at": "2023-03-28T19:42:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/3782",
+      "number": 3782,
+      "title": "Adding ability to choose certain codes to error on (instead of disabling all using `--exit-zero`) or not error on",
+      "created_at": "2023-03-28T18:49:41Z",
+      "closed_at": "2023-03-28T23:34:12Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4092",
+      "number": 4092,
+      "title": "`--fix-only` returns exit code 1 upon fixes",
+      "created_at": "2023-04-25T09:05:53Z",
+      "closed_at": "2023-05-04T19:03:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4093",
+      "number": 4093,
+      "title": "Using ruff check diff suppresses errors",
+      "created_at": "2023-04-25T11:05:20Z",
+      "closed_at": "2023-04-26T03:19:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/4436",
+      "number": 4436,
+      "title": "Fails to install on Termux ",
+      "created_at": "2023-05-15T09:49:20Z",
+      "closed_at": "2023-05-18T17:02:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5225",
+      "number": 5225,
+      "title": "[Panic] in pre-commit with v0.0.273",
+      "created_at": "2023-06-20T22:06:20Z",
+      "closed_at": "2023-06-20T23:01:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/5504",
+      "number": 5504,
+      "title": "Flag to ignore config schema violations",
+      "created_at": "2023-07-04T15:44:20Z",
+      "closed_at": "2023-07-04T22:00:50Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6301",
+      "number": 6301,
+      "title": "Conda install of ruff still at version 0.280",
+      "created_at": "2023-08-03T09:21:51Z",
+      "closed_at": "2023-08-03T16:58:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/6966",
+      "number": 6966,
+      "title": "Add a `--check` flag to the formatter CLI",
+      "created_at": "2023-08-29T03:44:31Z",
+      "closed_at": "2023-08-29T16:40:01Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7229",
+      "number": 7229,
+      "title": "[Autofix error] `pyvista/tests/plotting/test_charts.py`",
+      "created_at": "2023-09-07T21:30:24Z",
+      "closed_at": "2023-09-07T23:13:02Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7231",
+      "number": 7231,
+      "title": "Formatter: Add an option to show formatting changes when running `--check`",
+      "created_at": "2023-09-08T07:00:45Z",
+      "closed_at": "2023-10-18T11:55:07Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/7352",
+      "number": 7352,
+      "title": "CLI: Show fixes by default in `ruff check`",
+      "created_at": "2023-09-13T16:21:19Z",
+      "closed_at": "2025-08-29T13:53:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8147",
+      "number": 8147,
+      "title": "Ruff fails with memory allocation of X bytes failed",
+      "created_at": "2023-10-23T15:36:19Z",
+      "closed_at": "2024-02-14T14:09:22Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8191",
+      "number": 8191,
+      "title": "Add an `--exit-non-zero-on-fix` equivalent to the formatter.",
+      "created_at": "2023-10-25T00:40:49Z",
+      "closed_at": "2025-03-19T14:55:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8204",
+      "number": 8204,
+      "title": "Failed to format notebook: source contains syntax errors: ParseError",
+      "created_at": "2023-10-25T07:13:55Z",
+      "closed_at": "2023-10-25T14:01:51Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8299",
+      "number": 8299,
+      "title": "Python Substring: infine loop using ruff v0.1.2",
+      "created_at": "2023-10-28T09:00:56Z",
+      "closed_at": "2023-10-30T23:38:14Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8426",
+      "number": 8426,
+      "title": "[BUILD] Windows: linking with `x86_64-w64-mingw32-gcc` failed: exit code: 1",
+      "created_at": "2023-11-01T22:33:26Z",
+      "closed_at": "2023-11-01T23:25:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8447",
+      "number": 8447,
+      "title": "`ruff` exits with `code 0` if there's a SyntaxError but rule `E999` is not selected",
+      "created_at": "2023-11-02T15:44:46Z",
+      "closed_at": "2024-06-27T11:41:09Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8526",
+      "number": 8526,
+      "title": "jupyter: ruff v0.1.4 ignores variables with the same name as magic commands",
+      "created_at": "2023-11-06T20:15:34Z",
+      "closed_at": "2024-01-29T12:55:45Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8553",
+      "number": 8553,
+      "title": "Indicate successful check",
+      "created_at": "2023-11-08T10:13:51Z",
+      "closed_at": "2024-04-12T20:24:41Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8556",
+      "number": 8556,
+      "title": "COM812 breaks conditionals inside multi-line f-strings",
+      "created_at": "2023-11-08T11:44:07Z",
+      "closed_at": "2023-11-10T04:19:15Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/8817",
+      "number": 8817,
+      "title": "`ruff --config` not listed in `ruff --help",
+      "created_at": "2023-11-22T09:40:50Z",
+      "closed_at": "2023-11-22T13:48:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9063",
+      "number": 9063,
+      "title": "E712 fix results in unsafe behavior",
+      "created_at": "2023-12-08T23:54:01Z",
+      "closed_at": "2023-12-09T00:49:49Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9093",
+      "number": 9093,
+      "title": "Disallow Implicit Str Concat",
+      "created_at": "2023-12-11T14:50:07Z",
+      "closed_at": "2023-12-11T19:17:57Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9245",
+      "number": 9245,
+      "title": "[msys2] fails to build on GCC-based environments",
+      "created_at": "2023-12-22T13:04:41Z",
+      "closed_at": "2024-01-08T08:41:40Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9311",
+      "number": 9311,
+      "title": "Formatter: Improve handling of syntax errors",
+      "created_at": "2023-12-29T17:26:12Z",
+      "closed_at": "2023-12-31T12:10:47Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9450",
+      "number": 9450,
+      "title": "`ruff check --select=I001 .` passes on windows but fails on linux",
+      "created_at": "2024-01-09T22:29:03Z",
+      "closed_at": "2024-01-10T01:46:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9490",
+      "number": 9490,
+      "title": "Failed to create cache file when trying to run ruff",
+      "created_at": "2024-01-12T11:58:02Z",
+      "closed_at": "2024-01-12T16:11:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9718",
+      "number": 9718,
+      "title": "Broken pipe when configuration file fails to parse",
+      "created_at": "2024-01-30T20:04:47Z",
+      "closed_at": "2024-02-08T17:33:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9729",
+      "number": 9729,
+      "title": "Unwelcome Error: memory allocation failed",
+      "created_at": "2024-01-31T06:50:41Z",
+      "closed_at": "2024-01-31T07:31:29Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9848",
+      "number": 9848,
+      "title": "New rule: disallow code in `__init__` modules",
+      "created_at": "2024-02-05T23:32:34Z",
+      "closed_at": "2025-12-30T16:32:12Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9913",
+      "number": 9913,
+      "title": "Cannot compile ruff from master branch - due yanking pyproject-toml 0.8.2 - https://crates.io/crates/pyproject-toml/versions ",
+      "created_at": "2024-02-09T16:24:37Z",
+      "closed_at": "2024-02-09T20:38:35Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/9975",
+      "number": 9975,
+      "title": "`pip install .` from src is failing",
+      "created_at": "2024-02-13T15:54:51Z",
+      "closed_at": "2024-02-13T16:02:11Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10058",
+      "number": 10058,
+      "title": "(🐞) Cache moment \"error: Failed to create fix for MetaClassABCMeta: Unable to insert `ABC` into scope due to name conflict\" failure",
+      "created_at": "2024-02-20T06:12:44Z",
+      "closed_at": "2025-01-27T01:27:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10077",
+      "number": 10077,
+      "title": "[Infinite loop] for pyi file",
+      "created_at": "2024-02-22T02:37:55Z",
+      "closed_at": "2024-03-05T10:09:17Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10423",
+      "number": 10423,
+      "title": "SIM300: fix and check are not aligned",
+      "created_at": "2024-03-15T16:24:07Z",
+      "closed_at": "2024-03-15T17:16:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10673",
+      "number": 10673,
+      "title": "Invoking isort can break circular imports",
+      "created_at": "2024-03-30T18:30:34Z",
+      "closed_at": "2024-03-30T18:48:27Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10718",
+      "number": 10718,
+      "title": "E731: Lambda default value for a Callable dataclass field is incorrectly flagged as lambda assignment",
+      "created_at": "2024-04-01T17:18:55Z",
+      "closed_at": "2024-04-01T19:44:47Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/10983",
+      "number": 10983,
+      "title": "Formatter: include files that were formatted in the output",
+      "created_at": "2024-04-16T20:46:46Z",
+      "closed_at": "2024-04-17T17:32:58Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11107",
+      "number": 11107,
+      "title": "Ruff should give a nonzero exit code if file linting panics",
+      "created_at": "2024-04-23T16:17:05Z",
+      "closed_at": "2026-05-29T11:44:23Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11451",
+      "number": 11451,
+      "title": "Ruff fails to build from source on Windows with Rust and Visual Studio installed",
+      "created_at": "2024-05-16T15:59:16Z",
+      "closed_at": "2024-05-30T17:03:46Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11549",
+      "number": 11549,
+      "title": "Ruff fails when attempting to produce an output file within a non-existent directory",
+      "created_at": "2024-05-26T21:35:37Z",
+      "closed_at": "2024-05-26T23:23:13Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11586",
+      "number": 11586,
+      "title": "Build error for release profile on `x86_64-pc-windows-gnu`",
+      "created_at": "2024-05-28T21:23:20Z",
+      "closed_at": "2025-02-21T11:50:41Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11786",
+      "number": 11786,
+      "title": "No longer works w/o kludges on Mac OS X versions (<10.12) which are still supported by official Python",
+      "created_at": "2024-06-06T22:26:53Z",
+      "closed_at": "2024-06-07T13:13:52Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/11880",
+      "number": 11880,
+      "title": "`ruff` SchemaStore entry doesn't have `tool.ruff.lint`",
+      "created_at": "2024-06-14T20:37:26Z",
+      "closed_at": "2024-06-14T22:05:48Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12284",
+      "number": 12284,
+      "title": "Access Denied error due to race saving cache file on Windows",
+      "created_at": "2024-07-10T22:53:56Z",
+      "closed_at": "2024-07-12T14:33:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12652",
+      "number": 12652,
+      "title": "  = note: ld: cannot find -lclang.dll: No such file or directory",
+      "created_at": "2024-08-03T06:44:15Z",
+      "closed_at": "2024-08-17T14:35:59Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12793",
+      "number": 12793,
+      "title": "Is there a way for `ruff format` to return the formatted source files as outputs to `stdout` instead of formatting inplace?",
+      "created_at": "2024-08-10T04:46:53Z",
+      "closed_at": "2024-08-12T09:25:08Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/12949",
+      "number": 12949,
+      "title": "A005 (builtin module shadowing) should ignore private modules",
+      "created_at": "2024-08-17T13:07:22Z",
+      "closed_at": "2024-11-24T02:39:06Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/13419",
+      "number": 13419,
+      "title": "provide a exit code for `ruff format` (without --check) for source file syntax error",
+      "created_at": "2024-09-20T05:54:51Z",
+      "closed_at": "2024-10-27T19:01:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/15501",
+      "number": 15501,
+      "title": "[red-knot]: `--error-on-warning=<bool>`",
+      "created_at": "2025-01-15T14:27:48Z",
+      "closed_at": "2025-02-03T07:35:32Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/15906",
+      "number": 15906,
+      "title": "Add `ruff check --fix-only --check`",
+      "created_at": "2025-02-03T07:57:32Z",
+      "closed_at": "2025-02-03T09:43:56Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/15970",
+      "number": 15970,
+      "title": "Poetry install failure with `requires-python`",
+      "created_at": "2025-02-05T14:13:54Z",
+      "closed_at": "2025-02-07T10:11:26Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/15971",
+      "number": 15971,
+      "title": "issue with requires-python  configuration option pyproject.toml  when using local install (pip -e)",
+      "created_at": "2025-02-05T14:18:21Z",
+      "closed_at": "2025-02-05T16:12:54Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/16046",
+      "number": 16046,
+      "title": "B023 rule incorrectly flags loop variables in cases where closures intentionally and correctly capture loop variables",
+      "created_at": "2025-02-08T22:54:03Z",
+      "closed_at": "2025-03-06T07:19:16Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/16396",
+      "number": 16396,
+      "title": "PLR1722 should convert a `code` keyword argument to a positional argument",
+      "created_at": "2025-02-26T14:19:12Z",
+      "closed_at": "2025-03-03T14:20:59Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/16945",
+      "number": 16945,
+      "title": "Configuring for Neovim - invalid client settings",
+      "created_at": "2025-03-24T11:14:39Z",
+      "closed_at": "2025-03-24T11:28:03Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/17527",
+      "number": 17527,
+      "title": "Ruff fails to build in Termux on Android 14, unable to find -lgcc",
+      "created_at": "2025-04-21T17:31:56Z",
+      "closed_at": "2025-04-24T06:09:09Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/17594",
+      "number": 17594,
+      "title": "duplicate diagnosis",
+      "created_at": "2025-04-23T20:49:52Z",
+      "closed_at": "2025-05-12T08:24:39Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/17923",
+      "number": 17923,
+      "title": "Cannot checkout ruff repository on windows due to long file paths",
+      "created_at": "2025-04-28T18:55:55Z",
+      "closed_at": "2025-07-17T14:09:55Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/17729",
+      "number": 17729,
+      "title": "ruff format --check --silent still output the same log as with --quiet",
+      "created_at": "2025-04-30T05:22:02Z",
+      "closed_at": "2026-02-03T20:34:19Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/17911",
+      "number": 17911,
+      "title": "[ty] `NoReturn`/`Never` are not handled correctly",
+      "created_at": "2025-05-07T12:39:53Z",
+      "closed_at": "2025-05-07T12:47:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/18016",
+      "number": 18016,
+      "title": "How to fix ERROR: Failed to build installable wheels for some pyproject.toml based projects (ruff)?",
+      "created_at": "2025-05-11T10:28:36Z",
+      "closed_at": "2025-05-12T12:41:01Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/19626",
+      "number": 19626,
+      "title": "Failed to execute the command 'ruff.applyFormat'.",
+      "created_at": "2025-07-29T21:21:31Z",
+      "closed_at": "2025-09-17T07:19:20Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/20853",
+      "number": 20853,
+      "title": "Fixes between E302 and I001 disagree",
+      "created_at": "2025-10-14T00:41:57Z",
+      "closed_at": "2025-10-14T07:23:24Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/ruff/issues/21613",
+      "number": 21613,
+      "title": "Show diff for applied fixes",
+      "created_at": "2025-11-24T13:11:11Z",
+      "closed_at": "2025-11-24T15:50:46Z"
+    }
+  ]
+}

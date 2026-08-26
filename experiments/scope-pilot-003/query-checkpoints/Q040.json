@@ -1,0 +1,212 @@
+{
+  "index": 40,
+  "stratum": "tests",
+  "repository": "nextest-rs/nextest",
+  "repository_id": 456728202,
+  "term": "ignored",
+  "query": "repo:nextest-rs/nextest is:issue is:closed created:2020-01-01..2025-12-31 \"ignored\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:43:07.449666+00:00",
+  "total_count": 28,
+  "incomplete_results": false,
+  "returned": 28,
+  "raw_response_sha256": "73ac65027d4efb22f3e93d9ed4745dee2f2e17f1f62387e37901e14bacaf87c5",
+  "items": [
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/46",
+      "number": 46,
+      "title": "unable to parse benchmark",
+      "created_at": "2022-02-15T12:56:43Z",
+      "closed_at": "2022-02-15T21:10:44Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/96",
+      "number": 96,
+      "title": "Support for running criterion benches as tests?",
+      "created_at": "2022-03-04T21:48:18Z",
+      "closed_at": "2023-05-30T17:42:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/122",
+      "number": 122,
+      "title": "Unexpected behavior when custom test harnesses don't parse arguments",
+      "created_at": "2022-03-19T17:24:20Z",
+      "closed_at": "2022-04-07T23:39:30Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/208",
+      "number": 208,
+      "title": "Skipping tests",
+      "created_at": "2022-05-13T10:30:03Z",
+      "closed_at": "2022-05-13T10:35:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/397",
+      "number": 397,
+      "title": "ANSI color sequences not compared",
+      "created_at": "2022-07-24T11:14:44Z",
+      "closed_at": "2022-07-24T15:19:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/406",
+      "number": 406,
+      "title": "Acquiring test list fails with workspace and runner",
+      "created_at": "2022-07-25T10:14:35Z",
+      "closed_at": "2022-07-25T18:57:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/498",
+      "number": 498,
+      "title": "--config arguments appears to be ignored by cargo nextest",
+      "created_at": "2022-08-29T23:32:05Z",
+      "closed_at": "2022-08-29T23:49:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/561",
+      "number": 561,
+      "title": "nextest has issues running tests that use serial_test",
+      "created_at": "2022-10-05T11:26:07Z",
+      "closed_at": "2022-10-05T17:07:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/605",
+      "number": 605,
+      "title": "Run parallel tests under MPI",
+      "created_at": "2022-10-23T04:19:18Z",
+      "closed_at": "2023-08-14T09:22:16Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/687",
+      "number": 687,
+      "title": "Integration test failure while using `--all-features`",
+      "created_at": "2022-12-01T15:19:09Z",
+      "closed_at": "2022-12-05T02:12:49Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/709",
+      "number": 709,
+      "title": "a weird finding about static variable",
+      "created_at": "2022-12-14T17:45:51Z",
+      "closed_at": "2022-12-15T05:33:58Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/767",
+      "number": 767,
+      "title": "unable to find cargo-nextest-dup",
+      "created_at": "2023-01-12T13:24:51Z",
+      "closed_at": "2023-01-12T22:01:52Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/773",
+      "number": 773,
+      "title": "Odd warning about `insta` when installing",
+      "created_at": "2023-01-14T14:46:48Z",
+      "closed_at": "2023-01-15T21:10:32Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/910",
+      "number": 910,
+      "title": "bug: cannot find tests with debug level `line-tables-only`",
+      "created_at": "2023-07-21T07:09:20Z",
+      "closed_at": "2023-07-30T02:43:08Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/984",
+      "number": 984,
+      "title": "cargo nextest run --all-features fail on windows 11",
+      "created_at": "2023-09-28T19:31:12Z",
+      "closed_at": "2023-10-29T19:41:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/988",
+      "number": 988,
+      "title": "Dependency Dashboard",
+      "created_at": "2023-09-30T01:57:23Z",
+      "closed_at": "2023-10-01T22:11:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1200",
+      "number": 1200,
+      "title": "feat request: Markdown format",
+      "created_at": "2024-01-01T15:01:07Z",
+      "closed_at": "2024-10-04T07:05:38Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1205",
+      "number": 1205,
+      "title": "Tests integration-tests::integration fail with error for setup of scripts/my-script.sh",
+      "created_at": "2024-01-04T18:05:41Z",
+      "closed_at": "2024-01-08T01:00:06Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1256",
+      "number": 1256,
+      "title": "JSON output is not emitted until tests end",
+      "created_at": "2024-01-26T23:08:04Z",
+      "closed_at": "2025-08-24T19:44:22Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1369",
+      "number": 1369,
+      "title": "when using nextest a test fails (doesn't fail with cargo test)",
+      "created_at": "2024-03-10T22:51:23Z",
+      "closed_at": "2024-04-09T00:17:01Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1493",
+      "number": 1493,
+      "title": "`cargo nextest run --workspace` fails with DLL missing if a macro lib exists ",
+      "created_at": "2024-05-09T20:46:02Z",
+      "closed_at": "2024-05-22T23:11:41Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1496",
+      "number": 1496,
+      "title": "nextest chooses arbitrarily not to run some tests it's found",
+      "created_at": "2024-05-11T08:23:39Z",
+      "closed_at": "2024-05-17T11:53:45Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1532",
+      "number": 1532,
+      "title": "Feature Request: Conditional skipping test based on setup scripts",
+      "created_at": "2024-05-31T11:34:23Z",
+      "closed_at": "2024-10-04T07:03:58Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1727",
+      "number": 1727,
+      "title": "Test process crashes with SIGSEGV after it appears to pass",
+      "created_at": "2024-09-23T06:36:14Z",
+      "closed_at": "2024-09-27T12:03:41Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/1891",
+      "number": 1891,
+      "title": "Bug: leak detection swallows test failure output",
+      "created_at": "2024-11-22T11:09:12Z",
+      "closed_at": "2024-11-23T23:29:09Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2067",
+      "number": 2067,
+      "title": "Bug: error: writing to archive: caused by: unsupported parameter",
+      "created_at": "2025-01-14T08:05:46Z",
+      "closed_at": "2025-01-15T22:43:19Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2372",
+      "number": 2372,
+      "title": "Bug: WebAssembly Target Runner Support",
+      "created_at": "2025-05-30T16:15:45Z",
+      "closed_at": "2025-06-02T14:04:04Z"
+    },
+    {
+      "url": "https://github.com/nextest-rs/nextest/issues/2463",
+      "number": 2463,
+      "title": "nextest test suite hanging in some configurations (Cargo 1.88 bug)",
+      "created_at": "2025-07-12T00:03:43Z",
+      "closed_at": "2025-08-07T21:08:16Z"
+    }
+  ]
+}

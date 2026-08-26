@@ -1,0 +1,58 @@
+{
+  "index": 134,
+  "stratum": "proofs_build_completeness",
+  "repository": "leanprover-community/mathlib4",
+  "repository_id": 365697493,
+  "term": "exit code",
+  "query": "repo:leanprover-community/mathlib4 is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:47:56.706439+00:00",
+  "total_count": 6,
+  "incomplete_results": false,
+  "returned": 6,
+  "raw_response_sha256": "385abcaaefed6ff74e16a6fd9d131d0e371d5135378988754a0654994b94ef6e",
+  "items": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/1789",
+      "number": 1789,
+      "title": "Build fails on windows at `Data\\Rat\\Defs.lean:335`",
+      "created_at": "2023-01-23T16:55:29Z",
+      "closed_at": "2023-01-24T01:12:00Z"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/11554",
+      "number": 11554,
+      "title": "Shake telling me to replace import that is necessary.",
+      "created_at": "2024-03-20T23:05:49Z",
+      "closed_at": "2024-09-18T14:18:30Z"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/26229",
+      "number": 26229,
+      "title": "`NumberTheory.Multiplicity` and `NumberTheory.Transcendental.Liouville.Residual` build fail",
+      "created_at": "2025-06-20T16:01:56Z",
+      "closed_at": "2026-02-27T05:28:49Z"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/27017",
+      "number": 27017,
+      "title": "`mathlib_test_executable` fails to build",
+      "created_at": "2025-07-12T03:49:08Z",
+      "closed_at": "2025-07-25T01:11:05Z"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/28594",
+      "number": 28594,
+      "title": "Using nighly mathlib as dependency fails",
+      "created_at": "2025-08-18T11:39:20Z",
+      "closed_at": "2025-12-29T11:54:13Z"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4/issues/32052",
+      "number": 32052,
+      "title": "I can't create a new Lean project with Mathlib",
+      "created_at": "2025-11-24T12:40:21Z",
+      "closed_at": "2025-11-25T10:21:55Z"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "index": 144,
+  "stratum": "proofs_build_completeness",
+  "repository": "rocq-prover/rocq",
+  "repository_id": 1377159,
+  "term": "not run",
+  "query": "repo:rocq-prover/rocq is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:48:23.662295+00:00",
+  "total_count": 53,
+  "incomplete_results": false,
+  "returned": 53,
+  "raw_response_sha256": "7dba8cd08e6e89c10a1ef5e91852599c4181a4b4704c3aeb44d5126d8714af27",
+  "items": [
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/11476",
+      "number": 11476,
+      "title": "[native_compute] Pre-compilation of coq-bignums",
+      "created_at": "2020-01-28T16:44:01Z",
+      "closed_at": "2022-05-28T16:35:36Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12226",
+      "number": 12226,
+      "title": "`Uncaught exception Not_found` at an `Admitted` command.",
+      "created_at": "2020-05-01T14:28:37Z",
+      "closed_at": "2024-02-16T11:12:24Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12334",
+      "number": 12334,
+      "title": "Release 8.13",
+      "created_at": "2020-05-15T15:12:42Z",
+      "closed_at": "2021-04-30T16:18:48Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12578",
+      "number": 12578,
+      "title": "pre-commit not run in rebase",
+      "created_at": "2020-06-24T06:31:27Z",
+      "closed_at": "2021-10-05T13:40:48Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12800",
+      "number": 12800,
+      "title": "Need a way to support commands accessing Stm history in XML interface",
+      "created_at": "2020-08-07T20:24:13Z",
+      "closed_at": "2020-10-12T16:34:25Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/12945",
+      "number": 12945,
+      "title": "Debug printers not getting installed",
+      "created_at": "2020-08-30T03:30:48Z",
+      "closed_at": "2020-09-01T08:02:48Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13246",
+      "number": 13246,
+      "title": "More setoid_rewrite failures with name mangling",
+      "created_at": "2020-10-22T11:43:14Z",
+      "closed_at": "2020-11-18T12:14:39Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13332",
+      "number": 13332,
+      "title": "Repeatedly building with `dune build` takes upwards of 10 minutes every time.",
+      "created_at": "2020-11-10T07:30:14Z",
+      "closed_at": "2021-08-10T16:58:44Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13333",
+      "number": 13333,
+      "title": "Cannot run unit tests with `dune`.",
+      "created_at": "2020-11-10T12:11:35Z",
+      "closed_at": "2020-11-10T23:09:06Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13766",
+      "number": 13766,
+      "title": "Anomaly \"Uncaught exception Not_found.\" from some kind of type error",
+      "created_at": "2021-01-20T01:54:02Z",
+      "closed_at": "2024-10-27T17:02:44Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/13942",
+      "number": 13942,
+      "title": "Bad (useless) error message when some TC instances could not be found",
+      "created_at": "2021-03-15T13:32:34Z",
+      "closed_at": "2021-11-07T17:43:04Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14144",
+      "number": 14144,
+      "title": "stack overflow (at least from reduction tactics) should be catchable by `try`",
+      "created_at": "2021-04-21T14:43:17Z",
+      "closed_at": "2024-04-19T14:20:42Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14182",
+      "number": 14182,
+      "title": "make coqide is not enough to run CoqIDE",
+      "created_at": "2021-04-27T12:58:18Z",
+      "closed_at": "2021-04-28T10:40:59Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14197",
+      "number": 14197,
+      "title": "[ci] make ci-coqtail fails when not run from an installed Coq",
+      "created_at": "2021-04-27T23:54:07Z",
+      "closed_at": "2021-08-13T17:13:24Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14292",
+      "number": 14292,
+      "title": "`dune build dev/shim/coqide-prelude` succeeds and `dune exec ...` fails with unclear error message when CoqIDE dependencies are not installed.",
+      "created_at": "2021-05-09T05:11:00Z",
+      "closed_at": "2021-05-21T18:43:08Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14306",
+      "number": 14306,
+      "title": "Since dune, make install has changed",
+      "created_at": "2021-05-11T15:30:40Z",
+      "closed_at": "2021-07-19T08:20:35Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14327",
+      "number": 14327,
+      "title": "CoqIDE Visual Debugger is unusably sluggish when dealing with tactics in terms",
+      "created_at": "2021-05-14T22:06:30Z",
+      "closed_at": "2021-09-14T20:27:15Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14800",
+      "number": 14800,
+      "title": "CoqIDE in v8.14 / master does not run on Windows",
+      "created_at": "2021-08-22T21:48:49Z",
+      "closed_at": "2021-09-15T09:57:18Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14807",
+      "number": 14807,
+      "title": "Number & String Notation should probably use `lazy` not `cbv`",
+      "created_at": "2021-08-24T20:54:52Z",
+      "closed_at": "2021-12-28T12:00:10Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/14887",
+      "number": 14887,
+      "title": "Unable to run suite tests locally",
+      "created_at": "2021-09-16T02:45:44Z",
+      "closed_at": "2021-10-01T10:45:02Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15185",
+      "number": 15185,
+      "title": "\"make -f Makefile.dune test-suite\" does not run unit tests",
+      "created_at": "2021-11-15T03:05:50Z",
+      "closed_at": "2021-11-16T09:06:05Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15270",
+      "number": 15270,
+      "title": "-type-in-type is extreme",
+      "created_at": "2021-11-29T23:03:09Z",
+      "closed_at": "2026-04-09T09:38:32Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15648",
+      "number": 15648,
+      "title": "Adding a Printf.printf causes CoqIDE to fail",
+      "created_at": "2022-02-08T21:05:40Z",
+      "closed_at": "2022-03-16T16:28:33Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15663",
+      "number": 15663,
+      "title": "COQBIN is not adequate for finding plugins",
+      "created_at": "2022-02-10T21:05:58Z",
+      "closed_at": "2025-07-10T14:45:13Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15749",
+      "number": 15749,
+      "title": "CoqIDE ignores_CoqProject file options",
+      "created_at": "2022-02-28T05:36:14Z",
+      "closed_at": "2022-03-04T04:50:35Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15858",
+      "number": 15858,
+      "title": "It should not take 200 seconds to run `Admitted`",
+      "created_at": "2022-03-26T03:08:17Z",
+      "closed_at": "2022-03-31T11:01:16Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15922",
+      "number": 15922,
+      "title": "Can't run coqide in master",
+      "created_at": "2022-04-12T18:33:40Z",
+      "closed_at": "2022-05-19T14:14:17Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/15972",
+      "number": 15972,
+      "title": "`Search` fails after goals are solved ",
+      "created_at": "2022-04-29T20:38:44Z",
+      "closed_at": "2022-05-06T15:52:49Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16136",
+      "number": 16136,
+      "title": "IDE crashed when trying to do edit->preferences",
+      "created_at": "2022-05-22T21:47:41Z",
+      "closed_at": "2022-10-04T13:24:34Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16095",
+      "number": 16095,
+      "title": "Can't build Windows version locally with dune",
+      "created_at": "2022-05-29T22:39:32Z",
+      "closed_at": "2022-06-01T16:01:31Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16334",
+      "number": 16334,
+      "title": "coq binaries from CI are basically unusable without docker",
+      "created_at": "2022-07-20T18:07:08Z",
+      "closed_at": "2023-01-25T06:22:46Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16375",
+      "number": 16375,
+      "title": "Add `Print Grammar keywords` or `Print Reserved Keywords` or similar",
+      "created_at": "2022-08-09T12:07:47Z",
+      "closed_at": "2022-09-08T20:30:57Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16510",
+      "number": 16510,
+      "title": "Path cannot be guessed when only `coq-core` is installed",
+      "created_at": "2022-09-20T08:04:42Z",
+      "closed_at": "2022-09-26T19:12:42Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16834",
+      "number": 16834,
+      "title": "Error: Anomaly \"Uncaught exception Not_found.\" on `Declare Module`",
+      "created_at": "2022-11-17T17:38:48Z",
+      "closed_at": "2022-11-23T09:02:58Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/16882",
+      "number": 16882,
+      "title": "Adding zify before failing lia makes it work",
+      "created_at": "2022-11-22T21:37:13Z",
+      "closed_at": "2022-11-25T09:13:50Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17142",
+      "number": 17142,
+      "title": "Coq fails to build on OSX 10.6 / PPC + Rosseta: Dune exec fails with Configure error: execve(./_build/default/tools/configure/configure.exe): Operation not supported on socket",
+      "created_at": "2023-01-19T13:23:02Z",
+      "closed_at": "2023-03-08T02:07:56Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17157",
+      "number": 17157,
+      "title": "[CI] `make ci-compcert` should not rebuild compcert from scratch when run a second time",
+      "created_at": "2023-01-25T00:11:33Z",
+      "closed_at": "2023-03-01T15:29:58Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17222",
+      "number": 17222,
+      "title": "Fiat-crypto timeouts",
+      "created_at": "2023-02-06T14:45:13Z",
+      "closed_at": "2023-11-02T20:27:35Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17413",
+      "number": 17413,
+      "title": "Build instructions for global installation of Coq",
+      "created_at": "2023-03-20T12:47:49Z",
+      "closed_at": "2023-06-30T17:25:54Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17809",
+      "number": 17809,
+      "title": "[dev] [tooling] Provide python venv workflow for Coq python needs",
+      "created_at": "2023-07-03T19:15:29Z",
+      "closed_at": "2026-02-11T02:19:09Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/17901",
+      "number": 17901,
+      "title": "Diminishing gains despite file-level parallelism",
+      "created_at": "2023-07-28T09:11:50Z",
+      "closed_at": "2023-07-31T11:39:13Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18131",
+      "number": 18131,
+      "title": "No explicit configuration option to suppress ide or documentation",
+      "created_at": "2023-10-05T20:36:31Z",
+      "closed_at": "2024-05-02T13:19:43Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18212",
+      "number": 18212,
+      "title": "Proposal to extend the Extraction Plugin with commands for synthesising externals and callbacks definitions for interfacing with C code more easily",
+      "created_at": "2023-10-26T14:45:24Z",
+      "closed_at": "2024-03-21T09:57:59Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18415",
+      "number": 18415,
+      "title": "0.33 failed to regression build against ocaml 5.1.1",
+      "created_at": "2023-12-16T18:47:13Z",
+      "closed_at": "2024-02-27T14:24:16Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18433",
+      "number": 18433,
+      "title": "`make dunestrap` should error if `./configure` has not been run",
+      "created_at": "2023-12-21T19:18:31Z",
+      "closed_at": "2025-07-10T14:45:40Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18799",
+      "number": 18799,
+      "title": "Mysterious slowness/loop? in tactic unification",
+      "created_at": "2024-03-14T16:24:46Z",
+      "closed_at": "2024-03-14T18:28:29Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/18817",
+      "number": 18817,
+      "title": "`dune install -p coq-core,coq-stdlib` should not require a working sphinx installation",
+      "created_at": "2024-03-18T20:33:51Z",
+      "closed_at": "2024-03-18T20:41:05Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19077",
+      "number": 19077,
+      "title": "anomaly uncaught exception not_found",
+      "created_at": "2024-05-23T19:04:36Z",
+      "closed_at": "2024-06-10T13:50:09Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/19587",
+      "number": 19587,
+      "title": "Error: Anomaly \"Uncaught exception Not_found.\" Please report at http://coq.inria.fr/bugs/.",
+      "created_at": "2024-09-20T20:40:13Z",
+      "closed_at": "2024-09-25T08:21:39Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/20056",
+      "number": 20056,
+      "title": "Plugin loading for local builds is broken",
+      "created_at": "2025-01-14T21:38:23Z",
+      "closed_at": "2025-01-15T20:55:07Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/20532",
+      "number": 20532,
+      "title": "Coq 8.19 : Anomaly \"File \"kernel/cClosure.ml\" (...) Assertion failed.\"",
+      "created_at": "2025-04-17T09:59:22Z",
+      "closed_at": "2025-04-17T10:03:43Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/21022",
+      "number": 21022,
+      "title": "rocqdep should be faster",
+      "created_at": "2025-08-22T06:00:09Z",
+      "closed_at": "2025-09-01T12:24:54Z"
+    },
+    {
+      "url": "https://github.com/rocq-prover/rocq/issues/21123",
+      "number": 21123,
+      "title": "[CI] Bug minimizer has trouble minimize HB (failure to upload artifacts?)",
+      "created_at": "2025-09-25T19:42:21Z",
+      "closed_at": "2025-09-26T15:01:31Z"
+    }
+  ]
+}

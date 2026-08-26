@@ -1,0 +1,590 @@
+{
+  "index": 8,
+  "stratum": "tests",
+  "repository": "vitest-dev/vitest",
+  "repository_id": 434708679,
+  "term": "exit code",
+  "query": "repo:vitest-dev/vitest is:issue is:closed created:2020-01-01..2025-12-31 \"exit code\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:41:20.388512+00:00",
+  "total_count": 82,
+  "incomplete_results": false,
+  "returned": 82,
+  "raw_response_sha256": "c6d43c5366ea5d75a8a0709eddcee195d863c42592d29aa70f8e3bf720d870eb",
+  "items": [
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/72",
+      "number": 72,
+      "title": "Respect process.exit from worker",
+      "created_at": "2021-12-11T16:02:25Z",
+      "closed_at": "2021-12-13T21:22:08Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/228",
+      "number": 228,
+      "title": "SyntaxError: Illegal property in declaration context",
+      "created_at": "2021-12-20T15:04:49Z",
+      "closed_at": "2021-12-21T20:30:06Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/277",
+      "number": 277,
+      "title": "Add vitest infrastructure for validating that the correct number of tests pass/fail",
+      "created_at": "2021-12-22T20:43:41Z",
+      "closed_at": "2024-07-02T07:40:05Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/284",
+      "number": 284,
+      "title": "error with vi.mock('axios')",
+      "created_at": "2021-12-23T07:46:12Z",
+      "closed_at": "2021-12-28T13:37:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/543",
+      "number": 543,
+      "title": "Debugger Segmentation fault when a file contains 6 functions",
+      "created_at": "2022-01-15T23:38:02Z",
+      "closed_at": "2023-03-24T13:47:23Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/582",
+      "number": 582,
+      "title": "Crashes under Windows",
+      "created_at": "2022-01-19T13:49:30Z",
+      "closed_at": "2022-01-19T18:37:21Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/673",
+      "number": 673,
+      "title": "latest version depends on \"takeCoverage\" from \"V8\"",
+      "created_at": "2022-02-03T13:47:18Z",
+      "closed_at": "2022-02-03T13:48:17Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/675",
+      "number": 675,
+      "title": "import { takeCoverage } from 'v8';",
+      "created_at": "2022-02-04T06:08:14Z",
+      "closed_at": "2022-02-04T06:10:07Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/892",
+      "number": 892,
+      "title": "Test element-plus project, Cannot find module xxx , Did you mean to import xxx.js?",
+      "created_at": "2022-03-04T09:53:50Z",
+      "closed_at": "2022-03-16T10:46:36Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1113",
+      "number": 1113,
+      "title": "`--changed` option only takes into account changed source files and ignores test files",
+      "created_at": "2022-04-06T11:12:13Z",
+      "closed_at": "2022-04-06T18:04:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1165",
+      "number": 1165,
+      "title": "`throw` from an `async` method,  exits `vitest watch`",
+      "created_at": "2022-04-18T20:21:35Z",
+      "closed_at": "2022-04-28T10:03:35Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1201",
+      "number": 1201,
+      "title": "Unhandled error when suite name is a function reference",
+      "created_at": "2022-04-27T22:49:11Z",
+      "closed_at": "2022-04-28T11:05:06Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1527",
+      "number": 1527,
+      "title": "Bug: Running tests with both script setup and script error",
+      "created_at": "2022-06-22T14:18:38Z",
+      "closed_at": "2023-10-04T10:08:06Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1613",
+      "number": 1613,
+      "title": "Vitest excludes aren't clearly specified",
+      "created_at": "2022-07-07T19:30:46Z",
+      "closed_at": "2022-07-08T04:56:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1615",
+      "number": 1615,
+      "title": "Empty test causes writableLength undefined error",
+      "created_at": "2022-07-08T06:23:51Z",
+      "closed_at": "2022-09-24T00:24:40Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1674",
+      "number": 1674,
+      "title": "During the CI process, the memory of my vitest will explode",
+      "created_at": "2022-07-19T07:15:17Z",
+      "closed_at": "2022-07-24T00:22:47Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1696",
+      "number": 1696,
+      "title": "Segmentation fault on github CI",
+      "created_at": "2022-07-21T16:04:11Z",
+      "closed_at": "2022-07-26T00:20:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1870",
+      "number": 1870,
+      "title": "vitest --ui errors when run from PowerShell/cmd",
+      "created_at": "2022-08-17T22:52:04Z",
+      "closed_at": "2023-08-02T00:17:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1950",
+      "number": 1950,
+      "title": "startVitest exits the process instead of returning a result if no tests found",
+      "created_at": "2022-09-01T15:06:01Z",
+      "closed_at": "2024-02-16T11:02:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/1967",
+      "number": 1967,
+      "title": "Duplicate directory names break module mocking",
+      "created_at": "2022-09-04T13:51:47Z",
+      "closed_at": "2022-12-20T16:37:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2008",
+      "number": 2008,
+      "title": "Vitest hangs tests, close timed out after 1000ms",
+      "created_at": "2022-09-08T17:20:58Z",
+      "closed_at": "2024-05-09T15:24:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2178",
+      "number": 2178,
+      "title": "Support test file path with leading \"./\" or \".\\\" segments",
+      "created_at": "2022-10-20T16:36:23Z",
+      "closed_at": "2022-10-31T09:36:40Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2250",
+      "number": 2250,
+      "title": "Error:  callback.apply is not a function",
+      "created_at": "2022-11-01T03:18:16Z",
+      "closed_at": "2022-11-01T07:12:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2261",
+      "number": 2261,
+      "title": "[Windows] vitest exits silently without watching or printing coverage when using canvas",
+      "created_at": "2022-11-02T18:12:40Z",
+      "closed_at": "2024-01-16T05:50:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2347",
+      "number": 2347,
+      "title": "Segfaults",
+      "created_at": "2022-11-17T23:28:32Z",
+      "closed_at": "2023-03-16T23:15:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2363",
+      "number": 2363,
+      "title": "Exit code 0 on failure",
+      "created_at": "2022-11-21T22:31:10Z",
+      "closed_at": "2022-11-26T00:17:32Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2531",
+      "number": 2531,
+      "title": "0.26.0 causes TypeError: __vite_ssr_import_1__.default.fileURLToPath is not a function",
+      "created_at": "2022-12-19T16:21:50Z",
+      "closed_at": "2022-12-20T09:57:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2678",
+      "number": 2678,
+      "title": "Cannot install vitest 0.27.1",
+      "created_at": "2023-01-16T08:10:04Z",
+      "closed_at": "2023-01-25T23:26:01Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2720",
+      "number": 2720,
+      "title": "Fequent errors in CI since 0.27.1",
+      "created_at": "2023-01-20T09:09:40Z",
+      "closed_at": "2023-01-20T10:06:22Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/2880",
+      "number": 2880,
+      "title": "Vitest crashing randomly",
+      "created_at": "2023-02-16T08:50:58Z",
+      "closed_at": "2023-02-20T00:20:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3023",
+      "number": 3023,
+      "title": "Only with `--threads=false` option is `process.exitCode` affected",
+      "created_at": "2023-03-17T15:54:39Z",
+      "closed_at": "2024-10-02T14:46:27Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3041",
+      "number": 3041,
+      "title": "Coverage is not being reported when there are no test files",
+      "created_at": "2023-03-20T17:26:17Z",
+      "closed_at": "2023-03-28T11:41:59Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3143",
+      "number": 3143,
+      "title": "Hitting Segmentation fault when running Vitest .",
+      "created_at": "2023-04-06T12:34:58Z",
+      "closed_at": "2023-10-04T13:01:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3257",
+      "number": 3257,
+      "title": "Unhandled errors do not provide enough information to debug",
+      "created_at": "2023-04-25T16:11:16Z",
+      "closed_at": "2023-07-07T00:21:09Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3262",
+      "number": 3262,
+      "title": "workspace with insource test case might interrupt the test",
+      "created_at": "2023-04-26T16:05:06Z",
+      "closed_at": "2023-04-26T17:01:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3325",
+      "number": 3325,
+      "title": "[Bug]: No diff being given when snapshot mismatch in CI (Exit code 129)",
+      "created_at": "2023-05-08T20:26:55Z",
+      "closed_at": "2023-05-09T02:37:30Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3555",
+      "number": 3555,
+      "title": "Provider v8 does not show test coverage",
+      "created_at": "2023-06-10T12:55:25Z",
+      "closed_at": "2023-06-13T11:13:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3567",
+      "number": 3567,
+      "title": "Support case-insensitive path matching in cli",
+      "created_at": "2023-06-13T12:08:56Z",
+      "closed_at": "2024-01-12T13:25:14Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3609",
+      "number": 3609,
+      "title": "vite-node stops working properly with `minimatch` since 0.31.2",
+      "created_at": "2023-06-18T23:29:33Z",
+      "closed_at": "2023-07-18T04:59:37Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3666",
+      "number": 3666,
+      "title": "`watch` + `--changed` is unreliable with unexpected DX",
+      "created_at": "2023-06-26T05:40:37Z",
+      "closed_at": "2023-07-30T11:07:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3774",
+      "number": 3774,
+      "title": "vitest run on SvelteKit project but no test found",
+      "created_at": "2023-07-15T10:01:34Z",
+      "closed_at": "2023-07-25T04:16:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3848",
+      "number": 3848,
+      "title": "TypeError: Cannot create property 'enabled' on boolean 'false'",
+      "created_at": "2023-07-31T04:11:09Z",
+      "closed_at": "2023-07-31T06:21:00Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3893",
+      "number": 3893,
+      "title": "Auto install fails for `@vitest/coverage-v8` when using bun",
+      "created_at": "2023-08-05T11:04:28Z",
+      "closed_at": "2023-08-15T15:38:43Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/3909",
+      "number": 3909,
+      "title": "Flag to allow for graceful exit on hanging process ",
+      "created_at": "2023-08-07T22:00:17Z",
+      "closed_at": "2023-09-05T03:46:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4032",
+      "number": 4032,
+      "title": "linked dependency causes tests to fail",
+      "created_at": "2023-08-28T09:13:35Z",
+      "closed_at": "2025-04-14T01:32:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4038",
+      "number": 4038,
+      "title": "Crash when parallelizing tasks",
+      "created_at": "2023-08-29T00:14:18Z",
+      "closed_at": "2023-09-04T00:16:34Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4187",
+      "number": 4187,
+      "title": " Error running vitest: Error: error:0909006C:PEM routines:get_name:no start line",
+      "created_at": "2023-09-26T17:36:07Z",
+      "closed_at": "2023-09-27T10:34:49Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4541",
+      "number": 4541,
+      "title": "`importMeta.d.ts` file causes TypeScript error due to uppercase character",
+      "created_at": "2023-11-19T14:03:44Z",
+      "closed_at": "2023-11-27T08:09:52Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/4674",
+      "number": 4674,
+      "title": "`--changed` not propagating to yarn workspaces",
+      "created_at": "2023-12-05T17:21:08Z",
+      "closed_at": "2023-12-08T17:36:43Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5194",
+      "number": 5194,
+      "title": "`vitest run --update` doesn't work for workspaces",
+      "created_at": "2024-02-13T18:37:43Z",
+      "closed_at": "2024-02-16T08:49:26Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5223",
+      "number": 5223,
+      "title": "vitest --run -u failed with TypeError: Cannot read properties of undefined (reading 'length')",
+      "created_at": "2024-02-16T20:01:52Z",
+      "closed_at": "2024-02-20T00:16:43Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5409",
+      "number": 5409,
+      "title": "Vitest doesn't discover tests when pointed at monorepo root",
+      "created_at": "2024-03-20T14:29:37Z",
+      "closed_at": "2024-04-02T10:50:17Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5532",
+      "number": 5532,
+      "title": "V8 Coverage fails",
+      "created_at": "2024-04-13T08:41:16Z",
+      "closed_at": "2024-04-16T14:15:03Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5730",
+      "number": 5730,
+      "title": "Segmentation fault - Test fails when using Vitest, but passes when using Jest",
+      "created_at": "2024-05-15T09:16:47Z",
+      "closed_at": "2024-05-15T09:48:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5739",
+      "number": 5739,
+      "title": "Issue with `vitest --run --changed` when used with lint-staged on Windows",
+      "created_at": "2024-05-16T20:28:27Z",
+      "closed_at": "2024-05-16T21:08:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/5794",
+      "number": 5794,
+      "title": "The requested module 'vite' does not provide an export named 'parseAstAsync'",
+      "created_at": "2024-05-29T20:12:49Z",
+      "closed_at": "2024-06-02T00:20:19Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6278",
+      "number": 6278,
+      "title": "PNPM can't resolve coverage-v8 or coverage-istanbul in CI environment",
+      "created_at": "2024-08-05T12:31:51Z",
+      "closed_at": "2024-08-07T15:02:58Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6293",
+      "number": 6293,
+      "title": "Error in Browser mode x Node APIs",
+      "created_at": "2024-08-07T04:05:58Z",
+      "closed_at": "2024-11-07T14:30:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6516",
+      "number": 6516,
+      "title": "[2.1.0] TypeError: allTestFiles.filter is not a function",
+      "created_at": "2024-09-16T11:20:49Z",
+      "closed_at": "2024-09-16T11:27:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6738",
+      "number": 6738,
+      "title": "workspace + browser mode + watch leave server behind when root config changes",
+      "created_at": "2024-10-18T08:37:04Z",
+      "closed_at": "2024-11-08T09:02:24Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/6831",
+      "number": 6831,
+      "title": "Error code of test run with not default reporter always 0 even with unhandled error",
+      "created_at": "2024-10-31T16:36:02Z",
+      "closed_at": "2024-10-31T18:16:21Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7045",
+      "number": 7045,
+      "title": "cli: `vitest '**/*.integration.js'` does not behave as documented",
+      "created_at": "2024-12-07T14:24:55Z",
+      "closed_at": "2024-12-09T10:06:35Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7057",
+      "number": 7057,
+      "title": "Azure pipeline returns: ##[error]Bash exited with code '1'.",
+      "created_at": "2024-12-10T13:29:08Z",
+      "closed_at": "2024-12-16T00:26:11Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7079",
+      "number": 7079,
+      "title": "Reject a promise after a test will make test end earlier in browser mode.",
+      "created_at": "2024-12-13T10:32:54Z",
+      "closed_at": "2025-04-17T13:27:41Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7377",
+      "number": 7377,
+      "title": "[Browser Mode]: flaky firefox `Failed to connect to the browser session`",
+      "created_at": "2025-01-29T13:26:40Z",
+      "closed_at": "2025-04-17T11:21:48Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7388",
+      "number": 7388,
+      "title": "Exit code 1 in Github Actions without any errors when reporting is enabled",
+      "created_at": "2025-01-30T20:09:44Z",
+      "closed_at": "2025-01-30T23:11:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7536",
+      "number": 7536,
+      "title": "`npm audit fix` fails with exit code `1` with `v3.0.6`",
+      "created_at": "2025-02-21T22:50:55Z",
+      "closed_at": "2025-02-22T01:57:02Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/7944",
+      "number": 7944,
+      "title": "vitest with browser setup no longer working when bumping from 3.1.1 to 3.1.3",
+      "created_at": "2025-05-07T16:17:15Z",
+      "closed_at": "2025-05-29T09:50:46Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8024",
+      "number": 8024,
+      "title": "VitestUI server not reachable from WSL",
+      "created_at": "2025-05-24T05:42:13Z",
+      "closed_at": "2025-08-20T08:43:29Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8100",
+      "number": 8100,
+      "title": "Fails a shard if the shard index is higher than the number of test files",
+      "created_at": "2025-06-05T07:42:42Z",
+      "closed_at": "2025-06-17T16:41:39Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8244",
+      "number": 8244,
+      "title": "`No test files found` error with sharing and just a few shards",
+      "created_at": "2025-07-01T20:41:58Z",
+      "closed_at": "2025-07-12T07:10:45Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8468",
+      "number": 8468,
+      "title": "Error in testing vue x istanbul coverage via Node APIs",
+      "created_at": "2025-08-21T06:13:35Z",
+      "closed_at": "2025-08-26T08:54:36Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8564",
+      "number": 8564,
+      "title": "Error: Terminating worker thread",
+      "created_at": "2025-09-12T05:42:06Z",
+      "closed_at": "2025-10-21T17:12:56Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8581",
+      "number": 8581,
+      "title": "Can't run 'vitest run --coverage' on Windows",
+      "created_at": "2025-09-16T09:09:37Z",
+      "closed_at": "2025-11-14T00:27:25Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8635",
+      "number": 8635,
+      "title": "CI test workflows fail against main branch",
+      "created_at": "2025-09-28T23:13:48Z",
+      "closed_at": "2025-11-27T13:26:56Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8784",
+      "number": 8784,
+      "title": "Forks pool `stdout` not piped to main process",
+      "created_at": "2025-10-23T20:11:09Z",
+      "closed_at": "2025-10-27T09:20:53Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8861",
+      "number": 8861,
+      "title": "v4: inconsistent errors with pool: 'forks' or 'vmForks'",
+      "created_at": "2025-10-29T09:09:23Z",
+      "closed_at": "2025-11-07T11:38:05Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8968",
+      "number": 8968,
+      "title": "v4: Timeout starting forks runner.",
+      "created_at": "2025-11-07T12:00:39Z",
+      "closed_at": "2025-11-14T08:34:10Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8981",
+      "number": 8981,
+      "title": "Running `vitest` with `--typecheck` option throws error that prints out `tsc --help` if `tsconfig.json` is not available",
+      "created_at": "2025-11-08T16:16:33Z",
+      "closed_at": "2025-12-23T17:15:54Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/8998",
+      "number": 8998,
+      "title": "CLI/TUI Testing Methods",
+      "created_at": "2025-11-11T02:43:29Z",
+      "closed_at": "2025-11-12T08:22:50Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9014",
+      "number": 9014,
+      "title": "Error: write EPIPE",
+      "created_at": "2025-11-12T08:11:22Z",
+      "closed_at": "2025-11-17T09:47:56Z"
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest/issues/9287",
+      "number": 9287,
+      "title": "Vitest crushes because of configuration with 'globalSetup'",
+      "created_at": "2025-12-17T17:22:59Z",
+      "closed_at": "2025-12-17T18:44:04Z"
+    }
+  ]
+}

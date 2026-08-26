@@ -1,0 +1,716 @@
+{
+  "index": 81,
+  "stratum": "lint_static_analysis",
+  "repository": "eslint/eslint",
+  "repository_id": 11061773,
+  "term": "not run",
+  "query": "repo:eslint/eslint is:issue is:closed created:2020-01-01..2025-12-31 \"not run\"",
+  "frame_sha256": "2ff05360190a83045c6ced5b8a893852fd288986153db3f0bc431b96bfb2976b",
+  "retrieved_at": "2026-08-25T23:45:19.679150+00:00",
+  "total_count": 136,
+  "incomplete_results": false,
+  "returned": 100,
+  "raw_response_sha256": "40329c7a41f3ea7a7bd3915026d317f945799d4356d19c6f6cdf94778de136cf",
+  "items": [
+    {
+      "url": "https://github.com/eslint/eslint/issues/12818",
+      "number": 12818,
+      "title": "local eslint: command not found",
+      "created_at": "2020-01-20T21:55:41Z",
+      "closed_at": "2020-01-22T10:22:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12849",
+      "number": 12849,
+      "title": "--no-eslintrc fails when `eslint-disable` comment disables an external rule",
+      "created_at": "2020-01-30T21:36:04Z",
+      "closed_at": "2020-03-03T22:43:40Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12869",
+      "number": 12869,
+      "title": "ESLint doesn't recognize doc comments as a use of a type",
+      "created_at": "2020-02-03T18:29:57Z",
+      "closed_at": "2020-03-06T22:43:43Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12894",
+      "number": 12894,
+      "title": "Missing links formatting in documentation",
+      "created_at": "2020-02-08T19:19:01Z",
+      "closed_at": "2020-02-25T00:48:03Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12934",
+      "number": 12934,
+      "title": "Neither `// eslint-disable-next-line` nor `/* eslint-disable no-empty */` nor `/* eslint-disable no-unused-expression */` work on the latest stable `6.8.0` version ",
+      "created_at": "2020-02-18T11:29:47Z",
+      "closed_at": "2020-02-19T21:00:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/12964",
+      "number": 12964,
+      "title": "typescript; no-useless-constructor fires incorrectly when ctor has ''scoped\" arguments",
+      "created_at": "2020-02-26T20:35:01Z",
+      "closed_at": "2020-02-26T20:55:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13069",
+      "number": 13069,
+      "title": "Hard-coded Date should be created in UTC",
+      "created_at": "2020-03-21T09:34:33Z",
+      "closed_at": "2020-04-23T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13114",
+      "number": 13114,
+      "title": "How to lint a file base on another file?",
+      "created_at": "2020-03-28T11:03:54Z",
+      "closed_at": "2020-04-23T00:37:44Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13135",
+      "number": 13135,
+      "title": "Incorrect no-return-assign report",
+      "created_at": "2020-04-02T22:47:14Z",
+      "closed_at": "2020-04-04T20:31:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13279",
+      "number": 13279,
+      "title": "no-dupe-else-if inappropriately triggering if two conditions are identical in terms of code, but are not deterministic, so it is not true that the second branch will never run",
+      "created_at": "2020-05-10T01:18:00Z",
+      "closed_at": "2020-06-11T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13301",
+      "number": 13301,
+      "title": "Bump: Add --ext mjs to default file extensions",
+      "created_at": "2020-05-15T10:59:09Z",
+      "closed_at": "2020-06-17T03:39:09Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13454",
+      "number": 13454,
+      "title": "Deprecating CLIEngine when it still has needed features?",
+      "created_at": "2020-07-03T03:56:08Z",
+      "closed_at": "2020-08-06T00:29:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13466",
+      "number": 13466,
+      "title": "no-dupe-else-if, no-duplicate-case and no-unneeded-ternary rules are inconsistent.",
+      "created_at": "2020-07-07T08:27:24Z",
+      "closed_at": "2020-07-12T01:23:01Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13495",
+      "number": 13495,
+      "title": "default config but not run。error msg: couldn't find the plugin \"eslint-plugin-jsx-a11y\".",
+      "created_at": "2020-07-16T09:59:32Z",
+      "closed_at": "2020-08-21T00:29:25Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13505",
+      "number": 13505,
+      "title": "ESLint cache not invalidated after removing --report-unused-disable-directives",
+      "created_at": "2020-07-19T11:57:41Z",
+      "closed_at": "2020-08-21T00:29:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13532",
+      "number": 13532,
+      "title": "mac/ctrl+s/ Unable to repair itself",
+      "created_at": "2020-07-27T10:10:15Z",
+      "closed_at": "2020-08-31T00:29:22Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13551",
+      "number": 13551,
+      "title": "Symbolic links are ignored",
+      "created_at": "2020-08-07T15:20:49Z",
+      "closed_at": "2021-02-26T00:25:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13601",
+      "number": 13601,
+      "title": "eslint fix return non-success error code when files were modified",
+      "created_at": "2020-08-21T14:22:34Z",
+      "closed_at": "2020-09-24T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13620",
+      "number": 13620,
+      "title": "no-unused-vars false positive in for-in loops? still an issue?",
+      "created_at": "2020-08-26T17:51:19Z",
+      "closed_at": "2020-08-27T17:41:01Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13678",
+      "number": 13678,
+      "title": "prefer-destructuring false Positive when casting result",
+      "created_at": "2020-09-09T20:46:42Z",
+      "closed_at": "2020-10-13T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13733",
+      "number": 13733,
+      "title": "CLI usage with npx (Windows)",
+      "created_at": "2020-10-02T17:21:37Z",
+      "closed_at": "2020-10-03T12:17:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13750",
+      "number": 13750,
+      "title": "when dealing template string came out such error :ESLint: Cannot read property 'value' of null Occurred while linting /path/to/file.js:43. Please see the 'ESLint' output channel for details.",
+      "created_at": "2020-10-12T14:40:16Z",
+      "closed_at": "2020-11-13T17:27:59Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13798",
+      "number": 13798,
+      "title": "Unexpected behavior of .eslintignore in subdirectories, inconsistent with ignorePatterns or eslintrc",
+      "created_at": "2020-10-27T15:32:14Z",
+      "closed_at": "2020-11-04T17:59:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13821",
+      "number": 13821,
+      "title": " no-undef rule false positive",
+      "created_at": "2020-11-06T10:11:19Z",
+      "closed_at": "2020-11-06T10:35:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13824",
+      "number": 13824,
+      "title": "Failed to load plugin 'js' declared in 'CLIOptions': Cannot find module 'eslint-plugin-js'",
+      "created_at": "2020-11-09T11:23:24Z",
+      "closed_at": "2020-11-12T13:07:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13839",
+      "number": 13839,
+      "title": "template-curly-spacing rule exception",
+      "created_at": "2020-11-12T21:16:51Z",
+      "closed_at": "2020-12-10T16:27:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13899",
+      "number": 13899,
+      "title": "Bug: --fix ignores defined order and creates a JS error",
+      "created_at": "2020-12-01T16:11:08Z",
+      "closed_at": "2021-01-30T03:03:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13906",
+      "number": 13906,
+      "title": "ESLint couldn't find the config \"standard-with-typescript\" to extend from.",
+      "created_at": "2020-12-03T10:55:52Z",
+      "closed_at": "2020-12-24T19:40:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13917",
+      "number": 13917,
+      "title": "[RuleTester] Test case validation",
+      "created_at": "2020-12-10T13:12:14Z",
+      "closed_at": "2021-12-14T15:49:13Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13938",
+      "number": 13938,
+      "title": "Ability to specify cache configuration in eslintrc files to optimize cache strategy",
+      "created_at": "2020-12-17T21:21:10Z",
+      "closed_at": "2021-01-13T01:30:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/13998",
+      "number": 13998,
+      "title": "no-redeclare identifies false positives with switch-case statements",
+      "created_at": "2021-01-11T12:44:20Z",
+      "closed_at": "2021-01-12T22:12:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14044",
+      "number": 14044,
+      "title": "Error `Environment key \"es2021\" is unknown` or `0:0  error  Parsing error: Invalid ecmaVersion`",
+      "created_at": "2021-01-27T10:22:43Z",
+      "closed_at": "2021-01-29T15:09:01Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14047",
+      "number": 14047,
+      "title": "Default ignore results in top-level node_modules directory to be traversed",
+      "created_at": "2021-01-27T13:04:54Z",
+      "closed_at": "2021-01-27T14:25:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14111",
+      "number": 14111,
+      "title": "'--fix-list' command line option to display the list of active fixes",
+      "created_at": "2021-02-14T03:02:49Z",
+      "closed_at": "2021-04-28T00:35:53Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14139",
+      "number": 14139,
+      "title": "Plugin initialization API",
+      "created_at": "2021-02-25T07:37:27Z",
+      "closed_at": "2025-06-05T19:19:00Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14198",
+      "number": 14198,
+      "title": "[feature] Add custom `data` into `LintMessage`",
+      "created_at": "2021-03-11T08:33:17Z",
+      "closed_at": "2025-06-05T19:18:26Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14257",
+      "number": 14257,
+      "title": "Unit test for \"FileEnumerator\" fails on Windows",
+      "created_at": "2021-03-26T05:58:30Z",
+      "closed_at": "2021-03-26T19:45:23Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14288",
+      "number": 14288,
+      "title": "running `npm run docs` get error",
+      "created_at": "2021-04-02T07:00:29Z",
+      "closed_at": "2021-08-25T00:21:07Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14352",
+      "number": 14352,
+      "title": "v8-compile-cache is creating a temporary directory and is not being cleaned up after running the eslint command",
+      "created_at": "2021-04-23T00:37:51Z",
+      "closed_at": "2021-04-23T19:05:56Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14542",
+      "number": 14542,
+      "title": "no-return-await: Why?",
+      "created_at": "2021-04-28T18:45:09Z",
+      "closed_at": "2021-11-01T19:07:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14784",
+      "number": 14784,
+      "title": "Add suppression information in the output of ESLint",
+      "created_at": "2021-07-09T06:33:59Z",
+      "closed_at": "2022-01-27T22:49:06Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14827",
+      "number": 14827,
+      "title": "Standardize our npm scripts",
+      "created_at": "2021-07-23T01:11:12Z",
+      "closed_at": "2023-08-27T00:30:36Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14852",
+      "number": 14852,
+      "title": "can't report not-defined correctly",
+      "created_at": "2021-07-29T06:27:13Z",
+      "closed_at": "2021-07-29T15:42:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14863",
+      "number": 14863,
+      "title": "Is it possible to remove the high severity vulnerability introduced by package ajv@5.5.2 ?",
+      "created_at": "2021-08-01T09:09:40Z",
+      "closed_at": "2021-08-21T00:41:29Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/14960",
+      "number": 14960,
+      "title": "[ESLint v8] Revert line comment directive support",
+      "created_at": "2021-08-21T23:16:45Z",
+      "closed_at": "2021-08-27T19:20:49Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15028",
+      "number": 15028,
+      "title": "Code formatting introduces 'max-len' error.",
+      "created_at": "2021-09-04T18:48:37Z",
+      "closed_at": "2021-09-06T06:32:15Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15035",
+      "number": 15035,
+      "title": "Change Request: Don't Warn That Files Were Ignored by Default When They Were Ignored Explicitly",
+      "created_at": "2021-09-08T05:51:29Z",
+      "closed_at": "2021-09-08T20:04:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15137",
+      "number": 15137,
+      "title": "Change Request: Turn `off` warning when run with `--quiet` flag",
+      "created_at": "2021-10-04T16:38:38Z",
+      "closed_at": "2021-10-20T00:40:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15157",
+      "number": 15157,
+      "title": "Bug: using babel-eslint parser throws error",
+      "created_at": "2021-10-13T02:10:50Z",
+      "closed_at": "2021-12-12T03:37:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15175",
+      "number": 15175,
+      "title": "Bug: TypeError: this.cliEngine is not a constructor",
+      "created_at": "2021-10-16T02:09:45Z",
+      "closed_at": "2021-10-19T00:58:37Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15195",
+      "number": 15195,
+      "title": "Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/rules/no-unused-expressions' is not defined by \"exports\"",
+      "created_at": "2021-10-20T15:46:14Z",
+      "closed_at": "2021-10-21T00:43:16Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15269",
+      "number": 15269,
+      "title": "Bug: UnhandledPromiseRejectionWarning in version 8.2.0",
+      "created_at": "2021-11-07T04:45:02Z",
+      "closed_at": "2021-11-08T09:03:02Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15288",
+      "number": 15288,
+      "title": "Change Request: (Allow silently ignoring explicitly passed files)",
+      "created_at": "2021-11-11T12:15:26Z",
+      "closed_at": "2021-11-12T01:49:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15307",
+      "number": 15307,
+      "title": "Bug: Error while running ESLint: Cannot read property 'orientation' of undefined.",
+      "created_at": "2021-11-12T21:10:42Z",
+      "closed_at": "2021-12-29T00:27:27Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15330",
+      "number": 15330,
+      "title": "Change Request: require(\"v8-compile-cache\") conditionally",
+      "created_at": "2021-11-18T01:51:10Z",
+      "closed_at": "2021-11-23T16:25:50Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15422",
+      "number": 15422,
+      "title": "Bug: no-dupe-class-members: Duplicate name ''.",
+      "created_at": "2021-12-13T16:37:10Z",
+      "closed_at": "2021-12-29T00:28:14Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15452",
+      "number": 15452,
+      "title": "Change Request: Add docker support",
+      "created_at": "2021-12-24T12:41:29Z",
+      "closed_at": "2021-12-31T23:55:30Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15620",
+      "number": 15620,
+      "title": "Change Request: Allow multiple configs of a rule - PR made",
+      "created_at": "2022-02-19T05:01:33Z",
+      "closed_at": "2022-05-01T22:33:58Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15631",
+      "number": 15631,
+      "title": "Change Request: Config to Disallow Disable",
+      "created_at": "2022-02-22T20:28:16Z",
+      "closed_at": "2025-05-29T21:04:32Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/15946",
+      "number": 15946,
+      "title": "Trying to execute json file",
+      "created_at": "2022-05-31T10:48:42Z",
+      "closed_at": "2022-05-31T11:00:41Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16074",
+      "number": 16074,
+      "title": "Bug: @types/eslint/-/eslint-8.4.4.tgz - Not found error on npm install",
+      "created_at": "2022-06-30T19:25:46Z",
+      "closed_at": "2022-06-30T19:54:12Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16189",
+      "number": 16189,
+      "title": "Change Request: Support for more RuleTester hooks or async control",
+      "created_at": "2022-08-09T01:47:47Z",
+      "closed_at": "2022-08-10T23:56:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16216",
+      "number": 16216,
+      "title": "Bug: (TypeError: CLIEngine is not a constructor)",
+      "created_at": "2022-08-17T19:21:34Z",
+      "closed_at": "2022-09-13T09:33:35Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16266",
+      "number": 16266,
+      "title": "Bug: Error fixing let to const.",
+      "created_at": "2022-08-31T06:32:44Z",
+      "closed_at": "2022-09-12T04:50:55Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16345",
+      "number": 16345,
+      "title": "Change Request: Define a `browser` entry point",
+      "created_at": "2022-09-24T03:26:37Z",
+      "closed_at": "2022-09-26T21:01:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16450",
+      "number": 16450,
+      "title": "Change Request: stop running rules set to \"warn\" when `--quiet` is used",
+      "created_at": "2022-10-21T04:10:49Z",
+      "closed_at": "2023-12-27T20:28:42Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16482",
+      "number": 16482,
+      "title": "Complete rewrite of ESLint",
+      "created_at": "2022-10-31T18:49:04Z",
+      "closed_at": "2022-11-16T18:54:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16613",
+      "number": 16613,
+      "title": "Bug: default formatter gives incorrect advice with option `--stdin`",
+      "created_at": "2022-12-04T23:15:36Z",
+      "closed_at": "2023-02-21T22:32:30Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16694",
+      "number": 16694,
+      "title": "Bug: (fill in) ESLint couldn't find the plugin \"eslint-plugin-prettier\".",
+      "created_at": "2022-12-23T08:47:28Z",
+      "closed_at": "2022-12-26T18:59:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16707",
+      "number": 16707,
+      "title": "Bug: Weird yaml error message for .mjs config file (non flat config)",
+      "created_at": "2022-12-25T18:27:21Z",
+      "closed_at": "2022-12-25T19:12:45Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16773",
+      "number": 16773,
+      "title": "Bug: Windows case-sensitivty causes eslint to incorrectly flag included TypeScript files as not included",
+      "created_at": "2023-01-11T18:11:31Z",
+      "closed_at": "2023-01-11T21:42:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16794",
+      "number": 16794,
+      "title": "Bug: (FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory)",
+      "created_at": "2023-01-18T16:34:23Z",
+      "closed_at": "2023-01-20T18:50:32Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16804",
+      "number": 16804,
+      "title": "Add maxWarnings as a configuration option",
+      "created_at": "2023-01-21T23:40:12Z",
+      "closed_at": "2023-03-08T21:16:52Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/16880",
+      "number": 16880,
+      "title": "Bug: TypeError: Cannot read properties of undefined (reading 'type')",
+      "created_at": "2023-02-10T15:52:51Z",
+      "closed_at": "2023-02-11T10:59:48Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17131",
+      "number": 17131,
+      "title": "Change Request: Be more robust about package.json parse failures",
+      "created_at": "2023-04-27T19:53:26Z",
+      "closed_at": "2023-04-28T11:14:19Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17145",
+      "number": 17145,
+      "title": "Rule Change: make `spaced-comment` language agnostic, add new option `commentSymbol`",
+      "created_at": "2023-05-03T13:36:25Z",
+      "closed_at": "2023-05-03T14:10:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17147",
+      "number": 17147,
+      "title": "Bug: queue-microtask was not installed in my workspace",
+      "created_at": "2023-05-03T15:56:11Z",
+      "closed_at": "2023-05-04T21:13:27Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17213",
+      "number": 17213,
+      "title": "Bug: [flat config] Global `ignores` matches differently from non-global `ignores`",
+      "created_at": "2023-05-23T23:31:13Z",
+      "closed_at": "2023-06-08T17:24:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17309",
+      "number": 17309,
+      "title": "Bug: Incorrect autofix ```reportUnusedDisableDirectives```.",
+      "created_at": "2023-06-25T22:10:02Z",
+      "closed_at": "2023-06-26T00:03:38Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17321",
+      "number": 17321,
+      "title": "Bug: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './bin/eslint' is not defined by \"exports\" in node_modules/eslint/package.json",
+      "created_at": "2023-06-30T06:22:31Z",
+      "closed_at": "2023-06-30T19:14:00Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17334",
+      "number": 17334,
+      "title": "Bug: Running fixer only fixes the first error when all errors are reported on the same line/column",
+      "created_at": "2023-07-03T12:12:33Z",
+      "closed_at": "2023-07-10T16:00:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17455",
+      "number": 17455,
+      "title": "Change Request[Rule Tester]: Do not create empty test suites",
+      "created_at": "2023-08-11T14:23:02Z",
+      "closed_at": "2023-08-21T01:22:24Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17491",
+      "number": 17491,
+      "title": "Bug: (string does not fix via cli)",
+      "created_at": "2023-08-23T12:48:52Z",
+      "closed_at": "2023-08-23T18:35:11Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17572",
+      "number": 17572,
+      "title": "Browser test is failing",
+      "created_at": "2023-09-16T20:34:20Z",
+      "closed_at": "2023-10-04T15:43:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17609",
+      "number": 17609,
+      "title": "Help us know when we have conflicting rules: 10 passes should throw an error",
+      "created_at": "2023-09-27T15:11:20Z",
+      "closed_at": "2025-03-17T16:00:51Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17764",
+      "number": 17764,
+      "title": "Rule Change: Ignore class with Static initialization blocks in no-unused-vars",
+      "created_at": "2023-11-15T12:26:07Z",
+      "closed_at": "2023-11-17T15:57:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17769",
+      "number": 17769,
+      "title": "New Rule: enforceSafeSpreadOrder",
+      "created_at": "2023-11-16T17:02:23Z",
+      "closed_at": "2023-11-20T11:34:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17805",
+      "number": 17805,
+      "title": "Change Request: use the cache more effectively when fixing files",
+      "created_at": "2023-11-30T23:32:20Z",
+      "closed_at": "2024-03-14T22:31:16Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17881",
+      "number": 17881,
+      "title": "Change Request: Provide a way for rules to apply suggestions to other files",
+      "created_at": "2023-12-19T20:21:52Z",
+      "closed_at": "2026-01-26T15:35:53Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/17966",
+      "number": 17966,
+      "title": "Request: backporting flat config bug fixes to v8",
+      "created_at": "2024-01-06T22:34:51Z",
+      "closed_at": "2024-02-23T21:12:54Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18003",
+      "number": 18003,
+      "title": "Bug: AST is `undefined` on Windows when more than one file with upper-case char in filename",
+      "created_at": "2024-01-17T20:31:38Z",
+      "closed_at": "2024-01-17T20:38:50Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18010",
+      "number": 18010,
+      "title": "Bug: CLI fails to process glob consistently (`TSConfig does not include this file...`)",
+      "created_at": "2024-01-18T20:42:24Z",
+      "closed_at": "2024-01-18T20:44:45Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18013",
+      "number": 18013,
+      "title": "Change Request: Return successfully passing rules count from lint methods of Node API",
+      "created_at": "2024-01-19T20:26:48Z",
+      "closed_at": "2024-05-01T22:33:04Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18173",
+      "number": 18173,
+      "title": "Change Request: Rule Tester omit specific properties for duplicate test case detection",
+      "created_at": "2024-03-06T16:35:09Z",
+      "closed_at": "2024-04-02T21:20:57Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18196",
+      "number": 18196,
+      "title": "Bug: Flat config file not found when run with `CWD` outside of source directory",
+      "created_at": "2024-03-12T18:13:17Z",
+      "closed_at": "2024-03-16T12:26:47Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18218",
+      "number": 18218,
+      "title": "`reportUnusedDisableDirectives` should distinguish between globally disable rules and no violation of globally enabled rule",
+      "created_at": "2024-03-20T11:16:09Z",
+      "closed_at": "2024-06-03T22:32:05Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18236",
+      "number": 18236,
+      "title": "Bug: (apparently) not ignoring dotted directories by default",
+      "created_at": "2024-03-28T02:08:52Z",
+      "closed_at": "2024-03-28T07:42:28Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18344",
+      "number": 18344,
+      "title": "Change Request: Merging Flat Configs in Mono Repo",
+      "created_at": "2024-04-15T16:49:41Z",
+      "closed_at": "2024-04-16T21:11:25Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18350",
+      "number": 18350,
+      "title": "The Eslint command is failing with error \"Oops! Something went wrong! :(   ESLint: 9.0.0   Error: Could not find config file.\" This is referring from file https://github.com/eslint/eslint/blob/main/lib/eslint/eslint.js",
+      "created_at": "2024-04-16T06:53:52Z",
+      "closed_at": "2024-04-19T20:25:44Z"
+    },
+    {
+      "url": "https://github.com/eslint/eslint/issues/18374",
+      "number": 18374,
+      "title": "Bug: ESLint never stops when analyzing linter issues in the project",
+      "created_at": "2024-04-21T23:55:49Z",
+      "closed_at": "2024-04-25T10:25:50Z"
+    }
+  ]
+}
