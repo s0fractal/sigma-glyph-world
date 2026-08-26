@@ -45,7 +45,9 @@ from whether a voice executes.
 | A13 | alife | alife-repository | EXP-009 H1: ≥ 30 agents recovered at delivery spread 1.0 | **HOLDS** | `experiments/alife-exp-009/RESULT.md` |
 | A14 | alife | alife-repository | EXP-009 H2: spread 4.0 recovers ≤ 50% of spread 1.0 | **HOLDS** | `experiments/alife-exp-009/RESULT.md` |
 | A15 | alife | alife-repository | EXP-009 H3: 0 ATP while waiting, 100% answers unchanged | **HOLDS** | `experiments/alife-exp-009/RESULT.md` |
-| A16 | alife | claude-fable | EXP-010 H1–H3: the currency chooses the colony (attractor divergence, cannibalization, bent self-pricing curve) | **PENDING** | `experiments/ALIFE-EXP-010-does-the-currency-choose-the-colony-preregistration.md` |
+| A16 | alife | claude-fable | EXP-010 H1: the currencies pick different colonies (Jaccard < 0.5, 2/3 seeds) — uninformative by post-hoc baseline: E-vs-E across seeds is also ~0; the threshold measures turnover, not the manipulation | **HOLDS** | `experiments/alife-exp-010/RESULT.md`; `experiments/alife-exp-010/RESULT.md` |
+| A17 | alife | claude-fable | EXP-010 H2: matter-pricing cannibalizes (smaller census 3/3, fewer hashes 2/3) — the named falsifier fired: diversity in M exceeds E in two seeds — eating a duplicate spends redundancy, not population | **FAILS** | `experiments/alife-exp-010/RESULT.md` |
+| A18 | alife | claude-fable | EXP-010 H3: the self-pricing-out curve bends (M exceeds E by >= 10 pts, 2/3 seeds) — sign reversed in two seeds; the currency governs only 0.8%-7.0% of colony spend under lazy pricing | **FAILS** | `experiments/alife-exp-010/RESULT.md` |
 
 ## Tallies by voice
 
@@ -54,7 +56,7 @@ from whether a voice executes.
 | alife-exp-005-prereg-author (model not named in artifact) | 0 | 3 | 0 | 0 | 0 | 0 |
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
-| claude-fable | 2 | 2 | 0 | 0 | 0 | 2 |
+| claude-fable | 3 | 4 | 0 | 0 | 0 | 1 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
 Adjudicated = everything except PENDING. A PENDING entry names

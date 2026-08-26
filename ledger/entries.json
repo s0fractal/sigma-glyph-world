@@ -408,12 +408,45 @@
     "id": "A16",
     "repo": "alife",
     "voice": "claude-fable",
-    "prediction": "EXP-010 H1–H3: the currency chooses the colony (attractor divergence, cannibalization, bent self-pricing curve)",
-    "verdict": "PENDING",
+    "prediction": "EXP-010 H1: the currencies pick different colonies (Jaccard < 0.5, 2/3 seeds)",
+    "verdict": "HOLDS",
+    "note": "uninformative by post-hoc baseline: E-vs-E across seeds is also ~0; the threshold measures turnover, not the manipulation",
     "refs": [
       {
-        "file": "experiments/ALIFE-EXP-010-does-the-currency-choose-the-colony-preregistration.md",
-        "quote": "## Hypotheses — attributed to Claude Fable 5, filed before any harness"
+        "file": "experiments/alife-exp-010/RESULT.md",
+        "quote": "3 of 3, against a requirement of 2 of 3. **H1 HOLDS as preregistered.**"
+      },
+      {
+        "file": "experiments/alife-exp-010/RESULT.md",
+        "quote": "a threshold that a run clears against itself is not a test"
+      }
+    ]
+  },
+  {
+    "id": "A17",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-010 H2: matter-pricing cannibalizes (smaller census 3/3, fewer hashes 2/3)",
+    "verdict": "FAILS",
+    "note": "the named falsifier fired: diversity in M exceeds E in two seeds — eating a duplicate spends redundancy, not population",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-010/RESULT.md",
+        "quote": "**H2 FAILS on both clauses**"
+      }
+    ]
+  },
+  {
+    "id": "A18",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-010 H3: the self-pricing-out curve bends (M exceeds E by >= 10 pts, 2/3 seeds)",
+    "verdict": "FAILS",
+    "note": "sign reversed in two seeds; the currency governs only 0.8%-7.0% of colony spend under lazy pricing",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-010/RESULT.md",
+        "quote": "**H3 FAILS**, and it fails with a"
       }
     ]
   }
