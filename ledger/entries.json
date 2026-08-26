@@ -1,0 +1,420 @@
+[
+  {
+    "id": "W1",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "H-SHARING: structural sharing makes peak linear in n",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "`H-SHARING` — Σ-GLYPH's structural sharing makes `peak` linear in `n`"
+      }
+    ]
+  },
+  {
+    "id": "W2",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "a strategy-insensitivity constant exists (Track A invariant)",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "a strategy-insensitivity constant exists and is \"the first real invariant\" of Track A"
+      }
+    ]
+  },
+  {
+    "id": "W3",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "peak = 4·2^n − 3 for both strategies (EXP-001 prereg)",
+    "verdict": "FAILS",
+    "note": "wrong for S_out by a constant 8; printed as DEVIATION on every green run",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "`peak = 4·2^n − 3` in the KAPPA-EXP-001 preregistration"
+      }
+    ]
+  },
+  {
+    "id": "W4",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "EXP-001 machine is an explicit syntax tree with no sharing",
+    "verdict": "FAILS",
+    "note": "false of its own implementation; found by Codex",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "the preregistration's \"explicit syntax tree, no sharing\" representation"
+      }
+    ]
+  },
+  {
+    "id": "W5",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "κ ≤ 1 under C_size presented as a finding",
+    "verdict": "RETRACTED",
+    "note": "a theorem, not a measurement",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "`κ ≤ 1` under `C_size` presented as a finding"
+      }
+    ]
+  },
+  {
+    "id": "W6",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "the EXP-001 successor question",
+    "verdict": "RETRACTED",
+    "note": "trivial in both directions",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "the KAPPA-EXP-001 successor question"
+      }
+    ]
+  },
+  {
+    "id": "W7",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "g_{n,k} spread bounded, hand-derived (EXP-003 prereg)",
+    "verdict": "FAILS",
+    "note": "it grows",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "`g_{n,k}` spread bounded, hand-derived in the KAPPA-EXP-003 preregistration"
+      }
+    ]
+  },
+  {
+    "id": "W8",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "spread(g_{14,8}) > 100, driven by n, k ruled out (EXP-005 prereg)",
+    "verdict": "FAILS",
+    "note": "measured 10.23; saturates in n; k is the driver — wrong in both directions",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "`spread(g_{14,8}) > 100`, driven by `n`, with `k` explicitly ruled out"
+      }
+    ]
+  },
+  {
+    "id": "W9",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "no materialization-charging cost model removes the separation (universal claim)",
+    "verdict": "RETRACTED",
+    "note": "universally quantified over a class of which two members were studied",
+    "refs": [
+      {
+        "file": "reviews/response-to-claude-fable-2026-08-26.md",
+        "quote": "\"no choice of materialization-charging cost model removes it\" and strategy pinning as a derived requirement"
+      }
+    ]
+  },
+  {
+    "id": "W10",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-007 A.1: on h_n the separation disappears under R_update",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-007/RESULT.md",
+        "quote": "**CONFIRMED** — 341.08 → 1.375"
+      }
+    ]
+  },
+  {
+    "id": "W11",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-007 A.2: under a binder the separation returns",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-007/RESULT.md",
+        "quote": "**CONFIRMED** — 21.16 at `n = 10`, growing"
+      }
+    ]
+  },
+  {
+    "id": "W12",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "EXP-007 B.1: separation exactly 1.00 on h_n, identical trajectories",
+    "verdict": "FAILS",
+    "note": "right for the objects metric, wrong for occurrence size — quantity named without its metric",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-007/RESULT.md",
+        "quote": "**FAILED** — 1.3751 by occurrence"
+      }
+    ]
+  },
+  {
+    "id": "W13",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "EXP-007 B.2: distinct_objects is Θ(n) for both strategies",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-007/RESULT.md",
+        "quote": "**CONFIRMED** — exactly `7n + 1`"
+      }
+    ]
+  },
+  {
+    "id": "W14",
+    "repo": "world",
+    "voice": "world-repository",
+    "prediction": "EXP-007 B.3: on d_n the separation returns attenuated, below R_fresh",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-007/RESULT.md",
+        "quote": "**CONFIRMED** — 99.49 → 21.16, an attenuation of 4.70×"
+      }
+    ]
+  },
+  {
+    "id": "W15",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-008 A1–A3: bounded separation under optimal reduction; bookkeeping share; two optimality minima",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/KAPPA-EXP-008-preregistration.md",
+        "quote": "## Prediction A — attributed to Claude Fable 5"
+      }
+    ]
+  },
+  {
+    "id": "A1",
+    "repo": "alife",
+    "voice": "alife-founding-proposal",
+    "prediction": "anastomosis: sharing factor grows super-linearly with population density",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-001/RESULT.md",
+        "quote": "RQ1's hypothesis is contradicted."
+      }
+    ]
+  },
+  {
+    "id": "A2",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-004 attack: the sharing decline is an alphabet artifact",
+    "verdict": "FAILS",
+    "note": "the attacked sentence survived, 10/10 seeds at every alphabet fraction",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-004/RESULT.md",
+        "quote": "designed to **destroy** this repository's most-quoted"
+      },
+      {
+        "file": "experiments/alife-exp-004/RESULT.md",
+        "quote": "sentence. It did not."
+      }
+    ]
+  },
+  {
+    "id": "A3",
+    "repo": "alife",
+    "voice": "alife-exp-005-prereg-author (model not named in artifact)",
+    "prediction": "EXP-005 H1: the sharing discount is large and concentrated",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-005/RESULT.md",
+        "quote": "**FAILS** — concentration holds (3.43%), wide margin does not (1.054×)"
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "repo": "alife",
+    "voice": "alife-exp-005-prereg-author (model not named in artifact)",
+    "prediction": "EXP-005 H2: enforced copy pricing materially reduces settled agents",
+    "verdict": "FAILS",
+    "note": "budget chosen so everyone settles; H2 could not have been true — design defect recorded",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-005/RESULT.md",
+        "quote": "**FAILS** — 64/64 versus 64/64; same IDs"
+      }
+    ]
+  },
+  {
+    "id": "A5",
+    "repo": "alife",
+    "voice": "alife-exp-005-prereg-author (model not named in artifact)",
+    "prediction": "EXP-005 H3: dup largest, drop uniquely smallest, gap ≥ 2×",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-005/RESULT.md",
+        "quote": "**FAILS** — `dup` is uniquely largest, but `drop` ties `church` at zero"
+      }
+    ]
+  },
+  {
+    "id": "A6",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-006 H1: observable-state policy beats even split by ≥ 8 agents",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-006/RESULT.md",
+        "quote": "**FAILS** — best gap **+2**"
+      }
+    ]
+  },
+  {
+    "id": "A7",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-006 H2: resumption worth ≥ 8 agents against best restarting arm",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-006/RESULT.md",
+        "quote": "**HOLDS** — **+13 to +31**"
+      }
+    ]
+  },
+  {
+    "id": "A8",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-006 H3: the premium grows with pulse granularity, doubling 2→32",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-006/RESULT.md",
+        "quote": "**FAILS** — 13, 29, 27, 31, 31: rises then plateaus"
+      }
+    ]
+  },
+  {
+    "id": "A9",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-007 H1–H3: organizations form (closure, L1-core, budget-dependence)",
+    "verdict": "MIXED",
+    "note": "criteria met; nulls — written post hoc, defect D50 — kill the interpretation",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-007/RESULT.md",
+        "quote": "**All three preregistered criteria were met. None of them survives its null.**"
+      }
+    ]
+  },
+  {
+    "id": "A10",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-008 H1: a self-maintaining set ≥ 3 while the shuffled-graph null is empty",
+    "verdict": "MIXED",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-008/RESULT.md",
+        "quote": "**holds against the preregistered null** (4/7 windows) — and **FAILS against a stronger one** (1/7)"
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-008 H2: the history-core is ≥ 5× the persisting set",
+    "verdict": "FAILS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-008/RESULT.md",
+        "quote": "**FAILS** — 2 of 5 measurable windows"
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-008 H3: sustaining reactions are ≥ 30% cheaper",
+    "verdict": "UNADJUDICATED",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-008/RESULT.md",
+        "quote": "**UNADJUDICATED** — no set survived the stronger null to price"
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-009 H1: ≥ 30 agents recovered at delivery spread 1.0",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-009/RESULT.md",
+        "quote": "**HOLDS** — 45"
+      }
+    ]
+  },
+  {
+    "id": "A14",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-009 H2: spread 4.0 recovers ≤ 50% of spread 1.0",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-009/RESULT.md",
+        "quote": "**HOLDS** — 7 against a ceiling of 22.5"
+      }
+    ]
+  },
+  {
+    "id": "A15",
+    "repo": "alife",
+    "voice": "alife-repository",
+    "prediction": "EXP-009 H3: 0 ATP while waiting, 100% answers unchanged",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-009/RESULT.md",
+        "quote": "**HOLDS** — exactly 0, and 100% in every cell"
+      }
+    ]
+  },
+  {
+    "id": "A16",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-010 H1–H3: the currency chooses the colony (attractor divergence, cannibalization, bent self-pricing curve)",
+    "verdict": "PENDING",
+    "refs": [
+      {
+        "file": "experiments/ALIFE-EXP-010-does-the-currency-choose-the-colony-preregistration.md",
+        "quote": "## Hypotheses — attributed to Claude Fable 5, filed before any harness"
+      }
+    ]
+  }
+]
