@@ -415,7 +415,7 @@
     "voice": "claude-fable",
     "prediction": "EXP-010 H2: matter-pricing cannibalizes (smaller census 3/3, fewer hashes 2/3)",
     "verdict": "FAILS",
-    "note": "the named falsifier fired: diversity in M exceeds E in two seeds — eating a duplicate spends redundancy, not population",
+    "note": "the named falsifier fired; the RESULT's initial mechanism ('eating a duplicate spends redundancy') was later refuted by its own mediation statistic — 74.7%/77.2%/90.3% of consumptions removed the LAST living body of that hash; cause of Arm M's higher distinctness is unidentified",
     "refs": [
       {
         "file": "experiments/alife-exp-010/RESULT.md",
