@@ -11,7 +11,9 @@
     "experiments/kappa-exp-003/measurements.json": "3498eb6486dc63fb188e4deed9d0dcc1b520d0adbd8ac50add6f748e79627b34",
     "experiments/kappa-exp-005/measurements.json": "35c5a26dc50ad79d5a28a653f062d74b56af0b3aab4262d1855bce708599f8cf",
     "experiments/scope-pilot-002/CODEBOOK.md": "3c9261450ffe3553a984788e5f764cc4f829624155b53b5272ae4ebc3f7f8e01",
-    "experiments/scope-pilot-002/CODER-PROMPT.md": "9b4c3c277b263d350d8dd22bac8f7d4444e98134f1b1e7a64fc6b1f3e174abf1"
+    "experiments/scope-pilot-002/CODER-PROMPT.md": "9b4c3c277b263d350d8dd22bac8f7d4444e98134f1b1e7a64fc6b1f3e174abf1",
+    "experiments/scope-pilot-003/evidence-manifest.json": "1c31de900a4a508cba05a8f36edbd30a3e5252fe8a78164f1464b2b0d92f8785",
+    "experiments/scope-pilot-003/cited-artifacts.json": "ff045f83c8a2e03ae245d798f6a2e6b47df8fa10626bbc3dff314b1601f853a5"
   },
   "required": [
     "README.md",

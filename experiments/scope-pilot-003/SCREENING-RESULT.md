@@ -3,6 +3,14 @@
 **Status: `SAMPLING_FAILURE`. 60 candidates screened, 1 admitted, minimum to
 code is 8. No packet was constructed and no coder was run.**
 
+> **See the [erratum](#erratum-2026-08-26) before reading §"Why candidates
+> failed" and §"Disposition".** [Codex's review](../../reviews/codex-2026-08-26.md)
+> found that the evidence behind the 60 decisions was not committed, that the
+> causal attribution "frame failure, not instrument failure" is unidentified,
+> that two threads were silently truncated at 100 comments, and that the
+> control-kind diversity requirement was satisfied by construction. All four are
+> accepted.
+
 The preregistration is explicit: *"If fewer than 8 incidents survive the
 60-candidate limit, report sampling failure and do not run coders."* That
 condition is met, so P003 stops here. No agreement number exists and `H-SCOPE`
@@ -157,3 +165,123 @@ tools/test-all.sh
 state and every unmet constraint. Green execution means the screening log is a
 faithful, constraint-checked prefix of the frozen candidate order. It is not
 review, external validity, or evidence for any mechanism claim.
+
+---
+
+## Erratum, 2026-08-26
+
+From [`reviews/codex-2026-08-26.md`](../../reviews/codex-2026-08-26.md),
+findings 5, 6, 8 and 9.
+
+### Finding 5 — the decisions were ordered but not auditable
+
+`FACT`: the 168 search checkpoints were committed; the evidence behind the 60
+screening decisions was not. `evidence-cache/` is ignored, the screening log
+carried response digests with nothing to compare them against, and the sole
+admitted incident's contract rested on two commit URLs with no digest at all.
+
+Now committed:
+
+- [`evidence-manifest.json`](evidence-manifest.json) — one entry per screened
+  position, built from the evidence used at screening time so every
+  `retrieved_at` and digest is the original. Bodies are clipped to 900
+  characters and comments to 400, with `sha256` and `chars` covering the
+  untruncated text, so a decision can be audited without republishing 60
+  third-party threads in full.
+- [`cited-artifacts.json`](cited-artifacts.json) — the admitted incident's
+  out-of-thread evidence: both commits with API-response and message digests and
+  per-file patch digests, the merged regression test and its expected output with
+  git blob SHA and content, and the release-note line, each content-addressed.
+
+`FACT`: the frozen regression test reads
+
+```lean
+def f (stx : Lean.Syntax) :=
+  match stx with
+  | `($f $a)  => 1
+  | `($_)     => 2
+  | `($f $b)  => 3
+  | _         => "hello"
+```
+
+with expected output `error: redundant alternative #3` and `#4`. That is the
+`T2_EXECUTABLE` contract the admission claimed, now auditable rather than
+asserted.
+
+`FACT`: `screen.py --check` now fails if any screened position is absent from the
+manifest, or if the manifest's url, issue digest, or reason disagrees with the
+log. It still does **not** validate the substance of any reason, and the review
+is right that it cannot. Researcher judgment stays judgment.
+
+### Finding 8 — two threads were truncated at 100 comments
+
+`FACT`: `fetch_evidence.py` requested `per_page=100` without paginating and
+recorded `comment_count` as the number of items fetched, so a thread with more
+than 100 comments was indistinguishable from a complete one. Positions 44
+(`astral-sh/ruff#1904`) and 59 (`rocq-prover/rocq#12487`) were affected.
+
+The tool now pages to exhaustion and records `comments_pages`,
+`comments_complete`, `declared_comment_total`, and a digest per page.
+
+`FACT`, from the audit, recorded in the manifest rather than backdated: position
+44 was missing 1 comment of 101, position 59 was missing 10 of 110.
+
+`DERIVATION`: neither changes its decision. The comment missed at 44 is an aside
+about Black's default in a design thread that contains no incident; the ten
+missed at 59 are memory-profiling discussion ending in a maintainer closing the
+issue because the consumption was no longer reproducible — which reinforces
+`NO_PRIMARY_EVIDENCE` rather than disturbing it.
+
+`FACT`: the review's narrower point stands regardless. The claim that all 60
+decisions used complete primary threads was false when written, and was true only
+by luck for these two.
+
+### Finding 9 — the diversity requirement was satisfied by construction
+
+`FACT`: `screen.py` requires an admitted entry's `sampling_assessment.control_kind`
+to equal the frozen repository stratum. The later "at least 3 control kinds"
+minimum therefore ranged over **sampling strata**, a frame label, not over
+independently observed incident kinds.
+
+The field is renamed in the harness output and status
+(`sampling_strata_of_admitted`) so it no longer claims to be an observation. The
+frozen log is not rewritten.
+
+`DERIVATION`: a successor must carry `sampling_stratum` and
+`observed_control_kind` as separate fields and permit them to disagree, so that
+misclassification is data. Diversity minima then apply either to strata, and are
+called strata, or to adjudicated incident kinds — never to a field forced equal
+to the frame.
+
+### Finding 6 — "frame failure, not instrument failure" is retracted
+
+`FACT`: this document attributed the outcome to the sampling frame rather than
+the instrument. That attribution is not identified. The admission gate is part
+of the instrument, eight candidates were rejected specifically because codebook
+v1's contract tier was unmet, and this document's own conclusion is that the
+binding scarcity is adjudicated contracts. There was no comparison frame, no
+relaxed-admission arm, and no independent adjudication.
+
+**Corrected status: `CONTESTED`.** Two live interpretations, both consistent with
+the evidence: the seven query terms have poor directional precision, *and*
+codebook v1 demands evidence that issue threads rarely carry. Separating them
+requires a design that varies one while holding the other.
+
+`FACT`: the successor this document proposed — sampling from merged regressions,
+changelogs and fixes — conditions inclusion on resolution, maintenance and public
+documentation. That is a different estimand. It measures mechanisms among
+**documented fixed incidents**, not prevalence among verification-infrastructure
+incidents, and cannot answer `H-SCOPE`'s population comparison without a
+selection model.
+
+`DERIVATION`, replacing the proposal in §"Disposition":
+
+1. Name the estimand before P004, in the preregistration.
+2. Use a resolution-derived corpus for **instrument calibration and evidence
+   augmentation only**, never silently for prevalence.
+3. For prevalence, keep an incident-based probability sample and retrieve
+   resolution evidence **after** selection; record unresolved or missing
+   contracts as outcomes rather than as exclusions.
+4. If the public record cannot support that estimand, retire the prevalence
+   question explicitly instead of answering a resolution-conditioned replacement
+   and calling it `H-SCOPE`.

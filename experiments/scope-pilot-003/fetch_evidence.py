@@ -31,9 +31,9 @@ def utc_now() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat()
 
 
-def api(path: str) -> tuple[Any, str]:
+def api(path: str, page: int = 1) -> tuple[Any, str]:
     completed = subprocess.run(
-        ["gh", "api", "-X", "GET", path, "-f", "per_page=100"],
+        ["gh", "api", "-X", "GET", path, "-f", "per_page=100", "-f", f"page={page}"],
         check=False,
         capture_output=True,
     )
@@ -42,12 +42,32 @@ def api(path: str) -> tuple[Any, str]:
     return json.loads(completed.stdout), sha256_bytes(completed.stdout)
 
 
+def api_all(path: str) -> tuple[list[Any], list[str]]:
+    """Page to exhaustion.
+
+    The first version of this tool requested per_page=100 without paginating and
+    recorded `comment_count` as the number of items it happened to fetch, so a
+    thread with more than 100 comments was silently truncated and indistinguishable
+    from a complete one. Codex review 2026-08-26, finding 8.
+    """
+    items: list[Any] = []
+    digests: list[str] = []
+    page = 1
+    while True:
+        batch, digest = api(path, page)
+        digests.append(digest)
+        items.extend(batch)
+        if len(batch) < 100:
+            return items, digests
+        page += 1
+
+
 def fetch(candidate: dict[str, Any]) -> dict[str, Any]:
     repository = candidate["repository"]
     number = candidate["number"]
     retrieved_at = utc_now()
     issue, issue_sha = api(f"repos/{repository}/issues/{number}")
-    comments, comments_sha = api(f"repos/{repository}/issues/{number}/comments")
+    comments, comment_digests = api_all(f"repos/{repository}/issues/{number}/comments")
     return {
         "position": candidate["position"],
         "url": candidate["url"],
@@ -58,7 +78,11 @@ def fetch(candidate: dict[str, Any]) -> dict[str, Any]:
         "matched_terms": candidate["matched_terms"],
         "retrieved_at": retrieved_at,
         "issue_response_sha256": issue_sha,
-        "comments_response_sha256": comments_sha,
+        "comments_response_sha256": comment_digests[0],
+        "comments_page_sha256": comment_digests,
+        "comments_pages": len(comment_digests),
+        "comments_complete": True,
+        "declared_comment_total": issue.get("comments"),
         "title": issue["title"],
         "state": issue["state"],
         "state_reason": issue.get("state_reason"),

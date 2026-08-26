@@ -1,0 +1,120 @@
+{
+  "pilot": "SCOPE-PILOT-003",
+  "position": 40,
+  "url": "https://github.com/leanprover/lean4/issues/1371",
+  "why": "The sole admitted incident's ESTABLISHED contract rests on artifacts outside the issue thread: two commits, a merged regression test, and a release note. The screening log recorded their URLs but no digest. Codex review 2026-08-26, finding 5.",
+  "frozen_at": "2026-08-26T16:33:55.605734+00:00",
+  "artifacts": [
+    {
+      "kind": "commit",
+      "sha": "37af11ae20d0aec80907e94822aff35607a9431f",
+      "url": "https://github.com/leanprover/lean4/commit/37af11ae20d0aec80907e94822aff35607a9431f",
+      "api_response_sha256": "a7e7b9871ec616e8f63333613a94622552be1cc0edb1bf38947125fa5f3afdb6",
+      "message": "fix: unused `match`-syntax alternatives are silently ignored\n\ncloses #1371",
+      "message_sha256": "183e97191306524d0c3ab5837d36b07dcddee8cda243ca625632c26392434fc0",
+      "committed_at": "2022-07-31T13:00:08Z",
+      "files": [
+        {
+          "status": "modified",
+          "filename": "RELEASES.md",
+          "additions": 2,
+          "deletions": 0,
+          "patch_sha256": "3a44c267a19a8e3198b40d77f8846bd7210861bb964164482be77d8a57d1aa22"
+        },
+        {
+          "status": "modified",
+          "filename": "src/Lean/Elab/ElabRules.lean",
+          "additions": 4,
+          "deletions": 4,
+          "patch_sha256": "3c38a3c286cc19abccbe4188efe53f25440e471e85e990b08e488f2d5bf80cc9"
+        },
+        {
+          "status": "modified",
+          "filename": "src/Lean/Elab/MacroRules.lean",
+          "additions": 1,
+          "deletions": 1,
+          "patch_sha256": "53428e002a17ca95270eded59f2fc27cbb4d8e9e101c648d94fa8452aba2d5bd"
+        },
+        {
+          "status": "modified",
+          "filename": "src/Lean/Elab/Quotation.lean",
+          "additions": 73,
+          "deletions": 4,
+          "patch_sha256": "f9fc966490658677453556b4476af1bab694079ab18c2bf09449b6c4a4a2795e"
+        },
+        {
+          "status": "added",
+          "filename": "tests/lean/1371.lean",
+          "additions": 6,
+          "deletions": 0,
+          "patch_sha256": "aca997efec443f6c23da2743c8eb0c0f47db41f64368cd7446a99127b6940380"
+        },
+        {
+          "status": "added",
+          "filename": "tests/lean/1371.lean.expected.out",
+          "additions": 2,
+          "deletions": 0,
+          "patch_sha256": "b3a0e8691d25184c428127410f1f54012e4ef5a62f78e8f5301ab4dacc70cff6"
+        },
+        {
+          "status": "modified",
+          "filename": "tests/lean/StxQuot.lean",
+          "additions": 3,
+          "deletions": 3,
+          "patch_sha256": "1618888664cb94ee8b912cfa10a612373fee3f9f44d1af4cbef4fc8981f061a8"
+        },
+        {
+          "status": "modified",
+          "filename": "tests/lean/run/termParserAttr.lean",
+          "additions": 1,
+          "deletions": 1,
+          "patch_sha256": "7a9fdb09030fc620f62ad5b0fca01737c8f05168fdbb7a938096aa05f5cf290a"
+        }
+      ]
+    },
+    {
+      "kind": "commit",
+      "sha": "2f00d6011530931dc27ce6720cd4382232e3642e",
+      "url": "https://github.com/leanprover/lean4/commit/2f00d6011530931dc27ce6720cd4382232e3642e",
+      "api_response_sha256": "f7d9c1d6a153695c58a0fe7d287e8bdd3c6e904aff033ba08c35c42d76d71384",
+      "message": "feat: helper parser for issue #1371",
+      "message_sha256": "264f1776928f9a1412cdcd2df1a4dbeced0966c818300b284cffd94bea416bf1",
+      "committed_at": "2022-07-31T11:30:02Z",
+      "files": [
+        {
+          "status": "modified",
+          "filename": "src/Lean/Parser/Term.lean",
+          "additions": 6,
+          "deletions": 0,
+          "patch_sha256": "3df0d36849b4b8924ecd2aaf9ff7921f64a3bf8a6c95e11c3786f3c80a4ff124"
+        }
+      ]
+    },
+    {
+      "kind": "regression_test",
+      "path": "tests/lean/1371.lean",
+      "ref": "37af11ae20d0aec80907e94822aff35607a9431f",
+      "git_blob_sha": "8de3b393af3126430146e80c3a2584a1a4cecf3a",
+      "api_response_sha256": "392203db7a1cb9919961c5809e6d6d7baa21c17b683e3a4effba13c6bfca9d85",
+      "content_sha256": "2a8eab6fe8608bfe75509c34e0815063f3e3cd6878aab9730efc882a5e704ada",
+      "content": "def f (stx : Lean.Syntax) :=\n  match stx with\n  | `($f $a)  => 1\n  | `($_)     => 2\n  | `($f $b)  => 3\n  | _         => \"hello\"\n"
+    },
+    {
+      "kind": "regression_test",
+      "path": "tests/lean/1371.lean.expected.out",
+      "ref": "37af11ae20d0aec80907e94822aff35607a9431f",
+      "git_blob_sha": "12c5b202729c3bd7f060028933f2e19d58d9ee36",
+      "api_response_sha256": "387f55772ef89fdba8d440eccab969ab74adacb4c8efd836f81c099c73723850",
+      "content_sha256": "4a50ff5dd3aa9e9e896c51a46676adf869155ce7c36625a4133185183b39ba17",
+      "content": "1371.lean:5:2-5:3: error: redundant alternative #3\n1371.lean:6:2-6:3: error: redundant alternative #4\n"
+    },
+    {
+      "kind": "release_note",
+      "path": "RELEASES.md",
+      "ref": "37af11ae20d0aec80907e94822aff35607a9431f",
+      "line": "* `match`-syntax notation now checks for unused alternatives. See issue [#1371](https://github.com/leanprover/lean4/issues/1371).",
+      "line_sha256": "67acdd219b04ff66842ea7ccc4c328865c8e44bb15b2ecbf67b66ceefa5d9d76",
+      "source": "patch of RELEASES.md in commit 37af11ae20d0aec80907e94822aff35607a9431f"
+    }
+  ]
+}

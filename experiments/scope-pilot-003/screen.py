@@ -22,6 +22,9 @@ BASE = Path(__file__).resolve().parent
 ORDER = BASE / "candidate-order.json"
 LOG = BASE / "screening-log.json"
 SCHEMA = BASE / "screening.schema.json"
+MANIFEST = BASE / "evidence-manifest.json"
+
+MANIFEST_REQUIRED = True   # every screened position must appear in evidence-manifest.json
 
 MAX_SCREENED = 60
 MAX_ADMITTED = 12
@@ -94,6 +97,26 @@ def evaluate(order: list[dict[str, Any]], log: dict[str, Any], schema: dict[str,
         if entry.get("decision") == "REJECT" and entry.get("reason_code") == "REPOSITORY_CAP_REACHED":
             errors.append(f"position {expected_position}: repository cap is CAPPED, not REJECT")
 
+    # Codex review 2026-08-26, finding 5: decisions must be auditable against the
+    # evidence available when they were made, not merely well-ordered.
+    if MANIFEST_REQUIRED and entries:
+        if not MANIFEST.exists():
+            errors.append("screening log exists without evidence-manifest.json")
+        else:
+            manifest = load(MANIFEST)
+            covered = {item["position"]: item for item in manifest["entries"]}
+            for entry in entries:
+                item = covered.get(entry.get("position"))
+                if item is None:
+                    errors.append(f"position {entry.get('position')}: absent from the evidence manifest")
+                    continue
+                if item["url"] != entry.get("url"):
+                    errors.append(f"position {entry['position']}: manifest url does not match the screening log")
+                if item["issue_response_sha256"] != entry.get("evidence_sha256", {}).get("issue"):
+                    errors.append(f"position {entry['position']}: manifest issue digest does not match the screening log")
+                if item["reason"] != entry.get("reason"):
+                    errors.append(f"position {entry['position']}: manifest reason does not match the screening log")
+
     admitted = [entry for entry in entries if entry.get("decision") == "ADMIT"]
     per_repository: collections.Counter[str] = collections.Counter()
     for entry in entries:
@@ -110,6 +133,10 @@ def evaluate(order: list[dict[str, Any]], log: dict[str, Any], schema: dict[str,
     if len(admitted) > MAX_ADMITTED:
         errors.append(f"admitted {len(admitted)} packets; preregistered ceiling is {MAX_ADMITTED}")
 
+    # `control_kind` is required equal to the frozen stratum, so this counts
+    # SAMPLING STRATA, not independently observed incident kinds. Codex review
+    # 2026-08-26, finding 9. A successor must carry sampling_stratum and
+    # observed_control_kind as separate fields and permit them to disagree.
     kinds = {entry["sampling_assessment"]["control_kind"] for entry in admitted if "sampling_assessment" in entry}
     components = collections.Counter(
         entry["sampling_assessment"]["expected_component"] for entry in admitted if "sampling_assessment" in entry
@@ -121,7 +148,7 @@ def evaluate(order: list[dict[str, Any]], log: dict[str, Any], schema: dict[str,
         if len(admitted) < MIN_ADMITTED:
             unmet.append(f"only {len(admitted)} admitted; minimum to code is {MIN_ADMITTED}")
         if len(kinds) < MIN_CONTROL_KINDS:
-            unmet.append(f"only {len(kinds)} control kinds; minimum is {MIN_CONTROL_KINDS}")
+            unmet.append(f"only {len(kinds)} sampling strata among admitted; minimum is {MIN_CONTROL_KINDS}")
         for component in EXPECTED_COMPONENTS:
             if components[component] < MIN_PER_EXPECTED_COMPONENT:
                 unmet.append(f"only {components[component]} expected {component} cases; minimum is {MIN_PER_EXPECTED_COMPONENT}")
@@ -132,7 +159,7 @@ def evaluate(order: list[dict[str, Any]], log: dict[str, Any], schema: dict[str,
         "rejected": sum(1 for entry in entries if entry.get("decision") == "REJECT"),
         "capped": sum(1 for entry in entries if entry.get("decision") == "CAPPED"),
         "repositories": len(per_repository),
-        "control_kinds": sorted(kinds),
+        "sampling_strata_of_admitted": sorted(kinds),
         "expected_components": dict(sorted(components.items())),
         "complete": complete,
         "unmet_constraints": unmet,
@@ -180,7 +207,7 @@ def main() -> int:
     print(
         f"PASS: P003 screening {state['status']}; screened={state['screened']}/{MAX_SCREENED}, "
         f"admitted={state['admitted']}/{MAX_ADMITTED}, rejected={state['rejected']}, capped={state['capped']}, "
-        f"control_kinds={len(state['control_kinds'])}, components={state['expected_components']}"
+        f"sampling_strata={len(state['sampling_strata_of_admitted'])}, components={state['expected_components']}"
     )
     return 0
 
