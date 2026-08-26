@@ -81,6 +81,17 @@ inside it.
 | SCOPE-PILOT-002 | failed | — | — | — | — |
 | SCOPE-PILOT-003 | done | done — sampling failure | not run | not run | not run |
 
+There are two commands, and they answer different questions.
+
+- `tools/test-all.sh` is a **progress reporter**. It passes when a phase has not
+  started, when a measurement is absent, and when the external Σ-GLYPH oracle is
+  missing, and says so in its output.
+- `tools/test-release.sh` is the **gate** for the claims on this page. A missing
+  artifact, a changed frozen digest, an absent terminal state, or any skip marker
+  is a failure. `tools/mutation-test.py` deletes each manifest artifact and
+  corrupts each frozen digest in a throwaway copy and requires the gate to reject
+  all 37 mutations.
+
 A green `tools/test-all.sh` reports the state of each phase; it does not assert
 that later phases exist. `experiments/scope-pilot-003/screen.py --check` prints
 the screening's terminal status, including `SAMPLING_FAILURE`, because a

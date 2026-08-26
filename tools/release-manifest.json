@@ -1,0 +1,100 @@
+{
+  "note": "Artifacts the README's current claims depend on. `frozen` entries must match their digest exactly; `required` entries must exist and be tracked. A required terminal state is asserted by its exact expected string, so a retired pilot's legitimate 'not collected' state is a requirement rather than a skip. tools/test-release.sh treats a missing artifact, a changed digest, or any forbidden marker as failure.",
+  "frozen": {
+    "experiments/scope-pilot-003/candidate-order.json": "2e3d00332101e7ce90e4d186584b4b5cb09906f6bf337d869091dd6600f12bfb",
+    "experiments/scope-pilot-003/query-receipts.json": "02ebf6bb3158cf5191125ae23547e397530c6eccc14e15c2fc4db453566aaa75",
+    "experiments/scope-pilot-003/screening-log.json": "1d3882a9dddca73c65ca2f8f551f0e58ffd90677bb897c54a67b3e24ca7128d9",
+    "experiments/scope-pilot-001/candidates.json": "42ad6e7a06d7366551dbcc8a6b44daac53c6835fb4c6fb3d83d2a57f4616ed3f",
+    "experiments/scope-instrument-001/calibration.json": "31cbeceb3614139abff604c87f2ab1f9c0c1b5600c2010f8f5be91e586d80ce9",
+    "experiments/kappa-exp-001/measurements.json": "b42a22c7bb412d913cd4e4e67cc0dfa7583f4c5b21e0ae4432163655d65d130c",
+    "experiments/kappa-exp-002/measurements.json": "1014f82085d1a37d406c3e14c1a39e5007adc49f850dbffcd41049512d73080c",
+    "experiments/kappa-exp-003/measurements.json": "3498eb6486dc63fb188e4deed9d0dcc1b520d0adbd8ac50add6f748e79627b34",
+    "experiments/kappa-exp-005/measurements.json": "35c5a26dc50ad79d5a28a653f062d74b56af0b3aab4262d1855bce708599f8cf",
+    "experiments/scope-pilot-002/CODEBOOK.md": "3c9261450ffe3553a984788e5f764cc4f829624155b53b5272ae4ebc3f7f8e01",
+    "experiments/scope-pilot-002/CODER-PROMPT.md": "9b4c3c277b263d350d8dd22bac8f7d4444e98134f1b1e7a64fc6b1f3e174abf1"
+  },
+  "required": [
+    "README.md",
+    "AGENTS.md",
+    "INTENTIONS.md",
+    "PROVENANCE.md",
+    "talks/gemini-001.md",
+    "talks/claude-fable-001.md",
+    "talks/claude-fable-002.md",
+    "reviews/codex-2026-08-26.md",
+    "experiments/scope-pilot-003/SAMPLING-RESULT.md",
+    "experiments/scope-pilot-003/SCREENING-RESULT.md",
+    "experiments/kappa-exp-001/RESULT.md",
+    "experiments/kappa-exp-002/RESULT.md",
+    "experiments/kappa-exp-003/RESULT.md",
+    "experiments/kappa-exp-005/RESULT.md",
+    "experiments/kappa-exp-005/theorem.py"
+  ],
+  "required_states": [
+    {
+      "why": "P002 retired terminal state (its artifacts were deliberately never collected)",
+      "command": [
+        "python3",
+        "experiments/scope-pilot-002/sample.py",
+        "--check"
+      ],
+      "must_contain": "PASS: sampling artifacts not collected"
+    },
+    {
+      "why": "P003 terminal screening state",
+      "command": [
+        "python3",
+        "experiments/scope-pilot-003/screen.py",
+        "--check"
+      ],
+      "must_contain": "SAMPLING_FAILURE; screened=60/60, admitted=1/12"
+    },
+    {
+      "why": "P003 sampling frozen",
+      "command": [
+        "python3",
+        "experiments/scope-pilot-003/sample.py",
+        "--check"
+      ],
+      "must_contain": "checkpoints=168/168, failures=0, frozen=true"
+    },
+    {
+      "why": "KAPPA-EXP-001 refutation",
+      "command": [
+        "python3",
+        "experiments/kappa-exp-001/validate.py"
+      ],
+      "must_contain": "H-KAPPA refuted"
+    },
+    {
+      "why": "KAPPA-EXP-002 refutation, oracle present",
+      "command": [
+        "python3",
+        "experiments/kappa-exp-002/validate.py"
+      ],
+      "must_contain": "H-SHARING refuted"
+    },
+    {
+      "why": "KAPPA-EXP-003 refutation",
+      "command": [
+        "python3",
+        "experiments/kappa-exp-003/validate.py"
+      ],
+      "must_contain": "H-SPREAD refuted for C_size"
+    },
+    {
+      "why": "KAPPA-EXP-005 closed forms",
+      "command": [
+        "python3",
+        "experiments/kappa-exp-005/theorem.py",
+        "--check"
+      ],
+      "must_contain": "all four closed forms exact on 58 frozen rows"
+    }
+  ],
+  "forbidden_markers": [
+    "SKIPPED",
+    "not measured yet",
+    "not started"
+  ]
+}
