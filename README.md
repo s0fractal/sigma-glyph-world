@@ -72,9 +72,19 @@ verification system.
   occurrence size of 16381, the innermost strategy materializes 16381 objects on
   a machine that copies and 30 on one that aliases, while a content-addressed
   store holds 29 under both;
-- [`reviews/codex-2026-08-26.md`](reviews/codex-2026-08-26.md) — an adversarial
-  review of `main` at `d61e6da`, verdict `CHANGES REQUESTED`, whose findings are
-  answered in errata and successor experiments rather than by editing the
+- [`experiments/KAPPA-EXP-007-preregistration.md`](experiments/KAPPA-EXP-007-preregistration.md)
+  and [`experiments/kappa-exp-007/RESULT.md`](experiments/kappa-exp-007/RESULT.md)
+  — Wadsworth graph reduction. Sharing *reduction* rather than storage collapses
+  the 341× separation to exactly `11/8` where duplication is not under a binder,
+  and leaves it growing where it is. The first experiment run under
+  [`AGENTS.md`](AGENTS.md) clause 8, with two attributed predictions scored by
+  name on every green run;
+- [`reviews/`](reviews/) — [Codex's review](reviews/codex-2026-08-26.md), an adversarial
+  review of `main` at `d61e6da` with verdict `CHANGES REQUESTED`;
+  [Claude Fable's review](reviews/claude-fable-2026-08-26.md) of `9dd7e18`, whose
+  synthesis is adopted and whose closing role calibration is
+  [disputed on the record](reviews/response-to-claude-fable-2026-08-26.md).
+  Findings are answered in errata and successor experiments, never by editing the
   reviewed documents.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
@@ -139,9 +149,13 @@ second of which is real. Over the occurrence-weighted tree metric, the
 invariant the track set out to find does not exist for λ. KAPPA-EXP-006 then
 separates the metric from the materialization and finds the refutation holds for
 representations that materialize duplicated subterms per occurrence — including
-the Σ-GLYPH reference implementation — and dissolves for those that alias, so κ
-depends on representation and size functional as well as strategy and cost
-model. What survives is
+the Σ-GLYPH reference implementation — and dissolves for those that alias.
+KAPPA-EXP-007 moves the boundary once more: a machine that shares *reduction*
+collapses the separation to a residual `11/8` where duplication is not under a
+binder, and fails to collapse it where it is. The standing statement is that
+unbounded strategy separation belongs to machines that do not share reduction
+under a binder — Wadsworth 1971 for the first half, Lévy's non-optimality of
+call-by-need for the second. What survives is
 narrower than first claimed: on the measured family and under the two measured
 cost models, no strategy-independent constant-competitive charge exists. Hard-cap
 safety is unaffected and needs no pinned strategy; the earlier "derived
