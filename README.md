@@ -44,6 +44,11 @@ verification system.
   — a preregistered refutation of the claim that the overcharge factor κ is an
   invariant of a calculus. One λ family, two strategies, same normal form: κ
   diverges under one and converges to 4 under the other.
+- [`experiments/KAPPA-EXP-002-preregistration.md`](experiments/KAPPA-EXP-002-preregistration.md)
+  and [`experiments/kappa-exp-002/RESULT.md`](experiments/kappa-exp-002/RESULT.md)
+  — the same family run through the Σ-GLYPH Book I reference oracle at a pinned
+  digest. Structural sharing does not make peak linear: the store holds `2n + 2`
+  distinct nodes and is fetched `2^(n+3) − 7` times.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
@@ -83,10 +88,14 @@ Verification-scope archaeology on public, third-party incident records
 (Track C) is retired at SCOPE-PILOT-003 as a sampling failure; its screening
 result argues the successor must sample resolutions rather than symptoms.
 
-Track A produced its first measurement: KAPPA-EXP-001 refutes κ as a property of
-a calculus and relocates it to the pair (strategy, cost model). The successor
-question — whether any calculus has unbounded κ under *every* strategy once the
-cost model charges for materialization — is stated there and not yet attacked.
+Track A produced its first two measurements. KAPPA-EXP-001 refutes κ as a
+property of a calculus and relocates it to the pair (strategy, cost model); its
+erratum retracts the successor question as trivial and adopts instead the
+*spread* of κ between strategies on one term. KAPPA-EXP-002 refutes the
+prediction that structural sharing dissolves that counterexample, and finds the
+real reason it does not transfer to Σ-GLYPH: the strategy is pinned normatively,
+so there is no second strategy to diverge. The spread question is therefore
+about λ, and is not yet attacked.
 
 The distributed-prepayment track (Track B) remains formalization work until its
 fault model and comparison metric stop moving.
