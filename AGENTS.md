@@ -18,4 +18,9 @@ does not speak for the Σ-GLYPH specification or its governance.
    cost model, input, and outcome. A changed semantics is not a resource result.
 7. Outward actions such as publication, issue filing, or changes to another
    repository require explicit authorization for that action.
+8. Where more than one voice offers a prediction on the same measurement, each
+   is preregistered separately and attributed by name, and the result scores
+   each by name. An unpreregistered prediction is worthless whatever its source;
+   a preregistered one is useful however badly it fails. Do not infer a voice's
+   reliability from whether it executes.
 
