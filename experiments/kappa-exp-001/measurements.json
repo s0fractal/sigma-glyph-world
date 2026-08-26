@@ -1,0 +1,290 @@
+{
+  "experiment": "KAPPA-EXP-001",
+  "family": "h_0 = y ; h_{n+1} = (lambda x. p x x) h_n",
+  "representation": "explicit syntax tree, no sharing",
+  "n_range": [
+    1,
+    12
+  ],
+  "strategies": [
+    "S_out",
+    "S_in"
+  ],
+  "cost_models": [
+    "cost_unit",
+    "cost_size"
+  ],
+  "kappa": "(peak - 1) / cost",
+  "controls": {
+    "same_normal_form": true,
+    "same_input": true,
+    "terminated": true,
+    "no_renaming": true
+  },
+  "rows": [
+    {
+      "n": 1,
+      "input_size": 8,
+      "S_out": {
+        "steps": 1,
+        "peak": 8,
+        "normal_form_size": 5,
+        "cost_unit": 1,
+        "cost_size": 3,
+        "kappa_unit": 7.0,
+        "kappa_size": 2.3333333333333335
+      },
+      "S_in": {
+        "steps": 1,
+        "peak": 8,
+        "normal_form_size": 5,
+        "cost_unit": 1,
+        "cost_size": 3,
+        "kappa_unit": 7.0,
+        "kappa_size": 2.3333333333333335
+      }
+    },
+    {
+      "n": 2,
+      "input_size": 15,
+      "S_out": {
+        "steps": 3,
+        "peak": 19,
+        "normal_form_size": 13,
+        "cost_unit": 3,
+        "cost_size": 23,
+        "kappa_unit": 6.0,
+        "kappa_size": 0.782608695652174
+      },
+      "S_in": {
+        "steps": 2,
+        "peak": 15,
+        "normal_form_size": 13,
+        "cost_unit": 2,
+        "cost_size": 14,
+        "kappa_unit": 7.0,
+        "kappa_size": 1.0
+      }
+    },
+    {
+      "n": 3,
+      "input_size": 22,
+      "S_out": {
+        "steps": 7,
+        "peak": 37,
+        "normal_form_size": 29,
+        "cost_unit": 7,
+        "cost_size": 77,
+        "kappa_unit": 5.142857142857143,
+        "kappa_size": 0.4675324675324675
+      },
+      "S_in": {
+        "steps": 3,
+        "peak": 29,
+        "normal_form_size": 29,
+        "cost_unit": 3,
+        "cost_size": 41,
+        "kappa_unit": 9.333333333333334,
+        "kappa_size": 0.6829268292682927
+      }
+    },
+    {
+      "n": 4,
+      "input_size": 29,
+      "S_out": {
+        "steps": 15,
+        "peak": 69,
+        "normal_form_size": 61,
+        "cost_unit": 15,
+        "cost_size": 199,
+        "kappa_unit": 4.533333333333333,
+        "kappa_size": 0.3417085427135678
+      },
+      "S_in": {
+        "steps": 4,
+        "peak": 61,
+        "normal_form_size": 61,
+        "cost_unit": 4,
+        "cost_size": 100,
+        "kappa_unit": 15.0,
+        "kappa_size": 0.6
+      }
+    },
+    {
+      "n": 5,
+      "input_size": 36,
+      "S_out": {
+        "steps": 31,
+        "peak": 133,
+        "normal_form_size": 125,
+        "cost_unit": 31,
+        "cost_size": 457,
+        "kappa_unit": 4.258064516129032,
+        "kappa_size": 0.2888402625820569
+      },
+      "S_in": {
+        "steps": 5,
+        "peak": 125,
+        "normal_form_size": 125,
+        "cost_unit": 5,
+        "cost_size": 223,
+        "kappa_unit": 24.8,
+        "kappa_size": 0.5560538116591929
+      }
+    },
+    {
+      "n": 6,
+      "input_size": 43,
+      "S_out": {
+        "steps": 63,
+        "peak": 261,
+        "normal_form_size": 253,
+        "cost_unit": 63,
+        "cost_size": 987,
+        "kappa_unit": 4.126984126984127,
+        "kappa_size": 0.2634245187436677
+      },
+      "S_in": {
+        "steps": 6,
+        "peak": 253,
+        "normal_form_size": 253,
+        "cost_unit": 6,
+        "cost_size": 474,
+        "kappa_unit": 42.0,
+        "kappa_size": 0.5316455696202531
+      }
+    },
+    {
+      "n": 7,
+      "input_size": 50,
+      "S_out": {
+        "steps": 127,
+        "peak": 517,
+        "normal_form_size": 509,
+        "cost_unit": 127,
+        "cost_size": 2061,
+        "kappa_unit": 4.062992125984252,
+        "kappa_size": 0.25036390101892286
+      },
+      "S_in": {
+        "steps": 7,
+        "peak": 509,
+        "normal_form_size": 509,
+        "cost_unit": 7,
+        "cost_size": 981,
+        "kappa_unit": 72.57142857142857,
+        "kappa_size": 0.5178389398572885
+      }
+    },
+    {
+      "n": 8,
+      "input_size": 57,
+      "S_out": {
+        "steps": 255,
+        "peak": 1029,
+        "normal_form_size": 1021,
+        "cost_unit": 255,
+        "cost_size": 4223,
+        "kappa_unit": 4.031372549019608,
+        "kappa_size": 0.24342884205541085
+      },
+      "S_in": {
+        "steps": 8,
+        "peak": 1021,
+        "normal_form_size": 1021,
+        "cost_unit": 8,
+        "cost_size": 2000,
+        "kappa_unit": 127.5,
+        "kappa_size": 0.51
+      }
+    },
+    {
+      "n": 9,
+      "input_size": 64,
+      "S_out": {
+        "steps": 511,
+        "peak": 2053,
+        "normal_form_size": 2045,
+        "cost_unit": 511,
+        "cost_size": 8561,
+        "kappa_unit": 4.015655577299413,
+        "kappa_size": 0.23969162481018572
+      },
+      "S_in": {
+        "steps": 9,
+        "peak": 2045,
+        "normal_form_size": 2045,
+        "cost_unit": 9,
+        "cost_size": 4043,
+        "kappa_unit": 227.11111111111111,
+        "kappa_size": 0.5055651743754638
+      }
+    },
+    {
+      "n": 10,
+      "input_size": 71,
+      "S_out": {
+        "steps": 1023,
+        "peak": 4101,
+        "normal_form_size": 4093,
+        "cost_unit": 1023,
+        "cost_size": 17251,
+        "kappa_unit": 4.007820136852395,
+        "kappa_size": 0.2376673816010666
+      },
+      "S_in": {
+        "steps": 10,
+        "peak": 4093,
+        "normal_form_size": 4093,
+        "cost_unit": 10,
+        "cost_size": 8134,
+        "kappa_unit": 409.2,
+        "kappa_size": 0.5030735185640521
+      }
+    },
+    {
+      "n": 11,
+      "input_size": 78,
+      "S_out": {
+        "steps": 2047,
+        "peak": 8197,
+        "normal_form_size": 8189,
+        "cost_unit": 2047,
+        "cost_size": 34645,
+        "kappa_unit": 4.00390815828041,
+        "kappa_size": 0.23657093375667484
+      },
+      "S_in": {
+        "steps": 11,
+        "peak": 8189,
+        "normal_form_size": 8189,
+        "cost_unit": 11,
+        "cost_size": 16321,
+        "kappa_unit": 744.3636363636364,
+        "kappa_size": 0.5016849457753814
+      }
+    },
+    {
+      "n": 12,
+      "input_size": 85,
+      "S_out": {
+        "steps": 4095,
+        "peak": 16389,
+        "normal_form_size": 16381,
+        "cost_unit": 4095,
+        "cost_size": 69447,
+        "kappa_unit": 4.001953601953602,
+        "kappa_size": 0.23597851599061154
+      },
+      "S_in": {
+        "steps": 12,
+        "peak": 16381,
+        "normal_form_size": 16381,
+        "cost_unit": 12,
+        "cost_size": 32700,
+        "kappa_unit": 1365.0,
+        "kappa_size": 0.5009174311926605
+      }
+    }
+  ]
+}
