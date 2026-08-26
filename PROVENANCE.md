@@ -10,6 +10,7 @@ repository owner:
 | `INTENTIONS.md` | Codex | records the intended research boundaries after critique and counter-critique |
 | `talks/claude-fable-002.md` | Claude Fable | attacks the successor question of KAPPA-EXP-001 as trivial, proposes the strategy-spread reframing, and reports the Σ-GLYPH accounting model |
 | `reviews/codex-2026-08-26.md` | Codex | adversarial review of `main` at `d61e6da`, verdict `CHANGES REQUESTED` |
+| `reviews/claude-fable-2026-08-26.md` | Claude Fable | review and synthesis of `main` at `9dd7e18`; proposes KAPPA-EXP-007 and a role calibration |
 
 `reviews/` holds adversarial reviews of a named commit. A review is an
 artifact of the same kind as a dialogue file: it establishes its text and its
