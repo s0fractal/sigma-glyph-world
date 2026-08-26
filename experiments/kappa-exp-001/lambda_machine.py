@@ -92,11 +92,22 @@ def contract(redex: App) -> Term:
     return substitute(lam.body, lam.var, redex.arg)
 
 
-def step_cost(redex: App) -> tuple[int, int]:
-    """Per-step cost under (C_unit, C_size)."""
+def step_cost(redex: App) -> tuple[int, int, int]:
+    """Per-step cost under (C_unit, C_size, C_dup).
+
+    `C_size` bills every copy the substitution writes, including the sole copy
+    when `occ == 1`. `C_dup` bills only the *extra* copies, which is the shape
+    Σ-GLYPH uses: R-I costs 1, and only R-S costs 1 + size(z). Both satisfy
+    Δsize <= cost − 1, so both are materialization-charging.
+    """
     lam = redex.fun
     assert isinstance(lam, Lam)
-    return 1, 1 + occurrences(lam.var, lam.body) * redex.arg.size
+    occ = occurrences(lam.var, lam.body)
+    return (
+        1,
+        1 + occ * redex.arg.size,
+        1 + max(0, occ - 1) * redex.arg.size,
+    )
 
 
 def leftmost_outermost(term: Term) -> Optional[tuple[Term, tuple[int, int]]]:
@@ -167,6 +178,7 @@ def normalize(term: Term, strategy: str, ceiling: int) -> dict:
     steps = 0
     cost_unit = 0
     cost_size = 0
+    cost_dup = 0
     peak = term.size
     while True:
         reduced = step(term)
@@ -175,9 +187,10 @@ def normalize(term: Term, strategy: str, ceiling: int) -> dict:
         steps += 1
         if steps > ceiling:
             raise RuntimeError(f"{strategy}: exceeded step ceiling {ceiling}")
-        term, (unit, size_cost) = reduced
+        term, (unit, size_cost, dup_cost) = reduced
         cost_unit += unit
         cost_size += size_cost
+        cost_dup += dup_cost
         if term.size > peak:
             peak = term.size
     return {
@@ -185,6 +198,7 @@ def normalize(term: Term, strategy: str, ceiling: int) -> dict:
         "steps": steps,
         "cost_unit": cost_unit,
         "cost_size": cost_size,
+        "cost_dup": cost_dup,
         "peak": peak,
         "normal_form_size": term.size,
         "normal_form": term,

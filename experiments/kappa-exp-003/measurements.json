@@ -1,0 +1,1193 @@
+{
+  "experiment": "KAPPA-EXP-003",
+  "machine": "KAPPA-EXP-001 lambda_machine, unchanged",
+  "strategies": [
+    "S_out",
+    "S_in"
+  ],
+  "cost_models": [
+    "cost_unit",
+    "cost_size",
+    "cost_dup"
+  ],
+  "spread": "max_S kappa_S(t) / min_S kappa_S(t) over the two strategies",
+  "families": {
+    "h": "h_0 = y ; h_{n+1} = (lambda x. p x x) h_n",
+    "c": "c_0 = y ; c_{k+1} = (lambda z. z) c_k",
+    "g": "g_0 = c_k ; g_{m+1} = (lambda x. p x x) g_m"
+  },
+  "controls": {
+    "same_normal_form": true,
+    "no_renaming": true,
+    "erratum_bound": true,
+    "terminated": true
+  },
+  "rows": {
+    "h": [
+      {
+        "label": "h_1",
+        "input_size": 8,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 1,
+          "peak": 8,
+          "cost_unit": 1,
+          "kappa_unit": 7.0,
+          "cost_size": 3,
+          "kappa_size": 2.3333333333333335,
+          "cost_dup": 2,
+          "kappa_dup": 3.5
+        },
+        "S_in": {
+          "steps": 1,
+          "peak": 8,
+          "cost_unit": 1,
+          "kappa_unit": 7.0,
+          "cost_size": 3,
+          "kappa_size": 2.3333333333333335,
+          "cost_dup": 2,
+          "kappa_dup": 3.5
+        },
+        "spread_unit": 1.0,
+        "spread_size": 1.0,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "h_2",
+        "input_size": 15,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 3,
+          "peak": 19,
+          "cost_unit": 3,
+          "kappa_unit": 6.0,
+          "cost_size": 23,
+          "kappa_size": 0.782608695652174,
+          "cost_dup": 13,
+          "kappa_dup": 1.3846153846153846
+        },
+        "S_in": {
+          "steps": 2,
+          "peak": 15,
+          "cost_unit": 2,
+          "kappa_unit": 7.0,
+          "cost_size": 14,
+          "kappa_size": 1.0,
+          "cost_dup": 8,
+          "kappa_dup": 1.75
+        },
+        "spread_unit": 1.1666666666666667,
+        "spread_size": 1.2777777777777777,
+        "spread_dup": 1.2638888888888888
+      },
+      {
+        "label": "h_3",
+        "input_size": 22,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 7,
+          "peak": 37,
+          "cost_unit": 7,
+          "kappa_unit": 5.142857142857143,
+          "cost_size": 77,
+          "kappa_size": 0.4675324675324675,
+          "cost_dup": 42,
+          "kappa_dup": 0.8571428571428571
+        },
+        "S_in": {
+          "steps": 3,
+          "peak": 29,
+          "cost_unit": 3,
+          "kappa_unit": 9.333333333333334,
+          "cost_size": 41,
+          "kappa_size": 0.6829268292682927,
+          "cost_dup": 22,
+          "kappa_dup": 1.2727272727272727
+        },
+        "spread_unit": 1.8148148148148149,
+        "spread_size": 1.4607046070460705,
+        "spread_dup": 1.4848484848484849
+      },
+      {
+        "label": "h_4",
+        "input_size": 29,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 15,
+          "peak": 69,
+          "cost_unit": 15,
+          "kappa_unit": 4.533333333333333,
+          "cost_size": 199,
+          "kappa_size": 0.3417085427135678,
+          "cost_dup": 107,
+          "kappa_dup": 0.6355140186915887
+        },
+        "S_in": {
+          "steps": 4,
+          "peak": 61,
+          "cost_unit": 4,
+          "kappa_unit": 15.0,
+          "cost_size": 100,
+          "kappa_size": 0.6,
+          "cost_dup": 52,
+          "kappa_dup": 1.1538461538461537
+        },
+        "spread_unit": 3.308823529411765,
+        "spread_size": 1.7558823529411764,
+        "spread_dup": 1.8156108597285068
+      },
+      {
+        "label": "h_5",
+        "input_size": 36,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 31,
+          "peak": 133,
+          "cost_unit": 31,
+          "kappa_unit": 4.258064516129032,
+          "cost_size": 457,
+          "kappa_size": 0.2888402625820569,
+          "cost_dup": 244,
+          "kappa_dup": 0.5409836065573771
+        },
+        "S_in": {
+          "steps": 5,
+          "peak": 125,
+          "cost_unit": 5,
+          "kappa_unit": 24.8,
+          "cost_size": 223,
+          "kappa_size": 0.5560538116591929,
+          "cost_dup": 114,
+          "kappa_dup": 1.087719298245614
+        },
+        "spread_unit": 5.824242424242425,
+        "spread_size": 1.925125696426145,
+        "spread_dup": 2.0106326422115894
+      },
+      {
+        "label": "h_6",
+        "input_size": 43,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 63,
+          "peak": 261,
+          "cost_unit": 63,
+          "kappa_unit": 4.126984126984127,
+          "cost_size": 987,
+          "kappa_size": 0.2634245187436677,
+          "cost_dup": 525,
+          "kappa_dup": 0.49523809523809526
+        },
+        "S_in": {
+          "steps": 6,
+          "peak": 253,
+          "cost_unit": 6,
+          "kappa_unit": 42.0,
+          "cost_size": 474,
+          "kappa_size": 0.5316455696202531,
+          "cost_dup": 240,
+          "kappa_dup": 1.05
+        },
+        "spread_unit": 10.176923076923076,
+        "spread_size": 2.018208373904576,
+        "spread_dup": 2.120192307692308
+      },
+      {
+        "label": "h_7",
+        "input_size": 50,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 127,
+          "peak": 517,
+          "cost_unit": 127,
+          "kappa_unit": 4.062992125984252,
+          "cost_size": 2061,
+          "kappa_size": 0.25036390101892286,
+          "cost_dup": 1094,
+          "kappa_dup": 0.4716636197440585
+        },
+        "S_in": {
+          "steps": 7,
+          "peak": 509,
+          "cost_unit": 7,
+          "kappa_unit": 72.57142857142857,
+          "cost_size": 981,
+          "kappa_size": 0.5178389398572885,
+          "cost_dup": 494,
+          "kappa_dup": 1.0283400809716599
+        },
+        "spread_unit": 17.86157253599114,
+        "spread_size": 2.0683450679183557,
+        "spread_dup": 2.180240404230612
+      },
+      {
+        "label": "h_8",
+        "input_size": 57,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 255,
+          "peak": 1029,
+          "cost_unit": 255,
+          "kappa_unit": 4.031372549019608,
+          "cost_size": 4223,
+          "kappa_size": 0.24342884205541085,
+          "cost_dup": 2239,
+          "kappa_dup": 0.45913354175971416
+        },
+        "S_in": {
+          "steps": 8,
+          "peak": 1021,
+          "cost_unit": 8,
+          "kappa_unit": 127.5,
+          "cost_size": 2000,
+          "kappa_size": 0.51,
+          "cost_dup": 1004,
+          "kappa_dup": 1.0159362549800797
+        },
+        "spread_unit": 31.62694552529183,
+        "spread_size": 2.095068093385214,
+        "spread_dup": 2.2127249755840452
+      },
+      {
+        "label": "h_9",
+        "input_size": 64,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 511,
+          "peak": 2053,
+          "cost_unit": 511,
+          "kappa_unit": 4.015655577299413,
+          "cost_size": 8561,
+          "kappa_size": 0.23969162481018572,
+          "cost_dup": 4536,
+          "kappa_dup": 0.4523809523809524
+        },
+        "S_in": {
+          "steps": 9,
+          "peak": 2045,
+          "cost_unit": 9,
+          "kappa_unit": 227.11111111111111,
+          "cost_size": 4043,
+          "kappa_size": 0.5055651743754638,
+          "cost_dup": 2026,
+          "kappa_dup": 1.0088845014807502
+        },
+        "spread_unit": 56.556421918995014,
+        "spread_size": 2.1092317045947104,
+        "spread_dup": 2.2301657401153423
+      },
+      {
+        "label": "h_10",
+        "input_size": 71,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 1023,
+          "peak": 4101,
+          "cost_unit": 1023,
+          "kappa_unit": 4.007820136852395,
+          "cost_size": 17251,
+          "kappa_size": 0.2376673816010666,
+          "cost_dup": 9137,
+          "kappa_dup": 0.44872496443033816
+        },
+        "S_in": {
+          "steps": 10,
+          "peak": 4093,
+          "cost_unit": 10,
+          "kappa_unit": 409.2,
+          "cost_size": 8134,
+          "kappa_size": 0.5030735185640521,
+          "cost_dup": 4072,
+          "kappa_dup": 1.0049115913555993
+        },
+        "spread_unit": 102.10039024390244,
+        "spread_size": 2.116712504572796,
+        "spread_dup": 2.2394822463941733
+      },
+      {
+        "label": "h_11",
+        "input_size": 78,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 2047,
+          "peak": 8197,
+          "cost_unit": 2047,
+          "kappa_unit": 4.00390815828041,
+          "cost_size": 34645,
+          "kappa_size": 0.23657093375667484,
+          "cost_dup": 18346,
+          "kappa_dup": 0.4467458846615066
+        },
+        "S_in": {
+          "steps": 11,
+          "peak": 8189,
+          "cost_unit": 11,
+          "kappa_unit": 744.3636363636364,
+          "cost_size": 16321,
+          "kappa_size": 0.5016849457753814,
+          "cost_dup": 8166,
+          "kappa_dup": 1.002694097477345
+        },
+        "spread_unit": 185.90926837925375,
+        "spread_size": 2.1206533609551106,
+        "spread_dup": 2.2444394719764973
+      },
+      {
+        "label": "h_12",
+        "input_size": 85,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 4095,
+          "peak": 16389,
+          "cost_unit": 4095,
+          "kappa_unit": 4.001953601953602,
+          "cost_size": 69447,
+          "kappa_size": 0.23597851599061154,
+          "cost_dup": 36771,
+          "kappa_dup": 0.44567730004623207
+        },
+        "S_in": {
+          "steps": 12,
+          "peak": 16381,
+          "cost_unit": 12,
+          "kappa_unit": 1365.0,
+          "cost_size": 32700,
+          "kappa_size": 0.5009174311926605,
+          "cost_dup": 16356,
+          "kappa_dup": 1.0014673514306676
+        },
+        "spread_unit": 341.0834146936783,
+        "spread_size": 2.1227247280959665,
+        "spread_dup": 2.2470683414362385
+      }
+    ],
+    "c": [
+      {
+        "label": "c_1",
+        "input_size": 4,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 1,
+          "peak": 4,
+          "cost_unit": 1,
+          "kappa_unit": 3.0,
+          "cost_size": 2,
+          "kappa_size": 1.5,
+          "cost_dup": 1,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 1,
+          "peak": 4,
+          "cost_unit": 1,
+          "kappa_unit": 3.0,
+          "cost_size": 2,
+          "kappa_size": 1.5,
+          "cost_dup": 1,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 1.0,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_2",
+        "input_size": 7,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 2,
+          "peak": 7,
+          "cost_unit": 2,
+          "kappa_unit": 3.0,
+          "cost_size": 7,
+          "kappa_size": 0.8571428571428571,
+          "cost_dup": 2,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 2,
+          "peak": 7,
+          "cost_unit": 2,
+          "kappa_unit": 3.0,
+          "cost_size": 4,
+          "kappa_size": 1.5,
+          "cost_dup": 2,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 1.75,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_4",
+        "input_size": 13,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 4,
+          "peak": 13,
+          "cost_unit": 4,
+          "kappa_unit": 3.0,
+          "cost_size": 26,
+          "kappa_size": 0.46153846153846156,
+          "cost_dup": 4,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 4,
+          "peak": 13,
+          "cost_unit": 4,
+          "kappa_unit": 3.0,
+          "cost_size": 8,
+          "kappa_size": 1.5,
+          "cost_dup": 4,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 3.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_8",
+        "input_size": 25,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 8,
+          "peak": 25,
+          "cost_unit": 8,
+          "kappa_unit": 3.0,
+          "cost_size": 100,
+          "kappa_size": 0.24,
+          "cost_dup": 8,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 8,
+          "peak": 25,
+          "cost_unit": 8,
+          "kappa_unit": 3.0,
+          "cost_size": 16,
+          "kappa_size": 1.5,
+          "cost_dup": 8,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 6.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_16",
+        "input_size": 49,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 16,
+          "peak": 49,
+          "cost_unit": 16,
+          "kappa_unit": 3.0,
+          "cost_size": 392,
+          "kappa_size": 0.12244897959183673,
+          "cost_dup": 16,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 16,
+          "peak": 49,
+          "cost_unit": 16,
+          "kappa_unit": 3.0,
+          "cost_size": 32,
+          "kappa_size": 1.5,
+          "cost_dup": 16,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 12.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_32",
+        "input_size": 97,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 32,
+          "peak": 97,
+          "cost_unit": 32,
+          "kappa_unit": 3.0,
+          "cost_size": 1552,
+          "kappa_size": 0.061855670103092786,
+          "cost_dup": 32,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 32,
+          "peak": 97,
+          "cost_unit": 32,
+          "kappa_unit": 3.0,
+          "cost_size": 64,
+          "kappa_size": 1.5,
+          "cost_dup": 32,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 24.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_64",
+        "input_size": 193,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 64,
+          "peak": 193,
+          "cost_unit": 64,
+          "kappa_unit": 3.0,
+          "cost_size": 6176,
+          "kappa_size": 0.031088082901554404,
+          "cost_dup": 64,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 64,
+          "peak": 193,
+          "cost_unit": 64,
+          "kappa_unit": 3.0,
+          "cost_size": 128,
+          "kappa_size": 1.5,
+          "cost_dup": 64,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 48.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_128",
+        "input_size": 385,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 128,
+          "peak": 385,
+          "cost_unit": 128,
+          "kappa_unit": 3.0,
+          "cost_size": 24640,
+          "kappa_size": 0.015584415584415584,
+          "cost_dup": 128,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 128,
+          "peak": 385,
+          "cost_unit": 128,
+          "kappa_unit": 3.0,
+          "cost_size": 256,
+          "kappa_size": 1.5,
+          "cost_dup": 128,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 96.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_256",
+        "input_size": 769,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 256,
+          "peak": 769,
+          "cost_unit": 256,
+          "kappa_unit": 3.0,
+          "cost_size": 98432,
+          "kappa_size": 0.007802340702210663,
+          "cost_dup": 256,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 256,
+          "peak": 769,
+          "cost_unit": 256,
+          "kappa_unit": 3.0,
+          "cost_size": 512,
+          "kappa_size": 1.5,
+          "cost_dup": 256,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 192.25,
+        "spread_dup": 1.0
+      },
+      {
+        "label": "c_512",
+        "input_size": 1537,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 512,
+          "peak": 1537,
+          "cost_unit": 512,
+          "kappa_unit": 3.0,
+          "cost_size": 393472,
+          "kappa_size": 0.003903708523096942,
+          "cost_dup": 512,
+          "kappa_dup": 3.0
+        },
+        "S_in": {
+          "steps": 512,
+          "peak": 1537,
+          "cost_unit": 512,
+          "kappa_unit": 3.0,
+          "cost_size": 1024,
+          "kappa_size": 1.5,
+          "cost_dup": 512,
+          "kappa_dup": 3.0
+        },
+        "spread_unit": 1.0,
+        "spread_size": 384.25,
+        "spread_dup": 1.0
+      }
+    ],
+    "g": [
+      {
+        "label": "g_1_2",
+        "input_size": 14,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 5,
+          "peak": 17,
+          "cost_unit": 5,
+          "kappa_unit": 3.2,
+          "cost_size": 29,
+          "kappa_size": 0.5517241379310345,
+          "cost_dup": 12,
+          "kappa_dup": 1.3333333333333333
+        },
+        "S_in": {
+          "steps": 3,
+          "peak": 14,
+          "cost_unit": 3,
+          "kappa_unit": 4.333333333333333,
+          "cost_size": 7,
+          "kappa_size": 1.8571428571428572,
+          "cost_dup": 4,
+          "kappa_dup": 3.25
+        },
+        "spread_unit": 1.3541666666666665,
+        "spread_size": 3.366071428571429,
+        "spread_dup": 2.4375
+      },
+      {
+        "label": "g_1_8",
+        "input_size": 32,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 17,
+          "peak": 53,
+          "cost_unit": 17,
+          "kappa_unit": 3.0588235294117645,
+          "cost_size": 251,
+          "kappa_size": 0.20717131474103587,
+          "cost_dup": 42,
+          "kappa_dup": 1.2380952380952381
+        },
+        "S_in": {
+          "steps": 9,
+          "peak": 32,
+          "cost_unit": 9,
+          "kappa_unit": 3.4444444444444446,
+          "cost_size": 19,
+          "kappa_size": 1.631578947368421,
+          "cost_dup": 10,
+          "kappa_dup": 3.1
+        },
+        "spread_unit": 1.1260683760683763,
+        "spread_size": 7.875506072874494,
+        "spread_dup": 2.503846153846154
+      },
+      {
+        "label": "g_1_32",
+        "input_size": 104,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 65,
+          "peak": 197,
+          "cost_unit": 65,
+          "kappa_unit": 3.0153846153846153,
+          "cost_size": 3299,
+          "kappa_size": 0.059411943013034256,
+          "cost_dup": 162,
+          "kappa_dup": 1.2098765432098766
+        },
+        "S_in": {
+          "steps": 33,
+          "peak": 104,
+          "cost_unit": 33,
+          "kappa_unit": 3.121212121212121,
+          "cost_size": 67,
+          "kappa_size": 1.537313432835821,
+          "cost_dup": 34,
+          "kappa_dup": 3.0294117647058822
+        },
+        "spread_unit": 1.035095856524428,
+        "spread_size": 25.875494974109046,
+        "spread_dup": 2.5039015606242496
+      },
+      {
+        "label": "g_2_2",
+        "input_size": 21,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 11,
+          "peak": 34,
+          "cost_unit": 11,
+          "kappa_unit": 3.0,
+          "cost_size": 87,
+          "kappa_size": 0.3793103448275862,
+          "cost_dup": 39,
+          "kappa_dup": 0.8461538461538461
+        },
+        "S_in": {
+          "steps": 4,
+          "peak": 21,
+          "cost_unit": 4,
+          "kappa_unit": 5.0,
+          "cost_size": 18,
+          "kappa_size": 1.1111111111111112,
+          "cost_dup": 10,
+          "kappa_dup": 2.0
+        },
+        "spread_unit": 1.6666666666666667,
+        "spread_size": 2.9292929292929295,
+        "spread_dup": 2.3636363636363638
+      },
+      {
+        "label": "g_2_8",
+        "input_size": 39,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 35,
+          "peak": 88,
+          "cost_unit": 35,
+          "kappa_unit": 2.4857142857142858,
+          "cost_size": 567,
+          "kappa_size": 0.15343915343915343,
+          "cost_dup": 117,
+          "kappa_dup": 0.7435897435897436
+        },
+        "S_in": {
+          "steps": 10,
+          "peak": 39,
+          "cost_unit": 10,
+          "kappa_unit": 3.8,
+          "cost_size": 30,
+          "kappa_size": 1.2666666666666666,
+          "cost_dup": 16,
+          "kappa_dup": 2.375
+        },
+        "spread_unit": 1.5287356321839078,
+        "spread_size": 8.255172413793103,
+        "spread_dup": 3.193965517241379
+      },
+      {
+        "label": "g_2_32",
+        "input_size": 111,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 131,
+          "peak": 304,
+          "cost_unit": 131,
+          "kappa_unit": 2.312977099236641,
+          "cost_size": 6807,
+          "kappa_size": 0.04451300132216836,
+          "cost_dup": 429,
+          "kappa_dup": 0.7062937062937062
+        },
+        "S_in": {
+          "steps": 34,
+          "peak": 111,
+          "cost_unit": 34,
+          "kappa_unit": 3.235294117647059,
+          "cost_size": 78,
+          "kappa_size": 1.4102564102564104,
+          "cost_dup": 40,
+          "kappa_dup": 2.75
+        },
+        "spread_unit": 1.3987575228111047,
+        "spread_size": 31.681898959126684,
+        "spread_dup": 3.8935643564356437
+      },
+      {
+        "label": "g_3_2",
+        "input_size": 28,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 23,
+          "peak": 58,
+          "cost_unit": 23,
+          "kappa_unit": 2.4782608695652173,
+          "cost_size": 217,
+          "kappa_size": 0.2626728110599078,
+          "cost_dup": 100,
+          "kappa_dup": 0.57
+        },
+        "S_in": {
+          "steps": 5,
+          "peak": 29,
+          "cost_unit": 5,
+          "kappa_unit": 5.6,
+          "cost_size": 45,
+          "kappa_size": 0.6222222222222222,
+          "cost_dup": 24,
+          "kappa_dup": 1.1666666666666667
+        },
+        "spread_unit": 2.2596491228070175,
+        "spread_size": 2.3688109161793376,
+        "spread_dup": 2.0467836257309946
+      },
+      {
+        "label": "g_3_8",
+        "input_size": 46,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 71,
+          "peak": 130,
+          "cost_unit": 71,
+          "kappa_unit": 1.8169014084507042,
+          "cost_size": 1213,
+          "kappa_size": 0.10634789777411377,
+          "cost_dup": 274,
+          "kappa_dup": 0.4708029197080292
+        },
+        "S_in": {
+          "steps": 11,
+          "peak": 46,
+          "cost_unit": 11,
+          "kappa_unit": 4.090909090909091,
+          "cost_size": 57,
+          "kappa_size": 0.7894736842105263,
+          "cost_dup": 30,
+          "kappa_dup": 1.5
+        },
+        "spread_unit": 2.251585623678647,
+        "spread_size": 7.423500611995104,
+        "spread_dup": 3.1860465116279073
+      },
+      {
+        "label": "g_3_32",
+        "input_size": 118,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 263,
+          "peak": 418,
+          "cost_unit": 263,
+          "kappa_unit": 1.585551330798479,
+          "cost_size": 13837,
+          "kappa_size": 0.030136590301365902,
+          "cost_dup": 970,
+          "kappa_dup": 0.4298969072164949
+        },
+        "S_in": {
+          "steps": 35,
+          "peak": 118,
+          "cost_unit": 35,
+          "kappa_unit": 3.342857142857143,
+          "cost_size": 105,
+          "kappa_size": 1.1142857142857143,
+          "cost_dup": 54,
+          "kappa_dup": 2.1666666666666665
+        },
+        "spread_unit": 2.1083247687564235,
+        "spread_size": 36.97451181911614,
+        "spread_dup": 5.039968025579536
+      },
+      {
+        "label": "g_4_2",
+        "input_size": 35,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 47,
+          "peak": 90,
+          "cost_unit": 47,
+          "kappa_unit": 1.8936170212765957,
+          "cost_size": 491,
+          "kappa_size": 0.18126272912423624,
+          "cost_dup": 229,
+          "kappa_dup": 0.388646288209607
+        },
+        "S_in": {
+          "steps": 6,
+          "peak": 61,
+          "cost_unit": 6,
+          "kappa_unit": 10.0,
+          "cost_size": 104,
+          "kappa_size": 0.5769230769230769,
+          "cost_dup": 54,
+          "kappa_dup": 1.1111111111111112
+        },
+        "spread_unit": 5.280898876404494,
+        "spread_size": 3.182800345721694,
+        "spread_dup": 2.8589263420724094
+      },
+      {
+        "label": "g_4_8",
+        "input_size": 53,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 143,
+          "peak": 179,
+          "cost_unit": 143,
+          "kappa_unit": 1.2447552447552448,
+          "cost_size": 2519,
+          "kappa_size": 0.07066296149265582,
+          "cost_dup": 595,
+          "kappa_dup": 0.2991596638655462
+        },
+        "S_in": {
+          "steps": 12,
+          "peak": 61,
+          "cost_unit": 12,
+          "kappa_unit": 5.0,
+          "cost_size": 116,
+          "kappa_size": 0.5172413793103449,
+          "cost_dup": 60,
+          "kappa_dup": 1.0
+        },
+        "spread_unit": 4.01685393258427,
+        "spread_size": 7.319837272375049,
+        "spread_dup": 3.342696629213483
+      },
+      {
+        "label": "g_4_32",
+        "input_size": 125,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 527,
+          "peak": 539,
+          "cost_unit": 527,
+          "kappa_unit": 1.0208728652751422,
+          "cost_size": 27911,
+          "kappa_size": 0.019275554440901437,
+          "cost_dup": 2059,
+          "kappa_dup": 0.26129188926663427
+        },
+        "S_in": {
+          "steps": 36,
+          "peak": 125,
+          "cost_unit": 36,
+          "kappa_unit": 3.4444444444444446,
+          "cost_size": 164,
+          "kappa_size": 0.7560975609756098,
+          "cost_dup": 84,
+          "kappa_dup": 1.4761904761904763
+        },
+        "spread_unit": 3.374019000413053,
+        "spread_size": 39.22572309366216,
+        "spread_dup": 5.649583997167641
+      },
+      {
+        "label": "g_5_2",
+        "input_size": 42,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 95,
+          "peak": 154,
+          "cost_unit": 95,
+          "kappa_unit": 1.6105263157894736,
+          "cost_size": 1053,
+          "kappa_size": 0.1452991452991453,
+          "cost_dup": 494,
+          "kappa_dup": 0.3097165991902834
+        },
+        "S_in": {
+          "steps": 7,
+          "peak": 125,
+          "cost_unit": 7,
+          "kappa_unit": 17.714285714285715,
+          "cost_size": 227,
+          "kappa_size": 0.5462555066079295,
+          "cost_dup": 116,
+          "kappa_dup": 1.0689655172413792
+        },
+        "spread_unit": 10.999066293183942,
+        "spread_size": 3.7595231925369266,
+        "spread_dup": 3.4514311471715122
+      },
+      {
+        "label": "g_5_8",
+        "input_size": 60,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 287,
+          "peak": 243,
+          "cost_unit": 287,
+          "kappa_unit": 0.8432055749128919,
+          "cost_size": 5145,
+          "kappa_size": 0.047035957240038874,
+          "cost_dup": 1244,
+          "kappa_dup": 0.1945337620578778
+        },
+        "S_in": {
+          "steps": 13,
+          "peak": 125,
+          "cost_unit": 13,
+          "kappa_unit": 9.538461538461538,
+          "cost_size": 239,
+          "kappa_size": 0.5188284518828452,
+          "cost_dup": 122,
+          "kappa_dup": 1.0163934426229508
+        },
+        "spread_unit": 11.312142403051494,
+        "spread_size": 11.030464400567102,
+        "spread_dup": 5.224766291830376
+      },
+      {
+        "label": "g_5_32",
+        "input_size": 132,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 1055,
+          "peak": 667,
+          "cost_unit": 1055,
+          "kappa_unit": 0.6312796208530805,
+          "cost_size": 56073,
+          "kappa_size": 0.011877374137285325,
+          "cost_dup": 4244,
+          "kappa_dup": 0.15692742695570217
+        },
+        "S_in": {
+          "steps": 37,
+          "peak": 132,
+          "cost_unit": 37,
+          "kappa_unit": 3.5405405405405403,
+          "cost_size": 287,
+          "kappa_size": 0.4564459930313589,
+          "cost_dup": 146,
+          "kappa_dup": 0.8972602739726028
+        },
+        "spread_unit": 5.60851391932473,
+        "spread_size": 38.429874124996076,
+        "spread_dup": 5.71767658069028
+      },
+      {
+        "label": "g_6_2",
+        "input_size": 49,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 191,
+          "peak": 282,
+          "cost_unit": 191,
+          "kappa_unit": 1.4712041884816753,
+          "cost_size": 2191,
+          "kappa_size": 0.1282519397535372,
+          "cost_dup": 1031,
+          "kappa_dup": 0.2725509214354995
+        },
+        "S_in": {
+          "steps": 8,
+          "peak": 253,
+          "cost_unit": 8,
+          "kappa_unit": 31.5,
+          "cost_size": 478,
+          "kappa_size": 0.5271966527196653,
+          "cost_dup": 242,
+          "kappa_dup": 1.0413223140495869
+        },
+        "spread_unit": 21.41103202846975,
+        "spread_size": 4.1106329754761095,
+        "spread_dup": 3.82065233375489
+      },
+      {
+        "label": "g_6_8",
+        "input_size": 67,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 575,
+          "peak": 371,
+          "cost_unit": 575,
+          "kappa_unit": 0.6434782608695652,
+          "cost_size": 10411,
+          "kappa_size": 0.035539333397368165,
+          "cost_dup": 2549,
+          "kappa_dup": 0.14515496273048253
+        },
+        "S_in": {
+          "steps": 14,
+          "peak": 253,
+          "cost_unit": 14,
+          "kappa_unit": 18.0,
+          "cost_size": 490,
+          "kappa_size": 0.5142857142857142,
+          "cost_dup": 248,
+          "kappa_dup": 1.0161290322580645
+        },
+        "spread_unit": 27.972972972972975,
+        "spread_size": 14.47088803088803,
+        "spread_dup": 7.000305143853531
+      },
+      {
+        "label": "g_6_32",
+        "input_size": 139,
+        "same_normal_form": true,
+        "bound_violations": [],
+        "S_out": {
+          "steps": 2111,
+          "peak": 802,
+          "cost_unit": 2111,
+          "kappa_unit": 0.379441023211748,
+          "cost_size": 112411,
+          "kappa_size": 0.007125637170739519,
+          "cost_dup": 8621,
+          "kappa_dup": 0.0929126551444148
+        },
+        "S_in": {
+          "steps": 38,
+          "peak": 253,
+          "cost_unit": 38,
+          "kappa_unit": 6.631578947368421,
+          "cost_size": 538,
+          "kappa_size": 0.4684014869888476,
+          "cost_dup": 272,
+          "kappa_dup": 0.9264705882352942
+        },
+        "spread_unit": 17.477232406859848,
+        "spread_size": 65.73468109101542,
+        "spread_dup": 9.971414408460014
+      }
+    ]
+  }
+}
