@@ -79,6 +79,14 @@ verification system.
   and leaves it growing where it is. The first experiment run under
   [`AGENTS.md`](AGENTS.md) clause 8, with two attributed predictions scored by
   name on every green run;
+- [`experiments/KAPPA-EXP-008-preregistration.md`](experiments/KAPPA-EXP-008-preregistration.md)
+  and [`experiments/kappa-exp-008/RESULT.md`](experiments/kappa-exp-008/RESULT.md)
+  — optimal reduction. A sharing graph collapses the separation to exactly
+  `1.0000` on both families, so the binder boundary dissolves; `e_4` normalises
+  to `s^65536 z` in 121 interactions from a graph of 52 nodes. The bookkeeping
+  share does not explode on these families, and the preregistered A3 turns out
+  to be unfalsifiable on an interaction net, which is recorded as an erratum
+  candidate rather than absorbed;
 - [`reviews/`](reviews/) — [Codex's review](reviews/codex-2026-08-26.md), an adversarial
   review of `main` at `d61e6da` with verdict `CHANGES REQUESTED`;
   [Claude Fable's review](reviews/claude-fable-2026-08-26.md) of `9dd7e18`, whose
