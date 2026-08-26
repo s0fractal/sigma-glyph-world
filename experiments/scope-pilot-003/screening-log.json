@@ -1,0 +1,1156 @@
+{
+  "pilot": "SCOPE-PILOT-003",
+  "codebook_sha256": "3c9261450ffe3553a984788e5f764cc4f829624155b53b5272ae4ebc3f7f8e01",
+  "order_sha256": "2e3d00332101e7ce90e4d186584b4b5cb09906f6bf337d869091dd6600f12bfb",
+  "entries": [
+    {
+      "position": 1,
+      "url": "https://github.com/vitest-dev/vitest/issues/2678",
+      "repository": "vitest-dev/vitest",
+      "repository_id": 434708679,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:23.580268+00:00",
+      "evidence_sha256": {
+        "issue": "e7d87f56f589330c8cf9ff6d6ea0001f95b3ab804fef9fd76f5bd34876350c0a",
+        "comments": "10fb306466c6fa0f145c7d43b5d831a176acc0df47c55b3770b856aa148427e0"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Package installation failure: the esbuild postinstall script rejected a version mismatch and the install exited 1. No automated verification control and no governing success signal are at issue, and nothing was falsely accepted.",
+      "evidence_urls": [
+        "https://github.com/vitest-dev/vitest/issues/2678"
+      ]
+    },
+    {
+      "position": 2,
+      "url": "https://github.com/jestjs/jest/issues/11041",
+      "repository": "jestjs/jest",
+      "repository_id": 15062869,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:24.525824+00:00",
+      "evidence_sha256": {
+        "issue": "be7a35b4f82a0eb188efc4ca8f43dfd64b26d9b34a4b64d01583a135d8d6431d",
+        "comments": "50eeb1004d0eb0586559370351e3b365e6f50a03da4ff6082167334a91ecb91d"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "A testMatch glob change caused Jest to discover no test files, but the named governing gate rejected: 'No tests found, exiting with code 1'. Codebook v1 places a check that failed closed OUT_OF_SCOPE even though the selector behavior is the mechanism of interest.",
+      "evidence_urls": [
+        "https://github.com/jestjs/jest/issues/11041"
+      ]
+    },
+    {
+      "position": 3,
+      "url": "https://github.com/NixOS/nixpkgs/issues/82428",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:25.574167+00:00",
+      "evidence_sha256": {
+        "issue": "c628c016c0e7f9f083f25d3f30afb702608184189ef977c754f61fed622c5409",
+        "comments": "bcd9d6d995354dc494415febcd1e23a7edb2124e644f194ded39e77842111f6b"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "A NixOS module built with withoutClient cannot run mysql initialization. Maintainers adjudicated it as intended behavior of the module under test. The nixos test invoked reports the failure; the incident concerns the packaged product, not a verification control that accepted.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/82428"
+      ]
+    },
+    {
+      "position": 4,
+      "url": "https://github.com/NixOS/nixpkgs/issues/87533",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:26.625129+00:00",
+      "evidence_sha256": {
+        "issue": "ea9597e6576e9dd20accb751340827d8712e7f12b45aa7b264b6848ebf1fa28c",
+        "comments": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Flatpak application cannot reach org.freedesktop.secrets. A desktop runtime defect with no automated verification control, no governing success signal, and no maintainer adjudication in the record.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/87533"
+      ]
+    },
+    {
+      "position": 5,
+      "url": "https://github.com/rocq-prover/rocq/issues/16643",
+      "repository": "rocq-prover/rocq",
+      "repository_id": 1377159,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:27.557555+00:00",
+      "evidence_sha256": {
+        "issue": "8eebe7646f2f95f309542ffc4e655bfaef6f24134105f8be2dc9d29f67ef83e4",
+        "comments": "af81d51a15f2660b01269ff45dcfdf8d046ba1ce393ea8d9cc0fcf3ca4703f3e"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "coqide 8.16.0 fails to link on macOS arm64; the build reported exit code 1 and the issue was closed for lack of response after a year. The control reported the defect correctly; nothing was accepted.",
+      "evidence_urls": [
+        "https://github.com/rocq-prover/rocq/issues/16643"
+      ]
+    },
+    {
+      "position": 6,
+      "url": "https://github.com/astral-sh/ruff/issues/1301",
+      "repository": "astral-sh/ruff",
+      "repository_id": 523043277,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:28.768115+00:00",
+      "evidence_sha256": {
+        "issue": "02d687276d905c126146ea2677d1a269e5c824f51ed2bac29663016aa84b0520",
+        "comments": "31dde55080dc13dd78613e123da3e6ac76280fc002ba4a8001e12726729b392f"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Ruff checks config-excluded files when they are passed explicitly on the command line. The maintainer adjudicated this as intended and pointed to --force-exclude. The behavior is over-inclusion of scope, not acceptance, omission, or false success, so admission gate 2 is unmet.",
+      "evidence_urls": [
+        "https://github.com/astral-sh/ruff/issues/1301"
+      ]
+    },
+    {
+      "position": 7,
+      "url": "https://github.com/NixOS/nixpkgs/issues/81933",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:29.815521+00:00",
+      "evidence_sha256": {
+        "issue": "6828a75274ed8fb23fee65ce2cbf1043d1d8ac4b79ea8b8e37c2a42b58729069",
+        "comments": "20d7c37bc8d513fb8f3326ecf601b4dde972b159ce83b151e2a4fbf3ba23dd6b"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "An nvidiaLegacy390 store-path collision aborted a NixOS system build. The reporter traced it to their own bumblebee configuration and closed the issue. The build failed closed on a configuration defect.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/81933"
+      ]
+    },
+    {
+      "position": 8,
+      "url": "https://github.com/jestjs/jest/issues/10895",
+      "repository": "jestjs/jest",
+      "repository_id": 15062869,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:30.813304+00:00",
+      "evidence_sha256": {
+        "issue": "dd913774a979c43daad70dffb2f784a4946ba0e1f505f27126ca7addbb2103e2",
+        "comments": "8af6ac064365e9f0b3ed3765ead0ca8579630b174cbdee9e6e8c73ffc565c9fe"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Feature proposal for deadline-aware timeout errors in Jest, closed as stale and not planned. No incident, no observed control outcome, no governing signal.",
+      "evidence_urls": [
+        "https://github.com/jestjs/jest/issues/10895"
+      ]
+    },
+    {
+      "position": 9,
+      "url": "https://github.com/koalaman/shellcheck/issues/2213",
+      "repository": "koalaman/shellcheck",
+      "repository_id": 6731432,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:31.941336+00:00",
+      "evidence_sha256": {
+        "issue": "870409bbecdba06c53e4146c4e54157446916cfb5209527d7f9efd67d790f6df",
+        "comments": "77f7a09acead8d4aa171c062e546f7de99c63dac60c66b00be192c2800f0b84f"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "Proposal that ShellCheck warn about a comma in printf arguments. ShellCheck's silence is a reproducible acceptance, but the claimed contract rests on reporter expectation alone and the owner adjudicated against adding the rule after measuring false positives. Retained in the calibration log as a T4-only contract.",
+      "evidence_urls": [
+        "https://github.com/koalaman/shellcheck/issues/2213"
+      ]
+    },
+    {
+      "position": 10,
+      "url": "https://github.com/jestjs/jest/issues/11373",
+      "repository": "jestjs/jest",
+      "repository_id": 15062869,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:32.803110+00:00",
+      "evidence_sha256": {
+        "issue": "90537942925f34ffde30330b3eea8cbfe0c981dc9a0b6e83c6ccc968179160c7",
+        "comments": "c53d5bee105ef4d1163fd4731aaf383fe5fa56a39144e237f2202daa46e356d5"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "Jest cannot resolve a pure-ESM dependency exposing only 'exports'. The suite reported 'Test suite failed to run' and the maintainer referenced the tracked exports-support gap. The check failed closed.",
+      "evidence_urls": [
+        "https://github.com/jestjs/jest/issues/11373"
+      ]
+    },
+    {
+      "position": 11,
+      "url": "https://github.com/microsoft/playwright/issues/10500",
+      "repository": "microsoft/playwright",
+      "repository_id": 221981891,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:33.834927+00:00",
+      "evidence_sha256": {
+        "issue": "f869fead28aa4601264eaa25852341baa017ad81db408e7c1abd8494787182d3",
+        "comments": "1ed1d12f4d140b683d884fb6cac34f15ed4cb3365e84c0ed1de42740fabeb135"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Feature request for a Playwright flag re-running the previous run's failures. No incident and no governing success signal.",
+      "evidence_urls": [
+        "https://github.com/microsoft/playwright/issues/10500"
+      ]
+    },
+    {
+      "position": 12,
+      "url": "https://github.com/mochajs/mocha/issues/4708",
+      "repository": "mochajs/mocha",
+      "repository_id": 1451352,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:57:33.212439+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:55:35.167059+00:00",
+      "evidence_sha256": {
+        "issue": "b1ca4430f51bd3df2eebd187ba6e7bb1ace04321fa0e67c9dee7cbf37206c7b3",
+        "comments": "454a277628315eb5425e82f516cbd110ad17c46d611ba31fdb6f41d36eb9594b"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Reported mochaGlobalSetup timeout. The maintainer could not reproduce it from the supplied gist, the reporter twice restated the symptom, and finally withdrew it as self-resolved. No causal evidence of a false acceptance survives.",
+      "evidence_urls": [
+        "https://github.com/mochajs/mocha/issues/4708"
+      ]
+    },
+    {
+      "position": 13,
+      "url": "https://github.com/docker/build-push-action/issues/934",
+      "repository": "docker/build-push-action",
+      "repository_id": 241092383,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:32.961440+00:00",
+      "evidence_sha256": {
+        "issue": "09116c2b2d677cbaa560c14ce6b2f159b59e97a525f77ca88415d2079ed1a733",
+        "comments": "1f36a87b371bb641b2d7675e312b6a0551f6b1d315c35eae8f85f43d96ea3e96"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "A docker build failed to calculate a checksum for a COPY source. The build rejected the input, the maintainer could not relate it to the action and closed for lack of a minimal repro, and the reporter states the Dockerfile runs under Jenkins. Build context defect, no false acceptance.",
+      "evidence_urls": [
+        "https://github.com/docker/build-push-action/issues/934"
+      ]
+    },
+    {
+      "position": 14,
+      "url": "https://github.com/microsoft/playwright/issues/8849",
+      "repository": "microsoft/playwright",
+      "repository_id": 221981891,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:33.899913+00:00",
+      "evidence_sha256": {
+        "issue": "a26ebf4d729e24f4a81b1a3fd3bf57c40d6fddbf4b909bd0a5be96fb3374eb86",
+        "comments": "93bb38973e23eabd0a78613ffa229c0bd3dd1d4500b022d5cbc507ca8e69942e"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "A test that passed on retry was reported as flaky and the CI job failed. The maintainer states the run exited 0; a later participant reports the opposite direction, all tests passing while the process exits 1. Every evidenced outcome is a rejection, not an acceptance, so the governing gate failed closed.",
+      "evidence_urls": [
+        "https://github.com/microsoft/playwright/issues/8849"
+      ]
+    },
+    {
+      "position": 15,
+      "url": "https://github.com/semgrep/semgrep/issues/6055",
+      "repository": "semgrep/semgrep",
+      "repository_id": 227803815,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:34.927767+00:00",
+      "evidence_sha256": {
+        "issue": "00d60ee4a253958546aeae4660fcd751707e35900c0d99cd7f2bd12e6c5b950a",
+        "comments": "6a1aa104c15ee403965fccb3679f059537711e43a03b23d9630ad7883fd0a2db"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The Solidity parser ignored `unchecked`, so a pattern matched the enclosing function body and semgrep emitted two matches instead of one. The maintainer confirmed and fixed it in 1.6.0. The evidenced outcome is over-matching; no acceptance, omission, or false success is demonstrated, so admission gate 2 is unmet.",
+      "evidence_urls": [
+        "https://github.com/semgrep/semgrep/issues/6055"
+      ]
+    },
+    {
+      "position": 16,
+      "url": "https://github.com/microsoft/playwright/issues/12060",
+      "repository": "microsoft/playwright",
+      "repository_id": 221981891,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:36.122755+00:00",
+      "evidence_sha256": {
+        "issue": "cd7ae0dc94e0c037689c712d00bdae94b64b80747be3752bc37291329f685af1",
+        "comments": "16e47b79a65eba8e1a64a474f65d2a3c88e09e278feb061e74f7d38b153f663e"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "Tests registered inside an async callback in a describe block are never collected and the run fails with no tests found. This is the empty-effective-scope shape, but the named gate rejected rather than accepted, and the maintainer adjudicated the pattern as unsupported. Retained as a fenced negative case.",
+      "evidence_urls": [
+        "https://github.com/microsoft/playwright/issues/12060"
+      ]
+    },
+    {
+      "position": 17,
+      "url": "https://github.com/NixOS/nixpkgs/issues/78444",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:37.402197+00:00",
+      "evidence_sha256": {
+        "issue": "e8cd4bb69a115f2f1cb76ac7462b46cf3aa5a8ebf5f89c6cb28c1abfe5acda64",
+        "comments": "13b64962fd27d9e3af28fbd82f3e009acfffedd1657de9659c9390aaf9dfee45"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "The poetry package was built against python3.7 so a pip install under python3.8 failed to import it. Packaging defect surfaced by a build that failed closed; closed as no longer relevant after unrelated pull requests.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/78444"
+      ]
+    },
+    {
+      "position": 18,
+      "url": "https://github.com/microsoft/playwright/issues/5901",
+      "repository": "microsoft/playwright",
+      "repository_id": 221981891,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:38.449597+00:00",
+      "evidence_sha256": {
+        "issue": "b7ea38d9332e6e6eae69a0b3b207defcc4a0f2744013a6f43d19fee6ad629105",
+        "comments": "bcc72b202e06a5bc69362436fd3326709bd1cf759d43819eff49231edaf167aa"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "browserType.launch aborted because the host was missing libenchant.so.1. A host-environment dependency defect reported as an explicit launch failure; the maintainer pointed to playwright install-deps. Nothing was accepted.",
+      "evidence_urls": [
+        "https://github.com/microsoft/playwright/issues/5901"
+      ]
+    },
+    {
+      "position": 19,
+      "url": "https://github.com/mochajs/mocha/issues/4526",
+      "repository": "mochajs/mocha",
+      "repository_id": 1451352,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:39.592540+00:00",
+      "evidence_sha256": {
+        "issue": "9dee3142e1dd8967c798d0ba588520ce83dc94100902bd11f501ba00d2a5d4d4",
+        "comments": "73a1d321d2f6186433dc0c51e6f872deb284076663fa297e9584381e29a2c77a"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The xunit reporter does not strip ANSI escapes, so it emits XML containing #x1B, which the cited W3C Char production forbids. This localizes an adapter defect against a T1 contract, but the packet contains no evidence of what any governing gate did with the invalid report. Near-miss on admission gate 2; retained as a calibration case for adapter-only evidence.",
+      "evidence_urls": [
+        "https://github.com/mochajs/mocha/issues/4526"
+      ]
+    },
+    {
+      "position": 20,
+      "url": "https://github.com/ossf/scorecard/issues/2426",
+      "repository": "ossf/scorecard",
+      "repository_id": 302670797,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:40.545499+00:00",
+      "evidence_sha256": {
+        "issue": "b42b04cdbe28e71780903a52e776528b07ee79597439f2f2d24d38ea2b39cff1",
+        "comments": "4963c1cde2c88769c3ce26f671cf41b7730018a5300d8960c213874be5091710"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "A reporter believed adding CI tests lowered their Scorecard aggregate, then determined in the same thread that the change came from Token-Permissions. No control misbehavior survives.",
+      "evidence_urls": [
+        "https://github.com/ossf/scorecard/issues/2426"
+      ]
+    },
+    {
+      "position": 21,
+      "url": "https://github.com/eslint/eslint/issues/15678",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:41.595403+00:00",
+      "evidence_sha256": {
+        "issue": "3d77f32ade5222733384dd6c7c56d0baf80409a3c1cc9e2778ca01e7237b782d",
+        "comments": "91defef504e83d2a1f72c59c18315a3922d58a4a52a68a1eef8772b503e0370f"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "A Vue/Webpack build failed after upgrading ESLint to 8.x. The maintainer localized the error to html-webpack-plugin, not ESLint, and the issue was archived with repro:needed. The build failed closed on a third-party plugin defect.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/15678"
+      ]
+    },
+    {
+      "position": 22,
+      "url": "https://github.com/eslint/eslint/issues/17213",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:43.054496+00:00",
+      "evidence_sha256": {
+        "issue": "f9bceb9ff18ba848c726f8e011191ecee682bd28d3f562ece92a5e6a27eca9f4",
+        "comments": "43f273ed84e8b541a160ac7048e9fab0521fd915a9c4a4da17e6ae8a3908fca7"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "In flat config, a non-global `ignores` pattern matching a directory does not exclude that tree, while the identical global pattern does. Maintainers accepted the inconsistency and changed the behavior upstream. The evidenced direction is over-inclusion of scope: files are linted that the author expected to be skipped. No acceptance or omission is demonstrated.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/17213"
+      ]
+    },
+    {
+      "position": 23,
+      "url": "https://github.com/python/mypy/issues/11383",
+      "repository": "python/mypy",
+      "repository_id": 7053637,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:44.222155+00:00",
+      "evidence_sha256": {
+        "issue": "714ad635b07ac3b216371ebcdc2de4c1d11fa7df3217b12a36f3d9fd49bb6ae0",
+        "comments": "d2caba283e7fe51bc2e2e12814405aab2ec7be317509bca915ef1f598f0d2bb5"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "Reported inconsistency between --allow-untyped-defs and --disable-error-code no-untyped-def. The reporter corrected their own expectation mid-thread and a collaborator supplied a working flag combination without confirming a breach. The claimed meaning of success rests on reporter expectation alone.",
+      "evidence_urls": [
+        "https://github.com/python/mypy/issues/11383"
+      ]
+    },
+    {
+      "position": 24,
+      "url": "https://github.com/docker/build-push-action/issues/740",
+      "repository": "docker/build-push-action",
+      "repository_id": 241092383,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T13:58:49.675758+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:56:45.291289+00:00",
+      "evidence_sha256": {
+        "issue": "a2acc58c295b3652176a1c4fdcc28e17863bc18a66ec2581c836f07f9e34911f",
+        "comments": "e1187a72362c59d2c235aa69b3c596a5c63efbf360bf966495b2f9f93199978e"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Registry cache was not reused because the workflow set cache-from without cache-to. A build-cache configuration question adjudicated against the reporter; no verification control and no governing success signal are at issue.",
+      "evidence_urls": [
+        "https://github.com/docker/build-push-action/issues/740"
+      ]
+    },
+    {
+      "position": 25,
+      "url": "https://github.com/golangci/golangci-lint/issues/3069",
+      "repository": "golangci/golangci-lint",
+      "repository_id": 132145189,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:49.766398+00:00",
+      "evidence_sha256": {
+        "issue": "dc84b348c144715f507848be3f96e3be562103c3ff871451bdea5339c07b530e",
+        "comments": "b5e3072ecabf5025dd0eaefbbccfdee9f17f5abb4bd6627b4d0b57a58566c8d5"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "The gofmt linter failed in the GitHub action but not locally, because the action's Go toolchain differed from the one declared in the workflow. This has the shape of a result/environment identity mismatch, but the governing check failed closed: the action reported issues and the job failed. Closed in favor of an issue on the action repository.",
+      "evidence_urls": [
+        "https://github.com/golangci/golangci-lint/issues/3069"
+      ]
+    },
+    {
+      "position": 26,
+      "url": "https://github.com/NixOS/nixpkgs/issues/126285",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:50.933708+00:00",
+      "evidence_sha256": {
+        "issue": "65170302bc224d19244104641e8dda6aca64573e599378e8788f243d460dc0b6",
+        "comments": "f7137476c5f5b404754de11a5d0d67eb3924da0f89d598cb7bb98827dbc7e5cd"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Telegram Desktop crashes during calls because of an RTC_DCHECK assertion in the packaged libtgvoip. An application runtime defect with no verification control and no governing success signal.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/126285"
+      ]
+    },
+    {
+      "position": 27,
+      "url": "https://github.com/NixOS/nixpkgs/issues/76761",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:52.048975+00:00",
+      "evidence_sha256": {
+        "issue": "82f8046b70cebe38f141190e42ea3ae57c9c6a6af558ef33ce199d6b08ba6721",
+        "comments": "9a3a15409959a12f83fac52b8e8b11c027ac22944e6454d2f89bfb5d6764e6a8"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "writers.writeC cannot use its declared libraries; the derivation build failed with exit code 1. Stale-closed with the note that writeC no longer exists. The build reported the defect; nothing was accepted.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/76761"
+      ]
+    },
+    {
+      "position": 28,
+      "url": "https://github.com/semgrep/semgrep/issues/1086",
+      "repository": "semgrep/semgrep",
+      "repository_id": 227803815,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:53.105632+00:00",
+      "evidence_sha256": {
+        "issue": "f850cff7e724887a86594a19335f2f4217c5418c6ae6a2ec7977158a5ef3abd7",
+        "comments": "fef963e71243d573eb41c545b1a79c081bbee969a195651f75513f71bed4c061"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "A semgrep scan printed an error span with no description for a file it could not analyze, and the same output states 'Run with --strict to exit with non-zero exit code when errors exist'. The unanalyzed file is an omission from effective scope while the run accepts, and the completeness fence is self-owned and opt-in. But the tool's own documented default establishes that a non-strict run passes, so the contract the reporter would need is not established; the filed complaint is about the missing description, which a maintainer confirmed fixed in 0.53.0. Retained as a calibration case for an opt-in completeness fence.",
+      "evidence_urls": [
+        "https://github.com/semgrep/semgrep/issues/1086"
+      ]
+    },
+    {
+      "position": 29,
+      "url": "https://github.com/golangci/golangci-lint/issues/2172",
+      "repository": "golangci/golangci-lint",
+      "repository_id": 132145189,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:54.098529+00:00",
+      "evidence_sha256": {
+        "issue": "53281c6ed9062eb093271c5cfa780479fb1ba7154565887d814e69b53612003d",
+        "comments": "33b9d5161da3006226af1900ae8fb5e2522c8e0bebe57ab5fb52b2a0fda45f52"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "With an unchanged config and input, golangci-lint 1.36.0 reports a ruleguard diagnostic while 1.37.0 and later print nothing and exit 0; the verbose run shows gocritic active. This is the strongest scope-adjacent shape screened so far: a checker silently contributes nothing while the governing exit status accepts. Admission still fails at contract: a member could not reproduce it, the ruleguard author acknowledged only a general go-critic update problem rather than this behavior, the issue is labeled question, and the reporter finally attributed it to their own module setup. Prior-release behavior is not a T2 assertion or regression test under codebook v1, so the tiers conflict and the contract is DISPUTED.",
+      "evidence_urls": [
+        "https://github.com/golangci/golangci-lint/issues/2172"
+      ]
+    },
+    {
+      "position": 30,
+      "url": "https://github.com/golangci/golangci-lint/issues/1259",
+      "repository": "golangci/golangci-lint",
+      "repository_id": 132145189,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:55.139104+00:00",
+      "evidence_sha256": {
+        "issue": "e60c8fff0240c3ee6489bb8b23059e07d3c0e9c31244473c2c71fd2773b78d0a",
+        "comments": "bcf3ea4bc660e6d02cf5302d43ed1284c6ef4ecb1b7cca24211d81248e958295"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The unused linter cannot load cgo-dependent packages, so it does not run over them. The omission is evidenced, but the packet records only 'level=warning' and 'ERRO Running error' lines and never states the governing exit status for the omission case, so no acceptance is demonstrated. Closed by the reporter as an environment setup problem; a maintainer later pointed to the typecheck FAQ.",
+      "evidence_urls": [
+        "https://github.com/golangci/golangci-lint/issues/1259"
+      ]
+    },
+    {
+      "position": 31,
+      "url": "https://github.com/jestjs/jest/issues/9408",
+      "repository": "jestjs/jest",
+      "repository_id": 15062869,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:56.347789+00:00",
+      "evidence_sha256": {
+        "issue": "83213e55219d87824489067b273e510866cf0aab545ed67eb78d788e5088715a",
+        "comments": "5c45fad2f8fabec103165ef3adaa1f6c5de080f957f82f50f113d7d930b4d6f7"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Jest prints only 'Done in 0.72s.' with no test results and no failure. This is the empty-scope-success shape, and the run did not even emit the standard 'No tests found' message, but a maintainer closed it as a support question without adjudication. No cause, no component boundary, and no established contract survive; admission gate 4 cannot be met. Retained as a calibration case for an unadjudicated empty run.",
+      "evidence_urls": [
+        "https://github.com/jestjs/jest/issues/9408"
+      ]
+    },
+    {
+      "position": 32,
+      "url": "https://github.com/semgrep/semgrep/issues/4552",
+      "repository": "semgrep/semgrep",
+      "repository_id": 227803815,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:57.397785+00:00",
+      "evidence_sha256": {
+        "issue": "febf63deb03706f0e96eb4f54c53b0d866e5cb4032cbb102d6eea1b5c047747b",
+        "comments": "2f8c4f80b9fdd76672354d3817a80b0f24cbab710e4e7c5e97425003cf0d9bdb"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "A semgrep-action release failed once, then on re-run produced many findings for frameworks absent from the repository, which the reporter attributed to the agent's own files. Maintainers rolled the release back. The evidenced direction is over-reporting with a possible result/artifact identity mismatch, not acceptance or omission, so admission gate 2 is unmet.",
+      "evidence_urls": [
+        "https://github.com/semgrep/semgrep/issues/4552"
+      ]
+    },
+    {
+      "position": 33,
+      "url": "https://github.com/microsoft/playwright/issues/16961",
+      "repository": "microsoft/playwright",
+      "repository_id": 221981891,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:58.434557+00:00",
+      "evidence_sha256": {
+        "issue": "1a837dd8eb1f60be0058b8c7f4bc84a108d1987941c26f21829eae26cfa71fec",
+        "comments": "df6cb4a4a5e226cf04a48990d4984415e8d0e2ebc7e8afa2ada4d41143c43eee"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Request that the Playwright VS Code extension honor headless mode when debugging. Closed for limited engagement. An editor-integration feature request with no incident and no governing signal.",
+      "evidence_urls": [
+        "https://github.com/microsoft/playwright/issues/16961"
+      ]
+    },
+    {
+      "position": 34,
+      "url": "https://github.com/docker/build-push-action/issues/142",
+      "repository": "docker/build-push-action",
+      "repository_id": 241092383,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:58:59.550229+00:00",
+      "evidence_sha256": {
+        "issue": "83a63965803d0de8a18dd24c262714d7e5eb26ddb22eff05c9da078c3d413fc7",
+        "comments": "4a62c16985c5bc8a9d4096dd3794d8d6655a9a210d3b902125639f516e02694d"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Feature request to expose docker run's --env-file through a build action. The maintainer explained the flag does not exist for build. No incident.",
+      "evidence_urls": [
+        "https://github.com/docker/build-push-action/issues/142"
+      ]
+    },
+    {
+      "position": 35,
+      "url": "https://github.com/python/mypy/issues/14431",
+      "repository": "python/mypy",
+      "repository_id": 7053637,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:59:01.162314+00:00",
+      "evidence_sha256": {
+        "issue": "78532e9760c1f26dbe02b66dd33b95fb391ecc603e14c73f7082851a5ddc71bc",
+        "comments": "45a4c1c6b15476015f1c895c2fdc1a0a93cd2c0c09c9a6aa8f0ddc376c925c72"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "mypy reports a syntax error for a Python 2 style type comment inside commented-out code where CPython does not. The maintainer adjudicated the behavior as intended pending deprecation of type comments and closed as not planned. Over-reporting rather than acceptance or omission.",
+      "evidence_urls": [
+        "https://github.com/python/mypy/issues/14431"
+      ]
+    },
+    {
+      "position": 36,
+      "url": "https://github.com/ossf/scorecard/issues/2812",
+      "repository": "ossf/scorecard",
+      "repository_id": 302670797,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:00:57.527296+00:00",
+      "evidence_retrieved_at": "2026-08-26T13:59:02.105873+00:00",
+      "evidence_sha256": {
+        "issue": "9a1ea27cf9463010d90a8c042bdc7c0c90ad93837dc63a4a678ec5c72aea255c",
+        "comments": "ebf19df8ed98d618abfa8177cecbf7188b4ece8b71adc1706d09c6f8409d9fad"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "Code-Review scores fell sharply for 137 of 200 projects between Scorecard 4.10.2 and 4.10.5 after a change to leveled scoring and bot-PR handling. Maintainers openly disagreed in-thread about whether proportional or leveled scoring is correct and whether unreviewed bot changesets should count. The meaning of a passing Code-Review score is under live maintainer dispute, and the direction is a stricter score, not a false acceptance.",
+      "evidence_urls": [
+        "https://github.com/ossf/scorecard/issues/2812"
+      ]
+    },
+    {
+      "position": 37,
+      "url": "https://github.com/python/mypy/issues/10910",
+      "repository": "python/mypy",
+      "repository_id": 7053637,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:00:57.614884+00:00",
+      "evidence_sha256": {
+        "issue": "da26b961c53ba77237b008b08e20b7ea4fb9ca377d5a6472cef33c13aefcbf84",
+        "comments": "4104283b67b8bfbed8f0965269f25502fadd77b0c6907e2074b49f28b9b079b6"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "mypy reports a non-overlapping identity check when an Enum method compares self against a member, because self.SPAM is typed as the value rather than the member. Over-reporting; no acceptance, omission, or false success is demonstrated.",
+      "evidence_urls": [
+        "https://github.com/python/mypy/issues/10910"
+      ]
+    },
+    {
+      "position": 38,
+      "url": "https://github.com/astral-sh/ruff/issues/5551",
+      "repository": "astral-sh/ruff",
+      "repository_id": 523043277,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:00:58.555813+00:00",
+      "evidence_sha256": {
+        "issue": "93973126c178526715f7300830935f68759bfe9f10f46f6c0178c5027285e2a1",
+        "comments": "ebe9bef79dd33f1b6d35847710bb9e791d7a00aa8f425cf8e2efedaffe307dc0"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The 0.0.277 release looked incomplete because the GitHub release object stayed a draft while the tag existed, and the screenshot the reporter cited was of dry-run jobs rather than the release job. The maintainer resolved it by marking the release latest. No control accepted anything falsely.",
+      "evidence_urls": [
+        "https://github.com/astral-sh/ruff/issues/5551"
+      ]
+    },
+    {
+      "position": 39,
+      "url": "https://github.com/vitest-dev/vitest/issues/228",
+      "repository": "vitest-dev/vitest",
+      "repository_id": 434708679,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:00:59.454411+00:00",
+      "evidence_sha256": {
+        "issue": "230d609a29521cb76c1deaaa28f50b5ddf9ade94dd91d23e835e4a7339793880",
+        "comments": "5150b43dc50b669516009cfb2d71ad2c97249d2d8555d0829845e01d4d3807ad"
+      },
+      "decision": "REJECT",
+      "reason_code": "PRODUCT_DEFECT_NOT_CONTROL",
+      "reason": "Vite's SSR transform rewrote valid minified library code into invalid JavaScript, so the vitest run raised SyntaxError and failed. Upstream transform defect, fixed in vite 2.7.5; the test run failed closed.",
+      "evidence_urls": [
+        "https://github.com/vitest-dev/vitest/issues/228"
+      ]
+    },
+    {
+      "position": 40,
+      "url": "https://github.com/leanprover/lean4/issues/1371",
+      "repository": "leanprover/lean4",
+      "repository_id": 129571436,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:00.721566+00:00",
+      "evidence_sha256": {
+        "issue": "0703a6115cc6146b0356811306ae6a2c5a78eab125da18ad78fcc69ebda50f5c",
+        "comments": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "decision": "ADMIT",
+      "reason_code": "ADMITTED",
+      "reason": "Lean 4 accepted a match-syntax definition whose second and third alternatives are unreachable: the quotation match compiler silently dropped them, so their bodies were never elaborated and the conflicting result types 1, true, and \"hello\" never produced an error. The elaborator is the verification control, the governing signal is whether elaboration reports an error, and the fix commit adds unused-alternative checking together with a merged regression test (tests/lean/1371.lean and its expected output) plus a RELEASES.md entry stating that match-syntax notation now checks for unused alternatives. Contract is T2_EXECUTABLE and ESTABLISHED; the evidence localizes the alternative-selection interface and the diagnostic gate.",
+      "evidence_urls": [
+        "https://github.com/leanprover/lean4/issues/1371",
+        "https://github.com/leanprover/lean4/commit/37af11ae20d0aec80907e94822aff35607a9431f",
+        "https://github.com/leanprover/lean4/commit/2f00d6011530931dc27ce6720cd4382232e3642e"
+      ],
+      "sampling_assessment": {
+        "control_kind": "proofs_build_completeness",
+        "expected_component": "selector",
+        "governing_signal": "elaboration diagnostics for the definition; the definition is accepted with no reported error",
+        "contract_tier": "T2_EXECUTABLE",
+        "contract_status": "ESTABLISHED"
+      }
+    },
+    {
+      "position": 41,
+      "url": "https://github.com/ossf/scorecard/issues/3590",
+      "repository": "ossf/scorecard",
+      "repository_id": 302670797,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:01.639571+00:00",
+      "evidence_sha256": {
+        "issue": "03b6a9fd2c85ba5c0a6d5f41340b7f2b3aad16636f8b69cd5be923530821d705",
+        "comments": "adfe12ebc9d3b58970b3b8ef245860a35ac23e26fa6499e8391b32a589a4e044"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Design discussion about reducing the number of license probes and reweighting the check. A scoring-design enhancement with no incident and no observed control outcome.",
+      "evidence_urls": [
+        "https://github.com/ossf/scorecard/issues/3590"
+      ]
+    },
+    {
+      "position": 42,
+      "url": "https://github.com/eslint/eslint/issues/13916",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:02:24.042393+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:02.690062+00:00",
+      "evidence_sha256": {
+        "issue": "9cd68bfd682ee6ed93f58efdcb82df3776419d9464de1c8599d34865c1f8c2c6",
+        "comments": "8af20369afb6ca034ec6359648ec859ba244bf4e437379ee7e564af12bafd949"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "no-unused-vars reported a false positive for a for-of loop binding under an outdated babel-eslint parser. Maintainers reproduced correct behavior with the default parser and the reporter confirmed an upgrade fixed it. Over-reporting attributable to a third-party parser.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/13916"
+      ]
+    },
+    {
+      "position": 43,
+      "url": "https://github.com/NixOS/nixpkgs/issues/85855",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:03.755733+00:00",
+      "evidence_sha256": {
+        "issue": "3c885907447b1c21896dcdf29f9ce9f2627fce1998a968ba8a52d63b44e41b19",
+        "comments": "2a5abd45b6b814df1b86ba155f18b1ebb49c63e19be1f7c4ab4909068156e4c2"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "NixOS did not ship the systemd dbus system-activation service files, so org.freedesktop.resolve1 was not dbus-activatable. This is an omission from a packaging manifest, not from the scope of an automated verification control, and no governing success signal is named.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/85855"
+      ]
+    },
+    {
+      "position": 44,
+      "url": "https://github.com/astral-sh/ruff/issues/1904",
+      "repository": "astral-sh/ruff",
+      "repository_id": 523043277,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:04.790047+00:00",
+      "evidence_sha256": {
+        "issue": "93fd9e6cfa1fa87aeced7fb9fe71dd61f091b0b85fad4b7d50ab63a3970f088f",
+        "comments": "fdda932beca470abc8ae8fd3179a64e6c54eaa26de9a851154b8b0ff2631099b"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Public design thread kicking off Ruff's autoformatter. No incident, no control outcome.",
+      "evidence_urls": [
+        "https://github.com/astral-sh/ruff/issues/1904"
+      ]
+    },
+    {
+      "position": 45,
+      "url": "https://github.com/codecov/codecov-action/issues/1359",
+      "repository": "codecov/codecov-action",
+      "repository_id": 200299178,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:07.031638+00:00",
+      "evidence_sha256": {
+        "issue": "aa265e61137e5dc7657e82557c7d9bc034bf2e34853fd180ab0d6ef47bbff77b",
+        "comments": "3f22ada764c92da89ca6edcb8c22d3fb7e911a0051b137d6da334129f82fd3c8"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "Coverage uploads began failing when the v3 action ran without a token, so coverage data did not reach Codecov. Every evidenced outcome is an explicit failure -- exit code 255 and exit code 1 with 'Failed to properly upload' -- so the control failed closed rather than accepting a run with missing coverage.",
+      "evidence_urls": [
+        "https://github.com/codecov/codecov-action/issues/1359"
+      ]
+    },
+    {
+      "position": 46,
+      "url": "https://github.com/semgrep/semgrep/issues/6071",
+      "repository": "semgrep/semgrep",
+      "repository_id": 227803815,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:07.971811+00:00",
+      "evidence_sha256": {
+        "issue": "b23ea4989797e891a07a42610a207b1abe505e4bab64437178e6551e0e0ffcc7",
+        "comments": "4a86c1bc44612e5e73fc7e57c88d79e87319bc4e41936a53681d61102c485d3e"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "In generic mode, semgrep silently does not match inside a file consisting of one very long line; adding a newline restores matching, and the reporter shows the threshold flipping behavior across four playground links. A maintainer confirmed the cause and stated the spacegrep engine deliberately refuses files without indentation structure, to bound parsing cost, and recommended users add their own line-length linter. This is a clear self-owned, unfenced scope restriction where the target's own formatting decides whether it is audited, but the maintainer adjudication establishes the omission as intended rather than as a breach, so no ESTABLISHED or SUPPORTED contract is violated. Retained as the strongest scope-shaped calibration case in this screen.",
+      "evidence_urls": [
+        "https://github.com/semgrep/semgrep/issues/6071"
+      ]
+    },
+    {
+      "position": 47,
+      "url": "https://github.com/actions/runner/issues/408",
+      "repository": "actions/runner",
+      "repository_id": 184286875,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:09.007626+00:00",
+      "evidence_sha256": {
+        "issue": "b6093a4eb4e0d7f30e74faaded7e36375530c770f2791f8c8483f7ac04189cb4",
+        "comments": "58c0e1b4812cd498f8ff576f658be4d5eb7f164ff1b796fe273b05a09a2b37bb"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Question about granting a self-hosted Windows runner more privileges, resolved by reconfiguring the service account. No verification control and no incident.",
+      "evidence_urls": [
+        "https://github.com/actions/runner/issues/408"
+      ]
+    },
+    {
+      "position": 48,
+      "url": "https://github.com/NixOS/nixpkgs/issues/110584",
+      "repository": "NixOS/nixpkgs",
+      "repository_id": 4542716,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:02:57.237709+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:01:10.034989+00:00",
+      "evidence_sha256": {
+        "issue": "a92e7edcbbfaa9dad953a132f7b41e359da800ab6f24b32a765624ff0bddbd7b",
+        "comments": "94ac090ae29bb58bb4f1a471f7c0d5a10020b92eadc0bc7a91c6ed7aa50f6d5c"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Policy discussion about whether GNU parallel's citation notice makes it unfree and whether nixpkgs should ship it. Licensing and packaging policy, not a verification control.",
+      "evidence_urls": [
+        "https://github.com/NixOS/nixpkgs/issues/110584"
+      ]
+    },
+    {
+      "position": 49,
+      "url": "https://github.com/mochajs/mocha/issues/4821",
+      "repository": "mochajs/mocha",
+      "repository_id": 1451352,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:02:57.329718+00:00",
+      "evidence_sha256": {
+        "issue": "abdf3d248a64734d38145ef25b3febaa946d77967951ea21e079dcdd921bf276",
+        "comments": "9760ca89d7d0a4c166f15bb7b92dfd7ffb952284f3f6214f0760c60638d546c8"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "A custom mocha reporter crashed with a TypeError when run under parallel workers. Triaged as a user question about the reporter; no cause was established and no control accepted anything.",
+      "evidence_urls": [
+        "https://github.com/mochajs/mocha/issues/4821"
+      ]
+    },
+    {
+      "position": 50,
+      "url": "https://github.com/codecov/codecov-action/issues/1683",
+      "repository": "codecov/codecov-action",
+      "repository_id": 200299178,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:02:58.444677+00:00",
+      "evidence_sha256": {
+        "issue": "bdff57cc03a005cda531e5a1ee2de8a2c1132a22eda5cddb32369a792e341781",
+        "comments": "40e56aa2813d27eb37e2913077bc75b094e65409021097d128086f58138d6f3f"
+      },
+      "decision": "REJECT",
+      "reason_code": "OUT_OF_SCOPE_GATE_REJECTED",
+      "reason": "codecov-action v5.0.4 sent a null service field, so create-commit failed under --fail-on-error and the job exited 1. Fixed in 5.0.5. The control failed closed and the workflow stopped; no false success.",
+      "evidence_urls": [
+        "https://github.com/codecov/codecov-action/issues/1683"
+      ]
+    },
+    {
+      "position": 51,
+      "url": "https://github.com/eslint/eslint/issues/14111",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:02:59.660884+00:00",
+      "evidence_sha256": {
+        "issue": "fe8e08d5bb95997a9a297fc283fb73e604351c0ac2a1e1f4610cdf5208ba28d3",
+        "comments": "7518886a9a759fcf62b478ea0dd7686eea61499bcc58ee97d8984f395b2dee0c"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Request for an eslint --fix-list option. Maintainers pointed to the JSON formatter and custom formatters and closed it. Feature request, no incident.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/14111"
+      ]
+    },
+    {
+      "position": 52,
+      "url": "https://github.com/actions/runner/issues/2005",
+      "repository": "actions/runner",
+      "repository_id": 184286875,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:00.733408+00:00",
+      "evidence_sha256": {
+        "issue": "ff3d953894df1d19297afac8262cf7f33082db5eb06c82fa340b6b157ee7af5d",
+        "comments": "127ed94c1e2288947df2452cba923c3913dc881c55c103d99f37f450076cae1a"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "A step's if condition was reported not to skip when the workflow is invoked through workflow_call, so a notification step fired. A commenter demonstrated that the unquoted expression form evaluates correctly, which attributes the behavior to expression quoting rather than the runner, and the issue was stale-closed as not planned with no maintainer adjudication. Two live interpretations, so the meaning of success is not established. The evidenced direction is also an extra step, not an omitted verification result.",
+      "evidence_urls": [
+        "https://github.com/actions/runner/issues/2005"
+      ]
+    },
+    {
+      "position": 53,
+      "url": "https://github.com/eslint/eslint/issues/19099",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:01.698249+00:00",
+      "evidence_sha256": {
+        "issue": "779993cf59225b8ddf0fbd0ee582de55ece68f0823c978a2407f2baf364e4154",
+        "comments": "fcb9108d7beed4a6b0d03fc451680035da48ae66a43ca82b01683d812b0c511a"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Retry debug lines appeared in eslint output because the reporter had DEBUG set in the environment; clearing it removed the messages. No control outcome is at issue.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/19099"
+      ]
+    },
+    {
+      "position": 54,
+      "url": "https://github.com/eslint/eslint/issues/17309",
+      "repository": "eslint/eslint",
+      "repository_id": 11061773,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:02.638870+00:00",
+      "evidence_sha256": {
+        "issue": "43fec3fee1ac92ee30482599924e5ef447fdb501fa9682ce2efb93f4086736eb",
+        "comments": "fe50bb40d34bef464b6facbc2e5268c90a00aa1be1e0bfdf1516347eb7e71467"
+      },
+      "decision": "REJECT",
+      "reason_code": "CONTRACT_DISPUTED",
+      "reason": "reportUnusedDisableDirectives autofix does not remove eslint-enable comments or inline rule-severity comments. A maintainer stated the setting applies only to eslint-disable comments and labeled the issue works as intended. The claimed contract rests on reporter expectation and was adjudicated against.",
+      "evidence_urls": [
+        "https://github.com/eslint/eslint/issues/17309"
+      ]
+    },
+    {
+      "position": 55,
+      "url": "https://github.com/docker/build-push-action/issues/1035",
+      "repository": "docker/build-push-action",
+      "repository_id": 241092383,
+      "stratum": "artifact_conformance",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:03.630305+00:00",
+      "evidence_sha256": {
+        "issue": "6c58d2789d28ade07b0325732d239ca2efd174ef1f0252cfd55c410f07051bfd",
+        "comments": "63b47896af4d9130e27a088e9565f742f14ccd50a1ffa79da4792e6a06808e12"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The action reportedly ignored provenance:false because docker buildx reported version v0.0.0+unknown and the action's version comparison against 0.10.0 failed, leaving provenance attestations enabled. The mechanism is cited against a specific source range, but the workflow ran through a third-party wrapper action, the maintainer attributed the version string to the self-hosted runner, no minimal repro was supplied, and the issue closed under status/needs-more-info without a fix. The causal chain is not established.",
+      "evidence_urls": [
+        "https://github.com/docker/build-push-action/issues/1035"
+      ]
+    },
+    {
+      "position": 56,
+      "url": "https://github.com/cypress-io/cypress/issues/8510",
+      "repository": "cypress-io/cypress",
+      "repository_id": 31629751,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:04.962622+00:00",
+      "evidence_sha256": {
+        "issue": "3e3078e2cded65f4d028d119c67b7da2065d699c9b662b2ac425cabfc11422b7",
+        "comments": "d6a1451dd5dfe533f7494a67867e39488b443f7eef5cf4d72b26eb4fc7977641"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Navigation specs timed out in CI but not locally. The reporter made them pass by registering an uncaught:exception handler and states they do not know which application error that silenced. Suggestive of a suppressed failure, but no cause, no component boundary, and no maintainer adjudication; stale-closed as not planned.",
+      "evidence_urls": [
+        "https://github.com/cypress-io/cypress/issues/8510"
+      ]
+    },
+    {
+      "position": 57,
+      "url": "https://github.com/golangci/golangci-lint/issues/1505",
+      "repository": "golangci/golangci-lint",
+      "repository_id": 132145189,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:05.900467+00:00",
+      "evidence_sha256": {
+        "issue": "4eb769b6dc7dd27aceb6676835f07b70961e71bcb0cce1c82c50fd8e12f9b487",
+        "comments": "084df783e106c83904e305d52f2db15e56164d47b64cd820a0abddf6ea4c4257"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "The unused linter flagged functions the reporter believed were used; a member showed their only callers are themselves unused, so the report was correct. The reporter closed the issue. Over-reporting complaint resolved against the reporter.",
+      "evidence_urls": [
+        "https://github.com/golangci/golangci-lint/issues/1505"
+      ]
+    },
+    {
+      "position": 58,
+      "url": "https://github.com/astral-sh/ruff/issues/1291",
+      "repository": "astral-sh/ruff",
+      "repository_id": 523043277,
+      "stratum": "lint_static_analysis",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:06.852452+00:00",
+      "evidence_sha256": {
+        "issue": "61156eeb00e66b2f19cf5c782c481a1a38f2ba29de33fde24f36ec5eca58affa",
+        "comments": "7fb3ddc2ceb947e792842d4f0a1365f7bc851c85a1ec68c8639c0506ac59ecc7"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "D417 reported missing argument descriptions for arguments that are documented, when a Returns block lacks a preceding blank line. Confirmed and fixed in v0.0.189. Over-reporting, not acceptance or omission.",
+      "evidence_urls": [
+        "https://github.com/astral-sh/ruff/issues/1291"
+      ]
+    },
+    {
+      "position": 59,
+      "url": "https://github.com/rocq-prover/rocq/issues/12487",
+      "repository": "rocq-prover/rocq",
+      "repository_id": 1377159,
+      "stratum": "proofs_build_completeness",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:07.836536+00:00",
+      "evidence_sha256": {
+        "issue": "88c463b9a30ced791a50a8b7565fe72ebe65188d12f6a14cafab0c0b248c9097",
+        "comments": "cc596b21540a5a9e0748cf24a0015e5348a3dd6fb27949efaaeaf38dfeec8832"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_PRIMARY_EVIDENCE",
+      "reason": "Coq memory use grows exponentially with input size on a fiat-crypto synthesis pipeline. A resource-consumption defect in the proof assistant; nothing was accepted that should have been rejected.",
+      "evidence_urls": [
+        "https://github.com/rocq-prover/rocq/issues/12487"
+      ]
+    },
+    {
+      "position": 60,
+      "url": "https://github.com/jestjs/jest/issues/9904",
+      "repository": "jestjs/jest",
+      "repository_id": 15062869,
+      "stratum": "tests",
+      "screened_at": "2026-08-26T14:04:05.407008+00:00",
+      "evidence_retrieved_at": "2026-08-26T14:03:09.222791+00:00",
+      "evidence_sha256": {
+        "issue": "28cc901ca6457be9c17a6a2a2e8ec2f676c4f2601dea315e5d17fb19b6e5f679",
+        "comments": "fceb26ed6de77c800227b86051d79e69842de842d752ca795cb1dc1ac8421c57"
+      },
+      "decision": "REJECT",
+      "reason_code": "NO_AUTOMATED_CONTROL",
+      "reason": "Feature proposal for an opt-in Jest config restricting __mocks__ discovery to adjacent and ascending directories. Stale-closed. No incident and no observed control outcome.",
+      "evidence_urls": [
+        "https://github.com/jestjs/jest/issues/9904"
+      ]
+    }
+  ]
+}

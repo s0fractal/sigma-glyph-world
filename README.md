@@ -33,8 +33,12 @@ verification system.
 - [`experiments/SCOPE-PILOT-003-preregistration.md`](experiments/SCOPE-PILOT-003-preregistration.md)
   and [`experiments/scope-pilot-003/SAMPLING-RESULT.md`](experiments/scope-pilot-003/SAMPLING-RESULT.md)
   — the canonical-repository-ID retry with append-only query checkpoints, and
-  its frozen candidate order of 5276 issues. Sampling succeeded; screening,
-  packet construction, coding, and agreement have not started.
+  its frozen candidate order of 5276 issues;
+- [`experiments/scope-pilot-003/SCREENING-RESULT.md`](experiments/scope-pilot-003/SCREENING-RESULT.md)
+  — the screen of the first 60 candidates in frozen order, retired as a sampling
+  failure at 1 admitted incident against a minimum of 8, with the four
+  near-miss cases that locate the real scarcity in adjudicated success
+  contracts rather than in candidate incidents.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
@@ -45,11 +49,12 @@ inside it.
 |---|---|---|---|---|---|
 | SCOPE-PILOT-001 | done | done | done | not run | not computed |
 | SCOPE-PILOT-002 | failed | — | — | — | — |
-| SCOPE-PILOT-003 | done | not started | not started | not started | not started |
+| SCOPE-PILOT-003 | done | done — sampling failure | not run | not run | not run |
 
 A green `tools/test-all.sh` reports the state of each phase; it does not assert
-that later phases exist. `experiments/scope-pilot-003/screen.py --check` passes
-on an unstarted screening and says so explicitly.
+that later phases exist. `experiments/scope-pilot-003/screen.py --check` prints
+the screening's terminal status, including `SAMPLING_FAILURE`, because a
+recorded failure is an outcome of the protocol rather than a harness error.
 
 ## Research discipline
 
