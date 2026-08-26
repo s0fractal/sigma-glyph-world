@@ -1,0 +1,60 @@
+{
+  "seed": 20260826,
+  "terms_checked": 1500,
+  "disagreements": 1,
+  "smallest_counterexample": {
+    "size": 14,
+    "de_bruijn": [
+      "a",
+      [
+        "l",
+        [
+          "a",
+          [
+            "a",
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ]
+          ],
+          [
+            "b",
+            0
+          ]
+        ]
+      ],
+      [
+        "l",
+        [
+          "a",
+          [
+            "b",
+            0
+          ],
+          [
+            "l",
+            [
+              "a",
+              [
+                "b",
+                1
+              ],
+              [
+                "f",
+                "p"
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    "how": "readback does not terminate"
+  },
+  "counterexample_sizes": [
+    14
+  ]
+}
