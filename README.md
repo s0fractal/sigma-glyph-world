@@ -31,10 +31,25 @@ verification system.
   — a fresh-corpus protocol retired when a repository alias made its supposedly
   unique sampling frame invalid before any candidate was frozen;
 - [`experiments/SCOPE-PILOT-003-preregistration.md`](experiments/SCOPE-PILOT-003-preregistration.md)
-  — the canonical-repository-ID retry with append-only query checkpoints.
+  and [`experiments/scope-pilot-003/SAMPLING-RESULT.md`](experiments/scope-pilot-003/SAMPLING-RESULT.md)
+  — the canonical-repository-ID retry with append-only query checkpoints, and
+  its frozen candidate order of 5276 issues. Sampling succeeded; screening,
+  packet construction, coding, and agreement have not started.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
+
+## Pipeline state
+
+| pilot | sampling | screening | packets | coding | agreement |
+|---|---|---|---|---|---|
+| SCOPE-PILOT-001 | done | done | done | not run | not computed |
+| SCOPE-PILOT-002 | failed | — | — | — | — |
+| SCOPE-PILOT-003 | done | not started | not started | not started | not started |
+
+A green `tools/test-all.sh` reports the state of each phase; it does not assert
+that later phases exist. `experiments/scope-pilot-003/screen.py --check` passes
+on an unstarted screening and says so explicitly.
 
 ## Research discipline
 

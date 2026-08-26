@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCOPE-PILOT-003 screening log",
+  "type": "object",
+  "required": ["pilot", "codebook_sha256", "order_sha256", "entries"],
+  "properties": {
+    "pilot": {"const": "SCOPE-PILOT-003"},
+    "codebook_sha256": {"const": "3c9261450ffe3553a984788e5f764cc4f829624155b53b5272ae4ebc3f7f8e01"},
+    "order_sha256": {"const": "2e3d00332101e7ce90e4d186584b4b5cb09906f6bf337d869091dd6600f12bfb"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["position", "url", "repository", "repository_id", "stratum", "screened_at", "decision", "reason_code", "reason", "evidence_urls"],
+        "additionalProperties": false,
+        "properties": {
+          "position": {"type": "integer", "minimum": 1},
+          "url": {"type": "string"},
+          "repository": {"type": "string"},
+          "repository_id": {"type": "integer"},
+          "stratum": {"enum": ["tests", "lint_static_analysis", "artifact_conformance", "proofs_build_completeness"]},
+          "screened_at": {"type": "string"},
+          "decision": {"enum": ["ADMIT", "REJECT", "CAPPED"]},
+          "reason_code": {
+            "enum": [
+              "ADMITTED",
+              "NO_AUTOMATED_CONTROL",
+              "NO_GOVERNING_SIGNAL",
+              "NO_PRIMARY_EVIDENCE",
+              "CONTRACT_DISPUTED",
+              "NOT_LOCALIZABLE",
+              "SOURCE_UNAVAILABLE",
+              "PRODUCT_DEFECT_NOT_CONTROL",
+              "OUT_OF_SCOPE_GATE_REJECTED",
+              "REPOSITORY_CAP_REACHED"
+            ]
+          },
+          "reason": {"type": "string", "minLength": 1},
+          "evidence_urls": {"type": "array", "items": {"type": "string"}},
+          "sampling_assessment": {
+            "type": "object",
+            "required": ["control_kind", "expected_component", "governing_signal", "contract_tier", "contract_status"],
+            "additionalProperties": false,
+            "properties": {
+              "control_kind": {"enum": ["tests", "lint_static_analysis", "artifact_conformance", "proofs_build_completeness"]},
+              "expected_component": {"enum": ["selector", "checker", "adapter", "gate"]},
+              "governing_signal": {"type": "string", "minLength": 1},
+              "contract_tier": {"enum": ["T1_NORMATIVE", "T2_EXECUTABLE", "T3_ADJUDICATED"]},
+              "contract_status": {"enum": ["ESTABLISHED", "SUPPORTED"]}
+            }
+          }
+        }
+      }
+    }
+  }
+}
