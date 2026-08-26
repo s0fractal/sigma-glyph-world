@@ -21,4 +21,6 @@ python3 experiments/kappa-exp-003/validate.py
 python3 experiments/kappa-exp-005/measure.py --check
 python3 experiments/kappa-exp-005/validate.py
 python3 experiments/kappa-exp-005/theorem.py --check
+python3 experiments/kappa-exp-006/measure.py --check
+python3 experiments/kappa-exp-006/validate.py
 git diff --check

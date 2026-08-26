@@ -65,6 +65,13 @@ verification system.
   directions and says so on every green run; an erratum supplies the peak
   recurrences the asymptotic claim was missing and retracts the Track A
   over-generalisation;
+- [`experiments/KAPPA-EXP-006-preregistration.md`](experiments/KAPPA-EXP-006-preregistration.md)
+  and [`experiments/kappa-exp-006/RESULT.md`](experiments/kappa-exp-006/RESULT.md)
+  — the representation audit. "Tree", "sharing", "materialized state" and "actual
+  work" turn out to be four different quantities: at `n = 12` and the same
+  occurrence size of 16381, the innermost strategy materializes 16381 objects on
+  a machine that copies and 30 on one that aliases, while a content-addressed
+  store holds 29 under both;
 - [`reviews/codex-2026-08-26.md`](reviews/codex-2026-08-26.md) — an adversarial
   review of `main` at `d61e6da`, verdict `CHANGES REQUESTED`, whose findings are
   answered in errata and successor experiments rather than by editing the
@@ -129,7 +136,12 @@ so there is no second strategy to diverge. KAPPA-EXP-003 and KAPPA-EXP-005 ask t
 spread question of λ, where the strategy is free, and answer it: unbounded under
 both materialization-charging cost models, for different reasons, only the
 second of which is real. Over the occurrence-weighted tree metric, the
-invariant the track set out to find does not exist for λ. What survives is
+invariant the track set out to find does not exist for λ. KAPPA-EXP-006 then
+separates the metric from the materialization and finds the refutation holds for
+representations that materialize duplicated subterms per occurrence — including
+the Σ-GLYPH reference implementation — and dissolves for those that alias, so κ
+depends on representation and size functional as well as strategy and cost
+model. What survives is
 narrower than first claimed: on the measured family and under the two measured
 cost models, no strategy-independent constant-competitive charge exists. Hard-cap
 safety is unaffected and needs no pinned strategy; the earlier "derived

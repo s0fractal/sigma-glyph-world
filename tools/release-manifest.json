@@ -13,7 +13,8 @@
     "experiments/scope-pilot-002/CODEBOOK.md": "3c9261450ffe3553a984788e5f764cc4f829624155b53b5272ae4ebc3f7f8e01",
     "experiments/scope-pilot-002/CODER-PROMPT.md": "9b4c3c277b263d350d8dd22bac8f7d4444e98134f1b1e7a64fc6b1f3e174abf1",
     "experiments/scope-pilot-003/evidence-manifest.json": "1c31de900a4a508cba05a8f36edbd30a3e5252fe8a78164f1464b2b0d92f8785",
-    "experiments/scope-pilot-003/cited-artifacts.json": "ff045f83c8a2e03ae245d798f6a2e6b47df8fa10626bbc3dff314b1601f853a5"
+    "experiments/scope-pilot-003/cited-artifacts.json": "ff045f83c8a2e03ae245d798f6a2e6b47df8fa10626bbc3dff314b1601f853a5",
+    "experiments/kappa-exp-006/measurements.json": "18e1f172a762b2b305590af34716667ef3231394d128ac9d42c78f62b59479d0"
   },
   "required": [
     "README.md",
@@ -30,7 +31,8 @@
     "experiments/kappa-exp-002/RESULT.md",
     "experiments/kappa-exp-003/RESULT.md",
     "experiments/kappa-exp-005/RESULT.md",
-    "experiments/kappa-exp-005/theorem.py"
+    "experiments/kappa-exp-005/theorem.py",
+    "experiments/kappa-exp-006/RESULT.md"
   ],
   "required_states": [
     {
@@ -92,6 +94,14 @@
         "--check"
       ],
       "must_contain": "all four closed forms exact on 58 frozen rows"
+    },
+    {
+      "why": "KAPPA-EXP-006 representation audit",
+      "command": [
+        "python3",
+        "experiments/kappa-exp-006/validate.py"
+      ],
+      "must_contain": "H-REPR refuted"
     }
   ],
   "forbidden_markers": [
