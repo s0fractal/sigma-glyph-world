@@ -54,7 +54,13 @@ verification system.
   — the strategy-spread question for λ. Refuted under `C_size` with the closed
   form `(3k+1)/4`, but that refutation is an artifact of a cost model that bills
   a copy which duplicates nothing; under the corrected `C_dup` the question is
-  live and unsettled.
+  live and unsettled;
+- [`experiments/KAPPA-EXP-005-preregistration.md`](experiments/KAPPA-EXP-005-preregistration.md)
+  and [`experiments/kappa-exp-005/RESULT.md`](experiments/kappa-exp-005/RESULT.md)
+  — the extended grid that settles it. The spread saturates in `n` and is driven
+  by `k`, converging to `k + 9/4`: λ has no strategy-insensitivity constant under
+  either materialization-charging cost model. The preregistered prediction was
+  wrong in both directions and says so on every green run.
 
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
@@ -100,11 +106,13 @@ erratum retracts the successor question as trivial and adopts instead the
 *spread* of κ between strategies on one term. KAPPA-EXP-002 refutes the
 prediction that structural sharing dissolves that counterexample, and finds the
 real reason it does not transfer to Σ-GLYPH: the strategy is pinned normatively,
-so there is no second strategy to diverge. KAPPA-EXP-003 asks the spread
-question of λ, where the strategy is free, and refutes it under `C_size` while
-leaving it open under the corrected `C_dup`, where the measurement is still
-rising at the edge of its preregistered grid. KAPPA-EXP-005 will extend that
-grid; the range cannot be changed inside KAPPA-EXP-003.
+so there is no second strategy to diverge. KAPPA-EXP-003 and KAPPA-EXP-005 ask the
+spread question of λ, where the strategy is free, and answer it: unbounded under
+both materialization-charging cost models, for different reasons, only the
+second of which is real. The invariant the track set out to find does not exist
+for λ. What survives is a derived requirement — a machine that wants a
+single-integer budget must pin both its cost model and its strategy, which is
+what Book I does.
 
 The distributed-prepayment track (Track B) remains formalization work until its
 fault model and comparison metric stop moving.

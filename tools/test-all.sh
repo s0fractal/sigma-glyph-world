@@ -18,4 +18,6 @@ python3 experiments/kappa-exp-002/oracle.py --check
 python3 experiments/kappa-exp-002/validate.py
 python3 experiments/kappa-exp-003/measure.py --check
 python3 experiments/kappa-exp-003/validate.py
+python3 experiments/kappa-exp-005/measure.py --check
+python3 experiments/kappa-exp-005/validate.py
 git diff --check

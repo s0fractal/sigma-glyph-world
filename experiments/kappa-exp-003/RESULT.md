@@ -3,6 +3,12 @@
 **Status: `H-SPREAD` refuted under `C_size`. Under `C_dup` the spread is not
 settled — it is still rising at the edge of the preregistered grid.**
 
+> **Settled by [KAPPA-EXP-005](../kappa-exp-005/RESULT.md).** The extended grid
+> shows the spread *saturating* in `n` and driven by `k` instead, converging to
+> `k + 9/4` — unbounded, so `H-SPREAD` falls under `C_dup` too. Both the hand
+> derivation in this document and the prediction in KAPPA-EXP-005's own
+> preregistration were wrong about which parameter drives it.
+
 The question, from [`talks/claude-fable-002.md`](../../talks/claude-fable-002.md)
 and adopted in the [KAPPA-EXP-001 erratum](../kappa-exp-001/RESULT.md#erratum-2026-08-26):
 is `sup_t spread(t)` finite for λ under a fixed materialization-charging cost
