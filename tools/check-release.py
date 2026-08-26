@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -71,6 +72,23 @@ def main() -> int:
         for marker in manifest["forbidden_markers"]:
             if marker in output:
                 failed.append(f"{state['why']}: skip marker {marker!r} in output")
+
+    # Codex review of f9d6e5b: the release section quoted 37 mutations while the
+    # manifest generated 54. A user-facing literal must agree with what the tool
+    # derives, or it must not be user-facing. This makes disagreement a failure.
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    quoted = re.findall(r"rejects? all (\d+) mutations", readme)
+    sys.path.insert(0, str(ROOT / "tools"))
+    import importlib.util as _iu
+    _spec = _iu.spec_from_file_location("mutation_test", ROOT / "tools" / "mutation-test.py")
+    _mutation = _iu.module_from_spec(_spec)
+    _spec.loader.exec_module(_mutation)
+    derived = _mutation.mutation_total(manifest)
+    for literal in quoted:
+        if int(literal) != derived:
+            failed.append(f"README.md claims {literal} mutations; the manifest derives {derived}")
+    if quoted:
+        executed.append(f"mutation count literal agrees with the manifest: {derived}")
 
     suite = subprocess.run([str(ROOT / "tools" / "test-all.sh")], capture_output=True, text=True, check=False)
     suite_output = suite.stdout + suite.stderr
