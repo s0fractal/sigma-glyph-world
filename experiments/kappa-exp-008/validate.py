@@ -8,6 +8,13 @@ first ran on any family; the preregistration file has exactly one commit
 the same clause, nothing is inferred from which voice executed.
 
 Gates G1-G6 are fail-closed: a failure exits non-zero and no scorecard prints.
+
+The machine is named `R_abstract` in prose after Codex's review of `f9d6e5b`;
+`measurements.json` keeps its original `R_optimal` field names, because a frozen
+receipt is not rewritten. See the RESULT's erratum. A2 is scored at the top
+GATED point: `e_4` is outside G1 and G2 and enters no scorecard. The verdict is
+unchanged either way -- 0.737 and 1.792 both fail a >= 10 threshold -- and the
+preregistration's own author has owned the metric as ill-posed.
 """
 
 from __future__ import annotations
@@ -94,7 +101,10 @@ def main() -> int:
         f"{', '.join(f'{r:.4f}' for r in growth)}), against R_update's "
         f"{top_d['separation_R_update']:.2f} and R_fresh's {top_d['separation_R_fresh']:.2f}")
 
-    ratios = [row[f"R_optimal.{SCHEDULES[0]}"]["book_over_term"] for row in e_rows]
+    e_gated = gated(e_rows)
+    ratios = [row[f"R_optimal.{SCHEDULES[0]}"]["book_over_term"] for row in e_gated]
+    ungated = [(row["n"], row[f"R_optimal.{SCHEDULES[0]}"]["book_over_term"])
+               for row in e_rows if not row["gated"]]
     rising = all(ratios[i] > ratios[i - 1] for i in range(1, len(ratios)))
     h_ok = all(row[f"R_optimal.{s}"]["book_over_term"] <= A2_H_BOUND
                for row in h_rows for s in SCHEDULES)
@@ -102,10 +112,13 @@ def main() -> int:
     scorecard.append(
         f"PREDICTION A2 (Claude Fable 5) — the cost moves into bookkeeping: "
         f"{'CONFIRMED' if a2 else 'FAILED'}; peak_book/peak_term on e_n is "
-        f"{ratios[-1]:.3f} at n={e_rows[-1]['n']} against the >=10 predicted, though it does rise "
-        f"at every step ({', '.join(f'{r:.2f}' for r in ratios)}) and stays <= "
-        f"{A2_H_BOUND} on h_n as predicted (max "
-        f"{max(row[f'R_optimal.{s}']['book_over_term'] for row in h_rows for s in SCHEDULES):.3f})")
+        f"{ratios[-1]:.3f} at the top GATED point n={e_gated[-1]['n']} against the >=10 "
+        f"predicted, though it does rise at every step ({', '.join(f'{r:.2f}' for r in ratios)}) "
+        f"and stays <= {A2_H_BOUND} on h_n as predicted (max "
+        f"{max(row[f'R_optimal.{s}']['book_over_term'] for row in h_rows for s in SCHEDULES):.3f}). "
+        f"UNGATED, scoring nothing: "
+        f"{', '.join(f'e_{n} {r:.3f}' for n, r in ungated)}. The metric composes maxima from "
+        f"different instants and is ill-posed; the verdict stands at both points")
 
     late = [(family, row) for family in ("h", "d", "e")
             for row in gated(rows[family]) if row["n"] >= 6]
@@ -148,17 +161,19 @@ def main() -> int:
           f"have distinct traces)")
     if SOUNDNESS.exists():
         sound = json.loads(SOUNDNESS.read_text(encoding="utf-8"))
-        print(f"CONTROL: R_optimal is Lamping WITHOUT the bracket/croissant oracle; it disagrees "
-              f"with R_fresh on {sound['disagreements']} of {sound['terms_checked']} random terms "
-              f"and on no gated grid point. peak_book is therefore a LOWER BOUND on the "
-              f"bookkeeping of a full Lamping/lambdascope reducer")
+        print(f"CONTROL: R_abstract is Lamping WITHOUT the bracket/croissant oracle; it "
+              f"disagrees with R_fresh on {sound['disagreements']} of {sound['comparable']} "
+              f"COMPARABLE terms ({sound['excluded']} excluded by named category) and on no "
+              f"gated grid point. No monotonicity theorem relates it to a corrected reducer, so "
+              f"its peak_book bounds nothing above or below: A2 is untested, without direction")
     for line in scorecard:
         print(line)
     confirmed = sum([a1, a2, a3])
     print(f"SCORE: Claude Fable 5 {confirmed}/3, no other voice preregistered. "
           f"H-OPTIMAL holds in its first half and fails in its second on these families: the "
-          f"schedule separation is exactly 1.0000 on d_n, and the cost does not move into "
-          f"bookkeeping by the factor predicted")
+          f"schedule-internal separation is exactly 1.0000 on d_n, and the cost does not move "
+          f"into bookkeeping by the factor predicted. The cross-representation reading of the "
+          f"hierarchy is withdrawn -- readback is unpriced -- see the RESULT's erratum")
     return 0
 
 

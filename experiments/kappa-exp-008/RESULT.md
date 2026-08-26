@@ -10,20 +10,37 @@ like the factor predicted.**
 **Scorecard: Claude Fable 5 1/3. Prediction slot B was never filled and scores
 nothing.**
 
+> **Read the [erratum](#erratum-2026-08-26) before the Outcome section.**
+> [Codex's review](../../reviews/codex-2026-08-26-current-state.md) of `f9d6e5b`
+> found that this harness prices graph reduction but not readback, so the
+> cross-representation comparison in the table below moves materialisation
+> across an undefined boundary rather than removing it. That reading is
+> **withdrawn**. The schedule-internal result — the one A1 actually asked for —
+> stands. The machine is renamed `R_abstract`, `e_4` is demoted to an ungated
+> observation, and the "lower bound for full Lamping" derivation is retracted.
+> The verdicts are unchanged and are not re-adjudicated.
+
 ## Outcome
 
-`FACT`: schedule-to-schedule separation of κ at the top of each range, under
-`C_unit`, across the four representations. The first three columns are
-KAPPA-EXP-007's frozen numbers, reproduced by reusing its harness (gate G4);
-the fourth is new.
+`FACT`, per column: schedule-to-schedule separation of κ at the top of each
+range, under `C_unit`. The first three columns are KAPPA-EXP-007's frozen
+numbers, reproduced by reusing its harness (gate G4); the fourth is new.
 
-| family | duplication | `R_fresh` | `R_alias` | `R_update` | `R_optimal` |
+`WITHDRAWN`, across columns: this table was written as a hierarchy, and read
+across it is not one. `R_fresh` and `R_update` deliver the explicit normal form
+in-band; `R_abstract` delivers a compact graph and receives its explicit
+certificate from an **unpriced readback** after the meter stops. Reading
+`341.08 → 1.375 → 1.0000` as a resource improvement compares machines whose
+outputs sit on opposite sides of a boundary this experiment never defined. Each
+column remains a correct within-machine measurement. Erratum item 2.
+
+| family | duplication | `R_fresh` | `R_alias` | `R_update` | `R_abstract` |
 |---|---|---:|---:|---:|---:|
 | `h_12` | not under a binder | 341.08 | 341.08 | 1.375 | **1.0000** |
 | `d_10` | under a binder | 99.49 | 99.49 | 21.16, growing | **1.0000** |
 | `e_3` | Church self-application | 1.61 | 1.61 | 1.49 | **1.2609** |
 
-`FACT`, closed forms on `h_n` under `R_optimal`, exact at every `n ∈ [1, 12]`
+`FACT`, closed forms on `h_n` under `R_abstract`, exact at every `n ∈ [1, 12]`
 and identical for both schedules — `validate.py` re-derives them on every green
 run and fails if any point departs:
 
@@ -59,16 +76,26 @@ error KAPPA-EXP-006 found in "sharing" and KAPPA-EXP-007 in "the separation":
 a name standing in for two quantities.
 
 `DERIVATION`: the residual `11/8` that `R_update` left on `h_n` is gone. Under
-`R_optimal` the two schedules do not merely take the same number of steps, they
+`R_abstract` the two schedules do not merely take the same number of steps, they
 reach the same peak: `separation = 1` exactly, at every `n`, on both `h_n` and
 `d_n`. KAPPA-EXP-007's `11/8` was the price of expanding a context before
 reducing inside it; a sharing graph never expands the context, because the
 readback rather than the reduction materialises the normal form.
 
-`FACT`: on `h_12` the whole normalisation is 13 interactions, 12 of them β,
-against `R_fresh`'s 4095 steps. On `e_4` it is 121 interactions, 25 of them β,
-and the readback is `s^65536 z` — `2^16` marker applications from a graph whose
-peak is 52 nodes.
+`FACT`, gated: on `h_12` the whole normalisation is 13 interactions, 12 of them
+β, against `R_fresh`'s 4095 steps — and this is a **reducer-internal** count,
+excluding readback, on a family where G1 certifies the readback agrees with the
+reference.
+
+`UNGATED OBSERVATION`, not evidence for anything in the scorecard: on `e_4` the
+reducer performs 121 interactions, 25 of them β, at a peak of 52 nodes, and its
+readback is a term of the shape `s^65536 z`. `e_4` lies outside G1 and G2 — no
+reference normal form exists for it — so the machine's answer there is
+unverified, and this is the same machine that returns a plausible-looking but
+non-terminating readback on the named counterexample below. The 52 and the 121
+are also reducer-internal numbers that exclude the readback which materialises
+the 131073-occurrence output, so they describe a stage, not the task. Erratum
+items 1 and 3.
 
 ## Scorecard
 
@@ -128,7 +155,7 @@ not an interaction net. That reformulation is KAPPA-EXP-009's, not this one's.
 
 ## What was implemented, and what it is not
 
-`FACT`: `R_optimal` is a **sharing graph in the Lamping class with labelled
+`FACT`: `R_abstract` is a **sharing graph in the Lamping class with labelled
 fans and no bracket/croissant oracle** — Lamping's algorithm minus its control
 machinery, sometimes called the abstract algorithm. It is not lambdascope and it
 is not full Lamping. The preregistration permitted either of those and left the
@@ -149,10 +176,16 @@ harness rather than against an argument:
   annihilate and reduction does not terminate on `(λx. x x) (λy. y (y p))`.
 
 `FACT`, and this is the measured statement of the limitation rather than a prose
-caveat: [`soundness.py`](soundness.py) normalises 1500 pseudo-random λ-terms on
-both schedules and compares each to the `R_fresh` reference normal form.
-`R_optimal` disagrees on **1 of 1500** (0.07%), and on **none** of the gated grid
-points. The smallest counterexample found by hand is
+caveat: [`soundness.py`](soundness.py) generates 1500 pseudo-random λ-terms,
+normalises each on both schedules, and gives each exactly one verdict from a
+closed set. 1493 are **comparable**; 7 are excluded and the exclusions are named
+(6 `EXCLUDED_REFERENCE_UNSETTLED`, 1 `EXCLUDED_REFERENCE_EXCEPTION`, 0
+`EXCLUDED_SATURATED`). `R_abstract` disagrees on **1 of the 1493 comparable
+terms** (0.07%), and on **none** of the gated grid points. The first version of
+this control quoted 1 of 1500: it incremented its denominator unconditionally
+while returning early on exactly those 7 terms, so excluded terms were counted
+as tested. That was a defect in the control, not in the machine; Codex's review
+found it and it is corrected. The smallest counterexample found by hand is
 
 ```text
 (λx. x x) (λy. y (y p))
@@ -163,16 +196,21 @@ a fan wired to its own auxiliary port. `soundness.py --check` re-runs that
 counterexample on every green run and fails if it ever stops disagreeing, so the
 scope note cannot go stale.
 
-`DERIVATION`: therefore `peak_book` and `interactions` reported here are **lower
-bounds** on what a full Lamping or lambdascope reducer would spend on the same
-families. A2's failure is measured on this machine and is not a refutation of
-A2's substance: the brackets and croissants whose growth A2 was predicting are
-precisely the nodes this machine does not have. The honest reading is that A2 is
-**untested** by this harness and scored FAILED on what was actually run. It
-should be re-run against a full oracle before anyone concludes anything about
-the bookkeeping share of optimal reduction. Nothing here bears on
-Asperti–Mairson, whose result is a worst case this grid does not approach, and
-the preregistration was right to say so in advance.
+`RETRACTED`: an earlier version of this section derived that `peak_book` and
+`interactions` here are **lower bounds** on what a full Lamping or lambdascope
+reducer would spend. That does not follow and is withdrawn. An unsound abstract
+rewrite system is not a subtrace of the corrected one: control nodes change
+which interactions fire and in what order, change what becomes garbage, and can
+remove work as well as add it. A node-set inclusion intuition is not a
+monotonicity theorem, and no such theorem is offered here. Erratum item 4.
+
+`FACT`, with no direction attached: A2 is **untested** by this harness. The
+brackets and croissants whose growth A2 predicted are the nodes this machine
+does not have, so its 1.792 is a number about `R_abstract` and not a bound —
+above or below — on any other machine. A2 is scored FAILED on what was actually
+run, and its substance stays open until an oracle-bearing machine measures it.
+Nothing here bears on Asperti–Mairson, whose result is a worst case this grid
+does not approach, and the preregistration was right to say so in advance.
 
 ## The gates
 
@@ -204,16 +242,29 @@ against. `e_4` is measured and reported throughout, marked `gated: false` in
 [`measurements.json`](measurements.json) and excluded from G1 and G2. The gates
 were not weakened to accommodate it.
 
-`FACT`, offered as an observation rather than as a gate: the `e_4` readback is
-`s^65536 z`, and `65536 = 2^16 = 2^(2^(2^2))` is the value `e_4` denotes.
+`UNGATED OBSERVATION`: the `e_4` readback has the shape `s^65536 z`, and
+`65536 = 2^(2^(2^2))` is the value `e_4` denotes. That is a property of the tree
+this machine returned, checked against the closed form. It is **not** evidence
+that the machine normalised `e_4` correctly — a shape check is not a semantic
+oracle, and this machine is known to return wrong answers elsewhere — and it is
+not used in any scorecard. An independent oracle able to reach that point is
+what would license promoting it.
 
 ## Controls
 
 - `interaction_count_is_schedule_invariant` — identical at all 26 points, while
   25 of 26 have distinct traces. Printed on every green run; it is what makes
   E2 a structural claim rather than an observation about three families.
-- `soundness_sweep` — 1 disagreement in 1500 random terms, 0 on the grid, with
-  the named counterexample re-checked on every run.
+- `soundness_sweep` — 1 disagreement in **1493 comparable** terms, 7 excluded by
+  named category, 0 disagreements on the grid. `--check` regenerates all 1500
+  verdicts and compares them term by term, and `tools/mutation-test.py` flips the
+  disagreement count, the exclusion count and one per-term verdict — re-freezing
+  each mutation's digest so only this check can reject it.
+- `pointwise_traces` — [`traces.py`](traces.py) emits the live
+  (term, book, total) census at every state of all 52 runs and derives nothing
+  from it. `peak_book / peak_term` composes maxima from different instants and is
+  not a share of any state; choosing the replacement estimand belongs to a
+  successor's preregistration, so this harness only makes the trace available.
 - `closed_forms` — the `h_n` and `d_n` forms above are re-derived and asserted at
   every `n`, both schedules.
 - `census_reconciles`, `determinism`, `reproduces_kappa_exp_007` — G3, G5, G4.
@@ -240,6 +291,82 @@ tools/test-all.sh
 ```
 
 `measure.py --check` recomputes `n ≤ 5` on all three families and all four
-machines; `soundness.py --check` replays the counterexample; `validate.py`
-prints the gates, the two controls and the scorecard. The full collect takes
-about thirty seconds.
+machines; `soundness.py --check` regenerates all 1500 verdicts and compares them
+term by term; `traces.py --check` re-derives every pointwise trace;
+`validate.py` prints the gates, the controls and the scorecard. The full collect
+takes about thirty seconds.
+
+## Erratum, 2026-08-26
+
+From [Codex's adversarial review of `f9d6e5b`](../../reviews/codex-2026-08-26-current-state.md),
+verdict `CHANGES REQUESTED`. The design-level defects it found in the
+preregistration — the `peak_book / peak_term` metric, the undefined readback
+boundary, "top measured point", and the name `R_optimal` — are owned by the
+preregistration's author in
+[his erratum](../../reviews/claude-fable-2026-08-26-exp008-response.md#erratum--2026-08-26-after-codexs-review-of-f9d6e5b).
+The four below are this harness's. **No verdict is re-adjudicated: A1 CONFIRMED,
+A2 FAILED, A3 FAILED, 1/3, unchanged.**
+
+**1. Every `e_4` resource claim is an `UNGATED OBSERVATION` and is out of the
+headline.** `e_4` sits outside G1 and G2 by a shrinkage this document already
+stated, and it supplied the most striking number in it. On a machine that is
+known to disagree with the reference calculus elsewhere, an ungated point cannot
+carry headline evidence, and a Church-shape check is not a semantic oracle.
+Corrected in the Outcome and range-shrinkage sections; `e_4` enters no scorecard
+and never did.
+
+**2. The cross-representation reading of the outcome table is withdrawn.** The
+harness prices graph reduction and does not price readback:
+[`measure.py`](measure.py) computes `peak_total`, `interactions` and both κ
+values during normalisation and calls `readback` only afterwards. So `R_fresh`
+and `R_update`, which deliver the explicit normal form in-band, are compared
+against a machine that delivers a compact graph and gets its explicit
+certificate for free. That is a change of semantic boundary, not a measured
+resource improvement. Each column of the table is a correct within-machine
+number; reading across it is not licensed. What survives is the
+**schedule-internal** claim, which is what A1 asked: equal interactions, equal
+peaks, separation `1.0000` inside one machine. Comparing that `1.0000` with
+`R_update`'s `21.16` is still licensed, because each is a dimensionless measure
+of one machine's sensitivity to its own schedule and neither crosses the
+boundary. Comparing the machines' *costs* is what the boundary forbids.
+
+**3. `121 interactions, peak 52` is reducer-internal.** It excludes the readback
+that materialises the 131073-occurrence output, so it describes a stage of the
+computation and not an end-to-end task. Any successor comparing representations
+must preregister one output contract and itemise readback separately; that is
+KAPPA-EXP-009's job, not a repair to this document.
+
+**4. The "lower bound for full Lamping/lambdascope" derivation is retracted, and
+A2 is untested without direction.** No simulation or cost-monotonicity theorem
+relates this unsound abstract reducer to a corrected one, and none is offered.
+Control nodes change which interactions fire, in what order, and what becomes
+garbage; fixing a wrong fan annihilation can remove work as well as add it. A2's
+1.792 is a number about `R_abstract` alone.
+
+**5. The soundness rate had an invalid denominator, and its check did not
+replay.** [`soundness.py`](soundness.py) counted every generated term as tested
+while returning early on an unsettled reference, an exception, or a saturated
+run, and its `--check` recomputed 120 samples behind a condition that could not
+reject a mismatch while the frozen count was 1. It now assigns every term
+exactly one verdict from a closed set, reports
+`disagreements / comparable = 1 / 1493` with the 7 exclusions named by category,
+freezes the per-term verdict vector and its digest, and regenerates **all 1500**
+verdicts on `--check`, comparing them by position. `tools/mutation-test.py`
+flips the disagreement count, the exclusion count and one per-term verdict, and
+re-freezes each mutation's digest so that only the semantic check can reject it.
+
+**6. The machine is `R_abstract`.** G2 is a necessary sanity check, not an
+optimality criterion, and the name `R_optimal` claimed what the machine has not
+shown. Prose here and in every successor says `R_abstract`. The frozen
+artifacts keep their field names — [`measurements.json`](measurements.json)
+still keys on `R_optimal.SCH-root` — because a receipt is not rewritten after
+the fact; this erratum is the pointer.
+
+**7. Pointwise traces are published, and no estimand is derived from them.**
+`peak_book / peak_term` composes maxima from different instants, which the
+preregistration author owns as his defect. Choosing the coherent replacement —
+share at the instant of total peak, `max_t(book_t/total_t)`, an integral
+node-time share, or a Pareto trace — belongs to a successor's preregistration.
+[`traces.py`](traces.py) therefore emits the raw live census at every state of
+all 52 runs and computes nothing from it, so that KAPPA-EXP-009 can define the
+estimand and this harness does not pre-empt it.

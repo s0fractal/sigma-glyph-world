@@ -17,7 +17,8 @@
     "experiments/kappa-exp-006/measurements.json": "18e1f172a762b2b305590af34716667ef3231394d128ac9d42c78f62b59479d0",
     "experiments/kappa-exp-007/measurements.json": "60ee1930b81b10437ba4e064c3d18f857a64fc13313ce6608cf7e5d616f2e273",
     "experiments/kappa-exp-008/measurements.json": "5daaac1120096f10d0631e924a973a31ab09cf6b61251d9161b91277b50039d3",
-    "experiments/kappa-exp-008/soundness.json": "31c3b0d91b4be59fe5bd4d1ebed670adea0854ebc30dd5a5ff6ff391243a3270"
+    "experiments/kappa-exp-008/soundness.json": "e2d158f773a6a5746a12add11b4c64c906dceaa90cc5beef971e003a6c1c8da8",
+    "experiments/kappa-exp-008/traces.json": "b9f1f5dfc23922b7f695ecb569cbcb2153c099d8cb7f6354e9cc91b718de2944"
   },
   "required": [
     "README.md",
