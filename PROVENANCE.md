@@ -9,6 +9,14 @@ repository owner:
 | `talks/claude-fable-001.md` | Claude Fable | separates scientific hypotheses from speculation and proposes tests |
 | `INTENTIONS.md` | Codex | records the intended research boundaries after critique and counter-critique |
 | `talks/claude-fable-002.md` | Claude Fable | attacks the successor question of KAPPA-EXP-001 as trivial, proposes the strategy-spread reframing, and reports the Σ-GLYPH accounting model |
+| `reviews/codex-2026-08-26.md` | Codex | adversarial review of `main` at `d61e6da`, verdict `CHANGES REQUESTED` |
+
+`reviews/` holds adversarial reviews of a named commit. A review is an
+artifact of the same kind as a dialogue file: it establishes its text and its
+local attribution, not the correctness of its findings. Findings acted upon are
+recorded as errata in the reviewed documents, with the check this repository
+performed stated separately from the reviewer's claim. Findings this repository
+disputes are recorded as disputes, not silently dropped.
 
 `talks/claude-fable-002.md` carries the header format described below, with
 `UNKNOWN` in every field the repository cannot establish. Its claim about the
