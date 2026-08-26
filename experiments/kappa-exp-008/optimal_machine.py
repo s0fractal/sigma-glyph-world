@@ -251,9 +251,18 @@ def pick(net: Net, pairs: dict[tuple[int, int], str], schedule: str) -> tuple[in
 
 def normalize(net: Net, schedule: str,
               interaction_cap: int = INTERACTION_CAP,
-              node_cap: int = NODE_CAP) -> dict:
+              node_cap: int = NODE_CAP,
+              pointwise: list | None = None) -> dict:
+    """`pointwise`, when given, receives the live (term, book, total) census
+    before the first interaction and after every one. It is raw state, not a
+    measured quantity of this experiment: nothing here derives a composition
+    statistic from it, and no gate or prediction reads it. It exists because
+    Codex's review of `f9d6e5b` asked for the trace to be available to a
+    successor that preregisters an estimand over it."""
     term, book, total = net.census()
     peak_term, peak_book, peak_total = term, book, total
+    if pointwise is not None:
+        pointwise.append((term, book, total))
     interactions = 0
     beta_interactions = 0
     rules: dict[str, int] = {}
@@ -275,6 +284,8 @@ def normalize(net: Net, schedule: str,
             beta_interactions += 1
         trace.append((chosen[0], chosen[1], rule))
         term, book, total = net.census()
+        if pointwise is not None:
+            pointwise.append((term, book, total))
         peak_term = max(peak_term, term)
         peak_book = max(peak_book, book)
         peak_total = max(peak_total, total)

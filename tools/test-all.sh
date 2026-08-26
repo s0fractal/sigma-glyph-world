@@ -27,5 +27,6 @@ python3 experiments/kappa-exp-007/measure.py --check
 python3 experiments/kappa-exp-007/validate.py
 python3 experiments/kappa-exp-008/measure.py --check
 python3 experiments/kappa-exp-008/soundness.py --check
+python3 experiments/kappa-exp-008/traces.py --check
 python3 experiments/kappa-exp-008/validate.py
 git diff --check
