@@ -190,19 +190,6 @@
     ]
   },
   {
-    "id": "W15",
-    "repo": "world",
-    "voice": "claude-fable",
-    "prediction": "EXP-008 A1–A3: bounded separation under optimal reduction; bookkeeping share; two optimality minima",
-    "verdict": "PENDING",
-    "refs": [
-      {
-        "file": "experiments/KAPPA-EXP-008-preregistration.md",
-        "quote": "## Prediction A — attributed to Claude Fable 5"
-      }
-    ]
-  },
-  {
     "id": "A1",
     "repo": "alife",
     "voice": "alife-founding-proposal",
@@ -447,6 +434,48 @@
       {
         "file": "experiments/alife-exp-010/RESULT.md",
         "quote": "**H3 FAILS**, and it fails with a"
+      }
+    ]
+  },
+  {
+    "id": "W15",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-008 A1: on d_n the schedule separation under R_optimal is bounded (<= 2.00, non-growing)",
+    "verdict": "HOLDS",
+    "note": "by more than the margin asked: exactly 1.0000 at every n — the binder boundary dissolves",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-008/RESULT.md",
+        "quote": "**CONFIRMED**, and by more than the margin asked: the separation is `1.0000` at every `n`, growth ratios `1.0000`"
+      }
+    ]
+  },
+  {
+    "id": "W16",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-008 A2: peak_book/peak_term >= 10 at the top of e_n, rising; <= 2 on h_n",
+    "verdict": "FAILS",
+    "note": "1.792 at e_4 against >= 10; the machine is the oracle-free abstract algorithm, so peak_book is a lower bound — scored FAILED as preregistered, substance open",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-008/RESULT.md",
+        "quote": "**FAILED** on the first clause: the ratio is `1.792` at `e_4`, not ≥ 10"
+      }
+    ]
+  },
+  {
+    "id": "W17",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-008 A3: interaction-minimising schedule differs from peak-minimising at >= half of pooled n >= 6 points",
+    "verdict": "FAILS",
+    "note": "0 of 12 — and unfalsifiable as posed (E2): strong confluence makes interaction count schedule-invariant, a fact sigma-glyph EXP-004 H3 had already measured",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-008/RESULT.md",
+        "quote": "**FAILED**: 0 of 12. See the erratum candidate below — on an interaction net this prediction cannot be confirmed by construction"
       }
     ]
   }

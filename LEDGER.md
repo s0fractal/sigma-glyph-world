@@ -29,7 +29,6 @@ from whether a voice executes.
 | W12 | world | world-repository | EXP-007 B.1: separation exactly 1.00 on h_n, identical trajectories — right for the objects metric, wrong for occurrence size — quantity named without its metric | **FAILS** | `experiments/kappa-exp-007/RESULT.md` |
 | W13 | world | world-repository | EXP-007 B.2: distinct_objects is Θ(n) for both strategies | **HOLDS** | `experiments/kappa-exp-007/RESULT.md` |
 | W14 | world | world-repository | EXP-007 B.3: on d_n the separation returns attenuated, below R_fresh | **HOLDS** | `experiments/kappa-exp-007/RESULT.md` |
-| W15 | world | claude-fable | EXP-008 A1–A3: bounded separation under optimal reduction; bookkeeping share; two optimality minima | **PENDING** | `experiments/KAPPA-EXP-008-preregistration.md` |
 | A1 | alife | alife-founding-proposal | anastomosis: sharing factor grows super-linearly with population density | **FAILS** | `experiments/alife-exp-001/RESULT.md` |
 | A2 | alife | alife-repository | EXP-004 attack: the sharing decline is an alphabet artifact — the attacked sentence survived, 10/10 seeds at every alphabet fraction | **FAILS** | `experiments/alife-exp-004/RESULT.md`; `experiments/alife-exp-004/RESULT.md` |
 | A3 | alife | alife-exp-005-prereg-author (model not named in artifact) | EXP-005 H1: the sharing discount is large and concentrated | **FAILS** | `experiments/alife-exp-005/RESULT.md` |
@@ -48,6 +47,9 @@ from whether a voice executes.
 | A16 | alife | claude-fable | EXP-010 H1: the currencies pick different colonies (Jaccard < 0.5, 2/3 seeds) — uninformative by post-hoc baseline: E-vs-E across seeds is also ~0; the threshold measures turnover, not the manipulation | **HOLDS** | `experiments/alife-exp-010/RESULT.md`; `experiments/alife-exp-010/RESULT.md` |
 | A17 | alife | claude-fable | EXP-010 H2: matter-pricing cannibalizes (smaller census 3/3, fewer hashes 2/3) — the named falsifier fired: diversity in M exceeds E in two seeds — eating a duplicate spends redundancy, not population | **FAILS** | `experiments/alife-exp-010/RESULT.md` |
 | A18 | alife | claude-fable | EXP-010 H3: the self-pricing-out curve bends (M exceeds E by >= 10 pts, 2/3 seeds) — sign reversed in two seeds; the currency governs only 0.8%-7.0% of colony spend under lazy pricing | **FAILS** | `experiments/alife-exp-010/RESULT.md` |
+| W15 | world | claude-fable | EXP-008 A1: on d_n the schedule separation under R_optimal is bounded (<= 2.00, non-growing) — by more than the margin asked: exactly 1.0000 at every n — the binder boundary dissolves | **HOLDS** | `experiments/kappa-exp-008/RESULT.md` |
+| W16 | world | claude-fable | EXP-008 A2: peak_book/peak_term >= 10 at the top of e_n, rising; <= 2 on h_n — 1.792 at e_4 against >= 10; the machine is the oracle-free abstract algorithm, so peak_book is a lower bound — scored FAILED as preregistered, substance open | **FAILS** | `experiments/kappa-exp-008/RESULT.md` |
+| W17 | world | claude-fable | EXP-008 A3: interaction-minimising schedule differs from peak-minimising at >= half of pooled n >= 6 points — 0 of 12 — and unfalsifiable as posed (E2): strong confluence makes interaction count schedule-invariant, a fact sigma-glyph EXP-004 H3 had already measured | **FAILS** | `experiments/kappa-exp-008/RESULT.md` |
 
 ## Tallies by voice
 
@@ -56,7 +58,7 @@ from whether a voice executes.
 | alife-exp-005-prereg-author (model not named in artifact) | 0 | 3 | 0 | 0 | 0 | 0 |
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
-| claude-fable | 3 | 4 | 0 | 0 | 0 | 1 |
+| claude-fable | 4 | 6 | 0 | 0 | 0 | 0 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
 Adjudicated = everything except PENDING. A PENDING entry names
