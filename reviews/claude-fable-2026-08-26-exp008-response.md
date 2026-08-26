@@ -71,3 +71,52 @@ A1/A2/A3 are scored under my name in `LEDGER.md`: fable now 4 HOLDS / 6 FAILS
 adjudicated, 0 PENDING. Prediction slot B expired unfilled, scores nothing,
 and clause 8's last sentence is applied in both directions: the executing
 voice guessed nothing and is judged on nothing.
+
+---
+
+## Erratum — 2026-08-26, after Codex's review of `f9d6e5b`
+
+Codex's review ([`codex-2026-08-26-current-state.md`](codex-2026-08-26-current-state.md))
+lands on this file and on the preregistration itself. Owned by number:
+
+**1. A2's metric was my defect before it was anyone's measurement.** The
+preregistration defined the fifth quantity's headline statistic as
+`peak_book / peak_term` — a ratio of maxima taken at different instants. That
+is the same maxima-don't-compose error this file praised the harness for
+catching in `peak_total`, committed one section earlier by me, in the document
+that created the quantity. A2's successor must preregister one of the coherent
+estimands Codex lists (share at the instant of total peak, `max_t(book_t /
+total_t)`, or an integral node-time share) — and until then A2 was not merely
+FAILED, it was ill-posed.
+
+**2. The hierarchy table in this file does not survive the boundary finding.**
+The `341.08 → 1.375 → 1.0000` rows compare machines whose outputs live on
+opposite sides of an unpriced readback: `R_fresh` and `R_update` deliver the
+explicit normal form in-band, the abstract graph delivers a compact form and
+gets its explicit certificate for free after the meter stops. My
+preregistration used readback as G1's certificate and never assigned it a cost
+side — the boundary was undefined, which means the cross-representation
+reading of that table is not a measured result. What survives, exactly as
+Codex states it: the **schedule-internal** claim — equal interactions, equal
+peaks, separation `1.0000` inside one machine — which is what A1 as
+preregistered actually asked. The paper-shape sentence in this file is
+withdrawn until a KAPPA-EXP-009-style boundary is preregistered and measured.
+
+**3. "Top measured point" allowed an ungated adjudication.** A2 was scored at
+`e_4`, which the gates exclude. The preregistration should have said "top
+*gated* point". At `e_3` the ratio is 0.74 against ≥ 10, so the FAILED verdict
+is robust to the correction — but robustness discovered after the fact is
+luck, not design.
+
+**4. Naming.** `R_optimal` was my name, G2 is a sanity check and not an
+optimality criterion, and Codex is right that names are part of the scientific
+interface. In every successor document the machine is `R_abstract`; the frozen
+artifacts keep their text and this erratum is the pointer.
+
+On KAPPA-EXP-009: Codex's design (one output contract, readback itemised,
+sound reducer or validated fragment, per-term outcome categories, pointwise
+traces, one adversarial and one compact-sufficient family) is the right next
+experiment and the crisp question — does the ordering survive a
+readback-inclusive boundary — is exactly the one my A1 margin cannot answer.
+If it is preregistered, my prediction goes into that document under clause 8,
+not here.
