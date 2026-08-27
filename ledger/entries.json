@@ -483,16 +483,27 @@
     "id": "W18",
     "repo": "world",
     "voice": "claude-fable",
-    "prediction": "EML-EXP-001: P-draft 1-3 (draft) and F1-F3+F6 (session), incl. the internal disagreement on per-function null exceedance",
-    "verdict": "PENDING",
+    "prediction": "EML-001 P-draft 1-3 (draft sub-voice): union beats min N1/N2; >= half fail N1 per-function; ratio <= 0.35",
+    "verdict": "HOLDS",
+    "note": "3/3 — the draft voice, reasoning WITHOUT the corpus facts, beat both session voices on the per-function question",
     "refs": [
       {
-        "file": "experiments/EML-EXP-001-preregistration.md",
-        "quote": "**P-draft — Claude (chat), from `418038a`, verbatim**"
-      },
+        "file": "experiments/eml-exp-001/RESULT.md",
+        "quote": "**22 of 32** do not (needed `>= 16`)"
+      }
+    ]
+  },
+  {
+    "id": "W22",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EML-001 F1/F2/F3/F6 (session sub-voice)",
+    "verdict": "MIXED",
+    "note": "F1, F6 held; F2 failed badly (22 fail, predicted < 8) and F3 narrowly (0.4574) — knowing the chain-expansion facts made the session voice over-index on reuse",
+    "refs": [
       {
-        "file": "experiments/EML-EXP-001-preregistration.md",
-        "quote": "**P-fable — Claude Fable 5 (session), filed at this commit**"
+        "file": "experiments/eml-exp-001/RESULT.md",
+        "quote": "**FAILED**, narrowly"
       }
     ]
   },
@@ -500,12 +511,13 @@
     "id": "W19",
     "repo": "world",
     "voice": "kimi",
-    "prediction": "EML-EXP-001: A1-A4 (ratio(U)<0.001; cross_only>=0.65; >=25 beat min N1; largest shared subtree >100k nodes, >=3 sharers)",
-    "verdict": "PENDING",
+    "prediction": "EML-001 A1-A4",
+    "verdict": "MIXED",
+    "note": "A1 held (paper-decided); A2/A3/A4 failed — A3 wrong on the count (10, not >= 25) yet exactly right on the mechanism: the ten that beat N1 are precisely the ten largest, threshold 134 nodes",
     "refs": [
       {
-        "file": "experiments/EML-EXP-001-preregistration.md",
-        "quote": "- **A4.** The largest shared subtree has **> 100,000 nodes** and is shared"
+        "file": "experiments/eml-exp-001/RESULT.md",
+        "quote": "**FAILED on the count, right on the mechanism**"
       }
     ]
   },
@@ -513,16 +525,31 @@
     "id": "W20",
     "repo": "world",
     "voice": "claude-fable",
-    "prediction": "EML-EXP-002: P-draft 1-3 (draft) and F4-F5 (session)",
-    "verdict": "PENDING",
+    "prediction": "EML-002 P-draft 1-3 (draft sub-voice)",
+    "verdict": "MIXED",
+    "note": "P-draft-1 held on its stated falsifier with both stated mechanisms false (DOMAIN traps on ln(0), not exp overflow); P-draft-2 failed (rho 0.276); P-draft-3 failed in the OPPOSITE direction — truncation needs fewer bits for 10 of 22",
     "refs": [
       {
-        "file": "experiments/EML-EXP-002-preregistration.md",
-        "quote": "**P-draft — Claude (chat), from `418038a`, verbatim**"
+        "file": "experiments/eml-exp-002/RESULT.md",
+        "quote": "**HELD on its stated falsifier; both stated mechanisms false**"
       },
       {
-        "file": "experiments/EML-EXP-002-preregistration.md",
-        "quote": "**P-fable — Claude Fable 5 (session), filed at this commit**"
+        "file": "experiments/eml-exp-002/RESULT.md",
+        "quote": "truncation needs **fewer** bits for 10 of 22"
+      }
+    ]
+  },
+  {
+    "id": "W23",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EML-002 F4/F5 (session sub-voice): >= half fail n<=20; e/exp/ln at n<=16",
+    "verdict": "HOLDS",
+    "note": "2/2 — 14 of 22, and 8/12/12",
+    "refs": [
+      {
+        "file": "experiments/eml-exp-002/RESULT.md",
+        "quote": "**14 of 22** | **HELD**"
       }
     ]
   },
@@ -530,12 +557,13 @@
     "id": "W21",
     "repo": "world",
     "voice": "kimi",
-    "prediction": "EML-EXP-002: A5-A7 (exactly 6 of 22 fail n<=20; e/exp/ln at n<=8; Spearman >=0.55 excluding floor outliers)",
-    "verdict": "PENDING",
+    "prediction": "EML-002 A5-A7 (incl. the knife-edge 'exactly 6')",
+    "verdict": "FAILS",
+    "note": "0/3 — A5 measured 14; A6: exp and ln need 12; A7 refuted with the opposite sign (rho = -0.725)",
     "refs": [
       {
-        "file": "experiments/EML-EXP-002-preregistration.md",
-        "quote": "- **A5.** **Exactly 6** of the 22 included constructions have `n* > 20` or"
+        "file": "experiments/eml-exp-002/RESULT.md",
+        "quote": "`rho = -0.725` over 5"
       }
     ]
   }
