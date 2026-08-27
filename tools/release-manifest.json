@@ -22,7 +22,8 @@
     "experiments/eml-basis/basis.json": "14853489bf3701e276d67e6f6fe6e007ebb507c7dad527b9fe0f4ffd6cdf5475",
     "experiments/eml-exp-001/measurements.json": "4482c9e25c8505d9f20ab69c44b478894b323f951e77f1ad4e1a4a74540cdec4",
     "experiments/eml-exp-002/measurements.json": "bd29bcae28928d041907915f15d0f400389e2771261090a431014057d8940944",
-    "experiments/world-cas-001/measurements.json": "da18ea39709d4d8bb41de10c20be5fd5e819982a2284148affca2cb9a5225672"
+    "experiments/world-cas-001/measurements.json": "da18ea39709d4d8bb41de10c20be5fd5e819982a2284148affca2cb9a5225672",
+    "experiments/kappa-exp-009/measurements.json": "9bb228fa60a66686b0985580c351ab95a03a85f7a373fe7b31030411a7e58c5c"
   },
   "required": [
     "README.md",
@@ -44,6 +45,7 @@
     "experiments/kappa-exp-007/RESULT.md",
     "experiments/kappa-exp-008/RESULT.md",
     "experiments/world-cas-001/RESULT.md",
+    "experiments/kappa-exp-009/RESULT.md",
     "reviews/claude-fable-2026-08-26.md",
     "reviews/response-to-claude-fable-2026-08-26.md",
     "experiments/EML-EXP-001-002-preregistration-draft.md",

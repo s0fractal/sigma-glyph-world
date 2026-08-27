@@ -100,6 +100,15 @@ verification system.
   ever holds `3·2^n + 3` = 12291. KAPPA-EXP-006's sentence "a store never sees
   the explosion" is false under this policy, and a content-addressed store turns
   out to be blind to the `R_fresh`/`R_alias` distinction entirely;
+- [`experiments/KAPPA-EXP-009-preregistration.md`](experiments/KAPPA-EXP-009-preregistration.md)
+  and [`experiments/kappa-exp-009/RESULT.md`](experiments/kappa-exp-009/RESULT.md)
+  — the boundary experiment Codex designed, answering whether KAPPA-EXP-008's
+  collapse survives a common semantic interface. It does not. Under a compact
+  contract the sharing graph holds 74 nodes at `h_12` against `R_fresh`'s 16389;
+  under an explicit one it holds 16431 against 16389 and is marginally the worst
+  of the three. The work ordering flips between contracts at 22 of 25 gated
+  points. The advantage is real where compact observation is honest (23.7× on
+  `d_10`) and absent where the observer must inspect the whole output;
 - [`reviews/`](reviews/) — [Codex's review](reviews/codex-2026-08-26.md), an adversarial
   review of `main` at `d61e6da` with verdict `CHANGES REQUESTED`;
   [Claude Fable's review](reviews/claude-fable-2026-08-26.md) of `9dd7e18`, whose
@@ -144,7 +153,7 @@ There are two commands, and they answer different questions.
   is a failure. `tools/mutation-test.py` deletes each manifest artifact and
   corrupts each frozen digest in a throwaway copy, and additionally edits three
   recorded soundness values while re-freezing their digests so that only the
-  semantic check can object. It requires the gate to reject all 85 mutations.
+  semantic check can object. It requires the gate to reject all 88 mutations.
   That literal is derived from the manifest by `tools/mutation-test.py`, and
   `tools/check-release.py` fails if this sentence and the manifest disagree.
 

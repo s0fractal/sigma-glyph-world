@@ -370,3 +370,24 @@ node-time share, or a Pareto trace — belongs to a successor's preregistration.
 [`traces.py`](traces.py) therefore emits the raw live census at every state of
 all 52 runs and computes nothing from it, so that KAPPA-EXP-009 can define the
 estimand and this harness does not pre-empt it.
+
+### Addendum, 2026-08-27 — found by KAPPA-EXP-009's harness
+
+**8. The `e` range shrinkage was stronger than necessary.** This document says
+the gated `e` range shrank to `[1, 3]` because "`R_fresh` cannot produce a
+reference normal form for `e_4` (131073 occurrences)". That is true of `R_fresh`
+under **`S_out`**, which is the reference this harness used, and false of
+`R_fresh` as a machine. Under `S_in` it normalizes `e_4` in **65 steps and 0.7
+seconds**, to exactly `s^65536 z`, at a peak of 131085 objects.
+
+`FACT`: the de Bruijn digest of that reference is `0944413bde7c0766`; the digest
+of this experiment's own `R_abstract` readback at `e_4` is `0944413bde7c0766`.
+**G1 at `e_4` would have passed.**
+
+`DERIVATION`: no verdict moves. A2 was scored at the top gated point, 0.737
+against the ≥ 10 predicted, and the `e_4` ratio is 1.792, so A2 fails at either
+point. What was wrong is the scope note, which reported a forced shrinkage where
+the force came from pinning one strategy for the reference rather than from the
+family. The frozen [`measurements.json`](measurements.json) is untouched and
+still records `e_4` as `gated: false`; this addendum is the pointer, and
+[KAPPA-EXP-009](../kappa-exp-009/RESULT.md) carries the measurement.
