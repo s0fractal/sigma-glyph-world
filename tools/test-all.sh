@@ -29,4 +29,19 @@ python3 experiments/kappa-exp-008/measure.py --check
 python3 experiments/kappa-exp-008/soundness.py --check
 python3 experiments/kappa-exp-008/traces.py --check
 python3 experiments/kappa-exp-008/validate.py
+
+# EML-EXP-001/002. Both depend on mpmath (the transcription control) and
+# EML-EXP-001 additionally on a local sigma-glyph checkout; each reports
+# SKIPPED rather than importing unconditionally, per both preregistrations'
+# dependency rule, and SKIPPED is never a pass.
+if python3 -c 'import mpmath' >/dev/null 2>&1; then
+  python3 experiments/eml-exp-001/measure.py --check
+  python3 experiments/eml-exp-001/validate.py
+  python3 experiments/eml-exp-002/measure.py --check
+  python3 experiments/eml-exp-002/validate.py
+else
+  echo "SKIPPED (mpmath absent): EML-EXP-001"
+  echo "SKIPPED (mpmath absent): EML-EXP-002"
+fi
+
 git diff --check
