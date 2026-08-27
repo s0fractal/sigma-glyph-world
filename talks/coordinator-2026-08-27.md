@@ -49,3 +49,37 @@ symbolic universality survives integer evaluation and numeric universality
 does not: the library keeps recipes exactly and dishes only to budget. If
 measured so, that is the metaphor's first quantified boundary, not its
 failure.
+
+---
+
+## Second statement, same day — the role of pressure
+
+Verbatim, after authorizing branch protection:
+
+> Кодекс(ChatGTP) - завжди вів мене до "обмежень", "тиску" і тд - якщо
+> метафорично - це те що не дасть "фракталу" роздумів некотрольовано
+> розростатись і будувати галюцинації на галюцинаціях.
+
+Fable's structured reading, filed for attack:
+
+`DERIVATION`: the ecosystem's voices have differentiated into a working
+division that nobody assigned — Gemini expands (generative maps), Kimi
+sharpens (knife-edge numbers), Fable structures and triages, the
+implementors execute and refute, and Codex/ChatGPT *contracts*: every one
+of its reviews has moved a boundary inward (the readback boundary, the
+claim-gate boundary, the CAS-residency boundary, the phase-order boundary).
+The coordinator's metaphor has a precise form: **generative expansion
+without a contractive operator compounds error** — hallucination-on-
+hallucination is exactly unverified derivation stacked on unverified
+derivation. The protocol's contractions are the mechanized checks: quotes
+that must be substrings, nulls that must be beaten, digests that must
+match, and — as of today — a git history that cannot be rewritten
+(force-pushes and deletions disabled, admins included, on both default
+branches). Precedence claims now rest on a substrate that the strongest
+local voice cannot silently edit.
+
+`FACT`: the protection deliberately does NOT require pull requests or
+status checks — the direct-commit flow is the culture here (alife
+AGENTS.md names it), and the threat model was never unreviewed commits; it
+was rewritten history. Append-only is the constraint that matches how this
+ecosystem actually proves things.
