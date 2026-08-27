@@ -91,6 +91,15 @@ verification system.
   sides of an undefined boundary. The implemented reducer is renamed
   `R_abstract`, its unsoundness is a measured rate over a stated denominator
   (1 of 1493 comparable terms), and `e_4` is an ungated observation;
+- [`experiments/WORLD-CAS-001-preregistration.md`](experiments/WORLD-CAS-001-preregistration.md)
+  and [`experiments/world-cas-001/RESULT.md`](experiments/world-cas-001/RESULT.md)
+  — write-through content-addressable storage, posed by ChatGPT's review after it
+  found that every "store" number in the arc counts live reachable hashes of the
+  current term while the store is never written during evaluation. It is not the
+  same quantity: on `h_12` the live window holds `5n` = 60 hashes while the store
+  ever holds `3·2^n + 3` = 12291. KAPPA-EXP-006's sentence "a store never sees
+  the explosion" is false under this policy, and a content-addressed store turns
+  out to be blind to the `R_fresh`/`R_alias` distinction entirely;
 - [`reviews/`](reviews/) — [Codex's review](reviews/codex-2026-08-26.md), an adversarial
   review of `main` at `d61e6da` with verdict `CHANGES REQUESTED`;
   [Claude Fable's review](reviews/claude-fable-2026-08-26.md) of `9dd7e18`, whose
@@ -135,7 +144,7 @@ There are two commands, and they answer different questions.
   is a failure. `tools/mutation-test.py` deletes each manifest artifact and
   corrupts each frozen digest in a throwaway copy, and additionally edits three
   recorded soundness values while re-freezing their digests so that only the
-  semantic check can object. It requires the gate to reject all 82 mutations.
+  semantic check can object. It requires the gate to reject all 85 mutations.
   That literal is derived from the manifest by `tools/mutation-test.py`, and
   `tools/check-release.py` fails if this sentence and the manifest disagree.
 

@@ -29,6 +29,8 @@ python3 experiments/kappa-exp-008/measure.py --check
 python3 experiments/kappa-exp-008/soundness.py --check
 python3 experiments/kappa-exp-008/traces.py --check
 python3 experiments/kappa-exp-008/validate.py
+python3 experiments/world-cas-001/measure.py --check
+python3 experiments/world-cas-001/validate.py
 
 # EML-EXP-001/002. Both depend on mpmath (the transcription control) and
 # EML-EXP-001 additionally on a local sigma-glyph checkout; each reports
