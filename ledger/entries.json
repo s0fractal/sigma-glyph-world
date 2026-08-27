@@ -566,5 +566,47 @@
         "quote": "`rho = -0.725` over 5"
       }
     ]
+  },
+  {
+    "id": "A19",
+    "repo": "alife",
+    "voice": "chatgpt",
+    "prediction": "EXP-011 H1-is-false: under the default schedule a fed starving agent never fires again (the feed-then-bury analysis)",
+    "verdict": "HOLDS",
+    "note": "exactly as analyzed — 0.0% survival across arms (a)/(b), all seeds; the finding entered the ledger the way it entered the codebase: by reading the phase order, then measuring it",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-011/RESULT.md",
+        "quote": "**0 of 168** sufficiently-fed agents across arms (a) and (b), all three seeds."
+      }
+    ]
+  },
+  {
+    "id": "A20",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-011 H2: fed-then-buried ATP exceeds 10% of ATP granted to starving agents",
+    "verdict": "HOLDS",
+    "note": "the threshold was absurdly conservative: 100.0% — every granted unit was collected back the same tick",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-011/RESULT.md",
+        "quote": "**1056 of 1056 ATP = 100.0%.** Not a tenth. All of it."
+      }
+    ]
+  },
+  {
+    "id": "A21",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-011 H3: with a cull-free window, survival is 100% and answers match the oracle",
+    "verdict": "HOLDS",
+    "note": "90/90 fired, 66/66 settled survivors hit the whole-run answer — resumption_bound's machinery, used as control-by-contrast",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-011/RESULT.md",
+        "quote": "**90 of 90 fed agents fired again — 100.0%.** And **66 of 66** of those that"
+      }
+    ]
   }
 ]

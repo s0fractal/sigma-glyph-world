@@ -56,6 +56,9 @@ from whether a voice executes.
 | W20 | world | claude-fable | EML-002 P-draft 1-3 (draft sub-voice) — P-draft-1 held on its stated falsifier with both stated mechanisms false (DOMAIN traps on ln(0), not exp overflow); P-draft-2 failed (rho 0.276); P-draft-3 failed in the OPPOSITE direction — truncation needs fewer bits for 10 of 22 | **MIXED** | `experiments/eml-exp-002/RESULT.md`; `experiments/eml-exp-002/RESULT.md` |
 | W23 | world | claude-fable | EML-002 F4/F5 (session sub-voice): >= half fail n<=20; e/exp/ln at n<=16 — 2/2 — 14 of 22, and 8/12/12 | **HOLDS** | `experiments/eml-exp-002/RESULT.md` |
 | W21 | world | kimi | EML-002 A5-A7 (incl. the knife-edge 'exactly 6') — 0/3 — A5 measured 14; A6: exp and ln need 12; A7 refuted with the opposite sign (rho = -0.725) | **FAILS** | `experiments/eml-exp-002/RESULT.md` |
+| A19 | alife | chatgpt | EXP-011 H1-is-false: under the default schedule a fed starving agent never fires again (the feed-then-bury analysis) — exactly as analyzed — 0.0% survival across arms (a)/(b), all seeds; the finding entered the ledger the way it entered the codebase: by reading the phase order, then measuring it | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
+| A20 | alife | claude-fable | EXP-011 H2: fed-then-buried ATP exceeds 10% of ATP granted to starving agents — the threshold was absurdly conservative: 100.0% — every granted unit was collected back the same tick | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
+| A21 | alife | claude-fable | EXP-011 H3: with a cull-free window, survival is 100% and answers match the oracle — 90/90 fired, 66/66 settled survivors hit the whole-run answer — resumption_bound's machinery, used as control-by-contrast | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
 
 ## Tallies by voice
 
@@ -64,7 +67,8 @@ from whether a voice executes.
 | alife-exp-005-prereg-author (model not named in artifact) | 0 | 3 | 0 | 0 | 0 | 0 |
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
-| claude-fable | 6 | 6 | 0 | 2 | 0 | 0 |
+| chatgpt | 1 | 0 | 0 | 0 | 0 | 0 |
+| claude-fable | 8 | 6 | 0 | 2 | 0 | 0 |
 | kimi | 0 | 1 | 0 | 1 | 0 | 0 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
