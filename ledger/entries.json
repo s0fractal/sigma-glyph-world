@@ -608,5 +608,47 @@
         "quote": "**90 of 90 fed agents fired again — 100.0%.** And **66 of 66** of those that"
       }
     ]
+  },
+  {
+    "id": "A22",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-012c XC1: the corpus chooses the phase, not the currency (0 discordant seeds of 5)",
+    "verdict": "FAILS",
+    "note": "4 of 5 seeds discordant — filed under declared partial contamination that pointed the WRONG way; per-arm producing counts (BF 0/5, FF 3/5) suggest the price axis, unclaimed pending a null (successor 012d)",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-012c/RESULT.md",
+        "quote": "**FAILS** — 4 discordant seeds of 5"
+      }
+    ]
+  },
+  {
+    "id": "A23",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-012c XC2: the conditional factorial (X1-X3) over producing seeds",
+    "verdict": "UNADJUDICATED",
+    "note": "0 concordantly producing seeds — the base is empty BECAUSE XC1 failed; the prereg's warning sentence was written for the wrong world and the RESULT says so",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-012c/RESULT.md",
+        "quote": "**UNADJUDICATED (insufficient producing seeds)** — 0 concordantly producing"
+      }
+    ]
+  },
+  {
+    "id": "A24",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-012c XC3: collapse timing is currency-independent",
+    "verdict": "FAILS",
+    "note": "within-seed spread 1255 > across-seed 856.5; seed 20260827: all four arms die, Book-priced ~3x earlier — 'the more interesting world' of the prereg's own falsifier",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-012c/RESULT.md",
+        "quote": "**FAILS** — max within-seed spread 1255 against an across-seed spread of means of 856.5"
+      }
+    ]
   }
 ]

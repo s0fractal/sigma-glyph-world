@@ -59,6 +59,9 @@ from whether a voice executes.
 | A19 | alife | chatgpt | EXP-011 H1-is-false: under the default schedule a fed starving agent never fires again (the feed-then-bury analysis) — exactly as analyzed — 0.0% survival across arms (a)/(b), all seeds; the finding entered the ledger the way it entered the codebase: by reading the phase order, then measuring it | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
 | A20 | alife | claude-fable | EXP-011 H2: fed-then-buried ATP exceeds 10% of ATP granted to starving agents — the threshold was absurdly conservative: 100.0% — every granted unit was collected back the same tick | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
 | A21 | alife | claude-fable | EXP-011 H3: with a cull-free window, survival is 100% and answers match the oracle — 90/90 fired, 66/66 settled survivors hit the whole-run answer — resumption_bound's machinery, used as control-by-contrast | **HOLDS** | `experiments/alife-exp-011/RESULT.md` |
+| A22 | alife | claude-fable | EXP-012c XC1: the corpus chooses the phase, not the currency (0 discordant seeds of 5) — 4 of 5 seeds discordant — filed under declared partial contamination that pointed the WRONG way; per-arm producing counts (BF 0/5, FF 3/5) suggest the price axis, unclaimed pending a null (successor 012d) | **FAILS** | `experiments/alife-exp-012c/RESULT.md` |
+| A23 | alife | claude-fable | EXP-012c XC2: the conditional factorial (X1-X3) over producing seeds — 0 concordantly producing seeds — the base is empty BECAUSE XC1 failed; the prereg's warning sentence was written for the wrong world and the RESULT says so | **UNADJUDICATED** | `experiments/alife-exp-012c/RESULT.md` |
+| A24 | alife | claude-fable | EXP-012c XC3: collapse timing is currency-independent — within-seed spread 1255 > across-seed 856.5; seed 20260827: all four arms die, Book-priced ~3x earlier — 'the more interesting world' of the prereg's own falsifier | **FAILS** | `experiments/alife-exp-012c/RESULT.md` |
 
 ## Tallies by voice
 
@@ -68,7 +71,7 @@ from whether a voice executes.
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
 | chatgpt | 1 | 0 | 0 | 0 | 0 | 0 |
-| claude-fable | 8 | 6 | 0 | 2 | 0 | 0 |
+| claude-fable | 8 | 8 | 0 | 2 | 1 | 0 |
 | kimi | 0 | 1 | 0 | 1 | 0 | 0 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
