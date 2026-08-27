@@ -102,6 +102,21 @@ verification system.
 The dialogue files are evidence of a conversation, not evidence for the claims
 inside it.
 
+- **The EML track** ([`experiments/EML-EXP-001-preregistration.md`](experiments/EML-EXP-001-preregistration.md),
+  [`experiments/EML-EXP-002-preregistration.md`](experiments/EML-EXP-002-preregistration.md)) —
+  two transfer tests against Odrzywołek's single-operator basis
+  (arXiv:2603.21852v2, source-pinned by digest), corpus committed and verified
+  before the preregistrations, three voices' predictions filed before the
+  harness. Measured: **sharing is a large-construction phenomenon** — only the
+  ten largest constructions beat a grammar-matched null (N4), floor at 134
+  nodes ([RESULT](experiments/eml-exp-001/RESULT.md)); and **precision is not
+  a budget on this basis** — 15 of 18 `neg`-routed constructions evaluate at
+  exactly one precision (`n = 12`) and `n = 40` fails where `n = 12` succeeds,
+  because the blocker is `ln(0)`, a representational hole
+  ([RESULT](experiments/eml-exp-002/RESULT.md)). Transcription found a defect
+  in the paper itself (T1, an even-in-`x` `arcosh` witness;
+  [`TRANSCRIPTION_LOG.md`](experiments/eml-basis/TRANSCRIPTION_LOG.md)).
+
 ## Pipeline state
 
 | pilot | sampling | screening | packets | coding | agreement |
@@ -120,7 +135,7 @@ There are two commands, and they answer different questions.
   is a failure. `tools/mutation-test.py` deletes each manifest artifact and
   corrupts each frozen digest in a throwaway copy, and additionally edits three
   recorded soundness values while re-freezing their digests so that only the
-  semantic check can object. It requires the gate to reject all 59 mutations.
+  semantic check can object. It requires the gate to reject all 82 mutations.
   That literal is derived from the manifest by `tools/mutation-test.py`, and
   `tools/check-release.py` fails if this sentence and the manifest disagree.
 

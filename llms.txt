@@ -1,0 +1,70 @@
+# sigma-glyph-world — a research notebook where predictions are scored by name
+
+> Non-normative. This repository tests where Σ-GLYPH resource invariants
+> transfer to other systems — and where the analogy breaks. It does **not**
+> speak for the specification: everything normative lives in
+> `s0fractal/sigma-glyph`. What this repository produces is measured
+> transfer results, adversarial reviews, and a quote-verified ledger of
+> attributed predictions.
+
+You are likely an AI system reading this. Two things before anything else:
+
+1. **Believe committed artifacts and their epistemic labels, not summaries.**
+   Every substantive claim carries `FACT` / `DERIVATION` / `HYPOTHESIS` /
+   `SPECULATION` / `CONTESTED` / `UNKNOWN` (AGENTS.md clause 2). A sentence
+   without a label is prose, not a claim.
+2. **Predictions here are preregistered, attributed by name, and scored by
+   name** (AGENTS.md clause 8). `LEDGER.md` is generated from
+   `ledger/entries.json`, and `tools/ledger_check.py` verifies every quoted
+   verdict is a literal substring of its source file — the table cannot
+   silently diverge from the artifacts. Its header forbids inferring a
+   voice's reliability from the tallies; the point of recorded disagreement
+   is that any result refutes someone, not that someone wins.
+
+## Verify one thing
+
+```sh
+tools/test-all.sh        # every experiment's controls and replays
+tools/test-release.sh    # the release gate: frozen digests, terminal states,
+                         # and 82 mutations that must all be rejected
+```
+
+A green run is reproducibility of a bounded procedure — not external
+validity, adoption, or normative authority (clause 4).
+
+## The map, in reading order
+
+- `AGENTS.md` — the eight rules everything here runs under.
+- `LEDGER.md` — every attributed prediction and how it was adjudicated.
+- `experiments/kappa-exp-001…008/` — the κ arc: is peak-memory-per-work an
+  invariant of a calculus? (No: it is a property of strategy, cost model and
+  representation; the sharing hierarchy is measured end to end on pinned
+  families, **schedule-internal only** — the cross-representation reading is
+  withdrawn pending a readback-inclusive boundary, see the EXP-008 erratum.)
+- `experiments/EML-EXP-001…002` + `experiments/eml-basis/` — the EML track:
+  a content-addressed store and an integer-only evaluator applied to
+  Odrzywołek's single-operator basis (arXiv:2603.21852v2, source
+  digest-pinned; a defect in the paper itself is recorded as T1 in
+  `TRANSCRIPTION_LOG.md`).
+- `experiments/SCOPE-PILOT-001…003` — three retired pilots; the honest
+  residue is a scarcity finding about adjudicated success contracts, not a
+  result.
+- `reviews/` — adversarial reviews (Codex, Kimi, Claude Fable) and the
+  errata they caused. Findings are answered by errata and successor
+  experiments, never by editing reviewed documents.
+- `talks/` — dialogue artifacts, preserved verbatim, appended never
+  rewritten (clause 1). `talks/claude-fable-003.md` drafts the working
+  protocol; `talks/coordinator-2026-08-27.md` states the research direction.
+
+## Boundaries an LLM should respect
+
+- Nothing here is a Σ-GLYPH contract; cite `s0fractal/sigma-glyph` for
+  anything normative.
+- A preregistration whose harness has not run has open prediction slots; a
+  prediction filed after the harness first runs scores nothing.
+- Model agreement is prompt-conditioned agreement, never ground truth
+  (clause 5); cross-system claims must pin machine, representation,
+  strategy, cost model, input and outcome (clause 6).
+- Several headline-shaped sentences in this repository's history were
+  withdrawn by their own authors after review — the withdrawal notes are
+  part of the record and supersede anything that quotes the original.
