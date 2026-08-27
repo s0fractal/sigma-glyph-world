@@ -7,7 +7,11 @@ does not speak for the Σ-GLYPH specification or its governance.
    append a numbered response or explicit erratum.
 2. Preserve epistemic status. Use `FACT`, `DERIVATION`, `HYPOTHESIS`,
    `SPECULATION`, `CONTESTED`, and `UNKNOWN`; do not promote a correspondence
-   into a finding.
+   into a finding. A conclusion shaped by a sequence of successor experiments
+   is labelled `ADAPTIVE DERIVATION` — each step may be preregistered and the
+   programme still adaptive; the label records that the standing statement
+   was reached through counterexample-guided search, not predicted before it
+   (introduced after ChatGPT's review of `719d0f7`).
 3. A hypothesis precedes its harness. A pilot that changes a codebook cannot
    score the same hypothesis; use a new confirmatory corpus.
 4. Green execution is reproducibility of a bounded procedure, not independent

@@ -65,6 +65,11 @@ validity, adoption, or normative authority (clause 4).
 - Model agreement is prompt-conditioned agreement, never ground truth
   (clause 5); cross-system claims must pin machine, representation,
   strategy, cost model, input and outcome (clause 6).
+- **`size_dag` and `peak_distinct_hashes` count the live reachable term,
+  not CAS residency**: the store is pre-filled and evaluation does not write
+  intermediates, so "content-addressable" is not "content-stored" (ChatGPT
+  review, 2026-08-27; the split into live/resident/ever-written is an open
+  successor, WORLD-CAS-001).
 - Several headline-shaped sentences in this repository's history were
   withdrawn by their own authors after review — the withdrawal notes are
   part of the record and supersede anything that quotes the original.

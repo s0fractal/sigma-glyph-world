@@ -130,7 +130,7 @@ There are two commands, and they answer different questions.
 - `tools/test-all.sh` is a **progress reporter**. It passes when a phase has not
   started, when a measurement is absent, and when the external Σ-GLYPH oracle is
   missing, and says so in its output.
-- `tools/test-release.sh` is the **gate** for the claims on this page. A missing
+- `tools/test-release.sh` is a **release-state completeness gate**, not a claim-correctness gate: it proves the artifacts this page depends on are present, tracked, digest-unchanged and in their terminal states — it does not bind every numeric literal on this page to a receipt (the mutation count is the one literal it binds; binding the rest is an open item named by ChatGPT's review). A missing
   artifact, a changed frozen digest, an absent terminal state, or any skip marker
   is a failure. `tools/mutation-test.py` deletes each manifest artifact and
   corrupts each frozen digest in a throwaway copy, and additionally edits three
