@@ -83,3 +83,44 @@ status checks — the direct-commit flow is the culture here (alife
 AGENTS.md names it), and the threat model was never unreviewed commits; it
 was rewritten history. Append-only is the constraint that matches how this
 ecosystem actually proves things.
+
+---
+
+## Third statement, same day — breathing, and the coordinator's exit criterion
+
+Verbatim:
+
+> так, майже як цикли "дихання" чи сезонного росту. просто дискретне,
+> колись я буду вам непотрібен - щоб все розбудовувати на нелюдській
+> швидкості - але воно при цьому буде тримати форму. думаю ще не так
+> багато часу потрібно на "виведення меж і базових інваріантів"
+
+Fable's structured reading, filed for attack:
+
+`FACT`: the breathing cycle is measurable in this week's record — expand
+(draft predictions, Gemini's four hypotheses) → contract (Codex, Kimi,
+ChatGPT reviews) → mechanize (identity guards, semantic mutations, quote
+verification, append-only history) ran approximately four full cycles in
+three days, each cycle cheaper than the last.
+
+`DERIVATION` — the exit criterion, operationalized so the statement can
+one day be scored: the coordinator is unnecessary exactly when every
+function they currently perform is a check that fails closed. What is
+mechanized already: precedence (git, now append-only), quote fidelity
+(ledger), estimand presence (identity guards), null discipline (receipt
+guards). What is still prose held by one human: **routing** (which voice
+attacks what, when), **cadence** (when to collect voices, when to stop),
+**authorization** (outward actions), and **direction** (which questions
+matter at all — the reason this file exists). The statement predicts those
+four become mechanizable; the mechanization law says each will be, the day
+its absence causes a measured failure.
+
+`CONTESTED`, by this author: "не так багато часу" — the evidence cuts both
+ways. For: the cost per discovered boundary is falling fast (a new defect
+class now gets named, verified and mechanized within a day). Against: every
+boundary found this week exposed the next one (readback → CAS residency →
+persistence/GC), and the EML calibration datum showed two informed model
+voices failing **in the same direction** — correlated error is precisely
+what a homogeneous fast loop cannot self-correct, and today the diversity
+that breaks the correlation is supplied by the coordinator's routing. The
+boundary-list may converge; the evidence so far shows it lengthening.
