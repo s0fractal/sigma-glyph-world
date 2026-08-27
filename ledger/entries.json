@@ -650,5 +650,88 @@
         "quote": "**FAILS** — max within-seed spread 1255 against an across-seed spread of means of 856.5"
       }
     ]
+  },
+  {
+    "id": "W24",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "CAS-001 C1: under R_update cumulative writes stay linear (<= 12n)",
+    "verdict": "FAILS",
+    "note": "n²+2n+6 under S_out — the reason failed before the number: a CAS address is a function of the whole subtree, so in-place update moves every ancestor's address and write-through must path-copy Θ(n) per contraction",
+    "refs": [
+      {
+        "file": "experiments/world-cas-001/RESULT.md",
+        "quote": "**FAILED** — `n² + 2n + 6` under `S_out`"
+      }
+    ]
+  },
+  {
+    "id": "W25",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "CAS-001 C2: under R_fresh/S_out the store sees exactly the explosion (Θ(2^n))",
+    "verdict": "HOLDS",
+    "note": "exactly 3·2^n+3; EXP-006's 'a store never sees the explosion' is false under write-through — live window 60 vs store 12291",
+    "refs": [
+      {
+        "file": "experiments/world-cas-001/RESULT.md",
+        "quote": "**CONFIRMED** — exactly `3·2^n + 3`"
+      }
+    ]
+  },
+  {
+    "id": "W26",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "CAS-001 C3: ever/live diverges on at least one pair",
+    "verdict": "HOLDS",
+    "note": "on all 12 pairs, worst 291× — and two unpredicted findings: readback writes nothing new anywhere, and a CAS cannot distinguish R_fresh from R_alias in any quantity",
+    "refs": [
+      {
+        "file": "experiments/world-cas-001/RESULT.md",
+        "quote": "**CONFIRMED** — on **all 12** pairs"
+      }
+    ]
+  },
+  {
+    "id": "W27",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-009 K1: on the adversarial family under C-explicit the collapse was the boundary's (within 2x)",
+    "verdict": "HOLDS",
+    "note": "0.88× at e_3 — both machines must hold the same output; Codex's question answered: it was the boundary (h_12: 221× compact vs marginally-worst explicit)",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-009/RESULT.md",
+        "quote": "**CONFIRMED** — 45 against 51, a ratio of 0.88×"
+      }
+    ]
+  },
+  {
+    "id": "W28",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-009 K2: on the compact-sufficient family the advantage is real (>= 10x)",
+    "verdict": "HOLDS",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-009/RESULT.md",
+        "quote": "**CONFIRMED** — 23.7×"
+      }
+    ]
+  },
+  {
+    "id": "W29",
+    "repo": "world",
+    "voice": "claude-fable",
+    "prediction": "EXP-009 K3: time is contract-robust, space is not",
+    "verdict": "FAILS",
+    "note": "inverted on both halves: work ordering flips at 22/25 points, peak ordering on family A identical under both contracts",
+    "refs": [
+      {
+        "file": "experiments/kappa-exp-009/RESULT.md",
+        "quote": "**FAILED — both halves, and inverted.**"
+      }
+    ]
   }
 ]

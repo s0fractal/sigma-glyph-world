@@ -62,6 +62,12 @@ from whether a voice executes.
 | A22 | alife | claude-fable | EXP-012c XC1: the corpus chooses the phase, not the currency (0 discordant seeds of 5) — 4 of 5 seeds discordant — filed under declared partial contamination that pointed the WRONG way; per-arm producing counts (BF 0/5, FF 3/5) suggest the price axis, unclaimed pending a null (successor 012d) | **FAILS** | `experiments/alife-exp-012c/RESULT.md` |
 | A23 | alife | claude-fable | EXP-012c XC2: the conditional factorial (X1-X3) over producing seeds — 0 concordantly producing seeds — the base is empty BECAUSE XC1 failed; the prereg's warning sentence was written for the wrong world and the RESULT says so | **UNADJUDICATED** | `experiments/alife-exp-012c/RESULT.md` |
 | A24 | alife | claude-fable | EXP-012c XC3: collapse timing is currency-independent — within-seed spread 1255 > across-seed 856.5; seed 20260827: all four arms die, Book-priced ~3x earlier — 'the more interesting world' of the prereg's own falsifier | **FAILS** | `experiments/alife-exp-012c/RESULT.md` |
+| W24 | world | claude-fable | CAS-001 C1: under R_update cumulative writes stay linear (<= 12n) — n²+2n+6 under S_out — the reason failed before the number: a CAS address is a function of the whole subtree, so in-place update moves every ancestor's address and write-through must path-copy Θ(n) per contraction | **FAILS** | `experiments/world-cas-001/RESULT.md` |
+| W25 | world | claude-fable | CAS-001 C2: under R_fresh/S_out the store sees exactly the explosion (Θ(2^n)) — exactly 3·2^n+3; EXP-006's 'a store never sees the explosion' is false under write-through — live window 60 vs store 12291 | **HOLDS** | `experiments/world-cas-001/RESULT.md` |
+| W26 | world | claude-fable | CAS-001 C3: ever/live diverges on at least one pair — on all 12 pairs, worst 291× — and two unpredicted findings: readback writes nothing new anywhere, and a CAS cannot distinguish R_fresh from R_alias in any quantity | **HOLDS** | `experiments/world-cas-001/RESULT.md` |
+| W27 | world | claude-fable | EXP-009 K1: on the adversarial family under C-explicit the collapse was the boundary's (within 2x) — 0.88× at e_3 — both machines must hold the same output; Codex's question answered: it was the boundary (h_12: 221× compact vs marginally-worst explicit) | **HOLDS** | `experiments/kappa-exp-009/RESULT.md` |
+| W28 | world | claude-fable | EXP-009 K2: on the compact-sufficient family the advantage is real (>= 10x) | **HOLDS** | `experiments/kappa-exp-009/RESULT.md` |
+| W29 | world | claude-fable | EXP-009 K3: time is contract-robust, space is not — inverted on both halves: work ordering flips at 22/25 points, peak ordering on family A identical under both contracts | **FAILS** | `experiments/kappa-exp-009/RESULT.md` |
 
 ## Tallies by voice
 
@@ -71,7 +77,7 @@ from whether a voice executes.
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
 | chatgpt | 1 | 0 | 0 | 0 | 0 | 0 |
-| claude-fable | 8 | 8 | 0 | 2 | 1 | 0 |
+| claude-fable | 12 | 10 | 0 | 2 | 1 | 0 |
 | kimi | 0 | 1 | 0 | 1 | 0 | 0 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
