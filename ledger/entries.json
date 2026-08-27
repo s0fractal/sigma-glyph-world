@@ -733,5 +733,19 @@
         "quote": "**FAILED — both halves, and inverted.**"
       }
     ]
+  },
+  {
+    "id": "A25",
+    "repo": "alife",
+    "voice": "claude-fable",
+    "prediction": "EXP-012d XD1-XD4 (prospective, fresh seeds): the price axis drives the phase; matter does not; BF lowest; book-priced die earlier",
+    "verdict": "FAILS",
+    "note": "0/4 — XD1 sign reversed (-1 vs >=+8, p=0.77); XD3's BF is the HIGHEST arm on fresh seeds (5/12 after 0/5); XD4 an exact coin flip; XD2 fails on an integer tie at the 95th percentile (scored as written, operationalization defect named). Discordance itself replicated (6/12 seeds) — something reaches the phase and neither preregistered axis is it; the quarantined mechanism stays unpromoted. The 012c pattern was noise, and the prospective design caught it",
+    "refs": [
+      {
+        "file": "experiments/alife-exp-012d/RESULT.md",
+        "quote": "**FAILS**, with the sign reversed"
+      }
+    ]
   }
 ]

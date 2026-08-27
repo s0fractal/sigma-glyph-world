@@ -68,6 +68,7 @@ from whether a voice executes.
 | W27 | world | claude-fable | EXP-009 K1: on the adversarial family under C-explicit the collapse was the boundary's (within 2x) — 0.88× at e_3 — both machines must hold the same output; Codex's question answered: it was the boundary (h_12: 221× compact vs marginally-worst explicit) | **HOLDS** | `experiments/kappa-exp-009/RESULT.md` |
 | W28 | world | claude-fable | EXP-009 K2: on the compact-sufficient family the advantage is real (>= 10x) | **HOLDS** | `experiments/kappa-exp-009/RESULT.md` |
 | W29 | world | claude-fable | EXP-009 K3: time is contract-robust, space is not — inverted on both halves: work ordering flips at 22/25 points, peak ordering on family A identical under both contracts | **FAILS** | `experiments/kappa-exp-009/RESULT.md` |
+| A25 | alife | claude-fable | EXP-012d XD1-XD4 (prospective, fresh seeds): the price axis drives the phase; matter does not; BF lowest; book-priced die earlier — 0/4 — XD1 sign reversed (-1 vs >=+8, p=0.77); XD3's BF is the HIGHEST arm on fresh seeds (5/12 after 0/5); XD4 an exact coin flip; XD2 fails on an integer tie at the 95th percentile (scored as written, operationalization defect named). Discordance itself replicated (6/12 seeds) — something reaches the phase and neither preregistered axis is it; the quarantined mechanism stays unpromoted. The 012c pattern was noise, and the prospective design caught it | **FAILS** | `experiments/alife-exp-012d/RESULT.md` |
 
 ## Tallies by voice
 
@@ -77,7 +78,7 @@ from whether a voice executes.
 | alife-founding-proposal | 0 | 1 | 0 | 0 | 0 | 0 |
 | alife-repository | 4 | 4 | 0 | 2 | 1 | 0 |
 | chatgpt | 1 | 0 | 0 | 0 | 0 | 0 |
-| claude-fable | 12 | 10 | 0 | 2 | 1 | 0 |
+| claude-fable | 12 | 11 | 0 | 2 | 1 | 0 |
 | kimi | 0 | 1 | 0 | 1 | 0 | 0 |
 | world-repository | 2 | 5 | 3 | 0 | 0 | 0 |
 
