@@ -1,3 +1,10 @@
+> **ARCHIVED — 2026-09-17.** A historical research notebook, not a live source.
+> Default context: EXCLUDED. Historical reading is allowed with this status;
+> nothing here is current precedent or a current result about Σ-GLYPH, and
+> re-reading or restoring it is not re-adoption. No replacement. Last active
+> revision: `2dc590461bec`. Normative Σ-GLYPH lives in
+> [`s0fractal/sigma-glyph`](https://github.com/s0fractal/sigma-glyph).
+
 # Σ-GLYPH World
 
 A non-normative research notebook for testing where Σ-GLYPH resource
