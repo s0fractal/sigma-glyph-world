@@ -1,3 +1,7 @@
+> **ARCHIVED — 2026-09-17.** No further contributions. The rules below are kept
+> as the key to reading the status labels in the retained artifacts, not as
+> live instructions.
+
 # Agent and contributor conduct
 
 This is a non-normative research notebook and a consumer of Σ-GLYPH ideas. It
